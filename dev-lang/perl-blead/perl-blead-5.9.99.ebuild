@@ -1,6 +1,6 @@
 # Copyright 1999-2007 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.8.8-r2.ebuild,v 1.34 2007/04/30 21:21:58 solar Exp $
+# $Header: $
 
 inherit eutils flag-o-matic toolchain-funcs multilib
 
@@ -17,7 +17,7 @@ LIBPERL="libperl$(get_libname ${PERLSLOT}.${SHORT_PV})"
 
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd"
+KEYWORDS="alpha amd64 ~arch arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd"
 IUSE="berkdb debug doc gdbm ithreads perlsuid build"
 PERL_OLDVERSEN="5.8.0 5.8.2 5.8.4 5.8.5 5.8.6 5.8.7 5.8.8"
 
@@ -62,8 +62,7 @@ pkg_setup() {
 src_unpack() {
 	mkdir ${S}
 	cd ${S}
-	#rsync -avz rsync://ftp.linux.activestate.com/perl-current/ .
-	rsync -avz /opt/perl/ .
+	rsync -avz rsync://ftp.linux.activestate.com/perl-current/ .
 
 	# Get -lpthread linked before -lc.  This is needed
 	# when using glibc >= 2.3, or else runtime signal
