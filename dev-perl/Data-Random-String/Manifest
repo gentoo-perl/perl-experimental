@@ -1,0 +1,8 @@
+DIST Data-Random-String-0.03.tar.gz 3921 RMD160 b37114ca07cbf8869c71cc01f1a894b3104aaf86 SHA1 a74d3622a0c7e72738fad75c953569aa1783d004 SHA256 803d201d8dd6d2de0b4d3c57c277d03f42c9c8e6138477ecf7d8153a3084c1df
+EBUILD Data-Random-String-0.03.ebuild 468 RMD160 9ccb5ea0c9edfdc268b8d22e2e3449ca0e8bed2c SHA1 771e46c4e67af71d3ba6db03fc333f87bb3e3842 SHA256 9bd3ff7053511c96bc92f90dd8a79a915afce5056c8817ce5148aa67d41d72a4
+MD5 4559bd2c9e49356eb97c848b7ef5261b Data-Random-String-0.03.ebuild 468
+RMD160 9ccb5ea0c9edfdc268b8d22e2e3449ca0e8bed2c Data-Random-String-0.03.ebuild 468
+SHA256 9bd3ff7053511c96bc92f90dd8a79a915afce5056c8817ce5148aa67d41d72a4 Data-Random-String-0.03.ebuild 468
+MD5 13efc0b57e6c111ff501750a861e7a9c files/digest-Data-Random-String-0.03 265
+RMD160 a2aeed4a79380c9db45a6e955ae23c04e269f0b2 files/digest-Data-Random-String-0.03 265
+SHA256 8bdec93e3becf0154b9b31aad722bfa987d41eca672b1b0719d541edb7e020ae files/digest-Data-Random-String-0.03 265
