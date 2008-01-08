@@ -1,0 +1,8 @@
+DIST DBIx-Class-Cursor-Cached-1.0.1.tar.gz 19213 RMD160 28f25930fb85b6c2939bea68cbc3059b3e2533c4 SHA1 1d1cd2799fc23ee8734b283194bfa4d9ec3ae8f1 SHA256 d8125b75fe8db8262c72b8d1bbd30e90d6c73ca11ef8c31b2b629ac1db84672c
+EBUILD DBIx-Class-Cursor-Cached-1.0.1.ebuild 552 RMD160 35701964e4f8ea8f515cb4fd641a95b878906621 SHA1 f011967f9924fbff3a7017faed275070c273dfa8 SHA256 c9c0398da36191d8bce482c9afbced65b43c1c79f8c8be23583a10ecef8d3cfa
+MD5 cb6a3dff2cceb27f9575cb6f580739be DBIx-Class-Cursor-Cached-1.0.1.ebuild 552
+RMD160 35701964e4f8ea8f515cb4fd641a95b878906621 DBIx-Class-Cursor-Cached-1.0.1.ebuild 552
+SHA256 c9c0398da36191d8bce482c9afbced65b43c1c79f8c8be23583a10ecef8d3cfa DBIx-Class-Cursor-Cached-1.0.1.ebuild 552
+MD5 40509bdf34d9da2d4acdeaf2e5835f78 files/digest-DBIx-Class-Cursor-Cached-1.0.1 289
+RMD160 64ffe7f18624bfae0daba829f7adbf1a51c26a8b files/digest-DBIx-Class-Cursor-Cached-1.0.1 289
+SHA256 c85e0228e97994572a521cc6a0455577a3e4a2f1f1a2a1d491d56ea39d48ee07 files/digest-DBIx-Class-Cursor-Cached-1.0.1 289

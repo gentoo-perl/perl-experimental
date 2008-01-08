@@ -1,0 +1,24 @@
+DIST Catalyst-Plugin-Session-State-URI-0.05.tar.gz 9770 RMD160 8008dbf117153b523a111e44ddb65bccf0b76489 SHA1 7fb7f6f9adb6398e6c3b055562e3f72c004fada3 SHA256 718ecda1599a9fe74b394e08b641a11000766df6b8137734c90dc9e95825f8ee
+DIST Catalyst-Plugin-Session-State-URI-0.06.tar.gz 11009 RMD160 2f0cf728a4e4623ffa773696f8274be4280bc3eb SHA1 6686a3093432d495b1338b5064fa570108d96d5c SHA256 fbfc141929b69d1acf87e1398c1db801c2133772318136aa7c12befee7819587
+DIST Catalyst-Plugin-Session-State-URI-0.07.tar.gz 12452 RMD160 3ef61a626b5f8cd6a15211b70e4d16dfdf17a24d SHA1 73616a0a1fed56ef27754b6ac73900cc2e1a0dac SHA256 249dbf4f432ac6d7dcf51dfcbcc59478ba887d04ebaa30bde720bdcc81636597
+EBUILD Catalyst-Plugin-Session-State-URI-0.05.ebuild 679 RMD160 bb7fbadcbd526a5dd32b73d8cd7244e4ca372b4a SHA1 e4516cf9788059eecdc957b02140dd296d11647c SHA256 72ed592b6f174e6126823d34ce89c3a9bb0a1994987b4fdc87a4d78ed2b82405
+MD5 eab798c902dd8c74f319f3aac5f09d59 Catalyst-Plugin-Session-State-URI-0.05.ebuild 679
+RMD160 bb7fbadcbd526a5dd32b73d8cd7244e4ca372b4a Catalyst-Plugin-Session-State-URI-0.05.ebuild 679
+SHA256 72ed592b6f174e6126823d34ce89c3a9bb0a1994987b4fdc87a4d78ed2b82405 Catalyst-Plugin-Session-State-URI-0.05.ebuild 679
+EBUILD Catalyst-Plugin-Session-State-URI-0.06.ebuild 698 RMD160 ce323a39d727e6fbb9d52f792cea1541b35024c7 SHA1 79b16b9e0ceae1622bf927311c854c7d58c62bad SHA256 90cfc40dd9896403ddd9cad3e80726515981913f5adf3afff3cab965cfd4bdc6
+MD5 a9ca53e7b50b99e4efa140f230786654 Catalyst-Plugin-Session-State-URI-0.06.ebuild 698
+RMD160 ce323a39d727e6fbb9d52f792cea1541b35024c7 Catalyst-Plugin-Session-State-URI-0.06.ebuild 698
+SHA256 90cfc40dd9896403ddd9cad3e80726515981913f5adf3afff3cab965cfd4bdc6 Catalyst-Plugin-Session-State-URI-0.06.ebuild 698
+EBUILD Catalyst-Plugin-Session-State-URI-0.07.ebuild 698 RMD160 ce323a39d727e6fbb9d52f792cea1541b35024c7 SHA1 79b16b9e0ceae1622bf927311c854c7d58c62bad SHA256 90cfc40dd9896403ddd9cad3e80726515981913f5adf3afff3cab965cfd4bdc6
+MD5 a9ca53e7b50b99e4efa140f230786654 Catalyst-Plugin-Session-State-URI-0.07.ebuild 698
+RMD160 ce323a39d727e6fbb9d52f792cea1541b35024c7 Catalyst-Plugin-Session-State-URI-0.07.ebuild 698
+SHA256 90cfc40dd9896403ddd9cad3e80726515981913f5adf3afff3cab965cfd4bdc6 Catalyst-Plugin-Session-State-URI-0.07.ebuild 698
+MD5 2c659a640e4b2f213c53a6591bfd5507 files/digest-Catalyst-Plugin-Session-State-URI-0.05 310
+RMD160 ba50d708c656f81d77db235b04b99491f8daa291 files/digest-Catalyst-Plugin-Session-State-URI-0.05 310
+SHA256 2d27f8f944e38a84c58483de42c1c34797fe30912f883752c7efd3834270037c files/digest-Catalyst-Plugin-Session-State-URI-0.05 310
+MD5 aabbb9a0d15739aaa103bdd0a0839f98 files/digest-Catalyst-Plugin-Session-State-URI-0.06 313
+RMD160 a3a71b88582990867d77a8905933f550abc24c27 files/digest-Catalyst-Plugin-Session-State-URI-0.06 313
+SHA256 7f8c8c90759c616d5749f0e6b6bd2458d63ce9ce528d2df853b89b10d5099e81 files/digest-Catalyst-Plugin-Session-State-URI-0.06 313
+MD5 1d0ade24959e84f2ca3029d64a45347f files/digest-Catalyst-Plugin-Session-State-URI-0.07 313
+RMD160 7f186e594fb7ecd7940c36ac7719512aad0f8476 files/digest-Catalyst-Plugin-Session-State-URI-0.07 313
+SHA256 db960d3a9614f3060239918f3d0d6317aae2eb4f204417706dc4c09c8b7565fb files/digest-Catalyst-Plugin-Session-State-URI-0.07 313

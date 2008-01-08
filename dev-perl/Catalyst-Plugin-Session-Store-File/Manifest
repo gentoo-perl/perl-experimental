@@ -1,0 +1,24 @@
+DIST Catalyst-Plugin-Session-Store-File-0.07.tar.gz 4060 RMD160 641529643c21fe9061ae588c8678d0e7a1be1d87 SHA1 1de9359dce912b05de875ca9ea44aa8ac16340d4 SHA256 288697f9b5ab814c7c07838f9d562836ddce87fc51ea5a6c910b04064bafda0d
+DIST Catalyst-Plugin-Session-Store-File-0.09.tar.gz 4187 RMD160 e2ac9228004d1edfeed32750ab35752253ba56f7 SHA1 0ed4844b6062bec282961a8f7ac100ab7f45fb16 SHA256 cdbc91da71797b894523acf50e7d002d2f330e82e04e31743362a3746c64bd62
+DIST Catalyst-Plugin-Session-Store-File-0.10.tar.gz 4366 RMD160 80d708d091ed060090158e4bbe0e14edb3667bbc SHA1 b69d8cc87e3bfb4f5d8d6abaeb0d3aa30ce92e4e SHA256 1405b50a8dd53d25521a2523a4f09a9851a719d8ba166269336e9f83f011ee9a
+EBUILD Catalyst-Plugin-Session-Store-File-0.07.ebuild 617 RMD160 2c84d8b942866977b57c89ca5ea3827650eef832 SHA1 c99675dd9e3e7c88c3012531a0df829e82cb08d5 SHA256 b9bb990f2e0e853a575162601fd35be66f97ff7fe493099890e33a7661f06938
+MD5 4c1f260a4703831c8a503337fa77c0f2 Catalyst-Plugin-Session-Store-File-0.07.ebuild 617
+RMD160 2c84d8b942866977b57c89ca5ea3827650eef832 Catalyst-Plugin-Session-Store-File-0.07.ebuild 617
+SHA256 b9bb990f2e0e853a575162601fd35be66f97ff7fe493099890e33a7661f06938 Catalyst-Plugin-Session-Store-File-0.07.ebuild 617
+EBUILD Catalyst-Plugin-Session-Store-File-0.09.ebuild 665 RMD160 9a4cf70cd2bb63649c61a6883e11599faef82699 SHA1 076b19cc0a8b4efbbb00b464eaeed4ef63db2de4 SHA256 33b51855c5562d24ab1196f718b60d9a3582bb63d9df0a0be941b9ad44098b4e
+MD5 de25f7d98cda5b24a172c26cab078e41 Catalyst-Plugin-Session-Store-File-0.09.ebuild 665
+RMD160 9a4cf70cd2bb63649c61a6883e11599faef82699 Catalyst-Plugin-Session-Store-File-0.09.ebuild 665
+SHA256 33b51855c5562d24ab1196f718b60d9a3582bb63d9df0a0be941b9ad44098b4e Catalyst-Plugin-Session-Store-File-0.09.ebuild 665
+EBUILD Catalyst-Plugin-Session-Store-File-0.10.ebuild 665 RMD160 9a4cf70cd2bb63649c61a6883e11599faef82699 SHA1 076b19cc0a8b4efbbb00b464eaeed4ef63db2de4 SHA256 33b51855c5562d24ab1196f718b60d9a3582bb63d9df0a0be941b9ad44098b4e
+MD5 de25f7d98cda5b24a172c26cab078e41 Catalyst-Plugin-Session-Store-File-0.10.ebuild 665
+RMD160 9a4cf70cd2bb63649c61a6883e11599faef82699 Catalyst-Plugin-Session-Store-File-0.10.ebuild 665
+SHA256 33b51855c5562d24ab1196f718b60d9a3582bb63d9df0a0be941b9ad44098b4e Catalyst-Plugin-Session-Store-File-0.10.ebuild 665
+MD5 8b4fc9f8b64fde6448246a551be80820 files/digest-Catalyst-Plugin-Session-Store-File-0.07 313
+RMD160 7fd1d4e275113eafc8a383f22de28d2f8bcbf742 files/digest-Catalyst-Plugin-Session-Store-File-0.07 313
+SHA256 50be9394d980d789c30c7c1a630472f82c0fd3c610fab0f22f50c15b5b919b8c files/digest-Catalyst-Plugin-Session-Store-File-0.07 313
+MD5 01f3392c070366d9d2eebd3447b35660 files/digest-Catalyst-Plugin-Session-Store-File-0.09 224
+RMD160 1f0c4dea73b644b8a2e8e387fd787ad2c460bd0b files/digest-Catalyst-Plugin-Session-Store-File-0.09 224
+SHA256 f047d3a87ea9ecf84e34443b58aef2b389ddd1a30ca87d2f83b7d4111d2fbc2e files/digest-Catalyst-Plugin-Session-Store-File-0.09 224
+MD5 6273f0de14defe7eaa9f12c2886930f1 files/digest-Catalyst-Plugin-Session-Store-File-0.10 313
+RMD160 ed7c96558dcce9f0f47c401fc762edd4c22bd9d5 files/digest-Catalyst-Plugin-Session-Store-File-0.10 313
+SHA256 52a2b98528fd410ba0540029cc13dd8a4c014b330077e1e95ee77cd13d27457e files/digest-Catalyst-Plugin-Session-Store-File-0.10 313

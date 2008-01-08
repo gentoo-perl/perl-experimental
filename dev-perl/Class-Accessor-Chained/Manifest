@@ -1,0 +1,8 @@
+DIST Class-Accessor-Chained-0.01.tar.gz 2322 RMD160 8b0363acde31f0f4d42f6ecc9bc3cb4e8c516c37 SHA1 dd90a490e68b3f0906fb2a4aeff3213f9e669645 SHA256 a5bf49d3804f83ad25a1b16f327d14d4cbee2270132104b28705031dbccc34d2
+EBUILD Class-Accessor-Chained-0.01.ebuild 496 RMD160 e3a3f1576d3ffc7c33e148eb35d0d1f5f64a5a7d SHA1 9818765bbc381381dac975ea97d7de11f901184b SHA256 6d8d3c473930c1d6fe7fe5dcf63a2f80ee5ac5ca674c8229c6f20521c0ea13b1
+MD5 324bde79ccf4d7dcc9af944c4fef532a Class-Accessor-Chained-0.01.ebuild 496
+RMD160 e3a3f1576d3ffc7c33e148eb35d0d1f5f64a5a7d Class-Accessor-Chained-0.01.ebuild 496
+SHA256 6d8d3c473930c1d6fe7fe5dcf63a2f80ee5ac5ca674c8229c6f20521c0ea13b1 Class-Accessor-Chained-0.01.ebuild 496
+MD5 7b880e3244d9e3f4d077559fca681845 files/digest-Class-Accessor-Chained-0.01 277
+RMD160 6bf960a6b1129d910ed7e243aafe7ec9c43c33af files/digest-Class-Accessor-Chained-0.01 277
+SHA256 9b7d9ae8b3ff723d08d6aff2d0fc4be7a783c316b8f65074f17ef50db66f66ab files/digest-Class-Accessor-Chained-0.01 277

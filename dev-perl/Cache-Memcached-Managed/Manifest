@@ -1,0 +1,15 @@
+DIST Cache-Memcached-Managed-0.19.tar.gz 39768 RMD160 dda1644c5a3e01b3c896d55372df5ce6e66104c0 SHA1 c82f888e80a64d94775dda65710ce28b139777bb SHA256 2726c2d7d06ffe4da77c668ae9b189e28ad39ac65ca127f656b05bbe46d89a67
+EBUILD Cache-Memcached-Managed-0.19-r1.ebuild 523 RMD160 a9808f72097b503c98b22a2e28dea93d79fd5f0e SHA1 05e0263380142780024dc49aaded3e3b88f07711 SHA256 70f4797ae4f058f773a9d4b1cdc5184c077b3038cbc9309314aae33fce17ba28
+MD5 7a9d7bcee28a123510443fed7b6fa524 Cache-Memcached-Managed-0.19-r1.ebuild 523
+RMD160 a9808f72097b503c98b22a2e28dea93d79fd5f0e Cache-Memcached-Managed-0.19-r1.ebuild 523
+SHA256 70f4797ae4f058f773a9d4b1cdc5184c077b3038cbc9309314aae33fce17ba28 Cache-Memcached-Managed-0.19-r1.ebuild 523
+EBUILD Cache-Memcached-Managed-0.19.ebuild 503 RMD160 a2818a6d29b37d9e4e8a7067a7a5c305893c47ed SHA1 a9404632406aa8233e217c9940f4b6111c3c7b4b SHA256 be1612e4225384f9c80f4a8fc9903c92b55896ea21654394bf3dca6a08bd030e
+MD5 6c7e849993965fb1753398d99767be71 Cache-Memcached-Managed-0.19.ebuild 503
+RMD160 a2818a6d29b37d9e4e8a7067a7a5c305893c47ed Cache-Memcached-Managed-0.19.ebuild 503
+SHA256 be1612e4225384f9c80f4a8fc9903c92b55896ea21654394bf3dca6a08bd030e Cache-Memcached-Managed-0.19.ebuild 503
+MD5 769a7cb1596ba0fcbe7d311c9ba4a14a files/digest-Cache-Memcached-Managed-0.19 283
+RMD160 5c8588480ab4d1b3969cbc0722c36e467c8a5b20 files/digest-Cache-Memcached-Managed-0.19 283
+SHA256 c4cabb9860634a57a1b63e6b9d78cfada591acae64e1b50537673aead136ac97 files/digest-Cache-Memcached-Managed-0.19 283
+MD5 769a7cb1596ba0fcbe7d311c9ba4a14a files/digest-Cache-Memcached-Managed-0.19-r1 283
+RMD160 5c8588480ab4d1b3969cbc0722c36e467c8a5b20 files/digest-Cache-Memcached-Managed-0.19-r1 283
+SHA256 c4cabb9860634a57a1b63e6b9d78cfada591acae64e1b50537673aead136ac97 files/digest-Cache-Memcached-Managed-0.19-r1 283

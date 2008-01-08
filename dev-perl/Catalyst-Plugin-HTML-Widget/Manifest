@@ -1,0 +1,8 @@
+DIST Catalyst-Plugin-HTML-Widget-1.1.tar.gz 18078 RMD160 8b7a66b5e772e02a3d45e6e124d6dd8f6ad1d6f8 SHA1 5ea382a7ebce0f3597003390242e3f0700253580 SHA256 b4a4873162f515ec7cead6272533fc347c34711d138cc4c5e46b63fa2b74feff
+EBUILD Catalyst-Plugin-HTML-Widget-1.1.ebuild 494 RMD160 9f9a4d3ea47ee76b268f53779aa8720ac6366e10 SHA1 d26f676e8f956cced37fb84ac2cbf96f12af86e3 SHA256 4e5bec83521c07d7b43fe0f4cd6dee106b475cea40d626daec1f413644758f83
+MD5 c0d8ea4c703be7c5b6605e0cfc2d2a39 Catalyst-Plugin-HTML-Widget-1.1.ebuild 494
+RMD160 9f9a4d3ea47ee76b268f53779aa8720ac6366e10 Catalyst-Plugin-HTML-Widget-1.1.ebuild 494
+SHA256 4e5bec83521c07d7b43fe0f4cd6dee106b475cea40d626daec1f413644758f83 Catalyst-Plugin-HTML-Widget-1.1.ebuild 494
+MD5 d2f90ee0819786058315bd6dfd20d068 files/digest-Catalyst-Plugin-HTML-Widget-1.1 292
+RMD160 85a87605e8c5fe6276251bedc79de5f3d9da8823 files/digest-Catalyst-Plugin-HTML-Widget-1.1 292
+SHA256 19a0e63435cd3dc99c3fa4dc580357988ebed13139e39fbdb521e6535cacd029 files/digest-Catalyst-Plugin-HTML-Widget-1.1 292

@@ -1,0 +1,8 @@
+DIST Catalyst-Plugin-Message-0.03.tar.gz 3252 RMD160 184ac1ab173c1d12c2155a6e48ab06acf3931e41 SHA1 42deabfa02fe2cf7daec9d471ed52dc11c882ac1 SHA256 0a58f1eb5d980b09ecbd31b1f314975d72e86500a69f645bd5d00e109a864482
+EBUILD Catalyst-Plugin-Message-0.03.ebuild 489 RMD160 7ef4f57b4d4029e9ada437a7c283a20b0bd53947 SHA1 f05ffdc846d3eca33820e70140d0050c4df9c359 SHA256 98622212a8e9d5e775bb2dad7da11179f6657413660b5a1c23f2b35b3edc1f00
+MD5 caced742444b9b2a7b7061a4a0bc31b5 Catalyst-Plugin-Message-0.03.ebuild 489
+RMD160 7ef4f57b4d4029e9ada437a7c283a20b0bd53947 Catalyst-Plugin-Message-0.03.ebuild 489
+SHA256 98622212a8e9d5e775bb2dad7da11179f6657413660b5a1c23f2b35b3edc1f00 Catalyst-Plugin-Message-0.03.ebuild 489
+MD5 ed4ca71cb16cd3c408dad9a6b278e08e files/digest-Catalyst-Plugin-Message-0.03 280
+RMD160 77603d64d5401040071651e2405897d0b6d8b100 files/digest-Catalyst-Plugin-Message-0.03 280
+SHA256 0eb7ca965ccce23da6a18ccefc6d821c0610e507e9e2a08f91d0ffd9649be79f files/digest-Catalyst-Plugin-Message-0.03 280

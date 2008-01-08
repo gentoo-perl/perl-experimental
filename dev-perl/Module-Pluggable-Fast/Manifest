@@ -1,0 +1,8 @@
+DIST Module-Pluggable-Fast-0.18.tar.gz 3936 RMD160 4a1a112a4c3aa6b02d6ffa4485e7d8d1e0d5be18 SHA1 ea5c33abd0160a892ed4847e1fdd0192d12e4332 SHA256 999beb1ae91a726301184d11e758fb90e3b39d9a2bb77005cb5935d143180c90
+EBUILD Module-Pluggable-Fast-0.18.ebuild 480 RMD160 8fa2331b03032be80db82c36ba16a327c4407e32 SHA1 e88f622dc6b726654a62bfed0e922275ce5589da SHA256 00967addb6b9b0f93a4203a2a7aadd6010f91d1ecec9b0f76a2bda52b98c3fd1
+MD5 cf0a4f3401f37ce65808a123f371816f Module-Pluggable-Fast-0.18.ebuild 480
+RMD160 8fa2331b03032be80db82c36ba16a327c4407e32 Module-Pluggable-Fast-0.18.ebuild 480
+SHA256 00967addb6b9b0f93a4203a2a7aadd6010f91d1ecec9b0f76a2bda52b98c3fd1 Module-Pluggable-Fast-0.18.ebuild 480
+MD5 180d949621c4ab9c840de4e5ff6ebf92 files/digest-Module-Pluggable-Fast-0.18 274
+RMD160 09950f5b6c0280be517f455c336b29846a8436d5 files/digest-Module-Pluggable-Fast-0.18 274
+SHA256 9591a100f705f0c461fef82b8d840bf2f67fb47d817570fb02829a2cb7a26f6a files/digest-Module-Pluggable-Fast-0.18 274

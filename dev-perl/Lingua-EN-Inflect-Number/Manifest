@@ -1,0 +1,8 @@
+DIST Lingua-EN-Inflect-Number-1.1.tar.gz 3003 RMD160 209a37eb063bae1dd83bf2c0d7956f667728af64 SHA1 487c96224aec62f02c182c143f2e9c429a0bc733 SHA256 def119f9f1c2eea66240d03beaf75611d1989e9d56a3c3584d8da59b75c8148e
+EBUILD Lingua-EN-Inflect-Number-1.1.ebuild 498 RMD160 06b3675c15c2ea7ef22c64e716bc01bccdc8a307 SHA1 63873304e594b8d5551170142329eb9259237545 SHA256 dc3ca2be2496e11c61ae4d80b896bbe6c4d2637710edb707a6d6225ba5143ef4
+MD5 4f2fc4fac5ef023fe4abe9e14b6ae74b Lingua-EN-Inflect-Number-1.1.ebuild 498
+RMD160 06b3675c15c2ea7ef22c64e716bc01bccdc8a307 Lingua-EN-Inflect-Number-1.1.ebuild 498
+SHA256 dc3ca2be2496e11c61ae4d80b896bbe6c4d2637710edb707a6d6225ba5143ef4 Lingua-EN-Inflect-Number-1.1.ebuild 498
+MD5 3561e8ab19d905e52257b2aa4cd9d054 files/digest-Lingua-EN-Inflect-Number-1.1 280
+RMD160 d57fdedfa660e83601f700fda18defd7c280a84b files/digest-Lingua-EN-Inflect-Number-1.1 280
+SHA256 4197d11cdb72088b3a677addcb1e5590eb8a7cd160bde4f3e745df0663c5a1ab files/digest-Lingua-EN-Inflect-Number-1.1 280

@@ -1,0 +1,8 @@
+DIST Catalyst-Authentication-Store-DBIx-Class-0.101.tar.gz 32179 RMD160 e403b592354c442e5eb15db84da36656eab60461 SHA1 304b1259ab21c248bd25de41996711d2fd31a682 SHA256 a2c02bed99dc58aeabd5717a909b381785b1e68ee244d8209709538dd9db0517
+EBUILD Catalyst-Authentication-Store-DBIx-Class-0.101.ebuild 576 RMD160 11d7cb29705c44215000fd1f79546069982d180d SHA1 0dfbf348ce72e1cf6ba9b58ad52c0df126f2c77e SHA256 df37e8e89cd940a0b2fe0fba591a2d9f4e01dfbb8501554620a5b4dcbd12e1ab
+MD5 6d16831d426de9da83c7334813b1068a Catalyst-Authentication-Store-DBIx-Class-0.101.ebuild 576
+RMD160 11d7cb29705c44215000fd1f79546069982d180d Catalyst-Authentication-Store-DBIx-Class-0.101.ebuild 576
+SHA256 df37e8e89cd940a0b2fe0fba591a2d9f4e01dfbb8501554620a5b4dcbd12e1ab Catalyst-Authentication-Store-DBIx-Class-0.101.ebuild 576
+MD5 ee12b61926c510a47ff670f995f103bd files/digest-Catalyst-Authentication-Store-DBIx-Class-0.101 337
+RMD160 a9f69579a97c147152d9dd06d1882321a7865efd files/digest-Catalyst-Authentication-Store-DBIx-Class-0.101 337
+SHA256 7ee0f3a630138ba2419f9a0bcad340de4c07d1f2580bf7f7ae87fc3cf4da6cc0 files/digest-Catalyst-Authentication-Store-DBIx-Class-0.101 337

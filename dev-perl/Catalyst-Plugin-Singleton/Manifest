@@ -1,0 +1,8 @@
+DIST Catalyst-Plugin-Singleton-0.02.tar.gz 2127 RMD160 59ba656d6f43bc5cd61b1ef1f5bc3b47c7a44a89 SHA1 b6cac4fc29d73504aaccba40449e2ff32afac7e9 SHA256 ff5119bd6cb66fada0d0f858588cf9e7dbb0871fc0b0e7c92734613c84d94c66
+EBUILD Catalyst-Plugin-Singleton-0.02.ebuild 484 RMD160 198fd2ce6ae37987e5ccab25e7094f7323ef7227 SHA1 8f288371745f6106acbd0d82d5e1f627c6c4a15c SHA256 7fc6683f3db24b3242425b4d9f8ef3afd8841018bc9cfe62da5fa17cafe752a8
+MD5 e47730938c4fd6f384a66afbaeadb3fe Catalyst-Plugin-Singleton-0.02.ebuild 484
+RMD160 198fd2ce6ae37987e5ccab25e7094f7323ef7227 Catalyst-Plugin-Singleton-0.02.ebuild 484
+SHA256 7fc6683f3db24b3242425b4d9f8ef3afd8841018bc9cfe62da5fa17cafe752a8 Catalyst-Plugin-Singleton-0.02.ebuild 484
+MD5 5374a84d92dc66329194eb11968afcf3 files/digest-Catalyst-Plugin-Singleton-0.02 286
+RMD160 d3d57f6a1eda4bf05eab94e02d9e9337f13c00b5 files/digest-Catalyst-Plugin-Singleton-0.02 286
+SHA256 f968e72a910d2d0d769d0e2cceaeb7d43dd148fb67bbee832ae13896c8c097e5 files/digest-Catalyst-Plugin-Singleton-0.02 286

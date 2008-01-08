@@ -1,0 +1,8 @@
+DIST Catalyst-Plugin-Cache-Memcached-0.71.tar.gz 18256 RMD160 c88b908857c7d35a0d0e1c3f4a181e4efd6674af SHA1 8f0bdd0565bc36b19c282546bb53306df8498c2f SHA256 9f9cb3f2865e8feceb40c66ad007fc21b21ca45d34cecdab847a12800a0d4a37
+EBUILD Catalyst-Plugin-Cache-Memcached-0.71.ebuild 510 RMD160 33f4f552457e2c1f35e96849051c4063607b8bed SHA1 356db842812bdafc150281b21f65452765999bf7 SHA256 7593a4d785d4f2b19f605a124826617b2cb128b4a751ad26a2931e1639aa227f
+MD5 db3f2aac05b88e7fade01f4b0e36b08b Catalyst-Plugin-Cache-Memcached-0.71.ebuild 510
+RMD160 33f4f552457e2c1f35e96849051c4063607b8bed Catalyst-Plugin-Cache-Memcached-0.71.ebuild 510
+SHA256 7593a4d785d4f2b19f605a124826617b2cb128b4a751ad26a2931e1639aa227f Catalyst-Plugin-Cache-Memcached-0.71.ebuild 510
+MD5 cd5248f39ad9d744da5dee87153858bb files/digest-Catalyst-Plugin-Cache-Memcached-0.71 307
+RMD160 6c3538e9e9f9678ee0c0961c466fed6f9733e7e0 files/digest-Catalyst-Plugin-Cache-Memcached-0.71 307
+SHA256 475f26b74386e68d0315dcf6b40822c5014d3f48f1350eb74a40a0bc7b4ba947 files/digest-Catalyst-Plugin-Cache-Memcached-0.71 307
