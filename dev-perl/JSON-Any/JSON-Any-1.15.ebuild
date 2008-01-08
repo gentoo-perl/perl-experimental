@@ -13,8 +13,10 @@ SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
 RESTRICT="nomirror"
 
-IUSE=""
+IUSE="json-xs json-syck"
 DEPEND="
-	dev-perl/JSON-XS
+	>=dev-perl/JSON-2.02
+	json-xs? (>=dev-perl/JSON-XS-2.01)
+	json-syck? (dev-perl/YAML-Syck)
 "
 
