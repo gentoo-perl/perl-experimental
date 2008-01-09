@@ -13,10 +13,10 @@ SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
 RESTRICT="nomirror"
 
-IUSE=""
+IUSE="catalystframework"
 
 DEPEND="
-	>=dev-perl/DBIx-Class-0.08002
+	>=dev-perl/DBIx-Class-0.08008
 	>=dev-perl/DBIx-Class-UUIDColumns-0.02000
 	>=dev-perl/DBIx-Class-Validation-0.02000
 	>=dev-perl/Data-Currency-0.04002
@@ -35,4 +35,14 @@ DEPEND="
 	>=dev-perl/Finance-Currency-Convert-WebserviceX-0.03
 	>=dev-perl/SQL-Translator-0.08
 	dev-perl/DBD-SQLite
+	catalystframework? (
+		>=dev-perl/Catalyst-Runtime-5.7007
+		>=dev-perl/Catalyst-Devel-1.02
+		dev-perl/Catalyst-View-TT
+		dev-perl/yaml
+		dev-perl/HTML-FillInForm
+	)
 "
+
+	#>=dev-perl/Clone-0.28
+		#>=dev-perl/yaml-0.65

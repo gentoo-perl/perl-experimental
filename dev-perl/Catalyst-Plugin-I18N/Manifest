@@ -12,6 +12,10 @@ EBUILD Catalyst-Plugin-I18N-0.06.ebuild 537 RMD160 95940a79cc20ff1d1064ccbd30bbb
 MD5 18de2ba3553a0e82ef32e3e6c3fbb6c9 Catalyst-Plugin-I18N-0.06.ebuild 537
 RMD160 95940a79cc20ff1d1064ccbd30bbb7eaed501725 Catalyst-Plugin-I18N-0.06.ebuild 537
 SHA256 957a7d67e8ae54d1342d0afc3aaf6b2dc792bf9e86840db62e14e3f6f03a511e Catalyst-Plugin-I18N-0.06.ebuild 537
+MISC metadata.xml 275 RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba SHA1 eec2dc0c033c1c722ba174b9831d93f9f1ee6327 SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c
+MD5 ca3221c22cd7a176ebe1478cf75885cb metadata.xml 275
+RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba metadata.xml 275
+SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c metadata.xml 275
 MD5 8a127655d8f06e7729acf651f89abe41 files/digest-Catalyst-Plugin-I18N-0.05 271
 RMD160 ad6ff364fa986a1ad3963311ca0dd1cd5cee7f24 files/digest-Catalyst-Plugin-I18N-0.05 271
 SHA256 d5b50ca5f017deab3eac4725f8ea7a2a7e33d72f2eb95dc70c4fcf92ab82aace files/digest-Catalyst-Plugin-I18N-0.05 271
