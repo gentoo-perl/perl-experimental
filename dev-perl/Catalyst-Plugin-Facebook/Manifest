@@ -1,0 +1,8 @@
+DIST Catalyst-Plugin-Facebook-0.1.tar.gz 2666 RMD160 f7368ca507e8d66ad0f0a7241280651cb0a69327 SHA1 b1cf8a35d2471edd5f384d901d33f9e8f3c5f674 SHA256 28544a839464bcc4eb302235066280e169293581df4261b5338e4fc2dbb0b86b
+EBUILD Catalyst-Plugin-Facebook-0.1.ebuild 611 RMD160 ccad3ab62f4dec11df4083d0b3ee21ea6ce67221 SHA1 72a38062d1cf63309e7cae4381328486803ee4c1 SHA256 ab4b40c31253aebdee8592418b0d0ee8004f7dd30a0466d908ed6fb7792694ec
+MD5 e0ce193b583254bb3e4a8d2c7b0f9cac Catalyst-Plugin-Facebook-0.1.ebuild 611
+RMD160 ccad3ab62f4dec11df4083d0b3ee21ea6ce67221 Catalyst-Plugin-Facebook-0.1.ebuild 611
+SHA256 ab4b40c31253aebdee8592418b0d0ee8004f7dd30a0466d908ed6fb7792694ec Catalyst-Plugin-Facebook-0.1.ebuild 611
+MD5 44e47c1f2a79896f2da5392e5e5d6403 files/digest-Catalyst-Plugin-Facebook-0.1 280
+RMD160 5996be88e6499491744e7b31d23219378f528d27 files/digest-Catalyst-Plugin-Facebook-0.1 280
+SHA256 dc3ca31ae6793ef6d8d212b7449d1e938c0b3aa8e202000198f99ea509fde595 files/digest-Catalyst-Plugin-Facebook-0.1 280
