@@ -4,17 +4,21 @@
 
 inherit perl-module
 
-DESCRIPTION="JSON View Class"
+DESCRIPTION="File storage backend for session data"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/K/KA/KARMAN/${P}.tar.gz"
 RESTRICT="nomirror"
-LICENSE="|| ( Artistic GPL-2 )"
-
-SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
 
 IUSE=""
+
+SLOT="0"
+LICENSE="|| ( Artistic GPL-2 )"
+KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
+
 DEPEND="
+	>=dev-perl/Class-Data-Inheritable-0.04
+	>=dev-perl/Class-Accessor-0.22
 	dev-perl/Catalyst-Runtime
-	dev-perl/JSON-Any
+	>=dev-perl/Catalyst-Plugin-Session-0.01
+	>=dev-perl/Cache-Cache-1.02
 "

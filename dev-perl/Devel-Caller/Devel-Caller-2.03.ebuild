@@ -15,6 +15,5 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
 	>=dev-perl/PadWalker-0.08
 "

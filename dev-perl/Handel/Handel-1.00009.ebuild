@@ -16,7 +16,7 @@ RESTRICT="nomirror"
 IUSE="catalystframework"
 
 DEPEND="
-	>=dev-perl/DBIx-Class-0.08002
+	>=dev-perl/DBIx-Class-0.08008
 	>=dev-perl/DBIx-Class-UUIDColumns-0.02000
 	>=dev-perl/DBIx-Class-Validation-0.02000
 	>=dev-perl/Data-Currency-0.04002

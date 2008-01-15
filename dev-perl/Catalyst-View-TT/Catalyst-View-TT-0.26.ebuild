@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Schedule events to run in a cron-like fashion"
+DESCRIPTION="Template View Class"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/A/AG/AGRUNDMA/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/M/MR/MRAMBERG/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -14,8 +14,10 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 RESTRICT="nomirror"
 
 IUSE=""
-DEPEND="dev-perl/module-build
+DEPEND="
 	dev-perl/Catalyst-Runtime
-	dev-perl/DateTime-Event-Cron
-	dev-perl/Set-Scalar
-	dev-perl/yaml"
+	dev-perl/Template-Toolkit
+	dev-perl/Class-Accessor
+	dev-perl/Template-Timer
+	dev-perl/Path-Class
+"

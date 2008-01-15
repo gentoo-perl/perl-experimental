@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Template View Class"
+DESCRIPTION="A visitor for Perl data structures"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/S/SR/SRI/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/N/NU/NUFFIN/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -15,7 +15,8 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	dev-perl/Catalyst-Runtime
-	dev-perl/Template-Toolkit
-	dev-perl/Template-Timer
-	dev-perl/Path-Class"
+	>=dev-perl/Test-MockObject-1.04
+	dev-perl/Test-use-ok
+	dev-perl/Class-Accessor
+	>=dev-perl/Tie-ToObject-0.01
+"
