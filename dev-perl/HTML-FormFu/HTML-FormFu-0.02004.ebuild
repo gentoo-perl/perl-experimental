@@ -17,22 +17,24 @@ IUSE=""
 DEPEND="
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Class-C3
-	dev-perl/Config-Any
+	>=dev-perl/Config-Any-0.10
 	dev-perl/Data-Visitor
 	dev-perl/Date-Calc
 	>=dev-perl/DateTime-Format-Builder-0.7901
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/DateTime-Locale
 	dev-perl/Email-Valid
+	dev-perl/File-ShareDir
 	dev-perl/HTML-Scrubber
 	dev-perl/HTML-TokeParser-Simple
+	dev-perl/libwww-perl
 	dev-perl/List-MoreUtils
 	dev-perl/Locale-Maketext-Simple
 	dev-perl/Module-Pluggable
 	dev-perl/Regexp-Copy
 	dev-perl/Regexp-Common
 	dev-perl/Task-Weaken
-	>=dev-perl/Template-Toolkit-2.19
 	dev-perl/YAML-Syck
+	dev-perl/Template-Toolkit
 "
 
