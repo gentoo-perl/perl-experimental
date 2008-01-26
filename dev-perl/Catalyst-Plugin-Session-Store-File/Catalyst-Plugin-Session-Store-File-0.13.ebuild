@@ -5,8 +5,8 @@
 inherit perl-module
 
 DESCRIPTION="File storage backend for session data"
-HOMEPAGE="http://www.cpan.org/modules/by-authors/id/E/ES/ESSKAR/${P}.readme"
-SRC_URI="mirror://cpan/authors/id/E/ES/ESSKAR/${P}.tar.gz"
+HOMEPAGE="http://search.cpan.org/dist/${PN}/"
+SRC_URI="mirror://cpan/authors/id/K/KA/KARMAN/${P}.tar.gz"
 RESTRICT="nomirror"
 
 IUSE=""
@@ -17,8 +17,7 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 
 DEPEND="
 	>=dev-perl/Class-Data-Inheritable-0.04
-	>=dev-perl/Class-Accessor-0.22
-	dev-perl/Catalyst-Runtime
-	>=dev-perl/Catalyst-Plugin-Session-0.01
+	>=dev-perl/Catalyst-Runtime-5.7000
 	>=dev-perl/Cache-Cache-1.02
+	dev-perl/Catalyst-Plugin-Session
 "
