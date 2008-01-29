@@ -3,6 +3,10 @@ EBUILD Catalyst-Plugin-Session-Store-Memcached-0.02.ebuild 545 RMD160 a3d8a2950d
 MD5 cd219caedd4dbcba6cc72141cb0058f7 Catalyst-Plugin-Session-Store-Memcached-0.02.ebuild 545
 RMD160 a3d8a2950d2685f1af1ac8973656504c8a718741 Catalyst-Plugin-Session-Store-Memcached-0.02.ebuild 545
 SHA256 534bf94e79c8016121b92cc6d467d4cc7605356c423d5f89b157c29f55730901 Catalyst-Plugin-Session-Store-Memcached-0.02.ebuild 545
+MISC metadata.xml 275 RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba SHA1 eec2dc0c033c1c722ba174b9831d93f9f1ee6327 SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c
+MD5 ca3221c22cd7a176ebe1478cf75885cb metadata.xml 275
+RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba metadata.xml 275
+SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c metadata.xml 275
 MD5 a9fba908dd2fe45cbdea3f5a20e307a9 files/digest-Catalyst-Plugin-Session-Store-Memcached-0.02 328
 RMD160 62a7d3b3e56eb79932d9b57b3e5a251a6b3515e5 files/digest-Catalyst-Plugin-Session-Store-Memcached-0.02 328
 SHA256 e75040ba920d7429dafbc44b57b92d4b50672d4909b59335aba6b2d5b75ce5d5 files/digest-Catalyst-Plugin-Session-Store-Memcached-0.02 328
