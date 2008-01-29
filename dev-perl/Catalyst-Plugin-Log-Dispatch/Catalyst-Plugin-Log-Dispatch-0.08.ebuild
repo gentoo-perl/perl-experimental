@@ -4,18 +4,18 @@
 
 inherit perl-module
 
-DESCRIPTION="A visitor for Perl data structures"
+DESCRIPTION="Log module of Catalyst that uses Log::Dispatch"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/N/NU/NUFFIN/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/S/SH/SHOT/${P}.tar.gz"
+RESTRICT="nomirror"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
-RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Test-MockObject-1.04
-	dev-perl/Test-use-ok
-	dev-perl/Class-Accessor
+	>=dev-perl/Log-Dispatch-2.13
+	>=dev-perl/Catalyst-Runtime-5.65
+	dev-perl/UNIVERSAL-require
 "
