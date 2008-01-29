@@ -18,7 +18,7 @@ x86"
 
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/Catalyst-Plugin-Session-0.10
 	dev-perl/Class-Inspector
+	>=dev-perl/Catalyst-Plugin-Session-0.10
 "
 

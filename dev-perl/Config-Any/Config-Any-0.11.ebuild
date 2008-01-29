@@ -6,7 +6,7 @@ inherit perl-module
 
 DESCRIPTION="Load configuration from different file formats, transparently"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/R/RA/RATAXIS/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/B/BR/BRICAS/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"

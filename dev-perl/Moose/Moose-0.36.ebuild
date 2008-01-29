@@ -4,7 +4,7 @@
 
 inherit perl-module
 
-DESCRIPTION="A complete modern object system for Perl 5"
+DESCRIPTION="A postmodern object system for Perl 5"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 SRC_URI="mirror://cpan/authors/id/S/ST/STEVAN/${P}.tar.gz"
 RESTRICT="nomirror"
@@ -13,9 +13,9 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
 
-IUSE="r"
+IUSE=""
 DEPEND="
-	>=dev-perl/Class-MOP-0.48
+	>=dev-perl/Class-MOP-0.52
 	>=dev-perl/Sub-Exporter-0.972
 	>=dev-perl/Sub-Name-0.02
 "

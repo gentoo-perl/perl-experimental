@@ -6,7 +6,7 @@ inherit perl-module
 
 DESCRIPTION="Extensible and flexible object <-> relational mapper."
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/A/AS/ASH/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/J/JR/JROBINSON/${P}.tar.gz"
 RESTRICT="nomirror"
 LICENSE="|| ( Artistic GPL-2 )"
 
@@ -25,7 +25,7 @@ DEPEND="
 	dev-perl/Module-Find
 	dev-perl/Class-Inspector
 	>=dev-perl/Class-Accessor-Grouped-0.05002
-	>=dev-perl/JSON-1.00
+	>=dev-perl/JSON-Any-1.00
 	>=dev-perl/Scope-Guard-0.03
 	sqlite? ( >=dev-perl/DBD-SQLite-1.11 )
 "
