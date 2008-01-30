@@ -16,7 +16,7 @@ RESTRICT="nomirror"
 IUSE="json-xs json-syck"
 DEPEND="
 	>=dev-perl/JSON-2.02
-	json-xs? (>=dev-perl/JSON-XS-2.01)
-	json-syck? (dev-perl/YAML-Syck)
+	json-xs? ( >=dev-perl/JSON-XS-2.01 )
+	json-syck? ( dev-perl/YAML-Syck )
 "
 
