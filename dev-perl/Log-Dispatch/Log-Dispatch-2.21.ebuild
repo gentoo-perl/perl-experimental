@@ -15,5 +15,6 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
+	>=dev-perl/Params-Validate-0.15
 	dev-perl/module-build
 "

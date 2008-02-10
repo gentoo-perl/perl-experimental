@@ -1,9 +1,5 @@
-DIST Catalyst-Plugin-Authentication-Store-LDAP-0.04.tar.gz 20570 RMD160 c3a521fe826048758431e8ad111ebb7d20477436 SHA1 abbf575d78e561d7b194002c253529952bebb5e5 SHA256 0248d267d202ff4ed41208cf49349da857b3459de7f89d63fd8c033b80a54b97
 DIST Catalyst-Plugin-Authentication-Store-LDAP-0.0600.tar.gz 21927 RMD160 315f1c2fff30c3f0913b4ed624cf442fa27c4055 SHA1 2b18e679fdc9134474f5d0fe63656d93cd6aea51 SHA256 eabfb310d33029228f894d84951dff9a38c16e322730b4315fe8a63481369c45
-EBUILD Catalyst-Plugin-Authentication-Store-LDAP-0.04.ebuild 528 RMD160 95340e27627d92f752e2ce01d8dfd01db8ada4bb SHA1 a7dbbd76ed92f51b5a05f6e841a8f2e7f408e36f SHA256 bce4ec897cdf66f3bf8eec49b1a5181521e0f2cedb3d990ace645f3a8bbdf401
-MD5 db1f066bcaf189541eb91fc31eed5b4e Catalyst-Plugin-Authentication-Store-LDAP-0.04.ebuild 528
-RMD160 95340e27627d92f752e2ce01d8dfd01db8ada4bb Catalyst-Plugin-Authentication-Store-LDAP-0.04.ebuild 528
-SHA256 bce4ec897cdf66f3bf8eec49b1a5181521e0f2cedb3d990ace645f3a8bbdf401 Catalyst-Plugin-Authentication-Store-LDAP-0.04.ebuild 528
+DIST Catalyst-Plugin-Authentication-Store-LDAP-0.0601.tar.gz 22499 RMD160 0f91dfc847cb60f6c8cdce9db4caeb837c4db221 SHA1 317abb6f9365d2144035fb0bab35903487b63d0c SHA256 9843272c8fe29d11920362d344a6ae093de7dcea07f12fc0d1a9fb307242bd99
 EBUILD Catalyst-Plugin-Authentication-Store-LDAP-0.0600-r1.ebuild 691 RMD160 38a97f2c2a3318b3ab02ccad669ae9a6fa09b21d SHA1 cb2cdd0922fc0868023fdda049173116adcf58b0 SHA256 127524994056ec2b6ee69c93eb4ed574154e0fb05d8e74a7aebacd8a0ad7c19e
 MD5 11963163b42071dacc877562708be610 Catalyst-Plugin-Authentication-Store-LDAP-0.0600-r1.ebuild 691
 RMD160 38a97f2c2a3318b3ab02ccad669ae9a6fa09b21d Catalyst-Plugin-Authentication-Store-LDAP-0.0600-r1.ebuild 691
@@ -12,16 +8,20 @@ EBUILD Catalyst-Plugin-Authentication-Store-LDAP-0.0600.ebuild 557 RMD160 4ec9a3
 MD5 df80f2d1f9e452a29f9b42032798da07 Catalyst-Plugin-Authentication-Store-LDAP-0.0600.ebuild 557
 RMD160 4ec9a3b96c6f9450f18d26b15ddb6911aee21bf1 Catalyst-Plugin-Authentication-Store-LDAP-0.0600.ebuild 557
 SHA256 1dc2109fdda31004c0dfaf4a60d358551fad73ca7f1cc2f83c85a3c012e89223 Catalyst-Plugin-Authentication-Store-LDAP-0.0600.ebuild 557
+EBUILD Catalyst-Plugin-Authentication-Store-LDAP-0.0601.ebuild 691 RMD160 38a97f2c2a3318b3ab02ccad669ae9a6fa09b21d SHA1 cb2cdd0922fc0868023fdda049173116adcf58b0 SHA256 127524994056ec2b6ee69c93eb4ed574154e0fb05d8e74a7aebacd8a0ad7c19e
+MD5 11963163b42071dacc877562708be610 Catalyst-Plugin-Authentication-Store-LDAP-0.0601.ebuild 691
+RMD160 38a97f2c2a3318b3ab02ccad669ae9a6fa09b21d Catalyst-Plugin-Authentication-Store-LDAP-0.0601.ebuild 691
+SHA256 127524994056ec2b6ee69c93eb4ed574154e0fb05d8e74a7aebacd8a0ad7c19e Catalyst-Plugin-Authentication-Store-LDAP-0.0601.ebuild 691
 MISC metadata.xml 275 RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba SHA1 eec2dc0c033c1c722ba174b9831d93f9f1ee6327 SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c
 MD5 ca3221c22cd7a176ebe1478cf75885cb metadata.xml 275
 RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba metadata.xml 275
 SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c metadata.xml 275
-MD5 cf4ec194c70966bddfcc14d846a55842 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.04 337
-RMD160 e8c22dfc1b5748751dfe7c797263b82964fa389a files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.04 337
-SHA256 2fe841bbc45122646fb154b27a1ab88225e3cf6b92f8a59296657a08cbca980f files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.04 337
 MD5 3a700a143d36ff812e4943b90b9b2432 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0600 343
 RMD160 eecfee88e51a83a31b4155d6b8f231d1c7613f35 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0600 343
 SHA256 94465c566411d9ab9e45455c855a4a2883ecd974102ffb48326e2b3f6d9f0e43 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0600 343
 MD5 3a700a143d36ff812e4943b90b9b2432 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0600-r1 343
 RMD160 eecfee88e51a83a31b4155d6b8f231d1c7613f35 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0600-r1 343
 SHA256 94465c566411d9ab9e45455c855a4a2883ecd974102ffb48326e2b3f6d9f0e43 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0600-r1 343
+MD5 7b2d36d376ca485a67990693396f5fe6 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0601 343
+RMD160 8e91a1904c50bd2fd79cc281dd647068bc26eca2 files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0601 343
+SHA256 a9208396230ed353977093a643bb3b21af9df9df791b53d19a97a0230a00c5ba files/digest-Catalyst-Plugin-Authentication-Store-LDAP-0.0601 343

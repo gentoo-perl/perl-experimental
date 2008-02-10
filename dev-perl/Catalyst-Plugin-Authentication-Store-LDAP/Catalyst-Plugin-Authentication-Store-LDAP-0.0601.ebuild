@@ -5,7 +5,7 @@
 inherit perl-module
 
 DESCRIPTION="Authentication from an LDAP Directory."
-SRC_URI="mirror://cpan/authors/id/H/HO/HOLOWAY/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/K/KA/KARMAN/${P}.tar.gz"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 RESTRICT="nomirror"
 
@@ -18,4 +18,13 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 DEPEND="
 	dev-perl/perl-ldap
 	dev-perl/Catalyst-Plugin-Authentication
+	dev-perl/Catalyst-Model-LDAP
 "
+
+pkg_setup() {
+		echo
+		eerror "This ebuild is DEPRECATED!!!!!"
+		eerror
+		eerror "Use Catalyst-Authentication-Store-LDAP instead"
+}
+
