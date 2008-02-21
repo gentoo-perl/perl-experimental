@@ -4,19 +4,19 @@
 
 inherit perl-module
 
-DESCRIPTION="A complete modern object system for Perl 5"
+DESCRIPTION="JSON::Any - Wrapper Class for the various JSON classes."
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/S/ST/STEVAN/${P}.tar.gz"
-RESTRICT="nomirror"
+SRC_URI="mirror://cpan/authors/id/P/PE/PERIGRIN/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
+RESTRICT="nomirror"
 
-IUSE="r"
+IUSE="json-xs json-syck"
 DEPEND="
-	>=dev-perl/Class-MOP-0.49
-	>=dev-perl/Sub-Exporter-0.972
-	>=dev-perl/Sub-Name-0.02
+	>=dev-perl/JSON-2.02
+	json-xs? ( dev-perl/JSON-XS )
+	json-syck? ( dev-perl/YAML-Syck )
 "
 

@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Infrastructure plugin for the Catalyst authentication framework"
-HOMEPAGE="http://search.cpan.org/dist/${PN}/"
+DESCRIPTION="Authentication and authorization against a DBIx::Class schema"
 SRC_URI="mirror://cpan/authors/id/J/JA/JAYK/${P}.tar.gz"
+HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 RESTRICT="nomirror"
 
 IUSE=""
@@ -18,7 +18,6 @@ x86"
 
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/Catalyst-Plugin-Session-0.10
-	dev-perl/Class-Inspector
+	>=dev-perl/Catalyst-Plugin-Authentication-0.10005
+	dev-perl/DBIx-Class
 "
-
