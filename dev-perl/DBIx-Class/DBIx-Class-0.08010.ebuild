@@ -25,7 +25,7 @@ DEPEND="
 	dev-perl/Module-Find
 	dev-perl/Class-Inspector
 	>=dev-perl/Class-Accessor-Grouped-0.05002
-	>=dev-perl/JSON-1.00
+	>=dev-perl/JSON-Any-1.00
 	>=dev-perl/Scope-Guard-0.03
 	sqlite? ( >=dev-perl/DBD-SQLite-1.11 )
 "
