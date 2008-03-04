@@ -4,17 +4,13 @@
 
 inherit perl-module
 
-DESCRIPTION="JSON View Class"
+DESCRIPTION="(re)name a sub"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/${P}.tar.gz"
-RESTRICT="nomirror"
+SRC_URI="mirror://cpan/authors/id/X/XM/XMATH/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
+RESTRICT="nomirror"
 
 IUSE=""
-DEPEND="
-	dev-perl/Catalyst-Runtime
-	dev-perl/JSON-Any
-"
