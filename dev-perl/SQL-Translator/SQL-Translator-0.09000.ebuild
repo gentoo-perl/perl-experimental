@@ -21,7 +21,7 @@ DEPEND="
 	dev-perl/Class-MakeMethods
 	dev-perl/Log-Log4perl
 	dev-perl/Parse-RecDescent
-	dev-perl/Class-Accessor-Fast
+	dev-perl/Class-Accessor
 	dev-perl/DBI
-	>=dev-perl/YAML-0.39
+	>=dev-perl/yaml-0.39
 "
