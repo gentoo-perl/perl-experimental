@@ -4,18 +4,19 @@
 
 inherit perl-module
 
-DESCRIPTION="Automatically give your module the ability to have plugins"
-SRC_URI="mirror://cpan/authors/id/S/SI/SIMONW/${P}.tar.gz"
-RESTRICT="nomirror"
+DESCRIPTION="Load mix-ins or components to your C3-based class."
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-
-IUSE=""
+SRC_URI="mirror://cpan/authors/id/A/AS/ASH/${P}.tar.gz"
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc x86"
+RESTRICT="nomirror"
 
+IUSE=""
 DEPEND="
-	dev-perl/module-build
+	dev-perl/Class-C3
+	dev-perl/Class-Inspector
+	dev-perl/Test-Exception
 "
 
