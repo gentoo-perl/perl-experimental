@@ -2,23 +2,6 @@ DIST Catalyst-Plugin-CGI-Untaint-0.02.tar.gz 2022 RMD160 46dd5fd401b91623b358f80
 DIST Catalyst-Plugin-CGI-Untaint-0.03.tar.gz 2062 RMD160 59b4e8440daaf731ae62ec81247c0349ebaccfc2 SHA1 0b6f629bbb4b4d82dc5545e1303acd3af0ff0cc8 SHA256 e6a08d5424d4f53495f539cdf9088eff343430998c824e409cc763102cc15042
 DIST Catalyst-Plugin-CGI-Untaint-0.05.tar.gz 2375 RMD160 1a14d23fb10145401e7a1c0f8a0967270d7c6ee2 SHA1 0d6854d4687e9927b119b9eaeb9885e15c5fe80b SHA256 0cb6cad02a545313b5c206ca124b04d0b09ca2bf077496d3015f0460c222e8a1
 EBUILD Catalyst-Plugin-CGI-Untaint-0.02.ebuild 592 RMD160 65575715b99730013bc1f91b31dc9b07860d4769 SHA1 a7aff9c5407ced5c795ece9a8c61574dee6c43dd SHA256 c7d5e6b640824db2fa01f71c7c51e7eb4729e7ee58c325bb3aace77cafcb745e
-MD5 02785103f234d080793ed9cf4332ae4d Catalyst-Plugin-CGI-Untaint-0.02.ebuild 592
-RMD160 65575715b99730013bc1f91b31dc9b07860d4769 Catalyst-Plugin-CGI-Untaint-0.02.ebuild 592
-SHA256 c7d5e6b640824db2fa01f71c7c51e7eb4729e7ee58c325bb3aace77cafcb745e Catalyst-Plugin-CGI-Untaint-0.02.ebuild 592
 EBUILD Catalyst-Plugin-CGI-Untaint-0.03.ebuild 544 RMD160 2c431ae56144a89b0158eed2ae747a4c6ae1c72e SHA1 5d1ba988aa004f5f5d728348890a4dede07543f2 SHA256 afed632cf411187e3606b54389d306afccdb38136b7d8b24d8129f779572e03f
-MD5 7426096a8547f6bd6c79b2dfcee794ea Catalyst-Plugin-CGI-Untaint-0.03.ebuild 544
-RMD160 2c431ae56144a89b0158eed2ae747a4c6ae1c72e Catalyst-Plugin-CGI-Untaint-0.03.ebuild 544
-SHA256 afed632cf411187e3606b54389d306afccdb38136b7d8b24d8129f779572e03f Catalyst-Plugin-CGI-Untaint-0.03.ebuild 544
 EBUILD Catalyst-Plugin-CGI-Untaint-0.05.ebuild 573 RMD160 0511a8111a5624dfddadfd50225d8a5dc6aa0ced SHA1 fb8e700aff364aa7cd71df6cd217e3dca1813532 SHA256 60f686fc014e31cdd24aae2a11e7608858ba4aaa717e6049f8c239330e0e1e37
-MD5 faab9d820a633d17ea5c11c583920950 Catalyst-Plugin-CGI-Untaint-0.05.ebuild 573
-RMD160 0511a8111a5624dfddadfd50225d8a5dc6aa0ced Catalyst-Plugin-CGI-Untaint-0.05.ebuild 573
-SHA256 60f686fc014e31cdd24aae2a11e7608858ba4aaa717e6049f8c239330e0e1e37 Catalyst-Plugin-CGI-Untaint-0.05.ebuild 573
-MD5 b61a361f2fffd7fc78400003a35bb886 files/digest-Catalyst-Plugin-CGI-Untaint-0.02 292
-RMD160 25f96caa5745950373b072bb14931d875f40b3de files/digest-Catalyst-Plugin-CGI-Untaint-0.02 292
-SHA256 00173b7651f1daca2c23add9fd6352771c5726f81f66819908987d6d8e6c84c9 files/digest-Catalyst-Plugin-CGI-Untaint-0.02 292
-MD5 d0df03d66dcfd1f4da9c7e555ca8eec7 files/digest-Catalyst-Plugin-CGI-Untaint-0.03 292
-RMD160 7a3e4c14c179272b797e0adc25f1a3d42f9cf569 files/digest-Catalyst-Plugin-CGI-Untaint-0.03 292
-SHA256 8367c9920a2c63092f6603134fa39042bac55502c90852acb220eca6e0c54db4 files/digest-Catalyst-Plugin-CGI-Untaint-0.03 292
-MD5 85d547e911dc7921f5a4831ac903b6be files/digest-Catalyst-Plugin-CGI-Untaint-0.05 292
-RMD160 fafbeec33df1f553b674f2be9a006bc295c9ab98 files/digest-Catalyst-Plugin-CGI-Untaint-0.05 292
-SHA256 b88d8d1ae3bf7cab9cb59e6b05639edf120cf49637cafbf2c795903695cde352 files/digest-Catalyst-Plugin-CGI-Untaint-0.05 292
+MISC metadata.xml 275 RMD160 886f0d2545c92b211896d98c8b5dd667827ea2ba SHA1 eec2dc0c033c1c722ba174b9831d93f9f1ee6327 SHA256 33bf1ec8a147665cbf3e8acd10dd484a02696c44f598e078959e5ca77394c49c
