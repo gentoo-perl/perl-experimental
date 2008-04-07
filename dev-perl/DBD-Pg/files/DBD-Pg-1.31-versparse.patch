@@ -1,0 +1,20 @@
+--- t/lib/App/Info/RDBMS/PostgreSQL.pm.orig	2003-12-21 10:48:09.326376964 -0800
++++ t/lib/App/Info/RDBMS/PostgreSQL.pm	2003-12-21 10:52:07.168963354 -0800
+@@ -246,14 +246,12 @@
+ 
+     # Parse the version number.
+     if ($version) {
+-        my ($x, $y, $z) = $version =~ /(\d+)\.(\d+).(\d+)/;
+-        if (defined $x and defined $y and defined $z) {
++        my ($x, $y, $z) = split( /\./, $version );
++        if (defined $x and defined $y) {
++					defined( $z ) or $z = 0;
+             @{$self}{qw(version major minor patch)} =
+               ($version, $x, $y, $z);
+ 				## Beta/devel/release candidate versions are treated as patch level "0"
+-        } elsif ($version =~ /(\d+)\.(\d+)\w+\d+/) {
+-            @{$self}{qw(version major minor patch)} =
+-              ($version, $1, $2, 0);
+         } else {
+             $self->error("Failed to parse PostgreSQL version parts from " .
+                          "string '$version'");
