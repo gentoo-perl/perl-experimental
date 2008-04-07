@@ -4,18 +4,16 @@
 
 inherit perl-module
 
-DESCRIPTION="Display a stack trace on the debug screen"
-SRC_URI="mirror://cpan/authors/id/J/JG/JGUENTHER/${P}.tar.gz"
-RESTRICT="nomirror"
+DESCRIPTION="Data::Dumper plugin for Catalyst"
+SRC_URI="mirror://cpan/authors/id/C/CH/CHISEL/${P}.tar.gz"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-LICENSE="|| ( Artistic GPL-2 )"
-
-SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
 IUSE=""
-DEPEND="
-	dev-perl/module-build
-	dev-perl/Catalyst-Runtime
-	dev-perl/Devel-StackTrace
-"
+
+SLOT="0"
+LICENSE="|| ( Artistic GPL-2 )"
+KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+RESTRICT="nomirror"
+
+DEPEND=""
+
