@@ -4,18 +4,14 @@
 
 inherit perl-module
 
-DESCRIPTION="Parse and format MySQL dates and times"
-SRC_URI="mirror://cpan/authors/id/D/DR/DROLSKY/${P}.tar.gz"
+DESCRIPTION="The Catalyst developer's manual"
+SRC_URI="mirror://cpan/authors/id/M/MS/MSTROUT/${P}.tar.gz"
 RESTRICT="nomirror"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-
-IUSE=""
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
-DEPEND="
-	dev-perl/DateTime
-	>=dev-perl/DateTime-Format-Builder-0.60
-"
+DEPEND=""
+

@@ -5,7 +5,7 @@
 inherit perl-module
 
 DESCRIPTION="Dynamic definition of DBIx::Class sub classes."
-SRC_URI="mirror://cpan/authors/id/B/BL/BLBLACK/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/I/IL/ILMARI/${P}.tar.gz"
 RESTRICT="nomirror"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 LICENSE="|| ( Artistic GPL-2 )"

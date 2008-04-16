@@ -4,14 +4,16 @@
 
 inherit perl-module
 
-DESCRIPTION="HTTP Body Parser"
+DESCRIPTION="Data::Dumper plugin for Catalyst"
+SRC_URI="mirror://cpan/authors/id/C/CH/CHISEL/${P}.tar.gz"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/C/CH/CHANSEN/${P}.tar.gz"
-LICENSE="|| ( Artistic GPL-2 )"
+
+IUSE=""
 
 SLOT="0"
+LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 RESTRICT="nomirror"
 
-IUSE=""
-DEPEND="dev-perl/yaml"
+DEPEND=""
+
