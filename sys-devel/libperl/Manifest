@@ -1,0 +1,4 @@
+AUX libperl-5.10.0-create-libperl-soname.patch 401 SHA1 cfca756f70f85908bd108f849d9360a7ea363676
+AUX libperl-noksh.patch 611 SHA1 61bf5bb0955bd04a758d1381fa4260ed9fdbb1d1
+DIST perl-5.10.0.tar.gz 15595020 SHA1 adf73606dd5248af7ccdd735bcaa0e628ea75b3c
+EBUILD libperl-5.10.0.ebuild 11941 SHA1 9e58230bef21b420c2ae5f5297f3eafcc9ad51a9

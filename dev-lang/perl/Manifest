@@ -1,0 +1,7 @@
+AUX perl-5.10.0-regexp-nossp.patch 485 SHA1 13b5bc9ec2d099a981b0fd2f4c6d933432c99731
+AUX perl-h2ph-ansi-header.patch 446 SHA1 31f0a7e7444e914bec2a0a3e41838eb82e038e6f
+AUX perl-picdl.patch 250 SHA1 3000bd0130ed20e0ff5d9fb0147240e3909473a7
+AUX perl-prelink-lpthread.patch 476 SHA1 4202c290c578dfec58d5dbebf7f8f780a483f908
+DIST perl-5.10.0.tar.gz 15595020 SHA1 adf73606dd5248af7ccdd735bcaa0e628ea75b3c
+EBUILD perl-5.10.0.ebuild 18238 SHA1 81694b1d1fe0aff17150919590e0e1346d7ce4e0
+MISC perl-5.10.0.ebuild~ 18237 SHA1 a65f45534a4bde3341ef0847ee555d0c68c65527
