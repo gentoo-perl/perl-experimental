@@ -15,7 +15,7 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/yaml-0.35
+	>=dev-perl/YAML-Tiny-1.26
 	>=dev-perl/Module-ScanDeps-0.28
 	dev-perl/Module-CoreList
 	>=dev-perl/PAR-Dist-0.03
@@ -23,9 +23,4 @@ DEPEND="
 	dev-perl/extutils-parsexs
 	dev-perl/module-build
 "
-
-#src_compile() {
-#	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
-#	perl-module_src_compile
-#}
 
