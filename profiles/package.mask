@@ -1,0 +1,5 @@
+# Torsten Veller <tove@gentoo.org> (25 Apr 2008)
+# Masked for testing
+
+~dev-lang/perl-5.10.0
+~sys-devel/libperl-5.10.0
