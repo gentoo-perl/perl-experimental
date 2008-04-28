@@ -57,7 +57,7 @@ IUSE="berkdb debug gdbm ithreads"
 inherit eutils flag-o-matic toolchain-funcs multilib
 
 # The slot of this binary compat version of libperl.so
-PERLSLOT="10"
+PERLSLOT="1"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
@@ -65,7 +65,7 @@ S="${WORKDIR}/${MY_P}"
 DESCRIPTION="Larry Wall's Practical Extraction and Reporting Language"
 SRC_URI="mirror://cpan/src/${MY_P}.tar.gz"
 HOMEPAGE="http://www.perl.org"
-SLOT="0"
+SLOT="${PERLSLOT}"
 LIBPERL="libperl$(get_libname ${PERLSLOT}.${SHORT_PV})"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd"
