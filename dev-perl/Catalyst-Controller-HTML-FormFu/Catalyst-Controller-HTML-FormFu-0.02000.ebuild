@@ -17,7 +17,7 @@ IUSE=""
 DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Config-Any
-	>=dev-perl/HTML-FormFu-0.02000
+	|| ( >=dev-perl/HTML-FormFu-0.02000 dev-perl/HTML-FormFu-svn )
 	dev-perl/Task-Weaken
 "
 
