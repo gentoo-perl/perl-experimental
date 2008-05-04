@@ -5,7 +5,7 @@
 inherit eutils flag-o-matic toolchain-funcs multilib
 
 # The slot of this binary compat version of libperl.so
-PERLSLOT="10"
+PERLSLOT="1"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
