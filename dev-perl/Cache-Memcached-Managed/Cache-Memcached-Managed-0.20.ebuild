@@ -4,17 +4,19 @@
 
 inherit perl-module
 
-DESCRIPTION="The Catalyst developer's manual"
-SRC_URI="mirror://cpan/authors/id/J/JR/JROCKWAY/${P}.tar.gz"
-RESTRICT="nomirror"
+DESCRIPTION="provide API for managing cached information  "
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-LICENSE="|| ( Artistic GPL-2 )"
+SRC_URI="mirror://cpan/authors/id/E/EL/ELIZABETH/${P}.tar.gz"
+RESTRICT="nomirror"
+
+IUSE=""
 
 SLOT="0"
+LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
-S="${WORKDIR}/${PN}-5.701001"
-
 DEPEND="
+	dev-perl/Cache-Memcached
+	net-misc/memcached
 "
 

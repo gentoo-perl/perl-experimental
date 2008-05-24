@@ -15,12 +15,12 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/YAML-Syck-0.27
-	>=dev-perl/Module-ScanDeps-0.28
-	dev-perl/Module-CoreList
-	>=dev-perl/PAR-Dist-0.03
-	>=dev-perl/Archive-Tar-0.23
-	dev-perl/extutils-parsexs
-	dev-perl/module-build
+	>=dev-perl/YAML-Tiny-1.30
+	>=dev-perl/Module-ScanDeps-0.83
+	>=dev-perl/Module-CoreList-2.15
+	>=dev-perl/PAR-Dist-0.29
+	>=dev-perl/Archive-Tar-1.38
+	>=dev-perl/extutils-parsexs-2.19
+	>=dev-perl/module-build-0.28.08
 "
 

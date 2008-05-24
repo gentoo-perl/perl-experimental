@@ -4,19 +4,17 @@
 
 inherit perl-module
 
-DESCRIPTION="A postmodern object system for Perl 5"
+DESCRIPTION="Lets you build groups of accessors"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/S/ST/STEVAN/${P}.tar.gz"
-RESTRICT="nomirror"
+SRC_URI="mirror://cpan/authors/id/B/BL/BLBLACK/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Class-MOP-0.53
-	>=dev-perl/Sub-Exporter-0.972
-	>=dev-perl/Sub-Name-0.02
+	>=dev-perl/Class-C3-0.19
+	>=dev-perl/Class-C3-XS-0.08
 "
-
