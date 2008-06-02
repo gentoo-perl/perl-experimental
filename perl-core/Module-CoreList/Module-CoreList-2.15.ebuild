@@ -4,7 +4,7 @@
 
 inherit perl-module
 
-DESCRIPTION="what modules shipped with versions of perl"
+DESCRIPTION="What modules shipped with versions of perl "
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 SRC_URI="mirror://cpan/authors/id/R/RG/RGARCIA/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"

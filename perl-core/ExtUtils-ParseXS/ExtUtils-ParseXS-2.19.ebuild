@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="what modules shipped with versions of perl"
+DESCRIPTION="Converts Perl XS code into C code"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/R/RG/RGARCIA/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/K/KW/KWILLIAMS/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
