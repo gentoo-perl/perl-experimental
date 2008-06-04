@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Mason View Class"
+DESCRIPTION="Provide commonly requested regular expressions"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/F/FL/FLORA/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/A/AB/ABIGAIL/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -14,5 +14,5 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 RESTRICT="nomirror"
 
 IUSE=""
-DEPEND="dev-perl/Catalyst-Runtime
-	dev-perl/HTML-Mason"
+DEPEND=""
+
