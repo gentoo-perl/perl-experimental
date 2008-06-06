@@ -14,5 +14,7 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 RESTRICT="nomirror"
 
 IUSE=""
-DEPEND=""
+DEPEND="
+	!dev-perl/Module-CoreList
+"
 
