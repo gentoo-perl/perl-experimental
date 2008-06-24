@@ -15,10 +15,16 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 
 IUSE=""
 DEPEND="
-	dev-perl/Module-Compile-TT
-	dev-perl/Class-Accessor
+	>=dev-perl/Moose-0.48
 	dev-perl/Sub-Exporter
+	dev-perl/Data-GUID
 	dev-perl/crypt-cbc
 	dev-perl/Crypt-Rijndael
 	dev-perl/Digest-SHA
 "
+
+pkg_setup() {
+	ewarn "This ebuild install by default CBC, Rijndael and SHA."
+	ewarn "If you need other crypt libs, install them!"
+}
+
