@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="HTTP Body Parser"
+DESCRIPTION="Takes a nested array and outputs CSV formatted content."
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/A/AG/AGRUNDMA/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/G/GA/GAUDEON/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -14,4 +14,7 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 RESTRICT="nomirror"
 
 IUSE=""
-DEPEND="dev-perl/yaml"
+DEPEND="
+	dev-perl/Catalyst-Runtime
+	dev-perl/Text-CSV
+"

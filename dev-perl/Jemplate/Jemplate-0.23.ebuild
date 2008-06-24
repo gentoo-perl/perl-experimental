@@ -4,18 +4,17 @@
 
 inherit perl-module
 
-DESCRIPTION="Perl extension for emulating troublesome interfaces"
+DESCRIPTION="JavaScript Templating with Template Toolkit"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/C/CH/CHROMATIC/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/R/RK/RKRIMEN/${P}.tar.gz"
+RESTRICT="nomirror"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
-RESTRICT="nomirror"
 
 IUSE=""
-DEPEND="dev-perl/module-build
-	>=dev-lang/perl-5.6.0
-	>=dev-perl/UNIVERSAL-isa-0.06
-	>=dev-perl/UNIVERSAL-can-1.11
-	dev-perl/Test-Exception"
+DEPEND="
+	>=dev-perl/Template-Toolkit-2.19
+	>=dev-perl/File-Find-Rule-0.30
+"
