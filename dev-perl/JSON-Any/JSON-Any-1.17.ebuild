@@ -6,7 +6,7 @@ inherit perl-module
 
 DESCRIPTION="JSON::Any - Wrapper Class for the various JSON classes."
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/P/PE/PERIGRIN/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/R/RB/RBERJON/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
