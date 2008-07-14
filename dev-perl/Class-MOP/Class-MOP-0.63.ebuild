@@ -6,7 +6,7 @@ inherit perl-module
 
 DESCRIPTION="A Meta Object Protocol for Perl 5"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/S/ST/STEVAN/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/S/SA/SARTAK/${P}.tar.gz"
 RESTRICT="nomirror"
 LICENSE="|| ( Artistic GPL-2 )"
 
@@ -16,6 +16,7 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 IUSE="r"
 DEPEND="
 	>=dev-perl/Sub-Name-0.02
+	>=dev-perl/Sub-Identify-0.03
 	>=dev-perl/MRO-Compat-0.05
 "
 

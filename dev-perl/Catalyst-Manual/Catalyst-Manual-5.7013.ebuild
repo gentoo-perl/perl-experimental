@@ -5,7 +5,7 @@
 inherit perl-module
 
 DESCRIPTION="The Catalyst developer's manual"
-SRC_URI="mirror://cpan/authors/id/M/MS/MSTROUT/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/Z/ZA/ZARQUON/${P}.tar.gz"
 RESTRICT="nomirror"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 LICENSE="|| ( Artistic GPL-2 )"
