@@ -4,19 +4,20 @@
 
 inherit perl-module
 
-DESCRIPTION="The Elegant MVC Web Application Framework - runtime version"
+DESCRIPTION="Catalyst Runtime version"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/M/MR/MRAMBERG/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Runtime-5.7099_03.tar.gz"
 RESTRICT="nomirror"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~ppc-macos
+~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
 
-IUSE="apache apache2 fastcgi par"
+S="${WORKDIR}/Catalyst-Runtime-5.7099_03"
+
+IUSE=""
 DEPEND="
-	!dev-perl/Catalyst
-	>=dev-perl/Module-Install-0.64
 	>=dev-lang/perl-5.8.1
 	dev-perl/Class-Accessor
 	dev-perl/Class-Data-Inheritable
@@ -25,8 +26,8 @@ DEPEND="
 	dev-perl/Data-Dump
 	dev-perl/File-Modified
 	dev-perl/HTML-Parser
-	>=dev-perl/HTTP-Body-0.6
-	>=dev-perl/libwww-perl-5.805
+	>=dev-perl/HTTP-Body-1.04
+	>=dev-perl/libwww-perl-5.813
 	>=dev-perl/HTTP-Request-AsCGI-0.5
 	>=dev-perl/Module-Pluggable-3.01
 	>=dev-perl/Path-Class-0.09
@@ -34,14 +35,5 @@ DEPEND="
 	>=dev-perl/Tree-Simple-1.15
 	dev-perl/Tree-Simple-VisitorFactory
 	>=dev-perl/URI-1.35
-	dev-perl/MIME-Types
-	apache? ( >=dev-perl/Catalyst-Engine-Apache-1.05 )
-	apache2? ( >=dev-perl/Catalyst-Engine-Apache-1.05 )
-	fastcgi? ( dev-perl/FCGI dev-perl/FCGI-ProcManager )
-	par? ( dev-perl/PAR )
 "
 
-#src_compile() {
-#	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
-#	perl-module_src_compile
-#}
