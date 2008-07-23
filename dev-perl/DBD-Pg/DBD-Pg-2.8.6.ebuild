@@ -15,11 +15,12 @@ IUSE=""
 
 DEPEND="
 	>=dev-perl/DBI-1.52
+	dev-perl/version
 	dev-db/postgresql-base
 "
 
 # env variables for compilation:
-export POSTGRES_INCLUDE=/usr/include/postgresql/pgsql
+export POSTGRES_INCLUDE=/usr/include/postgresql/
 export POSTGRES_LIB=/usr/lib/postgresql/
 
 mydoc="README"
