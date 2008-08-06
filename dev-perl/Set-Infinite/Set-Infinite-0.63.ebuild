@@ -4,15 +4,15 @@
 
 inherit perl-module
 
-DESCRIPTION="comma-separated values manipulation routines"
+DESCRIPTION="Sets of intervals"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/M/MA/MAKAMAKA/${P}.tar.gz"
-RESTRICT="nomirror"
-LICENSE="|| ( Artistic GPL-2 )"
-
-SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+SRC_URI="mirror://cpan/authors/id/F/FG/FGLOCK/${P}.tar.gz"
 
 IUSE=""
+
+SLOT="0"
+LICENSE="|| ( Artistic GPL-2 )"
+KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+
 DEPEND=""
 
