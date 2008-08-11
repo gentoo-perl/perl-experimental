@@ -4,17 +4,17 @@
 
 inherit perl-module
 
-DESCRIPTION="I18N for Catalyst"
+DESCRIPTION="A class for european VAT numbers validation."
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/B/BR/BRICAS/${P}.tar.gz"
-RESTRICT="nomirror"
+SRC_URI="mirror://cpan/authors/id/B/BP/BPGN/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	dev-perl/Catalyst-Runtime
-	dev-perl/Locale-Maketext-Simple
-	dev-perl/locale-maketext-lexicon"
+	dev-perl/libwww-perl
+"
+
