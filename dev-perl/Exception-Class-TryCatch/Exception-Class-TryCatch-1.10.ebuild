@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Framework for building reusable web-applications"
+DESCRIPTION="Syntactic try/catch sugar for use with Exception::Class"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/W/WO/WONKO/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/D/DA/DAGOLDEN/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -15,8 +15,5 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Apache-Test-1.30
-	>=dev-perl/CGI-Application-3.2
 	dev-perl/Exception-Class
-	dev-perl/Exception-Class-TryCatch
 "
