@@ -4,7 +4,7 @@
 
 inherit perl-module
 
-DESCRIPTION="comma-separated values manipulation routines"
+DESCRIPTION="Comma-separated values manipulator (using XS or PurePerl)"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 SRC_URI="mirror://cpan/authors/id/M/MA/MAKAMAKA/${P}.tar.gz"
 RESTRICT="nomirror"
