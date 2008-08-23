@@ -18,9 +18,13 @@ DEPEND="
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Class-C3
 	>=dev-perl/Config-Any-0.10
+	dev-perl/Crypt-CBC
+	dev-perl/Crypt-DES
 	dev-perl/Data-Visitor
 	dev-perl/Date-Calc
+	>=dev-perl/DateTime-0.38
 	>=dev-perl/DateTime-Format-Builder-0.7901
+	dev-perl/DateTime-Format-Natural
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/DateTime-Locale
 	dev-perl/Email-Valid
@@ -34,7 +38,7 @@ DEPEND="
 	dev-perl/Regexp-Copy
 	dev-perl/Regexp-Common
 	dev-perl/Task-Weaken
-	dev-perl/YAML-Syck
+	>=dev-perl/YAML-Syck-1.04
 	dev-perl/Template-Toolkit
 "
 

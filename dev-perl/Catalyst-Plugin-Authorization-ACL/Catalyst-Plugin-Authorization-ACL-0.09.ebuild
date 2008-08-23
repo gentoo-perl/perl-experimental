@@ -4,19 +4,20 @@
 
 inherit perl-module
 
-DESCRIPTION="A factory object for dispensing Visitor objects"
-SRC_URI="mirror://cpan/authors/id/N/NU/NUFFIN/${P}.tar.gz"
-HOMEPAGE="http://www.cpan.org/modules/by-authors/id/N/NU/NUFFIN/${P}.readme"
-
-IUSE=""
+DESCRIPTION="ACL support for Catalyst applications"
+HOMEPAGE="http://search.cpan.org/dist/${PN}/"
+SRC_URI="mirror://cpan/authors/id/B/BR/BRICAS/${P}.tar.gz"
+RESTRICT="nomirror"
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
+IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-5.49
+	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Class-Throwable
-	dev-perl/Tree-Simple-VisitorFactory"
+	dev-perl/Tree-Simple-VisitorFactory
+"
 

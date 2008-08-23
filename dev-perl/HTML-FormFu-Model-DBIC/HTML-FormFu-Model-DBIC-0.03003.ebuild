@@ -4,22 +4,21 @@
 
 inherit perl-module
 
-DESCRIPTION="DBIx::Class::Schema Model Class"
+DESCRIPTION="HTML Form Creation, Rendering and Validation Framework"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/B/BL/BLBLACK/${P}.tar.gz"
-RESTRICT="nomirror"
+SRC_URI="mirror://cpan/authors/id/C/CF/CFRANKS/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
+RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
-	>=dev-perl/DBIx-Class-0.06
-	dev-perl/Catalyst-Runtime
-	>=dev-perl/UNIVERSAL-require-0.10
-	>=dev-perl/Class-Data-Accessor-0.02
-	>=dev-perl/Class-Accessor-0.22
-	>=dev-perl/DBIx-Class-Schema-Loader-0.03003
+	dev-perl/DateTime-Format-MySQL
+    dev-perl/DBD-SQLite
+    >=dev-perl/DBIx-Class-0.08002
+    >=dev-perl/HTML-FormFu-0.03003
+	dev-perl/Task-Weaken
 "
+
