@@ -17,5 +17,5 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 
 DEPEND="
 	dev-perl/perl-ldap
-	>=dev-perl/Catalyst-Plugin-Authentication-1.0003
+	>=dev-perl/Catalyst-Plugin-Authentication-0.10003
 "
