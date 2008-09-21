@@ -15,6 +15,7 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND="
+	>=dev-perl/Captcha-reCAPTCHA-0.92
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Class-C3
 	>=dev-perl/Config-Any-0.10
@@ -35,6 +36,7 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Locale-Maketext-Simple
 	dev-perl/Module-Pluggable
+	dev-perl/Readonly
 	dev-perl/Regexp-Copy
 	dev-perl/Regexp-Common
 	dev-perl/Task-Weaken
