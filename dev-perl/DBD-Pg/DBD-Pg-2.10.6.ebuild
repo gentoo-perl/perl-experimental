@@ -20,7 +20,7 @@ DEPEND="
 "
 
 # env variables for compilation:
-export POSTGRES_INCLUDE=/usr/include/postgresql/
-export POSTGRES_LIB=/usr/lib/postgresql/
+#export POSTGRES_INCLUDE=/usr/$(get_includedir)/postgresql-${SLOT}/$(get_includedir)
+#export POSTGRES_LIB=/usr/$(get_libdir)/postgresql-${SLOT}/$(get_libdir)
 
 mydoc="README"

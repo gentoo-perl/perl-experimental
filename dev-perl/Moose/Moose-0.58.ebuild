@@ -4,22 +4,18 @@
 
 inherit perl-module
 
-DESCRIPTION="Perl Archive Toolkit"
+DESCRIPTION="A postmodern object system for Perl 5"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/S/SM/SMUELLER/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/D/DR/DROLSKY/${P}.tar.gz"
 RESTRICT="nomirror"
-
-IUSE=""
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
+IUSE=""
 DEPEND="
-	>=dev-perl/Compress-Zlib-1.30
-	>=dev-perl/Archive-Zip-1.00
-	>=dev-perl/PAR-Dist-0.22
-	dev-perl/Digest-SHA1
-	dev-perl/Module-Signature
+	>=dev-perl/Class-MOP-0.66
+	>=dev-perl/Sub-Exporter-0.972
 "
 
