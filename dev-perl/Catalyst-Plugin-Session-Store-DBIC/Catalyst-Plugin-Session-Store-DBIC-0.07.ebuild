@@ -4,8 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Authentication database in $c->config"
-SRC_URI="mirror://cpan/authors/id/D/DK/DKAMHOLZ/${P}.tar.gz"
+DESCRIPTION="File storage backend for session data"
+SRC_URI="mirror://cpan/authors/id/D/DA/DANIELTWC/${P}.tar.gz"
+RESTRICT="nomirror"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
 
 IUSE=""
@@ -14,5 +15,10 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
 
-DEPEND=">=dev-perl/Authen-Htpasswd-0.13
-	>=dev-perl/Catalyst-Plugin-Authentication-0.01"
+DEPEND="
+	>=dev-perl/Catalyst-Runtime-5.65
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/Class-Accessor
+	dev-perl/DBIx-Class
+	dev-perl/Catalyst-Plugin-Session-Store-Delegate
+"

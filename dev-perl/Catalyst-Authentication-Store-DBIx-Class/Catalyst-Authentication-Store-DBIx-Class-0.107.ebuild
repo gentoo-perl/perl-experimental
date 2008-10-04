@@ -18,6 +18,7 @@ x86"
 
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	dev-perl/Catalyst-Plugin-Authentication
+	>=dev-perl/Catalyst-Plugin-Authentication-0.10005
 	dev-perl/DBIx-Class
+	dev-perl/Catalyst-Model-DBIC-Schema
 "
