@@ -272,85 +272,10 @@ src_compile() {
 }
 
 src_install() {
-
 	export LC_ALL="C"
 
-	if [ "${PN}" = "libperl" ]
-	then
 		dolib.so ${WORKDIR}/${LIBPERL}
 		dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${PERLSLOT})
-	else
-		# Need to do this, else apps do not link to dynamic version of
-		# the library ...
-		local coredir="/usr/$(get_libdir)/perl5/${PV}/${myarch}${mythreading}/CORE"
-		dodir ${coredir}
-		dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
-		dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${PERLSLOT})
-		dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
-
-		# Fix for "stupid" modules and programs
-		dodir /usr/$(get_libdir)/perl5/site_perl/${PV}/${myarch}${mythreading}
-
-		make DESTDIR="${D}" \
-			INSTALLMAN1DIR="${D}/usr/share/man/man1" \
-			INSTALLMAN3DIR="${D}/usr/share/man/man3" \
-			install || die "Unable to make install"
-
-		cp -f utils/h2ph utils/h2ph_patched
-
-		LD_LIBRARY_PATH=. ./perl -Ilib utils/h2ph_patched \
-			-a -d ${D}/usr/$(get_libdir)/perl5/${PV}/${myarch}${mythreading} <<EOF
-asm/termios.h
-syscall.h
-syslimits.h
-syslog.h
-sys/ioctl.h
-sys/socket.h
-sys/time.h
-wait.h
-EOF
-
-		# This is to fix a missing c flag for backwards compat
-		for i in `find ${D}/usr/$(get_libdir)/perl5 -iname "Config.pm"`;do
-			sed -e "s:ccflags=':ccflags='-DPERL5 :" \
-			    -e "s:cppflags=':cppflags='-DPERL5 :" \
-				${i} > ${i}.new &&\
-				mv ${i}.new ${i} || die "Sed failed"
-		done
-
-		# A poor fix for the miniperl issues
-		dosed 's:./miniperl:/usr/bin/perl:' /usr/$(get_libdir)/perl5/${PV}/ExtUtils/xsubpp
-		fperms 0444 /usr/$(get_libdir)/perl5/${PV}/ExtUtils/xsubpp
-		dosed 's:./miniperl:/usr/bin/perl:' /usr/bin/xsubpp
-		fperms 0755 /usr/bin/xsubpp
-
-		./perl installman \
-			--man1dir="${D}/usr/share/man/man1" --man1ext='1' \
-			--man3dir="${D}/usr/share/man/man3" --man3ext='3'
-
-		# This removes ${D} from Config.pm and .packlist
-		for i in `find ${D} -iname "Config.pm"` `find ${D} -iname ".packlist"`;do
-			einfo "Removing ${D} from ${i}..."
-			sed -e "s:${D}::" ${i} > ${i}.new &&\
-				mv ${i}.new ${i} || die "Sed failed"
-		done
-	fi
-
-	dodoc Changes* Artistic Copying README Todo* AUTHORS
-
-	if [ "${PN}" = "perl" ]
-	then
-		# HTML Documentation
-		# We expect errors, warnings, and such with the following.
-
-		dodir /usr/share/doc/${PF}/html
-		./perl installhtml \
-			--podroot='.' \
-			--podpath='lib:ext:pod:vms' \
-			--recurse \
-			--htmldir="${D}/usr/share/doc/${PF}/html" \
-			--libpods='perlfunc:perlguts:perlvar:perlrun:perlop'
-	fi
 }
 
 pkg_postinst() {
