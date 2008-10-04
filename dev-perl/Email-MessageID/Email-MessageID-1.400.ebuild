@@ -4,10 +4,10 @@
 
 inherit perl-module
 
-S=${WORKDIR}/Email-MessageID-1.31
 DESCRIPTION="Generate world unique message-ids"
-SRC_URI="mirror://cpan/authors/id/C/CW/CWEST/Email-MessageID-1.31.tar.gz"
-HOMEPAGE="http://www.cpan.org/modules/by-authors/id/C/CW/CWEST/${P}.readme"
+SRC_URI="mirror://cpan/authors/id/R/RJ/RJBS/${P}.tar.gz"
+RESTRICT="nomirror"
+HOMEPAGE="http://search.cpan.org/${PN}/"
 
 IUSE=""
 

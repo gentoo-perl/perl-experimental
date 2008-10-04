@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="Perl functions for formatting monetary values"
+DESCRIPTION="Encrypt Data with Cipher Block Chaining Mode"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/T/TN/TNGUYEN/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/L/LD/LDS/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -15,4 +15,3 @@ RESTRICT="nomirror"
 
 IUSE=""
 DEPEND=""
-
