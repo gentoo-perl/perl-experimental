@@ -119,29 +119,29 @@ src_unpack() {
 	#
 	#   LIBPERL=libperl.so.${SLOT}.`echo ${PV} | cut -d. -f1,2`
 	#
-	cd ${S};
+	cd "${S}";
 	# TODO: I guess we need this patch
-	#use userland_Darwin || epatch ${FILESDIR}/${P}-create-libperl-soname.patch
+	#use userland_Darwin || epatch "${FILESDIR}"/${P}-create-libperl-soname.patch
 
 	# Configure makes an unwarranted assumption that /bin/ksh is a
 	# good shell. This patch makes it revert to using /bin/sh unless
 	# /bin/ksh really is executable. Should fix bug 42665.
 	# rac 2004.06.09
-	cd ${S}; epatch ${FILESDIR}/${PN}-noksh.patch
+	cd "${S}"; epatch "${FILESDIR}"/${PN}-noksh.patch
 
 	# we need the same @INC-inversion magic here we do in perl
-	#cd ${S}; epatch ${FILESDIR}/${P}-reorder-INC.patch
+	#cd "${S}"; epatch "${FILESDIR}"/${P}-reorder-INC.patch
 
 	# On PA7200, uname -a contains a single quote and we need to
 	# filter it otherwise configure fails. See #125535.
-	#epatch ${FILESDIR}/perl-hppa-pa7200-configure.patch
+	#epatch "${FILESDIR}"/perl-hppa-pa7200-configure.patch
 
 
-#	use amd64 && cd ${S} && epatch ${FILESDIR}/${P}-lib64.patch
-#	[[ ${CHOST} == *-dragonfly* ]] && cd ${S} && epatch ${FILESDIR}/${P}-dragonfly-clean.patch
-#	[[ ${CHOST} == *-freebsd* ]] && cd ${S} && epatch ${FILESDIR}/${P}-fbsdhints.patch
-#	cd ${S}; epatch ${FILESDIR}/${P}-cplusplus.patch
-#	has_version '>=sys-devel/gcc-4.2' && epatch ${FILESDIR}/${P}-gcc42-command-line.patch
+#	use amd64 && cd "${S}" && epatch "${FILESDIR}"/${P}-lib64.patch
+#	[[ ${CHOST} == *-dragonfly* ]] && cd "${S}" && epatch "${FILESDIR}"/${P}-dragonfly-clean.patch
+#	[[ ${CHOST} == *-freebsd* ]] && cd "${S}" && epatch "${FILESDIR}"/${P}-fbsdhints.patch
+#	cd "${S}"; epatch "${FILESDIR}"/${P}-cplusplus.patch
+#	has_version '>=sys-devel/gcc-4.2' && epatch "${FILESDIR}"/${P}-gcc42-command-line.patch
 }
 
 myconf() {
@@ -268,13 +268,13 @@ src_compile() {
 
 	emake -j1 -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
 	emake -j1 -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
-	mv ${LIBPERL} ${WORKDIR}
+	mv ${LIBPERL} "${WORKDIR}"
 }
 
 src_install() {
 	export LC_ALL="C"
 
-		dolib.so ${WORKDIR}/${LIBPERL}
+		dolib.so "${WORKDIR}"/${LIBPERL}
 		dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${PERLSLOT})
 }
 
@@ -283,7 +283,7 @@ pkg_postinst() {
 	# Make sure we do not have stale/invalid libperl.so 's ...
 	if [ -f "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" -a ! -L "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" ]
 	then
-		mv -f ${ROOT}usr/$(get_libdir)/libperl$(get_libname) ${ROOT}usr/$(get_libdir)/libperl$(get_libname).old
+		mv -f "${ROOT}"usr/$(get_libdir)/libperl$(get_libname) "${ROOT}"usr/$(get_libdir)/libperl$(get_libname).old
 	fi
 
 	# Next bit is to try and setup the /usr/lib/libperl.so symlink
@@ -293,7 +293,7 @@ pkg_postinst() {
 	then
 		# Only this version of libperl is installed, so just link libperl.so
 		# to the *soname* version of it ...
-		ln -snf libperl$(get_libname ${PERLSLOT}) ${ROOT}usr/$(get_libdir)/libperl$(get_libname)
+		ln -snf libperl$(get_libname ${PERLSLOT}) "${ROOT}"usr/$(get_libdir)/libperl$(get_libname)
 	else
 		if [ -x "${ROOT}/usr/bin/perl" ]
 		then
@@ -302,7 +302,7 @@ pkg_postinst() {
 			# to that *soname* version of libperl.so ...
 			local perlversion="`${ROOT}/usr/bin/perl -V:version | cut -d\' -f2 | cut -d. -f1,2`"
 
-			cd ${ROOT}usr/$(get_libdir)
+			cd "${ROOT}"usr/$(get_libdir)
 			# Link libperl.so to the *soname* versioned lib ...
 			ln -snf `echo libperl$(get_libname ?.${perlversion}) | cut -d.  -f1,2,3` libperl$(get_libname)
 		else
@@ -310,12 +310,12 @@ pkg_postinst() {
 
 			# Nope, we are not so lucky ... try to figure out what version
 			# is the latest, and keep fingers crossed ...
-			for x in `ls -1 ${ROOT}usr/$(get_libdir)/libperl$(get_libname ?.*)`
+			for x in `ls -1 "${ROOT}"usr/$(get_libdir)/libperl$(get_libname ?.*)`
 			do
 				latest="${x}"
 			done
 
-			cd ${ROOT}usr/$(get_libdir)
+			cd "${ROOT}"usr/$(get_libdir)
 			# Link libperl.so to the *soname* versioned lib ...
 			ln -snf `echo ${latest##*/} | cut -d. -f1,2,3` libperl$(get_libname)
 		fi
