@@ -1,4 +1,4 @@
-# Copyright 1999-2007 Gentoo Foundation
+# Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.8.8-r2.ebuild,v 1.29 2007/02/11 14:15:44 grobian Exp $
 
@@ -69,7 +69,7 @@ src_unpack() {
 	# handling breaks.  Fixes bug #14380.
 	# <rac@gentoo.org> (14 Feb 2003)
 	# reinstated to try to avoid sdl segfaults 03.10.02
-	cd ${S}; epatch ${FILESDIR}/${PN}-prelink-lpthread.patch
+	cd "${S}"; epatch "${FILESDIR}"/${PN}-prelink-lpthread.patch
 
 	# Patch perldoc to not abort when it attempts to search
 	# nonexistent directories; fixes bug #16589.
@@ -81,19 +81,19 @@ src_unpack() {
 	# site -> vendor -> core.
 
 	# TODO: Holy crap, we'll need to re-patch this.
-	#cd ${S}; epatch ${FILESDIR}/${P}-reorder-INC.patch
+	#cd "${S}"; epatch "${FILESDIR}"/${P}-reorder-INC.patch
 
 	# some well-intentioned stuff in http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&selm=Pine.SOL.4.10.10205231231200.5399-100000%40maxwell.phys.lafayette.edu
 	# attempts to avoid bringing cccdlflags to bear on static
 	# extensions (like DynaLoader).  i believe this is
 	# counterproductive on a Gentoo system which has both a shared
 	# and static libperl, so effectively revert this here.
-	cd ${S}; epatch ${FILESDIR}/${PN}-picdl.patch
+	cd "${S}"; epatch "${FILESDIR}"/${PN}-picdl.patch
 
 	# We do not want the build root in the linked perl module's RUNPATH, so
 	# strip paths containing PORTAGE_TMPDIR if its set.  This is for the
 	# MakeMaker module, bug #105054.
-	#epatch ${FILESDIR}/${PN}-5.8.7-MakeMaker-RUNPATH.patch
+	#epatch "${FILESDIR}"/${PN}-5.8.7-MakeMaker-RUNPATH.patch
 
 	# TODO: Is this relevant in 5.10?
 
@@ -103,19 +103,19 @@ src_unpack() {
 	# temporally disable ssp on two regexp files till upstream has a
 	# chance to work it out. Bug #97452
 	[[ -n $(test-flags -fno-stack-protector) ]] && \
-		epatch ${FILESDIR}/${P}-regexp-nossp.patch
+		epatch "${FILESDIR}"/${P}-regexp-nossp.patch
 
 
-# 	[[ ${CHOST} == *-dragonfly* ]] && cd ${S} && epatch ${FILESDIR}/${P}-dragonfly-clean.patch
-# 	cd ${S}; epatch ${FILESDIR}/${P}-USE_MM_LD_RUN_PATH.patch
-# 	cd ${S}; epatch ${FILESDIR}/${P}-links.patch
+# 	[[ ${CHOST} == *-dragonfly* ]] && cd "${S}" && epatch "${FILESDIR}"/${P}-dragonfly-clean.patch
+# 	cd "${S}"; epatch "${FILESDIR}"/${P}-USE_MM_LD_RUN_PATH.patch
+# 	cd "${S}"; epatch "${FILESDIR}"/${P}-links.patch
 # 	# c++ patch - should address swig related items
-# 	cd ${S}; epatch ${FILESDIR}/${P}-cplusplus.patch
+# 	cd "${S}"; epatch "${FILESDIR}"/${P}-cplusplus.patch
 
-	has_version '>sys-devel/gcc-4.1.9999' && epatch ${FILESDIR}/${P}-gcc42-command-line.patch
+	has_version '>sys-devel/gcc-4.1.9999' && epatch "${FILESDIR}"/${P}-gcc42-command-line.patch
 #	has_version '>=sys-kernel/linux-headers' && \
 #	has_version '>=sys-devel/gcc-4.1' \
-#		&& epatch ${FILESDIR}/${P}-SysV_makefile.patch
+#		&& epatch "${FILESDIR}"/${P}-SysV_makefile.patch
 
 }
 
@@ -291,16 +291,16 @@ src_install() {
 	fi
 	make DESTDIR="${D}" ${installtarget} || die "Unable to make ${installtarget}"
 
-	rm ${D}/usr/bin/perl
+	rm "${D}"/usr/bin/perl
 	TODO: eselect?
-	ln -s perl${MY_PV} ${D}/usr/bin/perl
+	ln -s perl${MY_PV} "${D}"/usr/bin/perl
 
 	cp -f utils/h2ph utils/h2ph_patched
-	epatch ${FILESDIR}/${PN}-h2ph-ansi-header.patch
+	epatch "${FILESDIR}"/${PN}-h2ph-ansi-header.patch
 
 
 	LD_LIBRARY_PATH=. ./perl -Ilib utils/h2ph_patched \
-		-a -d ${D}/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading} <<EOF
+		-a -d "${D}"/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading} <<EOF
 asm/termios.h
 syscall.h
 syslimits.h
@@ -312,11 +312,11 @@ wait.h
 EOF
 
 	# This is to fix a missing c flag for backwards compat
-	for i in `find ${D}/usr/$(get_libdir)/perl5 -iname "Config.pm"`;do
+	for i in `find "${D}"/usr/$(get_libdir)/perl5 -iname "Config.pm"`;do
 		sed -e "s:ccflags=':ccflags='-DPERL5 :" \
 		    -e "s:cppflags=':cppflags='-DPERL5 :" \
-			${i} > ${i}.new &&\
-			mv ${i}.new ${i} || die "Sed failed"
+			"${i}" > "${i}".new &&\
+			mv "${i}".new "${i}" || die "Sed failed"
 	done
 
 	# A poor fix for the miniperl issues
@@ -326,15 +326,15 @@ EOF
 	fperms 0755 /usr/bin/xsubpp
 
 	# This removes ${D} from Config.pm and .packlist
-	for i in `find ${D} -iname "Config.pm"` `find ${D} -iname ".packlist"`;do
+	for i in `find "${D}" -iname "Config.pm"` `find "${D}" -iname ".packlist"`;do
 		einfo "Removing ${D} from ${i}..."
-		sed -e "s:${D}::" ${i} > ${i}.new &&\
-			mv ${i}.new ${i} || die "Sed failed"
+		sed -e "s:${D}::" "${i}" > "${i}".new &&\
+			mv "${i}".new "${i}" || die "Sed failed"
 	done
 
 	# Note: find out from psm why we would need/want this.
 	# ( use berkdb && has_version '=sys-libs/db-1*' ) ||
-	#	find ${D} -name "*NDBM*" | xargs rm -f
+	#	find "${D}" -name "*NDBM*" | xargs rm -f
 
 	dodoc Changes* Artistic Copying README Todo* AUTHORS
 
@@ -351,25 +351,25 @@ EOF
 			--htmldir="${D}/usr/share/doc/${PF}/html" \
 			--libpods='perlfunc:perlguts:perlvar:perlrun:perlop'
 	fi
-	cd `find ${D} -name Path.pm|sed -e 's/Path.pm//'`
+	cd `find "${D}" -name Path.pm|sed -e 's/Path.pm//'`
 	# CAN patch in bug 79685
-	#epatch ${FILESDIR}/${P}-CAN-2005-0448-rmtree.patch
+	#epatch "${FILESDIR}"/${P}-CAN-2005-0448-rmtree.patch
 
 	# Remove those items we PDPEND on
-	rm -f ${D}/usr/bin/pod2usage
-	rm -f ${D}/usr/bin/podchecker
-	rm -f ${D}/usr/bin/podselect
-	rm -f ${D}/usr/bin/prove
-	rm -f ${D}/usr/share/man/man1/pod2usage*
-	rm -f ${D}/usr/share/man/man1/podchecker*
-	rm -f ${D}/usr/share/man/man1/podselect*
-	rm -f ${D}/usr/share/man/man1/prove*
+	rm -f "${D}"/usr/bin/pod2usage
+	rm -f "${D}"/usr/bin/podchecker
+	rm -f "${D}"/usr/bin/podselect
+	rm -f "${D}"/usr/bin/prove
+	rm -f "${D}"/usr/share/man/man1/pod2usage*
+	rm -f "${D}"/usr/share/man/man1/podchecker*
+	rm -f "${D}"/usr/share/man/man1/podselect*
+	rm -f "${D}"/usr/share/man/man1/prove*
 	if use build ; then
 		src_remove_extra_files
 	fi
 
 	# TODO: Ugly. renaming the files for SLOTting
-	cd ${D}/usr/bin
+	cd "${D}"/usr/bin
 	for bin in "a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh libnetcfg perlbug perldoc perlivp piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff s2p shasum splain xsubpp"; do
 		mv $bin ${bin}.${MY_PV}
 	done
@@ -557,12 +557,12 @@ src_remove_extra_files()
 		${bindir}/sperl${MY_PV}"
 	fi
 
-	pushd ${D} > /dev/null
+	pushd "${D}" > /dev/null
 	# Remove cruft
 	einfo "Removing files that are not in the minimal install"
 	echo "${MINIMAL_PERL_INSTALL}"
 	for f in $(find . -type f); do
-		has ${f} ${MINIMAL_PERL_INSTALL} || rm -f ${f}
+		has "${f}" ${MINIMAL_PERL_INSTALL} || rm -f "${f}"
 	done
 	# Remove empty directories
 	find . -depth -type d | xargs -r rmdir &> /dev/null
@@ -574,18 +574,18 @@ pkg_postinst() {
 	if [ "${ROOT}" = "/" ]
 	then
 		ebegin "Removing old .ph files"
-		for DIR in $INC; do
-			if [ -d ${ROOT}/$DIR ]; then
-				for file in $(find ${ROOT}/$DIR -name "*.ph" -type f); do
-					rm ${ROOT}/$file
-					einfo "<< $file"
+		for DIR in ${INC}; do
+			if [ -d "${ROOT}/${DIR}" ]; then
+				for file in $(find "${ROOT}/${DIR}" -name "*.ph" -type f); do
+					rm "${ROOT}/${file}"
+					einfo "<< ${file}"
 				done
 			fi
 		done
 		# Silently remove the now empty dirs
-		for DIR in $INC; do
-		   if [ -d ${ROOT}/$DIR ]; then
-		   	find ${ROOT}/$DIR -depth -type d | xargs -r rmdir &> /dev/null
+		for DIR in ${INC}; do
+		   if [ -d "${ROOT}/${DIR}" ]; then
+		   	find "${ROOT}/${DIR}" -depth -type d | xargs -r rmdir &> /dev/null
 		   fi
 		done
 		ebegin "Generating ConfigLocal.pm (ignore any error)"
@@ -628,5 +628,4 @@ cleaner_msg() {
 	eerror "for more information or to report a bug."
 	eerror ""
 	eerror ""
-
 }
