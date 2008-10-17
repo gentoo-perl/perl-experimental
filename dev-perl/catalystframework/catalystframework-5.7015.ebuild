@@ -14,6 +14,6 @@ S=${WORKDIR}
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Task-Catalyst-2.0001
+	>=dev-perl/Task-Catalyst-3.0000
 	dev-perl/Catalyst-Manual
 "
