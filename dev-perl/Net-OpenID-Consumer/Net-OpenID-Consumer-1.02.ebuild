@@ -4,9 +4,9 @@
 
 inherit perl-module
 
-DESCRIPTION="A postmodern object system for Perl 5"
+DESCRIPTION="Library for consumers of OpenID identities"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/S/ST/STEVAN/${P}.tar.gz"
+SRC_URI="mirror://cpan/authors/id/M/MA/MART/${P}.tar.gz"
 RESTRICT="nomirror"
 LICENSE="|| ( Artistic GPL-2 )"
 
@@ -15,7 +15,10 @@ KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc 
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Class-MOP-0.59
-	>=dev-perl/Sub-Exporter-0.972
+	dev-perl/libwww-perl
+	dev-perl/Digest-SHA1
+	dev-perl/URI
+	dev-perl/XML-Simple
+	dev-perl/Crypt-DH
 "
 
