@@ -2,16 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
+MODULE_AUTHOR=BPGN
 inherit perl-module
 
 DESCRIPTION="A class for european VAT numbers validation."
-HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/B/BP/BPGN/${P}.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 ppc-macos s390 sh sparc sparc-fbsd x86 x86-fbsd"
-RESTRICT="nomirror"
+KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="

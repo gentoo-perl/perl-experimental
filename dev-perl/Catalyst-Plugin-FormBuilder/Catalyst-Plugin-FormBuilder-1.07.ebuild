@@ -10,8 +10,7 @@ SRC_URI="mirror://cpan/authors/id/N/NW/NWIGER/${P}.tgz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~ppc-macos ~s390 ~sh ~sparc ~x86"
-RESTRICT="nomirror"
+KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
