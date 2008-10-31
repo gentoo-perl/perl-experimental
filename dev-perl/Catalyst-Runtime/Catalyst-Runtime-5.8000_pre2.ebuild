@@ -10,7 +10,7 @@ SRC_URI="mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Runtime-5.8000_02.tar.g
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="M~amd64 M~x86"
 
 S="${WORKDIR}/Catalyst-Runtime-5.8000_02"
 
