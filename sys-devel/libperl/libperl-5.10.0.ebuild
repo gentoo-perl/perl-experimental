@@ -68,7 +68,7 @@ HOMEPAGE="http://www.perl.org"
 SLOT="${PERLSLOT}"
 LIBPERL="libperl$(get_libname ${PERLSLOT}.${SHORT_PV})"
 LICENSE="|| ( Artistic GPL-2 )"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
 
 # rac 2004.08.06
 
@@ -93,10 +93,9 @@ PDEPEND="~dev-lang/perl-${PV}"
 pkg_setup() {
 	# I think this should rather be displayed if you *have* 'ithreads'
 	# in USE if it could break things ...
-	if use ithreads
-	then
+	if use ithreads ; then
 		ewarn ""
-		ewarn "PLEASE NOTE: You are compiling perl-5.9 with"
+		ewarn "PLEASE NOTE: You are compiling perl-5.10 with"
 		ewarn "interpreter-level threading enabled."
 		ewarn "Threading is not supported by all applications "
 		ewarn "that compile against perl. You use threading at "
@@ -107,7 +106,6 @@ pkg_setup() {
 }
 
 src_unpack() {
-
 	unpack ${A}
 
 	# Fix the build scripts to create libperl with a soname of ${SLOT}.
@@ -121,7 +119,7 @@ src_unpack() {
 	#
 	cd "${S}";
 	# TODO: I guess we need this patch
-	#use userland_Darwin || epatch "${FILESDIR}"/${P}-create-libperl-soname.patch
+	use userland_Darwin || epatch "${FILESDIR}"/${P}-create-libperl-soname.patch
 
 	# Configure makes an unwarranted assumption that /bin/ksh is a
 	# good shell. This patch makes it revert to using /bin/sh unless
@@ -177,8 +175,7 @@ src_compile() {
 		*) osname="linux" ;;
 	esac
 
-	if use ithreads
-	then
+	if use ithreads ; then
 		einfo "using ithreads"
 		mythreading="-multi"
 		myconf -Dusethreads
@@ -197,40 +194,34 @@ src_compile() {
 	mygdbm='U'
 	mydb='U'
 
-	if use gdbm
-	then
+	if use gdbm ; then
 		mygdbm='D'
 		myndbm='D'
 	fi
-	if use berkdb
-	then
+	if use berkdb ; then
 		mydb='D'
 		has_version '=sys-libs/db-1*' && myndbm='D'
 	fi
 
 	myconf "-${myndbm}i_ndbm" "-${mygdbm}i_gdbm" "-${mydb}i_db"
 
-	if use mips
-	then
+	if use mips ; then
 		# this is needed because gcc 3.3-compiled kernels will hang
 		# the machine trying to run this test - check with `Kumba
 		# <rac@gentoo.org> 2003.06.26
 		myconf -Dd_u32align
 	fi
 
-	if use debug
-	then
+	if use debug ; then
 		CFLAGS="${CFLAGS} -g"
 		myconf -DDEBUGGING
 	fi
 
-	if use sparc
-	then
+	if use sparc ; then
 		myconf -Ud_longdbl
 	fi
 
-	if use alpha && "$(tc-getCC)" == "ccc"
-	then
+	if use alpha && [[ "$(tc-getCC)" == "ccc" ]] ; then
 		ewarn "Perl will not be built with berkdb support, use gcc if you needed it..."
 		myconf -Ui_db -Ui_ndbm
 	fi
@@ -274,29 +265,26 @@ src_compile() {
 src_install() {
 	export LC_ALL="C"
 
-		dolib.so "${WORKDIR}"/${LIBPERL}
-		dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${PERLSLOT})
+	dolib.so "${WORKDIR}"/${LIBPERL}
+	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${PERLSLOT})
 }
 
 pkg_postinst() {
-
 	# Make sure we do not have stale/invalid libperl.so 's ...
-	if [ -f "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" -a ! -L "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" ]
-	then
-		mv -f "${ROOT}"usr/$(get_libdir)/libperl$(get_libname) "${ROOT}"usr/$(get_libdir)/libperl$(get_libname).old
+	if [[ -f "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" && \
+		! -L "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" ]] ; then
+		mv -f "${ROOT}"usr/$(get_libdir)/libperl$(get_libname){,.old}
 	fi
 
 	# Next bit is to try and setup the /usr/lib/libperl.so symlink
 	# properly ...
 	local libnumber="`ls -1 ${ROOT}usr/$(get_libdir)/libperl$(get_libname ?.*) | grep -v '\.old' | wc -l`"
-	if [ "${libnumber}" -eq 1 ]
-	then
+	if [[ "${libnumber}" -eq 1 ]] ; then
 		# Only this version of libperl is installed, so just link libperl.so
 		# to the *soname* version of it ...
 		ln -snf libperl$(get_libname ${PERLSLOT}) "${ROOT}"usr/$(get_libdir)/libperl$(get_libname)
 	else
-		if [ -x "${ROOT}/usr/bin/perl" ]
-		then
+		if [[ -x "${ROOT}/usr/bin/perl" ]] ; then
 			# OK, we have more than one version .. first try to figure out
 			# if there are already a perl installed, if so, link libperl.so
 			# to that *soname* version of libperl.so ...
@@ -310,8 +298,7 @@ pkg_postinst() {
 
 			# Nope, we are not so lucky ... try to figure out what version
 			# is the latest, and keep fingers crossed ...
-			for x in `ls -1 "${ROOT}"usr/$(get_libdir)/libperl$(get_libname ?.*)`
-			do
+			for x in `ls -1 "${ROOT}"usr/$(get_libdir)/libperl$(get_libname ?.*)` ; do
 				latest="${x}"
 			done
 
@@ -321,4 +308,3 @@ pkg_postinst() {
 		fi
 	fi
 }
-
