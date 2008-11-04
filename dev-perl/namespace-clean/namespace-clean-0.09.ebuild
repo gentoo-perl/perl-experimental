@@ -2,18 +2,17 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=KARMAN
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
-DESCRIPTION="Authentication from an LDAP Directory."
-
-IUSE=""
+DESCRIPTION="Keep imports and functions out of your namespace"
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
+IUSE=""
 DEPEND="
-	dev-perl/perl-ldap
-	>=dev-perl/Catalyst-Plugin-Authentication-1.0003
+	dev-perl/B-Hooks-EndOfScope
 "
+

@@ -5,7 +5,7 @@
 MODULE_AUTHOR=RJBS
 inherit perl-module
 
-DESCRIPTION="a sophisticated exporter for custom-built routines"
+DESCRIPTION="A sophisticated exporter for custom-built routines"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"

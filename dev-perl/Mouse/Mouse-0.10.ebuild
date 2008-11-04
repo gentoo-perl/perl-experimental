@@ -12,8 +12,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
-	dev-perl/MRO-Compat
-	>=dev-perl/Class-Method-Modifiers-1.01
-"
+DEPEND=""
 

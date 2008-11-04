@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=SARTAK
+MODULE_AUTHOR=DROLSKY
 inherit perl-module
 
-DESCRIPTION="Moose minus the antlers"
+DESCRIPTION="A postmodern object system for Perl 5"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,8 +13,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Sub-Exporter
-	dev-perl/MRO-Compat
-	>=dev-perl/Class-Method-Modifiers-1.01
+	>=dev-perl/Class-MOP-0.68
+	dev-perl/List-MoreUtils
+	>=dev-perl/Sub-Exporter-0.972
 "
 

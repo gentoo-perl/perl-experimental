@@ -16,5 +16,6 @@ DEPEND="
 	>=dev-perl/Sub-Name-0.04
 	>=dev-perl/Sub-Identify-0.03
 	>=dev-perl/MRO-Compat-0.05
+	dev-perl/Devel-GlobalDestruction
 "
 

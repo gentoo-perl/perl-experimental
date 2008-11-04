@@ -15,6 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/Catalyst-Plugin-Authentication-0.10005
+	>=dev-perl/Catalyst-Plugin-Authentication-0.10008
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.18
 	dev-perl/DBIx-Class
 "
