@@ -6,7 +6,6 @@ MODULE_AUTHOR=GAAS
 inherit perl-module
 
 DESCRIPTION="Pretty printing of data structures"
-HOMEPAGE="http://www.cpan.org/modules/by-authors/id/G/GA/GAAS/${P}.readme"
 
 IUSE=""
 
