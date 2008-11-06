@@ -19,7 +19,6 @@ DEPEND="
 	>=dev-perl/DBIx-Class-Validation-0.02000
 	>=dev-perl/Data-Currency-0.04002
 	>=dev-perl/Class-Accessor-Grouped-0.03
-	dev-perl/Class-ISA
 	dev-perl/Class-Inspector
 	dev-perl/Clone
 	>=dev-perl/Error-0.14
@@ -37,6 +36,9 @@ DEPEND="
 		>=dev-perl/Catalyst-Runtime-5.7007
 		>=dev-perl/Catalyst-Devel-1.02
 		dev-perl/Catalyst-View-TT
+		dev-perl/Catalyst-Plugin-Session
+		dev-perl/Catalyst-Plugin-Session-Store-File
+		dev-perl/Catalyst-Plugin-Session-State-Cookie
 		dev-perl/yaml
 		dev-perl/HTML-FillInForm
 	)
