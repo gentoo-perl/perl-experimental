@@ -3,3 +3,8 @@
 
 ~dev-lang/perl-5.10.0
 ~sys-devel/libperl-5.10.0
+
+# Michele Beltrame <mb@italpro.net> (8 Novr 2008)
+# Masked for testing.
+
+=dev-perl/Catalyst-Runtime-5.8000_pre3
