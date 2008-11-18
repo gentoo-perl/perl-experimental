@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-perl/Test-Exception-0.15
 	>=dev-perl/Algorithm-C3-0.05
 	dev-perl/Class-C3-XS

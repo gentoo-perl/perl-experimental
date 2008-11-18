@@ -15,6 +15,6 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	>=dev-perl/Module-Install-0.65
-	dev-perl/Compress-Zlib
+	virtual/perl-Compress-Zlib
 "
 

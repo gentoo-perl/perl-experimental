@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/Compress-Zlib-1.30
+	>=virtual/perl-Compress-Zlib-1.30
 	>=dev-perl/Archive-Zip-1.00
 	>=dev-perl/PAR-Dist-0.22
 	dev-perl/Digest-SHA1

@@ -13,7 +13,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-    dev-perl/version
+    virtual/perl-version
 	dev-perl/Crypt-SSLeay
 	dev-perl/JSON-Any
     dev-perl/libwww-perl

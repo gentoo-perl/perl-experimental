@@ -19,5 +19,5 @@ DEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/crypt-cbc
 	dev-perl/Crypt-Rijndael
-	dev-perl/Digest-SHA
+	virtual/perl-Digest-SHA
 "

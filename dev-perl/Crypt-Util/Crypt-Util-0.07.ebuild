@@ -18,7 +18,7 @@ DEPEND="
 	dev-perl/Data-GUID
 	dev-perl/crypt-cbc
 	dev-perl/Crypt-Rijndael
-	dev-perl/Digest-SHA
+	virtual/perl-Digest-SHA
 "
 
 pkg_setup() {

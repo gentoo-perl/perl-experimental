@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-lang/perl-5.8.1
 	>=dev-perl/Catalyst-5.5
 	dev-perl/ImageSize

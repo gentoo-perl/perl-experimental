@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	dev-perl/ImageSize
 	>=dev-perl/Date-Calc-5.0
 	>=dev-perl/File-MMagic-1.17

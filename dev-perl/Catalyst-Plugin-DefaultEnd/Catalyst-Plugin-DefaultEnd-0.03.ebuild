@@ -12,5 +12,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="dev-perl/module-build
+DEPEND="virtual/perl-Module-Build
 	dev-perl/Catalyst"

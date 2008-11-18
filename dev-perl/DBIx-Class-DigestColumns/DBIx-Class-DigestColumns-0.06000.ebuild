@@ -13,8 +13,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sqlite"
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-perl/DBIx-Class-0.06002
-	dev-perl/Digest-SHA
+	virtual/perl-Digest-SHA
 "
 

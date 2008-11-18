@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-perl/DBIx-Class-0.07000
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/UNIVERSAL-require-0.10

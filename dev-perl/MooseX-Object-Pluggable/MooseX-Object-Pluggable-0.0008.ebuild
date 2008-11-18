@@ -14,6 +14,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	>=dev-perl/Moose-0.35
-	dev-perl/Module-Pluggable
+	virtual/perl-Module-Pluggable
 "
 

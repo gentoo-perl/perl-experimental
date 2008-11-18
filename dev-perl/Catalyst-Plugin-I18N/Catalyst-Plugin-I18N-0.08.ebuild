@@ -14,6 +14,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	dev-perl/Locale-Maketext-Simple
+	virtual/perl-Locale-Maketext-Simple
 	dev-perl/locale-maketext-lexicon
 "

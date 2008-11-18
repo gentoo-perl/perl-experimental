@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-perl/Class-Factory-Util-1.6
 	>=dev-perl/DateTime-0.12
 	>=dev-perl/DateTime-Format-Strptime-1.04

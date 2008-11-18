@@ -14,5 +14,5 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="dev-perl/module-build"
+DEPEND="virtual/perl-Module-Build"
 

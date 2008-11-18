@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-perl/Catalyst-5.20
 	>=dev-perl/HTML-SuperForm-1.04
 "

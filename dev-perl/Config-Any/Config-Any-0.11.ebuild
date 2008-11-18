@@ -13,5 +13,5 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Module-Pluggable-3.01
+	>=virtual/perl-Module-Pluggable-3.01
 "

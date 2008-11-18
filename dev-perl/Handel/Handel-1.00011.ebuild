@@ -19,11 +19,11 @@ DEPEND="
 	>=dev-perl/DBIx-Class-Validation-0.02000
 	>=dev-perl/Data-Currency-0.04002
 	>=dev-perl/Class-Accessor-Grouped-0.03
-	dev-perl/Class-ISA
+	virtual/perl-Class-ISA
 	dev-perl/Class-Inspector
 	dev-perl/Clone
 	>=dev-perl/Error-0.14
-	>=dev-perl/Module-Pluggable-3.1
+	>=virtual/perl-Module-Pluggable-3.1
 	>=dev-perl/Module-Starter-1.42
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-MySQL

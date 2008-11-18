@@ -32,8 +32,8 @@ DEPEND="
 	dev-perl/HTML-TokeParser-Simple
 	dev-perl/libwww-perl
 	dev-perl/List-MoreUtils
-	dev-perl/Locale-Maketext-Simple
-	dev-perl/Module-Pluggable
+	virtual/perl-Locale-Maketext-Simple
+	virtual/perl-Module-Pluggable
 	dev-perl/Pod-Help
 	dev-perl/Readonly
 	dev-perl/Regexp-Copy

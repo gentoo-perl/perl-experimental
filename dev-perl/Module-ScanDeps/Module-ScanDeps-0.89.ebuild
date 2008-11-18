@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
-	dev-perl/version
+	virtual/perl-Module-Build
+	virtual/perl-version
 "
 

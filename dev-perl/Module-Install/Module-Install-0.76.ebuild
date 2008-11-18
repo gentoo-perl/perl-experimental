@@ -16,11 +16,11 @@ DEPEND="
 	>=virtual/perl-Module-CoreList-2.15
 	>=virtual/perl-ExtUtils-Install-1.50
 	>=dev-perl/File-Remove-1.40
-	>=dev-perl/extutils-parsexs-2.19
+	>=virtual/perl-ExtUtils-ParseXS-2.19
 	>=dev-perl/YAML-Tiny-1.30
 	>=dev-perl/Module-ScanDeps-0.83
 	>=dev-perl/PAR-Dist-0.29
-	>=dev-perl/Archive-Tar-1.38
-	>=dev-perl/module-build-0.28.08
+	>=virtual/perl-Archive-Tar-1.38
+	>=virtual/perl-Module-Build-0.28.08
 "
 

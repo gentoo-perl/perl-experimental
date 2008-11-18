@@ -15,6 +15,6 @@ IUSE=""
 DEPEND="
 	>=dev-perl/Email-Address-1.80
 	>=dev-perl/Email-Simple-1.92
-	>=dev-perl/Module-Pluggable-2.97
+	>=virtual/perl-Module-Pluggable-2.97
 	>=dev-perl/Return-Value-1.28
 "

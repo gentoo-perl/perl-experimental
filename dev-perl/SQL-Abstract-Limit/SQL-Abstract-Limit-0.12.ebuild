@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="dev-perl/module-build
+DEPEND="virtual/perl-Module-Build
 	perl-core/Test-Simple
 	dev-perl/Test-Exception
 	dev-perl/DBI

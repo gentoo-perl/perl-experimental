@@ -14,7 +14,7 @@ IUSE=""
 
 DEPEND="
 	>=dev-perl/DBI-1.52
-	dev-perl/version
+	virtual/perl-version
 	dev-db/postgresql-base
 "
 

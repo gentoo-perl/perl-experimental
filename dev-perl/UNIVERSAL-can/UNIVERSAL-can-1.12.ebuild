@@ -12,5 +12,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="dev-perl/module-build
+DEPEND="virtual/perl-Module-Build
 	>=dev-lang/perl-5.6.0"

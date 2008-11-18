@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	>=dev-perl/Template-Toolkit-2.15
 	>=dev-perl/DateTime-0.32
 	>=dev-perl/DateTime-Format-Strptime-1.0700

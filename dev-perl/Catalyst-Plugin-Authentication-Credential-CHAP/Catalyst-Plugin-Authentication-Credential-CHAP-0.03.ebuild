@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/module-build
+	virtual/perl-Module-Build
 	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Authentication
