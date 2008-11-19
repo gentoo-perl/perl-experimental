@@ -2,16 +2,19 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=DROLSKY
+MODULE_AUTHOR=PERIGRIN
 inherit perl-module
 
-DESCRIPTION="Dispatches messages to one or more outputs"
+DESCRIPTION="JSON::Any - Wrapper Class for the various JSON classes."
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
+IUSE="json-xs json-syck"
 DEPEND="
-	virtual/perl-Module-Build
+	>=dev-perl/JSON-2.02
+	json-xs? ( dev-perl/JSON-XS )
+	json-syck? ( dev-perl/YAML-Syck )
 "
+

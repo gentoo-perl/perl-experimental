@@ -17,5 +17,6 @@ DEPEND="
 	>=dev-perl/Sub-Identify-0.03
 	>=dev-perl/MRO-Compat-0.05
 	dev-perl/Devel-GlobalDestruction
+	dev-perl/Task-Weaken
 "
 
