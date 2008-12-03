@@ -15,4 +15,5 @@ IUSE=""
 DEPEND="
 	virtual/perl-Module-Build
 	>=dev-perl/Config-Any-0.08
+	>=dev-perl/CGI-Application-4.10
 "
