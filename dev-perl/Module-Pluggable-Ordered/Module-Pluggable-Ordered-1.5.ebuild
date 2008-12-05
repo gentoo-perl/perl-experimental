@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=GRODITI
+MODULE_AUTHOR=APEIRON
 inherit perl-module
 
-DESCRIPTION="Automatic digest columns."
+DESCRIPTION="Call module plugins in a specified order"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,8 +13,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	virtual/perl-Module-Build
-	>=dev-perl/DBIx-Class-0.06002
-	virtual/perl-Digest-SHA
+	>=virtual/perl-Module-Pluggable-1.9
+	dev-perl/UNIVERSAL-require
 "
-

@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=GRODITI
+MODULE_AUTHOR=CREAMYG
 inherit perl-module
 
-DESCRIPTION="Automatic digest columns."
+DESCRIPTION="Perl interface to Snowball stemmers."
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,8 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	virtual/perl-Module-Build
-	>=dev-perl/DBIx-Class-0.06002
-	virtual/perl-Digest-SHA
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-ExtUtils-ParseXS
 "
 

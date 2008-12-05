@@ -13,8 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	virtual/perl-Module-Build
 	>=dev-perl/DBIx-Class-0.06002
-	virtual/perl-Digest-SHA
+	>=dev-perl/Sub-Name-0.04
 "
 
