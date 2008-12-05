@@ -38,6 +38,7 @@ DEPEND="
 	dev-perl/DateTime-Format-Mail
 	dev-perl/DBIx-Class-DateTime-Epoch
 	dev-perl/HTML-FormFu-Model-DBIC
+	dev-perl/DBIx-Class-HTML-FormFu
 	dev-perl/DBIx-Class-EncodedColumn
 	>=dev-perl/Module-Pluggable-Ordered-1.4
 	>=dev-perl/Data-Page-2.00
@@ -65,5 +66,3 @@ DEPEND="
 	>=dev-perl/DBIx-Class-0.08
 "
 
-# Hopefully not needed
-#	dev-perl/DBIx-Class-HTML-FormFu
