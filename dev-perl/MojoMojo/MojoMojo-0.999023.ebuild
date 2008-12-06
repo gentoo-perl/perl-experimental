@@ -64,5 +64,7 @@ DEPEND="
 	dev-perl/URI-Fetch
 	dev-perl/Text-Password-Pronounceable
 	>=dev-perl/DBIx-Class-0.08
+	dev-perl/SQL-Translator
+	>=dev-perl/Text-Markdown-1.0.17
 "
 
