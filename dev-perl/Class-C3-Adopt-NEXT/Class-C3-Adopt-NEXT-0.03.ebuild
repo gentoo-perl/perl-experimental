@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=DROLSKY
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
-DESCRIPTION="A postmodern object system for Perl 5"
+DESCRIPTION="Drop-in relacement for NEXT which uses Class::C3"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,7 +13,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Class-MOP-0.67
-	>=dev-perl/Sub-Exporter-0.972
+	dev-perl/MRO-Compat
 "
 
