@@ -2,14 +2,18 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=AGRUNDMA
+MODULE_AUTHOR=MARKSTOS
 inherit perl-module
 
-DESCRIPTION="HTTP Body Parser"
+DESCRIPTION="Framework for building reusable web-applications"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="dev-perl/yaml"
+DEPEND="
+	>=dev-perl/CGI-Application-3.2
+	dev-perl/Exception-Class
+	dev-perl/Exception-Class-TryCatch
+"

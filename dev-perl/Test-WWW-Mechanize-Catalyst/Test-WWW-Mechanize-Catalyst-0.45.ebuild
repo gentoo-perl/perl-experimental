@@ -14,7 +14,11 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/WWW-Mechanize-1.30
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/Test-WWW-Mechanize-1.04
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/libwww-perl
+	dev-perl/Test-Exception
+	>=dev-perl/Test-WWW-Mechanize-1.14
+	>=dev-perl/WWW-Mechanize-1.50
 "

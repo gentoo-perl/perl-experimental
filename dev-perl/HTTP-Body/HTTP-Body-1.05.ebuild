@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=WONKO
+MODULE_AUTHOR=AGRUNDMA
 inherit perl-module
 
-DESCRIPTION="Framework for building reusable web-applications"
+DESCRIPTION="HTTP Body Parser"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,8 +13,5 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Apache-Test-1.30
-	>=dev-perl/CGI-Application-3.2
-	dev-perl/Exception-Class
-	dev-perl/Exception-Class-TryCatch
+	>=dev-perl/yaml-0.39
 "
