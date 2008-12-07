@@ -14,7 +14,8 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/Catalyst-Plugin-Session
-	dev-perl/Class-Data-Inheritable
+	>=dev-perl/Catalyst-Runtime-5.65
+	>=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.02
+	dev-perl/Class-Accessor
 	dev-perl/DBIx-Class
 "
