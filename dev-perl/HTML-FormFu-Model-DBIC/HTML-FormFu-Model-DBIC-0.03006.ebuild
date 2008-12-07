@@ -5,7 +5,7 @@
 MODULE_AUTHOR=CFRANKS
 inherit perl-module
 
-DESCRIPTION="Catalyst controller for HTML::FormFu framework"
+DESCRIPTION="HTML Form Creation, Rendering and Validation Framework"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,9 +13,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Catalyst-Runtime
-	dev-perl/Config-Any
-	>=dev-perl/HTML-FormFu-0.03000
+	dev-perl/DateTime-Format-MySQL
+    dev-perl/DBD-SQLite
+    >=dev-perl/DBIx-Class-0.08002
+    >=dev-perl/HTML-FormFu-0.03003
 	dev-perl/Task-Weaken
 "
 

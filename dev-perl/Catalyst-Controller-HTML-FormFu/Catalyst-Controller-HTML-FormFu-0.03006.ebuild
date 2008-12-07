@@ -13,9 +13,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.70
+	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
-	|| ( >=dev-perl/HTML-FormFu-0.02000 dev-perl/HTML-FormFu-svn )
+	>=dev-perl/HTML-FormFu-0.03004
+	dev-perl/Moose
+	dev-perl/Regexp-Assemble
 	dev-perl/Task-Weaken
 "
 

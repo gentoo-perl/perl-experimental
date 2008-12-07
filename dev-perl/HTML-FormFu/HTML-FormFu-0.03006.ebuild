@@ -13,6 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
+	>=dev-perl/Captcha-reCAPTCHA-0.92
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Class-C3
 	>=dev-perl/Config-Any-0.10
@@ -33,6 +34,7 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	virtual/perl-Locale-Maketext-Simple
 	virtual/perl-Module-Pluggable
+	dev-perl/Readonly
 	dev-perl/Regexp-Copy
 	dev-perl/Regexp-Common
 	dev-perl/Task-Weaken
