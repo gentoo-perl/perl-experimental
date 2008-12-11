@@ -16,3 +16,9 @@ DEPEND="
 	>=dev-perl/Class-C3-0.19
 	>=dev-perl/Class-C3-XS-0.08
 "
+
+# To be added when perl 5.10 is unmasked
+#	|| (
+#		>=dev-lang/perl-5.10.0
+#		( >=dev-perl/Class-C3-0.19 >=dev-perl/Class-C3-XS-0.08 )
+#	)
