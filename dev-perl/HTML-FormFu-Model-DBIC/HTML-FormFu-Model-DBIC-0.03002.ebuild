@@ -14,9 +14,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	dev-perl/DateTime-Format-MySQL
-    dev-perl/DBD-SQLite
-    >=dev-perl/DBIx-Class-0.08002
-    >=dev-perl/HTML-FormFu-0.03002
+	dev-perl/DBD-SQLite
+	>=dev-perl/DBIx-Class-0.08002
+	>=dev-perl/HTML-FormFu-0.03002
 	dev-perl/Task-Weaken
 "
 

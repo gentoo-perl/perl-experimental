@@ -11,7 +11,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="r"
+IUSE=""
 DEPEND="
 	>=dev-perl/Sub-Name-0.04
 	>=dev-perl/Sub-Identify-0.03
