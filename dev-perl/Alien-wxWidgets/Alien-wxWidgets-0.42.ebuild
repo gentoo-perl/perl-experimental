@@ -13,7 +13,7 @@ DESCRIPTION="Building, finding and using wxWidgets binaries"
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~ia64 ~x86"
-IUSE="unicode"
+IUSE="test unicode"
 
 SRC_TEST="do"
 
@@ -21,7 +21,10 @@ RDEPEND="dev-lang/perl
 	x11-libs/wxGTK:2.8
 	>=virtual/perl-Module-Pluggable-3.1-r1"
 DEPEND="${RDEPEND}
-	virtual/perl-Module-Build"
+	>=virtual/perl-ExtUtils-CBuilder-0.24
+	virtual/perl-Module-Build
+	test? ( >=dev-perl/Test-Pod-1.00
+		>=dev-perl/Test-Pod-Coverage-1.00 )"
 
 perl-module_src_prep() {
 	perlinfo
