@@ -16,6 +16,6 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.7012
 	>=dev-perl/Cookie-XS-0.08
 	>=dev-perl/HTTP-Body-1.01
-	>=dev-perl/Net-Server-0.97
+	>=dev-perl/net-server-0.97
 	>=dev-perl/HTTP-HeaderParser-XS-0.20
 "
