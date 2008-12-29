@@ -107,39 +107,12 @@ pkg_setup() {
 
 src_unpack() {
 	unpack ${A}
+	cd "${S}"
 
-	# Fix the build scripts to create libperl with a soname of ${SLOT}.
-	# We basically add:
-	#
-	#   -Wl,-soname -Wl,libperl.so.`echo $(LIBPERL) | cut -d. -f3`
-	#
-	# to the line that links libperl.so, and then set LIBPERL to:
-	#
-	#   LIBPERL=libperl.so.${SLOT}.`echo ${PV} | cut -d. -f1,2`
-	#
-	cd "${S}";
-	# TODO: I guess we need this patch
-	use userland_Darwin || epatch "${FILESDIR}"/${P}-create-libperl-soname.patch
-
-	# Configure makes an unwarranted assumption that /bin/ksh is a
-	# good shell. This patch makes it revert to using /bin/sh unless
-	# /bin/ksh really is executable. Should fix bug 42665.
-	# rac 2004.06.09
-	cd "${S}"; epatch "${FILESDIR}"/${PN}-noksh.patch
-
-	# we need the same @INC-inversion magic here we do in perl
-	#cd "${S}"; epatch "${FILESDIR}"/${P}-reorder-INC.patch
-
-	# On PA7200, uname -a contains a single quote and we need to
-	# filter it otherwise configure fails. See #125535.
-	#epatch "${FILESDIR}"/perl-hppa-pa7200-configure.patch
-
-
-#	use amd64 && cd "${S}" && epatch "${FILESDIR}"/${P}-lib64.patch
-#	[[ ${CHOST} == *-dragonfly* ]] && cd "${S}" && epatch "${FILESDIR}"/${P}-dragonfly-clean.patch
-#	[[ ${CHOST} == *-freebsd* ]] && cd "${S}" && epatch "${FILESDIR}"/${P}-fbsdhints.patch
-#	cd "${S}"; epatch "${FILESDIR}"/${P}-cplusplus.patch
-#	has_version '>=sys-devel/gcc-4.2' && epatch "${FILESDIR}"/${P}-gcc42-command-line.patch
+	EPATCH_SOURCE="${FILESDIR}/${PV}" \
+	EPATCH_FORCE="yes" \
+	EPATCH_SUFFIX="patch" \
+		epatch
 }
 
 myconf() {
