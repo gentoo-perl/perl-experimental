@@ -17,7 +17,7 @@ DEPEND="
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Class-C3
 	>=dev-perl/Config-Any-0.10
-	dev-perl/Crypt-CBC
+	dev-perl/crypt-cbc
 	dev-perl/Crypt-DES
 	dev-perl/Data-Visitor
 	dev-perl/Date-Calc
