@@ -37,6 +37,9 @@ PDEPEND=">=app-admin/perl-cleaner-1.03
 		!build? (
 			>=perl-core/PodParser-1.35
 			>=perl-core/Test-Harness-2.64
+			>=perl-core/Module-Build-0.28.08
+			>=perl-core/Archive-Tar-1.38
+			>=perl-core/Digest-SHA-5.45
 		)"
 
 pkg_setup() {
@@ -61,59 +64,12 @@ pkg_setup() {
 
 src_unpack() {
 	unpack ${A}
+	cd "${S}"
 
-	# Get -lpthread linked before -lc.  This is needed
-	# when using glibc >= 2.3, or else runtime signal
-	# handling breaks.  Fixes bug #14380.
-	# <rac@gentoo.org> (14 Feb 2003)
-	# reinstated to try to avoid sdl segfaults 03.10.02
-	cd "${S}"; epatch "${FILESDIR}"/${PN}-prelink-lpthread.patch
-
-	# Patch perldoc to not abort when it attempts to search
-	# nonexistent directories; fixes bug #16589.
-	# <rac@gentoo.org> (28 Feb 2003)
-
-	# this lays the groundwork for solving the issue of what happens
-	# when people (or ebuilds) install different versiosn of modules
-	# that are in the core, by rearranging the @INC directory to look
-	# site -> vendor -> core.
-
-	# TODO: Holy crap, we'll need to re-patch this.
-	#cd "${S}"; epatch "${FILESDIR}"/${P}-reorder-INC.patch
-
-	# some well-intentioned stuff in http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&selm=Pine.SOL.4.10.10205231231200.5399-100000%40maxwell.phys.lafayette.edu
-	# attempts to avoid bringing cccdlflags to bear on static
-	# extensions (like DynaLoader).  i believe this is
-	# counterproductive on a Gentoo system which has both a shared
-	# and static libperl, so effectively revert this here.
-	cd "${S}"; epatch "${FILESDIR}"/${PN}-picdl.patch
-
-	# We do not want the build root in the linked perl module's RUNPATH, so
-	# strip paths containing PORTAGE_TMPDIR if its set.  This is for the
-	# MakeMaker module, bug #105054.
-	#epatch "${FILESDIR}"/${PN}-5.8.7-MakeMaker-RUNPATH.patch
-
-	# TODO: Is this relevant in 5.10?
-
-	# Starting and hopefully ending with 5.8.7 we observe stack
-	# corruption with the regexp handling in perls DynaLoader code
-	# with ssp enabled. This become fatal during compile time so we
-	# temporally disable ssp on two regexp files till upstream has a
-	# chance to work it out. Bug #97452
-	[[ -n $(test-flags -fno-stack-protector) ]] && \
-		epatch "${FILESDIR}"/${P}-regexp-nossp.patch
-
-
-# 	[[ ${CHOST} == *-dragonfly* ]] && cd "${S}" && epatch "${FILESDIR}"/${P}-dragonfly-clean.patch
-# 	cd "${S}"; epatch "${FILESDIR}"/${P}-USE_MM_LD_RUN_PATH.patch
-# 	cd "${S}"; epatch "${FILESDIR}"/${P}-links.patch
-# 	# c++ patch - should address swig related items
-# 	cd "${S}"; epatch "${FILESDIR}"/${P}-cplusplus.patch
-
-	has_version '>sys-devel/gcc-4.1.9999' && epatch "${FILESDIR}"/${P}-gcc42-command-line.patch
-#	has_version '>=sys-kernel/linux-headers' && \
-#	has_version '>=sys-devel/gcc-4.1' \
-#		&& epatch "${FILESDIR}"/${P}-SysV_makefile.patch
+	EPATCH_SOURCE="${FILESDIR}/${PV}" \
+	EPATCH_FORCE="yes" \
+	EPATCH_SUFFIX="patch" \
+	epatch
 }
 
 myconf() {
@@ -279,23 +235,23 @@ src_install() {
 	make DESTDIR="${D}" ${installtarget} || die "Unable to make ${installtarget}"
 
 	rm "${D}"/usr/bin/perl
-	TODO: eselect?
+	#TODO: eselect?
 	ln -s perl${MY_PV} "${D}"/usr/bin/perl
 
-	cp -f utils/h2ph utils/h2ph_patched
-	epatch "${FILESDIR}"/${PN}-h2ph-ansi-header.patch
-
-	LD_LIBRARY_PATH=. ./perl -Ilib utils/h2ph_patched \
-		-a -d "${D}"/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading} <<EOF
-asm/termios.h
-syscall.h
-syslimits.h
-syslog.h
-sys/ioctl.h
-sys/socket.h
-sys/time.h
-wait.h
-EOF
+#	cp -f utils/h2ph utils/h2ph_patched
+#	epatch "${FILESDIR}"/${PN}-h2ph-ansi-header.patch
+#
+#	LD_LIBRARY_PATH=. ./perl -Ilib utils/h2ph_patched \
+#		-a -d "${D}"/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading} <<EOF
+#asm/termios.h
+#syscall.h
+#syslimits.h
+#syslog.h
+#sys/ioctl.h
+#sys/socket.h
+#sys/time.h
+#wait.h
+#EOF
 
 	# This is to fix a missing c flag for backwards compat
 	for i in $(find "${D}"/usr/$(get_libdir)/perl5 -iname "Config.pm" ) ; do
@@ -314,7 +270,7 @@ EOF
 	# This removes ${D} from Config.pm and .packlist
 	for i in $(find "${D}" -iname "Config.pm" -o -iname ".packlist" ) ; do
 		einfo "Removing ${D} from ${i}..."
-		dosed "${i}" || die "Sed failed"
+		sed -i -e "s:${D}::" "${i}" || die "Sed failed"
 	done
 
 	# Note: find out from psm why we would need/want this.
@@ -344,10 +300,18 @@ EOF
 	rm -f "${D}"/usr/bin/podchecker
 	rm -f "${D}"/usr/bin/podselect
 	rm -f "${D}"/usr/bin/prove
+	rm -f "${D}"/usr/bin/ptardiff
+	rm -f "${D}"/usr/bin/ptar
+	rm -f "${D}"/usr/bin/config_data
+	rm -f "${D}"/usr/bin/shasum
 	rm -f "${D}"/usr/share/man/man1/pod2usage*
 	rm -f "${D}"/usr/share/man/man1/podchecker*
 	rm -f "${D}"/usr/share/man/man1/podselect*
 	rm -f "${D}"/usr/share/man/man1/prove*
+	rm -f "${D}"/usr/share/man/man1/ptardiff*
+	rm -f "${D}"/usr/share/man/man1/ptar*
+	rm -f "${D}"/usr/share/man/man1/config_data*
+	rm -f "${D}"/usr/share/man/man1/shasum*
 	if use build ; then
 		src_remove_extra_files
 	fi
