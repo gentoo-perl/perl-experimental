@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=DROLSKY
+MODULE_AUTHOR=JUERD
 inherit perl-module
 
-DESCRIPTION="A Meta Object Protocol for Perl 5"
+DESCRIPTION="Easy-to-use OO interface to DBI"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,9 +13,5 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Sub-Name-0.04
-	>=dev-perl/Sub-Identify-0.03
-	>=dev-perl/MRO-Compat-0.05
-	dev-perl/Devel-GlobalDestruction
+	>=dev-perl/DBI-1.21
 "
-
