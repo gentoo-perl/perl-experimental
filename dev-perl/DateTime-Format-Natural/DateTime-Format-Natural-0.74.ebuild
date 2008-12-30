@@ -18,4 +18,5 @@ DEPEND="
 	dev-perl/Date-Calc
 	dev-perl/Params-Validate
 	dev-perl/List-MoreUtils
+	dev-perl/boolean
 "

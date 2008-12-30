@@ -15,8 +15,12 @@ IUSE=""
 DEPEND="
 	virtual/perl-Module-Build
 	dev-perl/Class-Base
-	dev-perl/Class-Data-Inheritable
+	>=dev-perl/Class-Data-Inheritable-0.02
 	dev-perl/Class-MakeMethods
+	>=dev-perl/Digest-SHA1-2.00
 	dev-perl/Log-Log4perl
-	dev-perl/Parse-RecDescent
+	>=dev-perl/Parse-RecDescent-1.94
+	dev-perl/Class-Accessor
+	dev-perl/DBI
+	>=dev-perl/yaml-0.39
 "

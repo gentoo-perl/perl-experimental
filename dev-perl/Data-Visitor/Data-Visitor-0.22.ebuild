@@ -13,8 +13,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Class-Accessor
+	>=dev-perl/Mouse-0.06
+	>=dev-perl/namespace-clean-0.08
 	>=dev-perl/Test-MockObject-1.04
 	dev-perl/Test-use-ok
 	>=dev-perl/Tie-ToObject-0.01
+	dev-perl/Task-Weaken
 "

@@ -2,18 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=ASH
+MODULE_AUTHOR=HKCLARK
 inherit perl-module
 
-DESCRIPTION="File based storage model for Catalyst."
+DESCRIPTION="The Catalyst developer's manual"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
-	dev-perl/Module-Install
-	dev-perl/Catalyst-Runtime
-	dev-perl/Path-Class
-"
+DEPEND=""
+
