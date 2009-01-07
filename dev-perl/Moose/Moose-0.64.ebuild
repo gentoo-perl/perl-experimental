@@ -13,8 +13,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Class-MOP-0.68
-	dev-perl/List-MoreUtils
+	>=dev-perl/Class-MOP-0.75
+	>=dev-perl/List-MoreUtils-0.12
 	>=dev-perl/Sub-Exporter-0.972
+	dev-perl/Task-Weaken
 "
 

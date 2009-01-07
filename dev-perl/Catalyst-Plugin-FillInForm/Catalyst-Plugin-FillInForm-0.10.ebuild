@@ -14,5 +14,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	dev-perl/HTML-FillInForm
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.7012
 "

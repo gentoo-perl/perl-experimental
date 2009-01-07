@@ -19,4 +19,7 @@ DEPEND="
 	>=dev-perl/File-MMagic-1.17
 	>=dev-perl/MIME-Types-1.005
 	dev-perl/regexp-common
+	>=dev-perl/Perl6-Junction-1.10
+	dev-perl/Email-Valid
 "
+
