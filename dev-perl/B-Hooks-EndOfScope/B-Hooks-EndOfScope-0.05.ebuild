@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Scope-Guard
+	dev-perl/Variable-Magic
 	dev-perl/Sub-Exporter
 "
 
