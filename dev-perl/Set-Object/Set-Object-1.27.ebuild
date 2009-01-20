@@ -7,9 +7,9 @@ inherit perl-module
 
 DESCRIPTION="set of objects and strings"
 
-IUSE=""
-
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
+IUSE=""
+DEPEND=""

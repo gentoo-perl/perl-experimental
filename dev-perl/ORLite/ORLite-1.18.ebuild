@@ -12,10 +12,11 @@ SLOT="0"
 KEYWORDS="~x86"
 IUSE=""
 
-DEPEND="dev-lang/perl
-	>=dev-perl/Params-Util-0.33
+DEPEND="
 	>=virtual/perl-File-Temp-0.17
-	dev-perl/DBI
-	dev-perl/DBD-SQLite"
+	>=dev-perl/Params-Util-0.33
+	>=dev-perl/DBI-1.58
+	>=dev-perl/DBD-SQLite-1.14
+"
 
 SRC_TEST=do

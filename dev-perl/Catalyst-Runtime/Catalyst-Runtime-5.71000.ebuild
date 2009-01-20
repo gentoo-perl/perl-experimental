@@ -23,7 +23,7 @@ DEPEND="
 	dev-perl/Data-Dump
 	dev-perl/File-Modified
 	dev-perl/HTML-Parser
-	>=dev-perl/HTTP-Body-0.6
+	>=dev-perl/HTTP-Body-1.04
 	>=dev-perl/libwww-perl-5.805
 	>=dev-perl/HTTP-Request-AsCGI-0.5
 	>=virtual/perl-Module-Pluggable-3.01
