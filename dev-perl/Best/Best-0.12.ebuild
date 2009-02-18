@@ -1,4 +1,4 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
@@ -6,11 +6,13 @@ MODULE_AUTHOR=GAAL
 inherit perl-module
 
 DESCRIPTION="Fallbackable module loader"
-LICENSE="|| ( Artistic GPL-2 )"
 
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
-DEPEND=""
 
+DEPEND="dev-lang/perl"
+
+SRC_TEST=do
+PREFER_BUILDPL=no
