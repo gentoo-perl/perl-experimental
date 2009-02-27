@@ -13,6 +13,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Moose
+	>=dev-perl/Moose-0.31
 "
 
