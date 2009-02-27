@@ -17,7 +17,7 @@ S="${WORKDIR}/Catalyst-Runtime-5.8000_06"
 IUSE=""
 DEPEND="
     dev-perl/namespace-clean
-	dev-perl/Scope-Upper-0.06
+	>=dev-perl/Scope-Upper-0.06
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00700
 	>=dev-perl/Moose-0.64
 	>=dev-perl/Class-C3-Adopt-NEXT-0.05
