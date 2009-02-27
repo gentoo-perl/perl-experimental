@@ -6,19 +6,21 @@ inherit perl-module
 
 DESCRIPTION="Catalyst Runtime version"
 HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Runtime-5.8000_04.tar.gz"
+SRC_URI="mirror://cpan/authors/id/M/MR/MRAMBERG/Catalyst-Runtime-5.8000_06.tar.gz"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-S="${WORKDIR}/Catalyst-Runtime-5.8000_04"
+S="${WORKDIR}/Catalyst-Runtime-5.8000_06"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00400
-	>=dev-perl/Moose-0.59
-	dev-perl/Class-C3-Adopt-NEXT
+    dev-perl/namespace-clean
+	dev-perl/Scope-Upper-0.06
+	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00700
+	>=dev-perl/Moose-0.64
+	>=dev-perl/Class-C3-Adopt-NEXT-0.05
 	dev-perl/Class-MOP
 	dev-perl/Cgi-Simple
 	dev-perl/Data-Dump
