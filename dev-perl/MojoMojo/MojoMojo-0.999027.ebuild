@@ -14,15 +14,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	>=dev-perl/Algorithm-Diff-1.1901
+	dev-perl/Algorithm-Merge
 	>=dev-perl/Archive-Zip-1.14
-	>=dev-perl/Catalyst-Runtime-0.07
+	>=dev-perl/Catalyst-Runtime-5.7000
 	>=dev-perl/Catalyst-Action-RenderView-0.07
 	>=dev-perl/Catalyst-Controller-HTML-FormFu-0.02000
 	>=dev-perl/Catalyst-Model-DBIC-Schema-0.01
 	dev-perl/KinoSearch
 	>=dev-perl/Catalyst-Plugin-Authentication-0.10005
 	>=dev-perl/Catalyst-Authentication-Store-DBIx-Class-0.101
-	dev-perl/Catalyst-Plugin-Cache
 	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.13
 	dev-perl/Catalyst-Plugin-Email
 	dev-perl/Catalyst-Plugin-Session-Store-File
@@ -66,5 +66,7 @@ DEPEND="
 	>=dev-perl/DBIx-Class-0.08
 	dev-perl/SQL-Translator
 	>=dev-perl/Text-Markdown-1.0.17
+	dev-perl/Cache-FastMmap
+	dev-perl/Config-JFDI
 "
 
