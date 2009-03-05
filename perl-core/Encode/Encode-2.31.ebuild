@@ -9,7 +9,7 @@ DESCRIPTION="character encodings"
 
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 RDEPEND="dev-lang/perl"
