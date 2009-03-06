@@ -3,9 +3,10 @@
 # $Header$
 
 MODULE_AUTHOR=NUFFIN
+
 inherit perl-module
 
-DESCRIPTION="Catalyst plugin: maintain session IDs using cookies"
+DESCRIPTION="Encodes text to be safe in JavaScript"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,6 +14,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Plugin-Session-0.06
-	>=dev-perl/Test-MockObject-1.01
+	dev-perl/Mouse
+	>=dev-perl/Template-Toolkit-2.20
+	dev-perl/Test-use-ok
+	>=dev-perl/JSON-2.12
 "

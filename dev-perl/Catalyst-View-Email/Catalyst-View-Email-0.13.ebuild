@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=ABRAXXA
+MODULE_AUTHOR=JSHIRLEY
 inherit perl-module
 
 DESCRIPTION="Send Email from Catalyst"
@@ -17,7 +17,7 @@ DEPEND="
 	dev-perl/Class-C3
 	>=dev-perl/Email-Send-2.185
 	>=dev-perl/Email-MIME-1.859
-	>=dev-perl/Email-MIME-Creator-1.453
+	>=dev-perl/Email-MIME-Creator-1.455
 	dev-perl/Catalyst-View-TT
 	mason? ( dev-perl/Catalyst-View-Mason )
 	netsmtp? (
