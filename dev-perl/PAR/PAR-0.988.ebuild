@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="
 	>=virtual/perl-Compress-Zlib-1.30
 	>=dev-perl/Archive-Zip-1.00
-	>=dev-perl/PAR-Dist-0.22
-	dev-perl/Digest-SHA1
+	>=dev-perl/PAR-Dist-0.32
+	virtual/perl-Digest-SHA
 	dev-perl/Module-Signature
 "
 

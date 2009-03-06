@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=SCHUBIGER
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
-DESCRIPTION="Create machine readable date/time with natural parsing logic"
+DESCRIPTION="Flexible caching support for Catalyst"
 
 IUSE=""
 
@@ -14,8 +14,10 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/Date-Calc
-	dev-perl/DateTime
-	dev-perl/List-MoreUtils
-	dev-perl/Params-Validate
+	>=dev-perl/Catalyst-Runtime-5.7
+	dev-perl/Task-Weaken
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/MRO-Compat
 "
+
