@@ -2,17 +2,18 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
+EAPI=2
+
 MODULE_AUTHOR=ADAMK
 inherit perl-module
 
 DESCRIPTION="Standalone, extensible Perl module installer"
 
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-RDEPEND="dev-lang/perl
+RDEPEND="
 	>=virtual/perl-Archive-Tar-1.44
 	>=virtual/perl-Devel-PPPort-3.16
 	>=virtual/perl-ExtUtils-Install-1.52

@@ -2,6 +2,17 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Mar 2009; Torsten Veller <tove@gentoo.org>
+  -dev-perl/Module-Install/Module-Install-0.75.ebuild,
+  -dev-perl/Module-Install/Module-Install-0.76.ebuild,
+  -dev-perl/Module-Install/Module-Install-0.77.ebuild,
+  -dev-perl/Module-Install/Module-Install-0.79.ebuild:
+  Cleanup
+
+  21 Mar 2009; Torsten Veller <tove@gentoo.org>
+  +dev-perl/Module-Install/Module-Install-0.80.ebuild:
+  Version bump
+
   18 Feb 2009; Torsten Veller <tove@gentoo.org> +Module-Install-0.79.ebuild:
   Version bump
 
