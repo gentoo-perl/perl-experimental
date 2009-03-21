@@ -3,6 +3,10 @@
 # $Header: $
 
   21 Mar 2009; Torsten Veller <tove@gentoo.org>
+  -dev-perl/Text-FindIndent/Text-FindIndent-0.03.ebuild:
+  Cleanup
+
+  21 Mar 2009; Torsten Veller <tove@gentoo.org>
   +dev-perl/Text-FindIndent/Text-FindIndent-0.04.ebuild:
   Version bump
 
