@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="extension for reading WMA/ASF metadata"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND=""
