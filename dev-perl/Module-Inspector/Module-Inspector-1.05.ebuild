@@ -14,6 +14,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-perl/File-Find-Rule
+	dev-perl/File-Find-Rule-VCS
+	dev-perl/File-Find-Rule-Perl
+	dev-perl/Module-Manifest
+	dev-perl/Module-Math-Depends
 	>=dev-perl/PPI-1.118
+	dev-perl/Module-Extract
 	dev-perl/YAML-Tiny"
 DEPEND="${RDEPEND}"
+
+SRC_TEST=do
