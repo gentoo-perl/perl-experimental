@@ -2,16 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
+
 MODULE_AUTHOR=SMUELLER
 inherit perl-module
 
 DESCRIPTION="Container for the AutoXS header files"
 
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
-
-DEPEND="dev-lang/perl"
 
 SRC_TEST=do
