@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-MODULE_AUTHOR=LBROCARD
+MODULE_AUTHOR=ASH
 inherit perl-module
 
 DESCRIPTION="Test::WWW::Mechanize for Catalyst"
@@ -14,11 +14,13 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/Catalyst-Runtime
-	dev-perl/Catalyst-Plugin-Session-State-Cookie
-	dev-perl/Catalyst-Plugin-Session
-	dev-perl/libwww-perl
-	dev-perl/Test-Exception
+	>=dev-perl/Catalyst-Runtime-5.00
+	>=dev-perl/libwww-perl-5.816
 	>=dev-perl/Test-WWW-Mechanize-1.14
 	>=dev-perl/WWW-Mechanize-1.50
+	>=dev-perl/Moose-0.67
+	>=dev-perl/namespace-clean-0.09
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/Test-Exception
 "
