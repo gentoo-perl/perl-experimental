@@ -4,13 +4,16 @@
 
 EAPI=2
 
-MODULE_AUTHOR=ANDYA
+MODULE_AUTHOR=YVES
 inherit perl-module
 
-DESCRIPTION="Lightweight, dependency free HTML/XML generation"
+DESCRIPTION="Accurately serialize a data structure as Perl code."
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
-SRC_TEST=do
+RDEPEND=">=dev-perl/B-Utils-0.05"
+DEPEND="test? ( ${RDEPEND} )"
+
+#SRC_TEST=do
