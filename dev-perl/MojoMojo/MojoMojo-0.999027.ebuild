@@ -10,8 +10,8 @@ LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
+
 DEPEND="
 	>=dev-perl/Algorithm-Diff-1.1901
 	dev-perl/Algorithm-Merge
@@ -66,6 +66,7 @@ DEPEND="
 	>=dev-perl/DBIx-Class-0.08
 	dev-perl/SQL-Translator
 	>=dev-perl/Text-Markdown-1.0.17
+	dev-perl/Syntax-Highlight-Engine-Kate
 	dev-perl/Cache-FastMmap
 	dev-perl/Config-JFDI
 "
