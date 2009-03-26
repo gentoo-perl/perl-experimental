@@ -9,7 +9,6 @@ inherit perl-module
 
 DESCRIPTION="query, download and build perl modules from CPAN sites"
 
-LICENSE=""
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
