@@ -16,6 +16,6 @@ DEPEND="
 	virtual/perl-Module-Build
 	dev-perl/Catalyst-Runtime
 	dev-perl/DateTime-Event-Cron
-	dev-perl/Set-Scalar
+	dev-perl/set-scalar
 	dev-perl/yaml
 "
