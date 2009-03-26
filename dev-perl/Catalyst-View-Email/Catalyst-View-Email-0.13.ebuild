@@ -21,7 +21,7 @@ DEPEND="
 	dev-perl/Catalyst-View-TT
 	mason? ( dev-perl/Catalyst-View-Mason )
 	netsmtp? (
-		dev-perl/Mime-Base64
+		virtual/perl-MIME-Base64
 		dev-perl/Authen-SASL
 	)
 "

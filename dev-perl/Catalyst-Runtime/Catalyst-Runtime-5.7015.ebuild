@@ -11,7 +11,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="apache apache2 fastcgi par"
+IUSE="apache2 fastcgi par"
 DEPEND="
 	!dev-perl/Catalyst
 	>=dev-perl/Module-Install-0.64
@@ -33,7 +33,6 @@ DEPEND="
 	dev-perl/Tree-Simple-VisitorFactory
 	>=dev-perl/URI-1.35
 	dev-perl/MIME-Types
-	apache? ( >=dev-perl/Catalyst-Engine-Apache-1.05 )
 	apache2? ( >=dev-perl/Catalyst-Engine-Apache-1.05 )
 	fastcgi? ( dev-perl/FCGI dev-perl/FCGI-ProcManager )
 	par? ( dev-perl/PAR )

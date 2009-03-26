@@ -2,15 +2,17 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="All you need to start with Catalyst"
+MODULE_AUTHOR=MRAMBERG
+inherit perl-module
 
+DESCRIPTION="All you need to start with Catalyst"
 LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-S=${WORKDIR}
-
 IUSE="sqlite fastcgi modperl"
+
 DEPEND="
 	>=dev-perl/Module-Install-0.64
 	>=dev-perl/Catalyst-Runtime-5.7007

@@ -6,7 +6,7 @@ MODULE_AUTHOR=GTERMARS
 inherit perl-module
 
 DESCRIPTION="XS based JavaScript minifier"
-LICENSE="Unknown"
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
