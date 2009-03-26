@@ -13,18 +13,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sqlite mysql postgres"
 DEPEND="
-        >=dev-perl/Data-Dump-1.06
-        >=dev-perl/UNIVERSAL-require-0.11
-        >=dev-perl/Lingua-EN-Inflect-Number-1.1
-        >=dev-perl/Class-Accessor-0.30
-        >=dev-perl/Class-Data-Accessor-0.03
-        >=dev-perl/Class-C3-0.18
-        >=dev-perl/DBIx-Class-0.07006
-        dev-perl/Class-Inspector
-        >=dev-perl/DBI-1.56
-        sqlite? ( >=dev-perl/DBD-SQLite-1.12 )
-        mysql? ( >=dev-perl/DBD-mysql-4.00.4 )
-        postgres? ( >=dev-perl/DBD-Pg-1.49 )
+	>=dev-perl/Data-Dump-1.06
+	>=dev-perl/UNIVERSAL-require-0.11
+	>=dev-perl/Lingua-EN-Inflect-Number-1.1
+	>=dev-perl/Class-Accessor-0.30
+	>=dev-perl/Class-Data-Accessor-0.03
+	>=dev-perl/Class-C3-0.18
+	>=dev-perl/DBIx-Class-0.07006
+	dev-perl/Class-Inspector
+	>=dev-perl/DBI-1.56
+	sqlite? ( >=dev-perl/DBD-SQLite-1.12 )
+	mysql? ( >=dev-perl/DBD-mysql-4.00.4 )
+	postgres? ( >=dev-perl/DBD-Pg-1.49 )
 "
 
 # These have to be packaged if someone wants them::
