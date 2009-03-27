@@ -28,6 +28,7 @@ DEPEND="
 	dev-perl/DateTime-Locale
 	dev-perl/Email-Valid
 	dev-perl/File-ShareDir
+	dev-perl/Hash-Flatten
 	dev-perl/HTML-Scrubber
 	dev-perl/HTML-TokeParser-Simple
 	dev-perl/libwww-perl
