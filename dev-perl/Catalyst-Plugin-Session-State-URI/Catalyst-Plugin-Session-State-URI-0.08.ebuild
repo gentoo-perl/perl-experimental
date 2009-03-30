@@ -5,9 +5,9 @@
 MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
-DESCRIPTION="Saves session IDs by rewriting URIs delivered to the client, and extracting the session ID from requested URIs"
+DESCRIPTION="Tracks session IDs by rewriting and parsing URIs delivered to the client"
 LICENSE="|| ( Artistic GPL-2 )"
-
+EAPI=2
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
@@ -21,3 +21,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.01
 	dev-perl/MRO-Compat
 "
+RDEPEND="${DEPEND}"
