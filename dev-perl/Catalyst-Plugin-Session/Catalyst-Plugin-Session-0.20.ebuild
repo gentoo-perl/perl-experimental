@@ -5,7 +5,7 @@
 MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
-DESCRIPTION="Generic session plugin - ties together server side storage and client side state required to maintain session data"
+DESCRIPTION="Generic session plugin joining server side storage and client side state to maintain session data"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -17,3 +17,4 @@ DEPEND="
 	dev-perl/Object-Signature
 	dev-perl/MRO-Compat
 "
+RDEPEND="${DEPEND}"

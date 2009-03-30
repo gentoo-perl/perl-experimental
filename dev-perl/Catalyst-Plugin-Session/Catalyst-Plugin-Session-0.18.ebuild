@@ -5,9 +5,9 @@
 MODULE_AUTHOR=NUFFIN
 inherit perl-module
 
-DESCRIPTION="Generic session plugin - ties together server side storage and client side state required to maintain session data"
+DESCRIPTION="Generic session plugin joining server side storage and client side state to maintain session data"
 LICENSE="|| ( Artistic GPL-2 )"
-
+EAPI=2
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
@@ -16,3 +16,4 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Object-Signature
 "
+RDEPEND="${DEPEND}"
