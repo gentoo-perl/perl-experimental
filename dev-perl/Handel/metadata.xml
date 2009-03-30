@@ -6,4 +6,7 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
+	<use>
+		<flag name="catalystframework">Catalyst Support</flag>
+	</use>
 </pkgmetadata>
