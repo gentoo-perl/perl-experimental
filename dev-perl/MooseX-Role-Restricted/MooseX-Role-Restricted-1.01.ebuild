@@ -10,10 +10,9 @@ LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
+EAPI=2
 IUSE=""
 DEPEND="
 	>=dev-perl/Moose-0.72
 "
-RDEPEND="${DEPEND}"
-
+SRC_TEST="do"
