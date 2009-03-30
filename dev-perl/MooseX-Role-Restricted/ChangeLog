@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Role-Restricted
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Id$
+
+*MooseX-Role-Restricted-1.01 (30 Mar 2009)
+
+  30 Mar 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +MooseX-Role-Restricted-1.01.ebuild:
+  Added initial version.
+
