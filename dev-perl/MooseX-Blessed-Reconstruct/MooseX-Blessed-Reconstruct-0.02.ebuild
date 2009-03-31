@@ -1,7 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=NUFFIN
 inherit perl-module
 
@@ -10,7 +10,6 @@ LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-EAPI=2
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Class-MOP-0.66
