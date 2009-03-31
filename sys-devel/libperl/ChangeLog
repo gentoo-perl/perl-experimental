@@ -1,0 +1,7 @@
+# ChangeLog for sys-devel/libperl
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  31 Mar 2009; kentfredric@gmail.com +metadata.xml:
+  Fixing USE QA
+
