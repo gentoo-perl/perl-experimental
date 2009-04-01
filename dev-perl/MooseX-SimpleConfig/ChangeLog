@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-SimpleConfig
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-SimpleConfig-0.03 (01 Apr 2009)
+
+  01 Apr 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +MooseX-SimpleConfig-0.03.ebuild:
+  Added for Kensho
+
