@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  5 Apr 2009; <mb@italpro.net>
+  +dev-perl/Catalyst-Runtime/Catalyst-Runtime-5.71001.ebuild:
+  Version bump
+
+
   30 Mar 2009; kentfredric@gmail.com metadata.xml:
   Fixing up USE flag QA warnings
 
