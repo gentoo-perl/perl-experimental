@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Session-Store-FastMmap
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  14 Apr 2009; Michele Beltrame <mb@cattlegrid.info> ChangeLog:
+  -Catalyst-Plugin-Session-Store-FastMmap-0.04:
+  Cleanup
+
