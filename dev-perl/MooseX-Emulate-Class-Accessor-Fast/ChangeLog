@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Emulate-Class-Accessor-Fast
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Emulate-Class-Accessor-Fast-0.00801 (16 Apr 2009)
+
+  16 Apr 2009; Kent Fredric <kentfredric@gmail.com> metadata.xml,
+  +MooseX-Emulate-Class-Accessor-Fast-0.00801.ebuild:
+  Bumped to 0.00801
+
