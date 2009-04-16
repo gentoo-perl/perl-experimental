@@ -17,6 +17,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.39
 	>=dev-perl/JSON-Any-1.15
 	>=dev-perl/Best-0.1
+	!>dev-perl/Class-MOP-0.78
 "
 # IO-File
 # Storable
