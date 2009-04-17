@@ -6,4 +6,8 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
 </pkgmetadata>
