@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Mouse
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  19 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  -Mouse-0.14.ebuild,
+  +Mouse-0.21.ebuild:
+  Bump
+

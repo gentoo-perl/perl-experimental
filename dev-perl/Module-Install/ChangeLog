@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Apr 2009; Michele Beltrame <mb@cattlegrid.info> 
+  +dev-perl/Module-Install/Module-Install-0.84.ebuild:
+  Bump
+
   13 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   +dev-perl/Module-Install/Module-Install-0.82.ebuild:
   Bump
