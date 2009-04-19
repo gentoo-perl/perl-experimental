@@ -16,7 +16,8 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.70
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
-	>=dev-perl/HTML-FormFu-0.03000
+	>=dev-perl/HTML-FormFu-0.04001
+	dev-perl/Moose
 	dev-perl/Regexp-Assemble
 	dev-perl/Task-Weaken
 "
