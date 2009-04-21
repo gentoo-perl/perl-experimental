@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MIYAGAWA
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
-DESCRIPTION="JSON View Class"
+DESCRIPTION="Make serving static pages painless."
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -14,5 +14,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/JSON-Any-1.15
+	>=dev-perl/MIME-Types-1.25
+	dev-perl/MRO-Compat
 "

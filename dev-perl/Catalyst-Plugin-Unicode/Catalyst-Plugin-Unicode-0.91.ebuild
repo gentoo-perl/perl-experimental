@@ -13,5 +13,16 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=">=dev-perl/Catalyst-Runtime-5.70"
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.70
+	dev-perl/MRO-Compat
+"
+DEPEND="
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/IO-stringy
+	dev-perl/Test-use-ok
+	${RDEPEND}
+"
+
+SRC_TEST=do
 

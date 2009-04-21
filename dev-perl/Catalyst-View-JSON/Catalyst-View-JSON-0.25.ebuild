@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=AGRUNDMA
+MODULE_AUTHOR=MIYAGAWA
 inherit perl-module
 
-DESCRIPTION="Make serving static pages painless."
+DESCRIPTION="JSON View Class"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -14,4 +14,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	dev-perl/Catalyst-Runtime
+	>=dev-perl/JSON-Any-1.15
+	dev-perl/MRO-Compat
 "

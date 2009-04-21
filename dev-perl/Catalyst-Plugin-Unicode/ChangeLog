@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Unicode
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  21 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  +Catalyst-Plugin-Unicode-0.91.ebuild,
+  -Catalyst-Plugin-Unicode-0.5.ebuild:
+  Bump + fix deps + cleanup
+
