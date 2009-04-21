@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/DBIx-Class
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  20 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  +DBIx-Class-0.08100.ebuild,
+  -DBIx-Class-0.08009.ebuild:
+  Bump + cleanup
+
