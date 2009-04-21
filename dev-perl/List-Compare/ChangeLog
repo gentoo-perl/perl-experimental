@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/List-Compare
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*List-Compare-0.37 (21 Apr 2009)
+
+  21 Apr 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +List-Compare-0.37.ebuild:
+  Initial Add
+
