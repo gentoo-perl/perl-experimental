@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=SMUELLER
+MODULE_AUTHOR=SCHUBIGER
 inherit perl-module
 
-DESCRIPTION="Perl Archive Toolkit"
+DESCRIPTION="Create machine readable date/time with natural parsing logic"
 
 IUSE=""
 
@@ -14,10 +14,9 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=virtual/perl-Compress-Zlib-1.30
-	>=dev-perl/Archive-Zip-1.00
-	>=dev-perl/PAR-Dist-0.22
-	dev-perl/Digest-SHA1
-	dev-perl/Module-Signature
+	dev-perl/boolean
+	dev-perl/DateTime
+	dev-perl/Params-Validate
+	dev-perl/List-MoreUtils
+	dev-perl/boolean
 "
-

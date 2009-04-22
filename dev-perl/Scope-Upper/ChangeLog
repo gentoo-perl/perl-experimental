@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Scope-Upper
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  22 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  +Scope-Upper-0.08.ebuild:
+  Bump
+

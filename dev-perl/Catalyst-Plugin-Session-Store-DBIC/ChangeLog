@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Session-Store-DBIC
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  22 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  -Catalyst-Plugin-Session-Store-DBIC-0.06.ebuild,
+  +Catalyst-Plugin-Session-Store-DBIC-0.09.ebuild:
+  Bump + cleanup
+

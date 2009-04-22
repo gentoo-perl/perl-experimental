@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=SCHUBIGER
+MODULE_AUTHOR=DMUEY
 inherit perl-module
 
-DESCRIPTION="Create machine readable date/time with natural parsing logic"
+DESCRIPTION="Merges arbitrarily deep hashes into a single hash "
 
 IUSE=""
 
@@ -13,10 +13,9 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
+RDEPEND="
+	dev-perl/Clone
+"
 DEPEND="
-	dev-perl/DateTime
-	dev-perl/Date-Calc
-	dev-perl/Params-Validate
-	dev-perl/List-MoreUtils
-	dev-perl/boolean
+	${RDEPEND}
 "

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=DANIELTWC
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
 DESCRIPTION="File storage backend for session data"
@@ -14,8 +14,9 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	dev-perl/Catalyst-Plugin-Session
-	dev-perl/Class-Data-Inheritable
-	dev-perl/DBIx-Class
-	dev-perl/Catalyst-Plugin-Session-Store-Delegate
+	>=dev-perl/Catalyst-Runtime-5.65
+	>=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.02
+	dev-perl/Class-Accessor
+	>=dev-perl/DBIx-Class-0.07000
+	dev-perl/MRO-Compat
 "
