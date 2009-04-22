@@ -2,7 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MRAMBERG
+EAPI=2
+
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
 DESCRIPTION="The Elegant MVC Web Application Framework - runtime version"
@@ -11,20 +13,21 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="apache2 fastcgi par"
-DEPEND="
-	!dev-perl/Catalyst
-	>=dev-perl/Module-Install-0.64
-	>=dev-lang/perl-5.8.1
-	dev-perl/Class-Accessor
-	dev-perl/Class-Data-Inheritable
-	>=dev-perl/Class-Inspector-1.06
+IUSE=""
+RDEPEND="
+	dev-perl/namespace-clean
+	>=dev-perl/Scope-Upper-0.06
+	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00801
+	>=dev-perl/Moose-0.73
+	>=dev-perl/MooseX-MethodAttributes-0.06
+	>=dev-perl/Class-C3-Adopt-NEXT-0.07
+	>=dev-perl/Class-MOP-0.79
 	dev-perl/Cgi-Simple
 	dev-perl/Data-Dump
 	dev-perl/File-Modified
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.04
-	>=dev-perl/libwww-perl-5.805
+	>=dev-perl/libwww-perl-5.813
 	>=dev-perl/HTTP-Request-AsCGI-0.5
 	>=virtual/perl-Module-Pluggable-3.01
 	>=dev-perl/Path-Class-0.09
@@ -32,13 +35,13 @@ DEPEND="
 	>=dev-perl/Tree-Simple-1.15
 	dev-perl/Tree-Simple-VisitorFactory
 	>=dev-perl/URI-1.35
-	dev-perl/MIME-Types
-	apache2? ( >=dev-perl/Catalyst-Engine-Apache-1.05 )
-	fastcgi? ( dev-perl/FCGI dev-perl/FCGI-ProcManager )
-	par? ( dev-perl/PAR )
+	dev-perl/MRO-Compat
+	dev-perl/B-Hooks-OP-Check-StashChange
+"
+DEPEND="
+	dev-perl/Test-MockObject
+	${RDEPEND}
 "
 
-#src_compile() {
-#	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
-#	perl-module_src_compile
-#}
+SRC_TEST=do
+
