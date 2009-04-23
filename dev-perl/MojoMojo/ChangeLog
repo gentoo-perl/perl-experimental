@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/XXXXXXXXXXXX
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  23 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  +MojoMojo-0.999028.ebuild,
+  -MojoMojo-0.999025.ebuild:
+  Bump + fix deps + fix USE + cleanup
+

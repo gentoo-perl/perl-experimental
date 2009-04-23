@@ -1,7 +1,6 @@
-# Michele Beltrame <mb@italpro.net> (5 Mar 2009)
-# Masked for testing.
-
-=dev-perl/Catalyst-Runtime-5.8000_pre6
+# Michele Beltrame <mb@cattlegrid.info> (23 Apr 2009)
+# Masked because virtual/perl-Encode on which it depends is masked
+>=dev-perl/MojoMojo-0.999028
 
 # Torsten Veller <tove@gentoo.org> (4 Mar 2009)
 # Collision with 5.8.8

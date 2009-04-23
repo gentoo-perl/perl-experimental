@@ -3,7 +3,16 @@
 <pkgmetadata>
     <herd>no-herd</herd>
     <maintainer>
-        <email>mb@italpro.net</email>
+        <email>mb@cattlegrid.info</email>
         <name>Michele Beltrame</name>
     </maintainer>
+    <use>
+      <flag name="autodeploy">Support for automatic deployment</flag>
+      <flag name="markdown">Markdown formatter</flag>
+      <flag name="docbook">DocBook formatter</flag>
+      <flag name="tocgen">Table Of Contents Generator</flag>
+      <flag name="podformatter">POD formatterr</flag>
+      <flag name="syntaxhighlight">Syntax Highlightert</flag>
+      <flag name="transclusion">Transclusion support</flag>
+    </use>
 </pkgmetadata>
