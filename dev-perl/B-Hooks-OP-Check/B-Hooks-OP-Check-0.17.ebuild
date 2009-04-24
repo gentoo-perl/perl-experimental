@@ -12,7 +12,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	dev-perl/parent
 "
-
+DEPEND="
+	dev-perl/extutils-depends
+	${RDEPEND}
+"
