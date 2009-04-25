@@ -197,7 +197,6 @@ src_configure() {
 		-Dman3ext='3pm' \
 		-Dinc_version_list="$inclist" \
 		-Dinc_version_list="$inclist" \
-		-Dlocincpth="/usr/src/linux/include" \
 		-Dcf_by='Gentoo' \
 		-Ud_csh \
 		-Dusenm \
