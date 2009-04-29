@@ -12,8 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
-	dev-perl/namespace-clean
+DEPEND="dev-perl/namespace-clean
 	>=dev-perl/MooseX-Types-0.06
-	>=dev-perl/Moose-0.070
-"    
+	>=dev-perl/Moose-0.070"
+RDEPEND="${DEPEND}"
