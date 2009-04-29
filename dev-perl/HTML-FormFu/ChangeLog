@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  HTML-FormFu-0.04001.ebuild:
+  Fixed depend
+
   19 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   +HTML-FormFu-0.04001.ebuild:
   Bump

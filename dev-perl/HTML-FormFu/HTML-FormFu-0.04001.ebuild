@@ -35,6 +35,7 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	virtual/perl-Locale-Maketext-Simple
 	virtual/perl-Module-Pluggable
+	dev-perl/Number-Format
 	dev-perl/Readonly
 	dev-perl/Regexp-Copy
 	dev-perl/regexp-common
