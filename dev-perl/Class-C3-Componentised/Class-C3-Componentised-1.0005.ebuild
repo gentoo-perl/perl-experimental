@@ -12,9 +12,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
-	dev-perl/Class-C3
+RDEPEND="
+	dev-perl/MRO-Compat
 	dev-perl/Class-Inspector
+	>=dev-perl/Class-C3-0.20
+"
+DEPEND="
+    ${RDEPEND}
 	dev-perl/Test-Exception
 "
 

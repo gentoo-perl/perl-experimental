@@ -3,6 +3,10 @@
 # $Header: $
 
   30 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  DBIx-Class-0.08102.ebuild:
+  Fix depend
+
+  30 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   -DBIx-Class-0.08010.ebuild,
   +DBIx-Class-0.08102.ebuild:
   Bump+cleanup

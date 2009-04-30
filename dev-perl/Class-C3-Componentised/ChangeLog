@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Class-C3-Componentised
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  30 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  +Class-C3-Componentised-1.0005.ebuild:
+  Bump + fix deps
+

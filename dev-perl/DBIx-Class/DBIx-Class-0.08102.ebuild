@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Data-Page-2.00
 	>=dev-perl/SQL-Abstract-1.51
 	>=dev-perl/SQL-Abstract-Limit-0.13
-	>=dev-perl/Class-C3-Componentised-1.0004
+	>=dev-perl/Class-C3-Componentised-1.0005
 	dev-perl/Carp-Clan
 	>=dev-perl/DBI-1.40
 	dev-perl/Module-Find
