@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
+  +MooseX-MethodAttributes-0.09.ebuild,
+  -MooseX-MethodAttributes-0.05.ebuild:
+  Bump
+
   29 Apr 2009; Christian Ruppert <idl0r@gentoo.org>
   MooseX-MethodAttributes-0.05.ebuild, MooseX-MethodAttributes-0.06.ebuild:
   RDEPEND assigned. Whitespace.

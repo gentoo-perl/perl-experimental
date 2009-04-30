@@ -14,14 +14,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	dev-perl/namespace-clean
 	>=dev-perl/Scope-Upper-0.06
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00801
-	>=dev-perl/Moose-0.73
-	>=dev-perl/MooseX-MethodAttributes-0.05
+	>=dev-perl/Class-MOP-0.83
+	>=dev-perl/Moose-0.76
+	>=dev-perl/MooseX-MethodAttributes-0.09
 	>=dev-perl/Class-C3-Adopt-NEXT-0.07
-	>=dev-perl/Class-MOP-0.79
 	dev-perl/Cgi-Simple
 	dev-perl/Data-Dump
 	dev-perl/File-Modified
@@ -38,5 +38,10 @@ DEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/B-Hooks-OP-Check-StashChange
 "
+DEPEND="
+	dev-perl/Test-MockObject
+	${RDEPEND}
+"
 
 SRC_TEST=do
+
