@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Catalyst-Action-RenderView
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  01 May 2009; Michele Beltrame <mb@cattlegrid.info>
+  +Catalyst-Action-RenderView-0.10.ebuild:
+  Bump
+
