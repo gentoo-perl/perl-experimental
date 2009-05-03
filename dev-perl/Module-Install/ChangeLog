@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Module-Install-0.86 (03 May 2009)
+
+  03 May 2009; Kent Fredric <kentfredric@gmail.com>
+  +Module-Install-0.86.ebuild:
+  Bumping to 0.86
+
   19 Apr 2009; Michele Beltrame <mb@cattlegrid.info> 
   +dev-perl/Module-Install/Module-Install-0.84.ebuild:
   Bump
