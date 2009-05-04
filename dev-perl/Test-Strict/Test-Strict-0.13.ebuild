@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Check syntax, presence of use strict; and test coverage"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND=">=dev-perl/Devel-Cover-0.43
