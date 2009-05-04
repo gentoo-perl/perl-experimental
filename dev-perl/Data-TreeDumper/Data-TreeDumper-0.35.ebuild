@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Improved replacement for Data::Dumper. Powerful filtering capability"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="virtual/perl-Text-Tabs+Wrap
