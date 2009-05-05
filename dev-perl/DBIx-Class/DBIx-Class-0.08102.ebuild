@@ -32,10 +32,9 @@ RDEPEND="
 	>=dev-perl/SQL-Translator-0.09004
 	sqlite? ( >=dev-perl/DBD-SQLite-1.11 )
 "
-DEPEND="${RDEPEND}"
-#DEPEND="
-#	>=dev-perl/DBD-SQLite-1.21
-#	${RDEPEND}
-#"
+DEPEND="
+	>=dev-perl/DBD-SQLite-1.21
+	${RDEPEND}
+"
 
 SRC_TEST=do
