@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Check-ISA
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Check-ISA-0.04 (04 May 2009)
+
+  04 May 2009; Torsten Veller <tove@gentoo.org> +Check-ISA-0.04.ebuild,
+  +metadata.xml:
+  Initial commit
+
