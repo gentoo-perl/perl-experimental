@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=JAYK
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Infrastructure plugin for the Catalyst authentication framework"
