@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Types-VariantTable
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Types-VariantTable-0.02 (07 May 2009)
+
+  07 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +MooseX-Types-VariantTable-0.02.ebuild:
+  Added
+
