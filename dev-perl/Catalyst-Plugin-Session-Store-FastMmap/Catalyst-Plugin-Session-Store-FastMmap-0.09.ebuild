@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=KARMAN
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="FastMmap session storage backend."
@@ -14,7 +14,8 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/Cache-FastMmap-1.13
+	>=dev-perl/Cache-FastMmap-1.29
 	>=dev-perl/Catalyst-Plugin-Session-0.09
 	dev-perl/Path-Class
+	dev-perl/MRO-Compat
 "

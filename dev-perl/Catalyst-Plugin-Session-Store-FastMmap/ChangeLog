@@ -2,11 +2,16 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2009; Michele Beltrame <mb@cattlegrid.info>
+  -Catalyst-Plugin-Session-Store-FastMmap-0.05.ebuild,
+  +Catalyst-Plugin-Session-Store-FastMmap-0.09.ebuild:
+  Bump
+
   20 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
-  +Catalyst-Plugin-Session-Store-FastMmap-0.07:
+  +Catalyst-Plugin-Session-Store-FastMmap-0.07.ebuild:
   Bump
 
   14 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
-  -Catalyst-Plugin-Session-Store-FastMmap-0.04:
+  -Catalyst-Plugin-Session-Store-FastMmap-0.04.ebuild:
   Cleanup
 

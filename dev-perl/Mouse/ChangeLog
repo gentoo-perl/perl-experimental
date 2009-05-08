@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2009; Michele Beltrame <mb@cattlegrid.info> 
+  -Mouse-0.17.ebuild,
+  +Mouse-0.22.ebuild:
+  Bump
+
   19 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   -Mouse-0.14.ebuild,
   +Mouse-0.21.ebuild:

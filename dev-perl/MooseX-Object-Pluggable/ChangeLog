@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/MooseX-Object-Pluggable
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  08 May 2009; Michele Beltrame <mb@cattlegrid.info>
+  +MooseX-Object-Pluggable-0.0011.ebuild:
+  Bump
+
