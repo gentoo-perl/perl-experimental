@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Perl-Version
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Perl-Version-1.009 (11 May 2009)
+
+  11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Perl-Version-1.009.ebuild:
+  Added for Dist::Zilla
+
