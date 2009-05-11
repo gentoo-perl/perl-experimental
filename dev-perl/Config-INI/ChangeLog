@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Config-INI
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Config-INI-0.014 (11 May 2009)
+
+  11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Config-INI-0.014.ebuild:
+  Added for Dist::Zilla
+
