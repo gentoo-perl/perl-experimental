@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Mixin-Linewise
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Mixin-Linewise-0.002 (11 May 2009)
+
+  11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Mixin-Linewise-0.002.ebuild:
+  Added for Dist::Zilla
+
