@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Log-Dispatch-Config
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Log-Dispatch-Config-1.02 (11 May 2009)
+
+  11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Log-Dispatch-Config-1.02.ebuild:
+  Added for Log::Dispatch
+
