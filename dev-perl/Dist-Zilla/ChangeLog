@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-1.091260 (11 May 2009)
+
+  11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Dist-Zilla-1.091260.ebuild:
+  Added
+
