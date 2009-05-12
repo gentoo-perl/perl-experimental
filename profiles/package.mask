@@ -1,3 +1,7 @@
+# Michele Beltrame <mb@cattlegrid.info> (12 May 2009)
+# Masked because deprecated
+dev-perl/Catalyst-Plugin-DefaultEnd
+
 # Michele Beltrame <mb@cattlegrid.info> (23 Apr 2009)
 # Masked because virtual/perl-Encode on which it depends is masked
 >=dev-perl/MojoMojo-0.999028
