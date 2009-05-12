@@ -1,6 +1,11 @@
-# ChangeLog for dev-perl/XXXXXXXXXXXX
+# ChangeLog for dev-perl/Catalyst-Plugin-Session-Store-File
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 May 2009; Michele Beltrame <mb@cattlegrid.info>
+  -Catalyst-Plugin-Session-Store-File-0.12.ebuild,
+  +Catalyst-Plugin-Session-Store-File-0.17.ebuild:
+  Bump
 
   20 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   Catalyst-Plugin-Session-Store-File-0.15.ebuild:

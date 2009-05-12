@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=KARMAN
+MODULE_AUTHOR=MRAMBERG
 inherit perl-module
 
 DESCRIPTION="File storage backend for session data"
@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	>=dev-perl/Class-Data-Inheritable-0.04
-	>=dev-perl/Class-Accessor-0.22
-	dev-perl/Catalyst-Runtime
-	>=dev-perl/Catalyst-Plugin-Session-0.01
+	>=dev-perl/Catalyst-Runtime-5.7000
 	>=dev-perl/Cache-Cache-1.02
+	>=dev-perl/Catalyst-Plugin-Session-0.21
+	>=dev-perl/MRO-Compat-0.10
 "
