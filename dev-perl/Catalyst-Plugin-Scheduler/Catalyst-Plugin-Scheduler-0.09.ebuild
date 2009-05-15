@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=AGRUNDMA
 inherit perl-module
 
 DESCRIPTION="Schedule events to run in a cron-like fashion"
@@ -18,4 +18,5 @@ DEPEND="
 	dev-perl/DateTime-Event-Cron
 	dev-perl/set-scalar
 	dev-perl/yaml
+	dev-perl/MRO-Compat
 "

@@ -2,16 +2,17 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
-DESCRIPTION="Setup a CGI enviroment from a HTTP::Request"
+DESCRIPTION="Code atttribute introspection"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="dev-perl/Class-Accessor
-	dev-perl/libwww-perl
-	perl-core/Test-Simple"
+DEPEND="dev-perl/namespace-clean
+	>=dev-perl/MooseX-Types-0.06
+	>=dev-perl/Moose-0.70"
+RDEPEND="${DEPEND}"
