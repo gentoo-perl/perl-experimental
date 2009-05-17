@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Module-Install-0.88 (17 May 2009)
+
+  17 May 2009; Torsten Veller <tove@gentoo.org> +Module-Install-0.88.ebuild:
+  Version bump
+
 *Module-Install-0.87 (07 May 2009)
 
   07 May 2009; Torsten Veller <tove@gentoo.org> -Module-Install-0.86.ebuild,
