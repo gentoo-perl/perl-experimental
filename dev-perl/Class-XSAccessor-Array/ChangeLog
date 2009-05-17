@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Class-XSAccessor-Array-1.02 (17 May 2009)
+
+  17 May 2009; Torsten Veller <tove@gentoo.org>
+  +Class-XSAccessor-Array-1.02.ebuild:
+  Version bump
+
   22 Mar 2009; Torsten Veller <tove@gentoo.org>
   +dev-perl/Class-XSAccessor-Array/metadata.xml:
   Initial commit
