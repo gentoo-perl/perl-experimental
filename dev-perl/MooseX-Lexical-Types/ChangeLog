@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Lexical-Types
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Lexical-Types-0.01 (18 May 2009)
+
+  18 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +MooseX-Lexical-Types-0.01.ebuild:
+  Added
+
