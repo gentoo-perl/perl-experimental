@@ -16,12 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 RDEPEND="
 	dev-perl/namespace-clean
-	>=dev-perl/Scope-Upper-0.06
+	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00801
-	>=dev-perl/Moose-0.73
-	>=dev-perl/MooseX-MethodAttributes-0.06
+	>=dev-perl/Class-MOP-0.83
+	>=dev-perl/Moose-0.76
+	>=dev-perl/MooseX-MethodAttributes-0.10
 	>=dev-perl/Class-C3-Adopt-NEXT-0.07
-	>=dev-perl/Class-MOP-0.79
 	dev-perl/Cgi-Simple
 	dev-perl/Data-Dump
 	dev-perl/File-Modified
