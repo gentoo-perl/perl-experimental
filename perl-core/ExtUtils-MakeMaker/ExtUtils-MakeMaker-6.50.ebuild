@@ -2,13 +2,16 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=VPIT
+EAPI=2
+
+MODULE_AUTHOR=MSCHWERN
 inherit perl-module
 
-DESCRIPTION="Act on upper scopes."
-
-IUSE=""
+DESCRIPTION="Create a module Makefile"
+HOMEPAGE="http://makemaker.org"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
+IUSE=""
+
+SRC_TEST=do

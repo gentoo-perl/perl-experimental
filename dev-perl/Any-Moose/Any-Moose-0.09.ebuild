@@ -4,17 +4,16 @@
 
 EAPI=2
 
-MODULE_AUTHOR=BOBTFISH
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
-DESCRIPTION="Drop-in relacement for NEXT which uses Class::C3"
+DESCRIPTION="Use Moose or Mouse modules"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-perl/MRO-Compat
-	dev-perl/List-MoreUtils"
-RDEPEND="${DEPEND}"
+RDEPEND=">=dev-perl/Mouse-0.21"
+DEPEND="${RDEPEND}"
 
 SRC_TEST=do

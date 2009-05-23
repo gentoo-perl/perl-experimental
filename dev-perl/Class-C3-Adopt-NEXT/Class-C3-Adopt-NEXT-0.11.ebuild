@@ -4,17 +4,18 @@
 
 EAPI=2
 
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Drop-in relacement for NEXT which uses Class::C3"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
-DEPEND="dev-perl/MRO-Compat
+RDEPEND="dev-perl/MRO-Compat
 	dev-perl/List-MoreUtils"
-RDEPEND="${DEPEND}"
+DEPEND="test? ( ${RDEPEND}
+	dev-perl/Test-Exception )"
 
 SRC_TEST=do

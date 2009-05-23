@@ -2,17 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=FLORA
+EAPI=2
+
+MODULE_AUTHOR=ADAMK
 inherit perl-module
 
-DESCRIPTION="Use Moose or Mouse modules"
-LICENSE="|| ( Artistic GPL-2 )"
+DESCRIPTION="Read/Write YAML files with as little code as possible"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
-DEPEND="
-	>=dev-perl/Mouse-0.20
-"
 
+SRC_TEST=do
