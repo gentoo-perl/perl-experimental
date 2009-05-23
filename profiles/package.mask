@@ -6,7 +6,7 @@ dev-perl/Catalyst-Plugin-DefaultEnd
 # Masked because virtual/perl-Encode on which it depends is masked
 >=dev-perl/MojoMojo-0.999028
 
-# Torsten Veller <tove@gentoo.org> (4 Mar 2009)
+# Torsten Veller <tove@gentoo.org> (23 May 2009)
 # Collision with 5.8.8
 virtual/perl-CPAN
 perl-core/CPAN
@@ -14,6 +14,8 @@ virtual/perl-CPANPLUS
 perl-core/CPANPLUS
 virtual/perl-Encode
 perl-core/Encode
+virtual/perl-ExtUtils-MakeMaker
+perl-core/ExtUtils-MakeMaker
 
 # Torsten Veller <tove@gentoo.org> (25 Apr 2008)
 # Masked for testing.
