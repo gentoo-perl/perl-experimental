@@ -2,20 +2,18 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit versionator
+EAPI=2
+
+#inherit versionator
 MODULE_AUTHOR="ANDK"
-MY_P=${PN}-$(delete_version_separator 2 )
+#MY_P=${PN}-$(delete_version_separator 2 )
+#S=${WORKDIR}/${MY_P}
 inherit perl-module
 
 DESCRIPTION="query, download and build perl modules from CPAN sites"
 
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
-
-RDEPEND="dev-lang/perl"
-DEPEND="${RDEPEND}"
-
-S=${WORKDIR}/${MY_P}
 
 PATCHES=( "${FILESDIR}/${PV}-Makefile.patch" )
