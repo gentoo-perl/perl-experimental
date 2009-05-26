@@ -14,5 +14,8 @@
       <flag name="podformatter">POD formatterr</flag>
       <flag name="syntaxhighlight">Syntax Highlightert</flag>
       <flag name="transclusion">Transclusion support</flag>
+      <flag name="amazonboxes">Amazon boxes</flag>
+      <flag name="rssformatter">RSS Formatter</flag>
+      <flag name="emoticons">Emoticons</flag>
     </use>
 </pkgmetadata>
