@@ -65,7 +65,7 @@ RDEPEND="
 	dev-perl/Image-ExifTool
 	dev-perl/Imager
 	dev-perl/Image-Math-Constrain
-	>=virtual/perl-IO-File-1.14
+	>=virtual/perl-IO-1.14
 	>=dev-perl/KinoSearch-0.165
 	>=dev-perl/Module-Pluggable-Ordered-1.4
 	dev-perl/Moose
