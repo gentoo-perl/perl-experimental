@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="pure-OO reimplementation of dumpvar.pl"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="virtual/perl-Scalar-List-Utils"
