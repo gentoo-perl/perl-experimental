@@ -2,6 +2,7 @@
 # depends on perl-5.10 via File::Path
 >=dev-perl/ORLite-Migrate-0.03
 >=dev-perl/ORLite-1.21
+app-editors/padre
 
 # Michele Beltrame <mb@cattlegrid.info> (12 May 2009)
 # Masked because deprecated
