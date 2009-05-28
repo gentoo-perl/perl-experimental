@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/File-ShareDir-PAR
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  28 May 2009; Torsten Veller <tove@gentoo.org>
+  File-ShareDir-PAR-0.05.ebuild:
+  Add ~amd64
+
