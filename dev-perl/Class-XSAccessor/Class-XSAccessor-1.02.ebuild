@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Generate fast XS accessors without runtime compilation"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-perl/AutoXS-Header-1.00"
