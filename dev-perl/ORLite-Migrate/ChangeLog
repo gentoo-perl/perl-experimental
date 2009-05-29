@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 May 2009; Torsten Veller <tove@gentoo.org> ORLite-Migrate-0.03.ebuild:
+  Needs virtual/perl-File-Spec-3.27.01 at least
+
   17 Feb 2009; Torsten Veller <tove@gentoo.org> +metadata.xml,
   +ORLite-Migrate-0.02.ebuild:
   Initial release
