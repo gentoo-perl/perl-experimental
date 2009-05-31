@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Module-Extract-VERSION
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Extract-VERSION-0.13 (31 May 2009)
+
+  31 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Module-Extract-VERSION-0.13.ebuild:
+  Added
+
