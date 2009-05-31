@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Abstract document tree for Perl POD documents"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 SRC_TEST=do
