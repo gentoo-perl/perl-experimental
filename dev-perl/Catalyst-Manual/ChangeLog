@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Jun 2009; Michele Beltrame <mb@cattlegrid.info>
+  +Catalyst-Manual-5.8000.ebuild,
+  -Catalyst-Manual-5.7017.ebuild:
+  Bump
+
   12 May 2009; Michele Beltrame <mb@cattlegrid.info>
   +Catalyst-Manual-5.7021.ebuild,
   -Catalyst-Manual-5.7016.ebuild:

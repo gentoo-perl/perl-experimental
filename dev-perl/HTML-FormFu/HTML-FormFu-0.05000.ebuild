@@ -19,7 +19,7 @@ DEPEND="
 	>=dev-perl/Config-Any-0.10
 	dev-perl/crypt-cbc
 	dev-perl/Crypt-DES
-	dev-perl/Data-Visitor
+	>=dev-perl/Data-Visitor-0.23
 	dev-perl/Date-Calc
 	>=dev-perl/DateTime-0.38
 	>=dev-perl/DateTime-Format-Builder-0.7901
@@ -35,6 +35,7 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	virtual/perl-Locale-Maketext-Simple
 	virtual/perl-Module-Pluggable
+	dev-perl/Number-Format
 	dev-perl/Readonly
 	dev-perl/Regexp-Copy
 	dev-perl/regexp-common
