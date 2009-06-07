@@ -18,4 +18,4 @@ DEPEND="
 	dev-perl/Class-Throwable
 	dev-perl/Tree-Simple-VisitorFactory
 "
-
+RDEPEND="${DEPEND}"
