@@ -1,8 +1,11 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=SARTAK
+inherit versionator
+MY_P="${PN}-$(replace_version_separator 2 '_' )"
+S="${WORKDIR}/${MY_P}";
 inherit perl-module
 
 DESCRIPTION="Extend your attribute interfaces"
