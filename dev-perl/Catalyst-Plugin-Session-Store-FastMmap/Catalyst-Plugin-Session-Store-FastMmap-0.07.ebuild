@@ -19,3 +19,4 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/MRO-Compat
 "
+RDEPEND="${DEPEND}"
