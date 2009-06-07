@@ -18,4 +18,4 @@ DEPEND="
 	>=dev-perl/DateTime-Format-Builder-0.72
 	>=dev-perl/DateTime-TimeZone-0.05
 "
-
+RDEPEND="${DEPEND}"
