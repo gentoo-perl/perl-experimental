@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Session-0.22 (07 Jun 2009)
+
+  07 Jun 2009; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Session-0.22.ebuild:
+  Bumped. Added tests and more deps.
+
   12 May 2009; Michele Beltrame <mb@cattlegrid.info>
   +Catalyst-Plugin-Session-0.21.ebuild,
   -Catalyst-Plugin-Session-0.18.ebuild:
