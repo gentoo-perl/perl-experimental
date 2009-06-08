@@ -16,3 +16,4 @@ IUSE=""
 DEPEND="
 	dev-perl/libwww-perl
 "
+RDEPEND="${DEPEND}"

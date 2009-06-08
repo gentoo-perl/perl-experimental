@@ -15,5 +15,8 @@ IUSE=""
 
 DEPEND="
 	dev-perl/libwww-perl
+	virtual/perl-Memoize
 "
 RDEPEND="${DEPEND}"
+
+SRC_TEST="do"
