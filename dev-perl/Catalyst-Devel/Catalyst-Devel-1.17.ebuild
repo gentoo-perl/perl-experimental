@@ -29,7 +29,6 @@ DEPEND="
 
 src_compile() {
 	# Install must succeed with any Perl version
-	export CATALYST_DEVEL_NO_510_CHECK=1 
+	export CATALYST_DEVEL_NO_510_CHECK=1
 	perl-module_src_compile
 }
-

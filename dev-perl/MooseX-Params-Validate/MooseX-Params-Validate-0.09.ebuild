@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-    >=dev-perl/Moose-0.58
+	>=dev-perl/Moose-0.58
 	>=dev-perl/Params-Validate-0.88
 	dev-perl/Sub-Exporter
 "

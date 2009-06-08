@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-    >=dev-perl/Moose-0.56
+	>=dev-perl/Moose-0.56
 "
 DEPEND="
 	${RDEPEND}
