@@ -1,0 +1,9 @@
+--- Makefile.PL.o	2009-04-24 10:39:12.000000000 +1200
++++ Makefile.PL	2009-06-08 13:25:25.221299059 +1200
+@@ -12,6 +12,5 @@
+ build_requires 'Time::HiRes';
+ build_requires 'Time::Warp';
+ 
+-auto_install;
+ WriteAll;
+ 
