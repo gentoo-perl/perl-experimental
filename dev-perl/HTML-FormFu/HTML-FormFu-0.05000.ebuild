@@ -39,7 +39,6 @@ DEPEND="
 	dev-perl/Readonly
 	dev-perl/Regexp-Copy
 	dev-perl/regexp-common
-	dev-perl/Task-Weaken
 	>=dev-perl/YAML-Syck-1.04
 	dev-perl/Template-Toolkit
 "

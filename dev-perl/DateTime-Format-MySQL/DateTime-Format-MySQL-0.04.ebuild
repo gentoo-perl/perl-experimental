@@ -7,13 +7,16 @@ inherit perl-module
 
 DESCRIPTION="Parse and format MySQL dates and times"
 
+LICENSE="|| ( Artistic GPL-2 )"
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
-KEYWORDS="~amd64 ~x86"
-
-DEPEND="
+RDEPEND="
 	dev-perl/DateTime
 	>=dev-perl/DateTime-Format-Builder-0.60
 "
+DEPEND="${RDEPEND}
+	virtual/perl-Module-Build"
+
+SRC_TEST=do

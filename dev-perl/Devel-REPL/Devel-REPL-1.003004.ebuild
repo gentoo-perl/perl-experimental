@@ -19,7 +19,6 @@ DEPEND="
 	>=dev-perl/MooseX-AttributeHelpers-0.14
 	dev-perl/namespace-clean
 	dev-perl/File-HomeDir
-	dev-perl/Task-Weaken
 
 	dev-perl/PPI
 	dev-perl/Data-Dump-Streamer

@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/File-HomeDir
 	virtual/perl-File-Spec
 	virtual/perl-Term-ANSIColor
-	dev-perl/Task-Weaken
 
 	dev-perl/PPI
 	dev-perl/Data-Dump-Streamer

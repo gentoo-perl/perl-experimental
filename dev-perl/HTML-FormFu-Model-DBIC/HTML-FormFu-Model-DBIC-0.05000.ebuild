@@ -17,6 +17,5 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	>=dev-perl/DBIx-Class-0.08002
 	>=dev-perl/HTML-FormFu-0.05000
-	dev-perl/Task-Weaken
 "
 

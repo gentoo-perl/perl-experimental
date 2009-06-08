@@ -20,6 +20,5 @@ DEPEND="
 	>=dev-perl/MRO-Compat-0.10
 	dev-perl/Moose
 	dev-perl/Regexp-Assemble
-	dev-perl/Task-Weaken
 "
 

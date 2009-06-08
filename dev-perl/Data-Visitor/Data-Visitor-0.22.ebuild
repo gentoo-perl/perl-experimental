@@ -18,5 +18,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.04
 	dev-perl/Test-use-ok
 	>=dev-perl/Tie-ToObject-0.01
-	dev-perl/Task-Weaken
 "

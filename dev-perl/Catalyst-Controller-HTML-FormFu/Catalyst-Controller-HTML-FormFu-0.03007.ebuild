@@ -19,6 +19,5 @@ DEPEND="
 	>=dev-perl/HTML-FormFu-0.03007
 	dev-perl/Moose
 	dev-perl/Regexp-Assemble
-	dev-perl/Task-Weaken
 "
 

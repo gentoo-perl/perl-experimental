@@ -17,7 +17,6 @@ RDEPEND=">=dev-perl/Any-Moose-0.07
 	>=dev-perl/namespace-clean-0.08
 	>=dev-perl/Tie-ToObject-0.01"
 DEPEND="${RDEPEND}
-	dev-perl/Task-Weaken
 	test? ( dev-perl/Test-use-ok
 		>=dev-perl/Test-MockObject-1.04 )"
 

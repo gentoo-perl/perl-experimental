@@ -15,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.7
-	dev-perl/Task-Weaken
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/MRO-Compat
