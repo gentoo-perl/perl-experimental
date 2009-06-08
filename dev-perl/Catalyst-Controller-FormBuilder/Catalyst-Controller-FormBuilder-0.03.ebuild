@@ -21,4 +21,4 @@ DEPEND="
 	>=dev-perl/Class-Data-Inheritable-0.04
 	>=dev-perl/Class-Inspector-1.13
 "
-
+RDEPEND="${DEPEND}"
