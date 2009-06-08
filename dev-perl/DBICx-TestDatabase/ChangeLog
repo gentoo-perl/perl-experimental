@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DBICx-TestDatabase
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DBICx-TestDatabase-0.02 (08 Jun 2009)
+
+  08 Jun 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +DBICx-TestDatabase-0.02.ebuild:
+  Added, for DBIx-Class-DateTime-Epoch
+
