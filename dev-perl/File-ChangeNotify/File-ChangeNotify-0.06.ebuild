@@ -9,19 +9,24 @@ inherit perl-module
 
 DESCRIPTION="Watch for changes to files, cross-platform style."
 LICENSE="|| ( Artistic GPL-2 )"
-
+IUSE="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+
 RDEPEND="
 	dev-perl/Class-MOP
 	virtual/perl-Module-Pluggable
 	dev-perl/Moose
-	dev-perl/MooseX-Params-Validate
+	>=dev-perl/MooseX-Params-Validate-0.08
 	dev-perl/MooseX-SemiAffordanceAccessor
-"
+	virtual/perl-File-Spec
+	virtual/perl-Time-HiRes
+	"
 DEPEND="
 	${RDEPEND}
+	virtual/perl-File-Temp
+	test? (
+		virtual/perl-Test-Simple
+	)
 "
-
 SRC_TEST=do
