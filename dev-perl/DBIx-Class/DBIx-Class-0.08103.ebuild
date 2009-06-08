@@ -8,10 +8,11 @@ MODULE_AUTHOR=RIBASUSHI
 inherit perl-module
 
 DESCRIPTION="Extensible and flexible object <-> relational mapper."
-LICENSE="|| ( Artistic GPL-2 )"
 
+LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE=""
 
 RDEPEND="
 	>=dev-perl/DBD-SQLite-1.25
