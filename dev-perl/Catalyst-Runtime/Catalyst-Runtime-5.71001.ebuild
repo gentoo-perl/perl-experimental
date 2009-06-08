@@ -37,7 +37,7 @@ DEPEND="
 	fastcgi? ( dev-perl/FCGI dev-perl/FCGI-ProcManager )
 	par? ( dev-perl/PAR )
 "
-
+RDEPEND="${DEPEND}"
 #src_compile() {
 #	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
 #	perl-module_src_compile
