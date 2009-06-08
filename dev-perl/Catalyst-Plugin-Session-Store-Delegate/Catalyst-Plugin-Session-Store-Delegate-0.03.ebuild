@@ -6,7 +6,6 @@ MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Delegate session storage to an application model object."
-HOMEPAGE="http://search.cpan.org/dist/${P}/"
 
 IUSE=""
 
@@ -20,3 +19,4 @@ DEPEND="
 	dev-perl/Test-use-ok
 	dev-perl/MRO-Compat
 "
+RDEPEND="${DEPEND}"
