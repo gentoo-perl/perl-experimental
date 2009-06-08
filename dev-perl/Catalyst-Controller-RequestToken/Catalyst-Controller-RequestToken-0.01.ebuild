@@ -17,4 +17,4 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-Plugin-Session
 "
-
+RDEPEND="${DEPEND}"
