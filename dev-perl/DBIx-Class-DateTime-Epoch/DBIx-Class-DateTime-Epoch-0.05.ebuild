@@ -1,7 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=BRICAS
 inherit perl-module
 
@@ -11,9 +11,17 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
+IUSE="test"
+RDEPEND="
 	dev-perl/DateTime
-	dev-perl/DBIx-Class
+	>=dev-perl/DBIx-Class-0.08103
+	>=dev-perl/DBIx-Class-TimeStamp-0.07
 "
-RDEPEND="${DEPEND}"
+DEPEND="
+	${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+		dev-perl/DBICx-TestDatabase
+	)
+"
+SRC_TEST="do"
