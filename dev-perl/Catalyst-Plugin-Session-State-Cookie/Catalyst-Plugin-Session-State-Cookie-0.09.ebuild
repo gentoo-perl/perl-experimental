@@ -17,3 +17,4 @@ DEPEND="
 	>=dev-perl/Catalyst-Plugin-Session-0.09
 	>=dev-perl/Test-MockObject-1.01
 "
+RDEPEND="${DEPEND}"
