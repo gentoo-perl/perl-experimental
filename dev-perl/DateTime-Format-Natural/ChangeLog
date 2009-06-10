@@ -1,9 +1,0 @@
-# ChangeLog for dev-perl/DateTime-Format-Natural
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-  22 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
-  -DasteTime-Format-Natural-0.73.ebuild,
-  +DasteTime-Format-Natural-0.76.ebuild:
-  Bump + cleanup
-
