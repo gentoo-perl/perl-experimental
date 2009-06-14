@@ -29,12 +29,13 @@ case "${EAPI:-0}" in
 				RDEPEND="${DEPEND}"
 				;;
 		esac
-		if [[ ${CATEGORY} == "perl-core" ]] ; then
-			inherit alternatives
-			EXPORTED_FUNCTIONS="${EXPORTED_FUNCTIONS} pkg_postinst pkg_postrm"
-		fi
 		;;
 esac
+
+if [[ ${CATEGORY} == "perl-core" ]] ; then
+	inherit alternatives
+	EXPORTED_FUNCTIONS="${EXPORTED_FUNCTIONS} pkg_postinst pkg_postrm"
+fi
 
 EXPORT_FUNCTIONS ${EXPORTED_FUNCTIONS}
 
