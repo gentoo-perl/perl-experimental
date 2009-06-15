@@ -1,4 +1,4 @@
-# Copyright 1999-2004 Gentoo Foundation
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.116 2009/03/29 17:32:31 tove Exp $
 #
@@ -13,6 +13,7 @@
 # modules, and their incorporation into the Gentoo Linux system.
 
 inherit eutils base
+[[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
 EXPORTED_FUNCTIONS="src_unpack src_compile src_test src_install"
 
@@ -22,6 +23,8 @@ case "${EAPI:-0}" in
 		;;
 	2)
 		EXPORTED_FUNCTIONS="${EXPORTED_FUNCTIONS} src_prepare src_configure"
+		[[ ${CATEGORY} == "perl-core" ]] && \
+			EXPORTED_FUNCTIONS="${EXPORTED_FUNCTIONS} pkg_postinst pkg_postrm"
 
 		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
 			yes)
@@ -31,11 +34,6 @@ case "${EAPI:-0}" in
 		esac
 		;;
 esac
-
-if [[ ${CATEGORY} == "perl-core" ]] ; then
-	inherit alternatives
-	EXPORTED_FUNCTIONS="${EXPORTED_FUNCTIONS} pkg_postinst pkg_postrm"
-fi
 
 EXPORT_FUNCTIONS ${EXPORTED_FUNCTIONS}
 
@@ -62,11 +60,11 @@ VENDOR_LIB=""
 
 pm_echovar=""
 perlinfo_done=false
-DUALLIFESCRIPT=""
+DUALLIFESCRIPTS=""
 
 perl-module_src_unpack() {
 	base_src_unpack unpack
-	has "${EAPI:-0}" 0 1 && perl-module_src_prepare
+	has src_prepare ${EXPORTED_FUNCTIONS} || perl-module_src_prepare
 }
 
 perl-module_src_prepare() {
@@ -81,7 +79,7 @@ perl-module_src_configure() {
 }
 
 perl-module_src_prep() {
-	[[ "${SRC_PREP}" = "yes" ]] && return 0
+	[[ ${SRC_PREP} = "yes" ]] && return 0
 	SRC_PREP="yes"
 
 	${perlinfo_done} || perlinfo
@@ -90,7 +88,7 @@ perl-module_src_prep() {
 	# Disable ExtUtils::AutoInstall from prompting
 	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
 
-	if [[ "${PREFER_BUILDPL}" == "yes" && -f Build.PL ]] ; then
+	if [[ ${PREFER_BUILDPL} == "yes" && -f Build.PL ]] ; then
 		einfo "Using Module::Build"
 		perl Build.PL \
 			--installdirs=vendor \
@@ -120,7 +118,7 @@ perl-module_src_prep() {
 perl-module_src_compile() {
 	${perlinfo_done} || perlinfo
 
-	has "${EAPI:-0}" 0 1 && perl-module_src_prep
+	has src_configure ${EXPORTED_FUNCTIONS} || perl-module_src_prep
 
 	if [[ -f Build ]] ; then
 		./Build build \
@@ -135,7 +133,7 @@ perl-module_src_compile() {
 }
 
 perl-module_src_test() {
-	if [[ "${SRC_TEST}" == "do" ]] ; then
+	if [[ ${SRC_TEST} == "do" ]] ; then
 		${perlinfo_done} || perlinfo
 		if [[ -f Build ]] ; then
 			./Build test || die "test failed"
@@ -189,7 +187,7 @@ if grep -q "${D}" "${f}" ; then ewarn "QA: File contains a temporary path ${f}" 
 		fi
 	done
 
-	[[ ${CATEGORY} == "perl-core" ]] && fixduallifescripts
+	[[ ${CATEGORY} == "perl-core" ]] && linkduallifescripts
 }
 
 perl-module_pkg_setup() {
@@ -201,11 +199,11 @@ perl-module_pkg_preinst() {
 }
 
 perl-module_pkg_postinst() {
-	[[ ${CATEGORY} == "perl-core" ]] && fixduallifescripts
+	[[ ${CATEGORY} == "perl-core" ]] && linkduallifescripts
 }
 
 perl-module_pkg_postrm() {
-	[[ ${CATEGORY} == "perl-core" ]] && fixduallifescripts
+	[[ ${CATEGORY} == "perl-core" ]] && linkduallifescripts
 }
 
 perl-module_pkg_prerm() { : ; }
@@ -230,10 +228,10 @@ fixlocalpod() {
 	find "${D}" -depth -mindepth 1 -type d -empty -delete
 }
 
-fixduallifescripts() {
+linkduallifescripts() {
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
-		for i in ${DUALLIFESCRIPT} ; do
+		for i in ${DUALLIFESCRIPTS} ; do
 			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-*"
 				ff=`echo "${ROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
 				ff=${ff##*.1}
@@ -241,9 +239,9 @@ fixduallifescripts() {
 		done
 	else
 		pushd "${D}" > /dev/null
-		for i in $(find usr/bin -maxdepth 1 -type f ) ; do
+		for i in $(find usr/bin -maxdepth 1 -type f 2>/dev/null) ; do
 			mv ${i}{,-${PV}-${P}} || die
-			DUALLIFESCRIPT="${DUALLIFESCRIPT} ${i##*/}"
+			DUALLIFESCRIPTS="${DUALLIFESCRIPTS} ${i##*/}"
 			if [[ -f usr/share/man/man1/${i##*/}.1 ]] ; then
 				mv usr/share/man/man1/${i##*/}{.1,-${PV}-${P}.1} || die
 			fi
