@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Types-Set-Object
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Types-Set-Object-0.02 (15 Jun 2009)
+
+  15 Jun 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +MooseX-Types-Set-Object-0.02.ebuild:
+  Added
+
