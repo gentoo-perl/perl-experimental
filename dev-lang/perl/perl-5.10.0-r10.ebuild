@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.8.8-r2.ebuild,v 1.29 2007/02/11 14:15:44 grobian Exp $
 
+EAPI=2
+
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
 # The slot of this binary compat version of libperl.so
@@ -29,7 +31,7 @@ DEPEND="berkdb? ( sys-libs/db )
 	!<perl-core/File-Spec-0.87
 	!<perl-core/Test-Simple-0.47-r1"
 
-RDEPEND="~sys-devel/libperl-${PV}
+RDEPEND="~sys-devel/libperl-${PV}[ithreads=]
 	berkdb? ( sys-libs/db )
 	gdbm? ( >=sys-libs/gdbm-1.8.3 )"
 
@@ -57,8 +59,8 @@ pkg_setup() {
 
 src_unpack() {
 	unpack ${A}
-	cd "${S}"
-
+}
+src_prepare() {
 	EPATCH_SOURCE="${FILESDIR}/${PV}" \
 	EPATCH_FORCE="yes" \
 	EPATCH_SUFFIX="patch" \
@@ -193,12 +195,7 @@ src_configure() {
 }
 
 src_compile() {
-	# would like to bracket this with a test for the existence of a
-	# dotfile, but can't clean it automatically now.
-
-	src_configure
-
-	emake -j1 || die "Unable to make"
+	emake || die "Unable to make"
 }
 
 src_test() {
