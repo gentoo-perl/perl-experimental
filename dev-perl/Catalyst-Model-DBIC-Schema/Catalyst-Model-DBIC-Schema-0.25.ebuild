@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=BOGDAN
+MODULE_AUTHOR=MSTROUT
 inherit perl-module
 
 DESCRIPTION="DBIx::Class::Schema Model Class"
@@ -19,5 +19,5 @@ DEPEND="
 	>=dev-perl/Class-Data-Accessor-0.02
 	>=dev-perl/Class-Accessor-0.22
 	>=dev-perl/Catalyst-Devel-1.0
-	>=dev-perl/DBIx-Class-Schema-Loader-0.03012
+	>=dev-perl/DBIx-Class-Schema-Loader-0.04005
 "
