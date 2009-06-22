@@ -11,13 +11,23 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
+IUSE="test"
+RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.71001
 	>=dev-perl/namespace-clean-0.10
+	virtual/perl-digest-base
+	virtual/perl-File-Spec
 	dev-perl/Object-Signature
 	dev-perl/MRO-Compat
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00801
 	>=dev-perl/Moose-0.76
 "
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}
+	test? (
+			dev-perl/Test-Deep
+			dev-perl/Test-Exception
+			>=dev-perl/Test-MockObject-1.01
+			virtual/perl-Test-Simple
+	)
+"
+SRC_TEST="do"
