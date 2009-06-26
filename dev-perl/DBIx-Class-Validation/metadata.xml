@@ -6,4 +6,7 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
+    <use>
+        <flag name="recommended">Install recommended package <pkg>Data::FormValidator</pkg></flag>
+    </use>
 </pkgmetadata>

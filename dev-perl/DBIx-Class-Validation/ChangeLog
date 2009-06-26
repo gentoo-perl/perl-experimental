@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DBIx-Class-Validation
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DBIx-Class-Validation-0.02004 (26 Jun 2009)
+
+  26 Jun 2009; Kent Fredric <kentfredric@gmail.com> metadata.xml,
+  +DBIx-Class-Validation-0.02004.ebuild:
+  Bumped, EAPI=2, QA, Test, Recommended Deps
+
