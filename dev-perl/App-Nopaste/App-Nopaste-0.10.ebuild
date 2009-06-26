@@ -1,7 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=SARTAK
 inherit perl-module
 
@@ -17,3 +17,5 @@ DEPEND="
 	>=dev-perl/Moose-0.50
 	>=dev-perl/MooseX-Getopt-0.13
 "
+RDEPEND="${DEPEND}"
+SRC_TEST="do"
