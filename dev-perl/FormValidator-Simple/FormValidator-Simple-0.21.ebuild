@@ -1,7 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=LYOKATO
 inherit perl-module
 
@@ -26,3 +26,5 @@ DEPEND="
 	>=dev-perl/List-MoreUtils-0.16
 	>=dev-perl/DateTime-Format-Strptime-1.0700
 "
+RDEPEND="${DEPEND}"
+SRC_TEST="do"
