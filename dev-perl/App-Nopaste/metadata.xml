@@ -8,7 +8,6 @@
     </maintainer>
     <use>
         <flag name="pastebin">pastebin.com support</flag>
-        <flag name="rafb">rafb.net support</flag>
         <flag name="clipboard">copying of URLs with -x/--copy</flag>
         <flag name="github">Github authentication</flag>
     </use>

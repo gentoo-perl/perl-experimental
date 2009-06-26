@@ -11,7 +11,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+pastebin +rafb +clipboard +github"
+IUSE="+pastebin +clipboard +github"
 DEPEND="
 	dev-perl/WWW-Mechanize
 	virtual/perl-Module-Pluggable
@@ -19,9 +19,6 @@ DEPEND="
 	>=dev-perl/MooseX-Getopt-0.17
 	pastebin? (
 		dev-perl/WWW-Pastebin-PastebinCom-Create
-	)
-	rafb? (
-		dev-perl/WWW-Pastebin-RafbNet-Create
 	)
 	clipboard? (
 		dev-perl/Clipboard
