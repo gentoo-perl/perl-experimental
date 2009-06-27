@@ -74,6 +74,7 @@ COMMON_DEPEND="
 		dev-perl/DateTime
 		dev-perl/Date-Tiny
 		dev-perl/Time-modules
+		dev-perl/Time-y2038
 	)
 	config? (
 		dev-perl/Config-Any
@@ -90,10 +91,8 @@ COMMON_DEPEND="
 		dev-perl/XXX
 	)
 "
-
 #>=virtual/perl-ExtUtils-MakeMaker-6.42
-
 DEPEND="
-		${COMMON_DEPEND}
+	${COMMON_DEPEND}
 "
 RDEPEND="${COMMON_DEPEND}"

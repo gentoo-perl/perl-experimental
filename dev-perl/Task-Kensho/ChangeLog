@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Task-Kensho-0.12 (27 Jun 2009)
+
+  27 Jun 2009; Kent Fredric <kentfredric@gmail.com> Task-Kensho-0.11.ebuild,
+  +Task-Kensho-0.12.ebuild:
+  Bumped,QA
+
 *Task-Kensho-0.11 (27 May 2009)
 
   27 May 2009; Kent Fredric <kentfredric@gmail.com>
