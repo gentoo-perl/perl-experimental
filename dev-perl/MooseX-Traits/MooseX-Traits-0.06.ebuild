@@ -13,11 +13,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	dev-perl/Moose
-"
-DEPEND="
 	>=dev-perl/Moose-0.84
 	>=dev-perl/Class-MOP-0.84
+"
+DEPEND="
+	${RDEPEND}
 	test? (
 	  dev-perl/Test-Exception
 	  dev-perl/Test-use-ok
