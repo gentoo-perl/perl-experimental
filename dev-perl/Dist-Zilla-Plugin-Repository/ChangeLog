@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-Repository
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-Repository-0.08 (30 Jun 2009)
+
+  30 Jun 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Dist-Zilla-Plugin-Repository-0.08.ebuild:
+  Added for DZIL:: RJBS
+
