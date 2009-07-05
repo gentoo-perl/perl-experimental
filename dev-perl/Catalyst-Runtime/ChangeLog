@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Runtime-5.80007 (05 Jul 2009)
+
+  05 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Runtime-5.80004.ebuild, +Catalyst-Runtime-5.80007.ebuild:
+  Bump
+
   10 Jun 2009; Michele Beltrame <mb@cattlegrid.info>
   -Catalyst-Runtime-5.80003.ebuild::
   Cleanup
