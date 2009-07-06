@@ -1,21 +1,20 @@
-# Copyright Daniel Westermann-Clark <daniel at acceleration dot net>
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header$
+# $Header: $
 
-inherit perl-module eutils
+EAPI=2
+
+MODULE_AUTHOR=JROBINSON
+inherit perl-module
 
 DESCRIPTION="Parse and format DB2 dates and times"
-HOMEPAGE="http://search.cpan.org/dist/${PN}/"
-SRC_URI="mirror://cpan/authors/id/J/JR/JROBINSON/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
-KEYWORDS="amd64 x86"
-RESTRICT="nomirror"
+KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE=""
-RDEPEND="dev-lang/perl
-	dev-perl/DateTime
+RDEPEND="dev-perl/DateTime
 	dev-perl/DateTime-Format-Builder"
 DEPEND="${RDEPEND}"
