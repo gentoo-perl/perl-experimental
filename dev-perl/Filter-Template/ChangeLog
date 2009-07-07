@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Filter-Template
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  07 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  Filter-Template-1.02.ebuild, +metadata.xml:
+  Convert to EAPI=2 and add metadata.xml
+
