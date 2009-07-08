@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/POE-Component-OSCAR
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  08 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  POE-Component-OSCAR-0.05.ebuild, +metadata.xml:
+  Convert to EAPI=2 and add metadata.xml
+
