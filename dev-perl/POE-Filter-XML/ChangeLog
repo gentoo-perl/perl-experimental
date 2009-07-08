@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/POE-Filter-XML
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*POE-Filter-XML-0.38 (08 Jul 2009)
+
+  08 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  -POE-Filter-XML-0.33.ebuild, +POE-Filter-XML-0.38.ebuild, +metadata.xml:
+  Bump, convert to EAPI=2, and add metadata.xml
+
