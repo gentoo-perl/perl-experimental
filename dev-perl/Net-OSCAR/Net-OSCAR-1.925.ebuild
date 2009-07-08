@@ -1,22 +1,21 @@
-# Copyright Daniel Westermann-Clark <daniel at acceleration dot net>
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header$
+# $Header: $
 
+EAPI=2
+
+MODULE_AUTHOR=MATTHEWG
 inherit perl-module
 
 DESCRIPTION="Implementation of AOL's OSCAR protocol for instant messaging"
-HOMEPAGE="http://search.cpan.org/dist/Net-OSCAR/"
-SRC_URI="mirror://cpan/authors/id/M/MA/MATTHEWG/${P}.tar.gz"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="amd64 x86"
-RESTRICT="nomirror"
+LICENSE="|| ( Artistic GPL-2 )"
+KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-lang/perl-5.6.1
-	>=virtual/perl-Digest-MD5-2.0
+RDEPEND=">=virtual/perl-Digest-MD5-2.0
 	>=virtual/perl-Scalar-List-Utils-1.0
 	virtual/perl-Time-HiRes
 	virtual/perl-MIME-Base64"
