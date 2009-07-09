@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Method
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Method-0.44 (09 Jul 2009)
+
+  09 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  +MooseX-Method-0.44.ebuild, +metadata.xml:
+  Add MooseX-Method for VCI
+
