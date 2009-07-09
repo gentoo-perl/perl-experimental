@@ -16,6 +16,8 @@ SRC_TEST="do"
 
 RDEPEND="dev-perl/Proc-Daemon
 	dev-perl/Class-Accessor
+	dev-perl/Audio-MPD-Common
+	dev-perl/Getopt-Euclid
 	dev-perl/Readonly
 	dev-lang/perl"
 DEPEND="${RDEPEND}
