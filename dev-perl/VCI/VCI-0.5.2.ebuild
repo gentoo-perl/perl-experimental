@@ -1,27 +1,27 @@
-# Copyright Daniel Westermann-Clark <daniel at acceleration dot net>
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header$
+# $Header: $
 
+EAPI=2
+
+MODULE_AUTHOR=MKANAT
 inherit perl-module
 
 DESCRIPTION="A generic interface for interacting with various version control systems"
-HOMEPAGE="http://search.cpan.org/dist/VCI/"
-SRC_URI="mirror://cpan/authors/id/M/MK/MKANAT/${P}.tar.gz"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="~alpha amd64 ~hppa ~ia64 ~mips ppc ~ppc64 ~sparc x86"
-RESTRICT="mirror"
+LICENSE="|| ( Artistic GPL-2 )"
+KEYWORDS="~amd64 ~x86"
+#SRC_TEST="do"
 
-IUSE="bzr cvs git mercurial subversion test"
-RDEPEND=">=dev-lang/perl-5.6.0
-	>=dev-perl/Moose-0.27
+IUSE="bazaar cvs git mercurial subversion test"
+RDEPEND=">=dev-perl/Moose-0.27
 	dev-perl/MooseX-Method
 	dev-perl/DateTime
 	>=dev-perl/Path-Abstract-0.093
 	dev-perl/DateTime-Format-DateParse
 	>=dev-perl/Text-Diff-Parser-0.07
-	bzr? (
+	bazaar? (
 		dev-util/bzr
 		virtual/perl-IPC-Cmd
 		>=virtual/perl-Module-Load-Conditional-0.24
@@ -29,7 +29,7 @@ RDEPEND=">=dev-lang/perl-5.6.0
 		dev-perl/XML-Simple
 	)
 	subversion? (
-		>=dev-util/subversion-1.2
+		>=dev-util/subversion-1.2[perl]
 		virtual/perl-File-Spec
 	)
 	mercurial? (
@@ -38,7 +38,7 @@ RDEPEND=">=dev-lang/perl-5.6.0
 		dev-perl/XML-Simple
 	)
 	git? (
-		dev-util/git
+		dev-util/git[perl]
 		virtual/perl-File-Spec
 	)
 	cvs? (
@@ -61,18 +61,6 @@ DEPEND="virtual/perl-Module-Build
 	)"
 
 pkg_setup() {
-	if use git && ! perl -MGit < /dev/null 2> /dev/null; then
-		eerror "Git missing or outdated."
-		eerror "Please emerge dev-util/git with the perl USE flag."
-		die "Need Git compiled with Perl bindings"
-	fi
-
-	if use subversion && ! perl -MSVN::Core < /dev/null 2> /dev/null; then
-		eerror "SVN::Core missing or outdated."
-		eerror "Please emerge dev-util/subversion with the perl USE flag."
-		die "Need Subversion compiled with Perl bindings"
-	fi
-
 	if use subversion && built_with_use dev-util/subversion dso; then
 		eerror "Subversion's Perl bindings segfault with USE=dso."
 		eerror "See https://bugs.gentoo.org/show_bug.cgi?id=223747."
