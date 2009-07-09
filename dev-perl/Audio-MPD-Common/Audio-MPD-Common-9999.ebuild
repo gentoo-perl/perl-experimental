@@ -7,7 +7,7 @@ DESCRIPTION="a bunch of common helper classes for mpd"
 HOMEPAGE="http://search.cpan.org/~jquelin/Audio-MPD-Common/"
 EGIT_REPO_URI="git://repo.or.cz/audio-mpd-common.git"
 
-LICENSE="Artistic"
+LICENSE="Artistic GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ia64 ~ppc ~sparc ~x86"
 IUSE=""

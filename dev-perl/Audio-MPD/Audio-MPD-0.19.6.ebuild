@@ -7,7 +7,7 @@ DESCRIPTION="Audio::MPD is a Perl module for interfacing MPD through perl script
 HOMEPAGE="http://search.cpan.org/~jquelin/Audio-MPD/"
 SRC_URI="mirror://cpan/authors/id/J/JQ/JQUELIN/${P}.tar.gz"
 
-LICENSE="Artistic"
+LICENSE="Artistic GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ia64 ~ppc ~sparc ~x86"
 IUSE=""

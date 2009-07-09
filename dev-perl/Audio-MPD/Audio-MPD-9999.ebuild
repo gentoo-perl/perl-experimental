@@ -7,7 +7,7 @@ DESCRIPTION="Audio::MPD is a Perl module for interfacing MPD through perl script
 HOMEPAGE="http://search.cpan.org/~jquelin/Audio-MPD/"
 EGIT_REPO_URI="git://repo.or.cz/audio-mpd.git"
 
-LICENSE="Artistic"
+LICENSE="Artistic GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ia64 ~ppc ~sparc ~x86"
 IUSE=""
