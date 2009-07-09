@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Text-Diff-Parser
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Text-Diff-Parser-0.0900 (09 Jul 2009)
+
+  09 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  -Text-Diff-Parser-0.08.ebuild, +Text-Diff-Parser-0.0900.ebuild,
+  +metadata.xml:
+  Bump, convert to EAPI=2, and add metadata.xml
+
