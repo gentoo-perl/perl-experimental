@@ -49,7 +49,7 @@ DEPEND="
 	>=dev-perl/HTML-Strip-1.04
 	dev-perl/HTML-Scrubber
 	dev-perl/HTML-TagCloud
-	dev-perl/Image-ExifTool
+	media-libs/exiftool
 	dev-perl/Image-Math-Constrain
 	dev-perl/Imager
 	dev-perl/libwww-perl
