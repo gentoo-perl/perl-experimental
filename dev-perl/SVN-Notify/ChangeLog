@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/SVN-Notify
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*SVN-Notify-2.79 (09 Jul 2009)
+
+  09 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  -SVN-Notify-2.78.ebuild, +SVN-Notify-2.79.ebuild, +metadata.xml:
+  Bump, convert to EAPI=2, and add metadata.xml
+
