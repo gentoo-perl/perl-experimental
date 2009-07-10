@@ -6,8 +6,9 @@ EAPI=2
 
 MY_PN=Padre
 MY_P=${MY_PN}-${PV}
-MODULE_AUTHOR=THEREK
+#MODULE_AUTHOR=THEREK
 #MODULE_AUTHOR=JQUELIN
+MODULE_AUTHOR=SZABGAB
 S=${WORKDIR}/${MY_P}
 inherit perl-module
 
@@ -19,6 +20,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
+	>=dev-perl/Locale-Msgfmt-0.14
+	>=virtual/perl-Test-Simple-0.88
 	>=sys-apps/ack-1.86
 	>=dev-perl/Class-Adapter-1.05
 	>=dev-perl/Class-Unload-0.03
@@ -56,12 +59,14 @@ DEPEND="
 	>=dev-perl/Pod-POM-0.17
 	>=virtual/perl-Pod-Simple-3.07
 	>=dev-perl/PPI-1.203
+	>=dev-perl/PPIx-EditorTools-0.04
 	>=dev-perl/Probe-Perl-0.01
 	>=virtual/perl-Storable-2.15
 	virtual/perl-Text-Balanced
 	>=dev-perl/Text-Diff-0.35
 	>=dev-perl/Text-FindIndent-0.03
 	>=dev-perl/Thread-Queue-2.11
+	>=dev-perl/prefork-1.03
 	>=virtual/perl-threads-1.71
 	>=virtual/perl-threads-shared-1.26
 	>=dev-perl/URI-0
