@@ -13,13 +13,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Hash-Merge-Simple
+	dev-perl/Carp-Clan-Share
 	dev-perl/Config-Any
 	dev-perl/Clone
+	>=dev-perl/Data-Visitor-0.24
+	dev-perl/Hash-Merge-Simple
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
+	dev-perl/MooseX-AttributeHelpers
 	dev-perl/Path-Class
 	dev-perl/Sub-Install
-	dev-perl/Data-Visitor
-	>=virtual/perl-Module-Pluggable-3.01
 "

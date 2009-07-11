@@ -22,6 +22,7 @@ DEPEND="
 	${COMMON_DEPEND}
 	dev-perl/DateTime-Format-MySQL
 	dev-perl/Class-Accessor-Grouped
+	dev-perl/DateTime-Format-SQLite
 	virtual/perl-Time-HiRes
 	dev-perl/Time-Warp
 "

@@ -12,10 +12,15 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
+IUSE="test"
 DEPEND="
-	>=dev-perl/Moose-0.74
+	>=dev-perl/Moose-0.84
 	dev-perl/namespace-clean
 "
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	test? (
+		dev-perl/Test-Exception
+		virtual/perl-Test-Simple
+	)
+"
 SRC_TEST="do"

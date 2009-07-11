@@ -2,6 +2,14 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Action-RenderView-0.11 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Action-RenderView-0.08.ebuild,
+  -Catalyst-Action-RenderView-0.09.ebuild,
+  +Catalyst-Action-RenderView-0.11.ebuild:
+  Bump
+
   01 May 2009; Michele Beltrame <mb@cattlegrid.info>
   +Catalyst-Action-RenderView-0.10.ebuild:
   Bump

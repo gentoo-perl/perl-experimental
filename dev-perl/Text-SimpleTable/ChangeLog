@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Text-SimpleTable
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Text-SimpleTable-1.2 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -Text-SimpleTable-0.02.ebuild, -Text-SimpleTable-0.03.ebuild,
+  +Text-SimpleTable-1.2.ebuild:
+  Bump
+

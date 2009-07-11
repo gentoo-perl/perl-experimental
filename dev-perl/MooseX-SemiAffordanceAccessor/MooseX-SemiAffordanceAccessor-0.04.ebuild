@@ -7,18 +7,14 @@ EAPI=2
 MODULE_AUTHOR=DROLSKY
 inherit perl-module
 
-DESCRIPTION="Watch for changes to files, cross-platform style."
-LICENSE="|| ( Artistic GPL-2 )"
+DESCRIPTION="Name your accessors foo() and set_foo()"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+
 RDEPEND="
-	dev-perl/Class-MOP
-	virtual/perl-Module-Pluggable
-	dev-perl/Moose
-	dev-perl/MooseX-Params-Validate
-	dev-perl/MooseX-SemiAffordanceAccessor
+	>=dev-perl/Moose-0.56
 "
 DEPEND="
 	${RDEPEND}

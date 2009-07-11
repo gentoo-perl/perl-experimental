@@ -2,17 +2,18 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MRAMBERG
+EAPI=2
+
+MODULE_AUTHOR=ADAMK
 inherit perl-module
 
-DESCRIPTION="FillInForm for Catalyst"
-LICENSE="|| ( Artistic GPL-2 )"
+DESCRIPTION="Exclude files/directories for Version Control Systems"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
-DEPEND="
-	dev-perl/HTML-FillInForm
-	>=dev-perl/Catalyst-Runtime-5.7012
-"
+
+RDEPEND="dev-perl/File-Find-Rule"
+DEPEND="${RDEPEND}"
+
+SRC_TEST=do
