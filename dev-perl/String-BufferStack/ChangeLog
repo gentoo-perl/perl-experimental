@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/String-BufferStack
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-BufferStack-1.14 (11 Jul 2009)
+
+  11 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  -String-BufferStack-1.12.ebuild, +String-BufferStack-1.14.ebuild,
+  +metadata.xml:
+  Bump, convert to EAPI=2, and add metadata.xml
+
