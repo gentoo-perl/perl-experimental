@@ -13,11 +13,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.70
+	>=dev-perl/Catalyst-Runtime-5.71001
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
-	>=dev-perl/HTML-FormFu-0.03007
+	>=dev-perl/HTML-FormFu-0.04001
+	>=dev-perl/MRO-Compat-0.10
 	dev-perl/Moose
 	dev-perl/Regexp-Assemble
+	dev-perl/Task-Weaken
+	dev-perl/namespace-autoclean
 "
 

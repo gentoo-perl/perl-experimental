@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormFu-Model-DBIC-0.05002 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -HTML-FormFu-Model-DBIC-0.05000.ebuild,
+  +HTML-FormFu-Model-DBIC-0.05002.ebuild:
+  Bump
+
 *HTML-FormFu-Model-DBIC-0.05001 (05 Jul 2009)
 
   05 Jul 2009; Michele Beltrame <m@cattlegrid.info>

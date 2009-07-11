@@ -2,14 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=VPIT
-inherit perl-module
+DESCRIPTION="Virtual for CPANPLUS"
+HOMEPAGE="http://www.gentoo.org/proj/en/perl/"
 
-DESCRIPTION="CPANPLUS backend generating Gentoo ebuilds."
-LICENSE="|| ( Artistic GPL-2 )"
-
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
+
 DEPEND=""
+RDEPEND="~perl-core/CPANPLUS-${PV}"
