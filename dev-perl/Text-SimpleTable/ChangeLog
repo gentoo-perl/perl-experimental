@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Text-SimpleTable-1.4 (17 Jul 2009)
+
+  17 Jul 2009; Torsten Veller <tove@gentoo.org>
+  -Text-SimpleTable-0.05.ebuild, -Text-SimpleTable-1.2.ebuild,
+  +Text-SimpleTable-1.4.ebuild:
+  Version bump. Cleanup
+
 *Text-SimpleTable-1.2 (11 Jul 2009)
 
   11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
