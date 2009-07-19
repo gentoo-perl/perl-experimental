@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	virtual/perl-Module-Build
-	virtual/perl-Compress-Zlib
+	virtual/perl-IO-Compress
 	>=dev-perl/Lingua-Stem-Snowball-0.94
 	>=dev-perl/Lingua-StopWords-0.02
 "
