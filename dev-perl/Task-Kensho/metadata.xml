@@ -19,5 +19,6 @@
 		<flag name="config">Config Modules</flag>
 		<flag name="cli">Useful Command-line Tools</flag>
 		<flag name="scripting">Script Hackery</flag>
+		<flag name="xml">XML Processing</flag>
 	</use>
 </pkgmetadata>
