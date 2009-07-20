@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND="virtual/perl-Compress-Zlib
+RDEPEND="virtual/perl-IO-Compress
 	dev-perl/CPAN-DistnameInfo
 	dev-perl/Moose
 	virtual/perl-version"
