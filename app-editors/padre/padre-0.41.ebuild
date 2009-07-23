@@ -8,7 +8,8 @@ MY_PN=Padre
 MY_P=${MY_PN}-${PV}
 #MODULE_AUTHOR=THEREK
 #MODULE_AUTHOR=JQUELIN
-MODULE_AUTHOR=SZABGAB
+#MODULE_AUTHOR=SZABGAB
+MODULE_AUTHOR=GARU
 S=${WORKDIR}/${MY_P}
 inherit perl-module
 
@@ -23,6 +24,7 @@ DEPEND="
 	>=dev-perl/Locale-Msgfmt-0.14
 	>=virtual/perl-Test-Simple-0.88
 	>=sys-apps/ack-1.86
+	>=dev-perl/Capture-Tiny-0.06
 	>=dev-perl/Class-Adapter-1.05
 	>=dev-perl/Class-Unload-0.03
 	>=dev-perl/Class-XSAccessor-1.02
@@ -34,6 +36,7 @@ DEPEND="
 	>=dev-perl/File-Copy-Recursive-0.37
 	>=dev-perl/File-Find-Rule-0.30
 	>=dev-perl/File-HomeDir-0.84
+	>=dev-perl/File-Remove-1.42
 	>=dev-perl/File-ShareDir-1.00
 	>=dev-perl/File-ShareDir-PAR-0.04
 	>=virtual/perl-File-Spec-3.27.01
@@ -43,10 +46,8 @@ DEPEND="
 	>=dev-perl/IO-stringy-2.110
 	virtual/perl-IO
 	>=dev-perl/IO-String-1.08
-	>=virtual/perl-IPC-Cmd-0.42
 	>=virtual/perl-Scalar-List-Utils-1.18
 	>=dev-perl/List-MoreUtils-0.22
-	>=dev-perl/Module-Inspector-0.04
 	>=dev-perl/Module-Refresh-0.13
 	>=dev-perl/Module-Starter-1.50
 	>=dev-perl/ORLite-1.20
