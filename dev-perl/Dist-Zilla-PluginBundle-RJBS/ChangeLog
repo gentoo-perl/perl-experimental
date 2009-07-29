@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-PluginBundle-RJBS-0.092070 (29 Jul 2009)
+
+  29 Jul 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-PluginBundle-RJBS-0.092070.ebuild:
+  Bumped
+
 *Dist-Zilla-PluginBundle-RJBS-0.091560 (30 Jun 2009)
 
   30 Jun 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
