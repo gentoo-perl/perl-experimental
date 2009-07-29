@@ -22,12 +22,14 @@ DEPEND="
 	virtual/perl-Digest-SHA
 	dev-perl/File-HomeDir
 	virtual/perl-Compress-Raw-Zlib
-	virtual/perl-IO-Compress
+	virtual/perl-Compress-Raw-Bzip2
 	virtual/perl-IO-Zlib
 	virtual/perl-Archive-Tar
+	virtual/perl-IO-Compress
 	dev-perl/Archive-Zip
 	dev-perl/Term-ReadLine-Perl
 	dev-perl/yaml
+	dev-perl/Parse-CPAN-Meta
 	dev-perl/Text-Glob
 	dev-perl/File-Which
 	virtual/perl-Test-Simple
