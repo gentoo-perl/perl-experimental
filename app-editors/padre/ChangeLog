@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*padre-0.42 (02 Aug 2009)
+
+  02 Aug 2009; Torsten Veller <tove@gentoo.org> -padre-0.41.ebuild,
+  +padre-0.42.ebuild:
+  Version bump. Cleanup
+
 *padre-0.41 (23 Jul 2009)
 
   23 Jul 2009; Torsten Veller <tove@gentoo.org> -padre-0.39.ebuild,
