@@ -2,6 +2,14 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Controller-HTML-FormFu-0.05000 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Controller-HTML-FormFu-0.03007.ebuild,
+  -Catalyst-Controller-HTML-FormFu-0.04001.ebuild,
+  +Catalyst-Controller-HTML-FormFu-0.05000.ebuild:
+  Bump
+
   28 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   -Catalyst-Controller-HTML-FormFu-0.03006,
   +Catalyst-Controller-HTML-FormFu-0.04001:

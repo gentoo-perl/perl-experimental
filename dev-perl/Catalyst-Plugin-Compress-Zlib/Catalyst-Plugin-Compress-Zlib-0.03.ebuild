@@ -15,6 +15,6 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.7006
-	virtual/perl-Compress-Zlib
+	virtual/perl-IO-Compress
 "
 

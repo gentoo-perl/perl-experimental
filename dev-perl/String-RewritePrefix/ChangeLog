@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-RewritePrefix
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-RewritePrefix-0.004 (05 Jul 2009)
+
+  05 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  +String-RewritePrefix-0.004.ebuild, +metadata.xml:
+  initial
+

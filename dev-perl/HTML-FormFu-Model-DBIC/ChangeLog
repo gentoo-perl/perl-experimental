@@ -1,6 +1,21 @@
-# ChangeLog for dev-perl/XXXXXXXXXXXX
+# ChangeLog for dev-perl/HTML-FormFu-Model-DBIC
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-FormFu-Model-DBIC-0.05002 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -HTML-FormFu-Model-DBIC-0.05000.ebuild,
+  +HTML-FormFu-Model-DBIC-0.05002.ebuild:
+  Bump
+
+*HTML-FormFu-Model-DBIC-0.05001 (05 Jul 2009)
+
+  05 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -HTML-FormFu-Model-DBIC-0.03006.ebuild,
+  -HTML-FormFu-Model-DBIC-0.03007.ebuild,
+  +HTML-FormFu-Model-DBIC-0.05001.ebuild:
+  Bump + fix deps
 
   03 Jun 2009; Michele Beltrame <mb@cattlegrid.info>
   +HTML-FormFu-Model-DBIC-0.05000.ebuild,

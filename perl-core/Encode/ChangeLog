@@ -1,0 +1,9 @@
+# ChangeLog for perl-core/Encode
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Encode-2.34 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info> +Encode-2.34.ebuild:
+  Bump
+

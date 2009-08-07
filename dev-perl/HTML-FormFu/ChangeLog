@@ -2,6 +2,19 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormFu-0.05001 (11 Jul 2009)
+
+  11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -HTML-FormFu-0.05000.ebuild:
+  Cleanup
+
+*HTML-FormFu-0.05001 (05 Jul 2009)
+
+  05 Jul 2009; Michele Beltrame <m@cattlegrid.info>
+  -HTML-FormFu-0.04001.ebuild, -HTML-FormFu-0.04002.ebuild,
+  +HTML-FormFu-0.05001.ebuild:
+  Bump
+
   03 Jun 2009; Michele Beltrame <mb@cattlegrid.info> 
   -HTML-FormFu-0.04000.ebuild,
   +HTML-FormFu-0.05000.ebuild:
