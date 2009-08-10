@@ -17,10 +17,12 @@ RDEPEND="
 	>=dev-perl/Moose-0.58
 	>=dev-perl/Params-Validate-0.88
 	dev-perl/Sub-Exporter
+	dev-perl/Devel-Caller
 "
 DEPEND="
 	${RDEPEND}
 	test? (
+		>=virtual/perl-Test-Simple-0.62
 		>=dev-perl/Test-Exception-0.21
 	)
 "
