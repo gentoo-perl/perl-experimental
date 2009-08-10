@@ -13,7 +13,7 @@ IUSE=""
 COMMON_DEPEND="
 	dev-perl/Archive-Extract
 	virtual/perl-Compress-Raw-Zlib
-	virtual/perl-Compress-Zlib
+	virtual/perl-IO-Compress
 	dev-perl/Data-Stream-Bulk
 	dev-perl/DateTime
 	dev-perl/Digest-SHA1
