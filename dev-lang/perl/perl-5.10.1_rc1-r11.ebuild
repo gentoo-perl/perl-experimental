@@ -16,7 +16,7 @@ COMMON_DEPEND="berkdb? ( sys-libs/db )
 	gdbm? ( >=sys-libs/gdbm-1.8.3 )"
 
 if [[ ${PN} == libperl ]] ; then
-	PKG_PERL=false
+	IS_PERL=false
 	RESTRICT=test
 	SLOT="1"
 
@@ -24,7 +24,7 @@ if [[ ${PN} == libperl ]] ; then
 		elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
 	RDEPEND="${COMMON_DEPEND}"
 else
-	PKG_PERL=true
+	IS_PERL=true
 	SLOT="0"
 
 	DEPEND="${COMMON_DEPEND}
@@ -34,7 +34,7 @@ else
 		!<perl-core/Test-Simple-0.47-r1"
 
 	RDEPEND="${COMMON_DEPEND}
-		~sys-devel/libperl-${PV}[ithreads=]"
+		~sys-devel/libperl-${PV}[ithreads=,gdbm=,berkdb=]"
 
 	PDEPEND=">=app-admin/perl-cleaner-1.03"
 	IUSE="${IUSE} doc build"
@@ -92,7 +92,7 @@ pkg_setup() {
 		epause 5
 	fi
 
-	if ! ${PKG_PERL} && [[ ! -f "${ROOT}/usr/$(get_libdir)/${LIBPERL}" ]] ; then
+	if ! ${IS_PERL} && [[ ! -f "${ROOT}/usr/$(get_libdir)/${LIBPERL}" ]] ; then
 		# Make sure we have libperl installed ...
 		eerror "Cannot find ${ROOT}/usr/$(get_libdir)/${LIBPERL}!  Make sure that you"
 		eerror "have sys-libs/libperl installed properly ..."
@@ -129,20 +129,25 @@ src_configure() {
 	# Fixes bug #143895 on gcc-4.1.1
 	filter-flags "-fsched2-use-superblocks"
 
+	# this is needed because gcc 3.3-compiled kernels will hang
+	# the machine trying to run this test - check with `Kumba
+	# <rac@gentoo.org> 2003.06.26
+	use mips && myconf -Dd_u32align
+
+	use sparc && myconf -Ud_longdbl
+
 	export LC_ALL="C"
 
 	case ${CHOST} in
-		*-freebsd*) osname="freebsd" ;;
+		*-freebsd*)   osname="freebsd" ;;
 		*-dragonfly*) osname="dragonfly" ;;
-		*-netbsd*) osname="netbsd" ;;
-		*-openbsd*) osname="openbsd" ;;
-		*-darwin*) osname="darwin" ;;
-
-		*) osname="linux" ;;
+		*-netbsd*)    osname="netbsd" ;;
+		*-openbsd*)   osname="openbsd" ;;
+		*-darwin*)    osname="darwin" ;;
+		*)            osname="linux" ;;
 	esac
 
 	if use ithreads ; then
-		einfo "using ithreads"
 		mythreading="-multi"
 		myconf -Dusethreads
 		myarch=${CHOST}
@@ -152,7 +157,6 @@ src_configure() {
 		myarch="${myarch%%-*}-${osname}"
 	fi
 
-	local inclist=$(for v in ${PERL_OLDVERSEN}; do echo -n "${v} ${v}/${myarch$mythreading} "; done )
 
 	# allow either gdbm to provide ndbm (in <gdbm/ndbm.h>) or db1
 
@@ -171,27 +175,17 @@ src_configure() {
 
 	myconf "-${myndbm}i_ndbm" "-${mygdbm}i_gdbm" "-${mydb}i_db"
 
-	if use mips ; then
-		# this is needed because gcc 3.3-compiled kernels will hang
-		# the machine trying to run this test - check with `Kumba
-		# <rac@gentoo.org> 2003.06.26
-		myconf -Dd_u32align
-	fi
-
-	if use debug ; then
-		CFLAGS="${CFLAGS} -g"
-		myconf -DDEBUGGING
-	fi
-
-	if use sparc ; then
-		myconf -Ud_longdbl
-	fi
-
 	if use alpha && [[ "$(tc-getCC)" = "ccc" ]] ; then
 		ewarn "Perl will not be built with berkdb support, use gcc if you needed it..."
 		myconf -Ui_db -Ui_ndbm
 	fi
 
+	if use debug ; then
+		append-cflags="-g"
+		myconf -DDEBUGGING
+	fi
+
+	local inclist=$(for v in ${PERL_OLDVERSEN}; do echo -n "${v} ${v}/${myarch}${mythreading}"; done )
 	[[ -n "${ABI}" ]] && myconf "-Dusrinc=$(get_ml_incdir)"
 
 	[[ ${ELIBC} == "FreeBSD" ]] && myconf "-Dlibc=/usr/$(get_libdir)/libc.a"
@@ -201,7 +195,7 @@ src_configure() {
 		myconf "-Dlibpth=/usr/local/$(get_libdir) /$(get_libdir) /usr/$(get_libdir)"
 	fi
 
-	${PKG_PERL} || myconf "-Duseshrplib" "-Dlibperl='${LIBPERL}'"
+	${IS_PERL} || myconf "-Duseshrplib" "-Dlibperl=${LIBPERL}"
 
 	sh Configure \
 		-des \
@@ -211,16 +205,16 @@ src_configure() {
 		-Dprefix='/usr' \
 		-Dvendorprefix='/usr' \
 		-Dsiteprefix='/usr' \
+		-Dprivlib="/usr/$(get_libdir)/perl5/${MY_PV}" \
+		-Darchlib="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}" \
+		-Dvendorlib="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}" \
+		-Dvendorarch="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}" \
+		-Dsitelib="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}" \
+		-Dsitearch="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}" \
 		-Dlocincpth=' ' \
 		-Duselargefiles \
 		-Dd_semctl_semun \
 		-Dscriptdir=/usr/bin \
-		-Dman1dir=/usr/share/man/man1 \
-		-Dman3dir=/usr/share/man/man3 \
-		-Dinstallman1dir=/usr/share/man/man1 \
-		-Dinstallman3dir=/usr/share/man/man3 \
-		-Dman1ext='1' \
-		-Dman3ext='3pm' \
 		-Dinc_version_list="$inclist" \
 		-Dcf_by='Gentoo' \
 		-Ud_csh \
@@ -229,11 +223,11 @@ src_configure() {
 }
 
 src_compile() {
-	if ${PKG_PERL} ; then
+	if ${IS_PERL} ; then
 		default
 	else
-		emake -j1 -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
-		emake -j1 -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
+		emake -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
+		emake -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
 		mv ${LIBPERL} "${WORKDIR}"
 	fi
 }
@@ -246,7 +240,7 @@ src_test() {
 
 src_install() {
 	export LC_ALL="C"
-	if ${PKG_PERL} ; then
+	if ${IS_PERL} ; then
 		src_install_perl
 	else
 		src_install_libperl
@@ -282,6 +276,7 @@ src_install_perl() {
 	#TODO: eselect?
 	ln -s perl${MY_PV} "${D}"/usr/bin/perl
 
+	rm -r "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
 #	cp -f utils/h2ph utils/h2ph_patched
 #	epatch "${FILESDIR}"/${PN}-h2ph-ansi-header.patch
 #
@@ -297,13 +292,14 @@ src_install_perl() {
 #wait.h
 #EOF
 
-	# This is to fix a missing c flag for backwards compat
-	for i in $(find "${D}"/usr/$(get_libdir)/perl5 -iname "Config.pm" ) ; do
-		sed -i \
-			-e "s:ccflags=':ccflags='-DPERL5 :" \
-			-e "s:cppflags=':cppflags='-DPERL5 :" \
-			"${i}" || die "Sed failed"
-	done
+# vvv still needed?
+#	# This is to fix a missing c flag for backwards compat
+#	for i in $(find "${D}"/usr/$(get_libdir)/perl5 -iname "Config.pm" ) ; do
+#		sed -i \
+#			-e "s:ccflags=':ccflags='-DPERL5 :" \
+#			-e "s:cppflags=':cppflags='-DPERL5 :" \
+#			"${i}" || die "Sed failed"
+#	done
 
 	# A poor fix for the miniperl issues
 	dosed 's:./miniperl:/usr/bin/perl:' /usr/$(get_libdir)/perl5/${MY_PV}/ExtUtils/xsubpp
@@ -321,7 +317,7 @@ src_install_perl() {
 	# ( use berkdb && has_version '=sys-libs/db-1*' ) ||
 	#	find "${D}" -name "*NDBM*" | xargs rm -f
 
-	dodoc Changes* README AUTHORS
+	dodoc Changes* README AUTHORS || die
 
 	if use doc ; then
 		# HTML Documentation
@@ -344,16 +340,10 @@ src_install_perl() {
 	if use build ; then
 		src_remove_extra_files
 	fi
-
-#	# TODO: Ugly. renaming the files for SLOTting
-#	cd "${D}"/usr/bin
-#	for bin in "a2p c2ph config_data corelist cpan cpan2dist cpanp cpanp-run-perl dprofpp enc2xs find2perl h2ph h2xs instmodsh libnetcfg perlbug perldoc perlivp piconv pl2pm pod2html pod2latex pod2man pod2text pod2usage podchecker podselect prove psed pstruct ptar ptardiff s2p shasum splain xsubpp"; do
-#		mv $bin ${bin}.${MY_PV}
-#	done
 }
 
 pkg_postinst() {
-	if ${PKG_PERL} ; then
+	if ${IS_PERL} ; then
 		pkg_postinst_perl
 	else
 		pkg_postinst_libperl
@@ -441,7 +431,7 @@ pkg_postinst_libperl() {
 }
 
 pkg_postrm(){
-	${PKG_PERL} && dual_scripts
+	${IS_PERL} && dual_scripts
 }
 
 cleaner_msg() {
