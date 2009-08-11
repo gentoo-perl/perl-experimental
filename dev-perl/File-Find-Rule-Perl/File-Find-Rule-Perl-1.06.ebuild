@@ -16,7 +16,7 @@ IUSE=""
 RDEPEND="virtual/perl-File-Spec
 	dev-perl/File-Find-Rule
 	>=dev-perl/Params-Util-0.38
-	dev-perl/Parse-CPAN-Meta"
+	virtual/perl-Parse-CPAN-Meta"
 DEPEND="${RDEPEND}"
 
 SRC_TEST=do
