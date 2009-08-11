@@ -69,7 +69,7 @@ RDEPEND="
 	>=dev-perl/KinoSearch-0.165
 	>=dev-perl/Module-Pluggable-Ordered-1.4
 	dev-perl/Moose
-	dev-perl/parent
+	virtual/perl-parent
 	dev-perl/String-Diff
 	dev-perl/Template-Toolkit
 	dev-perl/Template-Plugin-JavaScript
