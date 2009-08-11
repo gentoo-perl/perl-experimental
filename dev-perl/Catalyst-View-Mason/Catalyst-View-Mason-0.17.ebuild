@@ -15,6 +15,6 @@ IUSE=""
 DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/HTML-Mason
-	dev-perl/parent
+	virtual/perl-parent
 	dev-perl/MRO-Compat
 "
