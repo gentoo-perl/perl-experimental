@@ -92,7 +92,7 @@ pkg_setup() {
 		epause 5
 	fi
 
-	if ! ${IS_PERL} && [[ ! -f "${ROOT}/usr/$(get_libdir)/${LIBPERL}" ]] ; then
+	if ${IS_PERL} && [[ ! -f "${ROOT}/usr/$(get_libdir)/${LIBPERL}" ]] ; then
 		# Make sure we have libperl installed ...
 		eerror "Cannot find ${ROOT}/usr/$(get_libdir)/${LIBPERL}!  Make sure that you"
 		eerror "have sys-libs/libperl installed properly ..."
