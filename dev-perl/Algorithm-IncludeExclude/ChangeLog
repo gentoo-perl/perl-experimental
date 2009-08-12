@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Algorithm-IncludeExclude
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Algorithm-IncludeExclude-0.01 (12 Aug 2009)
+
+  12 Aug 2009; Michele Beltrame <m@cattlegrid.info>
+  +Algorithm-IncludeExclude-0.01.ebuild:
+  First add
+
