@@ -15,7 +15,6 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-MOP-0.84
 	dev-perl/Moose
-	dev-perl/MooseX-Traits
 	virtual/perl-Scalar-List-Utils
 	dev-perl/namespace-autoclean
 	dev-perl/List-MoreUtils
@@ -25,7 +24,6 @@ DEPEND="
 	${RDEPEND}
 	test? (
 		dev-perl/Test-Exception
-		dev-perl/Test-use-ok
 		virtual/perl-Test-Simple
 	)
 "
