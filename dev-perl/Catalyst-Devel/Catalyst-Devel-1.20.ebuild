@@ -1,9 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
 EAPI=2
-
 MODULE_AUTHOR=FLORA
 inherit perl-module
 
@@ -23,7 +21,7 @@ DEPEND="
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Class-Accessor
 	>=dev-perl/config-general-2.42
-	>=dev-perl/File-ChangeNotify-0.03
+	>=dev-perl/File-ChangeNotify-0.07
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Module-Install-0.64
 	virtual/perl-parent
@@ -32,9 +30,8 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 #src_compile() {
-#	Install must succeed with any Perl version
+#	# Install must succeed with any Perl version
 #	export CATALYST_DEVEL_NO_510_CHECK=1
 #	perl-module_src_compile
 #}
-
 SRC_TEST=do
