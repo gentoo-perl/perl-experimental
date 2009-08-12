@@ -4,7 +4,7 @@
 
 EAPI=2
 
-MODULE_AUTHOR=SZABGAB
+MODULE_AUTHOR=MGRIMES
 inherit perl-module
 
 DESCRIPTION="Utility methods and base class for manipulating Perl via PPI"

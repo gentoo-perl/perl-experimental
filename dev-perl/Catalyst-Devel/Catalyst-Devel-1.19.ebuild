@@ -22,7 +22,7 @@ DEPEND="
 	>=dev-perl/File-ChangeNotify-0.03
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Module-Install-0.64
-	dev-perl/parent
+	virtual/perl-parent
 	>=dev-perl/Path-Class-0.09
 	>=dev-perl/Template-Toolkit-2.14
 "
