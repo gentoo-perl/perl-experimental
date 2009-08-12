@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.13
 	dev-perl/Catalyst-Plugin-I18N
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
-	dev-perl/Catalyst-Plugin-Session-Store-File
+	dev-perl/Catalyst-Plugin-Session-Store-Cache
 	dev-perl/Catalyst-Plugin-Setenv
 	>=dev-perl/Catalyst-Plugin-Static-Simple-0.07
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.13
