@@ -6,7 +6,7 @@ EAPI=2
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=2
+PATCH_VER=4
 
 # The slot of this binary compat version of libperl.so
 PERLSLOT="1"
@@ -100,12 +100,16 @@ pkg_setup() {
 	fi
 }
 
-src_unpack() {
-	unpack ${MY_P}.tar.gz
-}
+#src_unpack() {
+#	unpack ${MY_P}.tar.gz
+#}
 
 src_prepare() {
-	epatch "${DISTDIR}"/${MY_P}-${PATCH_VER}.tar.bz2
+	EPATCH_SOURCE="${WORKDIR}/perl-patch" \
+	EPATCH_SUFFIX="diff" \
+	EPATCH_FORCE="yes" \
+	epatch
+#	epatch "${DISTDIR}"/${MY_P}-${PATCH_VER}.tar.bz2
 }
 
 myconf() {
@@ -202,6 +206,7 @@ src_configure() {
 		-Darchname="${myarch}" \
 		-Dcc="$(tc-getCC)" \
 		-Dccflags="${CFLAGS}" \
+		-Dscriptdir=/usr/bin \
 		-Dprefix='/usr' \
 		-Dvendorprefix='/usr' \
 		-Dsiteprefix='/usr' \
@@ -214,7 +219,6 @@ src_configure() {
 		-Dlocincpth=' ' \
 		-Duselargefiles \
 		-Dd_semctl_semun \
-		-Dscriptdir=/usr/bin \
 		-Dinc_version_list="$inclist" \
 		-Dcf_by='Gentoo' \
 		-Ud_csh \
@@ -331,9 +335,6 @@ src_install_perl() {
 			--htmldir="${D}/usr/share/doc/${PF}/html" \
 			--libpods='perlfunc:perlguts:perlvar:perlrun:perlop'
 	fi
-	#cd `find "${D}" -name Path.pm | sed -e 's/Path.pm//'`
-	# CAN patch in bug 79685
-	#epatch "${FILESDIR}"/${P}-CAN-2005-0448-rmtree.patch
 
 	dual_scripts
 
@@ -358,17 +359,17 @@ pkg_postinst_perl() {
 	INC=$(perl -e 'for $line (@INC) { next if $line eq "."; next if $line =~ m/'${MY_PV}'|etc|local|perl$/; print "$line\n" }')
 	if [[ "${ROOT}" = "/" ]] ; then
 		ebegin "Removing old .ph files"
-		for DIR in ${INC}; do
-			if [[ -d "${ROOT}/${DIR}" ]]; then
-				for file in $(find "${ROOT}/${DIR}" -name "*.ph" -type f); do
+		for DIR in ${INC} ; do
+			if [[ -d "${ROOT}/${DIR}" ]] ; then
+				for file in $(find "${ROOT}/${DIR}" -name "*.ph" -type f ) ; do
 					rm "${ROOT}/${file}"
 					einfo "<< ${file}"
 				done
 			fi
 		done
 		# Silently remove the now empty dirs
-		for DIR in ${INC}; do
-			if [[ -d "${ROOT}/${DIR}" ]]; then
+		for DIR in ${INC} ; do
+			if [[ -d "${ROOT}/${DIR}" ]] ; then
 				find "${ROOT}/${DIR}" -depth -type d -print0 | xargs -0 -r rmdir &> /dev/null
 			fi
 		done
@@ -480,7 +481,6 @@ src_remove_extra_files() {
 	local bindir="${prefix}/bin"
 	local perlroot="${prefix}/$(get_libdir)/perl5" # perl installs per-arch dirs
 	local prV="${perlroot}/${MY_PV}"
-	# myarch and mythreading are defined inside src_configure()
 	local prVA="${prV}/${myarch}${mythreading}"
 
 	# I made this list from the Mandr*, Debian and ex-Connectiva perl-base list
