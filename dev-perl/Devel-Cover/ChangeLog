@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-Cover-0.65 (10 Aug 2009)
+
+  10 Aug 2009; Kent Fredric <kentfredric@gmail.com> Devel-Cover-0.64.ebuild,
+  +Devel-Cover-0.65.ebuild:
+  Bumped to 0.65, masked 0.64 vs >5.10
+
 *Devel-Cover-0.64 (04 May 2009)
 
   04 May 2009; Torsten Veller <tove@gentoo.org> +Devel-Cover-0.64.ebuild,

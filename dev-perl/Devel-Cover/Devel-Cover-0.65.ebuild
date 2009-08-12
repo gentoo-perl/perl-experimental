@@ -14,10 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="virtual/perl-Digest-MD5
-	virtual/perl-Storable
-	!>=dev-lang/perl-5.10.1_rc1
-"
-DEPEND="${RDEPEND}
-	!!>=dev-lang/perl-5.10.1_rc1"
+	virtual/perl-Storable"
+DEPEND="${RDEPEND}"
 
 SRC_TEST=do

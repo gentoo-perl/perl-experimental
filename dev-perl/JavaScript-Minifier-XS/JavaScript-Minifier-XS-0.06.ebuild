@@ -14,10 +14,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPEND="
-	!>=dev-lang/perl-5.10.1_rc1
 	test? (
 		virtual/perl-Test-Simple
 	)
 "
 RDEPEND=""
+
 SRC_TEST="do"
