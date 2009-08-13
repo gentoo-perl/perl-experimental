@@ -4,25 +4,24 @@
 
 EAPI=2
 
-MODULE_AUTHOR=PETDANCE
+MODULE_AUTHOR=GPHAT
 inherit perl-module
 
-DESCRIPTION="a simple starter kit for any module"
+DESCRIPTION="Log queries for later analysis."
 
-IUSE="test"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE="test"
 
-RDEPEND="
-	virtual/perl-File-Spec
-	virtual/perl-Getopt-Long
+RDEPEND="dev-perl/Class-Accessor
+	>=dev-perl/DBIx-Class-0.07000
+	dev-perl/Moose
+	dev-perl/MooseX-AttributeHelpers
+	virtual/perl-Time-HiRes
 "
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
-		dev-perl/Test-Pod
-		dev-perl/Test-Pod-Coverage
 	)
 "
 

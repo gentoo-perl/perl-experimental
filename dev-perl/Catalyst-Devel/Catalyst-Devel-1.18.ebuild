@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
+
 MODULE_AUTHOR=FLORA
 inherit perl-module
 
@@ -11,6 +13,10 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+
+PATCHES=(
+	"${FILESDIR}/MakeFile-Check-${PV}.patch"
+)
 
 DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.8000
@@ -26,9 +32,12 @@ DEPEND="
 	>=dev-perl/Path-Class-0.09
 	>=dev-perl/Template-Toolkit-2.14
 "
+RDEPEND="${DEPEND}"
 
-src_compile() {
-	# Install must succeed with any Perl version
-	export CATALYST_DEVEL_NO_510_CHECK=1
-	perl-module_src_compile
-}
+#src_compile() {
+#	# Install must succeed with any Perl version
+#	export CATALYST_DEVEL_NO_510_CHECK=1
+#	perl-module_src_compile
+#}
+
+SRC_TEST=do

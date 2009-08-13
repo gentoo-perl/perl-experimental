@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Session-Store-Cache
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-Session-Store-Cache-0.01 (12 Aug 2009)
+
+  12 Aug 2009; Michele Beltrame <m@cattlegrid.info>
+  +Catalyst-Plugin-Session-Store-Cache-0.01.ebuild, +metadata.xml:
+  Init
+

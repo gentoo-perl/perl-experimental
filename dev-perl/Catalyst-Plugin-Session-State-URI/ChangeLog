@@ -2,6 +2,15 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Session-State-URI-0.11 (13 Aug 2009)
+
+  13 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Session-State-URI-0.07.ebuild,
+  -Catalyst-Plugin-Session-State-URI-0.08.ebuild,
+  -Catalyst-Plugin-Session-State-URI-0.09.ebuild,
+  +Catalyst-Plugin-Session-State-URI-0.11.ebuild:
+  Bumped to 0.11. Wiped the old copies, all having fatal test failures.
+
   14 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   -Catalyst-Plugin-Session-State-URI-0.06.ebuild,
   +Catalyst-Plugin-Session-State-URI-0.09.ebuild:

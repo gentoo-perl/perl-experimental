@@ -2,22 +2,23 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-
-MODULE_AUTHOR=GTERMARS
+MODULE_AUTHOR=KMX
 inherit perl-module
 
-DESCRIPTION="XS based JavaScript minifier"
+DESCRIPTION="A minimal lightweight exception class"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
+RDEPEND="
+	>=virtual/perl-Scalar-List-Utils-1.10
+"
 DEPEND="
-	!>=dev-lang/perl-5.10.1_rc1
+	${RDEPEND}
 	test? (
-		virtual/perl-Test-Simple
+		>=virtual/perl-Test-Simple-0.47
 	)
 "
-RDEPEND=""
-SRC_TEST="do"
+SRC_TEST=do

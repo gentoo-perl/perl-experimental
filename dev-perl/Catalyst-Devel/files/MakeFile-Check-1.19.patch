@@ -1,0 +1,11 @@
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -60,8 +60,6 @@
+ #########################################################################
+ 
+ EOE
+-        my $ans = prompt('Do you want to continue?', 'no');
+-        exit 0 unless $ans =~ /^y(es)?\z/i;
+     }
+ }
+ 

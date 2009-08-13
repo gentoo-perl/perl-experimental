@@ -5,23 +5,25 @@ EAPI=2
 MODULE_AUTHOR=RKITOVER
 inherit perl-module
 
-DESCRIPTION="Automatic Trait Loading and Resolution for Catalyst Components"
+DESCRIPTION="An extension to MooseX::Traits"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
 
+IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80005
-	>=dev-perl/MooseX-Traits-Pluggable-0.04
+	>=dev-perl/Class-MOP-0.84
+	dev-perl/Moose
+	virtual/perl-Scalar-List-Utils
 	dev-perl/namespace-autoclean
-	dev-perl/Moose-Autobox
 	dev-perl/List-MoreUtils
+	dev-perl/Moose-Autobox
 "
 DEPEND="
 	${RDEPEND}
 	test? (
+		dev-perl/Test-Exception
 		virtual/perl-Test-Simple
 	)
 "
