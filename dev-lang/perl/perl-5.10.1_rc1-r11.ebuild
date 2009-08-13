@@ -12,33 +12,19 @@ PATCH_VER=4
 PERLSLOT="1"
 
 IUSE="berkdb debug gdbm ithreads"
+IUSE="${IUSE} doc build"
 COMMON_DEPEND="berkdb? ( sys-libs/db )
 	gdbm? ( >=sys-libs/gdbm-1.8.3 )"
 
-if [[ ${PN} == libperl ]] ; then
-	IS_PERL=false
-	RESTRICT=test
-	SLOT="1"
+SLOT="0"
 
-	DEPEND="${COMMON_DEPEND}
-		elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
-	RDEPEND="${COMMON_DEPEND}"
-else
-	IS_PERL=true
-	SLOT="0"
-
-	DEPEND="${COMMON_DEPEND}
-		>=sys-devel/libperl-${PV}
-		elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )
-		!<perl-core/File-Spec-0.87
-		!<perl-core/Test-Simple-0.47-r1"
-
-	RDEPEND="${COMMON_DEPEND}
-		~sys-devel/libperl-${PV}[ithreads=,gdbm=,berkdb=]"
-
-	PDEPEND=">=app-admin/perl-cleaner-1.03"
-	IUSE="${IUSE} doc build"
-fi
+DEPEND="${COMMON_DEPEND}
+	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )
+	!<perl-core/File-Spec-0.87
+	!<perl-core/Test-Simple-0.47-r1"
+RDEPEND="${COMMON_DEPEND}
+	!sys-devel/libperl"
+PDEPEND=">=app-admin/perl-cleaner-1.03"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
@@ -79,10 +65,8 @@ dual_scripts() {
 }
 
 pkg_setup() {
-	LIBPERL="libperl$(get_libname ${PERLSLOT}.${SHORT_PV})"
+	LIBPERL="libperl$(get_libname ${MY_PV})"
 
-	# I think this should rather be displayed if you *have* 'ithreads'
-	# in USE if it could break things ...
 	if use ithreads ; then
 		ewarn "PLEASE NOTE: You are compiling ${MY_P} with"
 		ewarn "interpreter-level threading enabled."
@@ -91,25 +75,34 @@ pkg_setup() {
 		ewarn "your own discretion. "
 		epause 5
 	fi
-
-	if ${IS_PERL} && [[ ! -f "${ROOT}/usr/$(get_libdir)/${LIBPERL}" ]] ; then
-		# Make sure we have libperl installed ...
-		eerror "Cannot find ${ROOT}/usr/$(get_libdir)/${LIBPERL}!  Make sure that you"
-		eerror "have sys-libs/libperl installed properly ..."
-		die "Cannot find ${ROOT}/usr/$(get_libdir)/${LIBPERL}!"
-	fi
 }
-
-#src_unpack() {
-#	unpack ${MY_P}.tar.gz
-#}
 
 src_prepare() {
 	EPATCH_SOURCE="${WORKDIR}/perl-patch" \
 	EPATCH_SUFFIX="diff" \
 	EPATCH_FORCE="yes" \
 	epatch
-#	epatch "${DISTDIR}"/${MY_P}-${PATCH_VER}.tar.bz2
+
+	sed -i "s/cut -d. -f3/cut -d. -f3,4/" "${S}"/Makefile.SH
+
+	# taken from debian
+	cat > "${S}"/config.over <<-EOF
+		#!/bin/sh
+		# remove -rpath (shared libperl is moved to /usr/lib by rules)
+		tmp=
+		for t in \$ccdlflags
+		do
+		    case \$t in
+		        -Wl,-rpath,*) ;;
+		        \*) tmp="\$tmp\${tmp:+ }\$t"
+		    esac
+		done
+
+		ccdlflags="\$tmp"
+	EOF
+
+	# pod/perltoc.pod fails
+	ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV})
 }
 
 myconf() {
@@ -161,7 +154,6 @@ src_configure() {
 		myarch="${myarch%%-*}-${osname}"
 	fi
 
-
 	# allow either gdbm to provide ndbm (in <gdbm/ndbm.h>) or db1
 
 	myndbm='U'
@@ -199,10 +191,9 @@ src_configure() {
 		myconf "-Dlibpth=/usr/local/$(get_libdir) /$(get_libdir) /usr/$(get_libdir)"
 	fi
 
-	${IS_PERL} || myconf "-Duseshrplib" "-Dlibperl=${LIBPERL}"
-
 	sh Configure \
 		-des \
+		-Duseshrplib \
 		-Darchname="${myarch}" \
 		-Dcc="$(tc-getCC)" \
 		-Dccflags="${CFLAGS}" \
@@ -216,6 +207,7 @@ src_configure() {
 		-Dvendorarch="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}" \
 		-Dsitelib="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}" \
 		-Dsitearch="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}" \
+		-Dlibperl="${LIBPERL}" \
 		-Dlocincpth=' ' \
 		-Duselargefiles \
 		-Dd_semctl_semun \
@@ -226,15 +218,13 @@ src_configure() {
 		"${myconf[@]}" || die "Unable to configure"
 }
 
-src_compile() {
-	if ${IS_PERL} ; then
-		default
-	else
-		emake -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
-		emake -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
-		mv ${LIBPERL} "${WORKDIR}"
-	fi
-}
+#src_compile() {
+#		default
+#		emake -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
+#		emake -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
+#		mv ${LIBPERL} "${WORKDIR}"
+#	fi
+#}
 
 src_test() {
 #	use elibc_uclibc && export MAKEOPTS="${MAKEOPTS} -j1"
@@ -244,28 +234,19 @@ src_test() {
 
 src_install() {
 	export LC_ALL="C"
-	if ${IS_PERL} ; then
-		src_install_perl
-	else
-		src_install_libperl
-	fi
-}
-
-src_install_libperl() {
-	dolib.so "${WORKDIR}"/${LIBPERL}
-	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${PERLSLOT})
+	src_install_perl
 }
 
 src_install_perl() {
 	local i
 
-	# Need to do this, else apps do not link to dynamic version of
-	# the library ...
+#	# Need to do this, else apps do not link to dynamic version of
+#	# the library ...
 	local coredir="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}/CORE"
-	dodir ${coredir}
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${PERLSLOT})
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
+#	dodir ${coredir}
+#	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
+#	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${PERLSLOT})
+#	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
 	# Fix for "stupid" modules and programs
 	dodir /usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}
@@ -279,6 +260,14 @@ src_install_perl() {
 	rm "${D}"/usr/bin/perl
 	#TODO: eselect?
 	ln -s perl${MY_PV} "${D}"/usr/bin/perl
+
+	dolib.so "${D}"/${coredir}/${LIBPERL} || die
+	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${SHORT_PV}) || die
+	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname) || die
+	rm "${D}"/${coredir}/${LIBPERL}
+	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
+	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${SHORT_PV})
+	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
 	rm -r "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
 #	cp -f utils/h2ph utils/h2ph_patched
@@ -344,11 +333,7 @@ src_install_perl() {
 }
 
 pkg_postinst() {
-	if ${IS_PERL} ; then
-		pkg_postinst_perl
-	else
-		pkg_postinst_libperl
-	fi
+	pkg_postinst_perl
 }
 
 pkg_postinst_perl() {
