@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=2
-MODULE_AUTHOR=NUFFIN
+MODULE_AUTHOR=FLORA
 inherit perl-module
 
 DESCRIPTION="Temporary files support for testing."
@@ -17,7 +17,7 @@ RDEPEND="
 	dev-perl/File-NFSLock
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	>=dev-perl/Moose-0.50
+	>=dev-perl/Moose-0.87
 	dev-perl/MooseX-Types-Path-Class
 	>=dev-perl/namespace-clean-0.08
 	dev-perl/Path-Class
@@ -25,7 +25,7 @@ RDEPEND="
 "
 # >=File-Path-2.04
 
-DEPEND="${RDEPEND}
+DEPEND="${DEPEND}
 	test? (
 		dev-perl/Test-use-ok
 	)
