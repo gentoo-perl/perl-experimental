@@ -2,15 +2,26 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=RJBS
+EAPI=2
+
+MODULE_AUTHOR=PETDANCE
 inherit perl-module
 
 DESCRIPTION="a simple starter kit for any module"
-LICENSE="|| ( Artistic GPL-2 )"
 
+IUSE="test"
+LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND=""
+RDEPEND="
+	virtual/perl-File-Spec
+	virtual/perl-Getopt-Long
+"
+DEPEND="${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+	)
+"
 
+SRC_TEST=do

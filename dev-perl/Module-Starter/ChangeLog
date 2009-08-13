@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Module-Starter
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Starter-1.52 (13 Aug 2009)
+
+  13 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  Module-Starter-1.42.ebuild, -Module-Starter-1.46.ebuild,
+  Module-Starter-1.50.ebuild, +Module-Starter-1.52.ebuild:
+  Bumped to 1.52. Deleted Upstream-absent,EAPI=2, SRC_TEST=do
+
