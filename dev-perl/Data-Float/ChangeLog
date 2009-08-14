@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Data-Float
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Data-Float-0.009 (14 Aug 2009)
+
+  14 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +Data-Float-0.009.ebuild, +metadata.xml:
+  Added
+
