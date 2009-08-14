@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/KiokuX-Model
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*KiokuX-Model-0.02 (14 Aug 2009)
+
+  14 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +KiokuX-Model-0.02.ebuild, +metadata.xml:
+  Added
+
