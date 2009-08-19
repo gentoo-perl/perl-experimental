@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Role-Parameterized
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Role-Parameterized-0.12 (17 Aug 2009)
+
+  17 Aug 2009; Michele Beltrame <m@cattlegrid.info>
+  +MooseX-Role-Parameterized-0.12.ebuild, +metadata.xml:
+  Initial
+

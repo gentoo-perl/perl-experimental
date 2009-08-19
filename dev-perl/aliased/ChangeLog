@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/aliased
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*aliased-0.30 (17 Aug 2009)
+
+  17 Aug 2009; Michele Beltrame <m@cattlegrid.info> +aliased-0.30.ebuild,
+  +metadata.xml:
+  Init
+
