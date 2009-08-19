@@ -14,7 +14,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
+PATCHES=(
+	"${FILESDIR}/RUNPATH-${PV}.patch"
+)
+
 RDEPEND="!!<dev-lang/perl-5.8.8-r7"
 
 SRC_TEST=do
-#PATCHES=( "${FILESDIR}/RUNPATH.patch" )

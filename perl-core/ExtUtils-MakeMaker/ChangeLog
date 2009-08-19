@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  ExtUtils-MakeMaker-6.54.ebuild, +files/RUNPATH-6.54.patch:
+  Applied RUNPATH patch
+
 *ExtUtils-MakeMaker-6.54 (19 Aug 2009)
 
   19 Aug 2009; Michele Beltrame <m@cattlegrid.info>
