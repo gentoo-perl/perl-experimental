@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-5.10.1_rc2-r11 (19 Aug 2009)
+
+  19 Aug 2009; Torsten Veller <tove@gentoo.org> perl-5.10.1_rc1-r11.ebuild,
+  +perl-5.10.1_rc2-r11.ebuild:
+  Add perl-5.10.1_rc2
+
 *perl-5.10.1_rc1-r10 (08 Aug 2009)
 
   08 Aug 2009; Torsten Veller <tove@gentoo.org> +perl-5.10.1_rc1-r10.ebuild:

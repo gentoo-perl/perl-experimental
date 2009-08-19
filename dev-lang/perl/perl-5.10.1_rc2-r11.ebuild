@@ -6,7 +6,7 @@ EAPI=2
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=4
+PATCH_VER=1
 
 # The slot of this binary compat version of libperl.so
 PERLSLOT="1"
