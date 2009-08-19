@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ExtUtils-MakeMaker-6.54 (19 Aug 2009)
+
+  19 Aug 2009; Michele Beltrame <m@cattlegrid.info>
+  +ExtUtils-MakeMaker-6.54.ebuild:
+  Bump
+
 *ExtUtils-MakeMaker-6.50-r1 (27 May 2009)
 
   27 May 2009; Torsten Veller <tove@gentoo.org>
