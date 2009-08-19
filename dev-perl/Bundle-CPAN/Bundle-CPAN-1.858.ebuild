@@ -29,7 +29,7 @@ DEPEND="
 	dev-perl/Archive-Zip
 	dev-perl/Term-ReadLine-Perl
 	dev-perl/yaml
-	dev-perl/Parse-CPAN-Meta
+	virtual/perl-Parse-CPAN-Meta
 	dev-perl/Text-Glob
 	dev-perl/File-Which
 	virtual/perl-Test-Simple
