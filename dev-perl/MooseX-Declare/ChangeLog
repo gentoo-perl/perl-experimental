@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Declare-0.27 (22 Aug 2009)
+
+  22 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Declare-0.27.ebuild:
+  Bumped MooseX::Declare
+
 *MooseX-Declare-0.26 (17 Aug 2009)
 
   17 Aug 2009; Michele Beltrame <m@cattlegrid.info>
