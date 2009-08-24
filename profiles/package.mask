@@ -28,3 +28,5 @@ perl-core/ExtUtils-MakeMaker
 
 ~dev-lang/perl-5.10.0
 ~sys-devel/libperl-5.10.0
+~dev-lang/perl-5.10.1
+~sys-devel/libperl-5.10.1
