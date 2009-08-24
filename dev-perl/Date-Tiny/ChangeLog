@@ -1,0 +1,15 @@
+# ChangeLog for dev-perl/Date-Tiny
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Date-Tiny-1.04 (12 May 2009)
+
+  12 May 2009; Kent Fredric <kentfredric@gmail.com> +Date-Tiny-1.04.ebuild:
+  Bumped to 1.04
+
+*Date-Tiny-1.03 (01 Apr 2009)
+
+  01 Apr 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +Date-Tiny-1.03.ebuild:
+  Added, Tested
+

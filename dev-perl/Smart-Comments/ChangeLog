@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Smart-Comments
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Smart-Comments-1.0.3 (01 Apr 2009)
+
+  01 Apr 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +Smart-Comments-1.0.3.ebuild:
+  Added. Note the *specialness* to get around the versioning weirdness
+

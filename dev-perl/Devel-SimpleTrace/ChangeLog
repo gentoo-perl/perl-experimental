@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Devel-SimpleTrace
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Devel-SimpleTrace-0.07 (01 Apr 2009)
+
+  01 Apr 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +Devel-SimpleTrace-0.07.ebuild:
+  Added
+

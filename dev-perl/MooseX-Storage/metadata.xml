@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+    </maintainer>
+	<use>
+		<flag name="json">Support for storing as JSON
+		via<pkg>dev-perl/JSON-Any</pkg></flag>
+
+		<flag name="yaml">Support for storing as YAML via
+		<pkg>dev-perl/Best</pkg></flag>
+
+		<flag name="storable">Support for
+		<pkg>virtual/perl-Storable</pkg></flag>
+
+		<flag name="file">Support for <pkg>virtual/perl-IO</pkg>
+		</flag>
+
+	</use>
+</pkgmetadata>

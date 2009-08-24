@@ -1,0 +1,12 @@
+# ChangeLog for dev-perl/Devel-NYTProf
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Devel-NYTProf-2.09 (01 Apr 2009)
+
+  01 Apr 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +Devel-NYTProf-2.09.ebuild:
+  Its a travesty this hasn't been add sooner. It currently drops a few files
+  on the host FS I'm not sure should be there, benchmark.pl and perftest.pl,
+  but its not super-deadly.
+
