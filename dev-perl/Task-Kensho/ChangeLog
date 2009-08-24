@@ -1,0 +1,49 @@
+# ChangeLog for dev-perl/Task-Kensho
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Task-Kensho-0.15 (29 Jul 2009)
+
+  29 Jul 2009; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-0.15.ebuild:
+  Bumped. XXX dep dropped.
+
+*Task-Kensho-0.14 (19 Jul 2009)
+*Task-Kensho-0.13 (19 Jul 2009)
+
+  19 Jul 2009; Kent Fredric <kentfredric@gmail.com>
+  -Task-Kensho-0.12.ebuild, +Task-Kensho-0.13.ebuild,
+  +Task-Kensho-0.14.ebuild, metadata.xml:
+  Bumped, Cleaned
+
+  27 Jun 2009; Kent Fredric <kentfredric@gmail.com>
+  -Task-Kensho-0.0.8.ebuild, -Task-Kensho-0.09.ebuild:
+  Cleaning old versions
+
+*Task-Kensho-0.12 (27 Jun 2009)
+
+  27 Jun 2009; Kent Fredric <kentfredric@gmail.com> Task-Kensho-0.11.ebuild,
+  +Task-Kensho-0.12.ebuild:
+  Bumped,QA
+
+*Task-Kensho-0.11 (27 May 2009)
+
+  27 May 2009; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-0.11.ebuild:
+  Bumped
+
+*Task-Kensho-0.09 (15 May 2009)
+
+  15 May 2009; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-0.09.ebuild:
+  BUmped
+
+  01 Apr 2009; Kent Fredric<kentfredric@gmail.com> Task-Kensho-0.0.8.ebuild:
+  Cleaned up, now installs cleanly, gentooisms applied
+
+*Task-Kensho-0.0.8 (31 Mar 2009)
+
+  31 Mar 2009; Kent Fredric<kentfredric@gmail.com> +metadata.xml,
+  +Task-Kensho-0.0.8.ebuild:
+  Added, but depends are all missing still
+
