@@ -30,8 +30,7 @@ MY_P="perl-${PV/_rc/-RC}"
 MY_PV="${PV%_rc*}"
 DESCRIPTION="Larry Wall's Practical Extraction and Report Language"
 S="${WORKDIR}/${MY_P}"
-#SRC_URI="mirror://cpan/src/${MY_P}.tar.gz"
-SRC_URI="mirror://cpan//authors/id/D/DA/DAPM/${MY_P}.tar.gz
+SRC_URI="mirror://cpan/src/${MY_P}.tar.bz2
 	http://dev.gentoo.org/~tove/files/${MY_P}-${PATCH_VER}.tar.bz2"
 HOMEPAGE="http://www.perl.org/"
 
@@ -228,7 +227,7 @@ src_configure() {
 src_test() {
 #	use elibc_uclibc && export MAKEOPTS="${MAKEOPTS} -j1"
 	TEST_JOBS=$(echo -j1 ${MAKEOPTS} | sed 's/.*\(-j[[:space:]]*\|--jobs=\)\([[:digit:]]\+\).*/\2/' ) \
-		emake test_harness || die "test failed"
+		make -j1 test_harness || die "test failed"
 }
 
 src_install() {
