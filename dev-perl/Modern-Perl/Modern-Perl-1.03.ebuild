@@ -16,5 +16,5 @@ IUSE="test"
 DEPEND="
 	test? ( virtual/perl-Test-Simple )
 "
-RDEPEND="${DEPEND}"
+RDEPEND=""
 SRC_TEST="do"
