@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+    </maintainer>
+	<use>
+		<flag name="basic-toolchain">Basic Toolchain</flag>
+		<flag name="testing">Testing</flag>
+		<flag name="oop">Object Oriented Programming</flag>
+		<flag name="async">Asynchronous Programming</flag>
+		<flag name="webdev">Web Development</flag>
+		<flag name="db">Database Development</flag>
+		<flag name="crawl">Web Crawling</flag>
+		<flag name="module-devel">Module Development</flag>
+		<flag name="date">Date Modules</flag>
+		<flag name="config">Config Modules</flag>
+		<flag name="cli">Useful Command-line Tools</flag>
+		<flag name="scripting">Script Hackery</flag>
+		<flag name="xml">XML Processing</flag>
+	</use>
+</pkgmetadata>

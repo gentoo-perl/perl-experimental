@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Carp-Always
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Carp-Always-0.09 (15 May 2009)
+
+  15 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Carp-Always-0.09.ebuild:
+  Added
+
