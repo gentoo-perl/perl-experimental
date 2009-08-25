@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Imager
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com> Imager-0.64.ebuild,
+  Imager-0.65.ebuild, Imager-0.67.ebuild:
+  EAPI=2
+
