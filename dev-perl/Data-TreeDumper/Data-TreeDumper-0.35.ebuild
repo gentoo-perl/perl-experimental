@@ -16,7 +16,7 @@ IUSE=""
 DEPEND="virtual/perl-Text-Tabs+Wrap
 	dev-perl/Devel-Size
 	dev-perl/Check-ISA
-	dev-perl/Class-ISA
+	virtual/perl-Class-ISA
 	dev-perl/Sort-Naturally
 	dev-perl/Term-Size"
 RDEPEND="${DEPEND}"

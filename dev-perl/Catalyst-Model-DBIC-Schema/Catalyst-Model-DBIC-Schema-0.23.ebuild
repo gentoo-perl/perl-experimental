@@ -1,7 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=MSTROUT
 inherit perl-module
 
@@ -21,3 +21,5 @@ DEPEND="
 	>=dev-perl/Catalyst-Devel-1.0
 	>=dev-perl/DBIx-Class-Schema-Loader-0.04005
 "
+RDEPEND="${DEPEND}"
+SRC_TEST=do

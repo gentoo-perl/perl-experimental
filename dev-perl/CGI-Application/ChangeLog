@@ -1,0 +1,15 @@
+# ChangeLog for dev-perl/CGI-Application
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-4.11.ebuild, CGI-Application-4.20.ebuild,
+  CGI-Application-4.21.ebuild:
+  EAPI=2 QA
+
+*CGI-Application-4.31 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +CGI-Application-4.31.ebuild:
+  BUmped CGI-Application
+

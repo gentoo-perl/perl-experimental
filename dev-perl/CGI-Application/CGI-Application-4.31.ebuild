@@ -11,9 +11,16 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
+IUSE="test"
+RDEPEND="
 	dev-perl/HTML-Template
+	virtual/perl-Class-ISA
+	virtual/perl-CGI
 "
-RDEPEND="$DEPEND"
-SRC_TEST="do"
+DEPEND="
+	${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+	)
+"
+SRC_TEST=do
