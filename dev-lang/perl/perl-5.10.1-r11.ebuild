@@ -8,36 +8,33 @@ inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
 PATCH_VER=2
 
-# The slot of this binary compat version of libperl.so
-PERLSLOT="1"
-
-IUSE="berkdb debug gdbm ithreads"
-IUSE="${IUSE} doc build"
-COMMON_DEPEND="berkdb? ( sys-libs/db )
-	gdbm? ( >=sys-libs/gdbm-1.8.3 )"
-
-SLOT="0"
-
-DEPEND="${COMMON_DEPEND}
-	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )
-	!<perl-core/File-Spec-0.87
-	!<perl-core/Test-Simple-0.47-r1"
-RDEPEND="${COMMON_DEPEND}"
-PDEPEND=">=app-admin/perl-cleaner-1.03"
+PERL_OLDVERSEN="5.10.0"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
 MY_PV="${PV%_rc*}"
+
 DESCRIPTION="Larry Wall's Practical Extraction and Report Language"
+
 S="${WORKDIR}/${MY_P}"
 SRC_URI="mirror://cpan/src/${MY_P}.tar.bz2
 	http://dev.gentoo.org/~tove/files/${MY_P}-${PATCH_VER}.tar.bz2"
 HOMEPAGE="http://www.perl.org/"
 
 LICENSE="|| ( Artistic GPL-2 )"
+SLOT="0"
 KEYWORDS=""
 #KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~sparc-fbsd ~x86-fbsd"
-PERL_OLDVERSEN="5.10.0"
+IUSE="berkdb build debug doc gdbm ithreads"
+
+COMMON_DEPEND="berkdb? ( sys-libs/db )
+	gdbm? ( >=sys-libs/gdbm-1.8.3 )
+	app-arch/bzip2
+	sys-libs/zlib"
+DEPEND="${COMMON_DEPEND}
+	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
+RDEPEND="${COMMON_DEPEND}"
+PDEPEND=">=app-admin/perl-cleaner-1.03"
 
 dual_scripts() {
 	# - perl-core/Archive-Tar
@@ -102,7 +99,7 @@ src_configure() {
 	# This flag makes compiling crash in interesting ways
 	filter-flags "-malign-double"
 	# Fixes bug #97645
-	use ppc && filter-flags -mpowerpc-gpopt
+	use ppc && filter-flags "-mpowerpc-gpopt"
 	# Fixes bug #143895 on gcc-4.1.1
 	filter-flags "-fsched2-use-superblocks"
 
@@ -114,6 +111,19 @@ src_configure() {
 	use sparc && myconf -Ud_longdbl
 
 	export LC_ALL="C"
+
+	# 266337
+	export BUILD_BZIP2=0
+	export BZIP2_INCLUDE=/usr/include
+	export BZIP2_LIB=/usr/$(get_libdir)
+	cat <<-EOF > "${S}/ext/Compress-Raw-Zlib/config.in"
+		BUILD_ZLIB = False
+		INCLUDE = /usr/include
+		LIB = /usr/{get_libdir}
+
+		OLD_ZLIB = False
+		GZIP_OS_CODE = AUTO_DETECT
+	EOF
 
 	case ${CHOST} in
 		*-freebsd*)   osname="freebsd" ;;
@@ -206,19 +216,8 @@ src_test() {
 
 src_install() {
 	export LC_ALL="C"
-	src_install_perl
-}
-
-src_install_perl() {
 	local i
-
-#	# Need to do this, else apps do not link to dynamic version of
-#	# the library ...
 	local coredir="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}/CORE"
-#	dodir ${coredir}
-#	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
-#	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${PERLSLOT})
-#	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
 	# Fix for "stupid" modules and programs
 	dodir /usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}
@@ -230,7 +229,6 @@ src_install_perl() {
 	make DESTDIR="${D}" ${installtarget} || die "Unable to make ${installtarget}"
 
 	rm "${D}"/usr/bin/perl
-	#TODO: eselect?
 	ln -s perl${MY_PV} "${D}"/usr/bin/perl
 
 	dolib.so "${D}"/${coredir}/${LIBPERL} || die
