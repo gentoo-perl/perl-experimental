@@ -12,9 +12,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
+	dev-perl/MRO-Compat
 	dev-perl/HTML-FillInForm
 	>=dev-perl/Catalyst-Runtime-5.7012
 "
-RDEPEND="${DEPEND}"
+DEPEND="
+	test? (
+		dev-perl/Catalyst-Action-RenderView
+	)
+"
 SRC_TEST=do
