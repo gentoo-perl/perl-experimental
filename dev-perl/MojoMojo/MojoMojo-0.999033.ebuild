@@ -4,7 +4,7 @@
 
 EAPI=2
 
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=DANDV
 inherit perl-module
 
 DESCRIPTION="iA Catalyst & DBIx::Class powered Wiki."
@@ -14,11 +14,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autodeploy markdown docbook tocgen podformatter syntaxhighlight \
-transclusion amazonboxes rssformatter emoticons"
+transclusion amazonboxes rssformatter emoticons test"
 
 RDEPEND="
 	>=dev-perl/Algorithm-Diff-1.1901
 	dev-perl/Algorithm-Merge
+	dev-perl/Algorithm-IncludeExclude
 	>=dev-perl/Archive-Zip-1.14
 	>=dev-perl/MRO-Compat-0.10
 	>=dev-perl/Cache-FastMmap-1.29
@@ -32,7 +33,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.13
 	dev-perl/Catalyst-Plugin-I18N
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
-	dev-perl/Catalyst-Plugin-Session-Store-File
+	dev-perl/Catalyst-Plugin-Session-Store-Cache
 	dev-perl/Catalyst-Plugin-Setenv
 	>=dev-perl/Catalyst-Plugin-Static-Simple-0.07
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.13
@@ -69,6 +70,7 @@ RDEPEND="
 	>=dev-perl/KinoSearch-0.165
 	>=dev-perl/Module-Pluggable-Ordered-1.4
 	dev-perl/Moose
+	dev-perl/Number-Format
 	virtual/perl-parent
 	dev-perl/String-Diff
 	dev-perl/Template-Toolkit
@@ -79,15 +81,25 @@ RDEPEND="
 	>=dev-perl/yaml-0.36
 	dev-perl/Text-Textile
 	dev-perl/Term-Prompt
-	autodeploy? ( dev-perl/SQL-Translator )
-	markdown? ( >=dev-perl/Text-Markdown-1.0.17 )
+	autodeploy? (
+		dev-perl/SQL-Translator
+	)
+	markdown? (
+		>=dev-perl/Text-Markdown-1.0.17
+	)
 	docbook? (
 		>=dev-perl/XML-LibXSLT-1.66
 		>=dev-perl/XML-LibXML-1.66
 	)
-	tocgen? ( >=dev-perl/HTML-Toc-1.10 )
-	podformatter? ( >=virtual/perl-Pod-Simple-3.01 )
-	syntaxhighlight? ( dev-perl/Syntax-Highlight-Engine-Kate )
+	tocgen? (
+		>=dev-perl/HTML-Toc-1.10
+	)
+	podformatter? (
+		>=virtual/perl-Pod-Simple-3.01
+	)
+	syntaxhighlight? (
+		dev-perl/Syntax-Highlight-Engine-Kate
+	)
 	transclusion? (
 		dev-perl/libwww-perl
 		dev-perl/URI-Fetch
@@ -103,9 +115,12 @@ RDEPEND="
 	)
 "
 DEPEND="
-	dev-perl/Email-Send
-	>=dev-perl/WWW-Mechanize-1.54
-	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
+	test? (
+		virtual/perl-Test-Simple
+		dev-perl/Email-Send
+		>=dev-perl/WWW-Mechanize-1.54
+		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
+	)
 	${RDEPEND}
 "
 
