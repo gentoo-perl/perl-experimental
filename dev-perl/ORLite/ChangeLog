@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ORLite-1.25 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com> +ORLite-1.25.ebuild:
+  Bump
+
   27 Jun 2009; Torsten Veller <tove@gentoo.org> -ORLite-1.16.ebuild,
   -ORLite-1.17.ebuild, -ORLite-1.18.ebuild, -ORLite-1.21.ebuild,
   -ORLite-1.22.ebuild:
