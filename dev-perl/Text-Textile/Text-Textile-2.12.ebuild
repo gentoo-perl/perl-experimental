@@ -11,8 +11,12 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
-"
+IUSE="test"
 RDEPEND=""
+DEPEND="
+	test? (
+		virtual/perl-Test-Simple
+		>=virtual/perl-Test-Harness-2.50
+	)
+"
 SRC_TEST=do

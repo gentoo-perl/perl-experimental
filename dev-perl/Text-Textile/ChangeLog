@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Text-Textile
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Text-Textile-2.12 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  Text-Textile-2.03.ebuild, +Text-Textile-2.12.ebuild:
+  Bumped, QA, EAPI=2
+
