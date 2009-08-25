@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Encode-2.35 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com> +Encode-2.35.ebuild:
+  Bumped Encode
+
 *Encode-2.34 (11 Jul 2009)
 
   11 Jul 2009; Michele Beltrame <m@cattlegrid.info> +Encode-2.34.ebuild:
