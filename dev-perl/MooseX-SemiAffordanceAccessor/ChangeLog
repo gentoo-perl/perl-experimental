@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-SemiAffordanceAccessor-0.05 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-SemiAffordanceAccessor-0.05.ebuild:
+  Bump
+
 *MooseX-SemiAffordanceAccessor-0.04 (11 Jul 2009)
 
   11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
