@@ -13,8 +13,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="
+RDEPEND="
 	dev-perl/HTML-Parser
 "
+DEPEND="${RDEPEND}"
 
 SRC_TEST=do
