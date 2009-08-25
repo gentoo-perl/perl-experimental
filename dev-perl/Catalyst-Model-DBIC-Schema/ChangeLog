@@ -2,6 +2,14 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Model-DBIC-Schema-0.26 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Model-DBIC-Schema-0.23.ebuild,
+  Catalyst-Model-DBIC-Schema-0.25.ebuild,
+  +Catalyst-Model-DBIC-Schema-0.26.ebuild:
+  Bumped, EAPI=2
+
   21 Jun 2009; Michele Beltrame <mb@cattlegrid.info>
   -Catalyst-Model-DBIC-Schema-0.21.ebuild,
   -Catalyst-Model-DBIC-Schema-0.22.ebuild,
