@@ -11,6 +11,14 @@ DESCRIPTION="a port to Perl of the syntax highlight engine of the Kate textedito
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
+RDEPENDS=""
 
+DEPENDS="
+	${RDEPENDS}
+	test? (
+		virtual/perl-Test-Simple-0.88
+		virtual/perl-Term-ANSIColor
+	)
+"
 SRC_TEST=do
