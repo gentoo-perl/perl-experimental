@@ -6,7 +6,7 @@ EAPI=2
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=1
+PATCH_VER=2
 
 # The slot of this binary compat version of libperl.so
 PERLSLOT="1"
@@ -80,24 +80,6 @@ src_prepare() {
 	EPATCH_SUFFIX="diff" \
 	EPATCH_FORCE="yes" \
 	epatch
-
-	sed -i "s/cut -d. -f3/cut -d. -f3,4/" "${S}"/Makefile.SH
-
-	# taken from debian
-	cat > "${S}"/config.over <<-EOF
-		#!/bin/sh
-		# remove -rpath (shared libperl is moved to /usr/lib by rules)
-		tmp=
-		for t in \$ccdlflags
-		do
-		    case \$t in
-		        -Wl,-rpath,*) ;;
-		        \*) tmp="\$tmp\${tmp:+ }\$t"
-		    esac
-		done
-
-		ccdlflags="\$tmp"
-	EOF
 
 	# pod/perltoc.pod fails
 	ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV})
@@ -216,14 +198,6 @@ src_configure() {
 		"${myconf[@]}" || die "Unable to configure"
 }
 
-#src_compile() {
-#		default
-#		emake -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
-#		emake -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
-#		mv ${LIBPERL} "${WORKDIR}"
-#	fi
-#}
-
 src_test() {
 #	use elibc_uclibc && export MAKEOPTS="${MAKEOPTS} -j1"
 	TEST_JOBS=$(echo -j1 ${MAKEOPTS} | sed 's/.*\(-j[[:space:]]*\|--jobs=\)\([[:digit:]]\+\).*/\2/' ) \
@@ -331,10 +305,6 @@ src_install_perl() {
 }
 
 pkg_postinst() {
-	pkg_postinst_perl
-}
-
-pkg_postinst_perl() {
 	local INC DIR file
 
 	dual_scripts
@@ -371,46 +341,6 @@ pkg_postinst_perl() {
 	if [[ "${INC}x" != "x" ]]; then
 		cleaner_msg
 		epause 5
-	fi
-}
-
-pkg_postinst_libperl() {
-	# Make sure we do not have stale/invalid libperl.so 's ...
-	if [[ -f "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" && \
-		! -L "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" ]] ; then
-		mv -f "${ROOT}"usr/$(get_libdir)/libperl$(get_libname){,.old}
-	fi
-
-	# Next bit is to try and setup the /usr/lib/libperl.so symlink
-	# properly ...
-	local libnumber="`ls -1 ${ROOT}usr/$(get_libdir)/libperl$(get_libname ?.*) | grep -v '\.old' | wc -l`"
-	if [[ "${libnumber}" -eq 1 ]] ; then
-		# Only this version of libperl is installed, so just link libperl.so
-		# to the *soname* version of it ...
-		ln -snf libperl$(get_libname ${PERLSLOT}) "${ROOT}"usr/$(get_libdir)/libperl$(get_libname)
-	else
-		if [[ -x "${ROOT}/usr/bin/perl" ]] ; then
-			# OK, we have more than one version .. first try to figure out
-			# if there are already a perl installed, if so, link libperl.so
-			# to that *soname* version of libperl.so ...
-			local perlversion="`${ROOT}/usr/bin/perl -V:version | cut -d\' -f2 | cut -d. -f1,2`"
-
-			cd "${ROOT}"usr/$(get_libdir)
-			# Link libperl.so to the *soname* versioned lib ...
-			ln -snf `echo libperl$(get_libname ?.${perlversion}) | cut -d.  -f1,2,3` libperl$(get_libname)
-		else
-			local x latest
-
-			# Nope, we are not so lucky ... try to figure out what version
-			# is the latest, and keep fingers crossed ...
-			for x in `ls -1 "${ROOT}"usr/$(get_libdir)/libperl$(get_libname ?.*)` ; do
-				latest="${x}"
-			done
-
-			cd "${ROOT}"usr/$(get_libdir)
-			# Link libperl.so to the *soname* versioned lib ...
-			ln -snf `echo ${latest##*/} | cut -d. -f1,2,3` libperl$(get_libname)
-		fi
 	fi
 }
 
