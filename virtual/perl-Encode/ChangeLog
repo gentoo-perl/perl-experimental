@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Encode-2.35 (25 Aug 2009)
+
+  25 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +perl-Encode-2.35.ebuild:
+  Bump
+
 *perl-Encode-2.34 (11 Jul 2009)
 
   11 Jul 2009; Michele Beltrame <m@cattlegrid.info>
