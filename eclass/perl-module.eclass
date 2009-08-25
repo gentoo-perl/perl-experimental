@@ -182,12 +182,13 @@ perl-module_src_install() {
 
 	find "${D}" -type f -not -name '*.so' -print0 | while read -rd '' f ; do
 		if file "${f}" | grep -q -i " text" ; then
-if grep -q "${D}" "${f}" ; then ewarn "QA: File contains a temporary path ${f}" ;fi
+			grep -q "${D}" "${f}" && ewarn "QA: File contains a temporary path ${f}"
 			sed -i -e "s:${D}:/:g" "${f}"
 		fi
 	done
 
-	[[ ${CATEGORY} == "perl-core" ]] && linkduallifescripts
+	[[ ${CATEGORY} == "perl-core" ]] && has_version ">=dev-lang/perl-5.10.1" &&\
+		linkduallifescripts
 }
 
 perl-module_pkg_setup() {
@@ -211,8 +212,8 @@ perl-module_pkg_prerm() { : ; }
 perlinfo() {
 	perlinfo_done=true
 
-	local f version install{site{arch,lib},archlib,vendor{arch,lib}}
-	for f in version install{site{arch,lib},archlib,vendor{arch,lib}} ; do
+	local f version install{{site,vendor}{arch,lib},archlib}
+	for f in version install{{site,vendor}{arch,lib},archlib} ; do
 		eval "$(perl -V:${f} )"
 	done
 	PERL_VERSION=${version}
