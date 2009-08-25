@@ -187,8 +187,7 @@ perl-module_src_install() {
 		fi
 	done
 
-	[[ ${CATEGORY} == "perl-core" ]] && has_version ">=dev-lang/perl-5.10.1" &&\
-		linkduallifescripts
+	linkduallifescripts
 }
 
 perl-module_pkg_setup() {
@@ -200,11 +199,11 @@ perl-module_pkg_preinst() {
 }
 
 perl-module_pkg_postinst() {
-	[[ ${CATEGORY} == "perl-core" ]] && linkduallifescripts
+	linkduallifescripts
 }
 
 perl-module_pkg_postrm() {
-	[[ ${CATEGORY} == "perl-core" ]] && linkduallifescripts
+	linkduallifescripts
 }
 
 perl-module_pkg_prerm() { : ; }
@@ -230,6 +229,10 @@ fixlocalpod() {
 }
 
 linkduallifescripts() {
+	if [[ ${CATEGORY} != "perl-core" ]] || ! has_version ">=dev-lang/perl-5.10.1" ; then
+		return 0
+	fi
+
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in ${DUALLIFESCRIPTS} ; do
