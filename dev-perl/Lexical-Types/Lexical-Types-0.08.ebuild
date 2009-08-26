@@ -9,12 +9,15 @@ DESCRIPTION="Extend the semantics of typed lexicals"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 COMMON_DEPEND=""
-DEPEND="
-	${COMMON_DEPEND}
-"
 RDEPEND="
 	${COMMON_DEPEND}
+"
+DEPEND="
+	${COMMON_DEPEND}
+	test? (
+		virtual/perl-Test-Simple
+	)
 "
 SRC_TEST="do"
