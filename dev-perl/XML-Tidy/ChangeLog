@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/XML-Tidy
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*XML-Tidy-1.2.54 (26 Aug 2009)
+
+  26 Aug 2009; Torsten Veller <tove@gentoo.org> +XML-Tidy-1.2.54.ebuild,
+  +metadata.xml:
+  Initial commit
+
