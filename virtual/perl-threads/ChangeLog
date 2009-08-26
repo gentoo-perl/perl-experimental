@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-threads-1.74 (26 Aug 2009)
+
+  26 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +perl-threads-1.74.ebuild:
+  Bumped
+
 *perl-threads-1.73 (12 Jun 2009)
 
   12 Jun 2009; Torsten Veller <tove@gentoo.org> +perl-threads-1.73.ebuild:
