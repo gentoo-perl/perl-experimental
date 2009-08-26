@@ -1,3 +1,8 @@
+# Michele Beltrame <mb@cattlegrid.info> (12 May 2009)
+# Depend on virtual/perl-CPAN which is masked
+dev-perl/local-lib
+dev-perl/Task-Kensho
+
 # Torsten Veller <tove@gentoo.org> (26 Aug 2009)
 dev-perl/Padre-Plugin-PerlCritic
 dev-perl/Padre-Plugin-PerlTidy

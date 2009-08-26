@@ -116,7 +116,7 @@ RDEPEND="
 "
 DEPEND="
 	test? (
-		virtual/perl-Test-Simple
+		>=virtual/perl-Test-Simple-0.88
 		dev-perl/Email-Send
 		>=dev-perl/WWW-Mechanize-1.54
 		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
