@@ -7,7 +7,7 @@ SRC_URI=""
 HOMEPAGE="http://www.gentoo.org/"
 
 LICENSE="GPL-2"
-SLOT="0"
+SLOT="1"
 KEYWORDS=""
 IUSE=""
 
