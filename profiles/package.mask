@@ -1,3 +1,8 @@
+# Torsten Veller <tove@gentoo.org> (26 Aug 2009)
+dev-perl/Padre-Plugin-PerlCritic
+dev-perl/Padre-Plugin-PerlTidy
+dev-perl/Padre-Plugin-Vi
+
 # Torsten Veller <tove@gentoo.org> (28 May 2009)
 # depends on perl-5.10 via File::Path
 >=dev-perl/ORLite-Migrate-0.03
