@@ -60,7 +60,6 @@ VENDOR_LIB=""
 
 pm_echovar=""
 perlinfo_done=false
-DUALLIFESCRIPTS=""
 
 perl-module_src_unpack() {
 	base_src_unpack unpack
@@ -235,7 +234,7 @@ linkduallifescripts() {
 
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
-		for i in ${DUALLIFESCRIPTS} ; do
+		for i in "${DUALLIFESCRIPTS[@]}" ; do
 			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-*"
 				ff=`echo "${ROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
 				ff=${ff##*.1}
@@ -245,7 +244,7 @@ linkduallifescripts() {
 		pushd "${D}" > /dev/null
 		for i in $(find usr/bin -maxdepth 1 -type f 2>/dev/null) ; do
 			mv ${i}{,-${PV}-${P}} || die
-			DUALLIFESCRIPTS="${DUALLIFESCRIPTS} ${i##*/}"
+			DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i##*/}
 			if [[ -f usr/share/man/man1/${i##*/}.1 ]] ; then
 				mv usr/share/man/man1/${i##*/}{.1,-${PV}-${P}.1} || die
 			fi
