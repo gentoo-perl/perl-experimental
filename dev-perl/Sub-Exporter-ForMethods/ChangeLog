@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Sub-Exporter-ForMethods-0.091970 (27 Aug 2009)
+
+  27 Aug 2009; <kent@gentoo.org> +Sub-Exporter-ForMethods-0.091970.ebuild:
+  Bumped
+
 *Sub-Exporter-ForMethods-0.091810 (01 Jul 2009)
 
   01 Jul 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
