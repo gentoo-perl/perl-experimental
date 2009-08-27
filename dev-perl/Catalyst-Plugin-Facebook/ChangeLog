@@ -3,5 +3,8 @@
 # $Header: $
 
   27 Aug 2009; <kent@gentoo.org> Catalyst-Plugin-Facebook-0.1.ebuild:
+  EGAD, Using MODULE_AUTHOR, Please!
+
+  27 Aug 2009; <kent@gentoo.org> Catalyst-Plugin-Facebook-0.1.ebuild:
   QA
 
