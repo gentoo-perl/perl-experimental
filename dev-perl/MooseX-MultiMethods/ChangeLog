@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-MultiMethods-0.05 (28 Aug 2009)
+
+  28 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-MultiMethods-0.05.ebuild:
+  Bumped
+
 *MooseX-MultiMethods-0.04 (19 Aug 2009)
 
   19 Aug 2009; Kent Fredric <kentfredric@gmail.com>
