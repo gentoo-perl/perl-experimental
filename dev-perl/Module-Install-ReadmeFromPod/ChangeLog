@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Module-Install-ReadmeFromPod
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Install-ReadmeFromPod-0.06 (29 Aug 2009)
+
+  29 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +Module-Install-ReadmeFromPod-0.06.ebuild, +metadata.xml:
+  Added. Test seems to spew lots, but appeears to be safe.
+
