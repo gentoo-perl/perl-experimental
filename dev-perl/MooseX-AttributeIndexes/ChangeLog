@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-AttributeIndexes-0.01001007 (01 Sep 2009)
+
+  01 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-AttributeIndexes-0.01001007.ebuild:
+  Bump
+
 *MooseX-AttributeIndexes-0.01000300 (24 Aug 2009)
 
   24 Aug 2009; Kent Fredric <kentfredric@gmail.com>
