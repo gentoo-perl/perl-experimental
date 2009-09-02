@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*padre-0.45 (02 Sep 2009)
+
+  02 Sep 2009; Kent Fredric <kentfredric@gmail.com> +padre-0.45.ebuild:
+  Bumped
+
   26 Aug 2009; Kent Fredric <kentfredric@gmail.com> padre-0.44.ebuild:
   Managed to add tests and get them to run properly regardless of your X
   settings. If you don't have 'xset' installed ( which is used to test if X
