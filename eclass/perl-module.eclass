@@ -131,14 +131,27 @@ perl-module_src_compile() {
 	fi
 }
 
+# For testers:
+#  This code attempts to work out your threadingness from MAKEOPTS
+#  and apply them to Test::Harness.
+#
+#  If you want more verbose testing, set TEST_VERBOSE=1 in your bashrc
+#
+
 perl-module_src_test() {
-	VERBOSE=${TEST_VERBOSE:-0}
+	MULTI=$( \
+		echo $MAKEOPTS |\
+		sed -n -r "/-j[0-9]/s/^.*-j([0-9]+).*$/\1/p" \
+	);
+	if [[ $MULTI != "" ]]; then
+		HARNESS_OPTIONS=j${MULTI};
+	fi;
 	if [[ ${SRC_TEST} == "do" ]] ; then
 		${perlinfo_done} || perlinfo
 		if [[ -f Build ]] ; then
 			./Build test || die "test failed"
 		elif [[ -f Makefile ]] ; then
-			emake test TEST_VERBOSE=${VERBOSE} || die "test failed"
+			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
 		fi
 	fi
 }
