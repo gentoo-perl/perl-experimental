@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name='system'>Support for autodying system() via
+			<pkg>dev-perl/IPC-System-Simple</pkg>
+		</flag>
+	</use>
+	<upstream>
+		<changelog>http://search.cpan.org/dist/autodie/Changes</changelog>
+		<remote-id type="cpan">autodie</remote-id>
+	</upstream>
+</pkgmetadata>
