@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/LWP-Online
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*LWP-Online-1.07 (02 Sep 2009)
+
+  02 Sep 2009; Kent Fredric <kentfredric@gmail.com> +LWP-Online-1.07.ebuild,
+  +metadata.xml:
+  Added
+
