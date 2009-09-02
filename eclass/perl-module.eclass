@@ -141,12 +141,11 @@ perl-module_src_compile() {
 
 perl-module_src_test() {
 	MULTI=$( \
-		echo $MAKEOPTS |\
-		sed -n -r "/-j[0-9]/s/^.*-j([0-9]+).*$/\1/p" \
+		echo -j1 $MAKEOPTS |\
+		sed -n -r "s/^.*(-j|--jobs=)([0-9]+).*$/\2/p" \
 	);
-	if [[ $MULTI != "" ]]; then
-		HARNESS_OPTIONS=j${MULTI};
-	fi;
+	einfo "Test::Harness Jobs=${MULTI}"
+	HARNESS_OPTIONS=j${MULTI};
 	if [[ ${SRC_TEST} == "do" ]] ; then
 		${perlinfo_done} || perlinfo
 		if [[ -f Build ]] ; then
