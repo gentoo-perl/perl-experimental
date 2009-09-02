@@ -1,0 +1,20 @@
+diff -Naur CPAN-Inject-0.10/t/02_main.t CPAN-Inject-0.10.new/t/02_main.t
+--- CPAN-Inject-0.10/t/02_main.t	2007-12-11 16:48:15.000000000 +1300
++++ CPAN-Inject-0.10.new/t/02_main.t	2009-09-03 00:01:17.579196648 +1200
+@@ -77,6 +77,7 @@
+ 	};
+ 	SKIP: {
+ 		skip( "Current user owns CPAN::Config", 1 ) unless $@;
++   skip( "There is no sources dir", 1 ) if $@ =~ /does not exist/; 
+ 		ok(
+ 			$@ =~ /The sources directory is not owned by the current user/,
+ 			'Got expected error',
+@@ -119,7 +120,7 @@
+ 	ok(
+ 		-f catfile($author, 'CHECKSUMS'),
+ 		'Created CHECKSUMS file',
+-	);	
++	);
+ }
+ 
+ #####################################################################

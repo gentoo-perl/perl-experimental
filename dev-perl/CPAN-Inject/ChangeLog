@@ -1,0 +1,14 @@
+# ChangeLog for dev-perl/CPAN-Inject
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CPAN-Inject-0.11 (02 Sep 2009)
+*CPAN-Inject-0.10 (02 Sep 2009)
+
+  02 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  +CPAN-Inject-0.10.ebuild, +files/Test-0.10.patch,
+  +CPAN-Inject-0.11.ebuild, +files/Test-0.11.patch, +metadata.xml:
+  Added 2 versions. Note theres a patch in the test suites there, because 
+  the dir it tests for simply does not, and will never exist due to the
+  build being done outside of a CPAN install.
+
