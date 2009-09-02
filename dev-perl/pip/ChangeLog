@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/pip
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*pip-0.13 (02 Sep 2009)
+
+  02 Sep 2009; Kent Fredric <kentfredric@gmail.com> +pip-0.13.ebuild,
+  +metadata.xml:
+  Added
+
