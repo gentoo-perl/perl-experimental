@@ -135,7 +135,8 @@ perl-module_src_compile() {
 #  This code attempts to work out your threadingness from MAKEOPTS
 #  and apply them to Test::Harness.
 #
-#  If you want more verbose testing, set TEST_VERBOSE=1 in your bashrc
+#  If you want more verbose testing, set TEST_VERBOSE=1
+#  in your bashrc | /etc/make.conf | ENV
 #
 
 perl-module_src_test() {
