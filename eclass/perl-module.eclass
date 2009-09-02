@@ -132,12 +132,13 @@ perl-module_src_compile() {
 }
 
 perl-module_src_test() {
+	VERBOSE=${TEST_VERBOSE:-0}
 	if [[ ${SRC_TEST} == "do" ]] ; then
 		${perlinfo_done} || perlinfo
 		if [[ -f Build ]] ; then
 			./Build test || die "test failed"
 		elif [[ -f Makefile ]] ; then
-			emake test || die "test failed"
+			emake test TEST_VERBOSE=${VERBOSE} || die "test failed"
 		fi
 	fi
 }
