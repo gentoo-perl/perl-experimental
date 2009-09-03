@@ -10,6 +10,38 @@ PATCH_VER=5
 
 PERL_OLDVERSEN="5.10.0"
 
+# The slot of this binary compat version of libperl.so
+PERLSLOT="1"
+
+IUSE="berkdb debug gdbm ithreads"
+COMMON_DEPEND="berkdb? ( sys-libs/db )
+	gdbm? ( >=sys-libs/gdbm-1.8.3 )"
+
+if [[ ${PN} == libperl ]] ; then
+	IS_PERL=false
+	RESTRICT=test
+	SLOT="1"
+
+	DEPEND="${COMMON_DEPEND}
+		elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
+	RDEPEND="${COMMON_DEPEND}"
+else
+	IS_PERL=true
+	SLOT="0"
+
+	DEPEND="${COMMON_DEPEND}
+		>=sys-devel/libperl-${PV}
+		elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )
+		app-arch/bzip2
+		sys-libs/zlib"
+
+	RDEPEND="${COMMON_DEPEND}
+		~sys-devel/libperl-${PV}[ithreads=,gdbm=,berkdb=]"
+
+	PDEPEND=">=app-admin/perl-cleaner-1.03"
+	IUSE="${IUSE} doc build"
+fi
+
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
 MY_PV="${PV%_rc*}"
@@ -22,20 +54,8 @@ SRC_URI="mirror://cpan/src/${MY_P}.tar.bz2
 HOMEPAGE="http://www.perl.org/"
 
 LICENSE="|| ( Artistic GPL-2 )"
-SLOT="0"
 KEYWORDS=""
 #KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~sparc-fbsd ~x86-fbsd"
-IUSE="berkdb build debug doc gdbm ithreads"
-
-COMMON_DEPEND="berkdb? ( sys-libs/db )
-	gdbm? ( >=sys-libs/gdbm-1.8.3 )
-	app-arch/bzip2
-	sys-libs/zlib"
-DEPEND="${COMMON_DEPEND}
-	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
-RDEPEND="${COMMON_DEPEND}
-	!<sys-devel/libperl-5.10.1-r10"
-PDEPEND=">=app-admin/perl-cleaner-1.03"
 
 dual_scripts() {
 	# - perl-core/Archive-Tar
@@ -71,6 +91,13 @@ pkg_setup() {
 		ewarn "your own discretion. "
 		epause 5
 	fi
+
+	if ${IS_PERL} && [[ ! -f "${ROOT}/usr/$(get_libdir)/${LIBPERL}" ]] ; then
+		# Make sure we have libperl installed ...
+		eerror "Cannot find ${ROOT}/usr/$(get_libdir)/${LIBPERL}!  Make sure that you"
+		eerror "have sys-libs/libperl installed properly ..."
+		die "Cannot find ${ROOT}/usr/$(get_libdir)/${LIBPERL}!"
+	fi
 }
 
 src_prepare() {
@@ -80,7 +107,7 @@ src_prepare() {
 	epatch
 
 	# pod/perltoc.pod fails
-	ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV})
+	#ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV})
 }
 
 myconf() {
@@ -184,9 +211,10 @@ src_configure() {
 		myconf "-Dlibpth=/usr/local/$(get_libdir) /$(get_libdir) /usr/$(get_libdir)"
 	fi
 
+	${IS_PERL} || myconf "-Duseshrplib" "-Dlibperl=${LIBPERL}"
+
 	sh Configure \
 		-des \
-		-Duseshrplib \
 		-Darchname="${myarch}" \
 		-Dcc="$(tc-getCC)" \
 		-Doptimize="${CFLAGS}" \
@@ -200,7 +228,6 @@ src_configure() {
 		-Dvendorarch="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}" \
 		-Dsitelib="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}" \
 		-Dsitearch="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}" \
-		-Dlibperl="${LIBPERL}" \
 		-Dlocincpth=' ' \
 		-Duselargefiles \
 		-Dd_semctl_semun \
@@ -214,6 +241,16 @@ src_configure() {
 		"${myconf[@]}" || die "Unable to configure"
 }
 
+src_compile() {
+	if ${IS_PERL} ; then
+		default
+	else
+		emake -f Makefile depend || die "Couldn't make libperl$(get_libname) depends"
+		emake -f Makefile LIBPERL=${LIBPERL} ${LIBPERL} || die "Unable to make libperl$(get_libname)"
+		mv ${LIBPERL} "${WORKDIR}"
+	fi
+}
+
 src_test() {
 #	use elibc_uclibc && export MAKEOPTS="${MAKEOPTS} -j1"
 	TEST_JOBS=$(echo -j1 ${MAKEOPTS} | sed -r 's/.*(-j[[:space:]]*|--jobs=)([[:digit:]]+).*/\2/' ) \
@@ -222,8 +259,29 @@ src_test() {
 
 src_install() {
 	export LC_ALL="C"
+	if ${IS_PERL} ; then
+		src_install_perl
+	else
+		src_install_libperl
+	fi
+}
+
+src_install_libperl() {
+	dolib.so "${WORKDIR}"/${LIBPERL} || die
+	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${SHORT_PV}) || die
+	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname) || die
+}
+
+src_install_perl() {
 	local i
+
+	# Need to do this, else apps do not link to dynamic version of
+	# the library ...
 	local coredir="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}/CORE"
+	dodir ${coredir}
+	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
+	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${SHORT_PV})
+	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
 	# Fix for "stupid" modules and programs
 	dodir /usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}
@@ -236,14 +294,6 @@ src_install() {
 
 	rm "${D}"/usr/bin/perl
 	ln -s perl${MY_PV} "${D}"/usr/bin/perl
-
-	dolib.so "${D}"/${coredir}/${LIBPERL} || die
-	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${SHORT_PV}) || die
-	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname) || die
-	rm "${D}"/${coredir}/${LIBPERL}
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${SHORT_PV})
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
 	rm -r "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
 #	cp -f utils/h2ph utils/h2ph_patched
@@ -309,6 +359,14 @@ src_install() {
 }
 
 pkg_postinst() {
+	if ${IS_PERL} ; then
+		pkg_postinst_perl
+	else
+		pkg_postinst_libperl
+	fi
+}
+
+pkg_postinst_perl() {
 	local INC DIR file
 
 	dual_scripts
@@ -346,6 +404,47 @@ pkg_postinst() {
 		cleaner_msg
 		epause 5
 	fi
+}
+
+pkg_postinst_libperl() {
+	:
+#	# Make sure we do not have stale/invalid libperl.so 's ...
+#	if [[ -f "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" && \
+#		! -L "${ROOT}usr/$(get_libdir)/libperl$(get_libname)" ]] ; then
+#		mv -f "${ROOT}"usr/$(get_libdir)/libperl$(get_libname){,.old}
+#	fi
+#
+#	# Next bit is to try and setup the /usr/lib/libperl.so symlink
+#	# properly ...
+#	local libnumber="`ls -1 ${ROOT}usr/$(get_libdir)/libperl$(get_libname ?.*) | grep -v '\.old' | wc -l`"
+#	if [[ "${libnumber}" -eq 1 ]] ; then
+#		# Only this version of libperl is installed, so just link libperl.so
+#		# to the *soname* version of it ...
+#		ln -snf libperl$(get_libname ${PERLSLOT}) "${ROOT}"usr/$(get_libdir)/libperl$(get_libname)
+#	else
+#		if [[ -x "${ROOT}/usr/bin/perl" ]] ; then
+#			# OK, we have more than one version .. first try to figure out
+#			# if there are already a perl installed, if so, link libperl.so
+#			# to that *soname* version of libperl.so ...
+#			local perlversion="`${ROOT}/usr/bin/perl -V:version | cut -d\' -f2 | cut -d. -f1,2`"
+
+#			cd "${ROOT}"usr/$(get_libdir)
+#			# Link libperl.so to the *soname* versioned lib ...
+#			ln -snf `echo libperl$(get_libname ?.${perlversion}) | cut -d.  -f1,2,3` libperl$(get_libname)
+#		else
+#			local x latest
+
+#			# Nope, we are not so lucky ... try to figure out what version
+#			# is the latest, and keep fingers crossed ...
+#			for x in `ls -1 "${ROOT}"usr/$(get_libdir)/libperl$(get_libname ?.*)` ; do
+#				latest="${x}"
+#			done
+
+#			cd "${ROOT}"usr/$(get_libdir)
+#			# Link libperl.so to the *soname* versioned lib ...
+#			ln -snf `echo ${latest##*/} | cut -d. -f1,2,3` libperl$(get_libname)
+#		fi
+#	fi
 }
 
 pkg_postrm(){

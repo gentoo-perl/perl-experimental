@@ -140,16 +140,14 @@ perl-module_src_compile() {
 #
 
 perl-module_src_test() {
-	MULTI=$( \
-		echo -j1 $MAKEOPTS |\
-		sed -n -r "s/^.*(-j|--jobs=)([0-9]+).*$/\2/p" \
-	);
-	einfo "Test::Harness Jobs=${MULTI}"
-	HARNESS_OPTIONS=j${MULTI};
 	if [[ ${SRC_TEST} == "do" ]] ; then
+		if has "${TEST_VERBOSE:-0}" 0 ; then
+			export HARNESS_OPTIONS=j$(echo -j1 ${MAKEOPTS} | sed -r "s/.*(-j\s*|--jobs=)([0-9]+).*/\2/" )
+			einfo "Test::Harness Jobs=${HARNESS_OPTIONS}"
+		fi
 		${perlinfo_done} || perlinfo
 		if [[ -f Build ]] ; then
-			./Build test || die "test failed"
+			./Build test verbose=${TEST_VERBOSE:-0} || die "test failed"
 		elif [[ -f Makefile ]] ; then
 			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
 		fi
@@ -250,9 +248,9 @@ linkduallifescripts() {
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in "${DUALLIFESCRIPTS[@]}" ; do
 			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-*"
-				ff=`echo "${ROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
-				ff=${ff##*.1}
-				alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-*"
+			ff=`echo "${ROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
+			ff=${ff##*.1}
+			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-*"
 		done
 	else
 		pushd "${D}" > /dev/null
