@@ -64,12 +64,26 @@ pkg_setup() {
 	LIBPERL="libperl$(get_libname ${MY_PV})"
 
 	if use ithreads ; then
+		ewarn "THREADS WARNING:"
 		ewarn "PLEASE NOTE: You are compiling ${MY_P} with"
 		ewarn "interpreter-level threading enabled."
 		ewarn "Threading is not supported by all applications "
 		ewarn "that compile against perl. You use threading at "
 		ewarn "your own discretion. "
+		echo
 		epause 5
+	fi
+	if has_version dev-lang/perl ; then
+		if (   use ithreads && ! built_with_use dev-lang/perl ithreads ) || \
+		   ( ! use ithreads &&   built_with_use dev-lang/perl ithreads ) || \
+		   (   use debug    && ! built_with_use dev-lang/perl debug    ) || \
+		   ( ! use debug    &&   built_with_use dev-lang/perl debug    ) ; then
+			ewarn "TOGGLED USE-FLAGS WARNING:"
+			ewarn "You changed one of the use-flags ithreads or debug."
+			ewarn "You must rebuild all perl-modules installed."
+			ewarn "Use: perl-cleaner --???"
+			epause
+		fi
 	fi
 }
 
@@ -145,6 +159,9 @@ src_configure() {
 	else
 		myarch=${CHOST}
 		myarch="${myarch%%-*}-${osname}"
+	fi
+	if use debug ; then
+		myarch="${myarch}-debug"
 	fi
 
 	# allow either gdbm to provide ndbm (in <gdbm/ndbm.h>) or db1
