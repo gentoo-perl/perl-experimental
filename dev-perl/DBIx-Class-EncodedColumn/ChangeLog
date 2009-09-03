@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/DBIx-Class-EncodedColumn
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  03 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-EncodedColumn-0.00002.ebuild:
+  +QA +Tests
+
