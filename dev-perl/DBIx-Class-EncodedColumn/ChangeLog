@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  -files/0.00003/pubring.gpg, -DBIx-Class-EncodedColumn-0.00003.ebuild,
+  -files/0.00003/secring.gpg:
+  Cleaned up cruft from 0.00003 FAIL
+
 *DBIx-Class-EncodedColumn-0.00004 (04 Sep 2009)
 
   04 Sep 2009; Kent Fredric <kentfredric@gmail.com>
