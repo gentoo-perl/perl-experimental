@@ -11,7 +11,8 @@ DESCRIPTION="Format perl files using Perl::Tidy"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
+IUSE=""
 DEPEND=">=dev-perl/Locale-Msgfmt-0.14"
 RDEPEND=">=app-editors/padre-0.43
 	dev-perl/perltidy"
+SRC_TEST="do"
