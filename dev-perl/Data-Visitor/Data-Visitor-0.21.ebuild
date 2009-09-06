@@ -1,7 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=2
 MODULE_AUTHOR=NUFFIN
 inherit perl-module
 
@@ -12,10 +12,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	>=dev-perl/Mouse-0.06
 	>=dev-perl/namespace-clean-0.08
 	>=dev-perl/Test-MockObject-1.04
 	dev-perl/Test-use-ok
 	>=dev-perl/Tie-ToObject-0.01
 "
+DEPEND="${RDEPEND}"
+SRC_TEST=do

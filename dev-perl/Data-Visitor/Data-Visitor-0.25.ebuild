@@ -20,4 +20,4 @@ DEPEND="${RDEPEND}
 	test? ( dev-perl/Test-use-ok
 		>=dev-perl/Test-MockObject-1.04 )"
 
-SRC_TEST=do
+SRC_TEST="do"
