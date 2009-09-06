@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Text-MultiMarkdown
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Text-MultiMarkdown-1.0.27 (06 Sep 2009)
+
+  06 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  +Text-MultiMarkdown-1.0.27.ebuild, +metadata.xml:
+  Added
+
