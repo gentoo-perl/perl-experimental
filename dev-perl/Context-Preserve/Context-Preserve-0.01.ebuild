@@ -5,7 +5,7 @@ EAPI=2
 MODULE_AUTHOR=JROCKWAY
 inherit perl-module
 
-DESCRIPTION="Run code after a subroutine call, preserving the context the subroutine would have seen if it were the last statement in the caller"
+DESCRIPTION="Pass chained return values from subs, modifying their values, without losing context."
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
