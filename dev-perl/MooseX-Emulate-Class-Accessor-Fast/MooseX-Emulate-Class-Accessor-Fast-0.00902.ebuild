@@ -13,11 +13,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPEND="
+RDEPEND="
 	>=dev-perl/Moose-0.84
 	dev-perl/namespace-clean
 "
-RDEPEND="${DEPEND}
+DEPEND="${RDEPEND}
 	test? (
 		dev-perl/Test-Exception
 		virtual/perl-Test-Simple
