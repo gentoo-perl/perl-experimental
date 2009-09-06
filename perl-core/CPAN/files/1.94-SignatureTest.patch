@@ -1,0 +1,25 @@
+diff -Naur CPAN-1.9402/SIGNATURE CPAN-1.9402/SIGNATURE
+--- CPAN-1.9402/SIGNATURE	2009-06-27 14:39:45.000000000 +1200
++++ CPAN-1.9402/SIGNATURE	2009-09-06 22:45:26.871177636 +1200
+@@ -18,7 +18,7 @@
+ SHA1 0ea0887959becc8c039f8c37b6a9b2c164200aeb MANIFEST
+ SHA1 97732eaafa3212deb5fe0e292f70e25ce5ee66a7 MANIFEST.SKIP
+ SHA1 bfb57c4a633e130303959cd23ba5798e59adeb67 META.yml
+-SHA1 90bcb550c498de8b05a636e9c85ff1dad5b107d0 Makefile.PL
++SHA1 123b7dd119a4172a6e4f91f879dd27cb8c647900 Makefile.PL
+ SHA1 37e858c51409a297ef5d3fb35dc57cd3b57f9a4d PAUSE2003.pub
+ SHA1 af016003ad503ed078c5f8254521d13a3e0c494f PAUSE2005.pub
+ SHA1 a3941566358617b918e0bb7b5c4c2638f451a9d8 PAUSE2007.pub
+diff -Naur CPAN-1.9402/t/00signature.t CPAN-1.9402/t/00signature.t
+--- CPAN-1.9402/t/00signature.t	2009-03-14 05:59:24.000000000 +1300
++++ CPAN-1.9402/t/00signature.t	2009-09-06 22:52:08.131471392 +1200
+@@ -36,6 +36,9 @@
+             $exit_message = "Cannot connect to the keyserver";
+         }
+     }
++    unless ($exit_message) {
++        $exit_message = "DIST patched by Gentoo, invalidating SIGNATURE"
++    }
+     if ($exit_message) {
+         $|=1;
+         print "1..0 # SKIP $exit_message\n";
