@@ -16,4 +16,3 @@ RDEPEND="
 	>=dev-perl/Text-Emoticon-0.02
 "
 DEPEND="${RDEPEND}"
-

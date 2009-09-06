@@ -22,4 +22,3 @@ DEPEND="
 	>=dev-perl/Perl6-Junction-1.10
 	dev-perl/Email-Valid
 "
-

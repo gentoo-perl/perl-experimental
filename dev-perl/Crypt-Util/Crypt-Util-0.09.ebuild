@@ -26,4 +26,3 @@ pkg_setup() {
 	ewarn "This ebuild installs by default CBC, Rijndael and SHA."
 	ewarn "If you need other crypt libs, install them!"
 }
-

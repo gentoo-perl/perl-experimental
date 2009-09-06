@@ -18,4 +18,3 @@ DEPEND="
 	dev-perl/Net-OpenID-Consumer
 	dev-perl/Catalyst-Runtime
 "
-

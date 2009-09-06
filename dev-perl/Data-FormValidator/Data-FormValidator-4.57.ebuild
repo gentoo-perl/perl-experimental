@@ -21,4 +21,3 @@ DEPEND="
 	dev-perl/regexp-common
 	>=dev-perl/Perl6-Junction-1.10
 "
-

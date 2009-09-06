@@ -17,4 +17,3 @@ DEPEND="
 	virtual/perl-Module-Build
 	dev-perl/Catalyst-Runtime
 "
-

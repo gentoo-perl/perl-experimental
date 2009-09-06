@@ -21,4 +21,3 @@ DEPEND="
 	dev-perl/Moose
 	dev-perl/Regexp-Assemble
 "
-

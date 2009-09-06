@@ -17,4 +17,3 @@ DEPEND="
 	>=dev-perl/Module-Install-0.65
 	virtual/perl-IO-Compress
 "
-

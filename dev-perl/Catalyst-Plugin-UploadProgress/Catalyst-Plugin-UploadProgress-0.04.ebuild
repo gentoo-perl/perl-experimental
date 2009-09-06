@@ -16,4 +16,3 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="
 	dev-perl/Catalyst-Runtime
 "
-

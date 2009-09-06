@@ -25,4 +25,3 @@ DEPEND="
 		dev-perl/Authen-SASL
 	)
 "
-

@@ -18,4 +18,3 @@ DEPEND="
 	>=dev-perl/Lingua-Stem-Snowball-0.94
 	>=dev-perl/Lingua-StopWords-0.02
 "
-

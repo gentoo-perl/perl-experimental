@@ -18,4 +18,3 @@ DEPEND="
 	dev-perl/DateTime-Format-Builder
 	>=dev-perl/Data-FormValidator-3.61
 "
-

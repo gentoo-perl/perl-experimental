@@ -15,4 +15,3 @@ IUSE=""
 DEPEND="
 	dev-perl/Class-Data-Inheritable
 "
-

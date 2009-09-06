@@ -17,4 +17,3 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.7006
 	virtual/perl-IO-Compress
 "
-

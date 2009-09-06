@@ -16,4 +16,3 @@ DEPEND="
 	dev-perl/libwww-perl
 	>=dev-perl/HTML-Tiny-0.904
 "
-

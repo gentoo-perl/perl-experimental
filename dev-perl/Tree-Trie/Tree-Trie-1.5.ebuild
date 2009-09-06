@@ -15,12 +15,12 @@ RDEPEND=""
 
 src_prepare (){
 	perl-module_src_prepare
-	# These are coverage tests for documentation 
+	# These are coverage tests for documentation
 	# They currently fail, but thats really not all that important to us.
 	rm t/01_pod.t || die "Can't rm a pod test"
 	rm t/02_pod_cover.t || die "Can't rm a pod test :( "
-	# You'll get warnings about this 
-	# ie: Warning: the following files are missing in your kit: 
+	# You'll get warnings about this
+	# ie: Warning: the following files are missing in your kit:
 	# But meh.
 }
 SRC_TEST="do"

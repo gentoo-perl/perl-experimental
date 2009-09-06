@@ -17,4 +17,3 @@ DEPEND="
 	dev-perl/Cache-Memcached
 	net-misc/memcached
 "
-

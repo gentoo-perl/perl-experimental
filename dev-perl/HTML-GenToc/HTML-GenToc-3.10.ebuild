@@ -19,4 +19,3 @@ DEPEND="
 	>=dev-perl/HTML-SimpleParse-0.1
 	dev-perl/HTML-Parser
 "
-

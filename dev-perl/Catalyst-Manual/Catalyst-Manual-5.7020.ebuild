@@ -13,4 +13,3 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-

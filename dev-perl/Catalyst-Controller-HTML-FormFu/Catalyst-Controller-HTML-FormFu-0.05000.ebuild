@@ -23,4 +23,3 @@ DEPEND="
 	dev-perl/Task-Weaken
 	dev-perl/namespace-autoclean
 "
-

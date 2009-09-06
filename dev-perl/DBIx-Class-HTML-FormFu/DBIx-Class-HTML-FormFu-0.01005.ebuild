@@ -16,4 +16,3 @@ DEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/HTML-FormFu
 "
-

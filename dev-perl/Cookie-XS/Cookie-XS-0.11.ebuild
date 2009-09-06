@@ -21,4 +21,3 @@ pkg_setup() {
 	ewarn "This ebuild is DEPRECATED and will be removed."
 	ewarn "Please use CGI-Cookie-XS!!!"
 }
-

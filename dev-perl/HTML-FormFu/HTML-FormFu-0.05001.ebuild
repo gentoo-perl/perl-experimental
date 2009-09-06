@@ -42,4 +42,3 @@ DEPEND="
 	>=dev-perl/YAML-Syck-1.04
 	dev-perl/Template-Toolkit
 "
-

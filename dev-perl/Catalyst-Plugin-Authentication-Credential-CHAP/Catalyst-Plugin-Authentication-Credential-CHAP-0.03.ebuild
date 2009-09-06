@@ -19,4 +19,3 @@ DEPEND="
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Authentication
 "
-

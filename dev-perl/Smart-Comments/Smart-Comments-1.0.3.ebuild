@@ -25,4 +25,3 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 SRC_TEST="do"
-

@@ -15,4 +15,3 @@ IUSE=""
 DEPEND="
 	>=dev-perl/MKDoc-XML-0.72
 "
-

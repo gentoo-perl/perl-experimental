@@ -17,4 +17,3 @@ DEPEND="
 	>=dev-perl/DBIx-Class-0.06002
 	virtual/perl-Digest-SHA
 "
-

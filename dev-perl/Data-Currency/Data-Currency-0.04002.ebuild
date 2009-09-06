@@ -20,4 +20,3 @@ DEPENDS="
 	>=dev-perl/Locale-Codes-2.07
 	>=dev-perl/Locale-Currency-Format-1.22
 "
-

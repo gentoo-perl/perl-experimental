@@ -81,7 +81,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 x11_works(){
-	# If there is no xdpyinfo, 
+	# If there is no xdpyinfo,
 	# it will return 127
 	xset -q 1>/dev/null 2>&1
 	WORKS="$?"

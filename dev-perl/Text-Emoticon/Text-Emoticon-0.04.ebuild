@@ -16,4 +16,3 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 "
 DEPEND="${RDEPEND}"
-

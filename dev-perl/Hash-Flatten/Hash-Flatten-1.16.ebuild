@@ -17,4 +17,3 @@ DEPENDS="
 	dev-perl/Test-Assertions
 	dev-perl/Log-Trace
 "
-

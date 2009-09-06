@@ -25,4 +25,3 @@ DEPEND="
 "
 
 SRC_TEST=do
-

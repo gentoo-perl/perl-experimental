@@ -23,4 +23,3 @@ src_compile() {
 	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
 	perl-module_src_compile
 }
-

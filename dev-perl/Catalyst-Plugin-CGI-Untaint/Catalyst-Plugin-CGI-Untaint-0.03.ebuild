@@ -16,4 +16,3 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-perl/CGI-Untaint"
-

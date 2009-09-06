@@ -16,4 +16,3 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Class-C3
 "
-

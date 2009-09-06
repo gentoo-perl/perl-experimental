@@ -16,4 +16,3 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-ParseXS
 "
-

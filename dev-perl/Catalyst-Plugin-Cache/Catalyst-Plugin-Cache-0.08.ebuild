@@ -19,4 +19,3 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/MRO-Compat
 "
-
