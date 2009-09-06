@@ -252,10 +252,10 @@ linkduallifescripts() {
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in "${DUALLIFESCRIPTS[@]}" ; do
-			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-*"
+			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-[0-9]*"
 			ff=`echo "${ROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
 			ff=${ff##*.1}
-			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-*"
+			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-[0-9]*"
 		done
 	else
 		pushd "${D}" > /dev/null
