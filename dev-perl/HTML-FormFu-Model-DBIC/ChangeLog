@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  HTML-FormFu-Model-DBIC-0.05001.ebuild,
+  HTML-FormFu-Model-DBIC-0.05002.ebuild:
+  EAPI=2, SRC_TEST, Fix QA error with DEPEND being there twice
+
 *HTML-FormFu-Model-DBIC-0.05002 (11 Jul 2009)
 
   11 Jul 2009; Michele Beltrame <m@cattlegrid.info>

@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	dev-perl/DBD-SQLite
 	>=dev-perl/DBIx-Class-0.08106
 	>=dev-perl/HTML-FormFu-0.05000
@@ -25,4 +25,5 @@ DEPEND="
 		dev-perl/DateTime-Format-SQLite
 	)
 "
-
+NO_TEST_MULTI=1
+SRC_TEST=do
