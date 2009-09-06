@@ -7,7 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <use>
-      <flag name="autodeploy">Support for automatic deployment</flag>
+	  <flag name="autodeploy">Support for automatic deployment</flag>
+      <flag name="createdb">Create new Database automatically</flag>
       <flag name="markdown">Markdown formatter</flag>
       <flag name="docbook">DocBook formatter</flag>
       <flag name="tocgen">Table Of Contents Generator</flag>
@@ -16,6 +17,7 @@
       <flag name="transclusion">Transclusion support</flag>
       <flag name="amazonboxes">Amazon boxes</flag>
       <flag name="rssformatter">RSS Formatter</flag>
-      <flag name="emoticons">Emoticons</flag>
+	  <flag name="emoticons">Emoticons</flag>
+	  <flag name="recaptcha">reCAPTCHA for anonymous edits</flag>
     </use>
 </pkgmetadata>
