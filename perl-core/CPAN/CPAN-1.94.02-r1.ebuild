@@ -29,8 +29,5 @@ RDEPEND="
 	)
 )"
 DEPEND="${RDEPEND}"
-src_test (){
-	MAKEOPTS="${MAKEOPTS} -j1"
-	perl-module_src_test
-}
+NO_TEST_MULTI=1
 SRC_TEST=do
