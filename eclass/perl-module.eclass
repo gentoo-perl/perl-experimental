@@ -138,10 +138,15 @@ perl-module_src_compile() {
 #  If you want more verbose testing, set TEST_VERBOSE=1
 #  in your bashrc | /etc/make.conf | ENV
 #
+# For ebuild writers:
+#  If a package doesn't build with mulitthreaded tests enabled,
+#  this should be considered a bug, but for a temporary workaround,
+#  add NO_TEST_MULTI=1 to your ebuild.
+#
 
 perl-module_src_test() {
 	if [[ ${SRC_TEST} == "do" ]] ; then
-		if has "${TEST_VERBOSE:-0}" 0 ; then
+		if has "${TEST_VERBOSE:-0}" 0 && has "${NO_TEST_MULTI:-0}" 0 ; then
 			export HARNESS_OPTIONS=j$(echo -j1 ${MAKEOPTS} | sed -r "s/.*(-j\s*|--jobs=)([0-9]+).*/\2/" )
 			einfo "Test::Harness Jobs=${HARNESS_OPTIONS}"
 		fi
