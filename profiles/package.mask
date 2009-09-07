@@ -5,6 +5,11 @@ dev-perl/Padre-Plugin-Vi
 dev-perl/Padre-Plugin-XML
 dev-perl/Padre-Plugin-Autoformat
 
+# Michele Beltrame <mb@cattlegrid.info> (26 Aug 2009)
+# Depend on virtual/perl-CPAN which is masked
+dev-perl/local-lib
+dev-perl/Task-Kensho
+
 # Torsten Veller <tove@gentoo.org> (28 May 2009)
 # depends on perl-5.10 via File::Path
 >=dev-perl/ORLite-Migrate-0.03
@@ -21,11 +26,6 @@ virtual/perl-Encode
 perl-core/Encode
 virtual/perl-ExtUtils-MakeMaker
 perl-core/ExtUtils-MakeMaker
-
-# Michele Beltrame <mb@cattlegrid.info> (12 May 2009)
-# Depend on virtual/perl-CPAN which is masked
-dev-perl/local-lib
-dev-perl/Task-Kensho
 
 # Torsten Veller <tove@gentoo.org> (25 Apr 2008)
 # Masked for testing.
