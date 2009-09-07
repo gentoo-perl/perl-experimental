@@ -480,8 +480,8 @@ src_remove_dual_scripts() {
 		for i in "$@" ; do
 			ff=`echo ${ROOT}/usr/share/man/man1/${i}-${ver}-${P}.1*`
 			ff=${ff##*.1}
-			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-*"
-			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-*"
+			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-[0-9]*"
+			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-[0-9]*"
 		done
 	else
 		for i in "$@" ; do

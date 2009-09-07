@@ -262,7 +262,7 @@ src_install() {
 	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${SHORT_PV})
 	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
-	rm -r "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
+	rm -rf "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
 #	cp -f utils/h2ph utils/h2ph_patched
 #	epatch "${FILESDIR}"/${PN}-h2ph-ansi-header.patch
 #
@@ -413,7 +413,8 @@ src_remove_dual_scripts() {
 src_remove_extra_files() {
 	local prefix="./usr" # ./ is important
 	local bindir="${prefix}/bin"
-	local perlroot="${prefix}/$(get_libdir)/perl5" # perl installs per-arch dirs
+	local libdir="${prefix}/$(get_libdir)"
+	local perlroot="${libdir}/perl5" # perl installs per-arch dirs
 	local prV="${perlroot}/${MY_PV}"
 	local prVA="${prV}/${myarch}${mythreading}"
 
@@ -425,6 +426,9 @@ src_remove_extra_files() {
 	${bindir}/perl
 	${bindir}/perl${MY_PV}
 	${bindir}/pod2man
+	${libdir}/${LIBPERL}
+	${libdir}/libperl$(get_libname)
+	${libdir}/libperl$(get_libname ${SHORT_PV})
 	${prV}/attributes.pm
 	${prV}/AutoLoader.pm
 	${prV}/autouse.pm
