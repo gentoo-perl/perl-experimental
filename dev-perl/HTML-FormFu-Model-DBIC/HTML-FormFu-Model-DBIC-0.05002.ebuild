@@ -25,5 +25,4 @@ DEPEND="
 		dev-perl/DateTime-Format-SQLite
 	)
 "
-NO_TEST_MULTI=1
 SRC_TEST=do
