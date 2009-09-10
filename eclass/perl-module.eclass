@@ -144,17 +144,21 @@ perl-module_src_compile() {
 #   SRC_TEST="do"
 #
 #  If you wish to have threads run in parallel ( using the users makeopts )
+#  all of the following have been tested to work.
 #
 #   SRC_TEST="do parallel"
-#
-#  or just
-#
 #   SRC_TEST="parallel"
+#   SRC_TEST="parallel do"
+#   SRC_TEST=parallel
+#
+#  This however, won't
+#
+#   SRC_TEST=do parallel
 #
 
 perl-module_src_test() {
-	if has 'do' "${SRC_TEST}" || has 'parallel' "${SRC_TEST}"; then
-		if has "${TEST_VERBOSE:-0}" 0 && has "parallel" "${SRC_TEST}" ; then
+	if has 'do' ${SRC_TEST} || has 'parallel' ${SRC_TEST}; then
+		if has "${TEST_VERBOSE:-0}" 0 && has 'parallel' ${SRC_TEST} ; then
 			export HARNESS_OPTIONS=j$(echo -j1 ${MAKEOPTS} | sed -r "s/.*(-j\s*|--jobs=)([0-9]+).*/\2/" )
 			einfo "Test::Harness Jobs=${HARNESS_OPTIONS}"
 		fi
