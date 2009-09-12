@@ -64,10 +64,13 @@ pkg_setup() {
 		epause 5
 	fi
 	if has_version dev-lang/perl ; then
-		if (   use ithreads && ! built_with_use dev-lang/perl ithreads ) || \
-		   ( ! use ithreads &&   built_with_use dev-lang/perl ithreads ) || \
-		   (   use debug    && ! built_with_use dev-lang/perl debug    ) || \
-		   ( ! use debug    &&   built_with_use dev-lang/perl debug    ) ; then
+		# doesnot work
+		#if ! has_version dev-lang/perl[ithreads=,debug=] ; then
+		#if ! has_version dev-lang/perl[ithreads=] || ! has_version dev-lang/perl[debug=] ; then
+		if (   use ithreads && ! has_version dev-lang/perl[ithreads]   ) || \
+		   ( ! use ithreads &&   has_version dev-lang/perl[ithreads]   ) || \
+		   (   use debug    && ! has_version dev-lang/perl[debug]      ) || \
+		   ( ! use debug    &&   has_version dev-lang/perl[debug]      ) ; then
 			ewarn "TOGGLED USE-FLAGS WARNING:"
 			ewarn "You changed one of the use-flags ithreads or debug."
 			ewarn "You must rebuild all perl-modules installed."
