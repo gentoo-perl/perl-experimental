@@ -11,10 +11,18 @@ DESCRIPTION="Log queries for later analysis."
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
 RDEPEND="dev-perl/Class-Accessor
-	dev-perl/DBIx-Class"
-DEPEND="${RDEPEND}"
+	>=dev-perl/DBIx-Class-0.07000
+	dev-perl/Moose
+	dev-perl/MooseX-AttributeHelpers
+	virtual/perl-Time-HiRes
+"
+DEPEND="${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+	)
+"
 
 SRC_TEST=do
