@@ -29,12 +29,12 @@ IUSE="berkdb build debug doc gdbm ithreads"
 
 COMMON_DEPEND="berkdb? ( sys-libs/db )
 	gdbm? ( >=sys-libs/gdbm-1.8.3 )
+	!<sys-devel/libperl-5.10.1-r10
 	app-arch/bzip2
 	sys-libs/zlib"
 DEPEND="${COMMON_DEPEND}
 	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
-RDEPEND="${COMMON_DEPEND}
-	!<sys-devel/libperl-5.10.1-r10"
+RDEPEND="${COMMON_DEPEND}"
 PDEPEND=">=app-admin/perl-cleaner-1.03"
 
 dual_scripts() {
@@ -134,7 +134,7 @@ src_configure() {
 	cat <<-EOF > "${S}/ext/Compress-Raw-Zlib/config.in"
 		BUILD_ZLIB = False
 		INCLUDE = /usr/include
-		LIB = /usr/{get_libdir}
+		LIB = /usr/$(get_libdir)
 
 		OLD_ZLIB = False
 		GZIP_OS_CODE = AUTO_DETECT
