@@ -11,7 +11,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
+IUSE="test"
 RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/HTML-FillInForm
