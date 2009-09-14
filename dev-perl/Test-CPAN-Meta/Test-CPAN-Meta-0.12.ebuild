@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Parse-CPAN-Meta-0.02
+	>=virtual/perl-Parse-CPAN-Meta-0.02
 	virtual/perl-Test-Simple
 "
 DEPEND="
