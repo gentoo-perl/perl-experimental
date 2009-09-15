@@ -38,7 +38,7 @@ COMMON_DEPEND="
 	dev-perl/text-template
 	dev-perl/YAML-LibYAML
 	>=dev-perl/autobox-2.53
-	>=dev-perl/ExtUtils-Manifest-1.54
+	>=virtual/perl-ExtUtils-Manifest-1.54
 "
 DEPEND="
 	${COMMON_DEPEND}

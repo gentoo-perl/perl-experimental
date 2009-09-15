@@ -37,7 +37,7 @@ COMMON_DEPEND="
 	dev-perl/text-template
 	dev-perl/YAML-Tiny
 	>=dev-perl/autobox-2.53
-	>=dev-perl/ExtUtils-Manifest-1.54
+	>=virtual/perl-ExtUtils-Manifest-1.54
 	dev-perl/namespace-autoclean
 	>=dev-perl/Config-MVP-0.092360
 "
