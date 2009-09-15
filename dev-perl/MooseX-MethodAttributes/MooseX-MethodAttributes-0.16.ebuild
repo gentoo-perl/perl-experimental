@@ -4,8 +4,8 @@
 
 EAPI=2
 
-#MODULE_AUTHOR=FLORA
-MODULE_AUTHOR=BOBTFISH
+MODULE_AUTHOR=FLORA
+#MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Code atttribute introspection"
@@ -17,7 +17,9 @@ IUSE="test"
 RDEPEND="dev-perl/namespace-clean
 	dev-perl/Carp-Clan
 	>=dev-perl/MooseX-Types-0.06
-	>=dev-perl/Moose-0.79"
+	dev-perl/MRO-Compat
+	>=dev-perl/Moose-0.79
+"
 DEPEND="${RDEPEND}
 	test? (
 			dev-perl/Test-Exception
