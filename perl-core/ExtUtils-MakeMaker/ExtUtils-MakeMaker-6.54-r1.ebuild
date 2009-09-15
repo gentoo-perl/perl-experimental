@@ -14,7 +14,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="!!<dev-lang/perl-5.8.8-r7"
+PATCHES=(
+	"${FILESDIR}/RUNPATH-${PV}.patch"
+)
+
+DEPEND=">=virtual/perl-ExtUtils-Manifest-1.56
+	>=virtual/perl-ExtUtils-Command-1.16
+	>=virtual/perl-ExtUtils-Install-1.52"
+RDEPEND="${RDEPEND}
+	!!<dev-lang/perl-5.8.8-r7"
 
 SRC_TEST=do
-PATCHES=( "${FILESDIR}/RUNPATH.patch" )

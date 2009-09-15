@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ExtUtils-MakeMaker-6.54-r1 (15 Sep 2009)
+
+  15 Sep 2009; Torsten Veller <tove@gentoo.org>
+  -ExtUtils-MakeMaker-6.50-r1.ebuild, -ExtUtils-MakeMaker-6.54.ebuild,
+  +ExtUtils-MakeMaker-6.54-r1.ebuild, -files/RUNPATH.patch:
+  Depend on ExtUtils-Command, -Manifest, -Install
+
   19 Aug 2009; Kent Fredric <kentfredric@gmail.com>
   ExtUtils-MakeMaker-6.54.ebuild, +files/RUNPATH-6.54.patch:
   Applied RUNPATH patch

@@ -2,22 +2,16 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI="2"
 
-MODULE_AUTHOR=MSCHWERN
+MODULE_AUTHOR=RKOBES
 inherit perl-module
 
-DESCRIPTION="Create a module Makefile"
-HOMEPAGE="http://makemaker.org"
+DESCRIPTION="utilities to replace common UNIX commands in Makefiles etc."
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-PATCHES=(
-	"${FILESDIR}/RUNPATH-${PV}.patch"
-)
-
-RDEPEND="!!<dev-lang/perl-5.8.8-r7"
-
 SRC_TEST=do
+PREFER_BUILDPL=no
