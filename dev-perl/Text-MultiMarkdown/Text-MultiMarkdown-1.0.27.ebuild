@@ -12,7 +12,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Text-Markdown-1.0.24
-	virtual/perl-Encode
 "
 DEPEND="
 	${COMMON_DEPEND}
