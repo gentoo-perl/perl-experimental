@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Emulate-Class-Accessor-Fast-0.00903 (17 Sep 2009)
+
+  17 Sep 2009; Michele Beltrame <m@cattlegrid.info>
+  +MooseX-Emulate-Class-Accessor-Fast-0.00903.ebuild:
+  Bump
+
   06 Sep 2009; Kent Fredric <kentfredric@gmail.com>
   MooseX-Emulate-Class-Accessor-Fast-0.00900.ebuild,
   MooseX-Emulate-Class-Accessor-Fast-0.00902.ebuild:
