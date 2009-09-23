@@ -11,4 +11,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="~perl-core/threads-shared-${PV}"
+RDEPEND="|| ( ~dev-lang/perl-5.10.1 ~perl-core/threads-shared-${PV} )"
