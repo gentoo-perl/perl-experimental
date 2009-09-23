@@ -11,4 +11,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="~perl-core/CPANPLUS-${PV}"
+RDEPEND="|| ( ~dev-lang/perl-5.10.1 ~perl-core/CPANPLUS-${PV} )"
