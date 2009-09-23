@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CPAN-Reporter
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CPAN-Reporter-1.1708 (23 Sep 2009)
+
+  23 Sep 2009; Michele Beltrame <m@cattlegrid.info>
+  +CPAN-Reporter-1.1708.ebuild, +metadata.xml:
+  Initial
+

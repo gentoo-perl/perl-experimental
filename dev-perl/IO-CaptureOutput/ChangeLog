@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/IO-CaptureOutput
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*IO-CaptureOutput-1.1101 (23 Sep 2009)
+
+  23 Sep 2009; Michele Beltrame <m@cattlegrid.info>
+  +IO-CaptureOutput-1.1101.ebuild, +metadata.xml:
+  Init
+
