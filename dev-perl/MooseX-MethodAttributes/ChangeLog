@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-MethodAttributes-0.17 (24 Sep 2009)
+
+  24 Sep 2009; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-MethodAttributes-0.15.ebuild,
+  +MooseX-MethodAttributes-0.17.ebuild:
+  Bump
+
 *MooseX-MethodAttributes-0.16 (15 Sep 2009)
 
   15 Sep 2009; Michele Beltrame <m@cattlegrid.info>

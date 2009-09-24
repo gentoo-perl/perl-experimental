@@ -14,11 +14,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RDEPEND="
 	>=dev-perl/Devel-Declare-0.005011
-	dev-perl/namespace-clean
-	>=dev-perl/namespace-autoclean-0.05
-	>=dev-perl/Moose-0.82
+	>=dev-perl/namespace-clean-0.11
+	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/Moose-0.90
 	dev-perl/MooseX-AttributeHelpers
-	>=dev-perl/MooseX-Method-Signatures-0.21
+	>=dev-perl/MooseX-Method-Signatures-0.24
 	>=dev-perl/MooseX-Role-Parameterized-0.12
 	dev-perl/MooseX-Types
 	dev-perl/List-MoreUtils

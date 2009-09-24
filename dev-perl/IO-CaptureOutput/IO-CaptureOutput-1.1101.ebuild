@@ -17,7 +17,7 @@ DEPEND="
 	>=virtual/perl-File-Spec-3.27
 	>=virtual/perl-File-Temp-0.16
 	test? (
-		virtual/perl-Test-More-0.62
+		>=virtual/perl-Test-Simple-0.62
 	)
 "
 RDEPEND="${DEPEND}"
