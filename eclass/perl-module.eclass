@@ -226,11 +226,11 @@ perl-module_pkg_postinst() {
 	linkduallifescripts
 }
 
+perl-module_pkg_prerm() { : ; }
+
 perl-module_pkg_postrm() {
 	linkduallifescripts
 }
-
-perl-module_pkg_prerm() { : ; }
 
 perlinfo() {
 	perlinfo_done=true

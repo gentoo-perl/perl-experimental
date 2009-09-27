@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.10.1.ebuild,v 1.1 2009/09/27 08:37:12 tove Exp $
 
 EAPI=2
 
@@ -18,6 +18,7 @@ DESCRIPTION="Larry Wall's Practical Extraction and Report Language"
 
 S="${WORKDIR}/${MY_P}"
 SRC_URI="mirror://cpan/src/${MY_P}.tar.bz2
+	mirror://gentoo/${MY_P}-${PATCH_VER}.tar.bz2
 	http://dev.gentoo.org/~tove/files/${MY_P}-${PATCH_VER}.tar.bz2"
 HOMEPAGE="http://www.perl.org/"
 
@@ -29,13 +30,14 @@ IUSE="berkdb build debug doc gdbm ithreads"
 
 COMMON_DEPEND="berkdb? ( sys-libs/db )
 	gdbm? ( >=sys-libs/gdbm-1.8.3 )
-	>=sys-devel/libperl-5.10.1-r10
+	>=sys-devel/libperl-5.10.1
+	!!<sys-devel/libperl-5.10.1
 	app-arch/bzip2
 	sys-libs/zlib"
 DEPEND="${COMMON_DEPEND}
 	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
 RDEPEND="${COMMON_DEPEND}"
-PDEPEND=">=app-admin/perl-cleaner-1.03"
+PDEPEND=">=app-admin/perl-cleaner-2_pre090920"
 
 dual_scripts() {
 	src_remove_dual_scripts perl-core/Archive-Tar        1.52    ptar ptardiff
@@ -89,6 +91,7 @@ src_prepare() {
 
 	# pod/perltoc.pod fails
 	ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV})
+	ln -s ${LIBPERL} libperl$(get_libname )
 }
 
 myconf() {
@@ -133,8 +136,6 @@ src_configure() {
 		OLD_ZLIB = False
 		GZIP_OS_CODE = AUTO_DETECT
 	EOF
-
-	export OTHERLDFLAGS="${LDFLAGS}"
 
 	case ${CHOST} in
 		*-freebsd*)   osname="freebsd" ;;
