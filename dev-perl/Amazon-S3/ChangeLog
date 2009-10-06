@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Amazon-S3
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Amazon-S3-0.45 (06 Oct 2009)
+
+  06 Oct 2009; Michele Beltrame <m@cattlegrid.info> +Amazon-S3-0.45.ebuild:
+  Initial import
+
