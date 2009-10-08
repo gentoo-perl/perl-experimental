@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-NonMoose-0.07 (08 Oct 2009)
+
+  08 Oct 2009; Michele Beltrame <m@cattlegrid.info>
+  +MooseX-NonMoose-0.07.ebuild:
+  Bump
+
 *MooseX-NonMoose-0.05 (24 Aug 2009)
 
   24 Aug 2009; Kent Fredric <kentfredric@gmail.com>

@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Oct 2009; Michele Beltrame <m@cattlegrid.info> ORLite-1.28.ebuild:
+  Fixed depends
+
 *ORLite-1.28 (08 Oct 2009)
 
   08 Oct 2009; Michele Beltrame <m@cattlegrid.info> -ORLite-1.20.ebuild,

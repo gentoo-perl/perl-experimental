@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Imager-0.70 (08 Oct 2009)
+
+  08 Oct 2009; Michele Beltrame <m@cattlegrid.info> -Imager-0.64.ebuild,
+  -Imager-0.65.ebuild, -Imager-0.67.ebuild, -Imager-0.68.ebuild,
+  +Imager-0.70.ebuild:
+  Bump
+
 *Imager-0.69 (12 Sep 2009)
 
   12 Sep 2009; Kent Fredric <kentfredric@gmail.com> +Imager-0.69.ebuild:

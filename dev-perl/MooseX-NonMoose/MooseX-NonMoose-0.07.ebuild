@@ -2,16 +2,21 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=TONYC
+MODULE_AUTHOR=DOY
 inherit perl-module
 
-DESCRIPTION="Perl extension for Generating 24 bit Images"
+DESCRIPTION="easy subclassing of non-Moose classes"
 LICENSE="|| ( Artistic GPL-2 )"
-
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
-DEPEND=""
-RDEPEND=""
-SRC_TEST=do
+COMMON_DEPEND="
+	>=dev-perl/Moose-0.90
+"
+DEPEND="
+	${COMMON_DEPEND}
+"
+RDEPEND="
+	${COMMON_DEPEND}
+"
+SRC_TEST="do"

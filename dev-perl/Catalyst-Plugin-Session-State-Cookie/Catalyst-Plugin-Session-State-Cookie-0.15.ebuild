@@ -13,13 +13,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7010
+	>=dev-perl/Catalyst-Runtime-5.80005
 	>=dev-perl/Catalyst-Plugin-Session-0.19
 	dev-perl/MRO-Compat
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
 "
 DEPEND="${RDEPEND}
 	test? (
-		>=dev-perl/Test-MockObject-1.01
+		dev-perl/Moose
+		virtual/perl-Test-Simple
 	)
 "
 SRC_TEST="do"

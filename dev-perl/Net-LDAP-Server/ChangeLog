@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Net-LDAP-Server-0.42 (08 Oct 2009)
+
+  08 Oct 2009; Michele Beltrame <m@cattlegrid.info>
+  +Net-LDAP-Server-0.42.ebuild:
+  Bump
+
 *Net-LDAP-Server-0.4 (07 Jun 2009)
 
   07 Jun 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
