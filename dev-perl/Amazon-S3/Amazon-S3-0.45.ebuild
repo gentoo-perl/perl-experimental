@@ -17,6 +17,7 @@ DEPEND="
 	dev-perl/Class-Accessor
     dev-perl/Digest-HMAC
 	dev-perl/libwww-perl
+	dev-perl/LWP-UserAgent-Determined
     dev-perl/XML-Simple
     dev-perl/URI
     test? (

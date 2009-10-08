@@ -2,15 +2,27 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=JROCKWAY
+EAPI=2
+MODULE_AUTHOR=MRAMBERG
 inherit perl-module
 
 DESCRIPTION="Unicode aware Catalyst"
 
-IUSE=""
+IUSE="test"
 
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=">=dev-perl/Catalyst-Runtime-5.70"
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.80
+	>=virtual/perl-Encode-2.21
+"
+DEPEND="
+	test? (
+		dev-perl/Test-WWW-Mechanize-Catalyst
+	)
+	${RDEPEND}
+"
+
+SRC_TEST=do
