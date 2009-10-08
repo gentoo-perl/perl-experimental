@@ -2,21 +2,28 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
+
 MODULE_AUTHOR=ADAMK
 inherit perl-module
 
 DESCRIPTION="Extremely light weight SQLite-specific ORM"
 
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-lang/perl
-	>=virtual/perl-File-Temp-0.17
-	>=dev-perl/Params-Util-0.33
-	>=dev-perl/DBI-1.58
-	>=dev-perl/DBD-SQLite-1.14"
-RDEPEND="${DEPEND}"
+COMMON_DEPEND="
+	>=dev-perl/File-Remove-1.40
+"
+DEPEND="
+	${COMMON_DEPEND}
+	test? (
+		>=dev-perl/Test-Script-1.06
+	)
+"
+RDEPEND="
+	${COMMON_DEPEND}
+"
 
 SRC_TEST=do

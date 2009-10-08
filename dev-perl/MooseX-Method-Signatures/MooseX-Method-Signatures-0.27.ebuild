@@ -1,6 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 EAPI=2
 MODULE_AUTHOR=FLORA
 inherit perl-module
@@ -18,10 +19,10 @@ RDEPEND="
 	dev-perl/Context-Preserve
 	>=dev-perl/Parse-Method-Signatures-1.003011
 	>=dev-perl/Devel-Declare-0.005011
-	>=dev-perl/Moose-0.63
-	>=dev-perl/MooseX-LazyRequire-0.03
+	>=dev-perl/Moose-0.89
+	>=dev-perl/MooseX-LazyRequire-0.04
 	dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion
-	>=dev-perl/MooseX-Types-0.09
+	>=dev-perl/MooseX-Types-0.19
 	>=dev-perl/MooseX-Types-Structured-0.12
 	dev-perl/namespace-autoclean
 	dev-perl/Sub-Name
@@ -30,6 +31,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	test? (
+	  >=virtual/perl-Test-Simple-0.88
 	  dev-perl/Test-Exception
 	)
 "
