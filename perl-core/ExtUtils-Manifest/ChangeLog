@@ -1,6 +1,12 @@
-# ChangeLog for dev-perl/ExtUtils-Manifest
+# ChangeLog for perl-core/ExtUtils-Manifest
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*ExtUtils-Manifest-1.57 (11 Oct 2009)
+
+  11 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +ExtUtils-Manifest-1.57.ebuild:
+  Bumped to 1.57 ( after a fight with echangelog )
 
   11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml:
   Added for Dist::ZIlla
