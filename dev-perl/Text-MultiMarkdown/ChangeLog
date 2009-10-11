@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Text-MultiMarkdown-1.0.29 (11 Oct 2009)
+
+  11 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Text-MultiMarkdown-1.0.29.ebuild:
+  Bump
+
   17 Sep 2009; Michele Beltrame <m@cattlegrid.info>
   Text-MultiMarkdown-1.0.27.ebuild:
   Dropped dependency on virtual/perl-Encode, since no particular version is
