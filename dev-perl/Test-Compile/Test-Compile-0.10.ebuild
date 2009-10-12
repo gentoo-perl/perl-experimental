@@ -18,8 +18,6 @@ RDEPEND="
 #	dev-perl/Devel-CheckOS"
 DEPEND="
 	${RDEPEND}
-	test? (
-		dev-perl/Test-Pod
-		dev-perl/Test-Pod-Coverage
-	)"
+	>=virtual/perl-Test-Simple-0.70
+"
 SRC_TEST="do"
