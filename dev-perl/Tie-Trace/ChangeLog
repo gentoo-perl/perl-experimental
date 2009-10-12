@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Tie-Trace
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Tie-Trace-0.11 (12 Oct 2009)
+
+  12 Oct 2009; Kent Fredric <kentfredric@gmail.com> +Tie-Trace-0.11.ebuild,
+  +metadata.xml:
+  Added
+
