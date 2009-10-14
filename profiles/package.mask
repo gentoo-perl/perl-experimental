@@ -1,3 +1,11 @@
+# Michele Beltrame <mb@cattlegrid.info> (8 Oct 2009)
+# Masked because depends on virtual/perl-Encode
+dev-perl/Catalyst-Plugin-Unicode-Encoding
+
+# Michele Beltrame <mb@cattlegrid.info> (24 Sep 2009)
+# Masked because depends on virtual/perl-ExtUtils-MakeMaker
+dev-perl/CPAN-Reporter
+
 # Torsten Veller <tove@gentoo.org> (26 Aug 2009)
 dev-perl/Padre-Plugin-PerlCritic
 dev-perl/Padre-Plugin-PerlTidy
