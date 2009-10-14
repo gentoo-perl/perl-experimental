@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Tie-Restore
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Tie-Restore-0.11 (14 Oct 2009)
+
+  14 Oct 2009; Michele Beltrame <m@cattlegrid.info>
+  +Tie-Restore-0.11.ebuild:
+  Initial
+
