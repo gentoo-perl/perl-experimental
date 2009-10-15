@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/WebService-MusicBrainz
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*WebService-MusicBrainz-0.90 (15 Oct 2009)
+
+  15 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +WebService-MusicBrainz-0.90.ebuild, +metadata.xml:
+  Added
+
