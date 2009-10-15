@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Audio-Ofa-Util
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Audio-Ofa-Util-0.04 (15 Oct 2009)
+
+  15 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Audio-Ofa-Util-0.04.ebuild, +metadata.xml:
+  Added
+
