@@ -20,6 +20,7 @@ RDEPEND="
 DEPEND="
 	test? (
 		>=dev-perl/Test-Exception-0.21
+		virtual/perl-Test-Simple
 	)
 	${RDEPEND}
 "
