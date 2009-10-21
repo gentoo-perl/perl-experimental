@@ -2,6 +2,16 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-CompileTests-1.092870 (21 Oct 2009)
+
+  21 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-CompileTests-1.092870.ebuild:
+  Bumped:
+
+  * support for skip parameter
+
+  * fix: skip did not update test count
+
 *Dist-Zilla-Plugin-CompileTests-1.092460 (04 Sep 2009)
 
   04 Sep 2009; Kent Fredric <kentfredric@gmail.com>
