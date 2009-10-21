@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-Truncate
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-Truncate-0.102 (21 Oct 2009)
+
+  21 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +String-Truncate-0.102.ebuild, +metadata.xml:
+  Added
+
