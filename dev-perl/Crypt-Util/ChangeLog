@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Crypt-Util
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Crypt-Util-0.10 (23 Oct 2009)
+
+  23 Oct 2009; Torsten Veller <tove@gentoo.org> +Crypt-Util-0.10.ebuild:
+  Version bump
+
