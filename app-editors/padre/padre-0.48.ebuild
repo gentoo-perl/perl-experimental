@@ -8,9 +8,9 @@ MY_PN=Padre
 MY_P=${MY_PN}-${PV}
 #MODULE_AUTHOR=THEREK
 #MODULE_AUTHOR=JQUELIN
-#MODULE_AUTHOR=SZABGAB
+MODULE_AUTHOR=SZABGAB
 #MODULE_AUTHOR=GARU
-MODULE_AUTHOR=RSN
+#MODULE_AUTHOR=RSN
 S=${WORKDIR}/${MY_P}
 inherit perl-module
 
@@ -50,6 +50,7 @@ RDEPEND="
 	>=dev-perl/File-ShareDir-PAR-0.04
 	>=virtual/perl-File-Spec-3.27.01
 	>=dev-perl/File-Which-1.08
+	dev-perl/Format-Human-Bytes
 	virtual/perl-Getopt-Long
 	>=dev-perl/HTML-Parser-3.58
 	>=dev-perl/IO-stringy-2.110
@@ -81,7 +82,7 @@ RDEPEND="
 	>=virtual/perl-threads-shared-1.26
 	>=dev-perl/URI-0
 	>=dev-perl/wxperl-0.91
-	>=dev-perl/Wx-Perl-ProcessStream-0.11
+	>=dev-perl/Wx-Perl-ProcessStream-0.20
 	>=dev-perl/YAML-Tiny-1.32
 	virtual/perl-version
 "
@@ -91,6 +92,8 @@ DEPEND="
 		${TDEPEND}
 	)
 "
+
+SRC_TEST=do
 
 x11_works(){
 	# If there is no xdpyinfo,
@@ -121,4 +124,3 @@ src_test(){
 	fi
 	perl-module_src_test
 }
-SRC_TEST=do
