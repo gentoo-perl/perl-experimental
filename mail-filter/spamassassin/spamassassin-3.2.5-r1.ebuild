@@ -54,9 +54,7 @@ DEPEND=">=dev-lang/perl-5.8.2-r1
 		dev-perl/IO-Socket-INET6
 	)"
 
-src_prepare() {
-    PATCHES=( "${FILESDIR}/${PN}-3.2.5-DESTDIR.patch" )
-}
+PATCHES=( "${FILESDIR}/${PN}-3.2.5-DESTDIR.patch" )
 
 src_compile() {
 	# - Set SYSCONFDIR explicitly so we can't get bitten by bug 48205 again
