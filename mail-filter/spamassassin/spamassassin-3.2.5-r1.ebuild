@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
 inherit perl-module eutils
 
 MY_P=Mail-SpamAssassin-${PV//_/-}
@@ -9,7 +10,6 @@ S=${WORKDIR}/${MY_P}
 DESCRIPTION="SpamAssassin is an extensible email filter which is used to identify spam."
 HOMEPAGE="http://spamassassin.apache.org/"
 SRC_URI="http://archive.apache.org/dist/spamassassin/source/${MY_P}.tar.bz2 mirror://gentoo/${MY_P}.tar.bz2"
-
 SRC_TEST="do"
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -54,8 +54,9 @@ DEPEND=">=dev-lang/perl-5.8.2-r1
 		dev-perl/IO-Socket-INET6
 	)"
 
-PATCHES=( "${FILESDIR}/${PN}-3.2.5-DESTDIR.patch" )
-
+src_prepare() {
+    PATCHES=( "${FILESDIR}/${PN}-3.2.5-DESTDIR.patch" )
+}
 
 src_compile() {
 	# - Set SYSCONFDIR explicitly so we can't get bitten by bug 48205 again
@@ -117,7 +118,8 @@ src_compile() {
 	use doc && make text_html_doc
 }
 
-src_install () {
+
+src_test() {
 	perl-module_src_test
 }
 
@@ -143,11 +145,11 @@ src_install () {
 	newconfd "${FILESDIR}"/3.0.0-spamd.conf spamd
 
 	if use doc; then
-		dodoc NOTICE TRADEMARK CREDITS INSTALL UPGRADE BUGS USAGE \
-		sql/README.bayes sql/README.awl README.ldap procmailrc.example \
-		sample-nonspam.txt sample-spam.txt rules/STATISTICS-set0.txt \
-		STATISTICS-set1.txt STATISTICS-set2.txt STATISTICS-set3.txt \
-		spamd/PROTOCOL
+		dodoc NOTICE TRADEMARK CREDITS INSTALL INSTALL.VMS UPGRADE USAGE \
+		sql/README.bayes sql/README.awl procmailrc.example sample-nonspam.txt \
+		sample-spam.txt spamassassin.spec spamd/PROTOCOL spamd/README.vpopmail \
+		spamd-apache2/README.apache
+		
 
 		# Rename some docu files so they don't clash with others
 		newdoc spamd/README README.spamd
