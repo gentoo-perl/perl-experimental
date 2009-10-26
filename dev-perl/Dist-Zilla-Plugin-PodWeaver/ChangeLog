@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-PodWeaver
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-PodWeaver-3.092971 (26 Oct 2009)
+
+  26 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-PodWeaver-3.092971.ebuild, +metadata.xml:
+  Added
+
