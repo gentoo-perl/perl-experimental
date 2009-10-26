@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="gtk2-perl application to draw ASCII diagrams"
 
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~x86 ~amd64"
 IUSE="test"
 
 RDEPEND="dev-perl/gtk2-perl
@@ -33,5 +33,10 @@ DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
 	virtual/perl-Test-Simple
 	virtual/perl-PodParser
-	test? ( dev-perl/Test-NoWarnings
-		dev-perl/Test-Warn )"
+	test? (
+		dev-perl/Test-NoWarnings
+		dev-perl/Test-Warn
+	)
+"
+
+SRC_TEST="do"
