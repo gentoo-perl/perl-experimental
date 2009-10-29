@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=BOBTFISH
+MODULE_AUTHOR=MSTROUT
 inherit perl-module
 
 DESCRIPTION="FastMmap session storage backend."
