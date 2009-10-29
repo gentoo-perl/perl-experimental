@@ -2,6 +2,16 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Session-Store-Delegate-0.05 (29 Oct 2009)
+
+  29 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Session-Store-Delegate-0.05.ebuild:
+  Bumped:
+
+  * Port to new session config key
+
+  * Port to Moose.
+
 *Catalyst-Plugin-Session-Store-Delegate-0.04 (08 Jun 2009)
 
   08 Jun 2009; Kent Fredric <kentfredric@gmail.com>
