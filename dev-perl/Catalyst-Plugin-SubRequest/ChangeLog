@@ -1,0 +1,12 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-SubRequest
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-SubRequest-0.14 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Plugin-SubRequest-0.11.ebuild,
+  -Catalyst-Plugin-SubRequest-0.12.ebuild,
+  +Catalyst-Plugin-SubRequest-0.14.ebuild:
+  Bump
+

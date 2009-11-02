@@ -2,12 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
 MODULE_AUTHOR=FLORA
 inherit perl-module
 
 DESCRIPTION="Sensible default end action."
 
-IUSE=""
+IUSE="test"
 
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
@@ -19,6 +20,6 @@ RDEPEND="
 	dev-perl/MRO-Compat
 "
 DEPEND="
-	dev-perl/HTTP-Request-AsCGI
+	test? ( dev-perl/HTTP-Request-AsCGI )
 	${RDEPEND}
 "

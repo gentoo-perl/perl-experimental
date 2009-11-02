@@ -4,22 +4,21 @@
 
 EAPI=2
 
-MODULE_AUTHOR=DANDV
+MODULE_AUTHOR=MRAMBERG
 inherit perl-module
 
-DESCRIPTION="iA Catalyst & DBIx::Class powered Wiki."
+DESCRIPTION="A Catalyst & DBIx::Class powered Wiki."
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="autodeploy markdown docbook tocgen podformatter syntaxhighlight \
-transclusion amazonboxes rssformatter emoticons test"
+IUSE="createdb markdown docbook tocgen podformatter syntaxhighlight \
+transclusion amazonboxes rssformatter emoticons test recaptcha fastcgi"
 
 RDEPEND="
 	>=dev-perl/Algorithm-Diff-1.1901
 	dev-perl/Algorithm-Merge
-	dev-perl/Algorithm-IncludeExclude
 	>=dev-perl/Archive-Zip-1.14
 	>=dev-perl/MRO-Compat-0.10
 	>=dev-perl/Cache-FastMmap-1.29
@@ -39,13 +38,12 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.13
 	>=dev-perl/Catalyst-Plugin-Unicode-0.8
 	>=dev-perl/Catalyst-View-TT-0.23
-	dev-perl/Catalyst-View-JSON
+	>=dev-perl/Catalyst-View-JSON-0.26
 	dev-perl/Catalyst-View-Email
 	dev-perl/Config-JFDI
 	>=dev-perl/crypt-cbc-2.12
 	dev-perl/Cache
 	dev-perl/config-general
-	dev-perl/Data-FormValidator-Constraints-DateTime
 	>=dev-perl/Data-Page-2.00
 	>=dev-perl/DateTime-0.28
 	dev-perl/DateTime-Format-Mail
@@ -81,24 +79,31 @@ RDEPEND="
 	>=dev-perl/yaml-0.36
 	dev-perl/Text-Textile
 	dev-perl/Term-Prompt
-	autodeploy? (
+	>=dev-perl/Text-MultiMarkdown-1.0.17
+
+	createdb? (
 		dev-perl/SQL-Translator
-	)
-	markdown? (
-		>=dev-perl/Text-Markdown-1.0.17
-	)
-	docbook? (
-		>=dev-perl/XML-LibXSLT-1.66
-		>=dev-perl/XML-LibXML-1.66
 	)
 	tocgen? (
 		>=dev-perl/HTML-Toc-1.10
 	)
-	podformatter? (
-		>=virtual/perl-Pod-Simple-3.01
+	recaptcha? (
+		>=dev-perl/HTML-FormFu-0.03004
 	)
 	syntaxhighlight? (
 		dev-perl/Syntax-Highlight-Engine-Kate
+	)
+	rssformatter? (
+		dev-perl/XML-Feed
+	)
+
+	docbook? (
+		>=dev-perl/XML-LibXSLT-1.66
+		>=dev-perl/XML-LibXML-1.66
+	)
+
+	podformatter? (
+		>=virtual/perl-Pod-Simple-3.01
 	)
 	transclusion? (
 		dev-perl/libwww-perl
@@ -107,11 +112,11 @@ RDEPEND="
 	amazonboxes? (
 		dev-perl/Net-Amazon
 	)
-	rssformatter? (
-		dev-perl/XML-Feed
-	)
 	emoticons? (
 		dev-perl/Text-Emoticon-MSN
+	)
+	fastcgi? (
+		dev-perl/FCGI-ProcManager
 	)
 "
 DEPEND="
@@ -123,5 +128,4 @@ DEPEND="
 	)
 	${RDEPEND}
 "
-
 SRC_TEST=do
