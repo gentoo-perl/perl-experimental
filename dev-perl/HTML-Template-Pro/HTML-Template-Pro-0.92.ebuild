@@ -15,6 +15,9 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND="virtual/perl-File-Spec"
+RDEPEND="
+	virtual/perl-File-Spec
+	dev-perl/JSON
+"
 DEPEND="${RDEPEND}
 	test? ( virtual/perl-Test-Simple )"

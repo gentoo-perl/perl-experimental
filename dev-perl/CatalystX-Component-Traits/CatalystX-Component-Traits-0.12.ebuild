@@ -1,6 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 EAPI=2
 MODULE_AUTHOR=RKITOVER
 inherit perl-module
@@ -14,7 +15,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.80005
-	>=dev-perl/MooseX-Traits-Pluggable-0.06
+	>=dev-perl/MooseX-Traits-Pluggable-0.08
 	dev-perl/namespace-autoclean
 	dev-perl/Moose-Autobox
 	dev-perl/List-MoreUtils

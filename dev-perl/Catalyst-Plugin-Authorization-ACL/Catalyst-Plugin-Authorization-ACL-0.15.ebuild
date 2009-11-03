@@ -13,14 +13,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7000
+	>=dev-perl/Catalyst-Runtime-5.80013
+	dev-perl/Catalyst-Plugin-Authentication
+	dev-perl/Catalyst-Plugin-Authorization-Roles
+	dev-perl/Moose
+	dev-perl/MRO-Compat
+	dev-perl/namespace-autoclean
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Class-Throwable
+	dev-perl/Tree-Simple
 	dev-perl/Tree-Simple-VisitorFactory
 "
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
+		dev-perl/Catalyst-Plugin-Session
+		dev-perl/Catalyst-Plugin-Session-State-Cookie
+		dev-perl/Test-WWW-Mechanize-Catalyst
 	)
 "
 SRC_TEST="do"

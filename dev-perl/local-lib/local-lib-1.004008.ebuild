@@ -13,12 +13,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+COMMON_DEPEND="
 	>=virtual/perl-CPAN-1.80
 	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-ExtUtils-Install-1.43
 	virtual/perl-ExtUtils-ParseXS
 	>=virtual/perl-Module-Build-0.28
 "
-# >=ExtUtils-MakeMaker-6.31
-RDEPEND="${DEPEND}"
+DEPEND="
+	>=virtual/perl-ExtUtils-MakeMaker-6.42
+	${COMMON_DEPEND}
+"
+RDEPEND="
+	>=virtual/perl-ExtUtils-MakeMaker-6.31
+	${COMMON_DEPEND}
+"
 SRC_TEST="do"

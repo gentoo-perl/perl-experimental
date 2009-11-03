@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=HOLOWAY
+MODULE_AUTHOR=MSTROUT
 inherit perl-module
 
-DESCRIPTION="Log::Log4perl logging for Catalyst"
+DESCRIPTION="Display a stack trace on the debug screen"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,8 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Catalyst-Runtime
-	>=dev-perl/Log-Log4perl-0.49
-	dev-perl/Params-Validate
-	dev-perl/Data-Dump
+	>=dev-perl/Catalyst-Runtime-5.70
+	dev-perl/Devel-StackTrace
+	>=dev-perl/MRO-Compat-0.10
 "

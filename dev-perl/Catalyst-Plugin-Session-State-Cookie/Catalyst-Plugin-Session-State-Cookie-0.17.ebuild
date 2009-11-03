@@ -3,10 +3,10 @@
 # $Header: $
 
 EAPI=2
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=MSTROUT
 inherit perl-module
 
-DESCRIPTION="Make serving static pages painless."
+DESCRIPTION="Catalyst plugin: maintain session IDs using cookies"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -14,13 +14,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80008
-	>=dev-perl/MIME-Types-1.25
+	>=dev-perl/Catalyst-Runtime-5.80005
+	>=dev-perl/Catalyst-Plugin-Session-0.27
 	dev-perl/MRO-Compat
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
 "
-DEPEND="
-	${RDEPEND}
+DEPEND="${RDEPEND}
 	test? (
+		dev-perl/Moose
 		virtual/perl-Test-Simple
 	)
 "

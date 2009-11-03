@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
-DESCRIPTION="Display a stack trace on the debug screen"
+DESCRIPTION="Log::Log4perl logging for Catalyst"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,6 +13,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.70
-	dev-perl/Devel-StackTrace
+	>=dev-perl/Catalyst-Runtime-5.60
+	>=dev-perl/Log-Log4perl-1.04
+	dev-perl/Params-Validate
+	dev-perl/Data-Dump
+	dev-perl/MRO-Compat
 "

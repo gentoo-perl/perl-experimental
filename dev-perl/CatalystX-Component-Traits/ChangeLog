@@ -2,6 +2,15 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CatalystX-Component-Traits-0.12 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  -CatalystX-Component-Traits-0.03.ebuild,
+  -CatalystX-Component-Traits-0.08.ebuild,
+  -CatalystX-Component-Traits-0.09.ebuild,
+  +CatalystX-Component-Traits-0.12.ebuild:
+  Bump
+
 *CatalystX-Component-Traits-0.10 (27 Aug 2009)
 
   27 Aug 2009; <kent@gentoo.org> +CatalystX-Component-Traits-0.10.ebuild:

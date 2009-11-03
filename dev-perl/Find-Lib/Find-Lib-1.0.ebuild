@@ -2,27 +2,24 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=YANNK
 inherit perl-module
 
-DESCRIPTION="Catalyst plugin: maintain session IDs using cookies"
+DESCRIPTION="Helper to smartly find libs to use in the filesystem tree"
 LICENSE="|| ( Artistic GPL-2 )"
-
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE="test"
-RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80005
-	>=dev-perl/Catalyst-Plugin-Session-0.19
-	dev-perl/MRO-Compat
-	dev-perl/Moose
-	dev-perl/namespace-autoclean
+COMMON_DEPEND="
+	virtual/perl-File-Spec
 "
-DEPEND="${RDEPEND}
+DEPEND="
+	${COMMON_DEPEND}
 	test? (
-		dev-perl/Moose
 		virtual/perl-Test-Simple
 	)
+"
+RDEPEND="
+	${COMMON_DEPEND}
 "
 SRC_TEST="do"

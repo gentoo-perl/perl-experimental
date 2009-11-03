@@ -1,23 +1,27 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 EAPI=2
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
-DESCRIPTION="Template View Class"
+DESCRIPTION="Make serving static pages painless."
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
+IUSE="test"
 RDEPEND="
-	dev-perl/Catalyst-Runtime
-	dev-perl/Template-Toolkit
-	dev-perl/Class-Accessor
-	dev-perl/Template-Timer
-	dev-perl/Path-Class
+	>=dev-perl/Catalyst-Runtime-5.80008
+	>=dev-perl/MIME-Types-1.25
+	dev-perl/MRO-Compat
 "
-DEPEND="${RDEPEND}"
+DEPEND="
+	${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+	)
+"
 SRC_TEST="do"

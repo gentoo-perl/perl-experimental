@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=HOLOWAY
+MODULE_AUTHOR=MGRAHAM
 inherit perl-module
 
-DESCRIPTION="Log::Log4perl logging for Catalyst"
+DESCRIPTION="Add Config::General Support to CGI::Application"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,7 +13,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	dev-perl/Catalyst-Runtime
-	>=dev-perl/Log-Log4perl-0.49
-	dev-perl/Params-Validate
+	dev-perl/CGI-Application
+	dev-perl/Config-General-Match
 "
