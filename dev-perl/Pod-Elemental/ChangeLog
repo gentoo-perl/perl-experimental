@@ -2,6 +2,23 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Oct 2009; Kent Fredric <kentfredric@gmail.com> +Pod-Elemental-0.093000:
+  Bumped:
+
+  - correct a regex is format region parsing to allow multiline =for
+
+*Pod-Elemental-0.092970 (26 Oct 2009)
+
+  26 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Pod-Elemental-0.092970.ebuild:
+  Bumped:
+
+  * Pod5 elements now "Autochomp" so their content has no trailing newlin
+
+  * fix the loss of newlines when combining verbatim paragraphs
+
+  * minor documentation fixes
+
 *Pod-Elemental-0.092940 (21 Oct 2009)
 
   21 Oct 2009; Kent Fredric <kentfredric@gmail.com>

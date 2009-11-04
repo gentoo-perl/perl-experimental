@@ -2,6 +2,14 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-StackTrace-0.11 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Plugin-StackTrace-0.08.ebuild,
+  -Catalyst-Plugin-StackTrace-0.09.ebuild,
+  +Catalyst-Plugin-StackTrace-0.11.ebuild:
+  Bump
+
   27 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   Catalyst-Plugin-StackTrace-0.10.ebuild:
   Bump

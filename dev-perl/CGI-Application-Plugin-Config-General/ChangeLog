@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CGI-Application-Plugin-Config-General
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Application-Plugin-Config-General-0.08 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +CGI-Application-Plugin-Config-General-0.08.ebuild:
+  Bump
+

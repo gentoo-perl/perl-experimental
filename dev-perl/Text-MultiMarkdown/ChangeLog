@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Text-MultiMarkdown-1.000031 (03 Nov 2009)
+
+  03 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  -Text-MultiMarkdown-1.0.27.ebuild, -Text-MultiMarkdown-1.0.29.ebuild,
+  +Text-MultiMarkdown-1.000031.ebuild:
+  Bump
+
 *Text-MultiMarkdown-1.0.30 (23 Oct 2009)
 
   23 Oct 2009; Torsten Veller <tove@gentoo.org>

@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Pod-Weaver
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Pod-Weaver-3.092972 (26 Oct 2009)
+
+  26 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Pod-Weaver-3.092972.ebuild, +metadata.xml:
+  Added
+

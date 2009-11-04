@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Find-Lib-1.0 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info> +Find-Lib-1.0.ebuild:
+  Bump
+
 *Find-Lib-0.06 (14 Jun 2009)
 
   14 Jun 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,

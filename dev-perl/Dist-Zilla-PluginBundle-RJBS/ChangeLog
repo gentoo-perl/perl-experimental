@@ -2,6 +2,16 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-PluginBundle-RJBS-0.092971 (26 Oct 2009)
+
+  26 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-PluginBundle-RJBS-0.092971.ebuild:
+  Bumped:
+
+  * use Pod::Weaver, not Pod::Purler
+
+  * bring all prereqs for Pod::Weaver up to date
+
 *Dist-Zilla-PluginBundle-RJBS-0.092830 (12 Oct 2009)
 
   12 Oct 2009; Kent Fredric <kentfredric@gmail.com>

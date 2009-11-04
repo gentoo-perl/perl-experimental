@@ -2,6 +2,23 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Session-0.28 (29 Oct 2009)
+
+  29 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Session-0.28.ebuild:
+  Bumped:
+
+  * Move actions out of the root application class in tests as this is
+  deprecated.
+
+  * Change configuration key to 'Plugin::Session' by default. The old
+  'session' key is still supported, but will issue a warning in a future
+  release.
+
+  * Fix session fixation test with LWP 5.833 by calling
+  $cookie_jar->set_cookie rather than manually stuffing the cookie in the
+  request.
+
 *Catalyst-Plugin-Session-0.26 (25 Aug 2009)
 
   25 Aug 2009; Kent Fredric <kentfredric@gmail.com>

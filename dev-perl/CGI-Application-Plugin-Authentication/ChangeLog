@@ -2,6 +2,23 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CGI-Application-Plugin-Authentication-0.14 (29 Oct 2009)
+
+  29 Oct 2009; Kent Fredric <kentfredric@gmail.com>
+  +CGI-Application-Plugin-Authentication-0.14.ebuild:
+  Bump:
+
+  * Make sure the 'action' attribute of the login_box includes the path_info
+  in the URL (resolves RT:38049 patch by Alex Becker)
+
+  * Add options for LIMIT and ORDER_BY to DBI driver (requested by tbone)
+
+  * Add FORM_SUBMIT_METHOD option to the login box which allows you to
+  change the form method to GET instead of the default POST. (resolves
+  RT:34198 requested by jaldhar)
+
+  * Add hooks for devpopup (resolves RT:35989 patch by Alexandr Ciornii)
+
   22 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   +CGI-Application-Plugin-Authentication-0.13.ebuild:
   Bump

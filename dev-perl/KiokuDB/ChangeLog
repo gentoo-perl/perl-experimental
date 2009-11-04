@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*KiokuDB-0.34 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info> -KiokuDB-0.32.ebuild,
+  +KiokuDB-0.34.ebuild:
+  Bump
+
 *KiokuDB-0.33 (08 Oct 2009)
 
   08 Oct 2009; Michele Beltrame <m@cattlegrid.info> +KiokuDB-0.33.ebuild:

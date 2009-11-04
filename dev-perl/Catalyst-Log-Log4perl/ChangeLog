@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Catalyst-Log-Log4perl
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Log-Log4perl-1.04 (02 Nov 2009)
+
+  02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Log-Log4perl-0.51.ebuild, -Catalyst-Log-Log4perl-1.00.ebuild,
+  +Catalyst-Log-Log4perl-1.04.ebuild:
+  Bump
+
