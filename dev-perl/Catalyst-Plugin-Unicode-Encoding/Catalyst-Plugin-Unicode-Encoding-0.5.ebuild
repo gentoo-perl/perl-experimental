@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=2
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Unicode aware Catalyst"
