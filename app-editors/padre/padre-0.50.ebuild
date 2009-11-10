@@ -95,7 +95,7 @@ DEPEND="
 
 SRC_TEST=do
 
-x11_works(){
+x11_works() {
 	# If there is no xdpyinfo,
 	# it will return 127
 	xset -q 1>/dev/null 2>&1
@@ -109,7 +109,7 @@ x11_works(){
 	return $WORKS
 }
 
-src_configure(){
+src_configure() {
 	DISPLAY_COPY="$DISPLAY"
 	unset DISPLAY;
 	perl-module_src_configure
@@ -118,8 +118,8 @@ src_configure(){
 		export DISPLAY="$DISPLAY_COPY"
 	fi
 }
-src_test(){
-	if  ! x11_works; then
+src_test() {
+	if ! x11_works ; then
 		unset DISPLAY
 	fi
 	perl-module_src_test
