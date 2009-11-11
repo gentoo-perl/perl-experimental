@@ -174,71 +174,22 @@ src_install () {
 
     cp "${FILESDIR}"/secrets.cf "${D}"/etc/mail/spamassassin/secrets.cf.example
     fperms 0400 /etc/mail/spamassassin/secrets.cf.example
-    echo "">>${D}/etc/mail/spamassassin/local.cf.example
-    echo "# Sensitive data, such as database connection info, should">>${D}/etc/mail/spamassassin/local.cf.example
-    echo "# be stored in /etc/mail/spamassassin/secrets.cf with">>${D}/etc/mail/spamassassin/local.cf.example
-    echo "# appropriate permissions">>${D}/etc/mail/spamassassin/local.cf.example
+
+	cat <<-EOF > "${T}/local.cf.example"
+# Sensitive data, such as database connection info, should be stored in
+# /etc/mail/spamassassin/secrets.cf with appropriate permissions
+EOF
+
+    insinto /etc/mail/spamassassin/
+    doins "${T}/local.cf.example" || die
 }
 
 pkg_postinst() {
     perl-module_pkg_postinst
-
 	echo
-    if ! has_version "perl-core/DB_File"; then
-        elog "The Bayes backend requires the Berkeley DB to store its data. You"
-        elog "need to emerge perl-core/DB_File or USE=berkdb to make it available."
-    fi
-    if has_version "mail-filter/razor"; then
-        if ! has_version ">=mail-filter/razor-2.61"; then
-        	elog "You have $(best_version mail-filter/razor) installed but SpamAssassin"
-            if has_version "<mail-filter/razor-2.40"; then
-            	elog "requires at least version 2.40, version 2.61 or later is recommended."
-            else
-               	elog "recommends at least version 2.61."
-           fi
-        fi
-    fi
-
 	elog "If you plan on using the -u flag to spamd, please read the notes"
-    elog "in /etc/conf.d/spamd regarding the location of the pid file."
-    elog "If you build ${PN} with optional dependancy support,"
-    elog "you can enable them in /etc/mail/spamassassin/init.pre"
-    elog
-
-    if has_version '>=dev-lang/perl-5.8.8'; then
-        elog "A note from the SA developers:"
-        elog "Perl 5.8 now uses Unicode internally by default, which causes trouble for"
-        elog "SpamAssassin (and almost all other reasonably complex pieces of perl"
-        elog "code!)."
-        elog ""
-        elog "We've worked around this in most places, as far as we know, but there may"
-        elog "still be some issues.  In addition, there is a speed hit, which it would"
-        elog "be nice to avoid."
-        elog ""
-        elog "Setting the LANG environment variable before any invocation of"
-        elog "SpamAssassin sometimes seems to help fix it, like so:"
-        elog ""
-        elog "  export LANG=en_US"
-        elog ""
-        elog "Notably, the LANG setting must not include \"utf8\".   However, some folks"
-        elog "have reported that this makes no difference. ;)"
-    fi
-    
-	if ! has_version 'dev-perl/Mail-SPF-Query'; then
-        elog "For spf support, please emerge dev-perl/Mail-SPF-Query"
-    fi
-    if ! has_version 'mail-filter/dcc'; then
-        elog "For dcc support, please emerge mail-filter/dcc"
-    fi
-    if ! has_version 'dev-python/pyzor'; then
-        elog "For pyzor support, please emerge dev-python/pyzor"
-    fi
-    if ! has_version 'mail-filter/razor'; then
-        elog "For razor support, please emerge mail-filter/razor"
-    fi
-    
-	elog "For addtional functionality, you may wish to emerge:"
-    elog "dev-perl/IP-Country       dev-perl/Net-Ident "
-    elog "dev-perl/Mail-DKIM"
+	elog "in /etc/conf.d/spamd regarding the location of the pid file."
+	elog "If you build ${PN} with optional dependancy support,"
+	elog "you can enable them in /etc/mail/spamassassin/init.pre"
 	echo
 }
