@@ -66,23 +66,16 @@ src_configure() {
 
 	# If ssl is enabled, spamc can be built with ssl support
 	if use ssl; then
-		myconf="${myconf} ENABLE_SSL=yes"
+		myconf+=" ENABLE_SSL=yes"
 	else
-		myconf="${myconf} ENABLE_SSL=no"
+		myconf+=" ENABLE_SSL=no"
 	fi
 
 	# Set the path to the Perl executable explictly.  This will be used to
 	# create the initial sharpbang line in the scripts and might cause
 	# a versioned app name end in there, see
 	# <http://bugs.gentoo.org/show_bug.cgi?id=62276>
-	myconf="${myconf} PERL_BIN=/usr/bin/perl"
-
-	# If you are going to enable taint mode, make sure that the bug where
-	# spamd doesn't start when the PATH contains . is addressed, and make
-	# sure you deal with versions of razor <2.36-r1 not being taint-safe.
-	# <http://bugzilla.spamassassin.org/show_bug.cgi?id=2511> and
-	# <http://spamassassin.org/released/Razor2.patch>.
-	myconf="${myconf} PERL_TAINT=no"
+	myconf+=" PERL_BIN=/usr/bin/perl"
 
 	# Add Gentoo tag to make it easier for the upstream devs to spot
 	# possible modifications or patches.
@@ -101,7 +94,7 @@ src_compile() {
 	# Run the autoconf stuff now, just to make the build sequence look more
 	# familiar to the user :)  Plus feeding the VERSION_STRING skips some
 	# calls to Perl.
-	make spamc/Makefile VERSION_STRING="${version_str}"
+	make spamc/Makefile VERSION_STRING="${version_str}" || die
 
 	# Now compile all the stuff selected.
 	perl-module_src_compile
@@ -119,20 +112,20 @@ src_install () {
 	perl-module_src_install
 
 	# Create the stub dir used by sa-update and friends
-	dodir /var/lib/spamassassin
+	dodir /var/lib/spamassassin || die
 
 	# Move spamd to sbin where it belongs.
 	dodir /usr/sbin
 	mv "${D}"/usr/bin/spamd "${D}"/usr/sbin/spamd  || die
 
 	if use qmail; then
-		dobin spamc/qmail-spamc
+		dobin spamc/qmail-spamc || die
 	fi
 
-	dosym /etc/mail/spamassassin /etc/spamassassin
+	dosym /etc/mail/spamassassin /etc/spamassassin || die
 
 	# Disable plugin by default
-	sed -i -e 's/^loadplugin/\#loadplugin/g' "${D}"/etc/mail/spamassassin/init.pre
+	sed -i -e 's/^loadplugin/\#loadplugin/g' "${D}"/etc/mail/spamassassin/init.pre || die
 
 	# Add the init and config scripts.
 	newinitd "${FILESDIR}"/3.0.0-spamd.init spamd || die
