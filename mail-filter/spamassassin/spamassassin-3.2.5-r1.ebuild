@@ -113,6 +113,7 @@ src_compile() {
 
     # Now compile all the stuff selected.
     perl-module_src_compile
+    
     if use qmail; then
         make spamc/qmail-spamc || die "building qmail-spamc failed"
     fi
@@ -153,7 +154,7 @@ src_install () {
     newconfd "${FILESDIR}"/3.0.0-spamd.conf spamd || die
 
     if use doc; then
-        dodoc NOTICE TRADEMARK CREDITS INSTALL INSTALL.VMS UPGRADE USAGE \
+        dodoc NOTICE TRADEMARK CREDITS INSTALL.VMS UPGRADE USAGE \
         sql/README.bayes sql/README.awl procmailrc.example sample-nonspam.txt \
         sample-spam.txt spamassassin.spec spamd/PROTOCOL spamd/README.vpopmail \
         spamd-apache2/README.apache || die 
@@ -161,22 +162,22 @@ src_install () {
 
         # Rename some docu files so they don't clash with others
         newdoc spamd/README README.spamd || die
-		newdoc sql/README README.sql || die
-		newdoc ldap/README README.ldap || die 
+        newdoc sql/README README.sql || die
+        newdoc ldap/README README.ldap || die 
 
-		dohtml doc/*.html || die 
+        dohtml doc/*.html || die 
         docinto sql
-		dodoc sql/*.sql || die 
+        dodoc sql/*.sql || die 
         
         if use qmail; then 
-            newdoc spamc/README.qmail README.qmail || die 
+            dodoc spamc/README.qmail || die 
         fi
     fi
 
     # Install provided tools. See bug 108168
     if use tools; then
         docinto tools
-		dodoc tools/* || die "dodoc failed"
+        dodoc tools/* || die "dodoc failed"
     fi
 
     cp "${FILESDIR}"/secrets.cf "${D}"/etc/mail/spamassassin/secrets.cf.example || die
