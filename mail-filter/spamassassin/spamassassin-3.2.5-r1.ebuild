@@ -161,23 +161,22 @@ src_install () {
 
         # Rename some docu files so they don't clash with others
         newdoc spamd/README README.spamd || die
-        newdoc sql/README README.sql || die
-        newdoc ldap/README README.ldap || die
+		newdoc sql/README README.sql || die
+		newdoc ldap/README README.ldap || die 
 
-        dohtml doc/*.html || die
+		dohtml doc/*.html || die 
         docinto sql
-        dodoc sql/*.sql || die
+		dodoc sql/*.sql || die 
         
         if use qmail; then 
-            newdoc spamc/README.qmail || die
-            newdoc README.qmail || die
+            newdoc spamc/README.qmail README.qmail || die 
         fi
     fi
 
     # Install provided tools. See bug 108168
     if use tools; then
         docinto tools
-        dodoc tools/* || die
+		dodoc tools/* || die "dodoc failed"
     fi
 
     cp "${FILESDIR}"/secrets.cf "${D}"/etc/mail/spamassassin/secrets.cf.example || die
@@ -194,10 +193,8 @@ EOF
 
 pkg_postinst() {
     perl-module_pkg_postinst
-    echo
     elog "If you plan on using the -u flag to spamd, please read the notes"
     elog "in /etc/conf.d/spamd regarding the location of the pid file."
     elog "If you build ${PN} with optional dependancy support,"
     elog "you can enable them in /etc/mail/spamassassin/init.pre"
-    echo
 }
