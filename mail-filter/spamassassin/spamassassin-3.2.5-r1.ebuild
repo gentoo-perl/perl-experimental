@@ -56,6 +56,7 @@ DEPEND=">=dev-lang/perl-5.8.2-r1
     ipv6? (
         dev-perl/IO-Socket-INET6
     )"
+RDEPEND="${DEPEND}"
 
 PATCHES=( "${FILESDIR}/${PN}-3.2.5-DESTDIR.patch" )
 
@@ -102,26 +103,27 @@ src_configure() {
     # Setting the following env var ensures that no questions are asked.
     export PERL_MM_USE_DEFAULT=1
     perl-module_src_prep
-    # Run the autoconf stuff now, just to make the build sequence look more
-    # familiar to the user :)  Plus feeding the VERSION_STRING skips some
-    # calls to Perl.
 }
 
 src_compile() {
+    # Run the autoconf stuff now, just to make the build sequence look more
+    # familiar to the user :)  Plus feeding the VERSION_STRING skips some
+    # calls to Perl.
     make spamc/Makefile VERSION_STRING="${version_str}"
 
     # Now compile all the stuff selected.
     perl-module_src_compile
     if use qmail; then
-        make spamc/qmail-spamc || die building qmail-spamc failed
+        make spamc/qmail-spamc || die "building qmail-spamc failed"
     fi
 
     # Remove the MANIFEST files as they aren't docu files
     rm -f MANIFEST*
 
-    use doc && make text_html_doc
+    if use doc; then 
+        make text_html_doc || die
+    fi
 }
-
 
 src_test() {
     perl-module_src_test
@@ -137,7 +139,9 @@ src_install () {
     dodir /usr/sbin
     mv "${D}"/usr/bin/spamd "${D}"/usr/sbin/spamd  || die
 
-    use qmail && dobin spamc/qmail-spamc
+    if use qmail; then
+        dobin spamc/qmail-spamc
+    fi
     
     dosym /etc/mail/spamassassin /etc/spamassassin
 
@@ -145,37 +149,41 @@ src_install () {
     sed -i -e 's/^loadplugin/\#loadplugin/g' "${D}"/etc/mail/spamassassin/init.pre
 
     # Add the init and config scripts.
-    newinitd "${FILESDIR}"/3.0.0-spamd.init spamd
-    newconfd "${FILESDIR}"/3.0.0-spamd.conf spamd
+    newinitd "${FILESDIR}"/3.0.0-spamd.init spamd || die
+    newconfd "${FILESDIR}"/3.0.0-spamd.conf spamd || die
 
     if use doc; then
         dodoc NOTICE TRADEMARK CREDITS INSTALL INSTALL.VMS UPGRADE USAGE \
         sql/README.bayes sql/README.awl procmailrc.example sample-nonspam.txt \
         sample-spam.txt spamassassin.spec spamd/PROTOCOL spamd/README.vpopmail \
-        spamd-apache2/README.apache
+        spamd-apache2/README.apache || die 
         
 
         # Rename some docu files so they don't clash with others
-        newdoc spamd/README README.spamd
-        newdoc sql/README README.sql
-        newdoc ldap/README README.ldap
-        use qmail && newdoc spamc/README.qmail README.qmail
+        newdoc spamd/README README.spamd || die
+        newdoc sql/README README.sql || die
+        newdoc ldap/README README.ldap || die
 
-        dohtml doc/*.html
+        dohtml doc/*.html || die
         docinto sql
-        dodoc sql/*.sql
+        dodoc sql/*.sql || die
+        
+        if use qmail; then 
+            newdoc spamc/README.qmail || die
+            newdoc README.qmail || die
+        fi
     fi
 
     # Install provided tools. See bug 108168
     if use tools; then
         docinto tools
-        dodoc tools/*
+        dodoc tools/* || die
     fi
 
-    cp "${FILESDIR}"/secrets.cf "${D}"/etc/mail/spamassassin/secrets.cf.example
+    cp "${FILESDIR}"/secrets.cf "${D}"/etc/mail/spamassassin/secrets.cf.example || die
     fperms 0400 /etc/mail/spamassassin/secrets.cf.example
 
-	cat <<-EOF > "${T}/local.cf.example"
+    cat <<-EOF > "${T}/local.cf.example"
 # Sensitive data, such as database connection info, should be stored in
 # /etc/mail/spamassassin/secrets.cf with appropriate permissions
 EOF
@@ -186,10 +194,10 @@ EOF
 
 pkg_postinst() {
     perl-module_pkg_postinst
-	echo
-	elog "If you plan on using the -u flag to spamd, please read the notes"
-	elog "in /etc/conf.d/spamd regarding the location of the pid file."
-	elog "If you build ${PN} with optional dependancy support,"
-	elog "you can enable them in /etc/mail/spamassassin/init.pre"
-	echo
+    echo
+    elog "If you plan on using the -u flag to spamd, please read the notes"
+    elog "in /etc/conf.d/spamd regarding the location of the pid file."
+    elog "If you build ${PN} with optional dependancy support,"
+    elog "you can enable them in /etc/mail/spamassassin/init.pre"
+    echo
 }
