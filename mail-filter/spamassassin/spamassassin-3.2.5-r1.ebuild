@@ -116,7 +116,7 @@ src_install () {
 
 	# Move spamd to sbin where it belongs.
 	dodir /usr/sbin
-	mv "${D}"/usr/bin/spamd "${D}"/usr/sbin/spamd  || die
+	mv "${D}"/usr/{bin,sbin}/spamd || die
 
 	if use qmail; then
 		dobin spamc/qmail-spamc || die
@@ -125,7 +125,7 @@ src_install () {
 	dosym /etc/mail/spamassassin /etc/spamassassin || die
 
 	# Disable plugin by default
-	sed -i -e 's/^loadplugin/\#loadplugin/g' "${D}"/etc/mail/spamassassin/init.pre || die
+	sed -i -e 's/^loadplugin/\# &/g' "${D}"/etc/mail/spamassassin/init.pre || die
 
 	# Add the init and config scripts.
 	newinitd "${FILESDIR}"/3.0.0-spamd.init spamd || die
@@ -160,17 +160,16 @@ src_install () {
 	cp "${FILESDIR}"/secrets.cf "${D}"/etc/mail/spamassassin/secrets.cf.example || die
 	fperms 0400 /etc/mail/spamassassin/secrets.cf.example
 
-	cat <<EOF > "${T}/local.cf.example"
-# Sensitive data, such as database connection info, should be stored in
-# /etc/mail/spamassassin/secrets.cf with appropriate permissions
-EOF
+	cat <<-EOF > "${T}/local.cf.example"
+		# Sensitive data, such as database connection info, should be stored in
+		# /etc/mail/spamassassin/secrets.cf with appropriate permissions
+	EOF
 
 	insinto /etc/mail/spamassassin/
 	doins "${T}/local.cf.example" || die
 }
 
 pkg_postinst() {
-	perl-module_pkg_postinst
 	elog "If you plan on using the -u flag to spamd, please read the notes"
 	elog "in /etc/conf.d/spamd regarding the location of the pid file."
 	elog "If you build ${PN} with optional dependancy support,"
