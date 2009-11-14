@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.118 2009/11/10 12:53:53 tove Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.119 2009/11/14 08:58:50 tove Exp $
 #
 # Author: Seemant Kulleen <seemant@gentoo.org>
 
@@ -253,7 +253,7 @@ fixlocalpod() {
 }
 
 linkduallifescripts() {
-	if [[ ${CATEGORY} != perl-core ]] || ! has_version ">=dev-lang/perl-5.10.1" ; then
+	if [[ ${CATEGORY} != perl-core ]] || ! has_version ">=dev-lang/perl-5.8.8-r8" ; then
 		return 0
 	fi
 
