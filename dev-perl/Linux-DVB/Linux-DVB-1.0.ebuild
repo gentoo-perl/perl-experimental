@@ -9,8 +9,6 @@ inherit perl-module
 
 DESCRIPTION="Interface to (some parts of) the Linux DVB API"
 
-# GPL-2 - no later clause
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
