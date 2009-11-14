@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2009; Torsten Veller <tove@gentoo.org>
+  IO-CaptureOutput-1.1101.ebuild:
+  Move test useflag to DEPEND. Remove LICENSE cause it's the same as in the
+  Perl README
+
 *IO-CaptureOutput-1.1101 (23 Sep 2009)
 
   23 Sep 2009; Michele Beltrame <m@cattlegrid.info>
