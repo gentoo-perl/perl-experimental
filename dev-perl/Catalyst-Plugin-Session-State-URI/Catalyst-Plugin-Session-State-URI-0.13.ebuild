@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/MooseX-Emulate-Class-Accessor-Fast
 "
 DEPEND="
-	test? ( 
+	test? (
 		>=dev-perl/Test-MockObject-1.01
 	)
 	${RDEPEND}
