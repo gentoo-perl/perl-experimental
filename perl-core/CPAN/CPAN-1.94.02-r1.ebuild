@@ -16,17 +16,20 @@ SLOT="0"
 KEYWORDS=""
 IUSE="build readline"
 
-PATCHES=( "${FILESDIR}/1.94-Makefile.patch"
-		  "${FILESDIR}/1.94-SignatureTest.patch"
+PATCHES=(
+	"${FILESDIR}/1.94-Makefile.patch"
+	"${FILESDIR}/1.94-SignatureTest.patch"
 )
 RDEPEND="
-!build? (
-	readline? (
-		|| (
-			dev-perl/Term-ReadLine-Perl
-			dev-perl/Term-ReadLine-GNU
+	>=dev-lang/perl-5.8.8-r8
+	!build? (
+		readline? (
+			|| (
+				dev-perl/Term-ReadLine-Perl
+				dev-perl/Term-ReadLine-GNU
+			)
 		)
 	)
-)"
+"
 DEPEND="${RDEPEND}"
 SRC_TEST="do"

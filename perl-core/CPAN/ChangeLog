@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Nov 2009; Torsten Veller <tove@gentoo.org> CPAN-1.94.02.ebuild,
+  CPAN-1.94.02-r1.ebuild:
+  Depend on >=dev-lang/perl-5.8.8-r8
+
   16 Nov 2009; Torsten Veller <tove@gentoo.org> -CPAN-1.93.04.ebuild,
   -CPAN-1.94.ebuild:
   Cleanup
