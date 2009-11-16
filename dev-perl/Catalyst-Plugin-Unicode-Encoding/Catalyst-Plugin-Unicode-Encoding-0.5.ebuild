@@ -16,7 +16,6 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.80
-	>=virtual/perl-Encode-2.21
 "
 DEPEND="
 	test? (
