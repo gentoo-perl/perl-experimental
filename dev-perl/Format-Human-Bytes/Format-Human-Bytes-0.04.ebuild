@@ -11,7 +11,7 @@ DESCRIPTION="Format a bytecount and make it human readable"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 SRC_TEST=do

@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="|| ( >=dev-lang/perl-5.10.0 >=virtual/File-Path-2.04 )
+DEPEND=">=virtual/perl-File-Path-2.04
 	>=virtual/perl-File-Spec-3.27.01
 	>=dev-perl/File-pushd-1.00
 	>=dev-perl/IPC-Run3-0.042
