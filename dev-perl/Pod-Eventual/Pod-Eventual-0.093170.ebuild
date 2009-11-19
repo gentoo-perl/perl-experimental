@@ -10,12 +10,13 @@ DESCRIPTION="read a POD document as a series of trivial events
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Mixin-Linewise-0.001
 "
 DEPEND="
 	${COMMON_DEPEND}
+	test? ( virtual/perl-Test-Simple )
 "
 RDEPEND="
 	${COMMON_DEPEND}

@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Pod-Eventual-0.093170 (19 Nov 2009)
+
+  19 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  -Pod-Eventual-0.005.ebuild, -Pod-Eventual-0.091440.ebuild,
+  +Pod-Eventual-0.093170.ebuild:
+  Bump
+
 *Pod-Eventual-0.091480 (01 Jun 2009)
 
   01 Jun 2009; Kent Fredric <kentfredric@gmail.com>

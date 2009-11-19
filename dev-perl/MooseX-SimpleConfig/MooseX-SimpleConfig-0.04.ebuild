@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=2
-MODULE_AUTHOR=BLBLACK
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="A Moose role for setting attributes from a simple configfile"

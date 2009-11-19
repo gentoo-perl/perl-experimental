@@ -1,6 +1,7 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 EAPI=2
 MODULE_AUTHOR=RKITOVER
 inherit perl-module
@@ -18,7 +19,6 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	dev-perl/Moose-Autobox
 	dev-perl/List-MoreUtils
-	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
