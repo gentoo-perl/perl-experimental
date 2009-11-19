@@ -11,6 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
+	virtual/perl-Encode
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
 	dev-perl/MooseX-Types

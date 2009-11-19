@@ -7,7 +7,7 @@
   16 Nov 2009; Kent Fredric <kentfredric@gmail.com>
   -Pod-Elemental-0.092940.ebuild, Pod-Elemental-0.092970.ebuild,
   -Pod-Elemental-0.093000, +Pod-Elemental-0.093000.ebuild:
-  -virtual, fix my own foolishness with no.ebuild ext,
+  fix my own foolishness with no.ebuild ext,
   dropped no longer mirrored stuff.
 
   29 Oct 2009; Kent Fredric <kentfredric@gmail.com> +Pod-Elemental-0.093000:

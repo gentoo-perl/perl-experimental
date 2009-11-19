@@ -16,8 +16,7 @@ KEYWORDS="~amd64 ~x86"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Email-Send
-	dev-perl/Email-MIME
-	dev-perl/Email-MIME-Creator
+	>=dev-perl/Email-MIME-1.902
 "
 DEPEND="${RDEPEND}"
 SRC_TEST="do"
