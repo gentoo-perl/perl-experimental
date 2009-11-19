@@ -51,6 +51,7 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.08
 	dev-perl/DBIx-Class-DateTime-Epoch
 	dev-perl/DBIx-Class-EncodedColumn
+	>=virtual/perl-Encode-2.31
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/File-MMagic-1.27
 	>=dev-perl/File-Slurp-9999.13
