@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Sub-Current
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Sub-Current-0.02 (23 Nov 2009)
+
+  23 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +Sub-Current-0.02.ebuild, +metadata.xml:
+  Addition
+

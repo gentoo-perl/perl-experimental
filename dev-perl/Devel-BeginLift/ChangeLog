@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Devel-BeginLift
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Devel-BeginLift-0.001002 (23 Nov 2009)
+
+  23 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +Devel-BeginLift-0.001002.ebuild:
+  Add
+
