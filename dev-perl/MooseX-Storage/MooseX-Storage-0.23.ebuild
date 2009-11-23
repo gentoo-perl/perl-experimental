@@ -14,7 +14,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test +json +yaml +storable +file"
 RDEPEND="
-	>=dev-perl/Moose-0.39
+	>=dev-perl/Moose-0.87
+	dev-perl/String-RewritePrefix
 	json? (
 		>=dev-perl/JSON-Any-1.15
 	)
