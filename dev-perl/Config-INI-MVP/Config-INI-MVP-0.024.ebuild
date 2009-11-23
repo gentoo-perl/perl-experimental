@@ -12,6 +12,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	dev-perl/Config-INI
+	>=dev-perl/Config-MVP-0.092060
+	>=dev-perl/Moose-0.65
 "
 DEPEND="
 	${COMMON_DEPEND}
