@@ -17,7 +17,6 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.80005
 	>=dev-perl/CatalystX-Component-Traits-0.10
 	dev-perl/Moose
-	dev-perl/Moose-Autobox
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
 	dev-perl/Carp-Clan
