@@ -13,7 +13,7 @@ IUSE=""
 COMMON_DEPEND="
 	dev-perl/Tie-IxHash
 	dev-perl/Moose
-
+	virtual/perl-Module-Pluggable
 "
 DEPEND="
 	${COMMON_DEPEND}
