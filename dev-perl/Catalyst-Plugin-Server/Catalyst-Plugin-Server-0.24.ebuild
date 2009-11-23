@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Catalyst-Runtime
-	dev-perl/RPC-XML
+	<=dev-perl/RPC-XML-0.67
 "
 DEPEND="
 	${COMMON_DEPEND}
