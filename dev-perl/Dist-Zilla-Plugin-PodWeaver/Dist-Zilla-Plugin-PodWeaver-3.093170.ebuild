@@ -15,7 +15,8 @@ COMMON_DEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	>=dev-perl/Pod-Weaver-3
+	>=dev-perl/Pod-Weaver-3.093001
+	dev-perl/Pod-Elemental-PerlMunger
 "
 DEPEND="
 	${COMMON_DEPEND}
