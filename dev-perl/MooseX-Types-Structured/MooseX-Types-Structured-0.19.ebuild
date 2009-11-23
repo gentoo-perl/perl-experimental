@@ -15,7 +15,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.63
 	>=dev-perl/MooseX-Types-0.08
-	>=dev-perl/Devel-PartialDump-0.07
+	>=dev-perl/Devel-PartialDump-0.10
 	>=dev-perl/Sub-Exporter-0.982
 "
 DEPEND="
