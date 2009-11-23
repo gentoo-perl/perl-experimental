@@ -3,6 +3,12 @@
 # $Header: $
 
   23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Server-0.26.ebuild:
+  KEYWORDS="" as it doesn't work at all, either upstream or in our tests,
+  even
+  with the right RPC::XML
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Plugin-Server-0.24.ebuild, Catalyst-Plugin-Server-0.26.ebuild:
   Dep <= RPC-XML-0.67 becuase its broken
 
