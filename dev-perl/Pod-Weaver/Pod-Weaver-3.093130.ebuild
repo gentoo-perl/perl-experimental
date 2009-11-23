@@ -11,17 +11,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
+	>=dev-perl/Config-MVP-0.093120
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
 	dev-perl/PPI
 	>=dev-perl/Pod-Elemental-0.092941
 	>=dev-perl/String-Flogger-1
+	>=dev-perl/Config-INI-MVP-0.024
 	>=dev-perl/Pod-Eventual-0.004
 	dev-perl/Software-License
 	dev-perl/String-RewritePrefix
 	dev-perl/namespace-autoclean
-"
+	"
 DEPEND="
 	${COMMON_DEPEND}
 	test? (
