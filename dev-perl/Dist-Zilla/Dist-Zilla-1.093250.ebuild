@@ -11,34 +11,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/App-Cmd-0.200
+	>=dev-perl/autobox-2.53
+	>=dev-perl/App-Cmd-0.299
 	virtual/perl-Archive-Tar
+	>=dev-perl/Config-MVP-0.092990
 	dev-perl/CPAN-Uploader
-	>=dev-perl/Config-INI-MVP-0.018
-	>=dev-perl/Data-Section-0.004
 	>=dev-perl/DateTime-0.44
-	dev-perl/File-Find-Rule
-	dev-perl/File-HomeDir
+	>=dev-perl/Data-Section-0.004
 	virtual/perl-File-Temp
 	dev-perl/File-chdir
-	dev-perl/Hash-Merge-Simple
+	dev-perl/File-HomeDir
 	dev-perl/List-MoreUtils
-	dev-perl/Mixin-ExtraFields-Param
-	>=dev-perl/Moose-0.65
+	>=dev-perl/Moose-0.92
 	>=dev-perl/Moose-Autobox-0.09
-	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Path-Class
 	dev-perl/Perl-Version
 	>=dev-perl/Pod-Eventual-0.091480
 	dev-perl/Software-License
-	>=dev-perl/String-Flogger-1
 	dev-perl/String-Format
-	>=dev-perl/String-RewritePrefix-0.002
+	>=dev-perl/String-Flogger-1
+	virtual/perl-Test-Simple
 	dev-perl/text-template
 	dev-perl/YAML-Tiny
-	>=dev-perl/autobox-2.53
+
+	>=dev-perl/Config-INI-MVP-0.024
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-Manifest-1.54
+	dev-perl/File-Find-Rule
+	dev-perl/Hash-Merge-Simple
+	dev-perl/Mixin-ExtraFields-Param
+	dev-perl/MooseX-Types-Path-Class
 	dev-perl/namespace-autoclean
+	>=dev-perl/String-RewritePrefix-0.002
+
 "
 DEPEND="
 	${COMMON_DEPEND}
