@@ -13,6 +13,7 @@ IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-1.092990
 	>=dev-perl/Pod-Elemental-0.092970
+	>=dev-perl/Pod-Elemental-Transformer-WikiDoc-0.093001
 	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.092971
 	>=dev-perl/Pod-Weaver-3.093001
 	dev-perl/Dist-Zilla-Plugin-Repository
