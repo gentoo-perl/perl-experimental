@@ -33,7 +33,7 @@ DEPEND="${RDEPEND}
 
 		dev-perl/Test-Deep
 		dev-perl/Test-Exception
-		>=virtual/perl-Test-Simple-0.02
+		>=virtual/perl-Test-Simple-0.42
 		>=dev-perl/Test-TempDir-0.02
 
 		json? (

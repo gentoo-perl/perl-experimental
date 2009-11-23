@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Types-Structured-0.19 (20 Nov 2009)
+
+  20 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +MooseX-Types-Structured-0.19.ebuild:
+  Bump
+
 *MooseX-Types-Structured-0.18 (17 Aug 2009)
 
   17 Aug 2009; Michele Beltrame <m@cattlegrid.info>

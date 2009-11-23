@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Parse-BACKPAN-Packages-0.36 (20 Nov 2009)
+
+  20 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +Parse-BACKPAN-Packages-0.36.ebuild:
+  Bump
+
 *Parse-BACKPAN-Packages-0.35 (21 Sep 2009)
 
   21 Sep 2009; Kent Fredric <kentfredric@gmail.com>

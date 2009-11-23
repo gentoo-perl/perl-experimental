@@ -17,6 +17,7 @@ RDEPEND="
 	>=dev-perl/namespace-clean-0.10
 	virtual/perl-digest-base
 	virtual/perl-File-Spec
+	virtual/perl-File-Temp
 	dev-perl/Object-Signature
 	dev-perl/MRO-Compat
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00801
@@ -26,7 +27,6 @@ DEPEND="${RDEPEND}
 	test? (
 			dev-perl/Test-Deep
 			dev-perl/Test-Exception
-			>=dev-perl/Test-MockObject-1.01
 			virtual/perl-Test-Simple
 	)
 "
