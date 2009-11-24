@@ -11,20 +11,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.70
-	>=dev-perl/MooseX-AttributeHelpers-0.14
+	>=dev-perl/Moose-0.90
 	>=virtual/perl-locale-maketext-1.09
 	dev-perl/DateTime
 	dev-perl/HTML-Parser
 	>=dev-perl/MooseX-Getopt-0.16
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.20
+	dev-perl/MooseX-Traits
 	dev-perl/MooseX-Types-Common
 	dev-perl/aliased
+	virtual/perl-File-Spec
+	>=dev-perl/Class-Load-0.05
+	>=dev-perl/namespace-autoclean-0.09
 "
 DEPEND="
 	${COMMON_DEPEND}
 	test? (
 		>=virtual/perl-Test-Simple-0.77
+		dev-perl/Test-Differences
+		dev-perl/Test-Exception
 	)
 "
 RDEPEND="
