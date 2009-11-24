@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-View-vCard-0.04 (24 Nov 2009)
+
+  24 Nov 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  -Catalyst-View-vCard-0.03.ebuild, +Catalyst-View-vCard-0.04.ebuild:
+  Bump Catalyst-View-vCard to 0.04
+
   11 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
   Catalyst-View-vCard-0.03.ebuild, +metadata.xml:
   Convert to EAPI=2 and add metadata.xml
