@@ -2,6 +2,18 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-Template-Pro-0.93 (24 Nov 2009)
+
+  24 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-Template-Pro-0.93.ebuild:
+  Bumped:
+
+  - C lib: bugfix: builtin_find_file on WIN32 does not work properly with
+  absolute path names.
+
+  - C lib: 1.2 (3:0:1) ABI (see htmltmplpro/API for details) added API call
+  for alternate HTML_TEMPLATE_ROOT setup (hack around %ENV on WIN32).
+
 *HTML-Template-Pro-0.92 (03 Nov 2009)
 
   03 Nov 2009; Michele Beltrame <m@cattlegrid.info>
