@@ -12,7 +12,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	virtual/perl-IO
-	virtual/perl-Time-HiRes
 	dev-perl/Sub-Exporter
 "
 DEPEND="
