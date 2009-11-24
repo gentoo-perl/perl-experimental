@@ -10,14 +10,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	virtual/perl-MIME-Base64
-	virtual/perl-File-Temp
 	virtual/perl-File-Spec
-	virtual/perl-Encode
 	virtual/perl-Digest-MD5
+	virtual/perl-Encode
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Temp
+
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
+	virtual/perl-MIME-Base64
+
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 "
