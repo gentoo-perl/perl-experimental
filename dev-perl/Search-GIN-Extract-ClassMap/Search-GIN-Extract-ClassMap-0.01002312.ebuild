@@ -11,11 +11,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.89
-	>=dev-perl/MooseX-AttributeHelpers-0.21
+	>=dev-perl/Moose-0.90
 	>=dev-perl/MooseX-Types-0.19
 	>=dev-perl/Search-GIN-0.03
 	>=dev-perl/namespace-autoclean-0.08
+	>=dev-perl/aliased-0.30
 "
 DEPEND="
 	${COMMON_DEPEND}
