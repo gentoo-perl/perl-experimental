@@ -4,7 +4,8 @@
 
 EAPI=2
 
-MODULE_AUTHOR=JZUCKER
+MODULE_AUTHOR=HMBRAND
+MODULE_A="${P}.tgz"
 inherit perl-module
 
 DESCRIPTION="SQL engine and DBI driver for CSV files"
@@ -14,8 +15,9 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
-IUSE=""
+IUSE="test"
 RDEPEND=">=dev-perl/DBI-1.42
-	>=dev-perl/Text-CSV_XS-0.16
-	>=dev-perl/SQL-Statement-0.1011"
-DEPEND="${RDEPEND}"
+	>=dev-perl/Text-CSV_XS-0.64
+	>=dev-perl/SQL-Statement-1.22"
+DEPEND="${RDEPEND}
+	test? ( virtual/perl-Test-Simple )"
