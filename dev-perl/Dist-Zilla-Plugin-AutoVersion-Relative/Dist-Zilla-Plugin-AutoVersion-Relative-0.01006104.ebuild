@@ -19,6 +19,7 @@ COMMON_DEPEND="
 	>=dev-perl/MooseX-Types-DateTime-ButMaintained-0.08
 	>=dev-perl/Dist-Zilla-1.092310
 	>=dev-perl/Moose-0.89
+	>=dev-perl/MooseX-StrictConstructor-0.08
 "
 DEPEND="
 	${COMMON_DEPEND}
