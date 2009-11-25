@@ -2,6 +2,19 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-SubRequest-0.15 (25 Nov 2009)
+
+  25 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-SubRequest-0.13.ebuild,
+  Catalyst-Plugin-SubRequest-0.14.ebuild,
+  +Catalyst-Plugin-SubRequest-0.15.ebuild:
+  EAPI=2,QA,TEST,Bump:
+
+  - Be compatible with Catalyst 5.80014 by not writing to the request body
+  directly.
+
+  - Remove deprecation warnings by moving actions out of the test app.
+
 *Catalyst-Plugin-SubRequest-0.14 (02 Nov 2009)
 
   02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
