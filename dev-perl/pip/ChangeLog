@@ -2,6 +2,17 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pip-1.16 (24 Nov 2009)
+
+  24 Nov 2009; Kent Fredric <kentfredric@gmail.com> +pip-1.16.ebuild:
+  Bumped: 
+
+  - Dropping the File::Temp dependency on non-Windows to 0.14
+
+  - Adding initial PAR support
+
+  - Adding support for zip files
+
 *pip-0.13 (02 Sep 2009)
 
   02 Sep 2009; Kent Fredric <kentfredric@gmail.com> +pip-0.13.ebuild,

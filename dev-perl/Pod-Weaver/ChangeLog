@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Pod-Weaver-3.093130 (23 Nov 2009)
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Weaver-3.092972.ebuild, +Pod-Weaver-3.093130.ebuild:
+  Bumped, Cleanup
+
 *Pod-Weaver-3.092972 (26 Oct 2009)
 
   26 Oct 2009; Kent Fredric <kentfredric@gmail.com>

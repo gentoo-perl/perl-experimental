@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Pod-Elemental-Transformer-WikiDoc
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Pod-Elemental-Transformer-WikiDoc-0.093001 (23 Nov 2009)
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +Pod-Elemental-Transformer-WikiDoc-0.093001.ebuild, +metadata.xml:
+  Added
+

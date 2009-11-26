@@ -1,0 +1,22 @@
+# ChangeLog for dev-perl/HTML-FormHandler
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTML-FormHandler-0.28001 (24 Nov 2009)
+
+  24 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  -HTML-FormHandler-0.27003.ebuild, +HTML-FormHandler-0.28001.ebuild:
+  Bump, Cleanup
+
+*HTML-FormHandler-0.27006 (14 Sep 2009)
+
+  14 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.27006.ebuild:
+  Bumped HFH 
+
+*HTML-FormHandler-0.27003 (03 Aug 2009)
+
+  03 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.27003.ebuild, +metadata.xml:
+  Addded
+

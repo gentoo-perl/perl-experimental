@@ -1,0 +1,21 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Authorization-Roles
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-Authorization-Roles-0.08 (23 Nov 2009)
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Authorization-Roles-0.08.ebuild:
+  Bumped: 
+
+  - repackaged with a new version of Module::Install
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Authorization-Roles-0.05.ebuild,
+  Catalyst-Plugin-Authorization-Roles-0.07.ebuild:
+  EAPI2,SRC_TEST
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Authorization-Roles-0.04.ebuild:
+  Removed no-longer-on-cpan
+

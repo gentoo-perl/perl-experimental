@@ -10,11 +10,11 @@ DESCRIPTION="Base Server plugin for RPC-able protocols"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.66
-	>=dev-perl/RPC-XML-0.69
+	<=dev-perl/RPC-XML-0.67
 	dev-perl/MRO-Compat
 "
 DEPEND="

@@ -8,6 +8,7 @@
     </maintainer>
 	<use>
 		<flag name="basic-toolchain">Basic Toolchain</flag>
+		<flag name="exceptions">Exception Handling</flag>
 		<flag name="testing">Testing</flag>
 		<flag name="oop">Object Oriented Programming</flag>
 		<flag name="async">Asynchronous Programming</flag>

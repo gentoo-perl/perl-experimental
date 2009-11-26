@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-PartialDump-0.12 (19 Nov 2009)
+
+  19 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +Devel-PartialDump-0.12.ebuild:
+  Bump
+
 *Devel-PartialDump-0.09 (17 Aug 2009)
 
   17 Aug 2009; Michele Beltrame <m@cattlegrid.info>

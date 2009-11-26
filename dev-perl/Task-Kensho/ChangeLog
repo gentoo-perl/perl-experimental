@@ -2,6 +2,18 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Task-Kensho-0.18 (23 Nov 2009)
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-0.18.ebuild, metadata.xml:
+  Bumped:
+
+  - Replace Module::Starter with Dist::Zilla
+
+  - Remove Time::y2038
+
+  - Add Try::Tiny and TryCatch
+
 *Task-Kensho-0.17 (28 Aug 2009)
 
   28 Aug 2009; Kent Fredric <kentfredric@gmail.com>

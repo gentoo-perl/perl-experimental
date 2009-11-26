@@ -2,6 +2,23 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-PluginBundle-RJBS-0.093200 (23 Nov 2009)
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-PluginBundle-RJBS-0.093200.ebuild:
+  Bumped: 
+
+  - now there's @RJBS for Pod::Weaver, too!
+
+  - stop removing MetaYAML so cpants can index my dists
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-PluginBundle-RJBS-0.091560.ebuild,
+  -Dist-Zilla-PluginBundle-RJBS-0.092070.ebuild,
+  -Dist-Zilla-PluginBundle-RJBS-0.092361.ebuild,
+  -Dist-Zilla-PluginBundle-RJBS-0.092830.ebuild:
+  Removed No-longer-on-CPAN versions
+
 *Dist-Zilla-PluginBundle-RJBS-0.092971 (26 Oct 2009)
 
   26 Oct 2009; Kent Fredric <kentfredric@gmail.com>

@@ -2,6 +2,19 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Compress-Zlib-0.04 (23 Nov 2009)
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Compress-Zlib-0.04.ebuild:
+  Bumped:
+
+  - Switch from NEXT to MRO::Compat
+
+  23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Compress-Zlib-0.02.ebuild,
+  Catalyst-Plugin-Compress-Zlib-0.03.ebuild:
+  QA,TEST 
+
   19 Jul 2009; Torsten Veller <tove@gentoo.org>
   Catalyst-Plugin-Compress-Zlib-0.02.ebuild,
   Catalyst-Plugin-Compress-Zlib-0.03.ebuild:

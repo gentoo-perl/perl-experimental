@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Sub-Curried
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Sub-Curried-0.10 (23 Nov 2009)
+
+  23 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +Sub-Curried-0.10.ebuild, +metadata.xml:
+  Bump
+

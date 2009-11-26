@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/autobox-Core
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*autobox-Core-0.6 (23 Nov 2009)
+
+  23 Nov 2009; Michele Beltrame <m@cattlegrid.info>
+  +autobox-Core-0.6.ebuild, +metadata.xml:
+  Initial add
+
