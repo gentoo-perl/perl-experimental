@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-Formatter
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-Formatter-0.093221 (28 Nov 2009)
+
+  28 Nov 2009; Kent Fredric <kentfredric@gmail.com>
+  +String-Formatter-0.093221.ebuild, +metadata.xml:
+  Added
+
