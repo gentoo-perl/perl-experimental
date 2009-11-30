@@ -15,7 +15,4 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-lang/perl-5.10"
-DEPEND="${RDEPEND}"
-
 SRC_TEST=do
