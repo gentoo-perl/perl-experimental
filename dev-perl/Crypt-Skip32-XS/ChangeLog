@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Crypt-Skip32-XS
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Crypt-Skip32-XS-0.06 (03 Dec 2009)
+
+  03 Dec 2009; Michele Beltrame <m@cattlegrid.info>
+  +Crypt-Skip32-XS-0.06.ebuild:
+  Initial
+
