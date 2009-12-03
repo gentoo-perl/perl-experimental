@@ -94,7 +94,7 @@ src_compile() {
 	# Run the autoconf stuff now, just to make the build sequence look more
 	# familiar to the user :)  Plus feeding the VERSION_STRING skips some
 	# calls to Perl.
-	make spamc/Makefile VERSION_STRING="${version_str}" || die
+	make spamc/Makefile VERSION_STRING="${version_str}" || die 
 
 	# Now compile all the stuff selected.
 	perl-module_src_compile
@@ -134,11 +134,11 @@ src_install () {
 	use postgres && \
 		sed -i -e 's:@USEPOSTGRES@::' "${D}/etc/init.d/spamd" || \
 		sed -i -e '/@USEPOSTGRES@/d' "${D}/etc/init.d/spamd"
-
+	
 	use mysql && \
 		sed -i -e 's:@USEMYSQL@::' "${D}/etc/init.d/spamd" || \
 		sed -i -e '/@USEMYSQL@/d' "${D}/etc/init.d/spamd"
-
+	
 	dodoc NOTICE TRADEMARK CREDITS INSTALL.VMS UPGRADE USAGE \
 		sql/README.bayes sql/README.awl procmailrc.example sample-nonspam.txt \
 		sample-spam.txt spamassassin.spec spamd/PROTOCOL spamd/README.vpopmail \
@@ -149,9 +149,11 @@ src_install () {
 	newdoc sql/README README.sql || die
 	newdoc ldap/README README.ldap || die
 
-	dohtml doc/*.html || die
-	docinto sql
-	dodoc sql/*.sql || die
+	if use doc; then
+		dohtml doc/*.html || die
+		docinto sql
+		dodoc sql/*.sql || die
+	fi
 
 	if use qmail; then
 		dodoc spamc/README.qmail || die
