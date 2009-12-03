@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Dec 2009; David Abbott <dabbott@gentoo.org>
+  spamassassin-3.2.5-r2.ebuild:
+  enabled install without doc use
+
 *spamassassin-3.2.5-r2 (26 Nov 2009)
 
   26 Nov 2009; David Abbott <dabbott@gentoo.org> +files/3.2.5-spamd.init,

@@ -1,7 +1,7 @@
 #!/sbin/runscript
 # Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/mail-filter/spamassassin/files/3.0.0-spamd.init,v 1.8 2008/05/14 21:25:56 sbriesen Exp $
+# $Header: $
 
 # NB: Config is in /etc/conf.d/spamd
 
