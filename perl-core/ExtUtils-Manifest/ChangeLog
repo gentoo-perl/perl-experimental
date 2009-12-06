@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ExtUtils-Manifest-1.58 (06 Dec 2009)
+
+  06 Dec 2009; Torsten Veller <tove@gentoo.org>
+  +ExtUtils-Manifest-1.58.ebuild:
+  Version bump
+
 *ExtUtils-Manifest-1.57 (11 Oct 2009)
 
   11 Oct 2009; Kent Fredric <kentfredric@gmail.com>
