@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Dec 2009; David Abbott <dabbott@gentoo.org>
+  spamassassin-3.2.5-r2.ebuild, spamassassin-3.2.5-r3.ebuild:
+  fixed whitespace
+
 *spamassassin-3.2.5-r3 (07 Dec 2009)
 
   07 Dec 2009; David Abbott <dabbott@gentoo.org>
