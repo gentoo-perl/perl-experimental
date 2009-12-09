@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Getopt-Long-Descriptive-0.075
+	>=dev-perl/Getopt-Long-Descriptive-0.081
 	virtual/perl-Module-Pluggable
 	>=dev-perl/Sub-Exporter-0.975
 	dev-perl/Sub-Install
