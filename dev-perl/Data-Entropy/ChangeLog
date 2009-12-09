@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  -Data-Entropy-0.005.ebuild:
+  Gone on CPAN
+
 *Data-Entropy-0.006 (23 Nov 2009)
 
   23 Nov 2009; Kent Fredric <kentfredric@gmail.com>
