@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-Section-0.093410 (09 Dec 2009)
+
+  09 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +Data-Section-0.093410.ebuild:
+  Bumped
+
 *Data-Section-0.091820 (01 Jul 2009)
 
   01 Jul 2009; Kent Fredric <kentfredric@gmail.com>
