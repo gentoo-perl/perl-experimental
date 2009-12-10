@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/DBIx-Class-DigestColumns
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  -DBIx-Class-DigestColumns-0.03000.ebuild,
+  -DBIx-Class-DigestColumns-0.04000.ebuild:
+  CPANTIDY
+
