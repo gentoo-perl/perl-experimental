@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*WebService-MusicBrainz-0.93 (10 Dec 2009)
+
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +WebService-MusicBrainz-0.93.ebuild:
+  Bump
+
 *WebService-MusicBrainz-0.92 (02 Nov 2009)
 
   02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
