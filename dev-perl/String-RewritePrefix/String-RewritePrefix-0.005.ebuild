@@ -15,6 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 RDEPEND="
 	>=virtual/perl-Test-Simple-0.47
+	dev-perl/Sub-Exporter
 "
 DEPEND="${RDEPEND}"
 SRC_TEST=do
