@@ -15,7 +15,7 @@ IUSE=""
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.62
 	dev-perl/Class-Accessor
-	dev-perl/Class-C3
+	dev-perl/MRO-Compat
 	dev-perl/Data-Page
 	>=dev-perl/perl-ldap-0.34
 "
