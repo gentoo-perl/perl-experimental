@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-PodWeaver-3.093321 (10 Dec 2009)
+
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-PodWeaver-3.093320.ebuild,
+  +Dist-Zilla-Plugin-PodWeaver-3.093321.ebuild:
+  Rebump
+
 *Dist-Zilla-Plugin-PodWeaver-3.093320 (10 Dec 2009)
 
   10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
