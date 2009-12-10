@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  -HTML-Template-Pro-0.90.ebuild:
+  CPANTIDY
+
 *HTML-Template-Pro-0.93 (24 Nov 2009)
 
   24 Nov 2009; Kent Fredric <kentfredric@gmail.com>
