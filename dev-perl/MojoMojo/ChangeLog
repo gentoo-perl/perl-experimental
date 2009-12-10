@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MojoMojo-0.999042 (10 Dec 2009)
+
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +MojoMojo-0.999042.ebuild:
+  Bumpoed
+
 *MojoMojo-0.999041 (02 Nov 2009)
 
   02 Nov 2009; Michele Beltrame <m@cattlegrid.info>
