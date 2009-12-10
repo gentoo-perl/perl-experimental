@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Dec 2009; Kent Fredric <kentfredric@gmail.com> -Crypt-Util-0.06.ebuild,
+  -Crypt-Util-0.07.ebuild:
+  CPANTIDY
+
 *Crypt-Util-0.10 (23 Oct 2009)
 
   23 Oct 2009; Torsten Veller <tove@gentoo.org> +Crypt-Util-0.10.ebuild:
