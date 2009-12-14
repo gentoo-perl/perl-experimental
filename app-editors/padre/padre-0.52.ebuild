@@ -8,7 +8,8 @@ MY_PN=Padre
 MY_P=${MY_PN}-${PV}
 #MODULE_AUTHOR=THEREK
 #MODULE_AUTHOR=JQUELIN
-MODULE_AUTHOR=SZABGAB
+#MODULE_AUTHOR=SZABGAB
+MODULE_AUTHOR=PLAVEN
 #MODULE_AUTHOR=GARU
 #MODULE_AUTHOR=RSN
 S=${WORKDIR}/${MY_P}
@@ -23,6 +24,7 @@ IUSE="test"
 
 # Test Deps.
 TDEPEND="
+	>=dev-perl/Capture-Tiny-0.06
 	>=dev-perl/Test-Script-1.05
 	>=dev-perl/Test-Exception-0.27
 	>=dev-perl/Test-NoWarnings-0.084
@@ -44,6 +46,7 @@ RDEPEND="
 	>=dev-perl/File-Find-Rule-0.30
 	>=dev-perl/File-HomeDir-0.84
 	>=dev-perl/File-Next-1.06
+	>=virtual/perl-File-Path-2.07
 	>=dev-perl/File-Remove-1.42
 	>=dev-perl/File-ShareDir-1.00
 	>=dev-perl/File-ShareDir-PAR-0.04
@@ -73,9 +76,10 @@ RDEPEND="
 	>=dev-perl/PPIx-EditorTools-0.09
 	>=dev-perl/Probe-Perl-0.01
 	>=virtual/perl-Storable-2.15
+	>=dev-perl/Template-Tiny-0.03
 	virtual/perl-Text-Balanced
 	>=dev-perl/Text-Diff-0.35
-	>=dev-perl/Text-FindIndent-0.03
+	>=dev-perl/Text-FindIndent-0.05
 	>=dev-perl/Thread-Queue-2.11
 	>=virtual/perl-threads-1.71
 	>=virtual/perl-threads-shared-1.26
