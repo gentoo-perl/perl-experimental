@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	dev-perl/Archive-Extract
+	virtual/perl-Archive-Extract
 	virtual/perl-Compress-Raw-Zlib
 	virtual/perl-IO-Compress
 	dev-perl/Data-Stream-Bulk
