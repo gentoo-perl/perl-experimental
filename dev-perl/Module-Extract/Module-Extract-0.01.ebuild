@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="virtual/perl-File-Temp
-	dev-perl/Archive-Extract"
+	virtual/perl-Archive-Extract"
 DEPEND="${RDEPEND}"
 
 SRC_TEST=do
