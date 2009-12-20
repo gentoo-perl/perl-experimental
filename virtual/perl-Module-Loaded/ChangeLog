@@ -1,0 +1,10 @@
+# ChangeLog for virtual/perl-Module-Loaded
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Module-Loaded-0.06 (20 Dec 2009)
+
+  20 Dec 2009; Torsten Veller <tove@gentoo.org>
+  +perl-Module-Loaded-0.06.ebuild, +metadata.xml:
+  Initial commit
+
