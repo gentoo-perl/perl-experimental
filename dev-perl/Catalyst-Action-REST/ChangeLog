@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Action-REST-0.80 (24 Dec 2009)
+
+  24 Dec 2009; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Action-REST-0.74.ebuild, -Catalyst-Action-REST-0.76.ebuild,
+  +Catalyst-Action-REST-0.80.ebuild, metadata.xml:
+  Bump + fixed use flags + fixed metadata
+
 *Catalyst-Action-REST-0.78 (11 Oct 2009)
 
   11 Oct 2009; Kent Fredric <kentfredric@gmail.com>

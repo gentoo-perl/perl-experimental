@@ -6,4 +6,10 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+	<use>
+		<flag name="json">JSON (application/json) support</flag>
+		<flag name="data-taxi">Data::Taxi (text/x-data-taxi) support</flag>
+		<flag name="config-general">Config::General (text/x-config-general)	support</flag>
+		<flag name="freezethaw">FreezeThaw (application/x-freezethaw) support</flag>
+	</use>
 </pkgmetadata>
