@@ -23,11 +23,12 @@ start() {
 	start-stop-daemon --start --quiet \
 		--name spamd \
 		--nicelevel ${SPAMD_NICELEVEL:-0} \
+		--pidfile ${PIDFILE} \
 		--exec /usr/sbin/spamd -- -d -r ${PIDFILE} \
 			${SPAMD_OPTS}
-    if ! [ -f "${PIDFILE}" ]; then
-        sleep 1
-    fi
+	if ! [ -f "${PIDFILE}" ]; then
+		sleep 1
+	fi
 	eend $? "Failed to start spamd"
 }
 
