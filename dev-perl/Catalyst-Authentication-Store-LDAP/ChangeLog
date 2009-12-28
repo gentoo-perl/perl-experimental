@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Authentication-Store-LDAP-1.006 (28 Dec 2009)
+
+  28 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Authentication-Store-LDAP-0.1005.ebuild,
+  +Catalyst-Authentication-Store-LDAP-1.006.ebuild:
+  Bumped Version, cleaned old as removed from CPAN
+
 *Catalyst-Authentication-Store-LDAP-0.1005 (07 Jun 2009)
 
   07 Jun 2009; Kent Fredric <kentfredric@gmail.com>
