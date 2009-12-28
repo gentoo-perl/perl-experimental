@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*B-Hooks-OP-Check-EntersubForCV-0.05 (28 Dec 2009)
+
+  28 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +B-Hooks-OP-Check-EntersubForCV-0.05.ebuild:
+  Bumped.
+
 *B-Hooks-OP-Check-EntersubForCV-0.04 (23 Nov 2009)
 
   23 Nov 2009; Michele Beltrame <m@cattlegrid.info>
