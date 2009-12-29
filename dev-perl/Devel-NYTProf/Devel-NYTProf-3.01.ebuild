@@ -15,15 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RDEPEND="
 	virtual/perl-Getopt-Long
+	virtual/perl-XSLoader
+	dev-perl/JSON-Any
 "
-# List::Util => Perl
-# Test::More => Perl
-# XSLoader   => Perl
-
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Scalar-List-Utils
-		virtual/perl-Test-Simple
+		>=virtual/perl-Test-Simple-0.84
 	)
 "
 SRC_TEST="do"

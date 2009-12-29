@@ -13,12 +13,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	virtual/perl-Getopt-Long
 "
 # List::Util => Perl
 # Test::More => Perl
 # XSLoader   => Perl
 
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}"
 SRC_TEST="do"

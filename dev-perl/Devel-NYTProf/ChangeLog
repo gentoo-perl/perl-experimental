@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-NYTProf-3.01 (29 Dec 2009)
+
+  29 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  Devel-NYTProf-2.09.ebuild, Devel-NYTProf-2.10.ebuild,
+  +Devel-NYTProf-3.01.ebuild:
+  Version Bumped ( NB: Currently fails tests ) and fixed some QA errors.
+
   27 Aug 2009; Kent Fredric <kentfredric@gmail.com>
   Devel-NYTProf-2.10.ebuild:
   Fixed an IUSE 
