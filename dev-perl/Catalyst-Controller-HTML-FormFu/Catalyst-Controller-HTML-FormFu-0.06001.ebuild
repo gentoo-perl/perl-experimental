@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-RDEPEND="
+DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.71001
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
@@ -23,5 +23,5 @@ RDEPEND="
 	dev-perl/Task-Weaken
 	dev-perl/namespace-autoclean
 "
-DEPEND="${RDEPEND}"
+RDEPEND="${DEPEND}"
 SRC_TEST=do
