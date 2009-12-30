@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DateTime-Tiny
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DateTime-Tiny-1.04 (30 Dec 2009)
+
+  30 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +DateTime-Tiny-1.04.ebuild, +metadata.xml:
+  Added for Task::Kensho
+
