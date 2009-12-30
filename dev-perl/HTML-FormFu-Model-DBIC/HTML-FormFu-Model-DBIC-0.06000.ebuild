@@ -14,16 +14,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-RDEPEND="
+COMMON_DEPEND="
 	dev-perl/DBD-SQLite
-	>=dev-perl/DBIx-Class-0.08106
+	>=dev-perl/DBIx-Class-0.08108
 	>=dev-perl/HTML-FormFu-0.05000
 "
 DEPEND="
-	${RDEPEND}
+	${COMMON_DEPEND}
 	test? (
-		dev-perl/Test-MockObject
 		dev-perl/DateTime-Format-SQLite
+		dev-perl/SQL-Translator
 	)
 "
+RDEPEND="
+	${COMMON_DEPEND}
+"
+
 SRC_TEST=do
