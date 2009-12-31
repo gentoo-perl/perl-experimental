@@ -21,5 +21,7 @@
 		<flag name="cli">Useful Command-line Tools</flag>
 		<flag name="scripting">Script Hackery</flag>
 		<flag name="xml">XML Processing</flag>
+		<flag name="spreadsheet">Excel/CSV Spreadsheet Tools</flag>
+		<flag name="email">Email Tools</flag>
 	</use>
 </pkgmetadata>

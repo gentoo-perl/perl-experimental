@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="+basic-toolchain +testing oop async webdev db crawl module-devel date
-config cli scripting xml +exceptions"
+config cli scripting xml +exceptions spreadsheet email"
 COMMON_DEPEND="
 	basic-toolchain? (
 		dev-perl/Bundle-CPAN
@@ -61,6 +61,15 @@ COMMON_DEPEND="
 		dev-perl/Catalyst-Plugin-Session
 		dev-perl/Catalyst-Plugin-Authentication
 		dev-perl/Catalyst-Plugin-StackTrace
+		dev-perl/Catalyst-Plugin-FillInForm
+		dev-perl/Catalyst-Controller-FormBuilder
+		dev-perl/Catalyst-Plugin-Session-State-Cookie
+		dev-perl/Catalyst-Plugin-Session-Store-DBIC
+		dev-perl/Catalyst-Plugin-Static-Simple
+		dev-perl/Catalyst-View-JSON
+		dev-perl/CGI-FormBuilder-Source-Perl
+		dev-perl/XML-RSS
+		dev-perl/MIME-Types
 	)
 	db? (
 		dev-perl/DBI
@@ -102,7 +111,17 @@ COMMON_DEPEND="
 	)
 	scripting? (
 		dev-perl/Smart-Comments
+		dev-perl/Term-ProgressBar-Simple
 		dev-perl/IO-All
+	)
+	spreadsheet? (
+		dev-perl/Text-CSV_XS
+		dev-perl/Spreadsheet-ParseExcel-Simple
+		dev-perl/Spreadsheet-WriteExcel-Simple
+	)
+	email? (
+		dev-perl/Email-Valid
+		dev-perl/Email-Sender
 	)
 "
 #>=virtual/perl-ExtUtils-MakeMaker-6.42
