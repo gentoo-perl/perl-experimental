@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Spreadsheet-WriteExcel-Simple
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Spreadsheet-WriteExcel-Simple-1.04 (31 Dec 2009)
+
+  31 Dec 2009; Kent Fredric <kentfredric@gmail.com>
+  +Spreadsheet-WriteExcel-Simple-1.04.ebuild, +metadata.xml:
+  Added
+
