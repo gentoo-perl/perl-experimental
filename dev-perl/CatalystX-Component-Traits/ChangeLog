@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/CatalystX-Component-Traits
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  01 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  -CatalystX-Component-Traits-0.12.ebuild:
+  Removed, gone on CPAN
 
 *CatalystX-Component-Traits-0.14 (19 Nov 2009)
 
