@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -13,6 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
+	perl-core/Module-Build
 	>=dev-perl/CGI-Application-3.2
 	dev-perl/Exception-Class
 	dev-perl/Exception-Class-TryCatch

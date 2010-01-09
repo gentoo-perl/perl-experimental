@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Catalyst-Model-Adaptor
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Model-Adaptor-0.06 (09 Jan 2010)
+
+  09 Jan 2010; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Model-Adaptor-0.01.ebuild, -Catalyst-Model-Adaptor-0.02.ebuild,
+  -Catalyst-Model-Adaptor-0.03.ebuild, +Catalyst-Model-Adaptor-0.06.ebuild:
+  Bump
 
 *Catalyst-Model-Adaptor-0.05 (25 Aug 2009)
 

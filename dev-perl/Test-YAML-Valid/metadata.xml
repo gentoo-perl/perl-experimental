@@ -6,4 +6,9 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+	<use>
+		<flag name="yaml-syck">YAML::Syck support</flag>
+		<flag name="yaml-xs">YAML::XS support</flag>
+		<flag name="yaml-tiny">YAML::Tiny support</flag>
+	</use>
 </pkgmetadata>

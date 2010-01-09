@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,4 +20,5 @@ DEPEND="
 	>=dev-perl/MIME-Types-1.005
 	dev-perl/regexp-common
 	>=dev-perl/Perl6-Junction-1.10
+	dev-perl/Email-Valid
 "

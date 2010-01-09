@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,13 +12,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-RDEPEND="
-	dev-perl/Test-use-ok
-	dev-perl/Any-Moose
+COMMON_DEPEND="
+	dev-perl/Moose
 	>=dev-perl/namespace-clean-0.08
 	dev-perl/Sub-Exporter
 "
+RDEPEND="${COMMON_DEPEND}"
 DEPEND="
-	${RDEPEND}
+	${COMMON_DEPEND}
+	test? (
+		dev-perl/Test-use-ok
+		dev-perl/Test-Warn
+	)
 "
 SRC_TEST="do"

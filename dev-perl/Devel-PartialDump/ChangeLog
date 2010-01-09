@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Devel-PartialDump
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Devel-PartialDump-0.13 (09 Jan 2010)
+
+  09 Jan 2010; Michele Beltrame <m@cattlegrid.info>
+  -Devel-PartialDump-0.09.ebuild, +Devel-PartialDump-0.13.ebuild:
+  Bump
 
 *Devel-PartialDump-0.12 (19 Nov 2009)
 
