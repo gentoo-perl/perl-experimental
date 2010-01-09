@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/HTML-FormFu
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-FormFu-0.06001 (09 Jan 2010)
+
+  09 Jan 2010; Michele Beltrame <m@cattlegrid.info>
+  -HTML-FormFu-0.05001.ebuild, +HTML-FormFu-0.06001.ebuild:
+  Bump
 
 *HTML-FormFu-0.06000 (29 Dec 2009)
 
