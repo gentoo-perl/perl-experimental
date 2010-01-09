@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Method-Signatures-Simple
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Method-Signatures-Simple-0.05 (09 Jan 2010)
+
+  09 Jan 2010; David Abbott <dabbott@gentoo.org>
+  +Method-Signatures-Simple-0.05.ebuild, +metadata.xml:
+  Initial import into perl-overlay
+
