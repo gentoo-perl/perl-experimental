@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Sub-Exporter-ForMethods
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Sub-Exporter-ForMethods-0.100050 (09 Jan 2010)
+
+  09 Jan 2010; Torsten Veller <tove@gentoo.org>
+  -Sub-Exporter-ForMethods-0.091810.ebuild,
+  +Sub-Exporter-ForMethods-0.100050.ebuild:
+  Version bump. Cleanup
 
 *Sub-Exporter-ForMethods-0.091970 (27 Aug 2009)
 
