@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,9 +11,16 @@ DESCRIPTION="Abstract document tree for Perl POD documents"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
-RDEPEND="dev-perl/IO-String"
-DEPEND="${RDEPEND}"
+RDEPEND="dev-perl/IO-String
+	virtual/perl-Scalar-List-Utils
+"
+DEPEND="${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+		virtual/perl-File-Temp
+	)
+"
 
 SRC_TEST=do
