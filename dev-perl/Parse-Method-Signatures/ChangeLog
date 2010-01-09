@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Parse-Method-Signatures
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Parse-Method-Signatures-1.003013 (09 Jan 2010)
+
+  09 Jan 2010; Torsten Veller <tove@gentoo.org>
+  -Parse-Method-Signatures-1.003010.ebuild,
+  -Parse-Method-Signatures-1.003011.ebuild,
+  +Parse-Method-Signatures-1.003013.ebuild:
+  Version bump. Cleanup
 
 *Parse-Method-Signatures-1.003012 (13 Sep 2009)
 
