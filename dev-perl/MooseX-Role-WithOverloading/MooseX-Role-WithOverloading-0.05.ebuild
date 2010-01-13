@@ -1,8 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Roles which support overloading"
@@ -20,6 +20,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	test? ( >=virtual/perl-Test-Simple-0.88 )
 "
 RDEPEND="
 	${COMMON_DEPEND}

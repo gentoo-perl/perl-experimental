@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Role-WithOverloading-0.05 (13 Jan 2010)
+
+  13 Jan 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Role-WithOverloading-0.03.ebuild,
+  +MooseX-Role-WithOverloading-0.05.ebuild:
+  Bump
+
 *MooseX-Role-WithOverloading-0.04 (09 Jan 2010)
 
   09 Jan 2010; Michele Beltrame <m@cattlegrid.info>
