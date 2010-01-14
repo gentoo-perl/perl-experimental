@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-FormValidator-Simple
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-FormValidator-Simple-0.13 (14 Jan 2010)
+
+  14 Jan 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  +Catalyst-Plugin-FormValidator-Simple-0.13.ebuild, +metadata.xml:
+  Restore Catalyst-Plugin-FormValidator-Simple for some legacy apps
+
