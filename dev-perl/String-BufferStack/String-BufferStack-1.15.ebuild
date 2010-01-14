@@ -15,6 +15,6 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=""
+RDEPEND=">=dev-lang/perl-5.8.0"
 DEPEND="${RDEPEND}
 	test? ( virtual/perl-Test-Simple )"
