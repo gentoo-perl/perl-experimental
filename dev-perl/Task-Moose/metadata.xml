@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="strict">Install packages that can make Moose stricter</flag>
+		<flag name="traits">Install packages that facilitate working with
+			Moose Roles/Types</flag>
+		<flag name="instancetype">Install packages that provide Instance types
+			for Moose.</flag>
+		<flag name="declare">Install packages that provide Devel::Declare based
+			declarative syntax.</flag>
+		<flag name="types">Install various Moose Type extensions</flag>
+		<flag name="cli">Install Moose libraries that assist with Command Line
+			Integration</flag>
+		<flag name="logging">Install Moose logging libraries</flag>
+		<flag name="async">Install libraries for working with Moose
+			Asynchronously</flag>
+		<flag name="utilroles">Install various utility roles for Moose</flag>
+		<flag name="other">Install other tools that are helpful with working
+			with Moose</flag>
+		<flag name="utils">Install utilities for working with Moose</flag>
+	</use>
+</pkgmetadata>
