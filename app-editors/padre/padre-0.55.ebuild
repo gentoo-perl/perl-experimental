@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -37,7 +37,7 @@ RDEPEND="
 	>=dev-perl/Class-Adapter-1.05
 	>=dev-perl/Class-Unload-0.03
 	>=dev-perl/Class-XSAccessor-1.05
-	>=dev-perl/DBD-SQLite-1.10
+	>=dev-perl/DBD-SQLite-1.27
 	>=dev-perl/DBI-1.58
 	>=dev-perl/Devel-Dumpvar-0.04
 	>=dev-perl/Debug-Client-0.11
@@ -63,8 +63,7 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.22
 	>=dev-perl/Module-Refresh-0.13
 	>=dev-perl/Module-Starter-1.50
-	>=dev-perl/ORLite-1.20
-	>=dev-perl/ORLite-Migrate-0.03
+	>=dev-perl/ORLite-1.30
 	>=dev-perl/PAR-0.989
 	>=dev-perl/Params-Util-0.33
 	>=dev-perl/Parse-ErrorString-Perl-0.11
@@ -80,13 +79,13 @@ RDEPEND="
 	>=dev-perl/Template-Tiny-0.03
 	virtual/perl-Text-Balanced
 	>=dev-perl/Text-Diff-0.35
-	>=dev-perl/Text-FindIndent-0.05
+	>=dev-perl/Text-FindIndent-0.06
 	>=dev-perl/Thread-Queue-2.11
 	>=virtual/perl-threads-1.71
 	>=virtual/perl-threads-shared-1.26
 	>=dev-perl/URI-0
 	>=dev-perl/wxperl-0.91
-	>=dev-perl/Wx-Perl-ProcessStream-0.20
+	>=dev-perl/Wx-Perl-ProcessStream-0.24
 	>=dev-perl/YAML-Tiny-1.32
 	virtual/perl-version
 "
