@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/CGI-Application-Plugin-Authentication
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CGI-Application-Plugin-Authentication-0.16 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +CGI-Application-Plugin-Authentication-0.16.ebuild, metadata.xml:
+  Bumped. Add USE=recommended feature
 
 *CGI-Application-Plugin-Authentication-0.14 (29 Oct 2009)
 

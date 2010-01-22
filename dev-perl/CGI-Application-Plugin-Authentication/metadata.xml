@@ -5,5 +5,8 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="recommended">Install recommended extras</flag>
+	</use>
 </pkgmetadata>
