@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Tie-Sub
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Tie-Sub-0.09 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com> +Tie-Sub-0.09.ebuild,
+  +metadata.xml:
+  Added
+
