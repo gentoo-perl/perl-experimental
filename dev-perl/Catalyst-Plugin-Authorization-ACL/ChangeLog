@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-Authorization-ACL
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Authorization-ACL-0.14.ebuild:
+  CPANCleaned
 
 *Catalyst-Plugin-Authorization-ACL-0.15 (03 Nov 2009)
 
