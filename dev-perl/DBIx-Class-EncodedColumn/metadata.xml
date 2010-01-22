@@ -5,5 +5,11 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-    </maintainer>
+	</maintainer>
+	<use>
+			<flag name="md5">Support for Digest::MD5.</flag>
+			<flag name="sha">Support for Digest::SHA.</flag>
+			<flag name="blowfish">Support for Crypt::Eksblowfish</flag>
+			<flag name="gpg">Support for OpenPGP Encryption</flag>
+	</use>
 </pkgmetadata>
