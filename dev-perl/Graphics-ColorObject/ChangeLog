@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Graphics-ColorObject
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Graphics-ColorObject-0.5.0 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Graphics-ColorObject-0.5.0.ebuild, +metadata.xml:
+  Added
+
