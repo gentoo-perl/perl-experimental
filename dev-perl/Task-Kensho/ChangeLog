@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Task-Kensho
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Task-Kensho-0.20 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-0.20.ebuild:
+  Bumped. 
 
   31 Dec 2009; Kent Fredric <kentfredric@gmail.com>
   Task-Kensho-0.19.ebuild, metadata.xml:
