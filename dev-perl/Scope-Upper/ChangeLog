@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Scope-Upper
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Scope-Upper-0.10 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Scope-Upper-0.10.ebuild:
+  Bumped
 
   22 May 2009; Torsten Veller <tove@gentoo.org> -Scope-Upper-0.07.ebuild,
   -Scope-Upper-0.08.ebuild:
