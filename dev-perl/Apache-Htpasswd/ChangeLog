@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Apache-Htpasswd
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Apache-Htpasswd-1.8 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Apache-Htpasswd-1.8.ebuild, +metadata.xml:
+  Added.
+
