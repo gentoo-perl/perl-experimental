@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Mixin-ExtraFields
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Mixin-ExtraFields-0.008 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Mixin-ExtraFields-0.008.ebuild:
+  Bumped
 
 *Mixin-ExtraFields-0.007 (11 May 2009)
 
