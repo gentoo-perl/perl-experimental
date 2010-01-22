@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Color-Calc
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Color-Calc-1.060 (22 Jan 2010)
+
+  22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Color-Calc-1.060.ebuild, +metadata.xml:
+  Added
+
