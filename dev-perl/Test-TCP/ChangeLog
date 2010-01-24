@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-TCP
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-TCP-0.16 (24 Jan 2010)
+
+  24 Jan 2010; Torsten Veller <tove@gentoo.org> +Test-TCP-0.16.ebuild,
+  +metadata.xml:
+  Initial commit
+
