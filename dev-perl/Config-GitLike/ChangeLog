@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Config-GitLike
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Config-GitLike-1.03 (24 Jan 2010)
+
+  24 Jan 2010; Kent Fredric <kentfredric@gmail.com>
+  +Config-GitLike-1.03.ebuild, +metadata.xml:
+  Added
+
