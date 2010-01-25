@@ -63,6 +63,7 @@ perl-module_src_unpack() {
 perl-module_src_prepare() {
 	debug-print-function $FUNCNAME "$@"
 	has src_prepare ${PERL_EXPF} && base_src_prepare
+	fixperlosxcrap
 	esvn_clean
 }
 

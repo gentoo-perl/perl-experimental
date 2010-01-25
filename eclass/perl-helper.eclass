@@ -24,6 +24,19 @@ fixlocalpod() {
 	find "${D}" -depth -mindepth 1 -type d -empty -delete
 }
 
+fixperlosxcrap() {
+	debug-print-function $FUNCNAME "$@"
+	# Remove "AppleDouble encoded Macintosh file"
+	#find "${S}" -type f -name "._*" -delete
+	find "${S}" -type f -name "._*" -print0 | while read -rd '' f ; do
+		echo "* Removing AppleDouble encoded Macintosh file: ${f#${S}/}"
+		rm -f ${f}
+		f=${f#${S}/}
+		sed -i "/${f//\//\/}/d" "${S}"/MANIFEST || die
+	done
+}
+
+
 fixperlpacklist() {
 	debug-print-function $FUNCNAME "$@"
 	perlinfo
