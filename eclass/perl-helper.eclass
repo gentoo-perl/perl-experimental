@@ -26,13 +26,17 @@ fixlocalpod() {
 
 fixperlosxcrap() {
 	debug-print-function $FUNCNAME "$@"
+
 	# Remove "AppleDouble encoded Macintosh file"
-	#find "${S}" -type f -name "._*" -delete
 	find "${S}" -type f -name "._*" -print0 | while read -rd '' f ; do
-		echo "* Removing AppleDouble encoded Macintosh file: ${f#${S}/}"
-		rm -f ${f}
-		f=${f#${S}/}
-		sed -i "/${f//\//\/}/d" "${S}"/MANIFEST || die
+		einfo "Removing AppleDouble encoded Macintosh file: ${f#${S}/}"
+		rm -f "${f}"
+	#	f=${f#${S}/}
+	#	f=${f//\//\/}
+	#	f=${f//\./\.}
+	#	sed -i "/${f}/d" "${S}"/MANIFEST || die
+		grep -q "${f#${S}/}" "${S}"/MANIFEST && \
+			elog "AppleDouble encoded Macintosh file in MANIFEST: ${f#${S}/}"
 	done
 }
 
