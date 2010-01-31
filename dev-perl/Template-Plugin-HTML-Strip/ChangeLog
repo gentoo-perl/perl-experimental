@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Template-Plugin-HTML-Strip
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Template-Plugin-HTML-Strip-0.01 (31 Jan 2010)
+
+  31 Jan 2010; Michele Beltrame <m@cattlegrid.info>
+  +Template-Plugin-HTML-Strip-0.01.ebuild, +metadata.xml:
+  Initial
+
