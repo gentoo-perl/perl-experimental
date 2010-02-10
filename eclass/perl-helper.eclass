@@ -20,14 +20,18 @@ perlinfo() {
 
 fixlocalpod() {
 	debug-print-function $FUNCNAME "$@"
-	find "${D}" -type f -name perllocal.pod -delete
-	find "${D}" -depth -mindepth 1 -type d -empty -delete
+
+	fixperlprefix
+
+	find "${ED}" -type f -name perllocal.pod -delete
+	find "${ED}" -depth -mindepth 1 -type d -empty -delete
 }
 
 fixperlosxcrap() {
 	debug-print-function $FUNCNAME "$@"
 
 	# Remove "AppleDouble encoded Macintosh file"
+	local f
 	find "${S}" -type f -name "._*" -print0 | while read -rd '' f ; do
 		einfo "Removing AppleDouble encoded Macintosh file: ${f#${S}/}"
 		rm -f "${f}"
@@ -38,6 +42,18 @@ fixperlosxcrap() {
 		grep -q "${f#${S}/}" "${S}"/MANIFEST && \
 			elog "AppleDouble encoded Macintosh file in MANIFEST: ${f#${S}/}"
 	done
+}
+
+fixperlmodulemanpages() {
+	debug-print-function $FUNCNAME "$@"
+
+	fixperlprefix
+
+	if [[ -d "${ED}"/usr/share/man ]] ; then
+#		einfo "Cleaning out stray man files"
+		find "${ED}"/usr/share/man -type f -name "*.3pm" -delete
+		find "${ED}"/usr/share/man -depth -type d -empty -delete
+	fi
 }
 
 
@@ -53,7 +69,10 @@ fixperlpacklist() {
 
 fixperltemppath() {
 	debug-print-function $FUNCNAME "$@"
-	find "${D}" -type f -not -name '*.so' -print0 | while read -rd '' f ; do
+
+	fixperlprefix
+
+	find "${ED}" -type f -not -name '*.so' -print0 | while read -rd '' f ; do
 		if file "${f}" | grep -q -i " text" ; then
 			grep -q "${D}" "${f}" && ewarn "QA: File contains a temporary path ${f}"
 			sed -i -e "s:${D}:/:g" "${f}"
@@ -68,16 +87,18 @@ linkduallifescripts() {
 		return 0
 	fi
 
+	fixperlprefix
+
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in "${DUALLIFESCRIPTS[@]}" ; do
 			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-[0-9]*"
-			ff=`echo "${ROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
+			ff=`echo "${EROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
 			ff=${ff##*.1}
 			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-[0-9]*"
 		done
 	else
-		pushd "${D}" > /dev/null
+		pushd "${ED}" > /dev/null
 		for i in $(find usr/bin -maxdepth 1 -type f 2>/dev/null) ; do
 			mv ${i}{,-${PV}-${P}} || die
 			DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i##*/}
@@ -87,4 +108,17 @@ linkduallifescripts() {
 		done
 		popd > /dev/null
 	fi
+}
+
+fixperlprefix() {
+	debug-print-function $FUNCNAME "$@"
+	case ${EAPI:-0} in
+		0|1|2)
+			if ! use prefix; then
+				EPREFIX=
+				ED=${D}
+				EROOT=${ROOT}
+			fi
+			;;
+	esac
 }

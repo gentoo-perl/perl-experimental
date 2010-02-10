@@ -39,7 +39,7 @@ EXPORT_FUNCTIONS ${PERL_EXPF}
 
 DESCRIPTION="Based on the $ECLASS eclass"
 
-LICENSE="${LICENSE:-|| ( Artistic GPL-2 )}"
+LICENSE="${LICENSE:-|| ( Artistic GPL-1 GPL-2 GPL-3 )}"
 
 [[ -z "${SRC_URI}" && -z "${MODULE_A}" ]] && MODULE_A="${MY_P:-${P}}.tar.gz"
 [[ -z "${SRC_URI}" && -n "${MODULE_AUTHOR}" ]] && \
@@ -78,6 +78,7 @@ perl-module_src_prep() {
 	SRC_PREP="yes"
 
 	perlinfo
+	fixperlprefix
 
 	export PERL_MM_USE_DEFAULT=1
 	# Disable ExtUtils::AutoInstall from prompting
@@ -101,7 +102,7 @@ perl-module_src_prep() {
 	elif [[ -f Makefile.PL ]] ; then
 		einfo "Using ExtUtils::MakeMaker"
 		set -- \
-			PREFIX=/usr \
+			PREFIX=${EPREFIX}/usr \
 			INSTALLDIRS=vendor \
 			INSTALLMAN3DIR='none' \
 			DESTDIR="${D}" \
@@ -173,7 +174,10 @@ perl-module_src_test() {
 
 perl-module_src_install() {
 	debug-print-function $FUNCNAME "$@"
+
 	perlinfo
+	fixperlprefix
+
 	local f
 
 	if [[ -z ${mytargets} ]] ; then
@@ -191,12 +195,7 @@ perl-module_src_install() {
 			|| die "emake ${myinst} ${mytargets} failed"
 	fi
 
-	if [[ -d "${D}"/usr/share/man ]] ; then
-#		einfo "Cleaning out stray man files"
-		find "${D}"/usr/share/man -type f -name "*.3pm" -delete
-		find "${D}"/usr/share/man -depth -type d -empty -delete
-	fi
-
+	fixperlmodulemanpages
 	fixlocalpod
 	fixperlpacklist
 	fixperltemppath
