@@ -8,10 +8,10 @@ MODULE_AUTHOR=DROLSKY
 inherit perl-module
 
 DESCRIPTION="Watch for changes to files, cross-platform style."
-LICENSE="|| ( Artistic GPL-2 )"
-IUSE="test"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-MOP
