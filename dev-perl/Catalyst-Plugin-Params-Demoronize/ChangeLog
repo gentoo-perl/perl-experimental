@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Params-Demoronize
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-Params-Demoronize-1.13 (11 Feb 2010)
+
+  11 Feb 2010; Michele Beltrame <m@cattlegrid.info>
+  +Catalyst-Plugin-Params-Demoronize-1.13.ebuild, +metadata.xml:
+  Initial
+
