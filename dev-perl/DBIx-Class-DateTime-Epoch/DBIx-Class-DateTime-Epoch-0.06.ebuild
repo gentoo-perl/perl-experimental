@@ -1,11 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=BRICAS
 inherit perl-module
 
-DESCRIPTION="Make subrequests to actions in Catalyst"
+DESCRIPTION="Automatic inflation/deflation of epoch-based DateTime objects for DBIx::Class"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
@@ -13,12 +13,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7012
+	dev-perl/DateTime
+	>=dev-perl/DBIx-Class-0.08103
+	>=dev-perl/DBIx-Class-TimeStamp-0.07
 "
 DEPEND="
 	${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
+		dev-perl/DBICx-TestDatabase
 	)
 "
 SRC_TEST="do"

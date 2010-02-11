@@ -1,8 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=AGRUNDMA
+MODULE_AUTHOR=MRAMBERG
 inherit perl-module
 
 DESCRIPTION="Realtime file upload information"
@@ -14,6 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	virtual/perl-Module-Build
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.80004
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
 "
