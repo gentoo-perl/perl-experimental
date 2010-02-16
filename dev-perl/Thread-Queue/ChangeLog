@@ -1,8 +1,0 @@
-# ChangeLog for dev-perl/Thread-Queue
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-  22 Mar 2009; Torsten Veller <tove@gentoo.org>
-  +dev-perl/Thread-Queue/metadata.xml:
-  Initial commit
-
