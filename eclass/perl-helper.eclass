@@ -4,6 +4,11 @@
 
 perlinfo() {
 	debug-print-function $FUNCNAME "$@"
+	perl_set_version
+}
+
+perl_set_version() {
+	debug-print-function $FUNCNAME "$@"
 	debug-print "$FUNCNAME: perlinfo_done=${perlinfo_done}"
 	${perlinfo_done} && return 0
 	perlinfo_done=true
@@ -20,14 +25,18 @@ perlinfo() {
 
 fixlocalpod() {
 	debug-print-function $FUNCNAME "$@"
+	perl_delete_localpod
+}
 
-	fixperlprefix
+perl_delete_localpod() {
+	debug-print-function $FUNCNAME "$@"
+	perl_set_eprefix
 
 	find "${ED}" -type f -name perllocal.pod -delete
 	find "${ED}" -depth -mindepth 1 -type d -empty -delete
 }
 
-fixperlosxcrap() {
+perl_fix_osx_extra() {
 	debug-print-function $FUNCNAME "$@"
 
 	# Remove "AppleDouble encoded Macintosh file"
@@ -44,10 +53,10 @@ fixperlosxcrap() {
 	done
 }
 
-fixperlmodulemanpages() {
+perl_delete_module_manpages() {
 	debug-print-function $FUNCNAME "$@"
 
-	fixperlprefix
+	perl_set_eprefix
 
 	if [[ -d "${ED}"/usr/share/man ]] ; then
 #		einfo "Cleaning out stray man files"
@@ -57,7 +66,7 @@ fixperlmodulemanpages() {
 }
 
 
-fixperlpacklist() {
+perl_delete_packlist() {
 	debug-print-function $FUNCNAME "$@"
 	perlinfo
 	if [[ -d ${D}/${VENDOR_LIB} ]] ; then
@@ -67,10 +76,10 @@ fixperlpacklist() {
 	fi
 }
 
-fixperltemppath() {
+perl_remove_temppath() {
 	debug-print-function $FUNCNAME "$@"
 
-	fixperlprefix
+	perl_set_eprefix
 
 	find "${ED}" -type f -not -name '*.so' -print0 | while read -rd '' f ; do
 		if file "${f}" | grep -q -i " text" ; then
@@ -81,13 +90,13 @@ fixperltemppath() {
 }
 
 
-linkduallifescripts() {
+perl_link_duallife_scripts() {
 	debug-print-function $FUNCNAME "$@"
 	if [[ ${CATEGORY} != perl-core ]] || ! has_version ">=dev-lang/perl-5.8.8-r8" ; then
 		return 0
 	fi
 
-	fixperlprefix
+	perl_set_eprefix
 
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
@@ -110,7 +119,7 @@ linkduallifescripts() {
 	fi
 }
 
-fixperlprefix() {
+perl_set_eprefix() {
 	debug-print-function $FUNCNAME "$@"
 	case ${EAPI:-0} in
 		0|1|2)
