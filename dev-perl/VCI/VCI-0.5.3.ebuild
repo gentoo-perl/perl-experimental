@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -12,7 +12,7 @@ DESCRIPTION="A generic interface for interacting with various version control sy
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
-#SRC_TEST="do"
+SRC_TEST="do"
 
 IUSE="bazaar cvs git mercurial subversion test"
 RDEPEND=">=dev-perl/Moose-0.27
@@ -23,9 +23,9 @@ RDEPEND=">=dev-perl/Moose-0.27
 	>=dev-perl/Text-Diff-Parser-0.07
 	bazaar? (
 		dev-util/bzr
-		virtual/perl-IPC-Cmd
+		>=virtual/perl-IPC-Cmd-0.42
 		>=virtual/perl-Module-Load-Conditional-0.24
-		dev-perl/IPC-Run
+		>=dev-perl/IPC-Run-0.55
 		dev-perl/XML-Simple
 	)
 	subversion? (
@@ -43,10 +43,9 @@ RDEPEND=">=dev-perl/Moose-0.27
 	)
 	cvs? (
 		dev-util/cvs
-		virtual/perl-IPC-Cmd
+		>=virtual/perl-IPC-Cmd-0.42
 		>=virtual/perl-Module-Load-Conditional-0.24
 		>=dev-perl/IPC-Run-0.55
-		dev-perl/XML-Simple
 		virtual/perl-File-Spec
 		virtual/perl-File-Temp
 		virtual/perl-Scalar-List-Utils
