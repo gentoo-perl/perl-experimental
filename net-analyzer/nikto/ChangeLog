@@ -1,6 +1,12 @@
 # ChangeLog for net-analyzer/nikto
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/net-analyzer/nikto/ChangeLog,v 1.24 2009/03/20 16:02:06 dertobi123 Exp $
+
+*nikto-2.1.1 (20 Feb 2010)
+
+  20 Feb 2010; David Abbott <dabbott@gentoo.org> -nikto-2.1.0.ebuild,
+  +nikto-2.1.1.ebuild, files/nikto.conf, +files/nikto.conf.patch:
+  updated to 2.1.1 numerous bug fixes bug 292312 thanks Marcin Miroslaw
 
 *nikto-2.1.0 (19 Nov 2009)
 
