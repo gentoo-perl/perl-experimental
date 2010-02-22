@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="ssl"
 
-RDEPEND="dev-lang/perl
+DEPEND="dev-lang/perl
 		net-analyzer/nmap
 		ssl? (
 			dev-libs/openssl
@@ -23,11 +23,11 @@ RDEPEND="dev-lang/perl
 		)
 		>=net-libs/libwhisker-2.5"
 
-DEPEND="${RDEPEND}"
+RDEPEND="${DEPEND}"
 
 src_prepare() {
 	rm docs/._* || die "removing osx files failed"
-	epatch "${FILESDIR}"/${PN}.conf.patch || die "patch failed"
+	epatch "${FILESDIR}"/${PF}-PL.patch || die "patch failed"
 }
 
 src_install() {
@@ -53,5 +53,7 @@ src_install() {
 }
 
 pkg_postinst() {
+	einfo "Removing bundled LW2.pm"
+	rm /var/lib/nikto/plugins/LW2.pm || die "removing bundled library failed"
 	elog 'Default configuration file is "/etc/nikto/nikto.conf"'
 }
