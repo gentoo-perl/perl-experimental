@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/net-analyzer/nikto/ChangeLog,v 1.24 2009/03/20 16:02:06 dertobi123 Exp $
 
+  23 Feb 2010; David Abbott <dabbott@gentoo.org> nikto-2.1.1.ebuild:
+  removed bundled lib LW2.pm in src_prepare
+
   22 Feb 2010; David Abbott <dabbott@gentoo.org> nikto-2.1.1.ebuild,
   +files/nikto-2.1.1-PL.patch, -files/nikto.conf.patch:
   Removing bundled LW2.pm

@@ -27,6 +27,7 @@ RDEPEND="${DEPEND}"
 
 src_prepare() {
 	rm docs/._* || die "removing osx files failed"
+	rm plugins/LW2.pm || die "removing bundled lib LW2.pm failed"
 	epatch "${FILESDIR}"/${PF}-PL.patch || die "patch failed"
 }
 
@@ -53,7 +54,5 @@ src_install() {
 }
 
 pkg_postinst() {
-	einfo "Removing bundled LW2.pm"
-	rm /var/lib/nikto/plugins/LW2.pm || die "removing bundled library failed"
 	elog 'Default configuration file is "/etc/nikto/nikto.conf"'
 }
