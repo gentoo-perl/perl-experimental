@@ -22,18 +22,18 @@ RDEPEND=">=dev-perl/Moose-0.27
 	dev-perl/DateTime-Format-DateParse
 	>=dev-perl/Text-Diff-Parser-0.07
 	bazaar? (
-		dev-util/bzr
+		dev-vcs/bzr
 		>=virtual/perl-IPC-Cmd-0.42
 		>=virtual/perl-Module-Load-Conditional-0.24
 		>=dev-perl/IPC-Run-0.55
 		dev-perl/XML-Simple
 	)
 	subversion? (
-		>=dev-util/subversion-1.2[perl]
+		>=dev-util/subversion-1.2[perl,-dso]
 		virtual/perl-File-Spec
 	)
 	mercurial? (
-		dev-util/mercurial
+		dev-vcs/mercurial
 		dev-perl/libwww-perl
 		dev-perl/XML-Simple
 	)
@@ -58,11 +58,3 @@ DEPEND="virtual/perl-Module-Build
 		dev-perl/Test-Warn
 		virtual/perl-File-Spec
 	)"
-
-pkg_setup() {
-	if use subversion && built_with_use dev-util/subversion dso; then
-		eerror "Subversion's Perl bindings segfault with USE=dso."
-		eerror "See https://bugs.gentoo.org/show_bug.cgi?id=223747."
-		die "Disable dso USE flag for dev-util/subversion"
-	fi
-}
