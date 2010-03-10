@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Mojolicious
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Mojolicious-0.999923 (10 Mar 2010)
+
+  10 Mar 2010; Michele Beltrame <m@cattlegrid.info>
+  +Mojolicious-0.999923.ebuild, +metadata.xml:
+  Initial
+
