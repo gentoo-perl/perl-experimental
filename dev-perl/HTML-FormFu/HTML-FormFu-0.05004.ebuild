@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,7 +24,7 @@ COMMON_DEPEND="
 	>=dev-perl/Data-Visitor-0.23
 	dev-perl/Date-Calc
 	>=dev-perl/DateTime-0.38
-	>=dev-perl/DateTime-Format-Builder-0.7901
+	>=dev-perl/DateTime-Format-Builder-0.79.01
 	dev-perl/DateTime-Format-Natural
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/DateTime-Locale
