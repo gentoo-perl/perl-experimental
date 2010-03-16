@@ -22,7 +22,7 @@ SRC_TEST="do"
 IUSE="test"
 RDEPEND=">=dev-perl/Catalyst-Runtime-5.8
 	dev-perl/Data-FormValidator
-	dev-perl/Class-C3-Adopt-NEXT"
+	dev-perl/MRO-Compat"
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
