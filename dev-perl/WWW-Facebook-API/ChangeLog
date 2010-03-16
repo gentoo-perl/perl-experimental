@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/WWW-Facebook-API
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*WWW-Facebook-API-0.4.18 (16 Mar 2010)
+
+  16 Mar 2010; Torsten Veller <tove@gentoo.org>
+  -WWW-Facebook-API-0.4.14.ebuild, -WWW-Facebook-API-0.4.16.ebuild,
+  +WWW-Facebook-API-0.4.18.ebuild:
+  Version bump. Cleanup
 
 *WWW-Facebook-API-0.4.17 (10 Dec 2009)
 
