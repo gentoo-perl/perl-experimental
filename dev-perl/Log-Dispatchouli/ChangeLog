@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Log-Dispatchouli
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Log-Dispatchouli-1.100.712 (16 Mar 2010)
+
+  16 Mar 2010; Torsten Veller <tove@gentoo.org>
+  +Log-Dispatchouli-1.100.712.ebuild, +metadata.xml:
+  Initial version
+
