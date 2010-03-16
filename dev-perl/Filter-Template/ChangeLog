@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Filter-Template
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Filter-Template-1.040 (16 Mar 2010)
+
+  16 Mar 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Filter-Template-1.02.ebuild, -Filter-Template-1.03.ebuild,
+  +Filter-Template-1.040.ebuild:
+  Bump dev-perl/Filter-Template to 1.040 and remove versions not on CPAN
 
 *Filter-Template-1.03 (13 Aug 2009)
 
