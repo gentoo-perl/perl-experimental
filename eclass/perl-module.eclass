@@ -21,7 +21,7 @@ case "${EAPI:-0}" in
 	0|1)
 		PERL_EXPF="${PERL_EXPF} pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
 		;;
-	2)
+	2|3)
 		PERL_EXPF="${PERL_EXPF} src_prepare src_configure"
 		[[ ${CATEGORY} == "perl-core" ]] && \
 			PERL_EXPF="${PERL_EXPF} pkg_postinst pkg_postrm"
