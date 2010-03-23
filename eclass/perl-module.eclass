@@ -33,6 +33,9 @@ case "${EAPI:-0}" in
 				;;
 		esac
 		;;
+	*)
+		DEPEND="EAPI-UNSUPPORTED"
+		;;
 esac
 
 EXPORT_FUNCTIONS ${PERL_EXPF}
