@@ -1,6 +1,11 @@
 # ChangeLog for perl-core/CPANPLUS
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CPANPLUS-0.9003 (24 Mar 2010)
+
+  24 Mar 2010; Torsten Veller <tove@gentoo.org> +CPANPLUS-0.9003.ebuild:
+  Version bump
 
 *CPANPLUS-0.9001 (28 Dec 2009)
 
