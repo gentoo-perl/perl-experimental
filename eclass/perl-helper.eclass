@@ -80,16 +80,13 @@ perl_delete_packlist() {
 perl_remove_temppath() {
 	debug-print-function $FUNCNAME "$@"
 
-	perl_set_eprefix
-
-	find "${ED}" -type f -not -name '*.so' -print0 | while read -rd '' f ; do
+	find "${D}" -type f -not -name '*.so' -print0 | while read -rd '' f ; do
 		if file "${f}" | grep -q -i " text" ; then
 			grep -q "${D}" "${f}" && ewarn "QA: File contains a temporary path ${f}"
 			sed -i -e "s:${D}:/:g" "${f}"
 		fi
 	done
 }
-
 
 perl_link_duallife_scripts() {
 	debug-print-function $FUNCNAME "$@"
