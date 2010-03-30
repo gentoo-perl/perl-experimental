@@ -45,11 +45,11 @@ perl_fix_osx_extra() {
 	find "${S}" -type f -name "._*" -print0 | while read -rd '' f ; do
 		einfo "Removing AppleDouble encoded Macintosh file: ${f#${S}/}"
 		rm -f "${f}"
-	#	f=${f#${S}/}
+		f=${f#${S}/}
 	#	f=${f//\//\/}
 	#	f=${f//\./\.}
 	#	sed -i "/${f}/d" "${S}"/MANIFEST || die
-		grep -q "${f#${S}/}" "${S}"/MANIFEST && \
+		grep -q "${f}" "${S}"/MANIFEST && \
 			elog "AppleDouble encoded Macintosh file in MANIFEST: ${f#${S}/}"
 	done
 }
