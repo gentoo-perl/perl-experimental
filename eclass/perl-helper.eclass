@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+[[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
+
 perlinfo() {
 	debug-print-function $FUNCNAME "$@"
 	perl_set_version
@@ -68,7 +70,7 @@ perl_delete_module_manpages() {
 
 perl_delete_packlist() {
 	debug-print-function $FUNCNAME "$@"
-	perlinfo
+	perl_set_version
 	if [[ -d ${D}/${VENDOR_LIB} ]] ; then
 		find "${D}/${VENDOR_LIB}" -type f -a \( -name .packlist \
 			-o \( -name '*.bs' -a -empty \) \) -delete

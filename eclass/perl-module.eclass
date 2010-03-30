@@ -13,7 +13,6 @@
 # modules, and their incorporation into the Gentoo Linux system.
 
 inherit perl-helper eutils base
-[[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
 PERL_EXPF="src_unpack src_compile src_test src_install"
 
