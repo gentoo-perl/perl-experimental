@@ -32,10 +32,9 @@ fixlocalpod() {
 
 perl_delete_localpod() {
 	debug-print-function $FUNCNAME "$@"
-	perl_set_eprefix
 
-	find "${ED}" -type f -name perllocal.pod -delete
-	find "${ED}" -depth -mindepth 1 -type d -empty -delete
+	find "${D}" -type f -name perllocal.pod -delete
+	find "${D}" -depth -mindepth 1 -type d -empty -delete
 }
 
 perl_fix_osx_extra() {
