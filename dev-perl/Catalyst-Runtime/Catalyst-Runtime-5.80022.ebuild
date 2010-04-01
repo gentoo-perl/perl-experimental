@@ -4,7 +4,7 @@
 
 EAPI=2
 
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="The Elegant MVC Web Application Framework - runtime version"
@@ -14,10 +14,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-RDEPEND="
+COMMON_DEPEND="
 	dev-perl/List-MoreUtils
 	>=dev-perl/namespace-autoclean-0.09
-	dev-perl/namespace-clean
+	>=dev-perl/namespace-clean-0.13
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00903
 	>=dev-perl/Class-MOP-0.95
@@ -56,8 +56,11 @@ RDEPEND="
 	!<=dev-perl/Catalyst-Devel-1.19
 
 "
+RDEPEND="
+	${COMMON_DEPEND}
+"
 DEPEND="
-	${RDEPEND}
+	${COMMON_DEPEND}
 	test? (
 		dev-perl/Test-Exception
 		dev-perl/Class-Data-Inheritable
