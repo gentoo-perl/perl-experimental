@@ -1,6 +1,11 @@
 # ChangeLog for mail-filter/spamassassin
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*spamassassin-3.3.1 (02 Apr 2010)
+
+  02 Apr 2010; David Abbott <dabbott@gentoo.org> +spamassassin-3.3.1.ebuild:
+  Added spamassassin-3.3.1.ebuild
 
   21 Dec 2009; David Abbott <dabbott@gentoo.org> files/3.2.5-spamd.init:
   openrc rc-status fix
