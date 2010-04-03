@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/IPTables-Parse
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*IPTables-Parse-0.7 (03 Apr 2010)
+
+  03 Apr 2010; Torsten Veller <tove@gentoo.org> +IPTables-Parse-0.7.ebuild,
+  +metadata.xml:
+  Initial commit. Thanks to René 'Necoro' Neumann (#312615)
+
