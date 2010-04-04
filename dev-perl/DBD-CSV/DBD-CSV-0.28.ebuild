@@ -18,6 +18,6 @@ SRC_TEST="do"
 IUSE="test"
 RDEPEND=">=dev-perl/DBI-1.42
 	>=dev-perl/Text-CSV_XS-0.64
-	>=dev-perl/SQL-Statement-1.22"
+	>=dev-perl/SQL-Statement-1.25"
 DEPEND="${RDEPEND}
 	test? ( virtual/perl-Test-Simple )"
