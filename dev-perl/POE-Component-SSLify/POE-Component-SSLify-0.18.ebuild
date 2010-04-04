@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,8 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/Net-SSLeay-1.30"
+RDEPEND=">=dev-perl/Net-SSLeay-1.36"
 DEPEND="virtual/perl-Module-Build
 	${RDEPEND}
+	>=dev-perl/POE-1.267
 	test? ( virtual/perl-Test-Simple )"
