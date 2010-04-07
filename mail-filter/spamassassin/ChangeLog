@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Apr 2010; David Abbott <dabbott@gentoo.org> -files/3.0.0-spamd.init,
+  -files/3.2.5-spamd.init, -files/spamassassin-3.2.5-DESTDIR.patch,
+  -files/3.2.2-upstream-5574-fix.patch, -files/3.1.8-archive-iterator.patch,
+  -files/3.2.2-upstream-5574-testcase.patch, -files/secrets.cf,
+  metadata.xml:
+  Cleanup - old files removed
+
   07 Apr 2010; David Abbott <dabbott@gentoo.org> -spamassassin-3.3.1.ebuild:
   removed spamassassin 3.3.1 - 3.3.1-r1 in main tree
 
