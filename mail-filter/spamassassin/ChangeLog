@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*spamassassin-3.3.1-r1 (07 Apr 2010)
+
+  07 Apr 2010; David Abbott <dabbott@gentoo.org> +files/3.3.1-spamd.init,
+  +spamassassin-3.3.1-r1.ebuild:
+  fixed init for bug 243474 and 313599
+
 *spamassassin-3.3.1 (02 Apr 2010)
 
   02 Apr 2010; David Abbott <dabbott@gentoo.org> +spamassassin-3.3.1.ebuild:
