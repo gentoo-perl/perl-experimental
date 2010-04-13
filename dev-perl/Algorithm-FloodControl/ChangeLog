@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Algorithm-FloodControl
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*Algorithm-FloodControl-1.990000 (13 Apr 2010)
+
+  13 Apr 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  +Algorithm-FloodControl-1.990000.ebuild, +metadata.xml:
+  Add Algorithm-FloodControl
+
