@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
-IUSE="test"
+IUSE=""
 RDEPEND="dev-perl/Set-IntSpan
 	>=dev-perl/Log-Log4perl-1.0
 	>=dev-perl/yaml-0.62"
