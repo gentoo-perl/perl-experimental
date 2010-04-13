@@ -27,7 +27,6 @@ HOMEPAGE="http://www.perl.org/"
 LICENSE="|| ( Artistic GPL-1 GPL-2 GPL-3 )"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd"
-#KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~sparc-fbsd ~x86-fbsd"
 IUSE="berkdb build debug doc gdbm ithreads"
 
 COMMON_DEPEND="berkdb? ( sys-libs/db )
@@ -49,7 +48,7 @@ dual_scripts() {
 	src_remove_dual_scripts perl-core/Encode             2.39    enc2xs piconv
 	src_remove_dual_scripts perl-core/ExtUtils-MakeMaker 6.56    instmodsh
 	src_remove_dual_scripts perl-core/Module-Build       0.3603  config_data
-	src_remove_dual_scripts perl-core/Module-CoreList    2.27    corelist
+	src_remove_dual_scripts perl-core/Module-CoreList    2.29    corelist
 	src_remove_dual_scripts perl-core/PodParser          1.37    pod2usage podchecker podselect
 	src_remove_dual_scripts perl-core/Test-Harness       3.17    prove
 	src_remove_dual_scripts perl-core/podlators          2.3.1   pod2man pod2text
