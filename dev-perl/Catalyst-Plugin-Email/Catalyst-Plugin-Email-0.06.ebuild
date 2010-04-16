@@ -18,7 +18,6 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Email-Send
 	dev-perl/Email-MIME
-	dev-perl/Email-MIME-Creator
 "
 DEPEND="${RDEPEND}"
 SRC_TEST="do"

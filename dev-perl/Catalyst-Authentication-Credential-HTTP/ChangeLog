@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Authentication-Credential-HTTP
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*Catalyst-Authentication-Credential-HTTP-1.012 (15 Apr 2010)
+
+  15 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +Catalyst-Authentication-Credential-HTTP-1.012.ebuild:
+  Initial
+

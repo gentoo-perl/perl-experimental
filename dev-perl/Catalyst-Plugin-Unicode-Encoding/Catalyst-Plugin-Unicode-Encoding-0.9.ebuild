@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,12 +18,13 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.80
 	>=virtual/perl-Encode-2.21
 	>=dev-perl/libwww-perl-5.828
+	>=dev-perl/URI-1.36
 "
 DEPEND="
-	test? (
-		dev-perl/Test-WWW-Mechanize-Catalyst
-	)
 	${RDEPEND}
+	test? (
+		>=virtual/perl-Test-Simple-0.88
+		dev-perl/IO-stringy
+	)
 "
-
 SRC_TEST=do

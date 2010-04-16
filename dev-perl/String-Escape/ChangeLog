@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-Escape
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*String-Escape-2010.002 (16 Apr 2010)
+
+  16 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +String-Escape-2010.002.ebuild:
+  Initial
+

@@ -2,23 +2,21 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=GRODITI
+MODULE_AUTHOR=HDP
 inherit perl-module
 
-DESCRIPTION="A set of commonly-used type constraints that do not ship with Moose by default"
+DESCRIPTION="Apply roles to a class related to yours"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.39
-	>=dev-perl/MooseX-Types-0.04
+	>=dev-perl/Class-MOP-0.80
+	>=dev-perl/MooseX-Role-Parameterized-0.04
+	>=dev-perl/Moose-0.63
 "
 DEPEND="
 	${COMMON_DEPEND}
-	test? (
-		>=virtual/perl-Test-Simple-0.62
-	)
 "
 RDEPEND="
 	${COMMON_DEPEND}

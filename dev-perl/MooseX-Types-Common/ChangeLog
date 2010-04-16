@@ -2,6 +2,14 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Types-Common-0.001002 (15 Apr 2010)
+
+  15 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Types-Common-0.001000.ebuild,
+  -MooseX-Types-Common-0.001001.ebuild,
+  +MooseX-Types-Common-0.001002.ebuild:
+  Bump
+
 *MooseX-Types-Common-0.001001 (09 Jan 2010)
 
   09 Jan 2010; Michele Beltrame <m@cattlegrid.info>

@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Locale-Codes
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*Locale-Codes-3.12 (15 Apr 2010)
+
+  15 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +Locale-Codes-3.12.ebuild:
+  Bump
+

@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CatalystX-InjectComponent
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*CatalystX-InjectComponent-0.024 (16 Apr 2010)
+
+  16 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +CatalystX-InjectComponent-0.024.ebuild:
+  Initial
+

@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Static-Simple-0.29 (16 Apr 2010)
+
+  16 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Plugin-Static-Simple-0.25.ebuild,
+  +Catalyst-Plugin-Static-Simple-0.29.ebuild:
+  Bump
+
 *Catalyst-Plugin-Static-Simple-0.28 (09 Jan 2010)
 
   09 Jan 2010; Michele Beltrame <m@cattlegrid.info>

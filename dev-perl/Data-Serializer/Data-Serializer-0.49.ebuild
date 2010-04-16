@@ -11,6 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
+	virtual/perl-Module-Build
 	virtual/perl-Digest-SHA
 	virtual/perl-AutoLoader
 "

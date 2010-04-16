@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Excel-Template-Plus
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Excel-Template-Plus-0.05 (15 Apr 2010)
+
+  15 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +Excel-Template-Plus-0.05.ebuild:
+  Bump
 
   11 Jun 2009; Michele Beltrame <mb@cattlegrid.info>:
   Initial release

@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Devel-StackTrace-WithLexicals
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*Devel-StackTrace-WithLexicals-0.05 (16 Apr 2010)
+
+  16 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +Devel-StackTrace-WithLexicals-0.05.ebuild:
+  Bump
+

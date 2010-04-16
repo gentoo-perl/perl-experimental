@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/BerkeleyDB-Manager
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*BerkeleyDB-Manager-0.12 (16 Apr 2010)
+
+  16 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +BerkeleyDB-Manager-0.12.ebuild:
+  Init
+

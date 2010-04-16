@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Carp-REPL
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header$
+
+*Carp-REPL-0.15 (16 Apr 2010)
+
+  16 Apr 2010; Michele Beltrame <m@cattlegrid.info> +Carp-REPL-0.15.ebuild:
+  Init
+
