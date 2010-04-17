@@ -20,6 +20,7 @@ RDEPEND="virtual/perl-Archive-Extract
 	virtual/perl-IPC-Cmd
 	virtual/perl-Log-Message
 	virtual/perl-Locale-Maketext-Simple
+	virtual/perl-Module-Pluggable
 	virtual/perl-Object-Accessor
 	virtual/perl-Parse-CPAN-Meta
 	virtual/perl-File-Fetch
