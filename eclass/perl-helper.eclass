@@ -4,5 +4,5 @@
 
 # @DEAD
 
-PERL_EXPORT_PHASE_FUNCTIONS=yes
+PERL_EXPORT_PHASE_FUNCTIONS=no
 inherit perl-module
