@@ -13,18 +13,18 @@
 # modules, and their incorporation into the Gentoo Linux system.
 
 inherit eutils base
-[[ ${CATEGORY} == perl-core ]] && inherit alternatives
+[[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
 PERL_EXPF="src_unpack src_compile src_test src_install"
 
 case "${EAPI:-0}" in
 	0|1)
-		PERL_EXPF="${PERL_EXPF} pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
+		PERL_EXPF+=" pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
 		;;
 	2|3)
-		PERL_EXPF="${PERL_EXPF} src_prepare src_configure"
+		PERL_EXPF+=" src_prepare src_configure"
 		[[ ${CATEGORY} == "perl-core" ]] && \
-			PERL_EXPF="${PERL_EXPF} pkg_postinst pkg_postrm"
+			PERL_EXPF+=" pkg_postinst pkg_postrm"
 
 		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
 			yes)
@@ -38,9 +38,17 @@ case "${EAPI:-0}" in
 		;;
 esac
 
-if [[ -z ${PERL_EXPORT_PHASE_FUNCTIONS} ]] ; then
-	EXPORT_FUNCTIONS ${PERL_EXPF}
-fi
+case "${PERL_EXPORT_PHASE_FUNCTIONS:-yes}" in
+	yes)
+		EXPORT_FUNCTIONS ${PERL_EXPF}
+		;;
+	no)
+		debug-print "PERL_EXPORT_PHASE_FUNCTIONS=no"
+		;;
+	*)
+		DEPEND+=" PERL_EXPORT_PHASE_FUNCTIONS-UNSUPPORTED"
+		;;
+esac
 
 DESCRIPTION="Based on the $ECLASS eclass"
 
@@ -235,8 +243,6 @@ perl-module_pkg_postrm() {
 	debug-print-function $FUNCNAME "$@"
 	perl_link_duallife_scripts
 }
-
-
 
 perlinfo() {
 	debug-print-function $FUNCNAME "$@"
