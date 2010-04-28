@@ -1,8 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=JROBINSON
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Flexible caching support for Catalyst"
@@ -17,4 +17,5 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.7
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
+	dev-perl/MRO-Compat
 "

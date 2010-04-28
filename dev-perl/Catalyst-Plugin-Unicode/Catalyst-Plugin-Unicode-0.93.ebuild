@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MODULE_AUTHOR=MRAMBERG
+EAPI=2
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Unicode aware Catalyst"
@@ -25,3 +26,9 @@ DEPEND="
 "
 
 SRC_TEST=do
+
+pkg_setup() {
+	ewarn "DO NOT USE THIS - Use Catalyst::Plugin::Unicode::Encoding"
+	ewarn "instead which is both more correct, and handles more cases."
+}
+

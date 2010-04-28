@@ -2,6 +2,14 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Model-DBIC-Schema-0.41 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Model-DBIC-Schema-0.31.ebuild,
+  -Catalyst-Model-DBIC-Schema-0.35.ebuild,
+  +Catalyst-Model-DBIC-Schema-0.41.ebuild:
+  Bump
+
 *Catalyst-Model-DBIC-Schema-0.38 (24 Jan 2010)
 
   24 Jan 2010; Kent Fredric <kentfredric@gmail.com>

@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -23,10 +23,10 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-0.89
 	>=dev-perl/MooseX-AttributeHelpers-0.21
 	>=dev-perl/MooseX-Declare-0.30
-	>=dev-perl/MooseX-MethodAttributes-0.15
+	>=dev-perl/MooseX-MethodAttributes-0.16
+	>=dev-perl/MooseX-Role-Parameterized-0.13
 	>=dev-perl/MooseX-Types-0.20
 	>=dev-perl/MooseX-Method-Signatures-0.26
-	>=dev-perl/TryCatch-1.001001
 "
 DEPEND="
 	${COMMON_DEPEND}

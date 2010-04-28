@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -14,8 +14,10 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Plugin-Session-0.12
-	dev-perl/Class-Accessor
+	>=dev-perl/Catalyst-Plugin-Session-0.27
+	dev-perl/Moose
+	dev-perl/namespace-clean
+	dev-perl/MooseX-Emulate-Class-Accessor-Fast
 	dev-perl/MRO-Compat
 "
 DEPEND="

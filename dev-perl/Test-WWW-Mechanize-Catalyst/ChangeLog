@@ -1,0 +1,12 @@
+# ChangeLog for dev-perl/Test-WWW-Mechanize-Catalyst
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-WWW-Mechanize-Catalyst-0.52 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -Test-WWW-Mechanize-Catalyst-0.45.ebuild,
+  -Test-WWW-Mechanize-Catalyst-0.50.ebuild,
+  +Test-WWW-Mechanize-Catalyst-0.52.ebuild:
+  Bump
+

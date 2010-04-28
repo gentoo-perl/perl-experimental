@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Devel-ModuleVersions
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-Devel-ModuleVersions-0.100330 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +Catalyst-Plugin-Devel-ModuleVersions-0.100330.ebuild:
+  Bump
+

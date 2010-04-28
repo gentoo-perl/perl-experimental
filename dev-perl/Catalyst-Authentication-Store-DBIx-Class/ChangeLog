@@ -1,0 +1,12 @@
+# ChangeLog for dev-perl/Catalyst-Authentication-Store-DBIx-Class
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Authentication-Store-DBIx-Class-0.1200 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Authentication-Store-DBIx-Class-0.104.ebuild,
+  -Catalyst-Authentication-Store-DBIx-Class-0.107.ebuild,
+  +Catalyst-Authentication-Store-DBIx-Class-0.1200.ebuild:
+  Bump
+

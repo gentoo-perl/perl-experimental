@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Model-CDBI
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Model-CDBI-0.12 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  +Catalyst-Model-CDBI-0.12.ebuild:
+  Bump
+
