@@ -1,6 +1,15 @@
 # ChangeLog for dev-perl/MooseX-Method-Signatures
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Method-Signatures-0.30 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Method-Signatures-0.26.ebuild,
+  -MooseX-Method-Signatures-0.27.ebuild,
+  -MooseX-Method-Signatures-0.28.ebuild,
+  +MooseX-Method-Signatures-0.30.ebuild:
+  Bump
 
 *MooseX-Method-Signatures-0.29 (21 Oct 2009)
 

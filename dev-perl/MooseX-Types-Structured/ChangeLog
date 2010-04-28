@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/MooseX-Types-Structured
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Types-Structured-0.21 (28 Apr 2010)
+
+  28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Types-Structured-0.18.ebuild,
+  +MooseX-Types-Structured-0.21.ebuild:
+  Bump
 
 *MooseX-Types-Structured-0.19 (20 Nov 2009)
 

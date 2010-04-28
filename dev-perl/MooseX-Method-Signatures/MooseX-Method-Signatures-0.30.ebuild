@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/MooseX-LazyRequire-0.04
 	dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion
 	>=dev-perl/MooseX-Types-0.19
-	>=dev-perl/MooseX-Types-Structured-0.12
+	>=dev-perl/MooseX-Types-Structured-0.20
 	dev-perl/namespace-autoclean
 	dev-perl/Sub-Name
 	dev-perl/Task-Weaken

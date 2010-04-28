@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,7 +15,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.63
 	>=dev-perl/MooseX-Types-0.08
-	>=dev-perl/Devel-PartialDump-0.07
+	>=dev-perl/Devel-PartialDump-0.10
 	>=dev-perl/Sub-Exporter-0.982
 "
 DEPEND="
