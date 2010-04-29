@@ -1,8 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=JROCKWAY
 inherit perl-module
 
 DESCRIPTION="Automatically apply roles at object creation time"
@@ -13,8 +13,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Moose-0.84
 	>=dev-perl/Class-MOP-0.84
+	>=dev-perl/Moose-0.84
+	dev-perl/Sub-Exporter
+	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${RDEPEND}

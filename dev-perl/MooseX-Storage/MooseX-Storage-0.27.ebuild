@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,18 +14,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test +json +yaml +storable +file"
 RDEPEND="
-	>=dev-perl/Moose-0.39
+	>=dev-perl/Moose-0.87
+	dev-perl/String-RewritePrefix
 	json? (
 		>=dev-perl/JSON-Any-1.15
 	)
 	yaml? (
-		>=dev-perl/Best-0.1
+		dev-perl/yaml
 	)
 	storable? (
 		virtual/perl-Storable
 	)
 	file? (
-		virtual/perl-IO
+		>=virtual/perl-IO-0.1
 	)
 "
 DEPEND="${RDEPEND}
@@ -33,14 +34,11 @@ DEPEND="${RDEPEND}
 
 		dev-perl/Test-Deep
 		dev-perl/Test-Exception
-		>=virtual/perl-Test-Simple-0.02
+		>=virtual/perl-Test-Simple-0.88
 		>=dev-perl/Test-TempDir-0.02
 
 		json? (
 			>=dev-perl/Test-JSON-0.06
-		)
-		yaml? (
-			dev-perl/Test-YAML-Valid
 		)
 	)
 "

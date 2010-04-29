@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/MooseX-Params-Validate
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Params-Validate-0.14 (29 Apr 2010)
+
+  29 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Params-Validate-0.09.ebuild, -MooseX-Params-Validate-0.12.ebuild,
+  +MooseX-Params-Validate-0.14.ebuild:
+  Bump
 
 *MooseX-Params-Validate-0.13 (10 Dec 2009)
 

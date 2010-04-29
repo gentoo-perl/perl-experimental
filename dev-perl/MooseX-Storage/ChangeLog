@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Storage-0.27 (29 Apr 2010)
+
+  29 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Storage-0.21.ebuild, -MooseX-Storage-0.23.ebuild,
+  +MooseX-Storage-0.27.ebuild:
+  Bump
+
 *MooseX-Storage-0.24 (24 Jan 2010)
 
   24 Jan 2010; Kent Fredric <kentfredric@gmail.com>

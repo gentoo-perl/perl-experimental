@@ -2,6 +2,14 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Role-Parameterized-0.18 (29 Apr 2010)
+
+  29 Apr 2010; Michele Beltrame <m@cattlegrid.info>
+  -MooseX-Role-Parameterized-0.13.ebuild,
+  -MooseX-Role-Parameterized-0.14.ebuild,
+  +MooseX-Role-Parameterized-0.18.ebuild:
+  Bump
+
 *MooseX-Role-Parameterized-0.15 (09 Jan 2010)
 
   09 Jan 2010; Michele Beltrame <m@cattlegrid.info>
