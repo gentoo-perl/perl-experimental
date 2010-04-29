@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=TOKUHIROM
 inherit perl-module
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="virtual/perl-Filter"
+RDEPEND=">=virtual/perl-Test-Simple-0.61"
 DEPEND="${RDEPEND}"
 
 SRC_TEST=do
