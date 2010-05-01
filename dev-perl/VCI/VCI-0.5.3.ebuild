@@ -38,7 +38,7 @@ RDEPEND=">=dev-perl/Moose-0.27
 		dev-perl/XML-Simple
 	)
 	git? (
-		dev-util/git[perl]
+		dev-vcs/git[perl]
 		virtual/perl-File-Spec
 	)
 	cvs? (
