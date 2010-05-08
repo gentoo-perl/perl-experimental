@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Tree-Trie
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Tree-Trie-1.6 (08 May 2010)
+
+  08 May 2010; Torsten Veller <tove@gentoo.org> +Tree-Trie-1.6.ebuild:
+  Version bump
 
 *Tree-Trie-1.5 (14 Apr 2009)
 
