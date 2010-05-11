@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Plack-0.9935 (11 May 2010)
+
+  11 May 2010; Torsten Veller <tove@gentoo.org> -Plack-0.9031.ebuild,
+  -Plack-0.9920.ebuild, +Plack-0.9935.ebuild:
+  Version bump. Cleanup
+
 *Plack-0.9933 (29 Apr 2010)
 
   29 Apr 2010; Torsten Veller <tove@gentoo.org> +Plack-0.9933.ebuild:
