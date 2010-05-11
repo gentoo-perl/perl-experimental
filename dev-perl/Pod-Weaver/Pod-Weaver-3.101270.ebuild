@@ -1,18 +1,23 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+
+EAPI=3
+
 MODULE_AUTHOR=RJBS
 inherit perl-module
 
 DESCRIPTION="weave together a Pod document from an outline"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
+
 COMMON_DEPEND="
 	>=dev-perl/Config-MVP-0.093120
 	dev-perl/List-MoreUtils
+	dev-perl/log-dispatch
+	>=dev-perl/Log-Dispatchouli-1.100.710
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
 	dev-perl/PPI
