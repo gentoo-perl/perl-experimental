@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/DBIx-Class-Tree
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*DBIx-Class-Tree-0.03001 (12 May 2010)
+
+  12 May 2010; Michele Beltrame <m@cattlegrid.info>
+  -DBIx-Class-Tree-0.01000.ebuild, -DBIx-Class-Tree-0.02000.ebuild,
+  -DBIx-Class-Tree-0.02001.ebuild, +DBIx-Class-Tree-0.03001.ebuild:
+  Bump
 
 *DBIx-Class-Tree-0.03000 (25 Aug 2009)
 
