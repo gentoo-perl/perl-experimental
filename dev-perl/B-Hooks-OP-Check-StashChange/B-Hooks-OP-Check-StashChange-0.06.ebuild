@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,5 +15,6 @@ IUSE=""
 RDEPEND="
 	>=dev-perl/B-Hooks-OP-Check-0.14
 "
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	dev-perl/extutils-depends"
 SRC_TEST=do
