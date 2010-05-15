@@ -4,7 +4,7 @@
 
 EAPI=2
 
-MODULE_AUTHOR=RKRIMEN
+MODULE_AUTHOR=ROKR
 inherit perl-module
 
 DESCRIPTION="A fast and featureful class for UNIX-style path manipulation"
