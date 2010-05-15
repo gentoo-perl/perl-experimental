@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Geo-WeatherNOAA
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Geo-WeatherNOAA-4.38 (15 May 2010)
+
+  15 May 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  +Geo-WeatherNOAA-4.38.ebuild, +metadata.xml:
+  Add dev-perl/Geo-WeatherNOAA
+
