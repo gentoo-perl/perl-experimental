@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-5.12.1 (17 May 2010)
+
+  17 May 2010; Torsten Veller <tove@gentoo.org> +perl-5.12.1.ebuild:
+  Version bump
+
 *perl-5.12.0 (13 Apr 2010)
 
   13 Apr 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0_rc5.ebuild,
