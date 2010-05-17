@@ -91,11 +91,21 @@ pkg_setup() {
 	dual_scripts
 }
 
+src_prepare_update_patchlevel_h() {
+	[[ -f ${WORKDIR}/perl-patch/series ]] || return 0
+
+	cat "${WORKDIR}/perl-patch/series" | while read patch level ; do
+		sed -i -e "s/^\t,NULL$/	,\"$patch\"\n&/" "${S}"/patchlevel.h || die
+	done
+}
+
 src_prepare() {
 	EPATCH_SOURCE="${WORKDIR}/perl-patch" \
 	EPATCH_SUFFIX="diff" \
 	EPATCH_FORCE="yes" \
 	epatch
+
+	src_prepare_update_patchlevel_h
 
 	# pod/perltoc.pod fails
 	# lib/ExtUtils/t/Embed.t fails
