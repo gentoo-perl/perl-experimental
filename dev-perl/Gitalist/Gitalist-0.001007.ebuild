@@ -15,6 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-vcs/git
 	virtual/perl-CGI
 	>=dev-perl/Catalyst-Action-REST-0.85
 	dev-perl/Catalyst-Action-RenderView
