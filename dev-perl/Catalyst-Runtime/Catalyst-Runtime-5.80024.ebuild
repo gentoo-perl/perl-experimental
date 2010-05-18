@@ -4,7 +4,7 @@
 
 EAPI=2
 
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="The Elegant MVC Web Application Framework - runtime version"
@@ -21,13 +21,14 @@ COMMON_DEPEND="
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00903
 	>=dev-perl/Class-MOP-0.95
-	>=dev-perl/Moose-0.93
+	>=dev-perl/Moose-1.03
 	>=dev-perl/MooseX-MethodAttributes-0.19
 	>=dev-perl/MooseX-Role-WithOverloading-0.05
 
 	>=dev-perl/Class-C3-Adopt-NEXT-0.07
-	dev-perl/Cgi-Simple
+	>=dev-perl/Cgi-Simple-1.1.09
 	dev-perl/Data-Dump
+	dev-perl/Data-OptList
 
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.04
