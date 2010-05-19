@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Config-MVP
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Config-MVP-0.100780 (19 May 2010)
+
+  19 May 2010; Kent Fredric <kentfredric@gmail.com>
+  -Config-MVP-0.093000.ebuild, +Config-MVP-0.100780.ebuild:
+  Bumped. Fixed (C) lines. Removed Dead version.
 
 *Config-MVP-0.093350 (09 Dec 2009)
 
