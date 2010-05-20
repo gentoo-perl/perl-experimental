@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-2.101310 (20 May 2010)
+
+  20 May 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-1.093250.ebuild, -Dist-Zilla-1.093280.ebuild,
+  -Dist-Zilla-1.093400.ebuild, +Dist-Zilla-2.101310.ebuild, metadata.xml:
+  Bumped, Expired versions cleaned.
+
 *Dist-Zilla-1.100160 (25 Jan 2010)
 
   25 Jan 2010; Kent Fredric <kentfredric@gmail.com>
