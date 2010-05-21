@@ -25,9 +25,10 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-Autobox-0.09
 	>=virtual/perl-Test-Simple-0.92
 	>=dev-perl/Module-Extract-Namespaces-0.14
-	>=dev-perl/Dist-Zilla-0.092310
+	>=dev-perl/Dist-Zilla-2.101310
 "
 DEPEND="
+	virtual/perl-Module-Build
 	${COMMON_DEPEND}
 "
 RDEPEND="
