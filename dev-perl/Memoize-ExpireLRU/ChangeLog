@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Memoize-ExpireLRU
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Memoize-ExpireLRU-0.55 (01 Jun 2010)
+
+  01 Jun 2010; Torsten Veller <tove@gentoo.org>
+  +Memoize-ExpireLRU-0.55.ebuild, +metadata.xml:
+  Initial commit for Lingua-EN-Tagger
+
