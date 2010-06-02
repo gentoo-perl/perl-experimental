@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-Twitter
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-Twitter-0.007 (02 Jun 2010)
+
+  02 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-Twitter-0.007.ebuild, +metadata.xml:
+  Added.
+
