@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CGI-Application-Plugin-AutoRunmode
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Application-Plugin-AutoRunmode-0.17 (03 Jun 2010)
+
+  03 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  +CGI-Application-Plugin-AutoRunmode-0.17.ebuild:
+  Bumped.
+
