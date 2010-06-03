@@ -11,9 +11,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.83
+	>=dev-perl/Moose-1.05
+	dev-perl/List-MoreUtils
 "
 DEPEND="
+	>=virtual/perl-ExtUtils-MakeMaker-6.31
 	${COMMON_DEPEND}
 "
 RDEPEND="
