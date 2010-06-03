@@ -17,7 +17,7 @@ RDEPEND="
 	>=dev-perl/DateTime-0.18
 "
 DEPEND="${RDEPEND}
-	virtual/perl-Module-Build 
+	virtual/perl-Module-Build
 	test? (
 		>=virtual/perl-Test-Simple-0.47
 	)
