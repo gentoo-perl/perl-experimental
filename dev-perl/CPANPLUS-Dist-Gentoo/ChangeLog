@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -CPANPLUS-Dist-Gentoo-0.09.ebuild:
+  Removed: gone on CPAN
+
 *CPANPLUS-Dist-Gentoo-0.10 (17 Apr 2010)
 
   17 Apr 2010; Torsten Veller <tove@gentoo.org>
