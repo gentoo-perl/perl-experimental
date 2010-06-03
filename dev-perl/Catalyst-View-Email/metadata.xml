@@ -6,8 +6,4 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
-	<use>
-		<flag name="mason">HTML::Mason content in eMails</flag>
-		<flag name="netsmtp">SMTP Connection support</flag>
-	</use>
 </pkgmetadata>
