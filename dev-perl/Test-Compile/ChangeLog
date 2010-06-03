@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Jun 2010; Torsten Veller <tove@gentoo.org> -Test-Compile-0.08.ebuild,
+  -Test-Compile-0.10.ebuild, -Test-Compile-0.11.ebuild:
+  Removed from CPAN
+
 *Test-Compile-0.13 (16 Mar 2010)
 
   16 Mar 2010; Torsten Veller <tove@gentoo.org> +Test-Compile-0.13.ebuild:
