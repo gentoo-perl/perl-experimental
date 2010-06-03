@@ -31,4 +31,3 @@ pkg_setup() {
 	ewarn "DO NOT USE THIS - Use Catalyst::Plugin::Unicode::Encoding"
 	ewarn "instead which is both more correct, and handles more cases."
 }
-
