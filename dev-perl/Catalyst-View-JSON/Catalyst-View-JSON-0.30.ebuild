@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/MRO-Compat
 "
 DEPEND="
-  ${RDEPEND}
-  test? ( dev-perl/yaml )
+	${RDEPEND}
+	test? ( dev-perl/yaml )
 "
 SRC_TEST=do
