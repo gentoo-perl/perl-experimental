@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Jun 2010; Torsten Veller <tove@gentoo.org> -Data-Section-0.005.ebuild,
+  -Data-Section-0.091820.ebuild:
+  Removed from CPAN
+
 *Data-Section-0.100270 (10 Feb 2010)
 
   10 Feb 2010; Torsten Veller <tove@gentoo.org>
