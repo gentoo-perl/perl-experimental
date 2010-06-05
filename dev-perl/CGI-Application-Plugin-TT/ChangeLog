@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/CGI-Application-Plugin-TT
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Application-Plugin-TT-1.05 (05 Jun 2010)
+
+  05 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Plugin-TT-1.04.ebuild,
+  +CGI-Application-Plugin-TT-1.05.ebuild:
+  Bumped. EAPI=2, QA, (C) fixes, SRC_TEST.
+
