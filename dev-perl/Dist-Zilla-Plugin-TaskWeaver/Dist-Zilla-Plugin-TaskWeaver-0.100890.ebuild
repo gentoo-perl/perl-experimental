@@ -9,20 +9,19 @@ DESCRIPTION="a PodWeaver plugin used to build Task distributions"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-1.093371
+	>=dev-perl/Dist-Zilla-2
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
 	dev-perl/Pod-Elemental
 	>=dev-perl/Pod-Weaver-3
+	>=virtual/perl-Test-Simple-0.88
 "
 DEPEND="
 	${COMMON_DEPEND}
-	test? (
-		>=virtual/perl-Test-Simple-0.88
-	)
+	>=virtual/perl-ExtUtils-MakeMaker-6.31
 "
 RDEPEND="
 	${COMMON_DEPEND}
