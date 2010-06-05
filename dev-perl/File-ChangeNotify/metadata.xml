@@ -5,5 +5,9 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="inotify">Pull in <pkg>dev-perl/Linux-Inotify2</pkg>
+			for linux Inotify Support</flag>
+	</use>
 </pkgmetadata>
