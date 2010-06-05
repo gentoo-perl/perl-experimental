@@ -15,5 +15,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND=""
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+"
 SRC_TEST="do"

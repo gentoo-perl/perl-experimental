@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/User
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*User-1.9 (05 Jun 2010)
+
+  05 Jun 2010; Kent Fredric <kentfredric@gmail.com> User-1.8.ebuild,
+  +User-1.9.ebuild:
+  Version bump, EAPI=>3, fix copyrights, src_test++
+
