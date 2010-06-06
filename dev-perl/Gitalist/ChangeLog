@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Gitalist-0.001008 (06 Jun 2010)
+
+  06 Jun 2010; Torsten Veller <tove@gentoo.org> +Gitalist-0.001008.ebuild:
+  Version bump
+
 *Gitalist-0.001007 (18 May 2010)
 
   18 May 2010; Torsten Veller <tove@gentoo.org> -Gitalist-0.001006.ebuild,
