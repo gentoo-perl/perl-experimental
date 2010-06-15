@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -12,12 +12,12 @@ DESCRIPTION="a port to Perl of the syntax highlight engine of the Kate textedito
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-RDEPENDS=""
 
-DEPENDS="
-	${RDEPENDS}
+RDEPEND=""
+DEPEND="
+	${RDEPEND}
 	test? (
-		virtual/perl-Test-Simple-0.88
+		>=virtual/perl-Test-Simple-0.88
 		virtual/perl-Term-ANSIColor
 	)
 "
