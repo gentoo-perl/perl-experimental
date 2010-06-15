@@ -1,19 +1,26 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
+EAPI=3
 
 MODULE_AUTHOR=BBC
 inherit perl-module
 
 DESCRIPTION="flatten/unflatten complex data hashes"
 
-IUSE=""
-
+LICENSE="GPL-2"
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
+IUSE="test"
 
-DEPENDS="
-	dev-perl/Test-Assertions
-	dev-perl/Log-Trace
-"
+RDEPEND=""
+DEPEND="
+	test? (
+		dev-perl/Test-Assertions
+		dev-perl/Log-Trace
+		dev-perl/Test-Pod
+		dev-perl/Test-Pod-Coverage
+	)"
+
+SRC_TEST=do
