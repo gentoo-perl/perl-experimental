@@ -12,7 +12,7 @@ DESCRIPTION="Implementation of UPS Online Tools API in Perl"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-DEPENDS="
+DEPEND="
 	dev-perl/libwww-perl
 	dev-perl/XML-Simple
 	dev-perl/Crypt-SSLeay
