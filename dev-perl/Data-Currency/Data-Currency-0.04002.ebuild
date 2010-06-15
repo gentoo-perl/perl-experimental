@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPENDS="
+DEPEND="
 	>=dev-perl/Class-Accessor-Grouped-0.03
 	dev-perl/Class-Inspector
 	>=dev-perl/Finance-Currency-Convert-WebserviceX-0.03
