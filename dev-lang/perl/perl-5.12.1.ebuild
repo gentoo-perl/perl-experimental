@@ -6,7 +6,7 @@ EAPI=3
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=1
+PATCH_VER=3
 
 PERL_OLDVERSEN="5.12.0"
 
@@ -372,10 +372,10 @@ pkg_postinst() {
 		done
 		ebegin "Generating ConfigLocal.pm (ignore any error)"
 		enc2xs -C
-		ebegin "Converting C header files to the corresponding Perl format"
-		cd /usr/include
-		h2ph -Q *
-		h2ph -Q -r sys/* arpa/* netinet/* bits/* security/* asm/* gnu/* linux/*
+		#ebegin "Converting C header files to the corresponding Perl format"
+		#cd /usr/include
+		#h2ph -Q *
+		#h2ph -Q -r sys/* arpa/* netinet/* bits/* security/* asm/* gnu/* linux/*
 	fi
 
 # This has been moved into a function because rumor has it that a future release
@@ -384,7 +384,6 @@ pkg_postinst() {
 	# Tried doing this via  -z, but $INC is too big...
 	if [[ "${INC}x" != "x" ]]; then
 		cleaner_msg
-		epause 5
 	fi
 }
 
