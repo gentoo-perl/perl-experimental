@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.121 2010/01/13 15:15:45 tove Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.125 2010/06/16 08:54:46 tove Exp $
 #
 # Author: Seemant Kulleen <seemant@gentoo.org>
 
@@ -310,10 +310,10 @@ perl_delete_module_manpages() {
 perl_delete_packlist() {
 	debug-print-function $FUNCNAME "$@"
 	perl_set_version
-	if [[ -d ${D}/${VENDOR_LIB} ]] ; then
-		find "${D}/${VENDOR_LIB}" -type f -a \( -name .packlist \
+	if [[ -d ${D}/${VENDOR_ARCH} ]] ; then
+		find "${D}/${VENDOR_ARCH}" -type f -a \( -name .packlist \
 			-o \( -name '*.bs' -a -empty \) \) -delete
-		find "${D}/${VENDOR_LIB}" -depth -mindepth 1 -type d -empty -delete
+		find "${D}" -depth -mindepth 1 -type d -empty -delete
 	fi
 }
 
