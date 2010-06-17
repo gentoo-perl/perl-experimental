@@ -56,7 +56,32 @@ dual_scripts() {
 }
 
 pkg_setup() {
+	case ${CHOST} in
+		*-freebsd*)   osname="freebsd" ;;
+		*-dragonfly*) osname="dragonfly" ;;
+		*-netbsd*)    osname="netbsd" ;;
+		*-openbsd*)   osname="openbsd" ;;
+		*-darwin*)    osname="darwin" ;;
+		*)            osname="linux" ;;
+	esac
+
+	if use ithreads ; then
+		mythreading="-multi"
+		myarch="${CHOST%%-*}-${osname}-thread"
+	else
+		myarch="${CHOST%%-*}-${osname}"
+	fi
+	if use debug ; then
+		myarch="${myarch}-debug"
+	fi
+
 	LIBPERL="libperl$(get_libname ${MY_PV} )"
+	PRIV_LIB="/usr/$(get_libdir)/perl5/${MY_PV}"
+	ARCH_LIB="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}"
+	SITE_LIB="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}"
+	SITE_ARCH="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}"
+	VENDOR_LIB="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}"
+	VENDOR_ARCH="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}"
 
 	if use ithreads ; then
 		ewarn "THREADS WARNING:"
@@ -154,27 +179,7 @@ src_configure() {
 		GZIP_OS_CODE = AUTO_DETECT
 	EOF
 
-	case ${CHOST} in
-		*-freebsd*)   osname="freebsd" ;;
-		*-dragonfly*) osname="dragonfly" ;;
-		*-netbsd*)    osname="netbsd" ;;
-		*-openbsd*)   osname="openbsd" ;;
-		*-darwin*)    osname="darwin" ;;
-		*)            osname="linux" ;;
-	esac
-
-	if use ithreads ; then
-		mythreading="-multi"
-		myconf -Dusethreads
-		myarch=${CHOST}
-		myarch="${myarch%%-*}-${osname}-thread"
-	else
-		myarch=${CHOST}
-		myarch="${myarch%%-*}-${osname}"
-	fi
-	if use debug ; then
-		myarch="${myarch}-debug"
-	fi
+	use ithreads && myconf -Dusethreads
 
 	# allow either gdbm to provide ndbm (in <gdbm/ndbm.h>) or db1
 
@@ -222,26 +227,26 @@ src_configure() {
 		-Darchname="${myarch}" \
 		-Dcc="$(tc-getCC)" \
 		-Doptimize="${CFLAGS}" \
-		-Dscriptdir=/usr/bin \
 		-Dprefix='/usr' \
-		-Dvendorprefix='/usr' \
 		-Dsiteprefix='/usr' \
-		-Dprivlib="/usr/$(get_libdir)/perl5/${MY_PV}" \
-		-Darchlib="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}" \
-		-Dvendorlib="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}" \
-		-Dvendorarch="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}" \
-		-Dsitelib="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}" \
-		-Dsitearch="/usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}" \
+		-Dvendorprefix='/usr' \
+		-Dprivlib="${PRIV_LIB}" \
+		-Darchlib="${ARCH_LIB}" \
+		-Dsitelib="${SITE_LIB}" \
+		-Dsitearch="${SITE_ARCH}" \
+		-Dvendorlib="${VENDOR_LIB}" \
+		-Dvendorarch="${VENDOR_ARCH}" \
 		-Dman1dir=/usr/share/man/man1 \
 		-Dman3dir=/usr/share/man/man3 \
-		-Dinstallman1dir=/usr/share/man/man1 \
-		-Dinstallman3dir=/usr/share/man/man3 \
+		-Dsiteman1dir=/usr/share/man/man1 \
+		-Dsiteman3dir=/usr/share/man/man3 \
+		-Dvendorman1dir=/usr/share/man/man1 \
+		-Dvendorman3dir=/usr/share/man/man3 \
 		-Dman1ext='1' \
 		-Dman3ext='3pm' \
 		-Dlibperl="${LIBPERL}" \
 		-Dlocincpth=' ' \
 		-Duselargefiles \
-		-Duse64bitint \
 		-Dd_semctl_semun \
 		-Dcf_by='Gentoo' \
 		-Dmyhostname='localhost' \
@@ -261,10 +266,10 @@ src_test() {
 src_install() {
 	export LC_ALL="C"
 	local i
-	local coredir="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}/CORE"
+	local coredir="${ARCH_LIB}/CORE"
 
-	# Fix for "stupid" modules and programs
-	dodir /usr/$(get_libdir)/perl5/site_perl/${MY_PV}/${myarch}${mythreading}
+#	# Fix for "stupid" modules and programs
+#	dodir ${SITE_ARCH} ${SITE_LIB}
 
 	local installtarget=install
 	if use build ; then
@@ -284,29 +289,6 @@ src_install() {
 	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
 
 	rm -rf "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
-#	cp -f utils/h2ph utils/h2ph_patched
-#	epatch "${FILESDIR}"/${PN}-h2ph-ansi-header.patch
-#
-#	LD_LIBRARY_PATH=. ./perl -Ilib utils/h2ph_patched \
-#		-a -d "${D}"/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading} <<EOF
-#asm/termios.h
-#syscall.h
-#syslimits.h
-#syslog.h
-#sys/ioctl.h
-#sys/socket.h
-#sys/time.h
-#wait.h
-#EOF
-
-# vvv still needed?
-#	# This is to fix a missing c flag for backwards compat
-#	for i in $(find "${D}"/usr/$(get_libdir)/perl5 -iname "Config.pm" ) ; do
-#		sed -i \
-#			-e "s:ccflags=':ccflags='-DPERL5 :" \
-#			-e "s:cppflags=':cppflags='-DPERL5 :" \
-#			"${i}" || die "Sed failed"
-#	done
 
 #	# A poor fix for the miniperl issues
 #	dosed 's:./miniperl:/usr/bin/perl:' /usr/$(get_libdir)/perl5/${MY_PV}/ExtUtils/xsubpp
@@ -333,7 +315,7 @@ src_install() {
 		# We expect errors, warnings, and such with the following.
 
 		dodir /usr/share/doc/${PF}/html
-		./perl installhtml \
+		LD_LIBRARY_PATH=. ./perl installhtml \
 			--podroot='.' \
 			--podpath='lib:ext:pod:vms' \
 			--recurse \
@@ -349,41 +331,42 @@ src_install() {
 }
 
 pkg_postinst() {
-	local INC DIR file
-
 	dual_scripts
 
-	INC=$(perl -e 'for $line (@INC) { next if $line eq "."; next if $line =~ m/'${MY_PV}'|etc|local|perl$/; print "$line\n" }')
 	if [[ "${ROOT}" = "/" ]] ; then
+		local INC DIR file
+		INC=$(perl -e 'for $line (@INC) { next if $line eq "."; next if $line =~ m/'${MY_PV}'|etc|local|perl$/; print "$line\n" }')
 		ebegin "Removing old .ph files"
 		for DIR in ${INC} ; do
-			if [[ -d "${ROOT}/${DIR}" ]] ; then
-				for file in $(find "${ROOT}/${DIR}" -name "*.ph" -type f ) ; do
-					rm -f "${ROOT}/${file}"
+			if [[ -d "${DIR}" ]] ; then
+				for file in $(find "${DIR}" -name "*.ph" -type f ) ; do
+					rm -f "${file}"
 					einfo "<< ${file}"
 				done
 			fi
 		done
 		# Silently remove the now empty dirs
 		for DIR in ${INC} ; do
-			if [[ -d "${ROOT}/${DIR}" ]] ; then
-				find "${ROOT}/${DIR}" -depth -type d -print0 | xargs -0 -r rmdir &> /dev/null
+			if [[ -d "${DIR}" ]] ; then
+				find "${DIR}" -depth -type d -print0 | xargs -0 -r rmdir &> /dev/null
 			fi
 		done
 		ebegin "Generating ConfigLocal.pm (ignore any error)"
 		enc2xs -C
-		#ebegin "Converting C header files to the corresponding Perl format"
-		#cd /usr/include
-		#h2ph -Q *
-		#h2ph -Q -r sys/* arpa/* netinet/* bits/* security/* asm/* gnu/* linux/*
-	fi
+		ebegin "Converting C header files to the corresponding Perl format"
+		pushd /usr/include >/dev/null
+			h2ph -Q -a -d ${ARCH_LIB} \
+				asm/termios.h syscall.h syslimits.h syslog.h sys/ioctl.h \
+				sys/socket.h sys/time.h wait.h sysexits.h
+		popd >/dev/null
 
 # This has been moved into a function because rumor has it that a future release
 # of portage will allow us to check what version was just removed - which means
 # we will be able to invoke this only as needed :)
-	# Tried doing this via  -z, but $INC is too big...
-	if [[ "${INC}x" != "x" ]]; then
-		cleaner_msg
+		# Tried doing this via  -z, but $INC is too big...
+		if [[ "${INC}x" != "x" ]]; then
+			cleaner_msg
+		fi
 	fi
 }
 
