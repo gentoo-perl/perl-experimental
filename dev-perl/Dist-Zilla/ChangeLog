@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-4.101612 (18 Jun 2010)
+
+  18 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-2.101310.ebuild, +Dist-Zilla-4.101612.ebuild:
+  Bumped to latest. Cleaned all now-dead versions.
+
   03 Jun 2010; Torsten Veller <tove@gentoo.org> -Dist-Zilla-1.100160.ebuild:
   Removed from CPAN
 
