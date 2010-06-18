@@ -146,6 +146,8 @@ myconf() {
 src_configure() {
 	declare -a myconf
 
+	export LC_ALL="C"
+
 	# some arches and -O do not mix :)
 	use ppc && replace-flags -O? -O1
 	# Perl has problems compiling with -Os in your flags with glibc
@@ -164,8 +166,6 @@ src_configure() {
 
 	use sparc && myconf -Ud_longdbl
 
-	export LC_ALL="C"
-
 	# 266337
 	export BUILD_BZIP2=0
 	export BZIP2_INCLUDE=/usr/include
@@ -178,8 +178,6 @@ src_configure() {
 		OLD_ZLIB = False
 		GZIP_OS_CODE = AUTO_DETECT
 	EOF
-
-	use ithreads && myconf -Dusethreads
 
 	# allow either gdbm to provide ndbm (in <gdbm/ndbm.h>) or db1
 
@@ -202,6 +200,8 @@ src_configure() {
 		ewarn "Perl will not be built with berkdb support, use gcc if you needed it..."
 		myconf -Ui_db -Ui_ndbm
 	fi
+
+	use ithreads && myconf -Dusethreads
 
 	if use debug ; then
 		append-cflags "-g"
@@ -264,7 +264,6 @@ src_test() {
 }
 
 src_install() {
-	export LC_ALL="C"
 	local i
 	local coredir="${ARCH_LIB}/CORE"
 
@@ -396,6 +395,9 @@ cleaner_msg() {
 }
 
 src_remove_dual_scripts() {
+
+	use build && return
+
 	local i pkg ver ff
 	pkg="$1"
 	ver="$2"
@@ -430,9 +432,6 @@ src_remove_extra_files() {
 	local prefix="./usr" # ./ is important
 	local bindir="${prefix}/bin"
 	local libdir="${prefix}/$(get_libdir)"
-	local perlroot="${libdir}/perl5" # perl installs per-arch dirs
-	local prV="${perlroot}/${MY_PV}"
-	local prVA="${prV}/${myarch}${mythreading}"
 
 	# I made this list from the Mandr*, Debian and ex-Connectiva perl-base list
 	# Then, I added several files to get GNU autotools running
@@ -445,162 +444,157 @@ src_remove_extra_files() {
 	${libdir}/${LIBPERL}
 	${libdir}/libperl$(get_libname)
 	${libdir}/libperl$(get_libname ${SHORT_PV})
-	${prV}/attributes.pm
-	${prV}/AutoLoader.pm
-	${prV}/autouse.pm
-	${prV}/base.pm
-	${prV}/bigint.pm
-	${prV}/bignum.pm
-	${prV}/bigrat.pm
-	${prV}/blib.pm
-	${prV}/bytes_heavy.pl
-	${prV}/bytes.pm
-	${prV}/Carp/Heavy.pm
-	${prV}/Carp.pm
-	${prV}/charnames.pm
-	${prV}/Class/Struct.pm
-	${prV}/constant.pm
-	${prV}/diagnostics.pm
-	${prV}/DirHandle.pm
-	${prV}/Exporter/Heavy.pm
-	${prV}/Exporter.pm
-	${prV}/ExtUtils/Command.pm
-	${prV}/ExtUtils/Constant.pm
-	${prV}/ExtUtils/Embed.pm
-	${prV}/ExtUtils/Installed.pm
-	${prV}/ExtUtils/Install.pm
-	${prV}/ExtUtils/Liblist.pm
-	${prV}/ExtUtils/MakeMaker.pm
-	${prV}/ExtUtils/Manifest.pm
-	${prV}/ExtUtils/Mkbootstrap.pm
-	${prV}/ExtUtils/Mksymlists.pm
-	${prV}/ExtUtils/MM_Any.pm
-	${prV}/ExtUtils/MM_MacOS.pm
-	${prV}/ExtUtils/MM.pm
-	${prV}/ExtUtils/MM_Unix.pm
-	${prV}/ExtUtils/MY.pm
-	${prV}/ExtUtils/Packlist.pm
-	${prV}/ExtUtils/testlib.pm
-	${prV}/ExtUtils/Miniperl.pm
-	${prV}/ExtUtils/Command/MM.pm
-	${prV}/ExtUtils/Constant/Base.pm
-	${prV}/ExtUtils/Constant/Utils.pm
-	${prV}/ExtUtils/Constant/XS.pm
-	${prV}/ExtUtils/Liblist/Kid.pm
-	${prV}/ExtUtils/MakeMaker/bytes.pm
-	${prV}/ExtUtils/MakeMaker/vmsish.pm
-	${prV}/fields.pm
-	${prV}/File/Basename.pm
-	${prV}/File/Compare.pm
-	${prV}/File/Copy.pm
-	${prV}/File/Find.pm
-	${prV}/FileHandle.pm
-	${prV}/File/Path.pm
-	${prV}/File/Spec.pm
-	${prV}/File/Spec/Unix.pm
-	${prV}/File/stat.pm
-	${prV}/filetest.pm
-	${prVA}/attrs.pm
-	${prVA}/auto/attrs
-	${prVA}/auto/Cwd/Cwd$(get_libname)
-	${prVA}/auto/Data/Dumper/Dumper$(get_libname)
-	${prVA}/auto/DynaLoader/dl_findfile.al
-	${prVA}/auto/Fcntl/Fcntl$(get_libname)
-	${prVA}/auto/File/Glob/Glob$(get_libname)
-	${prVA}/auto/IO/IO$(get_libname)
-	${prVA}/auto/POSIX/autosplit.ix
-	${prVA}/auto/POSIX/fstat.al
-	${prVA}/auto/POSIX/load_imports.al
-	${prVA}/auto/POSIX/POSIX.bs
-	${prVA}/auto/POSIX/POSIX$(get_libname)
-	${prVA}/auto/POSIX/stat.al
-	${prVA}/auto/POSIX/tmpfile.al
-	${prVA}/auto/re/re$(get_libname)
-	${prVA}/auto/Socket/Socket$(get_libname)
-	${prVA}/auto/Storable/autosplit.ix
-	${prVA}/auto/Storable/_retrieve.al
-	${prVA}/auto/Storable/retrieve.al
-	${prVA}/auto/Storable/Storable$(get_libname)
-	${prVA}/auto/Storable/_store.al
-	${prVA}/auto/Storable/store.al
-	${prVA}/B/Deparse.pm
-	${prVA}/B.pm
-	${prVA}/Config.pm
-	${prVA}/Config_heavy.pl
-	${prVA}/CORE/libperl$(get_libname)
-	${prVA}/Cwd.pm
-	${prVA}/Data/Dumper.pm
-	${prVA}/DynaLoader.pm
-	${prVA}/encoding.pm
-	${prVA}/Errno.pm
-	${prVA}/Fcntl.pm
-	${prVA}/File/Glob.pm
-	${prVA}/_h2ph_pre.ph
-	${prVA}/IO/File.pm
-	${prVA}/IO/Handle.pm
-	${prVA}/IO/Pipe.pm
-	${prVA}/IO.pm
-	${prVA}/IO/Seekable.pm
-	${prVA}/IO/Select.pm
-	${prVA}/IO/Socket.pm
-	${prVA}/lib.pm
-	${prVA}/NDBM_File.pm
-	${prVA}/ops.pm
-	${prVA}/POSIX.pm
-	${prVA}/re.pm
-	${prVA}/Socket.pm
-	${prVA}/Storable.pm
-	${prVA}/threads
-	${prVA}/threads.pm
-	${prVA}/XSLoader.pm
-	${prV}/Getopt/Long.pm
-	${prV}/Getopt/Std.pm
-	${prV}/if.pm
-	${prV}/integer.pm
-	${prV}/IO/Socket/INET.pm
-	${prV}/IO/Socket/UNIX.pm
-	${prV}/IPC/Open2.pm
-	${prV}/IPC/Open3.pm
-	${prV}/less.pm
-	${prV}/List/Util.pm
-	${prV}/locale.pm
-	${prV}/open.pm
-	${prV}/overload.pm
-	${prV}/Pod/InputObjects.pm
-	${prV}/Pod/Man.pm
-	${prV}/Pod/ParseLink.pm
-	${prV}/Pod/Parser.pm
-	${prV}/Pod/Select.pm
-	${prV}/Pod/Text.pm
-	${prV}/Pod/Usage.pm
-	${prV}/PerlIO.pm
-	${prV}/Scalar/Util.pm
-	${prV}/SelectSaver.pm
-	${prV}/sigtrap.pm
-	${prV}/sort.pm
-	${prV}/stat.pl
-	${prV}/strict.pm
-	${prV}/subs.pm
-	${prV}/Symbol.pm
-	${prV}/Text/ParseWords.pm
-	${prV}/Text/Tabs.pm
-	${prV}/Text/Wrap.pm
-	${prV}/Time/Local.pm
-	${prV}/unicore/Canonical.pl
-	${prV}/unicore/Exact.pl
-	${prV}/unicore/lib/gc_sc/Digit.pl
-	${prV}/unicore/lib/gc_sc/Word.pl
-	${prV}/unicore/PVA.pl
-	${prV}/unicore/To/Fold.pl
-	${prV}/unicore/To/Lower.pl
-	${prV}/unicore/To/Upper.pl
-	${prV}/utf8_heavy.pl
-	${prV}/utf8.pm
-	${prV}/vars.pm
-	${prV}/vmsish.pm
-	${prV}/warnings
-	${prV}/warnings.pm
-	${prV}/warnings/register.pm"
+	.${ARCH_LIB}/attributes.pm
+	.${PRIV_LIB}/AutoLoader.pm
+	.${PRIV_LIB}/autouse.pm
+	.${PRIV_LIB}/B/Deparse.pm
+	.${PRIV_LIB}/base.pm
+	.${PRIV_LIB}/bigint.pm
+	.${PRIV_LIB}/bignum.pm
+	.${PRIV_LIB}/bigrat.pm
+	.${PRIV_LIB}/blib.pm
+	.${PRIV_LIB}/bytes_heavy.pl
+	.${PRIV_LIB}/bytes.pm
+	.${PRIV_LIB}/Carp/Heavy.pm
+	.${PRIV_LIB}/Carp.pm
+	.${PRIV_LIB}/charnames.pm
+	.${PRIV_LIB}/Class/Struct.pm
+	.${PRIV_LIB}/constant.pm
+	.${PRIV_LIB}/diagnostics.pm
+	.${PRIV_LIB}/DirHandle.pm
+	.${PRIV_LIB}/Exporter/Heavy.pm
+	.${PRIV_LIB}/Exporter.pm
+	.${PRIV_LIB}/ExtUtils/Command.pm
+	.${PRIV_LIB}/ExtUtils/Constant.pm
+	.${PRIV_LIB}/ExtUtils/Embed.pm
+	.${PRIV_LIB}/ExtUtils/Installed.pm
+	.${PRIV_LIB}/ExtUtils/Install.pm
+	.${PRIV_LIB}/ExtUtils/Liblist.pm
+	.${PRIV_LIB}/ExtUtils/MakeMaker.pm
+	.${PRIV_LIB}/ExtUtils/Manifest.pm
+	.${PRIV_LIB}/ExtUtils/Mkbootstrap.pm
+	.${PRIV_LIB}/ExtUtils/Mksymlists.pm
+	.${PRIV_LIB}/ExtUtils/MM_Any.pm
+	.${PRIV_LIB}/ExtUtils/MM_MacOS.pm
+	.${PRIV_LIB}/ExtUtils/MM.pm
+	.${PRIV_LIB}/ExtUtils/MM_Unix.pm
+	.${PRIV_LIB}/ExtUtils/MY.pm
+	.${PRIV_LIB}/ExtUtils/Packlist.pm
+	.${PRIV_LIB}/ExtUtils/testlib.pm
+	.${PRIV_LIB}/ExtUtils/Miniperl.pm
+	.${PRIV_LIB}/ExtUtils/Command/MM.pm
+	.${PRIV_LIB}/ExtUtils/Constant/Base.pm
+	.${PRIV_LIB}/ExtUtils/Constant/Utils.pm
+	.${PRIV_LIB}/ExtUtils/Constant/XS.pm
+	.${PRIV_LIB}/ExtUtils/Liblist/Kid.pm
+	.${PRIV_LIB}/fields.pm
+	.${PRIV_LIB}/File/Basename.pm
+	.${PRIV_LIB}/File/Compare.pm
+	.${PRIV_LIB}/File/Copy.pm
+	.${PRIV_LIB}/File/Find.pm
+	.${PRIV_LIB}/FileHandle.pm
+	.${PRIV_LIB}/File/Path.pm
+	.${PRIV_LIB}/File/stat.pm
+	.${PRIV_LIB}/filetest.pm
+	.${PRIV_LIB}/Getopt/Long.pm
+	.${PRIV_LIB}/Getopt/Std.pm
+	.${PRIV_LIB}/if.pm
+	.${PRIV_LIB}/integer.pm
+	.${PRIV_LIB}/IPC/Open2.pm
+	.${PRIV_LIB}/IPC/Open3.pm
+	.${PRIV_LIB}/less.pm
+	.${PRIV_LIB}/locale.pm
+	.${PRIV_LIB}/open.pm
+	.${PRIV_LIB}/overload.pm
+	.${PRIV_LIB}/Pod/InputObjects.pm
+	.${PRIV_LIB}/Pod/Man.pm
+	.${PRIV_LIB}/Pod/ParseLink.pm
+	.${PRIV_LIB}/Pod/Parser.pm
+	.${PRIV_LIB}/Pod/Select.pm
+	.${PRIV_LIB}/Pod/Text.pm
+	.${PRIV_LIB}/Pod/Usage.pm
+	.${PRIV_LIB}/PerlIO.pm
+	.${PRIV_LIB}/SelectSaver.pm
+	.${PRIV_LIB}/sigtrap.pm
+	.${PRIV_LIB}/sort.pm
+	.${PRIV_LIB}/stat.pl
+	.${PRIV_LIB}/strict.pm
+	.${PRIV_LIB}/subs.pm
+	.${PRIV_LIB}/Symbol.pm
+	.${PRIV_LIB}/Text/ParseWords.pm
+	.${PRIV_LIB}/Text/Tabs.pm
+	.${PRIV_LIB}/Text/Wrap.pm
+	.${PRIV_LIB}/Time/Local.pm
+	.${PRIV_LIB}/unicore/Canonical.pl
+	.${PRIV_LIB}/unicore/Exact.pl
+	.${PRIV_LIB}/unicore/lib/gc_sc/Digit.pl
+	.${PRIV_LIB}/unicore/lib/gc_sc/Word.pl
+	.${PRIV_LIB}/unicore/PVA.pl
+	.${PRIV_LIB}/unicore/To/Fold.pl
+	.${PRIV_LIB}/unicore/To/Lower.pl
+	.${PRIV_LIB}/unicore/To/Upper.pl
+	.${PRIV_LIB}/utf8_heavy.pl
+	.${PRIV_LIB}/utf8.pm
+	.${PRIV_LIB}/vars.pm
+	.${PRIV_LIB}/vmsish.pm
+	.${PRIV_LIB}/warnings
+	.${PRIV_LIB}/warnings.pm
+	.${PRIV_LIB}/warnings/register.pm
+	.${PRIV_LIB}/XSLoader.pm
+	.${ARCH_LIB}/auto/Cwd/Cwd$(get_libname)
+	.${ARCH_LIB}/auto/Data/Dumper/Dumper$(get_libname)
+	.${ARCH_LIB}/auto/DynaLoader/dl_findfile.al
+	.${ARCH_LIB}/auto/Fcntl/Fcntl$(get_libname)
+	.${ARCH_LIB}/auto/File/Glob/Glob$(get_libname)
+	.${ARCH_LIB}/auto/IO/IO$(get_libname)
+	.${ARCH_LIB}/auto/POSIX/autosplit.ix
+	.${ARCH_LIB}/auto/POSIX/fstat.al
+	.${ARCH_LIB}/auto/POSIX/load_imports.al
+	.${ARCH_LIB}/auto/POSIX/POSIX$(get_libname)
+	.${ARCH_LIB}/auto/POSIX/stat.al
+	.${ARCH_LIB}/auto/POSIX/tmpfile.al
+	.${ARCH_LIB}/auto/re/re$(get_libname)
+	.${ARCH_LIB}/auto/Socket/Socket$(get_libname)
+	.${ARCH_LIB}/auto/Storable/autosplit.ix
+	.${ARCH_LIB}/auto/Storable/_retrieve.al
+	.${ARCH_LIB}/auto/Storable/retrieve.al
+	.${ARCH_LIB}/auto/Storable/Storable$(get_libname)
+	.${ARCH_LIB}/auto/Storable/_store.al
+	.${ARCH_LIB}/auto/Storable/store.al
+	.${ARCH_LIB}/B.pm
+	.${ARCH_LIB}/Config.pm
+	.${ARCH_LIB}/Config_heavy.pl
+	.${ARCH_LIB}/CORE/libperl$(get_libname)
+	.${ARCH_LIB}/Cwd.pm
+	.${ARCH_LIB}/Data/Dumper.pm
+	.${ARCH_LIB}/DynaLoader.pm
+	.${ARCH_LIB}/encoding.pm
+	.${ARCH_LIB}/Errno.pm
+	.${ARCH_LIB}/Fcntl.pm
+	.${ARCH_LIB}/File/Glob.pm
+	.${ARCH_LIB}/File/Spec.pm
+	.${ARCH_LIB}/File/Spec/Unix.pm
+	.${ARCH_LIB}/_h2ph_pre.ph
+	.${ARCH_LIB}/IO/File.pm
+	.${ARCH_LIB}/IO/Handle.pm
+	.${ARCH_LIB}/IO/Pipe.pm
+	.${ARCH_LIB}/IO.pm
+	.${ARCH_LIB}/IO/Seekable.pm
+	.${ARCH_LIB}/IO/Select.pm
+	.${ARCH_LIB}/IO/Socket.pm
+	.${ARCH_LIB}/IO/Socket/INET.pm
+	.${ARCH_LIB}/IO/Socket/UNIX.pm
+	.${ARCH_LIB}/lib.pm
+	.${ARCH_LIB}/List/Util.pm
+	.${ARCH_LIB}/NDBM_File.pm
+	.${ARCH_LIB}/ops.pm
+	.${ARCH_LIB}/POSIX.pm
+	.${ARCH_LIB}/re.pm
+	.${ARCH_LIB}/Scalar/Util.pm
+	.${ARCH_LIB}/Socket.pm
+	.${ARCH_LIB}/Storable.pm
+	.${ARCH_LIB}/threads
+	.${ARCH_LIB}/threads.pm"
 
 	pushd "${D}" > /dev/null
 	# Remove cruft

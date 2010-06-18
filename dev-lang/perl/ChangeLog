@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Jun 2010; Torsten Veller <tove@gentoo.org> perl-5.12.1.ebuild:
+  Mainly fix MINIMAL_PERL_INSTALL pathes
+
   17 Jun 2010; Torsten Veller <tove@gentoo.org> perl-5.12.1.ebuild:
   Create perl header files (*.ph) for a small number of headers in
   pkg_postinst (#292985)
