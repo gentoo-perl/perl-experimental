@@ -2,6 +2,16 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Config-MVP-2.101650 (18 Jun 2010)
+
+  18 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -Config-MVP-0.093120.ebuild, -Config-MVP-0.093350.ebuild,
+  -Config-MVP-0.100780.ebuild, +Config-MVP-2.101650.ebuild:
+  Bumped to latest version. Removed all old versions as they're no longer
+  installable. Latest build blocks on Config-INI-MVP which is now gone, just
+  in case you still have it installed ( causes test failures , among other
+  things )
+
 *Config-MVP-0.100780 (19 May 2010)
 
   19 May 2010; Kent Fredric <kentfredric@gmail.com>
