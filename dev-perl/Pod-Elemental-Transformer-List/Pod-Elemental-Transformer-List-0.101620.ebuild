@@ -9,17 +9,17 @@ DESCRIPTION="transform :list regions into =over/=back to save typing"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE=""
 COMMON_DEPEND="
 	dev-perl/Moose
-	>=dev-perl/Pod-Elemental-0.092941
+	>=dev-perl/Pod-Elemental-0.101620
 	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${COMMON_DEPEND}
-	test? (
-		dev-perl/Test-Differences
-	)
+	dev-perl/Test-Differences
+	virtual/perl-Test-Simple
+	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "
 RDEPEND="
 	${COMMON_DEPEND}
