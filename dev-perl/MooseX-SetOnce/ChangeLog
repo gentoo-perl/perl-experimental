@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-SetOnce
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-SetOnce-0.100471 (18 Jun 2010)
+
+  18 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-SetOnce-0.100471.ebuild, +metadata.xml:
+  Added
+
