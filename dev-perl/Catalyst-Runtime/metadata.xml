@@ -6,7 +6,4 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
-	<use>
-		<flag name='par'>Add support for the PAR Archive Toolkit</flag>
-	</use>
 </pkgmetadata>

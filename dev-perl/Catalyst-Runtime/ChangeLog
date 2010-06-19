@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Runtime-5.71001.ebuild, metadata.xml:
+  Gone on CPAN
+
 *Catalyst-Runtime-5.80024 (18 May 2010)
 
   18 May 2010; Michele Beltrame <m@cattlegrid.info>
