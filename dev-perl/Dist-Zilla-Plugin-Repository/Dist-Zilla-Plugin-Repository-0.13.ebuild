@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -11,9 +11,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-1.007
+	>=dev-perl/Dist-Zilla-2.101310
 "
 DEPEND="
+	>=virtual/perl-ExtUtils-MakeMaker-6.31
 	${COMMON_DEPEND}
 "
 RDEPEND="
