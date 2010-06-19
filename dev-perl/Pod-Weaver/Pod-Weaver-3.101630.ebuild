@@ -14,27 +14,25 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 COMMON_DEPEND="
-	>=dev-perl/Config-MVP-0.093120
+	>=dev-perl/Config-MVP-2
 	dev-perl/Config-MVP-Reader-INI
+	virtual/perl-File-Spec
 	dev-perl/List-MoreUtils
-	dev-perl/log-dispatch
 	>=dev-perl/Log-Dispatchouli-1.100.710
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
 	dev-perl/Params-Util
-	>=dev-perl/Pod-Elemental-0.092941
+	>=dev-perl/Pod-Elemental-0.100220
 	>=dev-perl/String-Flogger-1
 	dev-perl/String-RewritePrefix
 	dev-perl/namespace-autoclean
 	"
 DEPEND="
 	${COMMON_DEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.31
-	test? (
-		dev-perl/PPI
-		dev-perl/Software-License
-		dev-perl/Test-Differences
-	)
+	dev-perl/PPI
+	dev-perl/Software-License
+	dev-perl/Test-Differences
+	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "
 RDEPEND="
 	${COMMON_DEPEND}
