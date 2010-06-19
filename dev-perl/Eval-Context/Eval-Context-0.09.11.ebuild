@@ -1,8 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=NKH
 inherit perl-module
@@ -11,7 +11,7 @@ DESCRIPTION="Evalute perl code in context wrapper"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE=""
 
 RDEPEND="dev-perl/Readonly
 	dev-perl/Data-Compare
@@ -20,12 +20,20 @@ RDEPEND="dev-perl/Readonly
 	dev-perl/Data-TreeDumper
 	dev-perl/File-Slurp
 	dev-perl/Sub-Install
-	dev-perl/Directory-Scratch-Structured"
-DEPEND="virtual/perl-Module-Build
-	test? ( dev-perl/Test-Pod-Coverage
-		dev-perl/Test-NoWarnings
-		dev-perl/Data-TreeDumper
-		dev-perl/Test-Perl-Critic
-		dev-perl/Test-Output )"
+	>=virtual/perl-Safe-2.16
+	>=virtual/perl-version-0.50
+	dev-perl/Data-TreeDumper
+"
+DEPEND="
+	${RDEPEND}
+	virtual/perl-Module-Build
+	dev-perl/Text-Diff
+	dev-perl/Test-Block
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warn
+	dev-perl/Directory-Scratch-Structured
+	dev-perl/Test-Output
+"
 
 SRC_TEST=do
