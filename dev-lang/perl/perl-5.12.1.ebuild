@@ -1,6 +1,6 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.10.1.ebuild,v 1.20 2010/03/14 15:51:19 aballier Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.12.1.ebuild,v 1.1 2010/06/19 08:23:41 tove Exp $
 
 EAPI=3
 
@@ -17,7 +17,9 @@ MY_PV="${PV%_rc*}"
 DESCRIPTION="Larry Wall's Practical Extraction and Report Language"
 
 SRC_URI="
-	mirror://cpan/authors/id/J/JE/JESSE/${MY_P}.tar.gz
+	mirror://cpan/src/${MY_P}.tar.bz2
+	mirror://cpan/authors/id/J/JE/JESSE/${MY_P}.tar.bz2
+	mirror://gentoo/${MY_P}-${PATCH_VER}.tar.bz2
 	http://dev.gentoo.org/~tove/files/${MY_P}-${PATCH_VER}.tar.bz2"
 #	mirror://cpan/src/${MY_P}.tar.bz2
 #	mirror://gentoo/${MY_P}-${PATCH_VER}.tar.bz2
@@ -444,7 +446,6 @@ src_remove_extra_files() {
 	${libdir}/${LIBPERL}
 	${libdir}/libperl$(get_libname)
 	${libdir}/libperl$(get_libname ${SHORT_PV})
-	.${ARCH_LIB}/attributes.pm
 	.${PRIV_LIB}/AutoLoader.pm
 	.${PRIV_LIB}/autouse.pm
 	.${PRIV_LIB}/B/Deparse.pm
@@ -541,6 +542,7 @@ src_remove_extra_files() {
 	.${PRIV_LIB}/warnings.pm
 	.${PRIV_LIB}/warnings/register.pm
 	.${PRIV_LIB}/XSLoader.pm
+	.${ARCH_LIB}/attributes.pm
 	.${ARCH_LIB}/auto/Cwd/Cwd$(get_libname)
 	.${ARCH_LIB}/auto/Data/Dumper/Dumper$(get_libname)
 	.${ARCH_LIB}/auto/DynaLoader/dl_findfile.al
