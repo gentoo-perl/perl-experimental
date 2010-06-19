@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-PodWeaver-3.101640 (19 Jun 2010)
+
+  19 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-PodWeaver-3.093321.ebuild,
+  +Dist-Zilla-Plugin-PodWeaver-3.101640.ebuild:
+  Bumped. Remove CPAN gone versions
+
   03 Jun 2010; Torsten Veller <tove@gentoo.org>
   -Dist-Zilla-Plugin-PodWeaver-3.093170.ebuild:
   Removed from CPAN
