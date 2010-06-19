@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -CPAN-Uploader-0.093390.ebuild:
+  Gone on CPAN
+
 *CPAN-Uploader-0.101670 (18 Jun 2010)
 
   18 Jun 2010; Kent Fredric <kentfredric@gmail.com>
