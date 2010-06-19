@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -11,20 +11,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	dev-perl/MooseX-Has-Sugar
-	dev-perl/MooseX-Types
-	>=dev-perl/Dist-Zilla-1.093250
-	dev-perl/Git-Wrapper
-	>=virtual/perl-File-Path-2.07
+	dev-perl/Class-MOP
 	virtual/perl-File-Spec
+	dev-perl/DateTime
+	>=dev-perl/Dist-Zilla-2.100880
+	virtual/perl-File-Temp
+	dev-perl/File-chdir
+	dev-perl/Git-Wrapper
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	virtual/perl-File-Temp
-	dev-perl/Test-Exception
-	virtual/perl-Test-Simple
+	dev-perl/MooseX-Has-Sugar
+	dev-perl/MooseX-Types
 	dev-perl/String-Formatter
+	>=dev-lang/perl-5.10.0
 "
 DEPEND="
+	>=virtual/perl-Module-Build-0.36.01
+	dev-perl/Path-Class
+	virtual/perl-Scalar-List-Utils
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 	${COMMON_DEPEND}
 "
 RDEPEND="

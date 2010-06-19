@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-Git
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dist-Zilla-Plugin-Git-1.101680 (19 Jun 2010)
+
+  19 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-Git-1.093300.ebuild,
+  -Dist-Zilla-Plugin-Git-1.093410.ebuild,
+  +Dist-Zilla-Plugin-Git-1.101680.ebuild:
+  Bump. Remove CPAN gone versions
 
 *Dist-Zilla-Plugin-Git-1.093410 (09 Dec 2009)
 
