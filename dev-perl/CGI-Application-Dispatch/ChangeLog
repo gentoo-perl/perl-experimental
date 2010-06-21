@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Dispatch-2.17.ebuild:
+  Fixed test errors with Apache::Test
+
 *CGI-Application-Dispatch-2.17 (09 Jan 2010)
 
   09 Jan 2010; Michele Beltrame <m@cattlegrid.info>
