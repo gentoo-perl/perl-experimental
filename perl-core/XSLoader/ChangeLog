@@ -1,6 +1,10 @@
 # ChangeLog for perl-core/XSLoader
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  21 Jun 2010; Torsten Veller <tove@gentoo.org>
+  +files/91152fc1_rt54132_version081.patch, XSLoader-0.10.ebuild:
+  Patch for version-0.81 (rt 54132)
 
 *XSLoader-0.10 (18 Dec 2009)
 
