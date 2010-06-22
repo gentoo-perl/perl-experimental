@@ -42,7 +42,7 @@ RDEPEND=">=dev-perl/Moose-0.27
 		virtual/perl-File-Spec
 	)
 	cvs? (
-		dev-util/cvs
+		dev-vcs/cvs
 		>=virtual/perl-IPC-Cmd-0.42
 		>=virtual/perl-Module-Load-Conditional-0.24
 		>=dev-perl/IPC-Run-0.55
