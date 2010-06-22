@@ -4,7 +4,7 @@
 
 EAPI=2
 
-MODULE_AUTHOR=LYOKATO
+MODULE_AUTHOR=DHOSS
 inherit perl-module
 
 DESCRIPTION="Validator for Catalyst with FormValidator::Simple"
