@@ -29,7 +29,7 @@ RDEPEND=">=dev-perl/Moose-0.27
 		dev-perl/XML-Simple
 	)
 	subversion? (
-		>=dev-util/subversion-1.2[perl,-dso]
+		>=dev-vcs/subversion-1.2[perl,-dso]
 		virtual/perl-File-Spec
 	)
 	mercurial? (
