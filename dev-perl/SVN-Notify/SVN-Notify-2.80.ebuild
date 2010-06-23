@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND="dev-util/subversion
+RDEPEND="dev-vcs/subversion
 	>=virtual/perl-Getopt-Long-2.34
 	virtual/perl-PodParser
 	dev-perl/HTML-Parser
