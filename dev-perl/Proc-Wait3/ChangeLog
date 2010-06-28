@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Proc-Wait3
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Proc-Wait3-0.03 (28 Jun 2010)
+
+  28 Jun 2010; Kent Fredric <kentfredric@gmail.com> +Proc-Wait3-0.03.ebuild,
+  +metadata.xml:
+  Added
+
