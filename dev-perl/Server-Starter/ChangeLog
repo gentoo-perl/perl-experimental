@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Server-Starter
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Server-Starter-0.07 (28 Jun 2010)
+
+  28 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  +Server-Starter-0.07.ebuild, +metadata.xml:
+  Added
+
