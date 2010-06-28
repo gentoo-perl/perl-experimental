@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=ADAMK
 inherit perl-module
@@ -13,12 +13,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-RDEPEND="dev-perl/Params-Util
-	virtual/perl-File-Spec"
+RDEPEND="
+	>=dev-perl/Params-Util-0.10
+	>=virtual/perl-File-Spec-0.80
+"
 DEPEND="
-	test? ( ${RDEPEND}
-	virtual/perl-Test-Simple
-	dev-perl/Test-Exception
-	dev-perl/Test-Warn )"
+	test? (	${RDEPEND}
+		>=virtual/perl-Test-Simple-0.42
+		>=dev-perl/Test-Exception-0.27
+		>=dev-perl/Test-Warn-0.11
+	)
+"
 
 SRC_TEST=do
