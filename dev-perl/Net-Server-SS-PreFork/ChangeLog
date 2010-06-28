@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Net-Server-SS-PreFork
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Net-Server-SS-PreFork-0.05 (28 Jun 2010)
+
+  28 Jun 2010; Kent Fredric <kentfredric@gmail.com>
+  +Net-Server-SS-PreFork-0.05.ebuild, +metadata.xml:
+  Added
+
