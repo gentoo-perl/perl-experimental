@@ -22,7 +22,10 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00801
 	>=dev-perl/Moose-0.76
+	>=dev-perl/Tie-RefHash-1.34
 "
+#	!<=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.03
+#	!<=dev-perl/Catalyst-Plugin-Session-State-URI-0.02
 DEPEND="${RDEPEND}
 	test? (
 			dev-perl/Test-Deep
