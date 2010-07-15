@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*DBD-CSV-0.30 (15 Jul 2010)
+
+  15 Jul 2010; Daniel Westermann-Clark <dwc@pobox.com> +DBD-CSV-0.30.ebuild:
+  Bump dev-perl/DBD-CSV to 0.30
+
 *DBD-CSV-0.29 (15 May 2010)
 
   15 May 2010; Daniel Westermann-Clark <dwc@pobox.com> +DBD-CSV-0.29.ebuild:
