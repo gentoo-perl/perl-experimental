@@ -19,11 +19,3 @@ RDEPEND="dev-perl/Catalyst-Runtime
 	>=dev-perl/FormValidator-Simple-0.28
 	dev-perl/Catalyst-Plugin-FormValidator"
 DEPEND="${RDEPEND}"
-
-pkg_postinst() {
-	perl-module_pkg_postinst
-
-	ewarn "Catalyst-Plugin-FormValidator-Simple is deprecated (since"
-	ewarn "Catalyst-Plugin-FormValidator is)! Use a more modern replacement,"
-	ewarn "such as Catalyst-Controller-HTML-FormFu or Catalyst-Controller-FormBuilder."
-}
