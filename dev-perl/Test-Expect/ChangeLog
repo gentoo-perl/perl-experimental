@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-Expect
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-Expect-0.31 (19 Jul 2010)
+
+  19 Jul 2010; Kent Fredric <kentfredric@gmail.com>
+  +Test-Expect-0.31.ebuild, +metadata.xml:
+  Added
+
