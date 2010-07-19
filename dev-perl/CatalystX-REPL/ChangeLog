@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header$
 
+  19 Jul 2010; Kent Fredric <kentfredric@gmail.com>
+  CatalystX-REPL-0.04.ebuild:
+  Fixed missing test-depend.
+
 *CatalystX-REPL-0.04 (15 Apr 2010)
 
   15 Apr 2010; Michele Beltrame <m@cattlegrid.info>

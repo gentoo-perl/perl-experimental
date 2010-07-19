@@ -18,6 +18,9 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	test? (
+		dev-perl/Test-Expect
+	)
 "
 RDEPEND="
 	${COMMON_DEPEND}
