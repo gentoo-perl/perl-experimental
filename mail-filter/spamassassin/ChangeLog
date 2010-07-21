@@ -1,0 +1,11 @@
+# ChangeLog for mail-filter/spamassassin
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*spamassassin-3.3.1-r3 (21 Jul 2010)
+
+  21 Jul 2010; David Abbott <dabbott@gentoo.org> +files/3.0.0-spamd.conf,
+  +spamassassin-3.3.1-r3.ebuild, +files/spamassassin-3.3.1-PERL-5-12.patch,
+  +files/3.3.1-spamd.init, +files/secrets.cf, +metadata.xml:
+  Initial commit to test patches for Bug 328939
+
