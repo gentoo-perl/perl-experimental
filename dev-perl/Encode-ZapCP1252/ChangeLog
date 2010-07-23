@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Encode-ZapCP1252-0.32 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org>
+  +Encode-ZapCP1252-0.32.ebuild:
+  Version bump
+
 *Encode-ZapCP1252-0.12 (11 Feb 2010)
 
   11 Feb 2010; Michele Beltrame <m@cattlegrid.info>
