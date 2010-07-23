@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jul 2010; Torsten Veller <tove@gentoo.org> Server-Starter-0.07.ebuild:
+  Test depends on Test-SharedFork
+
 *Server-Starter-0.07 (28 Jun 2010)
 
   28 Jun 2010; Kent Fredric <kentfredric@gmail.com>
