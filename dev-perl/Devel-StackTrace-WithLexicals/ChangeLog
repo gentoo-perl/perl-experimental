@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header$
 
+*Devel-StackTrace-WithLexicals-0.06 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org>
+  +Devel-StackTrace-WithLexicals-0.06.ebuild:
+  Version bump
+
 *Devel-StackTrace-WithLexicals-0.05 (16 Apr 2010)
 
   16 Apr 2010; Michele Beltrame <m@cattlegrid.info>
