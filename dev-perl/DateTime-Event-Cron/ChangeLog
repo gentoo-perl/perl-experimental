@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DateTime-Event-Cron
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DateTime-Event-Cron-0.08 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org>
+  +DateTime-Event-Cron-0.08.ebuild:
+  Version bump
+
