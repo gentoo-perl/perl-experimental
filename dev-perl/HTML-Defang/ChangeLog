@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/HTML-Defang
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-Defang-1.03 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org> +HTML-Defang-1.03.ebuild:
+  Version bump
 
 *HTML-Defang-1.02 (25 Aug 2009)
 
