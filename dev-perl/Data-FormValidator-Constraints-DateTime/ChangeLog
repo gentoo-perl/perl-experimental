@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-FormValidator-Constraints-DateTime-1.11 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org>
+  +Data-FormValidator-Constraints-DateTime-1.11.ebuild:
+  Version bump
+
 *Data-FormValidator-Constraints-DateTime-1.10 (06 Jun 2010)
 
   06 Jun 2010; Torsten Veller <tove@gentoo.org>
