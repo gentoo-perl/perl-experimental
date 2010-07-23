@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Excel-Template
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Excel-Template-0.32 (23 Jul 2010)
+
+  23 Jul 2010; Torsten Veller <tove@gentoo.org> +Excel-Template-0.32.ebuild:
+  Version bump
 
   11 Jun 2009; Michele Beltrame <mb@cattlegrid.info>:
   Initial release
