@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Archive-Extract-0.42 (25 Jul 2010)
+
+  25 Jul 2010; Torsten Veller <tove@gentoo.org>
+  +Archive-Extract-0.42.ebuild:
+  Version bump
+
   05 Jun 2010; Kent Fredric <kentfredric@gmail.com>
   -Archive-Extract-0.36.ebuild:
   Removed 0.36 : Gone on CPAN
