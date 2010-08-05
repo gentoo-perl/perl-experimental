@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-Reporter-1.1800 (05 Aug 2010)
+
+  05 Aug 2010; Torsten Veller <tove@gentoo.org>
+  +CPAN-Reporter-1.1800.ebuild:
+  Version bump
+
 *CPAN-Reporter-1.1711 (24 Mar 2010)
 
   24 Mar 2010; Torsten Veller <tove@gentoo.org>
