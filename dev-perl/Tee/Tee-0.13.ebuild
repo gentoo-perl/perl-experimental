@@ -1,21 +1,22 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
+
 MODULE_AUTHOR=DAGOLDEN
 inherit perl-module
 
 DESCRIPTION="Pure Perl emulation of GNU tee"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
-DEPEND="
+
+RDEPEND="
 	dev-perl/Probe-Perl
 	>=dev-perl/IPC-Run3-0.033
 "
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}
+	virtual/perl-Module-Build"
 SRC_TEST="do"
