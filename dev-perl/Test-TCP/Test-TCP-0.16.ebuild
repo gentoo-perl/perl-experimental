@@ -14,8 +14,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="virtual/perl-Filter
-	>=virtual/perl-IO-1.23"
-DEPEND="${RDEPEND}
-	test? ( >=dev-perl/Test-SharedFork-0.09 )"
+	>=virtual/perl-IO-1.23
+	>=dev-perl/Test-SharedFork-0.09"
+DEPEND="${RDEPEND}"
 
 SRC_TEST=do
