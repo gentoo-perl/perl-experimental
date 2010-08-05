@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Traits-Pluggable-0.10 (05 Aug 2010)
+
+  05 Aug 2010; Torsten Veller <tove@gentoo.org>
+  +MooseX-Traits-Pluggable-0.10.ebuild:
+  Version bump
+
   29 Apr 2010; Michele Beltrame <m@cattlegrid.info>
   -MooseX-Traits-Pluggable-0.07.ebuild,
   +MooseX-Traits-Pluggable-0.09.ebuild:
