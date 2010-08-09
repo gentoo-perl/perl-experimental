@@ -3,7 +3,12 @@
 <pkgmetadata>
     <herd>perl</herd>
     <maintainer>
+<<<<<<< HEAD
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
+=======
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+>>>>>>> ff1768d5ecab86578d70d4a693563b9767911877
     </maintainer>
 </pkgmetadata>
