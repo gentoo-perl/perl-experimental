@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header$
 
+*Algorithm-FloodControl-2.000000 (09 Aug 2010)
+
+  09 Aug 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Algorithm-FloodControl-1.990000.ebuild,
+  +Algorithm-FloodControl-2.000000.ebuild:
+  Bump dev-perl/Algorithm-FloodControl; no actual changes to module
+
 *Algorithm-FloodControl-1.990000 (13 Apr 2010)
 
   13 Apr 2010; Daniel Westermann-Clark <dwc@pobox.com>
