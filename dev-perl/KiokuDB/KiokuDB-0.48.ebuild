@@ -12,37 +12,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Cache-Ref-0.02
+	>=dev-perl/Moose-0.92
 	>=dev-perl/Class-MOP-0.94
-	>=dev-perl/Data-Stream-Bulk-0.07
+	>=dev-perl/MooseX-Role-Parameterized-0.10
+	>=dev-perl/MooseX-Clone-0.04
+	dev-perl/Path-Class
+	>=dev-perl/MooseX-YAML-0.04
+	dev-perl/Try-Tiny
+	dev-perl/Throwable
+	virtual/perl-Scalar-List-Utils
+	>=dev-perl/namespace-clean-0.08
+	dev-perl/Data-UUID
 	>=dev-perl/Data-Visitor-0.24
+	dev-perl/Tie-ToObject
+	dev-perl/Task-Weaken
+	>=dev-perl/Data-Stream-Bulk-0.07
+	dev-perl/Hash-Util-FieldHash-Compat
+	dev-perl/Scope-Guard
+	>=dev-perl/Set-Object-1.26
+	>=dev-perl/Cache-Ref-0.02
+	virtual/perl-Module-Pluggable
+	dev-perl/Test-use-ok
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
+	>=dev-perl/Search-GIN-0.03
 	>=dev-perl/JSON-2.12
 	>=dev-perl/JSON-XS-2.2.3.1
-	>=dev-perl/Moose-0.92
-	>=dev-perl/MooseX-Clone-0.04
-	>=dev-perl/MooseX-Role-Parameterized-0.10
-	>=dev-perl/MooseX-YAML-0.04
-	>=dev-perl/PadWalker-1.9
-	>=dev-perl/Search-GIN-0.03
-	>=dev-perl/Set-Object-1.26
 	>=dev-perl/YAML-LibYAML-0.30
-	>=dev-perl/namespace-clean-0.08
-	>=virtual/perl-IO-1.23
-	dev-perl/Data-UUID
-	dev-perl/Hash-Util-FieldHash-Compat
-	dev-perl/Path-Class
-	dev-perl/Scope-Guard
-	dev-perl/Task-Weaken
-	dev-perl/Test-Exception
-	dev-perl/Test-use-ok
-	dev-perl/Throwable
-	dev-perl/Tie-ToObject
-	dev-perl/Try-Tiny
-	virtual/perl-Digest-SHA
-	virtual/perl-Module-Pluggable
-	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	virtual/perl-Test-Simple
+	>=dev-perl/PadWalker-1.9
+	virtual/perl-Digest-SHA
 "
 DEPEND="
 	${COMMON_DEPEND}

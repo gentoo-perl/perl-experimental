@@ -4,14 +4,9 @@
 
 *KiokuDB-0.48 (09 Aug 2010)
 
-<<<<<<< HEAD
   09 Aug 2010; Michele Beltrame <m@cattlegrid.info> -KiokuDB-0.34.ebuild,
   +KiokuDB-0.48.ebuild:
   Bump
-=======
-  09 Aug 2010; Kent Fredric <kentfredric@gmail.com> +KiokuDB-0.48.ebuild:
-  Bumped. Fixed ©
->>>>>>> ff1768d5ecab86578d70d4a693563b9767911877
 
 *KiokuDB-0.42 (26 Apr 2010)
 

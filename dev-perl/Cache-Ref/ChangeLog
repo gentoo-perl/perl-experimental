@@ -4,13 +4,7 @@
 
 *Cache-Ref-0.02 (09 Aug 2010)
 
-<<<<<<< HEAD
   09 Aug 2010; Michele Beltrame <m@cattlegrid.info> +Cache-Ref-0.02.ebuild,
   +metadata.xml:
   Initial
-=======
-  09 Aug 2010; Kent Fredric <kentfredric@gmail.com> +Cache-Ref-0.02.ebuild,
-  +metadata.xml:
-  Added.
->>>>>>> ff1768d5ecab86578d70d4a693563b9767911877
 
