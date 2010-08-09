@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Module-Install-Repository
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Install-Repository-0.06 (09 Aug 2010)
+
+  09 Aug 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  +Module-Install-Repository-0.06.ebuild, +metadata.xml:
+  Add dev-perl/Module-Install-Repository
+
