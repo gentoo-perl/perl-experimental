@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Params-Classify
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  Params-Classify-0.009.ebuild:
+  depend on M::B
 
 *Params-Classify-0.009 (11 Oct 2009)
 

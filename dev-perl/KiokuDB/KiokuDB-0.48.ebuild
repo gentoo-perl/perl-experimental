@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -12,21 +12,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.83
+	>=dev-perl/Moose-0.92
+	>=dev-perl/Class-MOP-0.94
 	>=dev-perl/MooseX-Role-Parameterized-0.10
 	>=dev-perl/MooseX-Clone-0.04
 	dev-perl/Path-Class
-	>=dev-perl/MooseX-YAML-0.02
+	>=dev-perl/MooseX-YAML-0.04
+	dev-perl/Try-Tiny
+	dev-perl/Throwable
 	virtual/perl-Scalar-List-Utils
 	>=dev-perl/namespace-clean-0.08
 	dev-perl/Data-UUID
 	>=dev-perl/Data-Visitor-0.24
 	dev-perl/Tie-ToObject
 	dev-perl/Task-Weaken
-	>=dev-perl/Data-Stream-Bulk-0.05
+	>=dev-perl/Data-Stream-Bulk-0.07
 	dev-perl/Hash-Util-FieldHash-Compat
 	dev-perl/Scope-Guard
 	>=dev-perl/Set-Object-1.26
+	>=dev-perl/Cache-Ref-0.02
 	virtual/perl-Module-Pluggable
 	dev-perl/Test-use-ok
 	dev-perl/Test-Exception

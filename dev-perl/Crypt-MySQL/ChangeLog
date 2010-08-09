@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Crypt-MySQL
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Aug 2010; Michele Beltrame <m@cattlegrid.info> Crypt-MySQL-0.04.ebuild:
+  Use M::B
 
 *Crypt-MySQL-0.04 (14 Aug 2009)
 

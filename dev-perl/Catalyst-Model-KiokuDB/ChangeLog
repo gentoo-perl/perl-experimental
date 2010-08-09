@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Catalyst-Model-KiokuDB
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Model-KiokuDB-0.12 (09 Aug 2010)
+
+  09 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-Model-KiokuDB-0.01.ebuild, -Catalyst-Model-KiokuDB-0.02.ebuild,
+  -Catalyst-Model-KiokuDB-0.10.ebuild, +Catalyst-Model-KiokuDB-0.12.ebuild:
+  Bump
 
 *Catalyst-Model-KiokuDB-0.11 (09 Dec 2009)
 

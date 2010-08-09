@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Handel
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Handel-1.00013 (09 Aug 2010)
+
+  09 Aug 2010; Michele Beltrame <m@cattlegrid.info> +Handel-1.00013.ebuild:
+  Bump
 
   30 Mar 2009; kentfredric@gmail.com metadata.xml:
   QA USE Fixes

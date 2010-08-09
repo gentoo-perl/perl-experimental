@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -16,6 +16,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	virtual/perl-Module-Build
 	test? (
 		virtual/perl-Test-Simple
 	)

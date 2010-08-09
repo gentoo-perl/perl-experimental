@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Catalyst Development Tools"
