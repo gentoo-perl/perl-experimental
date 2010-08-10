@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-Cover-0.68 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  -Devel-Cover-0.64.ebuild, -Devel-Cover-0.65.ebuild,
+  +Devel-Cover-0.68.ebuild:
+  Bump
+
 *Devel-Cover-0.67 (13 May 2010)
 
   13 May 2010; Torsten Veller <tove@gentoo.org> +Devel-Cover-0.67.ebuild:
