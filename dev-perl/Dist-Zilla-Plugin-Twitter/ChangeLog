@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-Twitter-0.009 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  +Dist-Zilla-Plugin-Twitter-0.009.ebuild:
+  Bump
+
 *Dist-Zilla-Plugin-Twitter-0.007 (02 Jun 2010)
 
   02 Jun 2010; Kent Fredric <kentfredric@gmail.com>

@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-TaskWeaver-0.101620 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  -Dist-Zilla-Plugin-TaskWeaver-0.093450.ebuild,
+  +Dist-Zilla-Plugin-TaskWeaver-0.101620.ebuild:
+  Bump
+
 *Dist-Zilla-Plugin-TaskWeaver-0.100890 (05 Jun 2010)
 
   05 Jun 2010; Kent Fredric <kentfredric@gmail.com>
