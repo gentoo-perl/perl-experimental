@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/MojoMojo
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MojoMojo-1.01 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  -MojoMojo-0.999040.ebuild, -MojoMojo-0.999041.ebuild,
+  +MojoMojo-1.01.ebuild:
+  Bump
 
 *MojoMojo-0.999042 (10 Dec 2009)
 
