@@ -11,10 +11,16 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
+IUSE="test"
+RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.8007
 	dev-perl/Catalyst-Action-RenderView
 "
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}
+	virtual/perl-Test-Simple
+	test? (
+		dev-perl/Test-TCP
+		dev-perl/Test-Requires
+	)
+"
 SRC_TEST="do"

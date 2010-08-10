@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-View-Email-0.30 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  -Catalyst-View-Email-0.23.ebuild, +Catalyst-View-Email-0.30.ebuild:
+  Bump
+
   03 Jun 2010; Torsten Veller <tove@gentoo.org> metadata.xml:
   Remove unused local USE-description
 
