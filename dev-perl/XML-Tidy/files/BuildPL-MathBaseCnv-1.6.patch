@@ -1,0 +1,11 @@
+--- a/Build.PL	2010-08-10 09:52:22.000000000 +0200
++++ b/Build.PL	2010-08-10 09:53:00.000000000 +0200
+@@ -17,7 +17,7 @@
+     'Tidy.pm'                       => 'lib/XML/Tidy.pm',
+   },
+   'requires'                      => {
+-    'Math::BaseCnv'                 => '0',
++    #'Math::BaseCnv'                 => '0', # Or M::B will give version fatal error
+     'Test'                          => '0',
+     'Test::Pod'                     => '0',
+     'Test::Pod::Coverage'           => '0',

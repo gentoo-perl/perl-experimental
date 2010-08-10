@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*local-lib-1.006005 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
+  -local-lib-1.004007.ebuild, -local-lib-1.004008.ebuild,
+  +local-lib-1.006005.ebuild:
+  Bump
+
 *local-lib-1.006000 (26 Apr 2010)
 
   26 Apr 2010; Michele Beltrame <m@cattlegrid.info>

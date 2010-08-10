@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/XML-Tidy
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*XML-Tidy-1.6 (10 Aug 2010)
+
+  10 Aug 2010; Michele Beltrame <m@cattlegrid.info> +XML-Tidy-1.6.ebuild,
+  +files/BuildPL-MathBaseCnv-1.6.patch:
+  Bump
 
 *XML-Tidy-1.2.54 (26 Aug 2009)
 
