@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Task-Kensho-0.23 (13 Aug 2010)
+
+  13 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-0.23.ebuild:
+  Bumped. Lots of new deps that might not exist, so its both a) untested,
+  and b) keyword masked, to give me time to fill its deps.
+
 *Task-Kensho-0.20 (22 Jan 2010)
 
   22 Jan 2010; Kent Fredric <kentfredric@gmail.com>
