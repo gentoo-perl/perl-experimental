@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Hash-MoreUtils
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Hash-MoreUtils-0.02 (13 Aug 2010)
+
+  13 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Hash-MoreUtils-0.02.ebuild, +metadata.xml:
+  Added.
+
