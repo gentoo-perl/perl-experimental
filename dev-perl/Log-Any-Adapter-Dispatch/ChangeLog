@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Log-Any-Adapter-Dispatch
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Log-Any-Adapter-Dispatch-0.06 (13 Aug 2010)
+
+  13 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Log-Any-Adapter-Dispatch-0.06.ebuild, +metadata.xml:
+  Added
+
