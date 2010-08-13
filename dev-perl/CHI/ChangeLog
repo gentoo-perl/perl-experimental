@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/CHI
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CHI-0.36 (13 Aug 2010)
+
+  13 Aug 2010; Kent Fredric <kentfredric@gmail.com> +CHI-0.36.ebuild,
+  +metadata.xml:
+  Added. Currently keyword masked because deps are unsatisfied and its
+  untested.
+
