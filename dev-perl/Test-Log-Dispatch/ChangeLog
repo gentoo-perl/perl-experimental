@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-Log-Dispatch
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-Log-Dispatch-0.03 (14 Aug 2010)
+
+  14 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Test-Log-Dispatch-0.03.ebuild, +metadata.xml:
+  Added
+
