@@ -1,3 +1,9 @@
+# Torsten Veller <tove@gentoo.org> (14 Aug 2010)
+# New API - masked for testing
+>=dev-perl/sdl-perl-2.5
+dev-perl/Alien-SDL
+=games-arcade/frozen-bubble-2.2.1*
+
 # Torsten Veller <tove@gentoo.org> (29 Jul 2010)
 # Mask latest padre versions as they are tagged unstable
 >app-editors/padre-0.64
