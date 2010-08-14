@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Aug 2010; Kent Fredric <kentfredric@gmail.com> Task-Kensho-0.23.ebuild:
+  Added ~x86 ~amd64. Installable now.
+
 *Task-Kensho-0.23 (13 Aug 2010)
 
   13 Aug 2010; Kent Fredric <kentfredric@gmail.com>
