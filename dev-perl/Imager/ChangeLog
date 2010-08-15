@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Imager-0.77 (15 Aug 2010)
+
+  15 Aug 2010; Kent Fredric <kentfredric@gmail.com> +Imager-0.77.ebuild:
+  Bumped. Not keyworded as it fails tests.
+
 *Imager-0.75 (10 Aug 2010)
 
   10 Aug 2010; Michele Beltrame <m@cattlegrid.info> -Imager-0.72.ebuild,
