@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,12 +15,11 @@ COMMON_DEPEND="
 	"
 DEPEND="
 	${COMMON_DEPEND}
-	>=virtual/perl-File-Spec-0.82
 	test? (
+		>=virtual/perl-File-Spec-0.82
 		>=virtual/perl-Test-Simple-0.47
 	)
 "
-# >=virtual/perl-ExtUtils-MakeMaker-6.42
 RDEPEND="
 	${COMMON_DEPEND}
 "
