@@ -3,6 +3,12 @@
 # $Header: $
 
   18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-MetaProvides-1.0920022.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-1.10000417.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-1.10001919.ebuild:
+  Cleaned old versions
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Plugin-MetaProvides-1.11034201.ebuild, metadata.xml:
   Created PDEPENDS for all the old modules
   that used to be part of this dist.
