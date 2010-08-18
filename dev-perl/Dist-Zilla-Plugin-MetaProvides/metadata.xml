@@ -5,5 +5,13 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="fromfile">Install recommended ::FromFile library for
+			hand-crated metadata</flag>
+		<flag name="class">Install recommended ::Class to detect
+			MooseX::Declares 'class'</flag>
+		<flag name="package">Install recommended ::Package for detecting class
+			perl packages</flag>
+	</use>
 </pkgmetadata>

@@ -9,13 +9,23 @@ DESCRIPTION="Generating and Populating 'provides' in your META.yml"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="+fromfile +package +class"
 COMMON_DEPEND="
 	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
-
+"
+PDEPEND="
+	fromfile? (
+		dev-perl/Dist-Zilla-Plugin-MetaProvides-FromFile
+	)
+	package? (
+		dev-perl/Dist-Zilla-Plugin-MetaProvides-Package
+	)
+	class? (
+		dev-perl/Dist-Zilla-Plugin-MetaProvides-Class
+	)
 "
 DEPEND="
 	>=virtual/perl-Module-Build-0.36.01
