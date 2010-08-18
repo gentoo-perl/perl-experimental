@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Algorithm-Diff-XS
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Algorithm-Diff-XS-0.04 (18 Aug 2010)
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Algorithm-Diff-XS-0.04.ebuild, +metadata.xml:
+  Added
+
