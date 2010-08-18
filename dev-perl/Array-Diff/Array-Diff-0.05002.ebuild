@@ -9,10 +9,13 @@ DESCRIPTION="Find the differences between two arrays"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE="test +xs"
 COMMON_DEPEND="
 	dev-perl/Algorithm-Diff
 	dev-perl/Class-Accessor
+	xs? (
+		dev-perl/Algorithm-Diff-XS
+	)
 "
 DEPEND="
 	${COMMON_DEPEND}

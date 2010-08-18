@@ -5,5 +5,8 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="xs">Install Recommended XS dependencies for speed</flag>
+	</use>
 </pkgmetadata>
