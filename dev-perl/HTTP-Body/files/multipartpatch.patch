@@ -1,0 +1,11 @@
+--- t/08multipart-suffix.t
++++ t/08multipart-suffix.t
+@@ -27,7 +27,7 @@
+     );
+ 
+     unlike(
+-        $uploads->{upload4}{tempname}, qr/\..+$/,
++        $uploads->{upload4}{tempname}, qr{\.[^/]+$},
+         'tempname for upload4 has no suffix'
+     );
+ }
