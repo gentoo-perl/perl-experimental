@@ -4,7 +4,7 @@
 
 EAPI=3
 
-MODULE_AUTHOR=ELLIOT
+MODULE_AUTHOR=ELLIOTT
 inherit perl-module
 
 DESCRIPTION="HTTP Body Parser"
