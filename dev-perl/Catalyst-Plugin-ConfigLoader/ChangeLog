@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-ConfigLoader-0.29 (21 Aug 2010)
+
+  21 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-ConfigLoader-0.29.ebuild:
+  Bump
+
 *Catalyst-Plugin-ConfigLoader-0.28 (10 Aug 2010)
 
   10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
