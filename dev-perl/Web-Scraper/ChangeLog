@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Web-Scraper
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Web-Scraper-0.32 (23 Aug 2010)
+
+  23 Aug 2010; Torsten Veller <tove@gentoo.org> +Web-Scraper-0.32.ebuild,
+  +metadata.xml:
+  Initial commit
+
