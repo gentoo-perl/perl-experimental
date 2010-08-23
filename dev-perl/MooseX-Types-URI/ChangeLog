@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Types-URI
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Types-URI-0.02 (23 Aug 2010)
+
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Types-URI-0.02.ebuild, +metadata.xml:
+  Added
+
