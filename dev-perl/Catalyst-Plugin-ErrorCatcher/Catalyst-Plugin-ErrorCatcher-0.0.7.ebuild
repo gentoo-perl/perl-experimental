@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=CHISEL
 inherit perl-module
@@ -15,7 +15,8 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/Catalyst-Runtime-5.71001
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.71001
 	dev-perl/Class-Data-Accessor
 	virtual/perl-IO
 	dev-perl/MRO-Compat
@@ -31,6 +32,6 @@ DEPEND="${RDEPEND}
 		dev-perl/Catalyst-Plugin-ConfigLoader
 		dev-perl/Catalyst-Plugin-StackTrace
 		dev-perl/config-general
-		dev-perl/File-Find-Rule
+		>=dev-perl/File-Find-Rule-0.30
 		virtual/perl-File-Path
 	)"

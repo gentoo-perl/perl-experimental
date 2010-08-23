@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-ErrorCatcher-0.0.7.ebuild:
+  Tweak, EAPI=3, Test.
+
 *Catalyst-Plugin-ErrorCatcher-0.0.7 (22 Feb 2010)
 
   22 Feb 2010; Daniel Westermann-Clark <dwc@pobox.com>
