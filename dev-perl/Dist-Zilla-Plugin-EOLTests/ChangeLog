@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-EOLTests
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-EOLTests-0.02 (23 Aug 2010)
+
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-EOLTests-0.02.ebuild, +metadata.xml:
+  Added
+
