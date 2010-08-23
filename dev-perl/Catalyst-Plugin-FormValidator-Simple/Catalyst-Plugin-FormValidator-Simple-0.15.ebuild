@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=DHOSS
 inherit perl-module
@@ -15,7 +15,8 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND="dev-perl/Catalyst-Runtime
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.30
 	>=dev-perl/FormValidator-Simple-0.28
 	dev-perl/Catalyst-Plugin-FormValidator"
 DEPEND="${RDEPEND}"
