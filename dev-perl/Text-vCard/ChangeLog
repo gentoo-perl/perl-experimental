@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com> Text-vCard-2.07.ebuild:
+  EAPI=3, Tweak,Test
+
 *Text-vCard-2.07 (03 Feb 2010)
 
   03 Feb 2010; Daniel Westermann-Clark <dwc@pobox.com>
