@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/EVDB-API
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com> EVDB-API-0.99.ebuild:
+  EAPI, Check 5.12, Version deps.
 
   11 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com> EVDB-API-0.99.ebuild,
   +metadata.xml:
