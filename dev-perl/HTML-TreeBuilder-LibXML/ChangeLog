@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/HTML-TreeBuilder-LibXML
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTML-TreeBuilder-LibXML-0.11 (23 Aug 2010)
+
+  23 Aug 2010; Torsten Veller <tove@gentoo.org>
+  +HTML-TreeBuilder-LibXML-0.11.ebuild, +metadata.xml:
+  Initial commit for Web-Scaper
+
