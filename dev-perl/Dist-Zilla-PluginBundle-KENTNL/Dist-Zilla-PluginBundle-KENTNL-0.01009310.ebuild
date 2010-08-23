@@ -8,8 +8,7 @@ inherit perl-module
 DESCRIPTION="BeLike::KENTNL when you build your distributions."
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORD=""
-#KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-4.101612
