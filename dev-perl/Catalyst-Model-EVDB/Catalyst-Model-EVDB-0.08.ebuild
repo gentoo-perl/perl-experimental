@@ -1,8 +1,8 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=DANIELTWC
 inherit perl-module
@@ -15,6 +15,9 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE=""
-RDEPEND="dev-perl/Catalyst-Runtime
-	dev-perl/EVDB-API"
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.5
+	dev-perl/EVDB-API
+	virtual/perl-Test-Simple
+"
 DEPEND="${RDEPEND}"
