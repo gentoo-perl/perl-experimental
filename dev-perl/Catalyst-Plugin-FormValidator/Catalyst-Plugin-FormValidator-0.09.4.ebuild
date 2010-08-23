@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 inherit versionator
 
@@ -20,12 +20,13 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/Catalyst-Runtime-5.8
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.8
 	dev-perl/Data-FormValidator
-	dev-perl/MRO-Compat"
+	dev-perl/MRO-Compat
+	>=dev-perl/Moose-0.93
+"
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
-		>=dev-perl/Moose-0.93
-		dev-perl/namespace-autoclean
 	)"
