@@ -17,8 +17,3 @@ dev-perl/Alien-SDL
 >app-editors/padre-0.64
 # Dependent on masked padre: Kent Fredric <kentfredric@gmail.com> (28 Aug 2010)
 >dev-perl/Plugin-XML-0.9
-
-# Kent Fredric <kentfredric@gmail.com> (09 Dec 2009)
-# Deprecated/Dead by upstream, use 
-# dev-perl/Dist-Zilla-Plugin-PodWeaver instead.
-dev-perl/Dist-Zilla-Plugin-PodPurler
