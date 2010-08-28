@@ -15,6 +15,8 @@ dev-perl/Alien-SDL
 # Torsten Veller <tove@gentoo.org> (29 Jul 2010)
 # Mask latest padre versions as they are tagged unstable
 >app-editors/padre-0.64
+# Dependent on masked padre: Kent Fredric <kentfredric@gmail.com> (28 Aug 2010)
+>dev-perl/Plugin-XML-0.9
 
 # Kent Fredric <kentfredric@gmail.com> (09 Dec 2009)
 # Deprecated/Dead by upstream, use 
