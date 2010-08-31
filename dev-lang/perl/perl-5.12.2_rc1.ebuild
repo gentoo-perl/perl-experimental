@@ -1,14 +1,14 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.12.1.ebuild,v 1.1 2010/06/19 08:23:41 tove Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.12.1-r2.ebuild,v 1.1 2010/08/30 11:13:29 tove Exp $
 
 EAPI=3
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=3
+PATCH_VER=1
 
-PERL_OLDVERSEN="5.12.0"
+PERL_OLDVERSEN="5.12.0 5.12.1"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
@@ -39,7 +39,7 @@ COMMON_DEPEND="berkdb? ( sys-libs/db )
 DEPEND="${COMMON_DEPEND}
 	elibc_FreeBSD? ( sys-freebsd/freebsd-mk-defs )"
 RDEPEND="${COMMON_DEPEND}"
-PDEPEND=">=app-admin/perl-cleaner-2"
+PDEPEND=">=app-admin/perl-cleaner-2.2"
 
 S="${WORKDIR}/${MY_P}"
 
@@ -86,20 +86,20 @@ pkg_setup() {
 	VENDOR_ARCH="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}"
 
 	if use ithreads ; then
+		echo ""
 		ewarn "THREADS WARNING:"
 		ewarn "PLEASE NOTE: You are compiling ${MY_P} with"
 		ewarn "interpreter-level threading enabled."
 		ewarn "Threading is not supported by all applications "
 		ewarn "that compile against perl. You use threading at "
 		ewarn "your own discretion. "
-		echo
 	fi
 	if has_version "<dev-lang/perl-${SHORT_PV}" ; then
+		echo ""
 		ewarn "UPDATE THE PERL MODULES:"
 		ewarn "After updating dev-lang/perl you must reinstall"
 		ewarn "the installed perl modules."
 		ewarn "Use: perl-cleaner --all"
-		echo
 	elif has_version dev-lang/perl ; then
 		# doesnot work
 		#if ! has_version dev-lang/perl[ithreads=,debug=] ; then
@@ -108,11 +108,11 @@ pkg_setup() {
 		   ( ! use ithreads &&   has_version dev-lang/perl[ithreads]   ) || \
 		   (   use debug    && ! has_version dev-lang/perl[debug]      ) || \
 		   ( ! use debug    &&   has_version dev-lang/perl[debug]      ) ; then
+			echo ""
 			ewarn "TOGGLED USE-FLAGS WARNING:"
 			ewarn "You changed one of the use-flags ithreads or debug."
 			ewarn "You must rebuild all perl-modules installed."
 			ewarn "Use: perl-cleaner --modules ; perl-cleaner --force --libperl"
-			echo
 		fi
 	fi
 	dual_scripts
@@ -121,9 +121,9 @@ pkg_setup() {
 src_prepare_update_patchlevel_h() {
 	[[ -f ${WORKDIR}/perl-patch/series ]] || return 0
 
-	cat "${WORKDIR}/perl-patch/series" | while read patch level ; do
-		sed -i -e "s/^\t,NULL$/	,\"$patch\"\n&/" "${S}"/patchlevel.h || die
-	done
+	while read patch level ; do
+		sed -i -e "s/^\t,NULL$/	,\"${patch//__/_}\"\n&/" "${S}"/patchlevel.h || die
+	done < "${WORKDIR}"/perl-patch/series
 }
 
 src_prepare() {
@@ -208,10 +208,14 @@ src_configure() {
 	if use debug ; then
 		append-cflags "-g"
 		myconf -DDEBUGGING
+	elif [[ ${CFLAGS} == *-g* ]] ; then
+		myconf -DDEBUGGING=-g
+	else
+		myconf -DDEBUGGING=none
 	fi
 
 	if [[ -n ${PERL_OLDVERSEN} ]] ; then
-		local inclist=$(for v in ${PERL_OLDVERSEN}; do echo -n "${v} ${v}/${myarch}${mythreading}"; done )
+		local inclist=$(for v in ${PERL_OLDVERSEN}; do echo -n "${v} ${v}/${myarch}${mythreading} "; done )
 		myconf -Dinc_version_list="$inclist"
 	fi
 	[[ -n "${ABI}" ]] && myconf "-Dusrinc=$(get_ml_incdir)"
@@ -232,6 +236,7 @@ src_configure() {
 		-Dprefix='/usr' \
 		-Dsiteprefix='/usr' \
 		-Dvendorprefix='/usr' \
+		-Dscriptdir='/usr/bin' \
 		-Dprivlib="${PRIV_LIB}" \
 		-Darchlib="${ARCH_LIB}" \
 		-Dsitelib="${SITE_LIB}" \
@@ -354,7 +359,7 @@ pkg_postinst() {
 		done
 		ebegin "Generating ConfigLocal.pm (ignore any error)"
 		enc2xs -C
-		ebegin "Converting C header files to the corresponding Perl format"
+		ebegin "Converting C header files to the corresponding Perl format (ignore any error)"
 		pushd /usr/include >/dev/null
 			h2ph -Q -a -d ${ARCH_LIB} \
 				asm/termios.h syscall.h syslimits.h syslog.h sys/ioctl.h \
