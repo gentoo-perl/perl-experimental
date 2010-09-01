@@ -1,6 +1,7 @@
 # Torsten Veller <tove@gentoo.org> (31 Aug 2010)
 # Masked for testing
 =dev-lang/perl-5.12.2*
+=virtual/perl-Module-CoreList-2.38
 
 # Kent Fredric <kentfredric@gmail.com> (15 Aug 2010)
 # Deprecated Upstream, pending removal.
