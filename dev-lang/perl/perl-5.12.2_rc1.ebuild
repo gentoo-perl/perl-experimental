@@ -8,7 +8,7 @@ inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
 PATCH_VER=1
 
-PERL_OLDVERSEN="5.12.0 5.12.1"
+PERL_OLDVERSEN="5.12.1 5.12.0"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"
@@ -51,7 +51,7 @@ dual_scripts() {
 	src_remove_dual_scripts perl-core/Encode             2.39    enc2xs piconv
 	src_remove_dual_scripts perl-core/ExtUtils-MakeMaker 6.56    instmodsh
 	src_remove_dual_scripts perl-core/Module-Build       0.3603  config_data
-	src_remove_dual_scripts perl-core/Module-CoreList    2.32    corelist
+	src_remove_dual_scripts perl-core/Module-CoreList    2.38    corelist
 	src_remove_dual_scripts perl-core/PodParser          1.37    pod2usage podchecker podselect
 	src_remove_dual_scripts perl-core/Test-Harness       3.17    prove
 	src_remove_dual_scripts perl-core/podlators          2.3.1   pod2man pod2text
