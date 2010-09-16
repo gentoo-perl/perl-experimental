@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Net-Google-Spreadsheets-0.14 (16 Sep 2010)
+
+  16 Sep 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Net-Google-Spreadsheets-0.13.ebuild,
+  +Net-Google-Spreadsheets-0.14.ebuild:
+  Bump dev-perl/Net-Google-Spreadsheets to 0.14
+
 *Net-Google-Spreadsheets-0.13 (10 Aug 2010)
 
   10 Aug 2010; Daniel Westermann-Clark <dwc@pobox.com>

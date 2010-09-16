@@ -17,7 +17,7 @@ SRC_TEST="do"
 IUSE="test"
 RDEPEND="dev-perl/XML-Atom
 	dev-perl/Net-Google-AuthSub
-	>=dev-perl/Net-Google-DataAPI-0.19
+	>=dev-perl/Net-Google-DataAPI-0.21
 	dev-perl/URI
 	dev-perl/namespace-autoclean
 	dev-perl/Any-Moose
