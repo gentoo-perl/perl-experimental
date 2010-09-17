@@ -14,6 +14,10 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
+PATCHES=(
+	"${FILESDIR}/vci-cvs-timezone-${PV}.patch"
+)
+
 IUSE="bazaar cvs git mercurial subversion test"
 RDEPEND=">=dev-perl/Moose-0.27
 	dev-perl/MooseX-Method
@@ -21,35 +25,19 @@ RDEPEND=">=dev-perl/Moose-0.27
 	>=dev-perl/Path-Abstract-0.093
 	dev-perl/DateTime-Format-DateParse
 	>=dev-perl/Text-Diff-Parser-0.07
-	bazaar? (
-		dev-vcs/bzr
-		>=virtual/perl-IPC-Cmd-0.42
-		>=virtual/perl-Module-Load-Conditional-0.24
-		>=dev-perl/IPC-Run-0.55
-		dev-perl/XML-Simple
-	)
-	subversion? (
-		>=dev-vcs/subversion-1.2[perl,-dso]
-		virtual/perl-File-Spec
-	)
-	mercurial? (
-		dev-vcs/mercurial
-		dev-perl/libwww-perl
-		dev-perl/XML-Simple
-	)
-	git? (
-		dev-vcs/git[perl]
-		virtual/perl-File-Spec
-	)
-	cvs? (
-		dev-vcs/cvs
-		>=virtual/perl-IPC-Cmd-0.42
-		>=virtual/perl-Module-Load-Conditional-0.24
-		>=dev-perl/IPC-Run-0.55
-		virtual/perl-File-Spec
-		virtual/perl-File-Temp
-		virtual/perl-Scalar-List-Utils
-	)"
+	>=virtual/perl-IPC-Cmd-0.42
+	>=virtual/perl-Module-Load-Conditional-0.24
+	>=dev-perl/IPC-Run-0.55
+	dev-perl/XML-Simple
+	dev-perl/libwww-perl
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	bazaar? ( dev-vcs/bzr )
+	subversion? ( >=dev-vcs/subversion-1.2[perl,-dso] )
+	mercurial? ( dev-vcs/mercurial )
+	git? ( dev-vcs/git[perl] )
+	cvs? ( dev-vcs/cvs )"
 DEPEND="virtual/perl-Module-Build
 	${RDEPEND}
 	test? (
