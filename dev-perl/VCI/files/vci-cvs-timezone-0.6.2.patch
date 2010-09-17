@@ -1,0 +1,25 @@
+=== modified file 'lib/VCI/VCS/Cvs/File.pm'
+--- lib/VCI/VCS/Cvs/File.pm	2010-08-21 20:02:18 +0000
++++ lib/VCI/VCS/Cvs/File.pm	2010-09-17 14:52:58 +0000
+@@ -20,14 +20,18 @@
+ sub _build_time {
+     my $self = shift;
+     my $rev = $self->revision;
++
++    # Force timezone to UTC in order to get consistent commit times
++    local $ENV{TZ} = 'UTC';
+     my $output = $self->vci->x_do(
+         args => ['-n', 'log', '-N', "-r$rev", $self->name],
+         fromdir => $self->parent->x_cvs_dir);
+-    $output =~ /^date: (\S+ \S+);/ms;
++    $output =~ /^date: (\S+ \S+)( \S+)?;/ms;
+     my $time = $1;
++    my $tz = $2 || 'UTC';
+     confess("Failed to parse time for " . $self->path->stringify . " $rev")
+         if !defined $time;
+-    return "$time UTC";
++    return "$time $tz";
+ }
+ 
+ sub _build_content {
+
