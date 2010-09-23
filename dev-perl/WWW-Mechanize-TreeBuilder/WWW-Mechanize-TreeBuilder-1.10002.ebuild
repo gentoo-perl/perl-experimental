@@ -13,7 +13,9 @@ LICENSE="as-is"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-
+PATCHES=(
+	"${FILESDIR}/rt57723.patch"
+)
 DEPEND="
 	>=dev-perl/Moose-0.65
 	dev-perl/HTML-Tree
