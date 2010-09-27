@@ -1,11 +1,3 @@
-# Kent Fredric <kentfredric@gmail.com> (15 Aug 2010)
-# Deprecated Upstream, pending removal.
-# 30 day warning.
-# Use Plugin::Cache directly instead from
-#   dev-perl/Catalyst-Plugin-Cache 
-# See the synopsis for configuring Memcached.
-dev-perl/Catalyst-Plugin-Cache-Memcached
-
 # Torsten Veller <tove@gentoo.org> (14 Aug 2010)
 # New API - masked for testing
 >=dev-perl/sdl-perl-2.5
