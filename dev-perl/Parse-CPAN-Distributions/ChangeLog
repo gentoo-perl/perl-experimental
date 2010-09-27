@@ -1,0 +1,14 @@
+# ChangeLog for dev-perl/Parse-CPAN-Distributions
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  15 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  Parse-CPAN-Distributions-0.05.ebuild:
+  Dep tweaks
+
+*Parse-CPAN-Distributions-0.05 (12 May 2009)
+
+  12 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Parse-CPAN-Distributions-0.05.ebuild:
+  Added
+

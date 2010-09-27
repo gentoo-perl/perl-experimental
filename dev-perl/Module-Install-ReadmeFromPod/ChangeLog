@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Module-Install-ReadmeFromPod-0.10 (15 Aug 2010)
+
+  15 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Module-Install-ReadmeFromPod-0.10.ebuild:
+  Bump
+
 *Module-Install-ReadmeFromPod-0.08 (13 May 2010)
 
   13 May 2010; Torsten Veller <tove@gentoo.org>

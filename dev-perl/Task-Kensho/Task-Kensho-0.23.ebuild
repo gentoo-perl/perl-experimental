@@ -10,7 +10,7 @@ DESCRIPTION="A Glimpse at an Enlightened Perl"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="" # yet to test
+KEYWORDS="~x86 ~amd64" # yet to test
 
 IUSE="+basic-toolchain +testing oop async webdev db crawl module-devel date
 config cli scripting xml +exceptions spreadsheet email scalability"

@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Text-Password-Pronounceable
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Text-Password-Pronounceable-0.30 (18 Aug 2010)
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Text-Password-Pronounceable-0.30.ebuild:
+  Bump
+

@@ -1,0 +1,34 @@
+# ChangeLog for dev-perl/Module-Install-ProvidesClass
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  15 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  -Module-Install-ProvidesClass-0.000001.ebuild,
+  -Module-Install-ProvidesClass-0.000001.01.ebuild,
+  -Module-Install-ProvidesClass-0.000001.99.ebuild:
+  Cleaned. Gone on cpan
+
+*Module-Install-ProvidesClass-1.000000 (15 Aug 2010)
+
+  15 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Module-Install-ProvidesClass-1.000000.ebuild:
+  Bump
+
+*Module-Install-ProvidesClass-0.000001.99 (16 May 2009)
+
+  16 May 2009; Kent Fredric <kentfredric@gmail.com>
+  +Module-Install-ProvidesClass-0.000001.99.ebuild:
+  Bumped, Thanks ash
+
+*Module-Install-ProvidesClass-0.000001.01 (12 May 2009)
+
+  12 May 2009; Kent Fredric <kentfredric@gmail.com>
+  +Module-Install-ProvidesClass-0.000001.01.ebuild:
+  BUmped
+
+*Module-Install-ProvidesClass-0.000001 (11 May 2009)
+
+  11 May 2009; Kent Fredric <kentfredric@gmail.com> +metadata.xml,
+  +Module-Install-ProvidesClass-0.000001.ebuild:
+  Added
+

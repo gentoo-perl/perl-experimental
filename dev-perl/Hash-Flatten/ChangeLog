@@ -2,5 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Hash-Flatten-1.19 (27 Sep 2010)
+
+  27 Sep 2010; Kent Fredric <kentfredric@gmail.com>
+  +Hash-Flatten-1.19.ebuild:
+  Bump
+
   15 Jun 2010; Torsten Veller <tove@gentoo.org> Hash-Flatten-1.16.ebuild:
   s/DEPENDS/DEPEND/. Add test dependencies

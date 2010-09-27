@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-View-TT-0.35 (28 Aug 2010)
+
+  28 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-View-TT-0.35.ebuild:
+  Bump
+
 *Catalyst-View-TT-0.34 (20 Apr 2010)
 
   20 Apr 2010; Michele Beltrame <m@cattlegrid.info>

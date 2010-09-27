@@ -2,6 +2,21 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Plack-0.9949 (20 Sep 2010)
+
+  20 Sep 2010; Kent Fredric <kentfredric@gmail.com> +Plack-0.9949.ebuild:
+  Bumped
+
+*Plack-0.9946 (09 Sep 2010)
+
+  09 Sep 2010; Kent Fredric <kentfredric@gmail.com> +Plack-0.9946.ebuild:
+  Bumped
+
+*Plack-0.9945 (21 Aug 2010)
+
+  21 Aug 2010; Kent Fredric <kentfredric@gmail.com> +Plack-0.9945.ebuild:
+  Bump
+
 *Plack-0.9944 (13 Aug 2010)
 
   13 Aug 2010; Kent Fredric <kentfredric@gmail.com> +Plack-0.9944.ebuild:

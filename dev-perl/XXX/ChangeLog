@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*XXX-0.17 (22 Aug 2010)
+
+  22 Aug 2010; Kent Fredric <kentfredric@gmail.com> +XXX-0.17.ebuild:
+  Bump
+
 *XXX-0.16 (19 Jun 2010)
 
   19 Jun 2010; Kent Fredric <kentfredric@gmail.com> -XXX-0.12.ebuild,

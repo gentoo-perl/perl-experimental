@@ -8,7 +8,7 @@ inherit perl-module
 DESCRIPTION="Unified cache interface"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~x86 ~amd64"
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Carp-Assert-0.20

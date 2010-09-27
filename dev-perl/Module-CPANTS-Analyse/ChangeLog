@@ -1,0 +1,14 @@
+# ChangeLog for dev-perl/Module-CPANTS-Analyse
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  Module-CPANTS-Analyse-0.85.ebuild:
+  Recheck/EAPI Bump
+
+*Module-CPANTS-Analyse-0.85 (22 May 2010)
+
+  22 May 2010; Kent Fredric <kentfredric@gmail.com>
+  +Module-CPANTS-Analyse-0.85.ebuild, +metadata.xml:
+  Added
+

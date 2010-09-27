@@ -1,0 +1,13 @@
+# ChangeLog for dev-perl/mocked
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com> mocked-0.09.ebuild:
+  Dep tweaks and EAPI to better match upstream
+
+*mocked-0.09 (20 Jul 2009)
+
+  20 Jul 2009; Kent Fredric <kentfredric@gmail.com> +mocked-0.09.ebuild,
+  +metadata.xml:
+  Added
+

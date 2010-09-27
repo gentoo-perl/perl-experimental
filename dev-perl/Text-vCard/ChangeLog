@@ -1,0 +1,34 @@
+# ChangeLog for dev-perl/Text-vCard
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Text-vCard-2.09 (28 Aug 2010)
+
+  28 Aug 2010; Kent Fredric <kentfredric@gmail.com> +Text-vCard-2.09.ebuild:
+  Bump
+
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com> Text-vCard-2.07.ebuild:
+  EAPI=3, Tweak,Test
+
+*Text-vCard-2.07 (03 Feb 2010)
+
+  03 Feb 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Text-vCard-2.05.ebuild, +Text-vCard-2.07.ebuild:
+  Bump dev-perl/Text-vCard to 2.07
+
+*Text-vCard-2.05 (14 Jan 2010)
+
+  14 Jan 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Text-vCard-2.04.ebuild, +Text-vCard-2.05.ebuild:
+  Bump Text-vCard to 2.05
+
+*Text-vCard-2.04 (05 Jan 2010)
+
+  05 Jan 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Text-vCard-2.03.ebuild, +Text-vCard-2.04.ebuild:
+  Bump Text-vCard to 2.04
+
+  11 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
+  Text-vCard-2.03.ebuild, +metadata.xml:
+  Convert to EAPI=2 and add metadata.xml
+

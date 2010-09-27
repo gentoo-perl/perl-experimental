@@ -1,6 +1,17 @@
 # ChangeLog for dev-perl/TryCatch
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*TryCatch-1.002000-r1 (14 Aug 2010)
+
+  14 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +files/0001-Change-how-wantarray-is-tweaked-to-work-better-with-.patch,
+  +TryCatch-1.002000-r1.ebuild:
+  Added patched version to get closer to upstream for perl-5.12 users. 
+  Presenty its kinda broken on 5.12, but this makes it less broken, and most
+  tests pass. It appears to only lack support for a few syntax checking
+  nicities. However, its unofficial hackery, so its unsupported, and thus
+  unkeyworded. If you unmask it, expect it to fail tests. =).
 
 *TryCatch-1.002000 (14 Sep 2009)
 

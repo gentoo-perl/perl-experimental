@@ -1,0 +1,30 @@
+# ChangeLog for dev-perl/Dist-Zilla-PluginBundle-KENTNL
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-PluginBundle-KENTNL-0.01010423 (28 Aug 2010)
+
+  28 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-PluginBundle-KENTNL-0.01010423.ebuild:
+  Bump
+
+  28 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-PluginBundle-KENTNL-0.01000600.ebuild:
+  Clean. CPAN Removal
+
+  23 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-PluginBundle-KENTNL-0.01009310.ebuild:
+  Finished deps, unmasking
+
+*Dist-Zilla-PluginBundle-KENTNL-0.01009310 (22 Aug 2010)
+
+  22 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-PluginBundle-KENTNL-0.01009310.ebuild:
+  Bumped, but masked.
+
+*Dist-Zilla-PluginBundle-KENTNL-0.01000600 (22 May 2010)
+
+  22 May 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-PluginBundle-KENTNL-0.01000600.ebuild, +metadata.xml:
+  Added
+

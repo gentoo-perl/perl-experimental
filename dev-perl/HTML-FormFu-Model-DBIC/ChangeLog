@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/HTML-FormFu-Model-DBIC
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-FormFu-Model-DBIC-0.08002 (27 Sep 2010)
+
+  27 Sep 2010; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormFu-Model-DBIC-0.08002.ebuild:
+  Bumped
 
 *HTML-FormFu-Model-DBIC-0.06000 (30 Dec 2009)
 

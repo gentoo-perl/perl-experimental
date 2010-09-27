@@ -1,6 +1,18 @@
 # ChangeLog for dev-perl/Config-INI
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Config-INI-0.016 (09 Sep 2010)
+
+  09 Sep 2010; Kent Fredric <kentfredric@gmail.com>
+  +Config-INI-0.016.ebuild:
+  Bump
+
+*Config-INI-0.015 (27 Aug 2010)
+
+  27 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Config-INI-0.015.ebuild:
+  Bump
 
 *Config-INI-0.014 (11 May 2009)
 

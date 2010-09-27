@@ -2,6 +2,17 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*WWW-Mechanize-TreeBuilder-1.10003 (23 Sep 2010)
+
+  23 Sep 2010; Kent Fredric <kentfredric@gmail.com>
+  +WWW-Mechanize-TreeBuilder-1.10003.ebuild:
+  Bumped. Previous patch merged upstream.
+
+  23 Sep 2010; Kent Fredric <kentfredric@gmail.com> +files/rt57723.patch,
+  WWW-Mechanize-TreeBuilder-1.10002.ebuild:
+  Added a patch to fix with current Test::Simple until upstream gets a new
+  release out.
+
 *WWW-Mechanize-TreeBuilder-1.10002 (10 Aug 2010)
 
   10 Aug 2010; Michele Beltrame <m@cattlegrid.info>

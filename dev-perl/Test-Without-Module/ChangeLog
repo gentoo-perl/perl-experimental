@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-Without-Module
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-Without-Module-0.17 (15 Aug 2010)
+
+  15 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Test-Without-Module-0.17.ebuild, +metadata.xml:
+  Added
+

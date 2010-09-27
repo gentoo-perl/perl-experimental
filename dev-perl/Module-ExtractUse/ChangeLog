@@ -1,0 +1,14 @@
+# ChangeLog for dev-perl/Module-ExtractUse
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  Module-ExtractUse-0.23.ebuild:
+  Eapi bump/redigest/check
+
+*Module-ExtractUse-0.23 (22 May 2010)
+
+  22 May 2010; Kent Fredric <kentfredric@gmail.com>
+  +Module-ExtractUse-0.23.ebuild, +metadata.xml:
+  Added
+

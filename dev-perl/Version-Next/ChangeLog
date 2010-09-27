@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Version-Next
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Version-Next-0.001 (09 Sep 2010)
+
+  09 Sep 2010; Kent Fredric <kentfredric@gmail.com>
+  +Version-Next-0.001.ebuild, +metadata.xml:
+  Added.
+

@@ -1,0 +1,31 @@
+diff --git a/Changes b/Changes
+index c3218f2..3c80274 100644
+--- a/Changes
++++ b/Changes
+@@ -1,5 +1,7 @@
+ Changelog for WWW::Mechanize::TreeBuilder
+ 
++  - Fix for rt: 57723: Tests failing on Test-Simple 0.96 ( Kent Fredric )
++
+ 1.10002 - 2010 Apr 13
+   - Update example to work properly
+ 
+diff --git a/t/03-xpath.t b/t/03-xpath.t
+index 45116be..7f5b4f1 100644
+--- a/t/03-xpath.t
++++ b/t/03-xpath.t
+@@ -19,7 +19,7 @@ use_ok 'MockMechanize';
+ my $mech = MockMechanize->new;
+ 
+ WWW::Mechanize::TreeBuilder->meta->apply(
+-  $mech, 
++  $mech,
+   tree_class => 'HTML::TreeBuilder::XPath'
+ );
+ 
+@@ -29,4 +29,4 @@ $mech->get_ok('/', 'Request ok');
+ # Check we can use normal TWMC methods
+ $mech->content_contains('A para');
+ 
+-is( $mech->find_xpath('//h1'), 'It works', 'find_xpath works');
++is( $mech->find_xpath('//h1')->string_value, 'It works', 'find_xpath works');

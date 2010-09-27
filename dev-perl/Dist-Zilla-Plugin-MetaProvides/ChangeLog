@@ -1,0 +1,51 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-MetaProvides
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-MetaProvides-1.0920022.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-1.10000417.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-1.10001919.ebuild:
+  Cleaned old versions
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-MetaProvides-1.11034201.ebuild, metadata.xml:
+  Created PDEPENDS for all the old modules
+  that used to be part of this dist.
+
+*Dist-Zilla-Plugin-MetaProvides-1.11034201 (18 Aug 2010)
+
+  18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-1.11034201.ebuild:
+  Bump
+
+*Dist-Zilla-Plugin-MetaProvides-1.10027802 (23 May 2010)
+
+  23 May 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-1.10027802.ebuild:
+  Version bump
+
+*Dist-Zilla-Plugin-MetaProvides-1.10027518 (21 May 2010)
+
+  21 May 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-1.10027518.ebuild:
+  Version Bump, (C) upgrades.
+
+*Dist-Zilla-Plugin-MetaProvides-1.10001919 (14 Sep 2009)
+
+  14 Sep 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-1.10001919.ebuild:
+  Bumped
+
+*Dist-Zilla-Plugin-MetaProvides-1.10000417 (28 Aug 2009)
+
+  28 Aug 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-1.10000417.ebuild:
+  Bumped to 1.10000417
+
+*Dist-Zilla-Plugin-MetaProvides-1.0920022 (29 Jul 2009)
+
+  29 Jul 2009; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-1.0920022.ebuild, +metadata.xml:
+  Added Dist::Zilla::Plugin::MetaProvides
+
