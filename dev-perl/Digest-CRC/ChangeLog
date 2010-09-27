@@ -1,7 +1,0 @@
-# ChangeLog for dev-perl/Digest-CRC
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-  10 Dec 2009; Kent Fredric <kentfredric@gmail.com> -Digest-CRC-0.10.ebuild:
-  Cleaed from CPAN
-
