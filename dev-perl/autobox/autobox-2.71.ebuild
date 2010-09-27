@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=3
+
 MODULE_AUTHOR=CHOCOLATE
 inherit perl-module
 
@@ -13,8 +15,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Scope-Guard-0.03
+	>=dev-perl/Scope-Guard-0.20
 "
 DEPEND="
 	${RDEPEND}
 "
+SRC_TEST=do
