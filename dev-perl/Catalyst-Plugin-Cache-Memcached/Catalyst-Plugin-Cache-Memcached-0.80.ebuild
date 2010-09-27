@@ -24,3 +24,8 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 
 SRC_TEST=do
+
+pkg_postinst(){
+	ewarn "This module is deprecated upstream, please use"
+	ewarn "Catalyst::Plugin::Cache before we remove this"
+}
