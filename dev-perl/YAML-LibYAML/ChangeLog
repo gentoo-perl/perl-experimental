@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*YAML-LibYAML-0.34 (27 Sep 2010)
+
+  27 Sep 2010; Kent Fredric <kentfredric@gmail.com>
+  +YAML-LibYAML-0.34.ebuild:
+  Bump
+
 *YAML-LibYAML-0.33 (29 Apr 2010)
 
   29 Apr 2010; Torsten Veller <tove@gentoo.org> +YAML-LibYAML-0.33.ebuild:
