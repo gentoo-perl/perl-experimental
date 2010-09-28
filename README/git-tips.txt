@@ -12,3 +12,4 @@ Git
 include::git-tips/repositories.txt[]
 include::git-tips/contribution-order.txt[]
 include::git-tips/linearize-commits.txt[]
+include::git-tips/work-in-a-branch.txt[]

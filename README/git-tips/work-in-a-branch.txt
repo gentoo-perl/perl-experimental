@@ -1,0 +1,59 @@
+[[workinabranch]]
+Work In A Branch
+================
+
+Working in a branch instead of on `master` I have found to be a productive way
+to get things done with minimal interference from other commiters.
+
+Working this way lets you track upstream changes locally, update your local
+master, and work on multiple subjects simultaneously without any conflicts,
+and without being forced to perform a merge/rebase as soon as changes occur
+upstream.
+[source,bash]
+------------------------------------------------------------------------------------
+  git checkout master
+  # create a new branch to work in.
+  git checkout -b updates
+  # hack on updates.
+  # commit changes to update branch
+  git commit -m "Some message"
+  # return to master
+  git checkout master
+  # update master from upstream
+  git pull -u -v
+
+  # create another branch from master for a quick-fix
+  git checkout -b quickfix
+  # hack on quick fix
+  # commit change to quick fix branch
+  git commit -m "Emergency Commit set"
+  # return to master
+  git checkout master
+  # check for changes from upstream.
+  git pull -u -v
+  # Damn, updates happened.
+  git checkout quickfix
+  # rebase quickfix on top of master
+  git rebase -i master
+  git checkout master
+  # check again for upstream changes
+  git pull -u -v
+  # Yay, no upstream changes, time to publish the changes in quickfix
+  # --ff-only is good to prevent anarchy
+  git merge --ff-only quickfix
+  git push upstream master
+  git branch -d quickfix
+
+  # return to work on updates
+  git checkout updates
+  # move updates to be after master before continuing to hack
+  git rebase -i master
+  # more hacking on updates
+  git checkout master
+  # check for upstream changes
+  git pull -u -v
+  # Yay, no upstream changes!
+  git merge --ff-only updates
+  git push upstream master
+------------------------------------------------------------------------------------
+

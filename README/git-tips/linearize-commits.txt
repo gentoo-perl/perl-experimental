@@ -14,6 +14,7 @@ But the subject of `git rebase` is far too complex to summarise in this one
 document, at least for now, so you should use other online sources to learn
 this.
 
+[[rebase]]
 Git Rebase related Articles
 ---------------------------
 

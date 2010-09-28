@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
 <meta name="generator" content="AsciiDoc 8.6.1"/>
-<title>Networks</title>
+<title>Work In A Branch</title>
 <style type="text/css">
 /*<![CDATA[*/
 /* Debug borders */
@@ -588,7 +588,7 @@ footnotes: function () {
 </head>
 <body class="article">
 <div id="header">
-<h1>Networks</h1>
+<h1>Work In A Branch</h1>
 <div id="toc">
   <div id="toctitle">Table of Contents</div>
   <noscript><p><b>JavaScript must be enabled in your browser to display the table of contents.</b></p></noscript>
@@ -597,29 +597,65 @@ footnotes: function () {
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph" id="networks"><p>The Gentoo Perl Herd and the overlay contributors have various channels of
-communications and interactions.</p></div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="networks-irc">1. IRC</h2>
-<div class="sectionbody">
-<div class="paragraph"><p>The primary source for all direct Gentoo Perl communications is <tt>#gentoo-perl</tt>
-on <tt>irc.freenode.org</tt></p></div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="networks-sourcecontrol">2. Source-Control</h2>
-<div class="sectionbody">
-<div class="paragraph"><p>Overlays for Gentoo can be found on <a href="#repositories-github">Github</a> and
-<a href="#repositories-gogo">the Gentoo Overlays website</a>.</p></div>
+<div class="paragraph" id="workinabranch"><p>Working in a branch instead of on <tt>master</tt> I have found to be a productive way
+to get things done with minimal interference from other commiters.</p></div>
+<div class="paragraph"><p>Working this way lets you track upstream changes locally, update your local
+master, and work on multiple subjects simultaneously without any conflicts,
+and without being forced to perform a merge/rebase as soon as changes occur
+upstream.</p></div>
+<div class="listingblock">
+<div class="content"><div class="highlight"><pre>  git checkout master
+  <span class="c"># create a new branch to work in.</span>
+  git checkout -b updates
+  <span class="c"># hack on updates.</span>
+  <span class="c"># commit changes to update branch</span>
+  git commit -m <span class="s2">"Some message"</span>
+  <span class="c"># return to master</span>
+  git checkout master
+  <span class="c"># update master from upstream</span>
+  git pull -u -v
+
+  <span class="c"># create another branch from master for a quick-fix</span>
+  git checkout -b quickfix
+  <span class="c"># hack on quick fix</span>
+  <span class="c"># commit change to quick fix branch</span>
+  git commit -m <span class="s2">"Emergency Commit set"</span>
+  <span class="c"># return to master</span>
+  git checkout master
+  <span class="c"># check for changes from upstream.</span>
+  git pull -u -v
+  <span class="c"># Damn, updates happened.</span>
+  git checkout quickfix
+  <span class="c"># rebase quickfix on top of master</span>
+  git rebase -i master
+  git checkout master
+  <span class="c"># check again for upstream changes</span>
+  git pull -u -v
+  <span class="c"># Yay, no upstream changes, time to publish the changes in quickfix</span>
+  <span class="c"># --ff-only is good to prevent anarchy</span>
+  git merge --ff-only quickfix
+  git push upstream master
+  git branch -d quickfix
+
+  <span class="c"># return to work on updates</span>
+  git checkout updates
+  <span class="c"># move updates to be after master before continuing to hack</span>
+  git rebase -i master
+  <span class="c"># more hacking on updates</span>
+  git checkout master
+  <span class="c"># check for upstream changes</span>
+  git pull -u -v
+  <span class="c"># Yay, no upstream changes!</span>
+  git merge --ff-only updates
+  git push upstream master
+</pre></div></div></div>
 </div>
 </div>
 </div>
 <div id="footnotes"><hr/></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2010-09-29 09:22:59 NZDT
+Last updated 2010-09-29 12:41:58 NZDT
 </div>
 <div id="footer-badges">
 <a href="http://validator.w3.org/check?uri=referer">
