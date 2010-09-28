@@ -14,19 +14,37 @@ But the subject of `git rebase` is far too complex to summarise in this one
 document, at least for now, so you should use other online sources to learn
 this.
 
-Advocates of Git Rebase/Theory
-------------------------------
+Git Rebase related Articles
+---------------------------
 
 Tate Johnson::
  link:http://tatey.com/2009/04/23/git-rebase-for-linear-history/[Git Rebase
  For Linear History]
 
+ProGit.org::
+  link:http://progit.org/book/ch3-6.html[ Rebase ]
+
+John Wiegley::
+  link:http://www.newartisans.com/2008/04/git-from-the-bottom-up.html[
+    Git from the bottom up]
+
+Tommi Virtanen::
+  link:http://eagain.net/articles/git-for-computer-scientists/[
+    Git for Computer Scientists]
+
+nothingmuch/Yuval Kogman::
+  * link:http://blog.woobling.org/2009/05/git-rebase-considered-awesome.html[
+    `git rebase` Considered Awesome]
+
+  * link:http://blog.woobling.org/2009/08/git-rebase-for-impatient.html[
+    `git rebase` for the Impatient]
+
+Dean Strelau::
+  link:http://d.strelau.net/post/47338904/git-pull-rebase-by-default[
+    `git pull --rebase` by default]
+
 Kent Fredric::
   link:http://blog.fox.geek.nz/2010/08/git-rebase-part-1-why-you-should-use-it.html[Git
   Rebase Part 1: Why you should use it, Theory.]
 
-Rebase Guides
--------------
 
-ProGit.org::
-  link:http://progit.org/book/ch3-6.html[ Rebase ]
