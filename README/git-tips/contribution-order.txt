@@ -1,0 +1,28 @@
+Recommended Contribution Order
+==============================
+
+Contributions are recommended to be performed in the following order:
+
+  1. Progress your patch sequence locally.
+  2. *(optional)* push your patch sequence to your personal public repository
+  3. Push your patch sequence to Github.
+  4. Push your patch sequence to gogo.
+
+This order will hopefully reduce the amount of push collisions encountered,
+which will make all our lives easier =).
+
+[TIP]
+It is strongly suggested to watch `#gentoo-perl` for pushed commit notices so
+you can anticipate a collison happening _before_ it occurs outside the safety
+of your pc
+
+[TIP]
+If `git` tells you there is an upstream non-fast forward merge, do make sure
+you resolve it locally somehow, not just force it, unless you _know_ what you
+are doing.
+
+[TIP]
+For optimal continuity, it is suggested you do all you can possible to
+linearize commits. See link:linearize_commits.txt[Linearizing Commits]
+
+

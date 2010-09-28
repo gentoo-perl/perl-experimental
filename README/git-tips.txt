@@ -1,0 +1,11 @@
+Gentoo Perl Overlay Tips
+========================
+The #gentoo-perl team.
+
+Git
+---
+:leveloffset: 2
+include::git-tips/repositories.txt[]
+include::git-tips/contribution-order.txt[]
+include::git-tips/linearize-commits.txt[]
+

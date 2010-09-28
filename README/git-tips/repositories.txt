@@ -1,0 +1,32 @@
+Repositories
+============
+
+At the time of this writing, there are several repositories. 
+
+Git.Overlays.Gentoo.org
+-----------------------
+Few people with commit rights.
+Does not broadcast pushes to IRC.
+
+ReadOnly(git)::
+  `git://git.overlays.gentoo.org/proj/perl-overlay.git`
+
+ReadOnly(http)::
+  `http://git.overlays.gentoo.org/gitroot/proj/perl-overlay.git`
+ReadWrite::
+  `git+ssh://git@git.overlays.gentoo.org/proj/perl-overlay`
+
+Github
+------
+Same number of commiters. 
+Supports people without direct access sending pull requests.
+PUSHES to this repository create broadcasts in IRC.
+
+ReadOnly(git)::
+  `git://github.com/gentoo-perl/perl-experimental.git`
+ReadOnly(http)::
+  `http://github.com/gentoo-perl/perl-experimental.git`
+ReadWrite::
+  `git@github.com:gentoo-perl/perl-experimental.git`
+
+
