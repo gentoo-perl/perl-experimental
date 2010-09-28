@@ -1,6 +1,9 @@
 #!/bin/bash
 CMDICONS="-a icons -a iconsdir=/usr/share/asciidoc/images/icons/"
-CMD="asciidoc -n -a toc -a toclevels=4 -a badges"
+DOCCMD="asciidoc -n -a toc -a toclevels=4 -a badges"
+LINTCMD="xmllint "
 for i in git-tips.txt git-tips/*.txt ; do
-  $CMD $i;
+  base=${i%.txt}
+  $DOCCMD $i;
+  $LINTCMD ${base}.html --output ${base}.html;
 done

@@ -1,0 +1,21 @@
+[[networks]]
+Networks
+========
+
+The Gentoo Perl Herd and the overlay contributors have various channels of
+communications and interactions.
+
+[[networks-irc]]
+IRC
+---
+
+The primary source for all direct Gentoo Perl communications is `#gentoo-perl`
+on `irc.freenode.org`
+
+[[networks-sourcecontrol]]
+Source-Control
+--------------
+
+Overlays for Gentoo can be found on xref:repositories-github[Github] and
+xref:repositories-gogo[the Gentoo Overlays website]. 
+

@@ -2,6 +2,10 @@ Gentoo Perl Overlay Tips
 ========================
 The #gentoo-perl team.
 
+:leveloffset: 1
+include::git-tips/networks.txt[]
+
+:leveloffset: 0
 Git
 ---
 :leveloffset: 2

@@ -5,14 +5,14 @@ Contributions are recommended to be performed in the following order:
 
   1. Progress your patch sequence locally.
   2. *(optional)* push your patch sequence to your personal public repository
-  3. Push your patch sequence to Github.
-  4. Push your patch sequence to gogo.
+  3. Push your patch sequence to xref:repositories-github[Github].
+  4. Push your patch sequence to xref:repositories-gogo[git.overlays.gentoo.org].
 
 This order will hopefully reduce the amount of push collisions encountered,
 which will make all our lives easier =).
 
 [TIP]
-It is strongly suggested to watch `#gentoo-perl` for pushed commit notices so
+It is strongly suggested to watch xref:networks-irc[`#gentoo-perl`] for pushed commit notices so
 you can anticipate a collison happening _before_ it occurs outside the safety
 of your pc
 
