@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="generator" content="AsciiDoc 8.5.3"/>
-<title>Gentoo Perl Overlay Tips</title>
+<title>Linearize Commmits</title>
 <style type="text/css">
 /*<![CDATA[*/
 /* Debug borders */
@@ -553,145 +553,16 @@ footnotes: function () {
 </head>
 <body>
 <div id="header">
-<h1>Gentoo Perl Overlay Tips</h1>
-<span id="author">The #gentoo-perl team.</span><br/>
+<h1>Linearize Commmits</h1>
 <div id="toc">
   <div id="toctitle">Table of Contents</div>
   <noscript><p><b>JavaScript must be enabled in your browser to display the table of contents.</b></p></noscript>
 </div>
 </div>
 <div id="content">
-<h2 id="networks">1. Networks</h2>
+<div id="preamble">
 <div class="sectionbody">
-<div class="paragraph"><p>The Gentoo Perl Herd and the overlay contributors have various channels of
-communications and interactions.</p></div>
-<h3 id="networks-irc">1.1. IRC</h3><div style="clear:left"/>
-<div class="paragraph"><p>The primary source for all direct Gentoo Perl communications is <tt>#gentoo-perl</tt>
-on <tt>irc.freenode.org</tt></p></div>
-<h3 id="networks-sourcecontrol">1.2. Source-Control</h3><div style="clear:left"/>
-<div class="paragraph"><p>Overlays for Gentoo can be found on <a href="#repositories-github">Github</a> and
-<a href="#repositories-gogo">the Gentoo Overlays website</a>.</p></div>
-</div>
-<h2 id="_git">2. Git</h2>
-<div class="sectionbody">
-<h3 id="repositories">2.1. Repositories</h3><div style="clear:left"/>
-<div class="paragraph"><p>At the time of this writing, there are several repositories.</p></div>
-<h4 id="repositories-gogo">2.1.1. Git.Overlays.Gentoo.org</h4>
-<div class="paragraph"><p>Few people with commit rights.
-Does not broadcast pushes to IRC.</p></div>
-<div class="dlist"><dl>
-<dt class="hdlist1">
-ReadOnly(git)
-</dt>
-<dd>
-<p>
-  <tt>git://git.overlays.gentoo.org/proj/perl-overlay.git</tt>
-</p>
-</dd>
-<dt class="hdlist1">
-ReadOnly(http)
-</dt>
-<dd>
-<p>
-  <tt>http://git.overlays.gentoo.org/gitroot/proj/perl-overlay.git</tt>
-</p>
-</dd>
-<dt class="hdlist1">
-ReadWrite
-</dt>
-<dd>
-<p>
-  <tt>git+ssh://git@git.overlays.gentoo.org/proj/perl-overlay</tt>
-</p>
-</dd>
-</dl></div>
-<h4 id="repositories-github">2.1.2. Github</h4>
-<div class="paragraph"><p>Same number of commiters.
-Supports people without direct access sending pull requests.
-PUSHES to this repository create broadcasts in IRC.</p></div>
-<div class="dlist"><dl>
-<dt class="hdlist1">
-ReadOnly(git)
-</dt>
-<dd>
-<p>
-  <tt>git://github.com/gentoo-perl/perl-experimental.git</tt>
-</p>
-</dd>
-<dt class="hdlist1">
-ReadOnly(http)
-</dt>
-<dd>
-<p>
-  <tt>http://github.com/gentoo-perl/perl-experimental.git</tt>
-</p>
-</dd>
-<dt class="hdlist1">
-ReadWrite
-</dt>
-<dd>
-<p>
-  <tt>git@github.com:gentoo-perl/perl-experimental.git</tt>
-</p>
-</dd>
-</dl></div>
-<h3 id="_recommended_contribution_order">2.2. Recommended Contribution Order</h3><div style="clear:left"/>
-<div class="paragraph"><p>Contributions are recommended to be performed in the following order:</p></div>
-<div class="olist arabic"><ol class="arabic">
-<li>
-<p>
-Progress your patch sequence locally.
-</p>
-</li>
-<li>
-<p>
-<strong>(optional)</strong> push your patch sequence to your personal public repository
-</p>
-</li>
-<li>
-<p>
-Push your patch sequence to <a href="#repositories-github">Github</a>.
-</p>
-</li>
-<li>
-<p>
-Push your patch sequence to <a href="#repositories-gogo">git.overlays.gentoo.org</a>.
-</p>
-</li>
-</ol></div>
-<div class="paragraph"><p>This order will hopefully reduce the amount of push collisions encountered,
-which will make all our lives easier =).</p></div>
-<div class="admonitionblock">
-<table><tr>
-<td class="icon">
-<div class="title">Tip</div>
-</td>
-<td class="content">It is strongly suggested to watch <a href="#networks-irc"><tt>#gentoo-perl</tt></a> for pushed commit notices so
-you can anticipate a collison happening <em>before</em> it occurs outside the safety
-of your pc</td>
-</tr></table>
-</div>
-<div class="admonitionblock">
-<table><tr>
-<td class="icon">
-<div class="title">Tip</div>
-</td>
-<td class="content">If <tt>git</tt> tells you there is an upstream non-fast forward merge, do make sure
-you resolve it locally somehow, not just force it, unless you <em>know</em> what you
-are doing.</td>
-</tr></table>
-</div>
-<div class="admonitionblock">
-<table><tr>
-<td class="icon">
-<div class="title">Tip</div>
-</td>
-<td class="content">For optimal continuity, it is suggested you do all you can possible to
-linearize commits. See <a href="linearize_commits.txt">Linearizing Commits</a></td>
-</tr></table>
-</div>
-<h3 id="linearizecommits">2.3. Linearize Commmits</h3><div style="clear:left"/>
-<div class="paragraph"><p>Messy commit histories with lots of needless merge branches just get confusing
+<div class="paragraph" id="linearizecommits"><p>Messy commit histories with lots of needless merge branches just get confusing
 when trying to work backwards and work out what happened.</p></div>
 <div class="paragraph"><p>To resolve this issue, it is strongly recommended to utilize <tt>git rebase</tt> to
 simplify merge histories in a way as such it produces the illusion the merge
@@ -700,7 +571,10 @@ all the other commits they were going to be merged into.</p></div>
 <div class="paragraph"><p>But the subject of <tt>git rebase</tt> is far too complex to summarise in this one
 document, at least for now, so you should use other online sources to learn
 this.</p></div>
-<h4 id="_advocates_of_git_rebase_theory">2.3.1. Advocates of Git Rebase/Theory</h4>
+</div>
+</div>
+<h2 id="_advocates_of_git_rebase_theory">1. Advocates of Git Rebase/Theory</h2>
+<div class="sectionbody">
 <div class="dlist"><dl>
 <dt class="hdlist1">
 Tate Johnson
@@ -721,7 +595,9 @@ Kent Fredric
 </p>
 </dd>
 </dl></div>
-<h4 id="_rebase_guides">2.3.2. Rebase Guides</h4>
+</div>
+<h2 id="_rebase_guides">2. Rebase Guides</h2>
+<div class="sectionbody">
 <div class="dlist"><dl>
 <dt class="hdlist1">
 ProGit.org
@@ -737,7 +613,7 @@ ProGit.org
 <div id="footnotes"><hr/></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2010-09-29 10:11:56 NZDT
+Last updated 2010-09-29 10:23:14 NZDT
 </div>
 <div id="footer-badges">
 Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a>

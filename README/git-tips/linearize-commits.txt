@@ -1,0 +1,32 @@
+[[linearizecommits]]
+Linearize Commmits
+==================
+
+Messy commit histories with lots of needless merge branches just get confusing
+when trying to work backwards and work out what happened.
+
+To resolve this issue, it is strongly recommended to utilize `git rebase` to
+simplify merge histories in a way as such it produces the illusion the merge
+never happened, and was never needed, as all the commits simply happend after
+all the other commits they were going to be merged into.
+
+But the subject of `git rebase` is far too complex to summarise in this one
+document, at least for now, so you should use other online sources to learn
+this.
+
+Advocates of Git Rebase/Theory
+------------------------------
+
+Tate Johnson::
+ link:http://tatey.com/2009/04/23/git-rebase-for-linear-history/[Git Rebase
+ For Linear History]
+
+Kent Fredric::
+  link:http://blog.fox.geek.nz/2010/08/git-rebase-part-1-why-you-should-use-it.html[Git
+  Rebase Part 1: Why you should use it, Theory.]
+
+Rebase Guides
+-------------
+
+ProGit.org::
+  link:http://progit.org/book/ch3-6.html[ Rebase ]
