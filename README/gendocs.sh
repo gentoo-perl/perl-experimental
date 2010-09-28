@@ -1,7 +1,6 @@
 #!/bin/bash
-CMDICONS="-a icons -a iconsdir=/usr/share/asciidoc/images/icons/"
-DOCCMD="asciidoc -n -a toc -a toclevels=4 -a badges"
-LINTCMD="xmllint "
+DOCCMD="asciidoc -f config "
+LINTCMD="xmllint --xmlout"
 for i in git-tips.txt git-tips/*.txt ; do
   base=${i%.txt}
   $DOCCMD $i;
