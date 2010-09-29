@@ -1,0 +1,36 @@
+Disable Merge Pull
+==================
+
+When you're trying to keep things linear by rebasing, it can be frustrating
+when the following happens: 
+
+  1. You commit to master.
+  2. You push to upstream.
+  3. Upstream has been updated.
+
+In this scenario you have 3 choices. 
+
+  1. _(not recommended)_ : force push, clobbering upstreams changes
+  2. _(not recommended)_ : merge pull
+  3. _(recommended)_ : rebase pull ( `git pull --rebase` )
+
+Generally, you want option 3.
+
+However, if you're anything like me, either a rebase or a merge occuring
+during pull scares you, and you'd rather _choose_ to trigger that behaviour,
+and you would not want to accidentally merge.
+
+I do this by disabling non-fastforward merges.
+
+This means that instead of a magical merge, or an automatic rebase, it will
+simply complain that a fast-forward cannot occur, and then stops, letting you
+resolve the situation.
+
+[source,ini]
+------------------------------
+  [branch "master"]
+  remote = origin
+  merge  = refs/heads/master
+  mergeoptions = --ff-only
+------------------------------
+
