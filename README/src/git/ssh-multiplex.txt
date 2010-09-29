@@ -1,0 +1,113 @@
+Set up SSH Mulitplexing for Speed
+=================================
+
+This is one of my most convenient tricks. The slowest parts of `git pull` and
+`git push` are starting up the SSH connection. However, there is a way to
+eliminate this problem simply by opening a persistent tunnel, which `git pull`
+and `git push` automatically reuse.
+
+~/.ssh/config
+-------------
+
+Enter the ControlMaster option for OpenSSH. 
+
+_________________________
+*ControlMaster*
+
+Enables the sharing of multiple sessions over a single network connection.
+When set to “yes”, ssh(1) will listen for connections on a control socket
+specified using the ControlPath argument.  Additional sessions can connect to
+this socket using the same *ControlPath* with *ControlMaster* set to “no”
+(the default).
+
+These sessions will try to reuse the master instance's network connection
+rather than initiating new ones, but will fall back to connecting normally if
+the control socket does not exist, or is not listening.
+
+Setting this to “ask” will cause ssh to listen for control connections, but
+require confirmation using the SSH_ASKPASS program before they are accepted
+(see ssh-add(1) for details).  If the *ControlPath* cannot be opened, ssh will
+continue without connecting to a master instance.
+
+X11 and ssh-agent(1) forwarding is supported over these multiplexed
+connections, however the display and agent forwarded will be the one belonging
+to the master connection i.e. it is not possible to forward multiple displays
+or agents.
+
+Two additional options allow for opportunistic multiplexing: try to use a
+master connection but fall back to creating a new one if one does not already
+exist.  These options are: “auto” and “autoask”.  The latter requires
+confirmation like the “ask” option.
+_________________________
+
+So I set up my ~/.ssh/config as follows.
+
+[source,bash,numbered]
+#~/.ssh/config
+ControlMaster auto
+ControlPath ~/.ssh/pool/%r@%h
+ServerAliveCountMax 6
+ServerAliveInterval 10
+TCPKeepAlive yes
+
+And we're set!.
+
+First, a few benchmarks
+-----------------------
+
+First, lets see how fast it is without the magic:
+
+[source,bash]
+------
+> time for i in $( seq 0 10 ) ; do git fetch github; done
+
+real	0m47.798s
+user	0m0.226s
+sys	0m0.236s
+
+> time for i in $( seq 0 10 ) ; do git fetch origin; done
+
+real	0m48.444s
+user	0m0.235s
+sys	0m0.250s
+------
+
+Averaging about 4.34s per fetch to Github, 4.40s to gentoo overlays. 
+
+SLOOW.
+
+Start a background connection
+-----------------------------
+
+With ControlMaster, you set up a long-lived SSH connection.
+
+[source,bash]
+------
+> ssh -fNn git@github.com
+> ssh -fNn git@git.overlays.gentoo.org
+------
+
+And we're truely really to start cooking with petrol.
+
+Post Configuration Benchmarks
+-----------------------------
+
+[source,bash]
+------
+> time for i in $( seq 0 10 ) ; do git fetch github; done
+
+real	0m12.935s
+user	0m0.093s
+sys	0m0.193s
+
+> time for i in $( seq 0 10 ) ; do git fetch origin; done
+
+real	0m11.597s
+user	0m0.099s
+sys	0m0.191s
+------
+
+O_o. Averaging about 1.175s and 1.05s respectively.
+
+
+
