@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Oct 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-4.101612.ebuild, -Dist-Zilla-4.101900.ebuild,
+  -Dist-Zilla-4.102221.ebuild:
+  Purge: gone on cpan
+
 *Dist-Zilla-4.102341 (01 Oct 2010)
 
   01 Oct 2010; Kent Fredric <kentfredric@gmail.com>
