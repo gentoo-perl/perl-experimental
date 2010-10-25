@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Oct 2010; Kent Fredric <kentfredric@gmail.com>
+  -Data-Section-0.093410.ebuild:
+  Gone on CPAN
+
 *Data-Section-0.101620 (23 Jul 2010)
 
   23 Jul 2010; Torsten Veller <tove@gentoo.org>
