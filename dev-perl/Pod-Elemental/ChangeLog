@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Oct 2010; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Elemental-0.093000.ebuild, -Pod-Elemental-0.093280.ebuild:
+  Clean. Gone on cpan
+
 *Pod-Elemental-0.102360 (27 Aug 2010)
 
   27 Aug 2010; Kent Fredric <kentfredric@gmail.com>
