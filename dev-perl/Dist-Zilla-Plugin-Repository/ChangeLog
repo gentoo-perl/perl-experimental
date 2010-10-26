@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-Repository-0.14 (26 Oct 2010)
+
+  26 Oct 2010; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-Repository-0.13.ebuild,
+  +Dist-Zilla-Plugin-Repository-0.14.ebuild:
+  Bump.
+
 *Dist-Zilla-Plugin-Repository-0.13 (19 Jun 2010)
 
   19 Jun 2010; Kent Fredric <kentfredric@gmail.com>

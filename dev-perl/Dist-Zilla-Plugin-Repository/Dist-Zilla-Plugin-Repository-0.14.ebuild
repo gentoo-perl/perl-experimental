@@ -1,7 +1,7 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=FAYLAND
 inherit perl-module
 
@@ -11,10 +11,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-2.101310
+	>=dev-perl/Dist-Zilla-4.102340
 "
 DEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-6.31
+	>=virtual/perl-ExtUtils-MakeMaker-6.52
 	${COMMON_DEPEND}
 "
 RDEPEND="
