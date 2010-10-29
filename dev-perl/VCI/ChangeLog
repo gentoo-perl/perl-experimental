@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*VCI-0.6.3 (29 Oct 2010)
+
+  29 Oct 2010; Daniel Westermann-Clark <dwc@pobox.com> -VCI-0.6.2.ebuild,
+  -files/vci-cvs-timezone-0.6.2.patch, +VCI-0.6.3.ebuild:
+  Bump dev-perl/VCI to 0.6.3
+
 *VCI-0.6.2 (17 Sep 2010)
 
   17 Sep 2010; Daniel Westermann-Clark <dwc@pobox.com> +VCI-0.6.2.ebuild,

@@ -14,10 +14,6 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
-PATCHES=(
-	"${FILESDIR}/vci-cvs-timezone-${PV}.patch"
-)
-
 IUSE="bazaar cvs git mercurial subversion test"
 RDEPEND=">=dev-perl/Moose-0.27
 	dev-perl/MooseX-Method
