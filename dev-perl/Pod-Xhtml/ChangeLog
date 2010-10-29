@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Pod-Xhtml
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-Xhtml-1.61 (29 Oct 2010)
+
+  29 Oct 2010; Daniel Westermann-Clark <dwc@pobox.com>
+  -Pod-Xhtml-1.59.ebuild, +Pod-Xhtml-1.61.ebuild:
+  Bump dev-perl/Pod-Xhtml to 1.61
 
   09 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
   Pod-Xhtml-1.59.ebuild, +metadata.xml:

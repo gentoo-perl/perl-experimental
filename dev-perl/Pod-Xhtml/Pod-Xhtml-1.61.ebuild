@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,8 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND="virtual/perl-PodParser"
+RDEPEND="virtual/perl-PodParser
+	dev-perl/URI"
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
