@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*TryCatch-1.003000 (29 Oct 2010)
+
+  29 Oct 2010; Kent Fredric <kentfredric@gmail.com>
+  +TryCatch-1.003000.ebuild:
+  Bump. WORKS ON 5.12!
+
 *TryCatch-1.002000-r1 (14 Aug 2010)
 
   14 Aug 2010; Kent Fredric <kentfredric@gmail.com>
