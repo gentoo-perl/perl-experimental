@@ -12,6 +12,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-perl/Carp-Assert"
-RDEPEND="${DEPENDS}"
+RDEPEND="${DEPEND}"
 
 SRC_TEST="do"
