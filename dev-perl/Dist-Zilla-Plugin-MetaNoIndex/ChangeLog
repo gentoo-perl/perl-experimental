@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-MetaNoIndex
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-MetaNoIndex-1.101550 (02 Nov 2010)
+
+  02 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaNoIndex-1.101550.ebuild, +metadata.xml:
+  Added
+
