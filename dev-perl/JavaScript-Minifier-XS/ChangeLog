@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*JavaScript-Minifier-XS-0.09 (04 Nov 2010)
+
+  04 Nov 2010; Torsten Veller <tove@gentoo.org>
+  -JavaScript-Minifier-XS-0.07.ebuild, -JavaScript-Minifier-XS-0.08.ebuild,
+  +JavaScript-Minifier-XS-0.09.ebuild:
+  Version bump
+
 *JavaScript-Minifier-XS-0.08 (05 Aug 2010)
 
   05 Aug 2010; Torsten Veller <tove@gentoo.org>
