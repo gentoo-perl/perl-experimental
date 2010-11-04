@@ -14,13 +14,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Test-SharedFork-0.09
+	>=dev-perl/Test-SharedFork-0.14
 	>=virtual/perl-IO-1.23
 "
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple
-		dev-perl/yaml
 	)
 "
 
