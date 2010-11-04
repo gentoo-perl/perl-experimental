@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header$
 
+*Locale-Codes-3.14 (04 Nov 2010)
+
+  04 Nov 2010; Torsten Veller <tove@gentoo.org> +Locale-Codes-3.14.ebuild:
+  Version bump
+
 *Locale-Codes-3.13 (06 Jun 2010)
 
   06 Jun 2010; Torsten Veller <tove@gentoo.org> +Locale-Codes-3.13.ebuild:
