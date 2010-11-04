@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Util-EmulatePhase
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Util-EmulatePhase-0.01000101 (04 Nov 2010)
+
+  04 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Util-EmulatePhase-0.01000101.ebuild, +metadata.xml:
+  Added
+
