@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Pod-Coverage-TrustPod
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-Coverage-TrustPod-0.092832 (04 Nov 2010)
+
+  04 Nov 2010; Torsten Veller <tove@gentoo.org>
+  -Pod-Coverage-TrustPod-0.091470.ebuild,
+  -Pod-Coverage-TrustPod-0.092400.ebuild,
+  +Pod-Coverage-TrustPod-0.092832.ebuild:
+  Version bump
 
 *Pod-Coverage-TrustPod-0.092830 (21 Oct 2009)
 
