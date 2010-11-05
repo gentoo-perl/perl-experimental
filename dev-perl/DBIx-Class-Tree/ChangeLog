@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*DBIx-Class-Tree-0.03002 (05 Nov 2010)
+
+  05 Nov 2010; Torsten Veller <tove@gentoo.org>
+  +DBIx-Class-Tree-0.03002.ebuild:
+  Version bump
+
 *DBIx-Class-Tree-0.03001 (12 May 2010)
 
   12 May 2010; Michele Beltrame <m@cattlegrid.info>
