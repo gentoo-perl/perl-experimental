@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/B-Hooks-OP-Check-EntersubForCV
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*B-Hooks-OP-Check-EntersubForCV-0.06 (05 Nov 2010)
+
+  05 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +B-Hooks-OP-Check-EntersubForCV-0.06.ebuild:
+  Bump
 
 *B-Hooks-OP-Check-EntersubForCV-0.05 (28 Dec 2009)
 
