@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/File-ShareDir-PAR
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*File-ShareDir-PAR-0.06 (05 Nov 2010)
+
+  05 Nov 2010; Torsten Veller <tove@gentoo.org>
+  -File-ShareDir-PAR-0.05.ebuild, +File-ShareDir-PAR-0.06.ebuild:
+  Version bump
 
   28 May 2009; Torsten Veller <tove@gentoo.org>
   -File-ShareDir-PAR-0.03.ebuild, -File-ShareDir-PAR-0.04.ebuild:
