@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-CompileTests-1.103030 (05 Nov 2010)
+
+  05 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-CompileTests-1.103030.ebuild:
+  Bump
+
 *Dist-Zilla-Plugin-CompileTests-1.101800 (10 Aug 2010)
 
   10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
