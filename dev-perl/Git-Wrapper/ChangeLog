@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Git-Wrapper-0.013 (05 Nov 2010)
+
+  05 Nov 2010; Torsten Veller <tove@gentoo.org> +Git-Wrapper-0.013.ebuild:
+  Version bump
+
 *Git-Wrapper-0.011 (10 Aug 2010)
 
   10 Aug 2010; Michele Beltrame <m@cattlegrid.info>
