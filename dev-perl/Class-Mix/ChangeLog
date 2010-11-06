@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Class-Mix-0.004 (06 Nov 2010)
+
+  06 Nov 2010; Torsten Veller <tove@gentoo.org> +Class-Mix-0.004.ebuild:
+  Version bump
+
   29 May 2010; Torsten Veller <tove@gentoo.org> Class-Mix-0.003.ebuild:
   Add Module-Build to DEPEND
 
