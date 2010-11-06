@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/pod2pdf
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*pod2pdf-0.42 (06 Nov 2010)
+
+  06 Nov 2010; Torsten Veller <tove@gentoo.org> +pod2pdf-0.42.ebuild,
+  +metadata.xml:
+  Initial commit
