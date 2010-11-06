@@ -13,5 +13,7 @@
 			MooseX::Declares 'class'</flag>
 		<flag name="package">Install recommended ::Package for detecting class
 			perl packages</flag>
+		<flag name="metanoindex">Install support libraries for meta_no_index
+			feature</flag>
 	</use>
 </pkgmetadata>
