@@ -5,5 +5,9 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="metanoindex">Install support libraries for meta_no_index
+			feature</flag>
+	</use>
 </pkgmetadata>
