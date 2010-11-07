@@ -4,6 +4,10 @@
     <herd>perl</herd>
     <maintainer>
         <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="metanoindex">Install support libraries for meta_no_index
+			feature</flag>
+	</use>
 </pkgmetadata>
