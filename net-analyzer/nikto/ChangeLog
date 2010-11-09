@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/net-analyzer/nikto/ChangeLog,v 1.24 2009/03/20 16:02:06 dertobi123 Exp $
 
+  09 Nov 2010; David Abbott (dabbott) <dabbott@gentoo.org> files/nikto.conf:
+  nikto bump to 2.1.3
+
 *nikto-2.1.2 (13 Aug 2010)
 
   13 Aug 2010; David Abbott <dabbott@gentoo.org> +nikto-2.1.2.ebuild,
