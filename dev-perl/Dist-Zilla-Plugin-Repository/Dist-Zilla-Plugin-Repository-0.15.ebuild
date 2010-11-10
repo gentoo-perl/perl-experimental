@@ -15,6 +15,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.52
+	>=virtual/perl-Test-Simple-0.88
 	${COMMON_DEPEND}
 "
 RDEPEND="
