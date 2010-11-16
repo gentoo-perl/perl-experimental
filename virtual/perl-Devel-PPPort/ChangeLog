@@ -3,6 +3,10 @@
 # $Header: $
 
   16 Nov 2010; Torsten Veller <tove@gentoo.org>
+  perl-Devel-PPPort-3.19.ebuild:
+  Add perl-5.12.2 as provider
+
+  16 Nov 2010; Torsten Veller <tove@gentoo.org>
   -perl-Devel-PPPort-3.17.ebuild:
   Cleanup
 
