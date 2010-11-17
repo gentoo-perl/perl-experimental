@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Has-Sugar-0.05055616 (17 Nov 2010)
+
+  17 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Has-Sugar-0.05055616.ebuild:
+  Bump
+
 *MooseX-Has-Sugar-0.05046611 (17 Aug 2010)
 
   17 Aug 2010; Kent Fredric <kentfredric@gmail.com>
