@@ -2,6 +2,18 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/perl-core/ExtUtils-MakeMaker/ChangeLog,v 1.21 2010/09/13 14:41:47 josejx Exp $
 
+*ExtUtils-MakeMaker-6.57_pre06 (18 Nov 2010)
+
+  18 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  -files/6.56-delete_packlist_podlocal.patch, -files/RUNPATH-6.54.patch,
+  +ExtUtils-MakeMaker-6.57_pre06.ebuild:
+  Added a hand-prepatched version of 6.57_06 for testing.
+  Unfortunately, cpanized dists and git have different EOL encoding, so its
+  hard to have a git-patch for it and still use dists from cpan, so for the sake
+  of maintenance, there are pre-patched builds in git.
+
+  https://github.com/gentoo-perl/ExtUtils-MakeMaker/tree/gentoo-prepatch-builds
+
   18 Nov 2010; Kent Fredric <kentfredric@gmail.com>
   +files/6.56-delete_packlist_podlocal.patch, +files/RUNPATH-6.54.patch,
   +metadata.xml:
