@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/AnyEvent-I3
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*AnyEvent-I3-0.06 (20 Nov 2010)
+
+  20 Nov 2010; Kent Fredric <kentfredric@gmail.com>
+  +AnyEvent-I3-0.06.ebuild, +metadata.xml:
+  Added, kinda needed for some of I3's features. I3 is on sunrise.
+
