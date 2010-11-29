@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 inherit perl-module
@@ -15,10 +15,17 @@ IUSE=""
 SRC_TEST="do"
 
 RDEPEND="dev-perl/Proc-Daemon
-	dev-perl/Class-Accessor
 	dev-perl/Audio-MPD-Common
 	dev-perl/Getopt-Euclid
 	dev-perl/Readonly
+	dev-perl/MooseX-Has-Sugar
+	dev-perl/MooseX-SemiAffordanceAccessor
 	dev-lang/perl"
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build"
+
+pkg_postinst() {
+	elog "You need perl-experimental overlay for some dependencies"
+	elog "Add the overlay with layman like this:"
+	elog "layman -a perl-experimental"
+}
