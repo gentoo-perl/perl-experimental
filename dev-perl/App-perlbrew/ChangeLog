@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*App-perlbrew-0.15 (12 Dec 2010)
+
+  12 Dec 2010; Kent Fredric <kentfredric@gmail.com> +App-perlbrew-0.15.ebuild:
+  Bump
+
 *App-perlbrew-0.13 (17 Nov 2010)
 
   17 Nov 2010; Kent Fredric <kentfredric@gmail.com>
