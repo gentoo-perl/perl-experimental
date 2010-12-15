@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-DistnameInfo-0.11 (15 Dec 2010)
+
+  15 Dec 2010; Kent Fredric <kentfredric@gmail.com>
+  +CPAN-DistnameInfo-0.11.ebuild:
+  Bump
+
 *CPAN-DistnameInfo-0.10 (13 May 2010)
 
   13 May 2010; Torsten Veller <tove@gentoo.org>
