@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Authentication-Store-DBIx-Class-0.1401 (16 Dec 2010)
+
+  16 Dec 2010; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Authentication-Store-DBIx-Class-0.1401.ebuild:
+  Bump, +EAP3, SRC_TEST, Tidy
+
 *Catalyst-Authentication-Store-DBIx-Class-0.1300 (09 Aug 2010)
 
   09 Aug 2010; Michele Beltrame <m@cattlegrid.info>
