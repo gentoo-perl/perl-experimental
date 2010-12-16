@@ -1,7 +1,7 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=3
 MODULE_AUTHOR=FLORA
 inherit perl-module
 
@@ -13,7 +13,7 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="
+RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.8
 	>=dev-perl/Catalyst-Plugin-Authentication-0.10008
 	>=dev-perl/Catalyst-Model-DBIC-Schema-0.18
@@ -23,3 +23,5 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Try-Tiny
 "
+DEPEND="${RDEPEND}"
+SRC_TEST="do"
