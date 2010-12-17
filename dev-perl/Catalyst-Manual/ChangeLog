@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Dec 2010; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Manual-5.8003.ebuild, Catalyst-Manual-5.8004.ebuild:
+  eapi3ify
+
 *Catalyst-Manual-5.8004 (28 Apr 2010)
 
   28 Apr 2010; Michele Beltrame <m@cattlegrid.info>
