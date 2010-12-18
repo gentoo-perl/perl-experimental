@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Dec 2010; Kent Fredric <kentfredric@gmail.com> CPAN-Inject-0.10.ebuild,
+  CPAN-Inject-0.11.ebuild:
+  Eapi3-ified.
+
 *CPAN-Inject-1.12 (18 Dec 2010)
 
   18 Dec 2010; Kent Fredric <kentfredric@gmail.com> +CPAN-Inject-1.12.ebuild,
