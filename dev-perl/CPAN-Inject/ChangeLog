@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/CPAN-Inject
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CPAN-Inject-1.12 (18 Dec 2010)
+
+  18 Dec 2010; Kent Fredric <kentfredric@gmail.com> +CPAN-Inject-1.12.ebuild,
+  +files/Test-1.12.patch:
+  Bumped, new patch because of new dist errors
 
 *CPAN-Inject-0.11 (02 Sep 2009)
 *CPAN-Inject-0.10 (02 Sep 2009)

@@ -1,0 +1,27 @@
+diff -Naur CPAN-Inject-1.12/t/02_main.t CPAN-Inject-1.12.new/t/02_main.t
+--- CPAN-Inject-1.12/t/02_main.t	2010-12-17 15:08:05.000000000 +0000
++++ CPAN-Inject-1.12.new/t/02_main.t	2010-12-18 16:37:05.096562145 +0000
+@@ -92,6 +92,7 @@
+ 
+ 
+ 
++SKIP: { # GENTOO SKIP BLOCK 
+ 
+ #####################################################################
+ # Add a distribution
+@@ -104,6 +105,9 @@
+ 
+ 	# Add the distribution
+ 	my $dist = catfile( 't', 'data', 'Config-Tiny-2.09.tar.gz' );
++
++	skip( "GENTOO: Test Data File does not exist", 8 ) unless -e $dist;
++
+ 	ok( -f $dist, 'Test distribution exists' );
+ 	is(
+ 		$cpan->add( file => $dist ),
+@@ -143,4 +147,5 @@
+ 	);
+ }
+ 
++} # END GENTOO SKIP BLOCK
+ 1;
