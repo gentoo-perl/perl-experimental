@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-App-Command-cover
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-App-Command-cover-1.101000 (19 Dec 2010)
+
+  19 Dec 2010; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-App-Command-cover-1.101000.ebuild, +metadata.xml:
+  added
+
