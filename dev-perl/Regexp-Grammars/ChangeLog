@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Regexp-Grammars
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Regexp-Grammars-1.012 (24 Dec 2010)
+
+  24 Dec 2010; Kent Fredric <kentfredric@gmail.com>
+  +Regexp-Grammars-1.012.ebuild, +metadata.xml:
+  added
+
