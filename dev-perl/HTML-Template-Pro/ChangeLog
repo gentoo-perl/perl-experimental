@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/HTML-Template-Pro
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -HTML-Template-Pro-0.95.02.ebuild:
+  Gone on CPAN
 
 *HTML-Template-Pro-0.95.04 (04 Nov 2010)
 
