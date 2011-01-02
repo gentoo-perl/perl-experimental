@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Git-CPAN-Patch
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Git-CPAN-Patch-0.2.1.ebuild, -Git-CPAN-Patch-0.3.1.ebuild,
+  -Git-CPAN-Patch-0.3.2.ebuild:
+  gone on cpan
 
 *Git-CPAN-Patch-0.4.6 (22 Oct 2010)
 
