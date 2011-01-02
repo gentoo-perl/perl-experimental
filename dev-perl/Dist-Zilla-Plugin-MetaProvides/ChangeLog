@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-MetaProvides
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-MetaProvides-1.11034201.ebuild:
+  Gone on CPAN
 
   12 Dec 2010; Kent Fredric <kentfredric@gmail.com>
   -Dist-Zilla-Plugin-MetaProvides-1.10027518.ebuild,
