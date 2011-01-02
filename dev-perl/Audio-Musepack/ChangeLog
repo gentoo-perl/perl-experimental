@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Audio-Musepack
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Audio-Musepack-1.0.1 (02 Jan 2011)
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Audio-Musepack-1.0.1.ebuild:
+  Bump
 
   21 Mar 2009; Torsten Veller <tove@gentoo.org>
   +dev-perl/Audio-Musepack/metadata.xml:
