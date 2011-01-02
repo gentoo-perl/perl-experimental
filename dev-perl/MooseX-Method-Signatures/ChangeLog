@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-Method-Signatures
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-Method-Signatures-0.31.ebuild:
+  Gone on CPAN
 
 *MooseX-Method-Signatures-0.36 (09 Sep 2010)
 
