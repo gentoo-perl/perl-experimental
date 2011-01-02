@@ -1,6 +1,11 @@
 # ChangeLog for perl-core/File-Fetch
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*File-Fetch-0.28 (02 Jan 2011)
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com> +File-Fetch-0.28.ebuild:
+  bump
 
 *File-Fetch-0.24 (09 Jan 2010)
 
