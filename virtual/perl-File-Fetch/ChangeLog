@@ -1,6 +1,12 @@
 # ChangeLog for virtual/perl-File-Fetch
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*perl-File-Fetch-0.28 (02 Jan 2011)
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-File-Fetch-0.28.ebuild:
+  Bump
 
 *perl-File-Fetch-0.24 (09 Jan 2010)
 
