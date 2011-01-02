@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com> -Config-INI-0.014.ebuild:
+  gone on cpan
+
 *Config-INI-0.017 (02 Jan 2011)
 
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Config-INI-0.017.ebuild:
