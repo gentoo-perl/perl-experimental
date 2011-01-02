@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/CPANPLUS-Dist-Gentoo
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -CPANPLUS-Dist-Gentoo-0.10.ebuild:
+  Gone on CPAN
 
 *CPANPLUS-Dist-Gentoo-0.11 (17 Dec 2010)
 
