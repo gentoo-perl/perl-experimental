@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com> -Scope-Upper-0.12.ebuild:
+  Gone from CPAN
+
 *Scope-Upper-0.13 (02 Jan 2011)
 
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Scope-Upper-0.13.ebuild:
