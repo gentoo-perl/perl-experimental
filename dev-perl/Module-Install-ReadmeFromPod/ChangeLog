@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Module-Install-ReadmeFromPod
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Module-Install-ReadmeFromPod-0.06.ebuild,
+  -Module-Install-ReadmeFromPod-0.08.ebuild,
+  -Module-Install-ReadmeFromPod-0.10.ebuild:
+  Gone on CPAN
 
 *Module-Install-ReadmeFromPod-0.12 (04 Nov 2010)
 
