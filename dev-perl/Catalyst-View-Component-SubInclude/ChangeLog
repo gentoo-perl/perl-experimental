@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-View-Component-SubInclude
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-View-Component-SubInclude-0.10 (03 Jan 2011)
+
+  03 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-View-Component-SubInclude-0.10.ebuild:
+  Bump
 
 *Catalyst-View-Component-SubInclude-0.09 (10 Aug 2010)
 
