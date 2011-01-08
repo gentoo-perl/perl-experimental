@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MemHandle
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MemHandle-0.06 (08 Jan 2011)
+
+  08 Jan 2011; Kent Fredric <kentfredric@gmail.com> +MemHandle-0.06.ebuild,
+  +metadata.xml:
+  added
+
