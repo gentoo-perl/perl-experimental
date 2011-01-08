@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Config-JSON
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Config-JSON-1.5100 (08 Jan 2011)
+
+  08 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Config-JSON-1.5100.ebuild:
+  Bump
 
 *Config-JSON-1.5000 (26 Apr 2010)
 
