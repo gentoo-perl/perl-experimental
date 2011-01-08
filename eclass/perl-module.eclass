@@ -54,8 +54,8 @@ DESCRIPTION="Based on the $ECLASS eclass"
 
 LICENSE="${LICENSE:-|| ( Artistic GPL-1 GPL-2 GPL-3 )}"
 
-if [[ -n ${MY_PN} || -n ${MY_PV} ]] ; then
-	: ${MY_P:=${MY_PN:-${PN}}-${MY_PV:-${PV}}}
+if [[ -n ${MY_PN} || -n ${MY_PV} || -n ${MODULE_VERSION} ]] ; then
+	: ${MY_P:=${MY_PN:-${PN}}-${MY_PV:-${MODULE_VERSION:-${PV}}}}
 	S=${MY_S:-${WORKDIR}/${MY_P}}
 fi
 [[ -z "${SRC_URI}" && -z "${MODULE_A}" ]] && MODULE_A="${MY_P:-${P}}.tar.gz"
