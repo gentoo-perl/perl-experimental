@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Debug-ShowStuff
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Debug-ShowStuff-1.13 (08 Jan 2011)
+
+  08 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Debug-ShowStuff-1.13.ebuild, +metadata.xml:
+  Added
+
