@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/pip
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*pip-1.190 (08 Jan 2011)
+
+  08 Jan 2011; Torsten Veller <tove@gentoo.org> +pip-1.190.ebuild:
+  Version bump
 
 *pip-1.18 (11 May 2010)
 
