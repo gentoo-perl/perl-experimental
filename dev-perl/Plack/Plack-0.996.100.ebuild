@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=MIYAGAWA
+MODULE_VERSION=0.9961
 inherit perl-module
 
 DESCRIPTION="PSGI toolkit and servers"
@@ -21,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Test-TCP-0.11
 	>=dev-perl/URI-1.36
 	>=dev-perl/libwww-perl-5.814
-	dev-perl/Devel-StackTrace
+	>=dev-perl/Devel-StackTrace-1.23
 	dev-perl/Filesys-Notify-Simple
 	dev-perl/Try-Tiny
 	virtual/perl-Filter
