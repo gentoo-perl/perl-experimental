@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=SARTAK
+MODULE_VERSION=0.08
 inherit perl-module
 
 DESCRIPTION="Devel::StackTrace + PadWalker"
