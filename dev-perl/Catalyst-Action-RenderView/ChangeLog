@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-Action-RenderView
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Action-RenderView-0.160 (09 Jan 2011)
+
+  09 Jan 2011; Torsten Veller <tove@gentoo.org>
+  +Catalyst-Action-RenderView-0.160.ebuild:
+  Version bump
 
 *Catalyst-Action-RenderView-0.14 (04 Dec 2009)
 
