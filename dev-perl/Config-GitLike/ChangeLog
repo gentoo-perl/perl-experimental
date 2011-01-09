@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Config-GitLike
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Config-GitLike-1.050 (09 Jan 2011)
+
+  09 Jan 2011; Torsten Veller <tove@gentoo.org> +Config-GitLike-1.050.ebuild:
+  Version bump
 
 *Config-GitLike-1.04 (10 Aug 2010)
 
