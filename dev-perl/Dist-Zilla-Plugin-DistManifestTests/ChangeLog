@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-DistManifestTests
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-DistManifestTests-1.101420 (09 Jan 2011)
+
+  09 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-DistManifestTests-1.101420.ebuild, +metadata.xml:
+  Added
+
