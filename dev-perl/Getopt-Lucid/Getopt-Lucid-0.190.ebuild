@@ -24,6 +24,7 @@ DEPEND="
 		>=dev-perl/Exception-Class-TryCatch-1.1
 		>=virtual/perl-Test-Simple-0.62
 	)
+	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "
 RDEPEND="
 	${COMMON_DEPEND}
