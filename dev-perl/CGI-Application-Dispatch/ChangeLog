@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/CGI-Application-Dispatch
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CGI-Application-Dispatch-2.180 (09 Jan 2011)
+
+  09 Jan 2011; Torsten Veller <tove@gentoo.org>
+  +CGI-Application-Dispatch-2.180.ebuild:
+  Version bump
 
   21 Jun 2010; Kent Fredric <kentfredric@gmail.com>
   CGI-Application-Dispatch-2.17.ebuild:
