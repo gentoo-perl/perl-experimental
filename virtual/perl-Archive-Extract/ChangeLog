@@ -1,6 +1,12 @@
 # ChangeLog for virtual/perl-Archive-Extract
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*perl-Archive-Extract-0.480 (09 Jan 2011)
+
+  09 Jan 2011; Torsten Veller <tove@gentoo.org>
+  +perl-Archive-Extract-0.480.ebuild:
+  Version bump
 
 *perl-Archive-Extract-0.46 (12 Dec 2010)
 
