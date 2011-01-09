@@ -1,0 +1,25 @@
+Title: New API For dev-perl/KinoSearch > 0.20
+Author: Kent Fredric <kentfredric@gmail.com>
+Content-Type: text/plain
+Posted: 2011-01-09
+Revision: 1
+News-Item-Format: 1.0
+Display-If-Installed: dev-perl/KinoSearch
+
+Upstream of KinoSearch has reworked the entire API to KinoSearch, and the
+resulting release as for > 0.20 is incompatible with previous versions. 
+
+For people who need the old API, upstream have provided a maintained legacy
+branch of the API as 'KinoSearch1', which you can get by installing
+'dev-perl/KinoSearch1'. 
+
+The differences are substantial:
+
+  http://cpansearch.perl.org/src/CREAMYG/KinoSearch-0.311/Changes
+
+If you are not directly using KinoSearch, or don't rely on anything that uses
+it, then you can safely ignore this warning.
+
+As far as I am aware, there is only one package in-tree that uses KinoSearch,
+which is MojoMojo , and if you are using that, you should upgrade MojoMojo to 
+1.02, and after that, you should be free to remove dev-perl/KinoSearch
