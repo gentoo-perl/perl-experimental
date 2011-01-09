@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Class-Inspector
-	>=dev-perl/Catalyst-Runtime-5.8
+	>=dev-perl/Catalyst-Runtime-5.800
 "
 DEPEND="
 	${COMMON_DEPEND}

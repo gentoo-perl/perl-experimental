@@ -20,7 +20,7 @@ DEPEND="
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/CatalystX-Component-Traits
 	dev-perl/Catalyst-Action-REST
-	>=dev-perl/Catalyst-Runtime-5.80
+	>=dev-perl/Catalyst-Runtime-5.800
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/Catalyst-Controller-ActionRole
 	dev-perl/CatalystX-LeakChecker

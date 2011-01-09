@@ -17,7 +17,7 @@ RDEPEND="
 	virtual/perl-digest-base
 	virtual/perl-Scalar-List-Utils
 	dev-perl/MRO-Compat
-	>=dev-perl/Catalyst-Runtime-5.70
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Action-RenderView

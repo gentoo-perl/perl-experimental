@@ -16,7 +16,7 @@ SRC_TEST="do"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.5
+	>=dev-perl/Catalyst-Runtime-5.500
 	dev-perl/EVDB-API
 	virtual/perl-Test-Simple
 "

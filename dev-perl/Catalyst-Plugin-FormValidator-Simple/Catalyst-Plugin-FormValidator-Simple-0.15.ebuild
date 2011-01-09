@@ -16,7 +16,7 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.30
+	>=dev-perl/Catalyst-Runtime-5.300
 	>=dev-perl/FormValidator-Simple-0.28
 	dev-perl/Catalyst-Plugin-FormValidator"
 DEPEND="${RDEPEND}"

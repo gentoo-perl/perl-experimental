@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80025
+	>=dev-perl/Catalyst-Runtime-5.800.250
 	>=dev-perl/String-RewritePrefix-0.004
 	dev-perl/Class-MOP
 	dev-perl/Moose

@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.60
+	>=dev-perl/Catalyst-Runtime-5.600
 	>=dev-perl/JSON-Any-1.15
 	dev-perl/MRO-Compat
 "

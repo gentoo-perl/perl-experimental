@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Static-Simple
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.15
 	dev-perl/Catalyst-Plugin-Unicode-Encoding
-	>=dev-perl/Catalyst-Runtime-5.80015
+	>=dev-perl/Catalyst-Runtime-5.800.150
 	>=dev-perl/Catalyst-View-Component-SubInclude-0.07
 	>=dev-perl/Catalyst-View-TT-0.34
 	dev-perl/config-general

@@ -13,7 +13,7 @@ IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/KiokuDB-0.46
 	dev-perl/KiokuX-Model
-	>=dev-perl/Catalyst-Runtime-5.8
+	>=dev-perl/Catalyst-Runtime-5.800
 	dev-perl/Moose
 	dev-perl/Scope-Guard
 	dev-perl/Hash-Util-FieldHash-Compat

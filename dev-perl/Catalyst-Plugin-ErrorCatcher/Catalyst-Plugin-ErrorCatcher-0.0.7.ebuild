@@ -16,7 +16,7 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.71001
+	>=dev-perl/Catalyst-Runtime-5.710.010
 	dev-perl/Class-Data-Accessor
 	virtual/perl-IO
 	dev-perl/MRO-Compat

@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.61
+	>=dev-perl/Catalyst-Runtime-5.610
 	dev-perl/DateTime-Event-Cron
 	dev-perl/set-scalar
 	dev-perl/yaml

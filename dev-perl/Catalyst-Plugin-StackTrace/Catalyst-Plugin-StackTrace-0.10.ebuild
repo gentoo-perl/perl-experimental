@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.70
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/Devel-StackTrace
 	>=dev-perl/MRO-Compat-0.10
 "

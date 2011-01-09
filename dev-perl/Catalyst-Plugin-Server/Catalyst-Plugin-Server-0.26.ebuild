@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.66
+	>=dev-perl/Catalyst-Runtime-5.660
 	<=dev-perl/RPC-XML-0.67
 	dev-perl/MRO-Compat
 "

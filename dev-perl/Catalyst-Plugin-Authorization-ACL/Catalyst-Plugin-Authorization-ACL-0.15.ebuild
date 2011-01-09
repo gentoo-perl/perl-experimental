@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80013
+	>=dev-perl/Catalyst-Runtime-5.800.130
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Catalyst-Plugin-Authorization-Roles
 	dev-perl/Moose

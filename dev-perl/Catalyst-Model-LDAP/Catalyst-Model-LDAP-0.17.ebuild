@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.62
+	>=dev-perl/Catalyst-Runtime-5.620
 	dev-perl/Class-Accessor
 	dev-perl/MRO-Compat
 	dev-perl/Data-Page

@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80005
+	>=dev-perl/Catalyst-Runtime-5.800.050
 	>=dev-perl/Catalyst-Plugin-Session-0.19
 	dev-perl/MRO-Compat
 	dev-perl/Moose

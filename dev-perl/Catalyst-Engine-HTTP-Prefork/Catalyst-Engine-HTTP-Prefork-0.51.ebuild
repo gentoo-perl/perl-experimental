@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7012
+	>=dev-perl/Catalyst-Runtime-5.701.200
 	>=dev-perl/Cookie-XS-0.08
 	>=dev-perl/HTTP-Body-1.01
 	>=dev-perl/net-server-0.97

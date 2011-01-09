@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.00
+	>=dev-perl/Catalyst-Runtime-5.000
 	>=dev-perl/libwww-perl-5.816
 	>=dev-perl/Test-WWW-Mechanize-1.14
 	>=dev-perl/WWW-Mechanize-1.50

@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80"
+	>=dev-perl/Catalyst-Runtime-5.800"
 DEPEND="${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "

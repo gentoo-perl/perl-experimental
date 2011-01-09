@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.70
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/ImageSize
 	dev-perl/Path-Class
 	dev-perl/HTML-Parser

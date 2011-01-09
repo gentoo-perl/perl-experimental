@@ -15,7 +15,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/HTML-FillInForm
-	>=dev-perl/Catalyst-Runtime-5.7012
+	>=dev-perl/Catalyst-Runtime-5.701.200
 "
 DEPEND="
 	test? (

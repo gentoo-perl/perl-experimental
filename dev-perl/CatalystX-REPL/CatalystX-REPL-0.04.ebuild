@@ -13,7 +13,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	dev-perl/namespace-autoclean
-	>=dev-perl/Catalyst-Runtime-5.80006
+	>=dev-perl/Catalyst-Runtime-5.800.060
 	dev-perl/Carp-REPL
 "
 DEPEND="

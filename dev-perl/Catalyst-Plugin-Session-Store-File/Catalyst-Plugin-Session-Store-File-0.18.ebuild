@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	>=dev-perl/Class-Data-Inheritable-0.04
-	>=dev-perl/Catalyst-Runtime-5.7000
+	>=dev-perl/Catalyst-Runtime-5.700.000
 	>=dev-perl/Cache-Cache-1.02
 	>=dev-perl/Catalyst-Plugin-Session-0.27
 	>=dev-perl/MRO-Compat-0.10

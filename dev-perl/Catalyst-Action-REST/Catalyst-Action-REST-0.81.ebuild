@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="json data-taxi config-general php freezethaw xml"
 COMMON_DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7001
+	>=dev-perl/Catalyst-Runtime-5.700.100
 	>=dev-perl/Params-Validate-0.76
 	>=dev-perl/YAML-Syck-0.67
 	virtual/perl-Module-Pluggable

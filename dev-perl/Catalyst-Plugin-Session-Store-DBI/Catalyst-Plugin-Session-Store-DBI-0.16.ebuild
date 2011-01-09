@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/Catalyst-Runtime-5.49
+RDEPEND=">=dev-perl/Catalyst-Runtime-5.490
 	>=dev-perl/Catalyst-Plugin-Session-0.27
 	dev-perl/DBI
 	virtual/perl-MIME-Base64

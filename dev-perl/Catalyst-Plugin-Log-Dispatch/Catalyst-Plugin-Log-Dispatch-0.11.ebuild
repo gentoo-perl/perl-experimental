@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RDEPEND="
 	>=dev-perl/log-dispatch-2.13
-	>=dev-perl/Catalyst-Runtime-5.65
+	>=dev-perl/Catalyst-Runtime-5.650
 	dev-perl/UNIVERSAL-require
 "
 DEPEND="

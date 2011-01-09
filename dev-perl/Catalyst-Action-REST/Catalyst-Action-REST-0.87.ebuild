@@ -16,7 +16,7 @@ IUSE="json data-taxi config-general php freezethaw xml test"
 COMMON_DEPEND="
 	>=dev-perl/Moose-1.03
 	dev-perl/namespace-autoclean
-	>=dev-perl/Catalyst-Runtime-5.80
+	>=dev-perl/Catalyst-Runtime-5.800
 	>=dev-perl/Params-Validate-0.76
 	>=dev-perl/YAML-Syck-0.67
 	virtual/perl-Module-Pluggable

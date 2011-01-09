@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/Catalyst-Runtime-5.7006
+RDEPEND=">=dev-perl/Catalyst-Runtime-5.700.600
 	>=dev-perl/Class-C3-0.19"
 DEPEND="${RDEPEND}
 	test? ( >=virtual/perl-Test-Simple-0.47 )"

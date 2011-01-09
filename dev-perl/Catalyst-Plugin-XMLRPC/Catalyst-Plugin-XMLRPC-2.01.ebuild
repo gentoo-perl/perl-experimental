@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.66
+	>=dev-perl/Catalyst-Runtime-5.660
 	>=dev-perl/RPC-XML-0.69
 "
 

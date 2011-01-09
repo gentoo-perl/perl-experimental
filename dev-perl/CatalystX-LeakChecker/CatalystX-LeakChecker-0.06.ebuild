@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	dev-perl/Text-SimpleTable
 	dev-perl/namespace-clean
 	dev-perl/MooseX-Types
-	>=dev-perl/Catalyst-Runtime-5.8
+	>=dev-perl/Catalyst-Runtime-5.800
 	dev-perl/Task-Weaken
 	>=dev-perl/Moose-0.90
 "

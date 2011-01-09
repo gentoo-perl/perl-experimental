@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.80014
+	>=dev-perl/Catalyst-Runtime-5.800.140
 	dev-perl/Catalyst-Plugin-SubRequest
 	dev-perl/Moose
 	dev-perl/namespace-clean

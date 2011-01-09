@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Moose
-	>=dev-perl/Catalyst-Runtime-5.80013
+	>=dev-perl/Catalyst-Runtime-5.800.130
 	>=dev-perl/MooseX-MethodAttributes-0.18
 	>=dev-perl/Catalyst-Action-REST-0.74
 	dev-perl/Catalyst-Plugin-Authentication

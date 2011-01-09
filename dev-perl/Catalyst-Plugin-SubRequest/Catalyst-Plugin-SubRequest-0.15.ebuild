@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7012
+	>=dev-perl/Catalyst-Runtime-5.701.200
 "
 DEPEND="
 	${RDEPEND}

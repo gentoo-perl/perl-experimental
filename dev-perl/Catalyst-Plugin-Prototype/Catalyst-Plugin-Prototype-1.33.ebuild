@@ -13,6 +13,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7006
+	>=dev-perl/Catalyst-Runtime-5.700.600
 	>=dev-perl/HTML-Prototype-1.48
 "

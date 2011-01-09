@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.57
+	>=dev-perl/Catalyst-Runtime-5.570
 	>=dev-perl/GD-Barcode-1.15
 "
 DEPEND="

@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.7
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/Template-Toolkit
 	dev-perl/Class-Accessor
 	dev-perl/Template-Timer
