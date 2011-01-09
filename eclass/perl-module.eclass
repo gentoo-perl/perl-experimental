@@ -112,6 +112,10 @@ perl-module_src_prep() {
 		if [[ ${DEPEND} != *virtual/perl-Module-Build* && ${PN} != Module-Build ]] ; then
 			eqawarn "QA Notice: The ebuild uses Module::Build but doesn't depend on it."
 			eqawarn "           Add virtual/perl-Module-Build to DEPEND!"
+			if [[ -n ${PERLQAFATAL} ]]; then
+				eerror "Bailing out due to PERLQAFATAL=1";
+				die;
+			fi
 		fi
 		set -- \
 			--installdirs=vendor \
