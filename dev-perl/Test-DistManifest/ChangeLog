@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-DistManifest
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-DistManifest-1.009 (09 Jan 2011)
+
+  09 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-DistManifest-1.009.ebuild, +metadata.xml:
+  Added
+
