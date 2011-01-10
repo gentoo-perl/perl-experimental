@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Padre-Plugin-Autoformat
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Padre-Plugin-Autoformat-1.220 (10 Jan 2011)
+
+  10 Jan 2011; Torsten Veller <tove@gentoo.org>
+  +Padre-Plugin-Autoformat-1.220.ebuild:
+  Version bump
 
 *Padre-Plugin-Autoformat-1.21 (06 Nov 2010)
 
