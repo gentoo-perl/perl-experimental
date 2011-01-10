@@ -1,6 +1,16 @@
 # ChangeLog for perl-core/ExtUtils-MakeMaker
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/perl-core/ExtUtils-MakeMaker/ChangeLog,v 1.21 2010/09/13 14:41:47 josejx Exp $
+
+*ExtUtils-MakeMaker-6.570.600_rc (10 Jan 2011)
+
+  10 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/6.570.600_rc/0001-Add-patch-from-gentoo-as-stolen-from-debian.patch,
+  +files/6.570.600_rc/0002-Add-RUNPATH-patch-from-gentoo.patch,
+  -ExtUtils-MakeMaker-6.57_pre06.ebuild,
+  +ExtUtils-MakeMaker-6.570.600_rc.ebuild:
+  Moved to new versioning scheme, modifed to work with source+patches instead
+  of needing patched-builds.
 
 *ExtUtils-MakeMaker-6.57_pre06 (18 Nov 2010)
 
