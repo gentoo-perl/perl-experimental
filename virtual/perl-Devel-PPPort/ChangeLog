@@ -1,6 +1,10 @@
 # ChangeLog for virtual/perl-Devel-PPPort
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  10 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-Devel-PPPort-3.19.ebuild:
+  Fix for 5.12.3
 
   16 Nov 2010; Torsten Veller <tove@gentoo.org>
   perl-Devel-PPPort-3.19.ebuild:
