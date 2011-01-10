@@ -1,3 +1,7 @@
+# Torsten Veller <tove@gentoo.org> (10 Jan 2011)
+# Mask perl-5.12.3 release candidates
+=dev-lang/perl-5.12.3_rc*
+
 # Torsten Veller <tove@gentoo.org> (09 Jan 2011)
 # Change version scheme. Latest version looks like a downgrade
 >=virtual/perl-CPANPLUS-0.9001
