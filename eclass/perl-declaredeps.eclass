@@ -35,9 +35,13 @@
 
 DESCRIPTION="Based on the ${ECLASS} eclass";
 
-if has "${EAPI:-0}" 4; then
-	die "perl-declaredeps needs EAPI4";
-fi
+case "${EAPI:-0}" in
+	4)
+		;;
+	*)
+		die "perl-declaredeps needs EAPI4";
+		;;
+esac
 
 DDEP_CONFLICTS="";
 DDEP_BUILDDEPENDS="";
