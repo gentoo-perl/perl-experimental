@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Eval-Closure
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Eval-Closure-0.10 (10 Jan 2011)
+
+  10 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Eval-Closure-0.10.ebuild,
+  +metadata.xml:
+  Added
+
