@@ -10,7 +10,7 @@ inherit perl-module eutils
 DESCRIPTION="Create a module Makefile"
 HOMEPAGE="http://makemaker.org ${HOMEPAGE}"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE=""
 
 DEPEND=">=virtual/perl-ExtUtils-Manifest-1.56
