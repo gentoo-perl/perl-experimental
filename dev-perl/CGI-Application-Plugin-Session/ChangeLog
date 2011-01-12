@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/CGI-Application-Plugin-Session
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Application-Plugin-Session-1.30 (12 Jan 2011)
+
+  12 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -CGI-Application-Plugin-Session-1.03.ebuild,
+  +CGI-Application-Plugin-Session-1.30.ebuild:
+  Move to new schema, EAPI=3, SRC_TEST=do, depend Module::Build, fixup depends
+
