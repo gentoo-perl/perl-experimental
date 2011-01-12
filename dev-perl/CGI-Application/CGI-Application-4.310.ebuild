@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=MARKSTOS
+MODULE_VERSION="4.31"
 inherit perl-module
 
 DESCRIPTION="Framework for building reusable web-applications"
@@ -11,9 +12,17 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE=""
-DEPEND="
+IUSE="test"
+RDEPEND="
 	dev-perl/HTML-Template
+	virtual/perl-Class-ISA
+	virtual/perl-CGI
 "
-RDEPEND="$DEPEND"
-SRC_TEST="do"
+DEPEND="
+	${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+	)
+	virtual/perl-Module-Build
+"
+SRC_TEST=do
