@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Action-REST-0.810 (14 Jan 2011)
+
+  14 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Action-REST-0.81.ebuild, +Catalyst-Action-REST-0.810.ebuild:
+  AUTOFIX: Migrated from old version format ( 0.81 ) to new version format (
+  0.810 )
+
 *Catalyst-Action-REST-0.800 (14 Jan 2011)
 
   14 Jan 2011; Kent Fredric <kentfredric@gmail.com>
