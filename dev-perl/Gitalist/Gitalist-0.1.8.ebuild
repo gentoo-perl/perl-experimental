@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.001008"
 inherit perl-module
 
 DESCRIPTION="A modern git web viewer"
@@ -17,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-vcs/git
 	virtual/perl-CGI
-	>=dev-perl/Catalyst-Action-REST-0.85
+	>=dev-perl/Catalyst-Action-REST-0.850
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Catalyst-Controller-ActionRole
@@ -43,7 +44,6 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
 	>=dev-perl/MooseX-Declare-0.33
-	>=dev-perl/MooseX-MultiMethods-0.10
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types-Path-Class

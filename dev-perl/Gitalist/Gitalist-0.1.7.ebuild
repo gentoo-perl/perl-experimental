@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
-MODULE_AUTHOR=BROQ
+MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.001007"
 inherit perl-module
 
 DESCRIPTION="A modern git web viewer"
@@ -17,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-vcs/git
 	virtual/perl-CGI
-	>=dev-perl/Catalyst-Action-REST-0.85
+	>=dev-perl/Catalyst-Action-REST-0.850
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Catalyst-Controller-ActionRole
@@ -36,21 +37,21 @@ RDEPEND="
 	dev-perl/File-Type
 	dev-perl/File-Type-WebImages
 	dev-perl/File-Which
-	>=dev-perl/Git-PurePerl-0.47
+	>=dev-perl/Git-PurePerl-0.46
 	dev-perl/HTML-Parser
 	dev-perl/IPC-Run
-	dev-perl/JSON-XS
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	>=dev-perl/MooseX-Declare-0.32
+	>=dev-perl/MooseX-Declare-0.33
+	>=dev-perl/MooseX-MultiMethods-0.10
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types-Path-Class
 	>=dev-perl/Path-Class-0.17
 	dev-perl/Sub-Exporter
 	dev-perl/Syntax-Highlight-Engine-Kate
-	>=dev-perl/Template-Toolkit-2.22
+	dev-perl/Template-Toolkit
 	dev-perl/Template-Plugin-Cycle
 	dev-perl/Template-Provider-Encoding
 	>=dev-perl/Test-utf8-0.02
