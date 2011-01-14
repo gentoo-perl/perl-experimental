@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.14"
 inherit perl-module
 
 DESCRIPTION="Provide a simple Login controller which can be reused"

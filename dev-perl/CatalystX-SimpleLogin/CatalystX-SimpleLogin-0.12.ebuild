@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -16,7 +16,7 @@ COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/Catalyst-Runtime-5.800.130
 	>=dev-perl/MooseX-MethodAttributes-0.18
-	>=dev-perl/Catalyst-Action-REST-0.74
+	>=dev-perl/Catalyst-Action-REST-0.740
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Catalyst-View-TT
 	dev-perl/CatalystX-InjectComponent

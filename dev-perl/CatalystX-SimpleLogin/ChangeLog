@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header$
 
+*CatalystX-SimpleLogin-0.140 (14 Jan 2011)
+
+  14 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  CatalystX-SimpleLogin-0.09.ebuild, CatalystX-SimpleLogin-0.12.ebuild,
+  CatalystX-SimpleLogin-0.14.ebuild, +CatalystX-SimpleLogin-0.140.ebuild:
+  Migrated from old version format ( 0.14 ) to new version format (
+  0.140 ). Fixed Deps for Catalyst-Action-REST
+
 *CatalystX-SimpleLogin-0.14 (03 Jan 2011)
 
   03 Jan 2011; Kent Fredric <kentfredric@gmail.com>
