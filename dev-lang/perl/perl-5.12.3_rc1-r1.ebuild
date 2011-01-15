@@ -6,7 +6,7 @@ EAPI=3
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=0
+PATCH_VER=1
 
 PERL_OLDVERSEN="5.12.2 5.12.1 5.12.0"
 
@@ -130,6 +130,7 @@ src_prepare() {
 	EPATCH_SOURCE="${WORKDIR}/perl-patch" \
 	EPATCH_SUFFIX="diff" \
 	EPATCH_FORCE="yes" \
+	EPATCH_OPTS+=-p1 \
 	epatch
 
 	src_prepare_update_patchlevel_h
