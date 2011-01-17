@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Perl-PrereqScanner-1.001.ebuild:
+  Somehow this author is wrong
+
 *Perl-PrereqScanner-1.001 (08 Jan 2011)
 
   08 Jan 2011; Torsten Veller <tove@gentoo.org>
