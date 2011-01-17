@@ -1,3 +1,1 @@
-#       http://www.cpan.org # currently broken 
-#       http://backpan.perl.org #currently broken
-cpan		http://search.cpan.org/CPAN http://cpan.hexten.net/ http://cpan.cpantesters.org/
+cpan		http://search.cpan.org/CPAN http://cpan.hexten.net/ http://cpan.cpantesters.org http://www.cpan.org http://backpan.perl.org  
