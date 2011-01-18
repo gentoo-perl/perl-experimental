@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-Devel
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Devel-1.300 (18 Jan 2011)
+
+  18 Jan 2011; Torsten Veller <tove@gentoo.org> +Catalyst-Devel-1.300.ebuild,
+  +files/MakeFile-Check-1.300.patch:
+  Version bump
 
 *Catalyst-Devel-1.28 (09 Aug 2010)
 
