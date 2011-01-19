@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-AutoRestart
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  19 Jan 2011; Daniel Westermann-Clark <dwc@pobox.com>
+  Catalyst-Plugin-AutoRestart-0.93.ebuild:
+  Fix dev-perl/Catalyst-Runtime version due to
+  3cf7ee74d47bbdb992712773db3e6becef39af92
 
 *Catalyst-Plugin-AutoRestart-0.93 (25 Feb 2010)
 
