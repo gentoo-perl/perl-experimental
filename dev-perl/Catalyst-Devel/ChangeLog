@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Devel-1.310 (20 Jan 2011)
+
+  20 Jan 2011; Torsten Veller <tove@gentoo.org> +Catalyst-Devel-1.310.ebuild,
+  +files/MakeFile-Check-1.310.patch:
+  Version bump
+
 *Catalyst-Devel-1.300 (18 Jan 2011)
 
   18 Jan 2011; Torsten Veller <tove@gentoo.org> +Catalyst-Devel-1.300.ebuild,
