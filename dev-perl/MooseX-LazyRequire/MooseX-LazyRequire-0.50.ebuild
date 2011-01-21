@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.05"
 inherit perl-module
 
 DESCRIPTION="Required attributes which fail only when trying to use them"
@@ -17,7 +18,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
 	>=dev-perl/aliased-0.30
-	>=dev-perl/Moose-0.94
+	dev-perl/Moose
 "
 DEPEND="${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.31
