@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-Lexical-Types
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Lexical-Types-0.01.ebuild:
+  Alternate deps for Class-MOP
 
 *MooseX-Lexical-Types-0.01 (18 May 2009)
 
