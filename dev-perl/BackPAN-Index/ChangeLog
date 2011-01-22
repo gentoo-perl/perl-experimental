@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/BackPAN-Index
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*BackPAN-Index-0.390 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com> -BackPAN-Index-0.39.ebuild,
+  +BackPAN-Index-0.390.ebuild:
+  Migrate to new versions, fix dep of DBIx-Class-Schema-Loader
 
 *BackPAN-Index-0.39 (03 Jun 2010)
 

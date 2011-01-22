@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=MSCHWERN
+MODULE_VERSION="0.39"
 inherit perl-module
 
 DESCRIPTION="An interface to the BackPAN index"
@@ -18,7 +19,7 @@ COMMON_DEPEND="
 	virtual/perl-Archive-Extract
 	>=dev-perl/DBIx-Class-0.08109
 	>=dev-perl/DBD-SQLite-1.25
-	>=dev-perl/DBIx-Class-Schema-Loader-0.05003
+	>=dev-perl/DBIx-Class-Schema-Loader-0.50.30
 	>=dev-perl/Path-Class-0.17
 	dev-perl/autodie
 	virtual/perl-parent
