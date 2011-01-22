@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=RIBASUSHI
+MODULE_VERSION="0.07002"
 inherit perl-module
 
 DESCRIPTION="Dynamic definition of DBIx::Class sub classes."
@@ -24,7 +25,7 @@ RDEPEND="
 	dev-perl/Class-Inspector
 	dev-perl/Class-Unload
 	>=dev-perl/Moose-1.12
-	>=dev-perl/MooseX-NonMoose-0.15
+	>=dev-perl/MooseX-NonMoose-0.150
 	>=dev-perl/namespace-autoclean-0.09
 	>=dev-perl/Data-Dumper-Concise-1.200
 	dev-perl/Scope-Guard

@@ -1,6 +1,19 @@
 # ChangeLog for dev-perl/DBIx-Class-Schema-Loader
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*DBIx-Class-Schema-Loader-0.70.20 (22 Jan 2011)
+*DBIx-Class-Schema-Loader-0.70.10 (22 Jan 2011)
+*DBIx-Class-Schema-Loader-0.70 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Class-Schema-Loader-0.70.ebuild,
+  +DBIx-Class-Schema-Loader-0.70.10.ebuild,
+  +DBIx-Class-Schema-Loader-0.70.20.ebuild,
+  -DBIx-Class-Schema-Loader-0.07000.ebuild,
+  -DBIx-Class-Schema-Loader-0.07001.ebuild,
+  -DBIx-Class-Schema-Loader-0.07002.ebuild:
+  Migrate to new version scheme, fix dep on MooseX-NonMoose
 
 *DBIx-Class-Schema-Loader-0.07002 (05 Nov 2010)
 
