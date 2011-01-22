@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=NUFFIN
+MODULE_VERSION="1.10"
 inherit perl-module
 
 DESCRIPTION="DBI backend for KiokuDB"
@@ -13,7 +14,7 @@ IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/MooseX-Types-0.08
-	>=dev-perl/KiokuDB-0.24
+	>=dev-perl/KiokuDB-0.240
 	>=dev-perl/DBIx-Class-0.08102
 	>=dev-perl/DBI-1.607
 	>=dev-perl/Data-Stream-Bulk-0.07

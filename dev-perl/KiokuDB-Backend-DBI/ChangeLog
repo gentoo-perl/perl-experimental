@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/KiokuDB-Backend-DBI
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*KiokuDB-Backend-DBI-1.150 (22 Jan 2011)
+*KiokuDB-Backend-DBI-1.100 (22 Jan 2011)
+*KiokuDB-Backend-DBI-0.80 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -KiokuDB-Backend-DBI-0.08.ebuild, +KiokuDB-Backend-DBI-0.80.ebuild,
+  -KiokuDB-Backend-DBI-1.10.ebuild, -KiokuDB-Backend-DBI-1.15.ebuild,
+  +KiokuDB-Backend-DBI-1.100.ebuild, +KiokuDB-Backend-DBI-1.150.ebuild:
+  Migrate to new versions, fix dep on dev-perl/KiokuDB
 
 *KiokuDB-Backend-DBI-1.15 (09 Aug 2010)
 
