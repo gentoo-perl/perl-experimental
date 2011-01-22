@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com) (22 Jan 2011)
+# Mask Moose 2.0 pre-releases, they break LOTS of things. 
+>=dev-perl/Moose-1.990
+
 # Torsten Veller <tove@gentoo.org> (10 Jan 2011)
 # Mask perl-5.12.3 release candidates
 =dev-lang/perl-5.12.3_rc*
