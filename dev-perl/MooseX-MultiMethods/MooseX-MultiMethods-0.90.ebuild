@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.09"
 inherit perl-module
 
 DESCRIPTION="Multi Method Dispatch based on Moose type constraints"
@@ -14,7 +15,7 @@ COMMON_DEPEND="
 	>=dev-perl/Devel-Declare-0.004000
 	dev-perl/Devel-PartialDump
 	dev-perl/Moose
-	>=dev-perl/MooseX-Method-Signatures-0.29
+	>=dev-perl/MooseX-Method-Signatures-0.290
 	>=dev-perl/MooseX-Types-VariantTable-0.03
 	dev-perl/Sub-Install
 	dev-perl/aliased
