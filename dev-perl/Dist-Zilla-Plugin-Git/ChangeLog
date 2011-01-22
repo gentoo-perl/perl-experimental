@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-Git-1.101680.ebuild, Dist-Zilla-Plugin-Git-1.102090.ebuild,
+  Dist-Zilla-Plugin-Git-1.102380.ebuild, Dist-Zilla-Plugin-Git-1.102810.ebuild,
+  Dist-Zilla-Plugin-Git-1.103520.ebuild:
+  Alternate deps for Class-MOP
+
 *Dist-Zilla-Plugin-Git-1.103520 (08 Jan 2011)
 
   08 Jan 2011; Kent Fredric <kentfredric@gmail.com>
