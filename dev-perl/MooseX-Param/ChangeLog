@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/MooseX-Param
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Param-0.20 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com> -MooseX-Param-0.02.ebuild,
+  +MooseX-Param-0.20.ebuild:
+  Migrate to new version scheme, Add MB dep, EAPI=3, src_test=do
 
   11 Jun 2009; Michele Beltrame <mb@cattlegrid.info>:
   Initial release
