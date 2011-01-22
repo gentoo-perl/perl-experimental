@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=JJNAPIORK
+MODULE_VERSION="0.015"
 inherit perl-module
 
 DESCRIPTION="EXPERIMENTAL Declarative Syntax for Catalyst Applications"
@@ -21,11 +22,11 @@ COMMON_DEPEND="
 	>=dev-perl/CLASS-1.0
 	>=dev-perl/Devel-Declare-0.006000
 	>=dev-perl/Moose-1.14
-	>=dev-perl/MooseX-Declare-0.34
+	>=dev-perl/MooseX-Declare-0.340
 	>=dev-perl/MooseX-MethodAttributes-0.24
 	>=dev-perl/MooseX-Role-Parameterized-0.19
 	>=dev-perl/MooseX-Types-0.24
-	>=dev-perl/MooseX-Method-Signatures-0.36
+	>=dev-perl/MooseX-Method-Signatures-0.360
 
 	>=dev-perl/Catalyst-Controller-ActionRole-0.15
 	>=dev-perl/Data-Pond-0.002
