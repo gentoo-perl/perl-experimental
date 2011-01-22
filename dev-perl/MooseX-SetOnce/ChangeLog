@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-SetOnce-0.100.472-r1 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-SetOnce-0.100.472-r1.ebuild,
+  +files/0.100472/0001-Fix-for-Moose-1.900-but-should-work-since-Class-MOP-.pat
+  ch:
+  Inhouse fix pending upstream fix
+
 *MooseX-SetOnce-0.100.472 (22 Jan 2011)
 *MooseX-SetOnce-0.100.471 (22 Jan 2011)
 
