@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -15,7 +15,7 @@ IUSE=""
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.250
 	>=dev-perl/String-RewritePrefix-0.004
-	dev-perl/Class-MOP
+	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
