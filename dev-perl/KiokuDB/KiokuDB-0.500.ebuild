@@ -16,7 +16,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	>=dev-perl/Cache-Ref-0.02
-	>=dev-perl/Class-MOP-0.94
+	|| ( >=dev-perl/Moose-1.990 =dev-perl/Class-MOP-0.94 )
 	>=dev-perl/Data-Stream-Bulk-0.07
 	>=dev-perl/Data-Visitor-0.24
 	>=dev-perl/JSON-2.12
