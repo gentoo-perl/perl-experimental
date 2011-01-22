@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/MooseX-Declare
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Declare-0.340 (22 Jan 2011)
+*MooseX-Declare-0.330 (22 Jan 2011)
+*MooseX-Declare-0.320 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-Declare-0.32.ebuild, -MooseX-Declare-0.33.ebuild,
+  -MooseX-Declare-0.34.ebuild, +MooseX-Declare-0.320.ebuild,
+  +MooseX-Declare-0.330.ebuild, +MooseX-Declare-0.340.ebuild:
+  Migrate to new version scheme, fix dep on MooseX-Method-Signatures
 
 *MooseX-Declare-0.34 (09 Sep 2010)
 
