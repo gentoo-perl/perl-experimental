@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=RKITOVER
+MODULE_VERSION="0.48"
 inherit perl-module
 
 DESCRIPTION="DBIx::Class::Schema Model Class"
@@ -25,7 +26,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	catalyst_helper? (
 		>=dev-perl/Catalyst-Devel-1.0
-		>=dev-perl/DBIx-Class-Schema-Loader-0.04005
+		>=dev-perl/DBIx-Class-Schema-Loader-0.40.50
 		>=dev-perl/MooseX-NonMoose-0.150
 	)
 	caching? (

@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=RKITOVER
+MODULE_VERSION="0.41"
 inherit perl-module
 
 DESCRIPTION="DBIx::Class::Schema Model Class"
@@ -24,8 +25,7 @@ RDEPEND="
 	dev-perl/Tie-IxHash
 	catalyst_helper? (
 		>=dev-perl/Catalyst-Devel-1.0
-		>=dev-perl/DBIx-Class-Schema-Loader-0.04005
-		dev-perl/MooseX-NonMoose
+		>=dev-perl/DBIx-Class-Schema-Loader-0.40.50
 	)
 	caching? (
 		dev-perl/DBIx-Class-Cursor-Cached
