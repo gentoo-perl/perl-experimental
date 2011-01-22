@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=3
 MODULE_AUTHOR=RBO
+MODULE_VERSION="0.03"
 inherit perl-module
 
 DESCRIPTION="A Catalyst View for Excel::Template::Plus"
@@ -14,8 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 RDEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/Excel-Template-Plus-0.05
+	>=dev-perl/Excel-Template-Plus-0.50
 "
 DEPEND="
+	virtual/perl-Module-Build
 	dev-perl/Test-Exception
 "
+SRC_TEST="do"

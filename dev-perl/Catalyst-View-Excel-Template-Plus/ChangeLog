@@ -1,6 +1,17 @@
 # ChangeLog for dev-perl/Catalyst-View-Excel-Template-Plus
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-View-Excel-Template-Plus-0.30 (22 Jan 2011)
+*Catalyst-View-Excel-Template-Plus-0.10 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-View-Excel-Template-Plus-0.01.ebuild,
+  -Catalyst-View-Excel-Template-Plus-0.03.ebuild,
+  +Catalyst-View-Excel-Template-Plus-0.10.ebuild,
+  +Catalyst-View-Excel-Template-Plus-0.30.ebuild:
+  Move to new version scheme, fix dep on Excel-Template-Plus, add dep for
+  Module-Build
 
 *Catalyst-View-Excel-Template-Plus-0.03 (28 Apr 2010)
 
