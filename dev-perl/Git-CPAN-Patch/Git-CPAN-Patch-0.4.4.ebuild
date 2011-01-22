@@ -3,7 +3,6 @@
 # $Header: $
 EAPI=3
 
-
 MODULE_AUTHOR=YANICK
 inherit perl-module
 
