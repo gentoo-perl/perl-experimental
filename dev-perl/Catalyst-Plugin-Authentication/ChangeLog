@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-Authentication
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Authentication-0.10015.ebuild,
+  Catalyst-Plugin-Authentication-0.10016.ebuild:
+  Alternate deps for Class-MOP
 
 *Catalyst-Plugin-Authentication-0.10016 (24 Jan 2010)
 
