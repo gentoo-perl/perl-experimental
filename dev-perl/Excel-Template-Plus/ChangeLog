@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Excel-Template-Plus
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Excel-Template-Plus-0.50 (22 Jan 2011)
+*Excel-Template-Plus-0.40 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Excel-Template-Plus-0.04.ebuild, -Excel-Template-Plus-0.05.ebuild,
+  +Excel-Template-Plus-0.40.ebuild, +Excel-Template-Plus-0.50.ebuild:
+  Migrate to new version scheme, fix dep on MooseX-Param, add ModuleBuild dep
 
 *Excel-Template-Plus-0.05 (15 Apr 2010)
 
