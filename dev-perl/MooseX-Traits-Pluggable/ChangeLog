@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/MooseX-Traits-Pluggable
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Traits-Pluggable-0.08.ebuild, MooseX-Traits-Pluggable-0.09.ebuild,
+  MooseX-Traits-Pluggable-0.10.ebuild:
+  Alternate deps for Class-MOP
 
 *MooseX-Traits-Pluggable-0.10 (05 Aug 2010)
 
