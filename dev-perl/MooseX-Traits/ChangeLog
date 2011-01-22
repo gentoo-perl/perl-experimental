@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-Traits
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com> MooseX-Traits-0.09.ebuild,
+  MooseX-Traits-0.11.ebuild:
+  Alternate deps for Class-MOP
 
   09 Aug 2010; Kent Fredric <kentfredric@gmail.com>
   -MooseX-Traits-0.07.ebuild:
