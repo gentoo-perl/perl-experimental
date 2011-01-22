@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,7 +15,7 @@ COMMON_DEPEND="
 	>=dev-perl/namespace-clean-0.05
 	dev-perl/Pod-Coverage
 	dev-perl/Perl6-Junction
-	dev-perl/Class-MOP
+	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
 "
 DEPEND="
 	${COMMON_DEPEND}
