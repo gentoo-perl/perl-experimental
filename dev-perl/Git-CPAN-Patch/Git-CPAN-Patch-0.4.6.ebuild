@@ -1,10 +1,7 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
-#MY_P="${PN}-v${PV}"
-#S="${WORKDIR}/${MY_P}"
-
 MODULE_AUTHOR=YANICK
 inherit perl-module
 
@@ -24,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-lang/perl-5.10.0
 	>=virtual/perl-CPANPLUS-0.84
 	dev-perl/autodie
-	>=dev-perl/BackPAN-Index-0.39
+	>=dev-perl/BackPAN-Index-0.390
 
 "
 DEPEND="

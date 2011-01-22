@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Git-CPAN-Patch-0.4.4.ebuild, Git-CPAN-Patch-0.4.5.ebuild,
+  Git-CPAN-Patch-0.4.6.ebuild:
+  fix deps on BackPAN-Index
+
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   -Git-CPAN-Patch-0.2.1.ebuild, -Git-CPAN-Patch-0.3.1.ebuild,
   -Git-CPAN-Patch-0.3.2.ebuild:
