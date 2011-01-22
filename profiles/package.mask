@@ -1,6 +1,7 @@
 # Kent Fredric <kentfredric@gmail.com) (22 Jan 2011)
 # Mask Moose 2.0 pre-releases, they break LOTS of things. 
 >=dev-perl/Moose-1.990
+=dev-perl/MooseX-SetOnce-0.100.472-r1
 
 # Torsten Veller <tove@gentoo.org> (09 Jan 2011)
 # Change version scheme. Latest version looks like a downgrade
