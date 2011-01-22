@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=DOY
+MODULE_VERSION="0.03"
 inherit perl-module
 
 DESCRIPTION="Moose in a box"
@@ -25,8 +26,8 @@ COMMON_DEPEND="
 	instancetype? (
 		dev-perl/MooseX-GlobRef
 		dev-perl/MooseX-InsideOut
-		>=dev-perl/MooseX-Singleton-0.20
-		>=dev-perl/MooseX-NonMoose-0.06
+		>=dev-perl/MooseX-Singleton-0.200
+		>=dev-perl/MooseX-NonMoose-0.60
 	)
 	declare? (
 		dev-perl/MooseX-Declare
