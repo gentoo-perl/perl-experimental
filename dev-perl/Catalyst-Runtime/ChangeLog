@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Runtime-5.800.240.ebuild, Catalyst-Runtime-5.800.250.ebuild,
+  Catalyst-Runtime-5.800.290.ebuild, Catalyst-Runtime-5.800.300.ebuild:
+  Alternate deps for Class-MOP
+
 *Catalyst-Runtime-5.800.290 (09 Jan 2011)
 *Catalyst-Runtime-5.800.250 (09 Jan 2011)
 *Catalyst-Runtime-5.800.240 (09 Jan 2011)

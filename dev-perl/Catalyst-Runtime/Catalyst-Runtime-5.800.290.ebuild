@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/namespace-clean-0.13
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00903
-	>=dev-perl/Class-MOP-0.95
+	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.95 )
 	>=dev-perl/Moose-1.03
 	>=dev-perl/MooseX-MethodAttributes-0.19
 	>=dev-perl/MooseX-Role-WithOverloading-0.05
