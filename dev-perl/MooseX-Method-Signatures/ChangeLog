@@ -2,6 +2,20 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Method-Signatures-0.360 (22 Jan 2011)
+*MooseX-Method-Signatures-0.350 (22 Jan 2011)
+*MooseX-Method-Signatures-0.300 (22 Jan 2011)
+*MooseX-Method-Signatures-0.290 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-Method-Signatures-0.29.ebuild, -MooseX-Method-Signatures-0.30.ebuild,
+  -MooseX-Method-Signatures-0.35.ebuild, -MooseX-Method-Signatures-0.36.ebuild,
+  +MooseX-Method-Signatures-0.290.ebuild,
+  +MooseX-Method-Signatures-0.300.ebuild,
+  +MooseX-Method-Signatures-0.350.ebuild,
+  +MooseX-Method-Signatures-0.360.ebuild:
+  Migrate to new version scheme, fix dep on MooseX-LazyRequire
+
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   -MooseX-Method-Signatures-0.31.ebuild:
   Gone on CPAN

@@ -1,9 +1,10 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.29"
 inherit perl-module
 
 DESCRIPTION="Method declarations with type constraints and no source filter"
@@ -20,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Parse-Method-Signatures-1.003011
 	>=dev-perl/Devel-Declare-0.005011
 	>=dev-perl/Moose-0.89
-	>=dev-perl/MooseX-LazyRequire-0.04
+	>=dev-perl/MooseX-LazyRequire-0.40
 	dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion
 	>=dev-perl/MooseX-Types-0.19
 	>=dev-perl/MooseX-Types-Structured-0.12
