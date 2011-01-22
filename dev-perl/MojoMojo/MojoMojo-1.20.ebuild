@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=MRAMBERG
+MODULE_VERSION="1.02"
 inherit perl-module
 
 DESCRIPTION="A Catalyst & DBIx::Class powered Wiki."
@@ -26,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Action-RenderView-0.07
 	>=dev-perl/Catalyst-Authentication-Store-DBIx-Class-0.101
 	>=dev-perl/Catalyst-Controller-HTML-FormFu-0.03007
-	>=dev-perl/Catalyst-Model-DBIC-Schema-0.01
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.10
 	>=dev-perl/Catalyst-Plugin-Authentication-0.10005
 	dev-perl/Catalyst-Plugin-Cache
 	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.13
@@ -124,7 +125,7 @@ DEPEND="
 		>=dev-perl/Email-Sender-0.100110
 		>=dev-perl/WWW-Mechanize-1.54
 		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
-		>=dev-perl/WWW-Mechanize-TreeBuilder-1.10000
+		>=dev-perl/WWW-Mechanize-TreeBuilder-1.100
 	)
 	${RDEPEND}
 "
