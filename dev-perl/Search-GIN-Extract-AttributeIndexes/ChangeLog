@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Search-GIN-Extract-AttributeIndexes
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Search-GIN-Extract-AttributeIndexes-0.10.0.110 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Search-GIN-Extract-AttributeIndexes-0.10.0.110.ebuild,
+  -Search-GIN-Extract-AttributeIndexes-0.01000011.ebuild:
+  Migrate to new version scheme
 
 *Search-GIN-Extract-AttributeIndexes-0.01000011 (27 Aug 2009)
 
