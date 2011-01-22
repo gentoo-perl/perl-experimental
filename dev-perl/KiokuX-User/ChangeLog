@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/KiokuX-User
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*KiokuX-User-0.20 (22 Jan 2011)
+*KiokuX-User-0.10 (22 Jan 2011)
+
+  22 Jan 2011; Kent Fredric <kentfredric@gmail.com> -KiokuX-User-0.01.ebuild,
+  -KiokuX-User-0.02.ebuild, +KiokuX-User-0.10.ebuild, +KiokuX-User-0.20.ebuild:
+  Migrate to new version scheme, fix dep on KiokuDB
 
 *KiokuX-User-0.02 (14 Aug 2010)
 

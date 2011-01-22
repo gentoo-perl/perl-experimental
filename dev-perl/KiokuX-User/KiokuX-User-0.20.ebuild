@@ -1,27 +1,27 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
-MODULE_AUTHOR=NUFFIN
+EAPI=3
+MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.02"
 inherit perl-module
 
 DESCRIPTION="A generic role for user objects stored in KiokuDB"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE=""
 COMMON_DEPEND="
+	>=dev-perl/KiokuDB-0.90
 	>=dev-perl/Moose-0.63
-	dev-perl/namespace-clean
-	>=dev-perl/KiokuDB-0.09
-	dev-perl/Sub-Exporter
+	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-Types-Authen-Passphrase
+	dev-perl/Sub-Exporter
+	dev-perl/Test-use-ok
+	dev-perl/namespace-clean
 "
 DEPEND="
 	${COMMON_DEPEND}
-	test? (
-		dev-perl/Test-use-ok
-	)
 "
 RDEPEND="
 	${COMMON_DEPEND}
