@@ -2,6 +2,15 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/Moose/ChangeLog,v 1.66 2010/11/27 20:32:09 tove Exp $
 
+*Moose-1.990.200_rc-r1 (23 Jan 2011)
+
+  23 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.9902-TRIAL/0001-lazy-default-fix.patch,
+  +Moose-1.990.200_rc-r1.ebuild:
+  Manually applied upstream fix for lazy+default :
+  https://github.com/moose/moose/commit/545c60127ba7a6954143eeb4a3e33bb4fbd91342 ,
+  fixes many of the issues with this release
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com> Moose-1.990.200_rc.ebuild:
   Update conflict/deps for old style deps
 

@@ -1,0 +1,12 @@
+diff --git a/Moose-1.9902/lib/Moose/Meta/Class.pm b/Moose-1.9902-b/lib/Moose/Meta/Class.pm
+index b98a11d..b7aed73 100644
+--- a/Moose-1.9902/lib/Moose/Meta/Class.pm
++++ b/Moose-1.9902-b/lib/Moose/Meta/Class.pm
+@@ -395,6 +395,7 @@ sub _inline_init_attr_from_default {
+     my $self = shift;
+     my ($attr, $idx) = @_;
+ 
++    return if $attr->can('is_lazy') && $attr->is_lazy;
+     my $default = $self->_inline_default_value($attr, $idx);
+     return unless $default;
+ 
