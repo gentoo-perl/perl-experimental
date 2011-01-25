@@ -35,6 +35,9 @@
 
 DESCRIPTION="Based on the ${ECLASS} eclass";
 
+# At present, its EAPI=4 only, because without EAPI4, theres
+# implicit DEPEND=RDEPEND :(
+
 case "${EAPI:-0}" in
 	4)
 		;;
@@ -47,60 +50,79 @@ DDEP_CONFLICTS="";
 DDEP_BUILDDEPENDS="";
 DDEP_RUNDEPENDS="";
 DDEP_TESTDEPENDS="";
+DDEP_CONFIGUREDEPENDS="";
 
 conflict() {
 	if [[ -n $2 ]]; then
 		DDEP_CONFLICTS="${DDEP_CONFLICTS}
-		!<=dev-perl/$1-$2";
+	!<=dev-perl/$1-$2";
 	else
 		DDEP_CONFLICTS="${DDEP_CONFLICTS}
-		!dev-perl/$1";
+	!dev-perl/$1";
 	fi
 }
 hard_conflict() {
 	if [[ -n $2 ]]; then
 		DDEP_CONFLICTS="${DDEP_CONFLICTS}
-		!!<=dev-perl/$1-$2";
+	!!<=dev-perl/$1-$2";
 	else
 		DDEP_CONFLICTS="${DDEP_CONFLICTS}
-		!!dev-perl/$1";
+	!!dev-perl/$1";
 	fi
 }
 
 depend() {
 	if [[ -n $2 ]]; then
 		DDEP_RUNDEPENDS="${DDEP_RUNDEPENDS}
-		>=dev-perl/$1-$2";
+	>=dev-perl/$1-$2";
 	else
 		DDEP_RUNDEPENDS="${DDEP_RUNDEPENDS}
-		dev-perl/$1";
+	dev-perl/$1";
 	fi
 }
 depend-virtual() {
 	if [[ -n $2 ]]; then
 		DDEP_RUNDEPENDS="${DDEP_RUNDEPENDS}
-		>=virtual/perl-$1-$2";
+	>=virtual/perl-$1-$2";
 	else
 		DDEP_RUNDEPENDS="${DDEP_RUNDEPENDS}
-		virtual/perl-$1";
+	virtual/perl-$1";
 	fi
 }
 bdepend() {
 	if [[ -n $2 ]]; then
 		DDEP_BUILDDEPENDS="${DDEP_BUILDDEPENDS}
-		>=dev-perl/$1-$2";
+	>=dev-perl/$1-$2";
 	else
 		DDEP_BUILDDEPENDS="${DDEP_BUILDDEPENDS}
-		dev-perl/$1";
+	dev-perl/$1";
 	fi
 }
 bdepend-virtual() {
 	if [[ -n $2 ]]; then
 		DDEP_BUILDDEPENDS="${DDEP_BUILDDEPENDS}
-		>=virtual/perl-$1-$2";
+	>=virtual/perl-$1-$2";
 	else
 		DDEP_BUILDDEPENDS="${DDEP_BUILDDEPENDS}
-		virtual/perl-$1";
+	virtual/perl-$1";
+	fi
+}
+cdepend() {
+	if [[ -n $2 ]]; then
+		DDEP_CONFIGUREDEPENDS="${DDEP_CONFIGUREDEPENDS}
+	>=dev-perl/$1-$2";
+	else
+		DDEP_CONFIGUREDEPENDS="${DDEP_CONFIGUREDEPENDS}
+	dev-perl/$1";
+	fi
+}
+cdepend-virtual() {
+	if [[ -n $2 ]]; then
+		DDEP_CONFIGUREDEPENDS="${DDEP_CONFIGUREDEPENDS}
+	>=virtual/perl-$1-$2";
+	else
+		DDEP_CONFIGUREDEPENDS="${DDEP_CONFIGUREDEPENDS}
+	virtual/perl-$1";
 	fi
 }
 
@@ -123,22 +145,58 @@ test-depend-virtual() {
 	fi
 }
 
+# @FUNCTION: ddep_setup
+# @USAGE:
+# @DESCRIPTION:
+# This stanza does all the work of collecting the data defined by previous
+# declarations and stuffing them into variables emerge/Portage/toolchain
+# understands. WITHOUT this stanza, all the earlier declarations will have NO
+# EFFECT.
+
 ddep_setup() {
 	RDEPEND="${RDEPEND} ${DDEP_CONFLICTS} ${DDEP_RUNDEPENDS}"
-	if [[ -n $DDEP_TESTDEPENDS ]]; then
-		DEPEND="${DEPEND} 
+	DEPEND="${DEPEND}
 		${DDEP_CONFLICTS}
 		${DDEP_RUNDEPENDS}
 		${DDEP_BUILDDEPENDS}
+		${DDEP_CONFIGUREDEPENDS}"
+	if [[ -n $DDEP_TESTDEPENDS ]]; then
+		DEPEND="${DEPEND}
 		test? (
 			${DDEP_TESTDEPENDS}
 		)";
 		IUSE="${IUSE} test";
-	else
-	DEPEND="${DEPEND} 
-		${DDEP_CONFLICTS}
-		${DDEP_RUNDEPENDS}
-		${DDEP_BUILDDEPENDS}
-	";
 	fi
+}
+
+# @FUNCTION: ddep_print
+# @USAGE:
+# @DESCRIPTION:
+# During 'repoman manifest' and other ways of sourcing the ebuild, this prints
+# the result of all the declarative statements as they are represented
+# internally, allowing easy migration of code that uses declarative dependencies
+# to code that doesn't.
+#
+# This is useful if you need to port an EAPI4-only module to EAPI3.
+#
+# 1. inject 'ddep_print' after 'ddep_setup'
+# 2. repoman manifest
+# 3. collect output and inject it into ebuild
+# 4. remove old declarative stuff ( either comment or delete )
+#  4.1 Remove the depend statements
+#  4.2 Remove change EAPI to not be 4 ( optional )
+#  4.3 Remove this eclass from 'inherit'
+# 5. Enjoy Cleaned ebuild.
+
+ddep_print() {
+	echo "#Beginning Compiled segment"
+	DEXTRA="";
+	if [[ -n $DDEP_TESTDEPENDS ]]; then
+		echo "IUSE=\"\${IUSE} test\""
+		DEXTRA=" test? (
+			${DDEP_TEST_DEPENDS}
+		)";
+	fi
+	echo "RDEPEND=\"\${RDEPEND}	${DDEP_CONFLICTS} ${DDEP_RUNDEPENDS}\""
+	echo "DEPEND=\"\${DEPEND} ${DDEP_CONFLICTS}	${DDEP_RUNDEPENDS} ${DDEP_BUILDDEPENDS} ${DDEP_CONFIGUREDEPENDS}${DEXTRA}\""
 }
