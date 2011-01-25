@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=THEPLER
+MODULE_VERSION="0.05"
 inherit perl-module
 
 DESCRIPTION="A Path::Class type library for Moose"
