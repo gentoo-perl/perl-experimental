@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-Inject-1.130 (26 Jan 2011)
+
+  26 Jan 2011; Kent Fredric <kentfredric@gmail.com> +CPAN-Inject-1.130.ebuild:
+  Added 1.130
+
 *CPAN-Inject-1.120 (26 Jan 2011)
 *CPAN-Inject-0.110 (26 Jan 2011)
 *CPAN-Inject-0.100 (26 Jan 2011)
