@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-Repository
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dist-Zilla-Plugin-Repository-0.160 (26 Jan 2011)
+*Dist-Zilla-Plugin-Repository-0.150 (26 Jan 2011)
+
+  26 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-Repository-0.15.ebuild,
+  -Dist-Zilla-Plugin-Repository-0.16.ebuild,
+  +Dist-Zilla-Plugin-Repository-0.150.ebuild,
+  +Dist-Zilla-Plugin-Repository-0.160.ebuild:
+  Move to new version scheme
 
 *Dist-Zilla-Plugin-Repository-0.16 (12 Dec 2010)
 
