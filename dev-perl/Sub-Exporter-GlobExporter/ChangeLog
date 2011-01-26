@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Sub-Exporter-GlobExporter
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Sub-Exporter-GlobExporter-0.2 (26 Jan 2011)
+
+  26 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +Sub-Exporter-GlobExporter-0.2.ebuild, +metadata.xml:
+  Added.
+
