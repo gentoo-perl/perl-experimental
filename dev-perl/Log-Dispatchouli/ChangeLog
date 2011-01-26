@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Log-Dispatchouli-1.100.712.ebuild:
+  Gone on CPAN
+
 *Log-Dispatchouli-2.4 (26 Jan 2011)
 
   26 Jan 2011; Kent Fredric <kentfredric@gmail.com>
