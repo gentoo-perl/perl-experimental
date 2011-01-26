@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/File-pushd-0.32
 	virtual/perl-Getopt-Long
 	>=virtual/perl-CPAN-1.76
-	>=dev-perl/CPAN-Inject-0.07
+	>=dev-perl/CPAN-Inject-0.70
 	>=dev-perl/Params-Util-1.00
 	dev-perl/PAR-Dist
 	dev-perl/URI
