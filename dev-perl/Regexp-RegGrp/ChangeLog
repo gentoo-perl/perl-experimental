@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Regexp-RegGrp
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Regexp-RegGrp-1 (26 Jan 2011)
+
+  26 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Regexp-RegGrp-1.ebuild,
+  +metadata.xml:
+  Added: Javascript-Packer needs us
+
