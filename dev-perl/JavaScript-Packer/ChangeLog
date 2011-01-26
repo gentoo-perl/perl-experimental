@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*JavaScript-Packer-1 (26 Jan 2011)
+
+  26 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +JavaScript-Packer-1.ebuild:
+  Bump to 1.0
+
 *JavaScript-Packer-0.40 (26 Jan 2011)
 
   26 Jan 2011; Kent Fredric <kentfredric@gmail.com>
