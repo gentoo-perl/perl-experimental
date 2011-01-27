@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/MooseX-StrictConstructor/ChangeLog,v 1.10 2011/01/14 16:58:16 tove Exp $
 
+*MooseX-StrictConstructor-0.120-r1 (27 Jan 2011)
+
+  27 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/0.12/0001_Moose2.patch, +MooseX-StrictConstructor-0.120-r1.ebuild:
+  Added a Moose-2 compatible version by manually applying upstream patch
+  http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=gitmo/MooseX-StrictConstructor.git;a=commit;h=01265e2a46aee790b0616f8ba64df57817daafd6
+
 *MooseX-StrictConstructor-0.120 (27 Jan 2011)
 
   27 Jan 2011; Kent Fredric <kentfredric@gmail.com>
