@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Jan 2011; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.ebuild:
+  Add missing dep on Directory::Stash
+
 *MojoMojo-1.20 (22 Jan 2011)
 *MojoMojo-1.10 (22 Jan 2011)
 *MojoMojo-0.999.42 (22 Jan 2011)
