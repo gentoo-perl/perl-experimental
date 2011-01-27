@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/Moose/ChangeLog,v 1.66 2010/11/27 20:32:09 tove Exp $
 
+*Moose-1.990.200_rc-r2 (27 Jan 2011)
+
+  27 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.9902-TRIAL/0002-delete-not-undef.patch,
+  +Moose-1.990.200_rc-r2.ebuild:
+  Added patch that breaks a few edge cases from upstream:
+  http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=gitmo/Moose.git;a=blobdiff;f=xs/HasMethods.xs;h=047e1b2170ac3d23d1232456da3784cd21b09c01;hp=78f15dc70ae83a931448c6b85c494983480081b6;hb=16d1744a09cb08cb096e84d72831ba6f1cb312b6;hpb=3933d34bcdf5b57ed6ca3993f061f3539f96d28a
+
 *Moose-1.990.200_rc-r1 (23 Jan 2011)
 
   23 Jan 2011; Kent Fredric <kentfredric@gmail.com>
