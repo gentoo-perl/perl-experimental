@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=DROLSKY
+MODULE_VERSION="0.21"
 inherit perl-module
 
 DESCRIPTION="Declare class attributes Moose-style"
