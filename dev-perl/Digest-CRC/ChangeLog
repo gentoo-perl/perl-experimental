@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Digest-CRC
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Digest-CRC-0.16 (27 Jan 2011)
+
+  27 Jan 2011; Michele Beltrame <m@cattlegrid.info> +Digest-CRC-0.16.ebuild,
+  +metadata.xml:
+  Initial ebuild
+
