@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/MooseX-StrictConstructor/ChangeLog,v 1.10 2011/01/14 16:58:16 tove Exp $
 
+*MooseX-StrictConstructor-0.120 (27 Jan 2011)
+
+  27 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-StrictConstructor-0.12.ebuild,
+  +MooseX-StrictConstructor-0.120.ebuild:
+  Migrate to new version scheme
+
   27 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   +MooseX-StrictConstructor-0.12.ebuild, +metadata.xml:
   Import from ::gentoo

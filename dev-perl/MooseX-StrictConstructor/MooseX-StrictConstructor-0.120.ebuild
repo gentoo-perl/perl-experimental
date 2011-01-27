@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=DROLSKY
+MODULE_VERSION="0.12"
 inherit perl-module
 
 DESCRIPTION="Make your object constructors blow up on unknown attributes"
