@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=BOBTFISH
+MODULE_AUTHOR=FLORA
+MODULE_VERSION=0.10016
 inherit perl-module
 
 DESCRIPTION="Infrastructure plugin for the Catalyst authentication framework"
@@ -24,7 +25,7 @@ DEPEND="
 	test? (
 			|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
 			dev-perl/Moose
-			virtual/perl-Test-Simple
+			>=virtual/perl-Test-Simple-0.88
 			dev-perl/Test-Exception
 	)
 "

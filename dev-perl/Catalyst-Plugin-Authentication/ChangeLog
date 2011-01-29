@@ -2,6 +2,20 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Authentication-0.100.170 (29 Jan 2011)
+*Catalyst-Plugin-Authentication-0.100.160 (29 Jan 2011)
+
+  29 Jan 2011; Torsten Veller <tove@gentoo.org>
+  +Catalyst-Plugin-Authentication-0.100.160.ebuild,
+  +Catalyst-Plugin-Authentication-0.100.170.ebuild,
+  -Catalyst-Plugin-Authentication-0.10011.ebuild,
+  -Catalyst-Plugin-Authentication-0.10012.ebuild,
+  -Catalyst-Plugin-Authentication-0.10013.ebuild,
+  -Catalyst-Plugin-Authentication-0.10014.ebuild,
+  -Catalyst-Plugin-Authentication-0.10015.ebuild,
+  -Catalyst-Plugin-Authentication-0.10016.ebuild:
+  Version bump. Cleanup. Change version scheme. Looks like a downgrade
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Plugin-Authentication-0.10015.ebuild,
   Catalyst-Plugin-Authentication-0.10016.ebuild:
