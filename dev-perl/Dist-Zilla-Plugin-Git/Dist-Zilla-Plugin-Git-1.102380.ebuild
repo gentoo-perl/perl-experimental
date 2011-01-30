@@ -14,7 +14,7 @@ COMMON_DEPEND="
 	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
 	virtual/perl-File-Spec
 	dev-perl/DateTime
-	>=dev-perl/Dist-Zilla-2.100880
+	>=dev-perl/Dist-Zilla-2.100.880
 	virtual/perl-File-Temp
 	dev-perl/File-chdir
 	dev-perl/Git-Wrapper
