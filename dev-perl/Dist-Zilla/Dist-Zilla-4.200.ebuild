@@ -14,7 +14,7 @@ IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/App-Cmd-0.309
 	virtual/perl-Archive-Tar
-	>=dev-perl/CPAN-Meta-2.101550
+	>=dev-perl/CPAN-Meta-2.101.550
 	>=dev-perl/CPAN-Uploader-0.101550
 
 	dev-perl/Config-INI
