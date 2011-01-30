@@ -1,9 +1,10 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 MODULE_AUTHOR=MSTROUT
+MODULE_VERSION="1.006000"
 inherit perl-module
 
 DESCRIPTION="create and use a local lib/ for perl modules with PERL5LIB"
