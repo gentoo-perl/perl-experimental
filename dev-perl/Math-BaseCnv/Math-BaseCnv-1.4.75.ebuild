@@ -1,13 +1,12 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI="3"
 
 MODULE_AUTHOR=PIP
-MY_P=${P}O6Pbr
-MODULE_A=${MY_P}.tgz
-S=${WORKDIR}/${MY_P}
+MODULE_VERSION="1.4.75O6Pbr"
+MODULE_A_EXT="tgz"
 inherit perl-module
 
 DESCRIPTION="fast functions to CoNVert between number Bases"
@@ -19,3 +18,5 @@ IUSE=""
 
 DEPEND="virtual/perl-Module-Build"
 RDEPEND=""
+
+SRC_TEST="do"
