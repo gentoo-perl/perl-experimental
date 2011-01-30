@@ -17,7 +17,7 @@ COMMON_DEPEND="
 	>=dev-perl/YAML-Syck-0.67
 	virtual/perl-Module-Pluggable
 	>=dev-perl/libwww-perl-2.033
-	>=dev-perl/Data-Serializer-0.36
+	>=dev-perl/Data-Serializer-0.360
 	>=dev-perl/Class-Inspector-1.13
 	dev-perl/URI-Find
 	>=dev-perl/MRO-Compat-0.10
