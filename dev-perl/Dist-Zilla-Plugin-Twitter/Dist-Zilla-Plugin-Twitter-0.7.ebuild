@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=DAGOLDEN
+MODULE_VERSION="0.007"
 inherit perl-module
 
 DESCRIPTION="Twitter when you release with Dist::Zilla"
