@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Types-LoadableClass
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Types-LoadableClass-0.5 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Types-LoadableClass-0.5.ebuild, +metadata.xml:
+  Added
+
