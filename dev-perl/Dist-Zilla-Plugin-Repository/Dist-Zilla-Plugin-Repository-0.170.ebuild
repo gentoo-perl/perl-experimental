@@ -15,8 +15,8 @@ IUSE=""
 cdepend-virtual ExtUtils-MakeMaker 6.56
 
 bdepend-virtual Test-Simple 0.88 # Test::More
-bdepend Dist-Zilla 4.102340 # Dist::Zilla::Tester 4.102340
+bdepend Dist-Zilla 4.102.340 # Dist::Zilla::Tester 4.102340
 
-depend  Dist-Zilla 4.102340
+depend  Dist-Zilla 4.102.340
 
 SRC_TEST="do"

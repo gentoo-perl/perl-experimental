@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-4.102340
+	>=dev-perl/Dist-Zilla-4.102.340
 "
 DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.52
