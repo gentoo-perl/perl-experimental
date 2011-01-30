@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -20,7 +20,7 @@ COMMON_DEPEND="
 	>=dev-perl/Module-ExtractUse-0.18
 	>=virtual/perl-Module-Pluggable-2.96
 	>=dev-perl/IO-Capture-0.05
-	>=dev-perl/Array-Diff-0.04
+	>=dev-perl/Array-Diff-0.40
 	>=dev-perl/Test-YAML-Meta-0.11
 	>=virtual/perl-version-0.73
 	dev-perl/List-MoreUtils

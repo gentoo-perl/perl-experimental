@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Module-CPANTS-Analyse
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Module-CPANTS-Analyse-0.85.ebuild:
+  Fix dep on Array-Diff
 
   18 Aug 2010; Kent Fredric <kentfredric@gmail.com>
   Module-CPANTS-Analyse-0.85.ebuild:
