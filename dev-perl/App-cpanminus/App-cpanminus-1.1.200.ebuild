@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=MIYAGAWA
+MODULE_VERSION="1.0012"
 inherit perl-module
 
 DESCRIPTION="get, unpack, build and install modules from CPAN"

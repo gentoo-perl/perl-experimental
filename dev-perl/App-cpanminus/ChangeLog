@@ -1,6 +1,26 @@
 # ChangeLog for dev-perl/App-cpanminus
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-cpanminus-1.100.600 (30 Jan 2011)
+*App-cpanminus-1.100.500 (30 Jan 2011)
+*App-cpanminus-1.100.400 (30 Jan 2011)
+*App-cpanminus-1.100.200 (30 Jan 2011)
+*App-cpanminus-1.1.500 (30 Jan 2011)
+*App-cpanminus-1.1.200 (30 Jan 2011)
+*App-cpanminus-1.1.100 (30 Jan 2011)
+*App-cpanminus-1.1 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com> +App-cpanminus-1.1.ebuild,
+  +App-cpanminus-1.1.100.ebuild, +App-cpanminus-1.1.200.ebuild,
+  +App-cpanminus-1.1.500.ebuild, -App-cpanminus-1.0010.ebuild,
+  -App-cpanminus-1.0011.ebuild, -App-cpanminus-1.0012.ebuild,
+  -App-cpanminus-1.0015.ebuild, +App-cpanminus-1.100.200.ebuild,
+  +App-cpanminus-1.100.400.ebuild, +App-cpanminus-1.100.500.ebuild,
+  +App-cpanminus-1.100.600.ebuild, -App-cpanminus-1.1002.ebuild,
+  -App-cpanminus-1.1004.ebuild, -App-cpanminus-1.1005.ebuild,
+  -App-cpanminus-1.1006.ebuild:
+  Migrate to new version scheme
 
 *App-cpanminus-1.1006 (17 Dec 2010)
 
