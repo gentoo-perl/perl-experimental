@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/App-cpanoutdated
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*App-cpanoutdated-0.160 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +App-cpanoutdated-0.160.ebuild, +metadata.xml:
+  Added
+
