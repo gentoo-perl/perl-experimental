@@ -1,0 +1,46 @@
+diff -Naur Catalyst-Runtime-5.89000/t/aggregate/unit_core_engine_fixenv-iis6.t Catalyst-Runtime-5.89000-testfix//t/aggregate/unit_core_engine_fixenv-iis6.t
+--- Catalyst-Runtime-5.89000/t/aggregate/unit_core_engine_fixenv-iis6.t	2010-04-27 04:38:48.000000000 +1200
++++ Catalyst-Runtime-5.89000-testfix//t/aggregate/unit_core_engine_fixenv-iis6.t	2011-01-31 05:55:25.077179360 +1300
+@@ -4,6 +4,11 @@
+ use warnings;
+ 
+ use Test::More;
++plan skip_all => 'Engine::FCGI is not there anymore, this test fails';
++ok 0, 'Known broken currently';
++done_testing;
++
++__END__
+ 
+ eval "use FCGI";
+ plan skip_all => 'FCGI required' if $@;
+diff -Naur Catalyst-Runtime-5.89000/t/aggregate/unit_core_engine_fixenv-lighttpd.t Catalyst-Runtime-5.89000-testfix//t/aggregate/unit_core_engine_fixenv-lighttpd.t
+--- Catalyst-Runtime-5.89000/t/aggregate/unit_core_engine_fixenv-lighttpd.t	2010-04-27 04:38:48.000000000 +1200
++++ Catalyst-Runtime-5.89000-testfix//t/aggregate/unit_core_engine_fixenv-lighttpd.t	2011-01-31 05:56:00.450332329 +1300
+@@ -4,6 +4,11 @@
+ use warnings;
+ 
+ use Test::More;
++plan skip_all => 'Engine::FastCGI is gone which this test needs.' ;
++ok 0, 'Known broken currently';
++done_testing;
++
++__END__
+ 
+ eval "use FCGI";
+ plan skip_all => 'FCGI required' if $@;
+diff -Naur Catalyst-Runtime-5.89000/t/dead_no_unknown_error.t Catalyst-Runtime-5.89000-testfix//t/dead_no_unknown_error.t
+--- Catalyst-Runtime-5.89000/t/dead_no_unknown_error.t	2010-04-27 04:38:48.000000000 +1200
++++ Catalyst-Runtime-5.89000-testfix//t/dead_no_unknown_error.t	2011-01-31 06:03:16.743558454 +1300
+@@ -4,8 +4,11 @@
+ use warnings;
+ use FindBin qw/$Bin/;
+ use lib "$Bin/lib";
+-use Test::More tests => 1;
++use Test::More;# tests => 1;
++plan skip_all => "Test is broken, need Engine::HTTP";
++ok 0, 'Known broken currently';
+ 
++__END__
+ use Catalyst ();
+ use Catalyst::Engine::HTTP;
+ eval {

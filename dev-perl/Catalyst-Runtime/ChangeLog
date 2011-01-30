@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Runtime-5.890_rc (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/5.89000-TRIAL/0001_known_broken_tests.patch,
+  +Catalyst-Runtime-5.890_rc.ebuild:
+  Added RC for testing
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Runtime-5.800.240.ebuild, Catalyst-Runtime-5.800.250.ebuild,
   Catalyst-Runtime-5.800.290.ebuild, Catalyst-Runtime-5.800.300.ebuild:
