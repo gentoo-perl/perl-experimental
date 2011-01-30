@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=MRAMBERG
-MODULE_VERSION="1.02"
+MODULE_VERSION="1.03"
 inherit perl-module
 
 DESCRIPTION="A Catalyst & DBIx::Class powered Wiki."
