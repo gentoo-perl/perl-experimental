@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-3.101390
+	>=dev-perl/Dist-Zilla-3.101.390
 	dev-perl/Moose
 "
 DEPEND="
