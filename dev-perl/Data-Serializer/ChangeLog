@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-Serializer-0.520 (30 Jan 2011)
+*Data-Serializer-0.490 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Data-Serializer-0.49.ebuild, -Data-Serializer-0.52.ebuild,
+  +Data-Serializer-0.490.ebuild, +Data-Serializer-0.520.ebuild:
+  Migrate to new version scheme
+
 *Data-Serializer-0.52 (08 Jan 2011)
 
   08 Jan 2011; Kent Fredric <kentfredric@gmail.com>

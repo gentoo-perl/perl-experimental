@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=NEELY
+MODULE_VERSION="0.52"
 inherit perl-module
 
 DESCRIPTION="Modules that serialize data structures  "
