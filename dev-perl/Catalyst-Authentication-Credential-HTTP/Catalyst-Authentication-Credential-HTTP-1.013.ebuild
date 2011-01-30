@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/Catalyst-Plugin-Authentication-0.10005
+	>=dev-perl/Catalyst-Plugin-Authentication-0.100.50
 	>=dev-perl/Data-UUID-0.11
 	dev-perl/String-Escape
 	dev-perl/URI
