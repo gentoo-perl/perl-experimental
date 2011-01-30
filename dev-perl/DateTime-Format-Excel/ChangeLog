@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*DateTime-Format-Excel-0.310 (30 Jan 2011)
+*DateTime-Format-Excel-0.300 (30 Jan 2011)
+*DateTime-Format-Excel-0.290.100 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +DateTime-Format-Excel-0.290.100.ebuild, +DateTime-Format-Excel-0.300.ebuild,
+  +DateTime-Format-Excel-0.310.ebuild, -DateTime-Format-Excel-0.2901.ebuild,
+  -DateTime-Format-Excel-0.3000.ebuild, -DateTime-Format-Excel-0.3100.ebuild:
+  Migrate version schemes
+
 *DateTime-Format-Excel-0.3100 (08 Jan 2011)
 
   08 Jan 2011; Kent Fredric <kentfredric@gmail.com>

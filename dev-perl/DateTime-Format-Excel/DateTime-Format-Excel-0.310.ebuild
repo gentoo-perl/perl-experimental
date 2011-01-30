@@ -1,8 +1,12 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
-MODULE_AUTHOR=DROLSKY
+EAPI=3
+MODULE_AUTHOR=ABURS
+
+# This voodoo strips the 0 off the end.
+MODULE_VERSION="${PV%0}"
+
 inherit perl-module
 
 DESCRIPTION="Convert between DateTime and Excel dates."
@@ -15,11 +19,10 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/DateTime-0.18
+	>=virtual/perl-Test-Simple-0.47
+
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
-	test? (
-		>=virtual/perl-Test-Simple-0.47
-	)
 "
 SRC_TEST="do"

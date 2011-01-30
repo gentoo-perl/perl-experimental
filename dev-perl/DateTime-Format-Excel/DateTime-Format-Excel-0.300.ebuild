@@ -1,12 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=ABURS
 
-# This voodoo strips the 00 off the end.
-MY_P="${PN}-${PV%00}"
-S="${WORKDIR}/${MY_P}"
+# This voodoo strips the 0 off the end.
+MODULE_VERSION="${PV%0}"
 
 inherit perl-module
 

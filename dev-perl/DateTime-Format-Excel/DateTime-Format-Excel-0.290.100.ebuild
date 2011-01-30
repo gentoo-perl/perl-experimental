@@ -2,11 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
-MODULE_AUTHOR=ABURS
-
-# This voodoo strips the 00 off the end.
-MODULE_VERSION="${PV%00}"
-
+MODULE_AUTHOR=DROLSKY
+MODULE_VERSION=0.2901
 inherit perl-module
 
 DESCRIPTION="Convert between DateTime and Excel dates."
@@ -19,10 +16,11 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/DateTime-0.18
-	>=virtual/perl-Test-Simple-0.47
-
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
+	test? (
+		>=virtual/perl-Test-Simple-0.47
+	)
 "
 SRC_TEST="do"
