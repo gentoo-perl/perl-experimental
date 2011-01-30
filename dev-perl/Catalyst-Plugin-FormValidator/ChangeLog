@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-FormValidator
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Plugin-FormValidator-0.94 (30 Jan 2011)
+*Catalyst-Plugin-FormValidator-0.30 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-FormValidator-0.03.ebuild,
+  -Catalyst-Plugin-FormValidator-0.09.4.ebuild,
+  +Catalyst-Plugin-FormValidator-0.30.ebuild,
+  +Catalyst-Plugin-FormValidator-0.94.ebuild:
+  migrate version scheme fixing a long-lasting headache
 
   23 Aug 2010; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Plugin-FormValidator-0.09.4.ebuild:
