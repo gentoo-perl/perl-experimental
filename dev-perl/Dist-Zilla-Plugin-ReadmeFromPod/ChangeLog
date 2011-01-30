@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-ReadmeFromPod
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-ReadmeFromPod-0.11.ebuild,
+  Dist-Zilla-Plugin-ReadmeFromPod-0.12.ebuild,
+  Dist-Zilla-Plugin-ReadmeFromPod-0.14.ebuild:
+  Fix dependency on Dist::Zilla
 
 *Dist-Zilla-Plugin-ReadmeFromPod-0.14 (20 Sep 2010)
 
