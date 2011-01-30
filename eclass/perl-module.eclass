@@ -59,11 +59,10 @@ if [[ -n ${MY_PN} || -n ${MY_PV} || -n ${MODULE_VERSION} ]] ; then
 	S=${MY_S:-${WORKDIR}/${MY_P}}
 fi
 
-if [[ -n ${MODULE_DZIL_TRIAL} ]] ; then
-	S="${S%-TRIAL}";
-fi
+[[ -n ${MODULE_DZIL_TRIAL} ]] && S="${S%-TRIAL}"
 
-[[ -z "${SRC_URI}" && -z "${MODULE_A}" ]] && MODULE_A="${MY_P:-${P}}.tar.gz"
+[[ -z "${SRC_URI}" && -z "${MODULE_A}" ]] && \
+	MODULE_A="${MY_P:-${P}}.${MODULE_A_EXT:-tar.gz}"
 [[ -z "${SRC_URI}" && -n "${MODULE_AUTHOR}" ]] && \
 	SRC_URI="mirror://cpan/authors/id/${MODULE_AUTHOR:0:1}/${MODULE_AUTHOR:0:2}/${MODULE_AUTHOR}/${MODULE_SECTION:+${MODULE_SECTION}/}${MODULE_A}"
 [[ -z "${HOMEPAGE}" ]] && \
