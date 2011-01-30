@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	dev-perl/perl-ldap
-	>=dev-perl/Catalyst-Plugin-Authentication-0.10003
+	>=dev-perl/Catalyst-Plugin-Authentication-0.100.30
 "
 DEPEND="
 	test? (
