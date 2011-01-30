@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-GUID-0.46 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Data-GUID-0.46.ebuild:
+  Bump to 0.46 ( 0.046 )
+
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com> Data-GUID-0.43.ebuild,
   Data-GUID-0.45.ebuild:
   EAPI3-ify, QA, SRC_TEST
