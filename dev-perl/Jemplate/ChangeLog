@@ -1,6 +1,15 @@
 # ChangeLog for dev-perl/Jemplate
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Jemplate-0.261 (30 Jan 2011)
+*Jemplate-0.230 (30 Jan 2011)
+*Jemplate-0.220 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com> -Jemplate-0.22.ebuild,
+  -Jemplate-0.23.ebuild, -Jemplate-0.26.1.ebuild, +Jemplate-0.220.ebuild,
+  +Jemplate-0.230.ebuild, +Jemplate-0.261.ebuild:
+  migrate to new version scheme
 
   19 Jun 2010; Kent Fredric <kentfredric@gmail.com> -Jemplate-0.20.ebuild:
   Gone on CPAN. Fix ©
