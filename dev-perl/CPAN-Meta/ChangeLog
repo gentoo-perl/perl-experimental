@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/CPAN-Meta
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CPAN-Meta-2.102.400 (30 Jan 2011)
+*CPAN-Meta-2.102.160 (30 Jan 2011)
+*CPAN-Meta-2.101.670 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +CPAN-Meta-2.101.670.ebuild, +CPAN-Meta-2.102.160.ebuild,
+  +CPAN-Meta-2.102.400.ebuild, -CPAN-Meta-2.101670.ebuild,
+  -CPAN-Meta-2.102160.ebuild, -CPAN-Meta-2.102400.ebuild:
+  Migrate to new version scheme
 
 *CPAN-Meta-2.102400 (09 Sep 2010)
 
