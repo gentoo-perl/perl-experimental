@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Data-GUID
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Data-GUID-0.45 (30 Jan 2011)
+*Data-GUID-0.43 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com> -Data-GUID-0.043.ebuild,
+  +Data-GUID-0.43.ebuild, -Data-GUID-0.045.ebuild, +Data-GUID-0.45.ebuild:
+  Migrate to new version scheme
+
