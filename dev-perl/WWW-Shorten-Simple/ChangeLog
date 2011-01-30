@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/WWW-Shorten-Simple
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*WWW-Shorten-Simple-0.10 (30 Jan 2011)
+
+  30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +WWW-Shorten-Simple-0.10.ebuild, +metadata.xml:
+  Added
+
