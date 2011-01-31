@@ -5,7 +5,7 @@ EAPI=3
 MODULE_AUTHOR=ABURS
 
 # This voodoo strips the 0 off the end.
-MODULE_VERSION="${PV%0}"
+MODULE_VERSION="0.30"
 
 inherit perl-module
 
