@@ -1,13 +1,12 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI="3"
 
 MODULE_AUTHOR=PIP
-MY_P=${P}HJnFa
-MODULE_A=${MY_P}.tgz
-S=${WORKDIR}/${MY_P}
+MODULE_VERSION="1.2.54HJnFa"
+MODULE_A_EXT=tgz
 inherit perl-module
 
 DESCRIPTION="tidy indenting of XML documents"
@@ -21,3 +20,5 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-perl/Math-BaseCnv
 	dev-perl/XML-XPath"
+
+SRC_TEST=do

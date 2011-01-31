@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/XML-Tidy
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com> XML-Tidy-1.2.54.ebuild,
+  XML-Tidy-1.6.ebuild:
+  Move to new eclass variables
 
 *XML-Tidy-1.6 (10 Aug 2010)
 
