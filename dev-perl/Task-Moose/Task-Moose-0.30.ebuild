@@ -15,7 +15,7 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-0.92
 	strict? (
 		>=dev-perl/MooseX-StrictConstructor-0.08
-		>=dev-perl/MooseX-Params-Validate-0.06
+		>=dev-perl/MooseX-Params-Validate-0.60
 	)
 	traits? (
 		dev-perl/MooseX-Role-TraitConstructor
