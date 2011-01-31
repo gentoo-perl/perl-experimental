@@ -20,7 +20,7 @@ RDEPEND="
 	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
 	virtual/perl-Module-Pluggable
 	dev-perl/Moose
-	>=dev-perl/MooseX-Params-Validate-0.08
+	>=dev-perl/MooseX-Params-Validate-0.80
 	dev-perl/MooseX-SemiAffordanceAccessor
 	virtual/perl-File-Spec
 	virtual/perl-Time-HiRes

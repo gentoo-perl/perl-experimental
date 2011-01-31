@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  File-ChangeNotify-0.120.ebuild, File-ChangeNotify-0.130.ebuild,
+  File-ChangeNotify-0.160.ebuild, File-ChangeNotify-0.190.ebuild:
+  Fixup deps on MooseX-Params-Validate
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   File-ChangeNotify-0.120.ebuild, File-ChangeNotify-0.130.ebuild,
   File-ChangeNotify-0.160.ebuild, File-ChangeNotify-0.190.ebuild:
