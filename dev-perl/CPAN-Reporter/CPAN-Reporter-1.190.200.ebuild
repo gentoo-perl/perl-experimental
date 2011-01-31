@@ -24,7 +24,7 @@ bdepend-virtual Test-Simple 0.62 # Test::More
 
 cdepend-virtual ExtUtils-MakeMaker 6.56
 
-depend-virtual CPAN 1.93.01 # OLD SCHEME
+depend-virtual CPAN 1.930.100 # NEW SCHEME
 #  depend CPAN-Version -> CPAN 
 depend Capture-Tiny
 # depend Carp # CORE

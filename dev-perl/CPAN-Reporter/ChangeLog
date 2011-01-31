@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  CPAN-Reporter-1.170.800.ebuild, CPAN-Reporter-1.171.100.ebuild,
+  CPAN-Reporter-1.180.ebuild, CPAN-Reporter-1.180.300.ebuild,
+  CPAN-Reporter-1.190.200.ebuild:
+  Fix dependency on virtual/perl-CPAN
+
 *CPAN-Reporter-1.190.200 (30 Jan 2011)
 
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>

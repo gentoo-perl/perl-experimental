@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Config-Tiny-2.08
-	>=virtual/perl-CPAN-1.93.01
+	>=virtual/perl-CPAN-1.930.100
 	>=dev-perl/Devel-Autoflush-0.04
 	>=virtual/perl-ExtUtils-MakeMaker-6.36
 	>=dev-perl/File-Copy-Recursive-0.35
