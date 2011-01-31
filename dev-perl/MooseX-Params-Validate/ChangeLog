@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Params-Validate-0.140 (31 Jan 2011)
+*MooseX-Params-Validate-0.130 (31 Jan 2011)
+
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-Params-Validate-0.13.ebuild, -MooseX-Params-Validate-0.14.ebuild,
+  +MooseX-Params-Validate-0.130.ebuild, +MooseX-Params-Validate-0.140.ebuild:
+  Migrate remaining versions to new scheme
+
 *MooseX-Params-Validate-0.150 (08 Jan 2011)
 
   08 Jan 2011; Torsten Veller <tove@gentoo.org>
