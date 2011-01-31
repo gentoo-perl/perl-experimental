@@ -1,0 +1,26 @@
+From 958c12014256a8f7112edad0aabcd1df858eb7bc Mon Sep 17 00:00:00 2001
+From: Kent Fredric <kentfredric@gmail.com>
+Date: Mon, 31 Jan 2011 20:53:31 +1300
+Subject: [PATCH 2/2] Apply part of 1.94-SignatureTest.patch
+
+---
+ t/00signature.t |    3 +++
+ 1 files changed, 3 insertions(+), 0 deletions(-)
+
+diff --git a/t/00signature.t b/t/00signature.t
+index 16a898b..3ce6183 100644
+--- a/t/00signature.t
++++ b/t/00signature.t
+@@ -57,6 +57,9 @@ BEGIN {
+             $exit_message = "Cannot connect to the keyserver";
+         }
+     }
++    unless ($exit_message) {
++        $exit_message = "DIST patched by Gentoo, invalidating SIGNATURE"
++    }
+     if ($exit_message) {
+         $|=1;
+         print "1..0 # SKIP $exit_message\n";
+-- 
+1.7.4.rc3
+

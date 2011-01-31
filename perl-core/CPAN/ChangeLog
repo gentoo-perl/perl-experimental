@@ -2,6 +2,17 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com> CPAN-1.946.400_rc.ebuild:
+  Buh, this ebuild was still broken, internal-value != externa value => sucks 
+
+*CPAN-1.946.400_rc (31 Jan 2011)
+
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.94_64/0001-Apply-1.94-Makefile.patch.patch,
+  +files/1.94_64/0002-Apply-part-of-1.94-SignatureTest.patch.patch,
+  +CPAN-1.946.400_rc.ebuild, metadata.xml:
+  Added a beta.
+
 *CPAN-1.940.200-r1 (31 Jan 2011)
 *CPAN-1.940.200 (31 Jan 2011)
 

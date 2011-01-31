@@ -2,4 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<herd>perl</herd>
+	<use>
+		<flag name="interesting">Install non-essential but interesting packages
+			to help with diagnostics</flag>
+	</use>
 </pkgmetadata>
