@@ -23,7 +23,7 @@ cdepend-virtual ExtUtils-MakeMaker 6.42;
 depend-virtual ExtUtils-MakeMaker 6.31;
 depend-virtual ExtUtils-Install 1.43;
 depend-virtual Module-Build 0.36;
-depend-virtual CPAN 1.82;
+depend-virtual CPAN 1.820
 
 ddep_setup;
 

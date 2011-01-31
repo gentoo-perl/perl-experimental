@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 COMMON_DEPEND="
-	>=virtual/perl-CPAN-1.80
+	>=virtual/perl-CPAN-1.800
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-ExtUtils-Install-1.43
 	virtual/perl-ExtUtils-ParseXS
