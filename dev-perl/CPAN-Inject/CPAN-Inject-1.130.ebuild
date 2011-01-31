@@ -22,7 +22,7 @@ depend-virtual File-Path 1.00
 #depend File-Copy 2.02 # CORE
 #depend File-Basename 2.6 # CORE
 depend Params-Util 0.21
-depend-virtual CPAN 1.36
+depend-virtual CPAN 1.360
 depend CPAN-Checksums 1.05
 
 test-depend-virtual Test-Simple 0.42 # Test::More

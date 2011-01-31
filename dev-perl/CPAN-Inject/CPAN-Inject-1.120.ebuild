@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	>=dev-perl/File-chmod-0.30
 	>=virtual/perl-File-Path-1.00
 	>=dev-perl/Params-Util-0.21
-	>=virtual/perl-CPAN-1.36
+	>=virtual/perl-CPAN-1.360
 	>=dev-perl/CPAN-Checksums-1.05
 "
 DEPEND="
