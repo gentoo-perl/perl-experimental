@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jan 2011; Kent Fredric <kentfredric@gmail.com>
+  Git-CPAN-Patch-0.4.4.ebuild, Git-CPAN-Patch-0.4.5.ebuild,
+  Git-CPAN-Patch-0.4.6.ebuild:
+  Migrate depends to new-style for CPANPLUS
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Git-CPAN-Patch-0.4.4.ebuild, Git-CPAN-Patch-0.4.5.ebuild,
   Git-CPAN-Patch-0.4.6.ebuild:
