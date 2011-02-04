@@ -101,7 +101,7 @@ perl-module_src_prep() {
 	perl_set_version
 	perl_set_eprefix
 
-	export PERL_MM_USE_DEFAULT=1
+	[[ -z ${pm_echovar} ]] && export PERL_MM_USE_DEFAULT=1
 	# Disable ExtUtils::AutoInstall from prompting
 	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
 
