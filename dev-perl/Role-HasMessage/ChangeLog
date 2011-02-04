@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Role-HasMessage
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Role-HasMessage-0.5 (04 Feb 2011)
+
+  04 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  +Role-HasMessage-0.5.ebuild, +metadata.xml:
+  Added
+
