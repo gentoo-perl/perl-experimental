@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-Errf
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-Errf-0.6 (04 Feb 2011)
+
+  04 Feb 2011; Kent Fredric <kentfredric@gmail.com> +String-Errf-0.6.ebuild,
+  +metadata.xml:
+  Added
+
