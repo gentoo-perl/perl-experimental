@@ -1,6 +1,9 @@
-# ChangeLog for dev-perl/Term-Promot
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# ChangeLog for dev-perl/Term-Prompt
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Feb 2011; Kent Fredric <kentfredric@gmail.com> Term-Prompt-1.04.ebuild:
+  fix changelog name, EAPI3-ify
 
   23 Apr 2009; Michele Beltrame <mb@cattlegrid.info>
   +dev-perl/Term-Prompt-1.04:
