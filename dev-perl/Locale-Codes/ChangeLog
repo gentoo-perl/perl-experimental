@@ -1,6 +1,6 @@
 # ChangeLog for dev-perl/Locale-Codes
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
-# $Header$
+# $Header: $
 
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com> -Locale-Codes-3.12.ebuild,
   -Locale-Codes-3.13.ebuild, -Locale-Codes-3.14.ebuild:
