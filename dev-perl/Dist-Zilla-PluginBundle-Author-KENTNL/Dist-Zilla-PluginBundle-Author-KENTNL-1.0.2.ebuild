@@ -1,7 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=KENTNL
 inherit perl-module
 
@@ -38,6 +38,7 @@ COMMON_DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	dev-perl/String-Formatter
 	dev-perl/Test-CPAN-Meta
+	!!dev-perl/Dist-Zilla-PluginBundle-KENTNL
 "
 DEPEND="
 	${COMMON_DEPEND}
