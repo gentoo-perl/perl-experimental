@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/namespace-autoclean/ChangeLog,v 1.4 2010/06/11 05:09:44 tove Exp $
 
+*namespace-autoclean-0.120 (07 Feb 2011)
+
+  07 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  +namespace-autoclean-0.120.ebuild:
+  Copy bump from ::gentoo w/ Moose 1.9900 fix
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   +namespace-autoclean-0.11.ebuild, +metadata.xml:
   Import from Gentoo and fix Moose/CMOP dep' 
