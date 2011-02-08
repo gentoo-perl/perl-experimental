@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-Meta-2.110.390 (08 Feb 2011)
+
+  08 Feb 2011; Torsten Veller <tove@gentoo.org> +CPAN-Meta-2.110.390.ebuild:
+  Version bump
+
 *CPAN-Meta-2.110.350 (04 Feb 2011)
 
   04 Feb 2011; Torsten Veller <tove@gentoo.org> CPAN-Meta-2.110.240.ebuild,
