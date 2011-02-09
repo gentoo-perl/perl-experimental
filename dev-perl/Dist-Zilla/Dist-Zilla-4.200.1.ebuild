@@ -38,7 +38,7 @@ depend Config-INI # ^^
 # Config::MVP::Reader 2.101540
 # Config::MVP::Reader::Findable::ByExtension
 # Config::MVP::Reader::Finder
-depend Config-MVP 2.101540 # ^^
+depend Config-MVP 2.101.540 # ^^
 depend Config-MVP-Reader-INI 2
 # depend Data-Dumper # CORE
 depend Data-Section 0.004
