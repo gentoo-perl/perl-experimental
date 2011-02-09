@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,7 +14,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=dev-perl/Catalyst-Plugin-Authentication-0.10006
+	>=dev-perl/Catalyst-Plugin-Authentication-0.100.60
 	>=dev-perl/Authen-Htpasswd-0.13
 	dev-perl/Class-Accessor
 	dev-perl/Crypt-PasswdMD5
