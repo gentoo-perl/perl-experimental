@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RJBS
-MODULE_VERSION="4.200001"
+MODULE_VERSION="4.200003"
 inherit perl-module perl-declaredeps
 
 DESCRIPTION="distribution builder; installer not included!"
