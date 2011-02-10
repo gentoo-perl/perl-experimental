@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="0.01000020"
 inherit perl-module
 
 DESCRIPTION="Tools for working with Gentoo Overlays"
