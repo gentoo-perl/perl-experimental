@@ -1,7 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=3
 MODULE_AUTHOR=DAGOLDEN
 MODULE_VERSION="1.12"
 inherit perl-module
@@ -13,6 +13,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+COMMON_DEPEND="
 	dev-perl/Exception-Class
 "
+DEPEND="
+	${COMMON_DEPEND}
+	>=virtual/perl-Test-Simple-0.47
+"
+RDEPEND="
+	${COMMON_DEPEND}
+"
+SRC_TEST="do"
