@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/CGI-Application-Plugin-JSON
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CGI-Application-Plugin-JSON-1.20 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  -CGI-Application-Plugin-JSON-1.02.ebuild,
+  +CGI-Application-Plugin-JSON-1.20.ebuild:
+  Migrate to new vscheme
 
   03 Jun 2010; Kent Fredric <kentfredric@gmail.com>
   -CGI-Application-Plugin-JSON-1.01.ebuild:
