@@ -1,7 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=WONKO
 MODULE_VERSION="1.02"
 inherit perl-module
@@ -19,6 +19,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}
 	>=dev-perl/JSON-2.02
+	virtual/perl-Module-Build
 	test? (
 			virtual/perl-Test-Simple
 	)
