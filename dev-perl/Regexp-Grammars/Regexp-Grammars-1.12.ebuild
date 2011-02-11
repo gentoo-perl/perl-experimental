@@ -18,6 +18,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	virtual/perl-Module-Build
 	test? ( )
 "
 RDEPEND="
