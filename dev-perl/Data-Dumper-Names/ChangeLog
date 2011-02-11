@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Data-Dumper-Names
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Data-Dumper-Names-0.30 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  -Data-Dumper-Names-0.03.ebuild, +Data-Dumper-Names-0.30.ebuild:
+  Migrate to new vscheme, QA dep MB
 
 *Data-Dumper-Names-0.03 (01 Apr 2009)
 
