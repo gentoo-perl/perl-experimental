@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -32,7 +32,10 @@ PDEPEND="
 	class? (
 		dev-perl/Dist-Zilla-Plugin-MetaProvides-Class
 		metanoindex? (
-			>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.11044406
+			|| (
+				>=dev-perl/Dist-Zilla-4.200.4
+				>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.11044406
+			)
 		)
 	)
 "
