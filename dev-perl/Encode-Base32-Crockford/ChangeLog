@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Encode-Base32-Crockford
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Encode-Base32-Crockford-1.200 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  -Encode-Base32-Crockford-1.2.ebuild, +Encode-Base32-Crockford-1.200.ebuild:
+  new version scheme, EAPI=3, QA, Depend ModuleBuild
+
