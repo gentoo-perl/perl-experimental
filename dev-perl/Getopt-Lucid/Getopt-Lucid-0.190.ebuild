@@ -21,7 +21,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	test? (
-		>=dev-perl/Exception-Class-TryCatch-1.1
+		>=dev-perl/Exception-Class-TryCatch-1.100
 		>=virtual/perl-Test-Simple-0.62
 	)
 	>=virtual/perl-ExtUtils-MakeMaker-6.56

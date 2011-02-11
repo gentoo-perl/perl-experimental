@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -16,7 +16,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/Exception-Class-TryCatch-1.1
+	>=dev-perl/Exception-Class-TryCatch-1.100
 	test? (
 		>=virtual/perl-Test-Simple-0.62
 	)
