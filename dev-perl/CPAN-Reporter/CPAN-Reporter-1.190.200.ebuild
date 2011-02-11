@@ -30,7 +30,7 @@ depend Capture-Tiny
 # depend Carp # CORE
 # depend Config # CORE
 depend Config-Tiny 2.08
-depend Devel-Autoflush 0.04
+depend Devel-Autoflush 0.40
 # depend Exporter # CORE
 depend-virtual ExtUtils-MakeMaker 6.36
 # depend Fcntl # CORE
