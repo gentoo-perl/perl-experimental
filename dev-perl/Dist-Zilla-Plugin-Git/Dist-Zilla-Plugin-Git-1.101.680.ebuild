@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=JQUELIN
+MODULE_VERSION="1.101680"
 inherit perl-module
 
 DESCRIPTION="update your git repository after release"
