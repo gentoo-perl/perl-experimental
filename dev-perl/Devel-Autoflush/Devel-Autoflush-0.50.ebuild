@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=DAGOLDEN
 MODULE_VERSION="0.05"
 inherit perl-module
@@ -14,9 +14,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	>=dev-perl/IO-CaptureOutput-1.08
 	>=virtual/perl-Test-Simple-0.62
 "
-RDEPEND="${DEPEND}"
+DEPEND="
+	${DEPEND}
+	virtual/perl-Module-Build
+"
 SRC_TEST="do"
