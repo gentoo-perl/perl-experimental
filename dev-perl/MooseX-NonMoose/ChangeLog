@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-NonMoose-0.180 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-NonMoose-0.180.ebuild:
+  Bump to a Moose 2.0 compat version :D
+
 *MooseX-NonMoose-0.170 (21 Jan 2011)
 *MooseX-NonMoose-0.160 (21 Jan 2011)
 *MooseX-NonMoose-0.150 (21 Jan 2011)
