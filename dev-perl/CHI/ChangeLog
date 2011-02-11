@@ -1,6 +1,17 @@
 # ChangeLog for dev-perl/CHI
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CHI-0.390 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com> +CHI-0.390.ebuild:
+  Bump to 0.390
+
+*CHI-0.360 (11 Feb 2011)
+
+  11 Feb 2011; Kent Fredric <kentfredric@gmail.com> -CHI-0.36.ebuild,
+  +CHI-0.360.ebuild:
+  Move to x.y.y
 
   14 Aug 2010; Kent Fredric <kentfredric@gmail.com> CHI-0.36.ebuild:
   Added Keywords. Installable now.
