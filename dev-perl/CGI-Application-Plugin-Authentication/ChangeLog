@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/CGI-Application-Plugin-Authentication
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Plugin-Authentication-0.17.ebuild,
+  CGI-Application-Plugin-Authentication-0.18.ebuild,
+  CGI-Application-Plugin-Authentication-0.19.ebuild:
+  [fixdep] CGI-Application-Plugin-Authentication -> Apache-Htpasswd
 
 *CGI-Application-Plugin-Authentication-0.19 (14 Dec 2010)
 
