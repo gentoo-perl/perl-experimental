@@ -17,7 +17,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	dev-perl/Audio-Ofa
-	>=dev-perl/Audio-Extract-PCM-0.02
+	>=dev-perl/Audio-Extract-PCM-0.20
 	dev-perl/Class-Accessor
 	dev-perl/XML-Simple
 	dev-perl/WebService-MusicBrainz
