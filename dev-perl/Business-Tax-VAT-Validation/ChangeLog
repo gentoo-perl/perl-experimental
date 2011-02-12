@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Business-Tax-VAT-Validation
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Business-Tax-VAT-Validation-0.200 (12 Feb 2011)
+
+  12 Feb 2011; Torsten Veller <tove@gentoo.org>
+  -Business-Tax-VAT-Validation-0.20.ebuild,
+  +Business-Tax-VAT-Validation-0.200.ebuild:
+  EAPI=3. Change version scheme
+
