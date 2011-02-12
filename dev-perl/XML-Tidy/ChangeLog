@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*XML-Tidy-1.8 (12 Feb 2011)
+
+  12 Feb 2011; Torsten Veller <tove@gentoo.org> +XML-Tidy-1.8.ebuild:
+  Version bump
+
   31 Jan 2011; Kent Fredric <kentfredric@gmail.com> XML-Tidy-1.2.54.ebuild,
   XML-Tidy-1.6.ebuild:
   Move to new eclass variables
