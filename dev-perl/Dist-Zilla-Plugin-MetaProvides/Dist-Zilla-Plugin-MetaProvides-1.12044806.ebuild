@@ -16,7 +16,10 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
 	metanoindex? (
-		dev-perl/Dist-Zilla-Plugin-MetaNoIndex
+		|| (
+			>=dev-perl/Dist-Zilla-4.200.4
+			dev-perl/Dist-Zilla-Plugin-MetaNoIndex
+		)
 	)
 "
 PDEPEND="
@@ -32,10 +35,7 @@ PDEPEND="
 	class? (
 		dev-perl/Dist-Zilla-Plugin-MetaProvides-Class
 		metanoindex? (
-			|| (
-				>=dev-perl/Dist-Zilla-4.200.4
-				>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.11044406
-			)
+			>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.11044406
 		)
 	)
 "
