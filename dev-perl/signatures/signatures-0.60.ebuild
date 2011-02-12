@@ -4,6 +4,7 @@
 
 EAPI=2
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.06"
 inherit perl-module
 
 DESCRIPTION="Subroutine signatures with no source filter"
