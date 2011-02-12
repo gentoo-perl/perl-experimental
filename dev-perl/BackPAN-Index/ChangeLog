@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Feb 2011; Kent Fredric <kentfredric@gmail.com> BackPAN-Index-0.390.ebuild:
+  Fixdep App-Cache
+
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com> BackPAN-Index-0.390.ebuild:
   Depend on Module::Build
 
