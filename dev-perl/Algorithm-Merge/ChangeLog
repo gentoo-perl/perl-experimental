@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Algorithm-Merge
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Algorithm-Merge-0.80 (12 Feb 2011)
+
+  12 Feb 2011; Torsten Veller <tove@gentoo.org> -Algorithm-Merge-0.08.ebuild,
+  +Algorithm-Merge-0.80.ebuild:
+  Change version scheme
+

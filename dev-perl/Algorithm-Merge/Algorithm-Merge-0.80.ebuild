@@ -1,19 +1,22 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+
+EAPI=3
+
+MODULE_VERSION=0.08
 MODULE_AUTHOR=JSMITH
 inherit perl-module
 
 DESCRIPTION="Three-way merge and diff"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE=""
+
 RDEPEND="
 	dev-perl/Algorithm-Diff
 "
 DEPEND="${RDEPEND}"
+
 SRC_TEST='do'
