@@ -14,8 +14,10 @@ DESCRIPTION="fast functions to CoNVert between number Bases"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
-DEPEND="virtual/perl-Module-Build"
+DEPEND="virtual/perl-Module-Build
+	test? ( dev-perl/Test-Pod-Coverage )"
 RDEPEND=""
+
 SRC_TEST=do
