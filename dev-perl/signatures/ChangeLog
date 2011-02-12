@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/signatures
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 Feb 2011; Kent Fredric <kentfredric@gmail.com> signatures-0.06.ebuild:
+  Fixdep
 
 *signatures-0.06 (10 Sep 2009)
 
