@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/App-Cache
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-Cache-0.370 (12 Feb 2011)
+
+  12 Feb 2011; Torsten Veller <tove@gentoo.org> -App-Cache-0.37.ebuild,
+  +App-Cache-0.370.ebuild:
+  Change version scheme
 
 *App-Cache-0.37 (10 Dec 2009)
 
