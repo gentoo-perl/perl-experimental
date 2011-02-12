@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-BeginLift-0.1.3 (12 Feb 2011)
+*Devel-BeginLift-0.1.2 (12 Feb 2011)
+
+  12 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  +Devel-BeginLift-0.1.2.ebuild, +Devel-BeginLift-0.1.3.ebuild,
+  -Devel-BeginLift-0.001002.ebuild, -Devel-BeginLift-0.001003.ebuild:
+  [migrate]
+
   12 Feb 2011; Kent Fredric <kentfredric@gmail.com>
   Devel-BeginLift-0.001002.ebuild, Devel-BeginLift-0.001003.ebuild:
   fixdep B-Hooks-OP-Check-EntersubForCV
