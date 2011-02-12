@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Devel-BeginLift
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  Devel-BeginLift-0.001002.ebuild, Devel-BeginLift-0.001003.ebuild:
+  fixdep B-Hooks-OP-Check-EntersubForCV
 
 *Devel-BeginLift-0.001003 (13 May 2010)
 
