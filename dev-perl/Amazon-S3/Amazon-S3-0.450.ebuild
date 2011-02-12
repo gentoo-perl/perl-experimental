@@ -1,18 +1,19 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
+
+MODULE_VERSION=0.45
 MODULE_AUTHOR=TIMA
 inherit perl-module
 
 DESCRIPTION="A portable client library for working with and managing Amazon S3 buckets and keys."
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE="test"
+
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Digest-HMAC
