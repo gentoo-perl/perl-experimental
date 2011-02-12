@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/TryCatch
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 Feb 2011; Kent Fredric <kentfredric@gmail.com> TryCatch-1.001001.ebuild,
+  TryCatch-1.002000.ebuild, TryCatch-1.002000-r1.ebuild,
+  TryCatch-1.003000.ebuild:
+  fixdep B-Hooks-OP-PPAddr
 
 *TryCatch-1.003000 (29 Oct 2010)
 

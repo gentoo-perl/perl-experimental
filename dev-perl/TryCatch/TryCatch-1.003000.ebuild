@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -14,7 +14,7 @@ COMMON_DEPEND="
 	>=dev-perl/Parse-Method-Signatures-1.003012
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/B-Hooks-OP-Check-0.18
-	>=dev-perl/B-Hooks-OP-PPAddr-0.03
+	>=dev-perl/B-Hooks-OP-PPAddr-0.30
 	>=dev-perl/Devel-Declare-0.005007
 	dev-perl/Moose
 	dev-perl/MooseX-Types
