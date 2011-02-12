@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=SILASMONK
+MODULE_VERSION="0.18"
 inherit perl-module
 
 DESCRIPTION="Authentication framework for CGI::Application"
@@ -32,16 +33,13 @@ RDEPEND="
 DEPEND="
 	>=dev-perl/Test-Warn-0.11
 	>=virtual/perl-Module-Build-0.36
-"
-#	dev-perl/Task-Weaken
-DEPEND="${DEPEND}
+	dev-perl/Task-Weaken
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
-	dev-perl/Test-NoWarnings
 	dev-perl/Test-Regression
 	dev-perl/Test-Taint
 	dev-perl/Test-Without-Module
-	>=virtual/perl-Test-Simple-0.93
+	virtual/perl-Test-Simple
 	${RDEPEND}
 "
 SRC_TEST=do
