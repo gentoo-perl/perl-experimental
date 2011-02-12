@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=ASH
+MODULE_VERSION="1.002000"
 inherit perl-module
 
 DESCRIPTION="first class try catch semantics for Perl, without source filters"

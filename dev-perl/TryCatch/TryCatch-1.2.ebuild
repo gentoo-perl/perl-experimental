@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=ASH
+MODULE_VERSION="1.002000"
 inherit perl-module
 
 DESCRIPTION="first class try catch semantics for Perl, without source filters"
@@ -11,11 +12,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Parse-Method-Signatures-1.003003
-	>=dev-perl/B-Hooks-EndOfScope-0.05
-	>=dev-perl/B-Hooks-OP-Check-0.15
-	>=dev-perl/B-Hooks-OP-PPAddr-0.20
-	>=dev-perl/Devel-Declare-0.003004
+	>=dev-perl/Parse-Method-Signatures-1.003012
+	>=dev-perl/B-Hooks-EndOfScope-0.08
+	>=dev-perl/B-Hooks-OP-Check-0.18
+	>=dev-perl/B-Hooks-OP-PPAddr-0.30
+	>=dev-perl/Devel-Declare-0.005007
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	>=dev-perl/Scope-Upper-0.06
