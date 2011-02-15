@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=CHORNY
+MODULE_VERSION="0.85"
 inherit perl-module
 
 DESCRIPTION="Generate Kwalitee ratings for a distribution"
