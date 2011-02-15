@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=CMOORE
+MODULE_VERSION=0.0932
 inherit perl-module
 
 DESCRIPTION="Single interface to deal with file archives"
