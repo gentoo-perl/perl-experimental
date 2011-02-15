@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=TONYC
+MODULE_VERSION="0.79"
 inherit perl-module
 
 DESCRIPTION="Perl extension for Generating 24 bit Images"
