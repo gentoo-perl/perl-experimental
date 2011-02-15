@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-PluginBundle-RJBS-1.4 (15 Feb 2011)
+*Dist-Zilla-PluginBundle-RJBS-1.3 (15 Feb 2011)
+
+  15 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-PluginBundle-RJBS-1.003.ebuild,
+  +Dist-Zilla-PluginBundle-RJBS-1.3.ebuild,
+  -Dist-Zilla-PluginBundle-RJBS-1.004.ebuild,
+  +Dist-Zilla-PluginBundle-RJBS-1.4.ebuild:
+  Migrate to new vscheme
+
   15 Feb 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-PluginBundle-RJBS-1.003.ebuild,
   Dist-Zilla-PluginBundle-RJBS-1.004.ebuild:

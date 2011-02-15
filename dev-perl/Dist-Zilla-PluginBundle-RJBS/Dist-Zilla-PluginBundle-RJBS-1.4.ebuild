@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="1.004"
 inherit perl-module
 
 DESCRIPTION="BeLike::RJBS when you build your dists "
@@ -25,7 +26,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.56
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.96
 "
 RDEPEND="
 	${COMMON_DEPEND}
