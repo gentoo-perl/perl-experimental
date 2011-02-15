@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=CHROMATIC
+MODULE_VERSION="1.01"
 inherit perl-module
 
 DESCRIPTION="test the Kwalitee of a distribution before you release it"
