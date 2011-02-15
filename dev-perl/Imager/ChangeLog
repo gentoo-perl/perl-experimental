@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Imager-0.810 (15 Feb 2011)
+
+  15 Feb 2011; Kent Fredric <kentfredric@gmail.com> +Imager-0.810.ebuild:
+  Bump. Tests pass for me
+
 *Imager-0.790 (15 Feb 2011)
 *Imager-0.750 (15 Feb 2011)
 
