@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  Module-CPANTS-Analyse-0.85.ebuild:
+  Fixdep Test-YAML-Meta
+
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Module-CPANTS-Analyse-0.85.ebuild:
   Fix dep on Array-Diff
