@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Feb 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-PluginBundle-RJBS-1.003.ebuild,
+  Dist-Zilla-PluginBundle-RJBS-1.004.ebuild:
+  fixdep TaskWeaver
+
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-PluginBundle-RJBS-1.003.ebuild,
   Dist-Zilla-PluginBundle-RJBS-1.004.ebuild:

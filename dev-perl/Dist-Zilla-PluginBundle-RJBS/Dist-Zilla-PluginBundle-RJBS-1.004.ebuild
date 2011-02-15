@@ -14,7 +14,7 @@ COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-2.100922
 	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.092971
 	dev-perl/Dist-Zilla-Plugin-Repository
-	>=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.093330
+	>=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330
 	>=dev-perl/Dist-Zilla-Plugin-Git-1.102.810
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
