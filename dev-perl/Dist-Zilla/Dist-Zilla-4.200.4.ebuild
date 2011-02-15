@@ -26,7 +26,7 @@ depend-virtual Archive-Tar
 # CPAN::Meta::Prereqs 2.101390
 # CPAN::Meta::Validator 2.101550
 depend CPAN-Meta 2.101.550 # ^^
-depend CPAN-Uploader 0.101550
+depend CPAN-Uploader 0.101.550
 # depend Carp # CORE
 
 # Config::INI::Reader
