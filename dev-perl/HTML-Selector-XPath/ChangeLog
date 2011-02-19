@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/HTML-Selector-XPath
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-Selector-XPath-0.60 (19 Feb 2011)
+
+  19 Feb 2011; Torsten Veller <tove@gentoo.org>
+  +HTML-Selector-XPath-0.60.ebuild:
+  Version bump
 
 *HTML-Selector-XPath-0.04 (23 Aug 2010)
 
