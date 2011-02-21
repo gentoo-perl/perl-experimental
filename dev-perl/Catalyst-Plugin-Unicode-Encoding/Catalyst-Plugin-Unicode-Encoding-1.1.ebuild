@@ -1,21 +1,21 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
+
 MODULE_AUTHOR=BOBTFISH
 inherit perl-module
 
 DESCRIPTION="Unicode aware Catalyst"
 
-IUSE="test"
-
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
+IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/Class-Data-Inheritable
 	>=virtual/perl-Encode-2.21
 	>=dev-perl/libwww-perl-5.828
 	>=dev-perl/URI-1.36
