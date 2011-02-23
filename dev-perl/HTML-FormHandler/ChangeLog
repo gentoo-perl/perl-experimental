@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormHandler-0.330.20 (23 Feb 2011)
+
+  23 Feb 2011; Torsten Veller <tove@gentoo.org>
+  +HTML-FormHandler-0.330.20.ebuild:
+  Version bump
+
   22 Feb 2011; Torsten Veller <tove@gentoo.org>
   -HTML-FormHandler-0.31003.ebuild, -HTML-FormHandler-0.32001.ebuild,
   -HTML-FormHandler-0.32002.ebuild, -HTML-FormHandler-0.32005.ebuild:
