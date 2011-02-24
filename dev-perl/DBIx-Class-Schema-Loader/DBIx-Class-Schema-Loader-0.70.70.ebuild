@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Lingua-EN-Inflect-Number-1.1
 	>=dev-perl/Lingua-EN-Inflect-Phrase-0.02
 	>=dev-perl/Class-Accessor-Grouped-0.100.20
-	>=dev-perl/Class-C3-Componentised-1.0005
+	>=dev-perl/Class-C3-Componentised-1.0.500
 	>=dev-perl/DBIx-Class-0.81.270
 	>=dev-perl/File-Slurp-9999.13
 	dev-perl/Class-Inspector
