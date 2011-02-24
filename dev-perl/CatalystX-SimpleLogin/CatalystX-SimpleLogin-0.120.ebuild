@@ -1,8 +1,9 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=2
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.12"
 inherit perl-module
 
 DESCRIPTION="Provide a simple Login controller which can be reused"
@@ -32,16 +33,18 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	test? (
 		>=virtual/perl-Test-Simple-0.94
 		dev-perl/Test-Exception
 		dev-perl/Catalyst-Action-RenderView
 		dev-perl/Catalyst-Plugin-Session-State-Cookie
 		dev-perl/Catalyst-Plugin-Session-Store-File
 		dev-perl/libwww-perl
-		>=dev-perl/Catalyst-Controller-ActionRole-0.12
+		dev-perl/Catalyst-Controller-ActionRole
 		dev-perl/Catalyst-ActionRole-ACL
 		dev-perl/CatalystX-InjectComponent
 		dev-perl/SQL-Translator
+	)
 "
 RDEPEND="
 	${COMMON_DEPEND}
