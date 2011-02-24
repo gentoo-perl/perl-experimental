@@ -27,7 +27,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 	>=dev-perl/MooseX-RelatedClassRoles-0.004
 	dev-perl/Moose-Autobox
-	>=dev-perl/HTML-FormHandler-0.28001
+	>=dev-perl/HTML-FormHandler-0.280.10
 	dev-perl/namespace-autoclean
 	>=dev-perl/Catalyst-Plugin-Session-0.27
 "
