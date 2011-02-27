@@ -18,7 +18,7 @@ IUSE="createdb markdown docbook podformatter syntaxhighlight \
 transclusion amazonboxes rssformatter emoticons test recaptcha fastcgi"
 
 RDEPEND="
-	>=dev-perl/Algorithm-Diff-1.1901
+	>=dev-perl/Algorithm-Diff-1.190.100
 	dev-perl/Algorithm-Merge
 	>=dev-perl/Archive-Zip-1.14
 	>=dev-perl/MRO-Compat-0.10
@@ -123,7 +123,7 @@ DEPEND="
 		>=virtual/perl-Test-Simple-0.88
 		dev-perl/Test-Differences
 		>=dev-perl/SQL-Translator-0.09006
-		>=dev-perl/Email-Sender-0.102370
+		>=dev-perl/Email-Sender-0.102.370
 		>=dev-perl/WWW-Mechanize-1.54
 		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
 		>=dev-perl/WWW-Mechanize-TreeBuilder-1.100

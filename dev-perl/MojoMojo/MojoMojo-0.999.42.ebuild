@@ -18,7 +18,7 @@ IUSE="createdb markdown docbook tocgen podformatter syntaxhighlight \
 transclusion amazonboxes rssformatter emoticons test recaptcha fastcgi"
 
 RDEPEND="
-	>=dev-perl/Algorithm-Diff-1.1901
+	>=dev-perl/Algorithm-Diff-1.190.100
 	dev-perl/Algorithm-Merge
 	>=dev-perl/Archive-Zip-1.14
 	>=dev-perl/MRO-Compat-0.10
