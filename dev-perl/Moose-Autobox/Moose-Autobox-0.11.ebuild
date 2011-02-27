@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,7 +15,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/autobox-2.23
 	>=dev-perl/Moose-0.42
-	>=dev-perl/Perl6-Junction-1.40000
+	>=dev-perl/Perl6-Junction-1.400.0
 "
 DEPEND="
 	test? (
