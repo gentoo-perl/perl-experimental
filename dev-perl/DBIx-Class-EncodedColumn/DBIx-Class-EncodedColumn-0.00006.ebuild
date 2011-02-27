@@ -35,7 +35,7 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	virtual/perl-Test-Simple
 	dev-perl/DBD-SQLite
-	>=dev-perl/SQL-Translator-0.11002
+	>=dev-perl/SQL-Translator-0.110.20
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec
 "
