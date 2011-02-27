@@ -20,7 +20,7 @@ COMMON_DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700
 	>=dev-perl/Moose-0.93
 	>=virtual/perl-parent-0.223
-	>=dev-perl/Email-Sender-0.100110
+	>=dev-perl/Email-Sender-0.100.110
 	>=dev-perl/Email-MIME-1.859
 "
 RDEPEND="
