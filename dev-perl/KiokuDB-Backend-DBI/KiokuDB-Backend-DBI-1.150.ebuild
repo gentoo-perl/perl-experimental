@@ -18,7 +18,7 @@ IUSE="test"
 
 # DBIx-Class-0.08123 -> deploy
 DBI_OPTIONAL_DEPENDS="
-	>=dev-perl/SQL-Translator-0.11006
+	>=dev-perl/SQL-Translator-0.110.60
 "
 COMMON_DEPEND="
 	>=dev-perl/DBI-1.607
