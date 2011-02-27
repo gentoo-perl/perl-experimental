@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	>=dev-perl/DateTime-0.54
 	>=dev-perl/DateTime-Format-Builder-0.79.01
 	dev-perl/DateTime-Format-Natural
-	>=dev-perl/DateTime-Format-Strptime-1.2000
+	>=dev-perl/DateTime-Format-Strptime-1.200.0
 	>=dev-perl/DateTime-Locale-0.45
 	dev-perl/Email-Valid
 	dev-perl/File-ShareDir
