@@ -22,4 +22,3 @@ DEPEND="
 pkg_setup() {
 	ewarn "This module is DEPRECATED"
 }
-
