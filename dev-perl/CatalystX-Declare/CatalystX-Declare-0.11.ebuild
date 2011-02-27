@@ -14,7 +14,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	>=dev-perl/Class-Inspector-1.24
-	>=dev-perl/Perl6-Junction-1.40000
+	>=dev-perl/Perl6-Junction-1.400.0
 	>=dev-perl/aliased-0.30
 	>=virtual/perl-parent-0.221
 	>=dev-perl/Data-Dump-1.14
