@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Net-ARP
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Net-ARP-1.0.6 (27 Feb 2011)
+
+  27 Feb 2011; Torsten Veller <tove@gentoo.org> +files/1.0.6-header.diff,
+  +Net-ARP-1.0.6.ebuild, +metadata.xml:
+  Initial commit (#356577)
+
