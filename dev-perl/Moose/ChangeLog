@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/Moose/ChangeLog,v 1.66 2010/11/27 20:32:09 tove Exp $
 
+*Moose-1.990.300_rc (01 Mar 2011)
+
+  01 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Moose-1.990.300_rc.ebuild:
+  Bump to 1.9903
+
 *Moose-1.990.200_rc-r2 (27 Jan 2011)
 
   27 Jan 2011; Kent Fredric <kentfredric@gmail.com>
