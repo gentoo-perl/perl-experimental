@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CHI-0.420.0 (04 Mar 2011)
+
+  04 Mar 2011; Torsten Veller <tove@gentoo.org> +CHI-0.420.0.ebuild:
+  Version bump
+
 *CHI-0.390 (11 Feb 2011)
 
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com> +CHI-0.390.ebuild:
