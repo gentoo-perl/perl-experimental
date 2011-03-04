@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-SetOnce-0.100.473 (04 Mar 2011)
+
+  04 Mar 2011; Torsten Veller <tove@gentoo.org>
+  +MooseX-SetOnce-0.100.473.ebuild:
+  Version bump
+
 *MooseX-SetOnce-0.100.472-r1 (22 Jan 2011)
 
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
