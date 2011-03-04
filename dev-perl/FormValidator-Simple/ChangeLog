@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/FormValidator-Simple
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  04 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  FormValidator-Simple-0.21.ebuild, FormValidator-Simple-0.22.ebuild,
+  FormValidator-Simple-0.23.ebuild, FormValidator-Simple-0.28.ebuild:
+  Fix dep on DateTime-Format-Strptime
 
   26 Jun 2009; Kent Fredric <kentfredric@gmail.com>
   FormValidator-Simple-0.21.ebuild, FormValidator-Simple-0.22.ebuild,
