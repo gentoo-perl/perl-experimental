@@ -122,7 +122,7 @@ DEPEND="
 	test? (
 		>=virtual/perl-Test-Simple-0.88
 		dev-perl/Test-Differences
-		>=dev-perl/SQL-Translator-0.09006
+		>=dev-perl/SQL-Translator-0.90.6
 		>=dev-perl/Email-Sender-0.102.370
 		>=dev-perl/WWW-Mechanize-1.54
 		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51

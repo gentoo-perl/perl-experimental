@@ -126,7 +126,7 @@ DEPEND="
 		>=dev-perl/WWW-Mechanize-1.54
 		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
 		dev-perl/Test-Differences
-		>=dev-perl/SQL-Translator-0.09006
+		>=dev-perl/SQL-Translator-0.90.6
 	)
 	${RDEPEND}
 "
