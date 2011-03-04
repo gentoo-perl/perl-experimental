@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Plack-0.997.400 (04 Mar 2011)
+
+  04 Mar 2011; Torsten Veller <tove@gentoo.org> +Plack-0.997.400.ebuild:
+  Version bump
+
 *Plack-0.997.300 (27 Feb 2011)
 
   27 Feb 2011; Torsten Veller <tove@gentoo.org> +Plack-0.997.300.ebuild:
