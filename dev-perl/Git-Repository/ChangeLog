@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Git-Repository
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Git-Repository-1.170.0 (06 Mar 2011)
+
+  06 Mar 2011; Torsten Veller <tove@gentoo.org> +Git-Repository-1.170.0.ebuild,
+  +metadata.xml:
+  Initial commit for Git-CPAN-Patch
+
