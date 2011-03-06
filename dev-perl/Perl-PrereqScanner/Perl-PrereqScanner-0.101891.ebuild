@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/PPI-1.205
 	dev-perl/Params-Util
 	>=dev-perl/String-RewritePrefix-0.005
-	>=dev-perl/Version-Requirements-0.100630
+	>=virtual/perl-Version-Requirements-0.100.630
 	dev-perl/namespace-autoclean
 "
 DEPEND="

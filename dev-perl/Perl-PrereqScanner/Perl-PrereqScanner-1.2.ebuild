@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	>=dev-perl/PPI-1.205
 	dev-perl/Params-Util
 	>=dev-perl/String-RewritePrefix-0.005
-	>=dev-perl/Version-Requirements-0.100630
+	>=virtual/perl-Version-Requirements-0.100.630
 	dev-perl/namespace-autoclean
 "
 DEPEND="
