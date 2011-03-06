@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/System-Command
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*System-Command-1.10.0 (06 Mar 2011)
+
+  06 Mar 2011; Torsten Veller <tove@gentoo.org> +System-Command-1.10.0.ebuild,
+  +metadata.xml:
+  Initial commit for Git-Repository
+
