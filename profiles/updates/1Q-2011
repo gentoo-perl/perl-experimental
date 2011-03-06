@@ -1,0 +1,2 @@
+move dev-perl/CPAN-Meta perl-core/CPAN-Meta
+move dev-perl/Version-Requirements perl-core/Version-Requirements
