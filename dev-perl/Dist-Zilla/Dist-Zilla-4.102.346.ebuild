@@ -14,7 +14,7 @@ IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/App-Cmd-0.309
 	virtual/perl-Archive-Tar
-	>=dev-perl/CPAN-Meta-2.101.550
+	>=virtual/perl-CPAN-Meta-2.101.550
 	>=dev-perl/CPAN-Uploader-0.101.550
 
 	dev-perl/Config-INI
@@ -60,7 +60,7 @@ COMMON_DEPEND="
 	virtual/perl-Term-UI
 	dev-perl/text-template
 	dev-perl/Try-Tiny
-	>=dev-perl/Version-Requirements-0.100630
+	>=virtual/perl-Version-Requirements-0.100.630
 	dev-perl/YAML-Tiny
 
 	>=dev-perl/autobox-2.53

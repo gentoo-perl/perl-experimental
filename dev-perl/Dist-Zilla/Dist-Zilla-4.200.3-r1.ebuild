@@ -25,7 +25,7 @@ depend-virtual Archive-Tar
 # CPAN::Meta::Converter 2.101550
 # CPAN::Meta::Prereqs 2.101390
 # CPAN::Meta::Validator 2.101550
-depend CPAN-Meta 2.101.550 # ^^
+depend-virtual CPAN-Meta 2.101.550 # ^^
 depend CPAN-Uploader 0.101.550
 # depend Carp # CORE
 # depend Config # CORE
@@ -88,7 +88,7 @@ depend-virtual Term-UI
 depend Test-Deep
 depend text-template # text-template
 depend Try-Tiny
-depend Version-Requirements 0.100630
+depend-virtual Version-Requirements 0.100.630
 depend YAML-Tiny
 depend autobox 2.53
 depend autodie
