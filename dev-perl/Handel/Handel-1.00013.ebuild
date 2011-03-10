@@ -1,7 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=3
 MODULE_AUTHOR=CLACO
 inherit perl-module
 
@@ -44,3 +44,5 @@ DEPEND="
 		>=dev-perl/HTML-FillInForm-2.00
 	)
 "
+RDEPEND="${DEPEND}"
+#SRC_TEST="do"
