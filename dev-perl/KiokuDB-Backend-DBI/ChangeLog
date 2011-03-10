@@ -2,6 +2,18 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*KiokuDB-Backend-DBI-1.180.0 (10 Mar 2011)
+*KiokuDB-Backend-DBI-1.150.0 (10 Mar 2011)
+*KiokuDB-Backend-DBI-1.100.0 (10 Mar 2011)
+*KiokuDB-Backend-DBI-0.80.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -KiokuDB-Backend-DBI-0.80.ebuild, +KiokuDB-Backend-DBI-0.80.0.ebuild,
+  -KiokuDB-Backend-DBI-1.100.ebuild, +KiokuDB-Backend-DBI-1.100.0.ebuild,
+  -KiokuDB-Backend-DBI-1.150.ebuild, +KiokuDB-Backend-DBI-1.150.0.ebuild,
+  -KiokuDB-Backend-DBI-1.180.ebuild, +KiokuDB-Backend-DBI-1.180.0.ebuild:
+  Add Suffixory 0
+
 *KiokuDB-Backend-DBI-1.180 (25 Jan 2011)
 
   25 Jan 2011; Kent Fredric <kentfredric@gmail.com>
