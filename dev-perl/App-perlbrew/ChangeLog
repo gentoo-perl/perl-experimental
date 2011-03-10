@@ -2,6 +2,22 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*App-perlbrew-0.160.0 (10 Mar 2011)
+*App-perlbrew-0.150.0 (10 Mar 2011)
+*App-perlbrew-0.130.0 (10 Mar 2011)
+*App-perlbrew-0.120.0 (10 Mar 2011)
+*App-perlbrew-0.100.0 (10 Mar 2011)
+*App-perlbrew-0.90.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> -App-perlbrew-0.09.ebuild,
+  -App-perlbrew-0.10.ebuild, -App-perlbrew-0.12.ebuild,
+  -App-perlbrew-0.13.ebuild, +App-perlbrew-0.90.0.ebuild,
+  +App-perlbrew-0.100.0.ebuild, +App-perlbrew-0.120.0.ebuild,
+  +App-perlbrew-0.130.0.ebuild, -App-perlbrew-0.150.ebuild,
+  +App-perlbrew-0.150.0.ebuild, -App-perlbrew-0.160.ebuild,
+  +App-perlbrew-0.160.0.ebuild:
+  Migrate remaining versions, add zeros
+
 *App-perlbrew-0.160 (22 Feb 2011)
 
   22 Feb 2011; Torsten Veller <tove@gentoo.org> +App-perlbrew-0.160.ebuild:
