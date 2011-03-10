@@ -24,7 +24,7 @@ RDEPEND="
 	virtual/perl-Scalar-List-Utils
 	recommended? (
 		>=dev-perl/Apache-Htpasswd-1.800
-		>=dev-perl/Color-Calc-0.12
+		>=dev-perl/Color-Calc-0.120.0
 		dev-perl/CGI-Application-Plugin-Session
 		virtual/perl-Digest-MD5
 	)
