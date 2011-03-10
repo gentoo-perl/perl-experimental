@@ -90,7 +90,7 @@ depend text-template # text-template
 depend Try-Tiny
 depend-virtual Version-Requirements 0.100.630
 depend YAML-Tiny
-depend autobox 2.53
+depend autobox 2.530.0
 depend autodie
 depend namespace-autoclean
 depend-virtual parent

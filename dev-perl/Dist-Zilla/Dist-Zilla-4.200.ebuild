@@ -63,7 +63,7 @@ COMMON_DEPEND="
 	>=virtual/perl-Version-Requirements-0.100.630
 	dev-perl/YAML-Tiny
 
-	>=dev-perl/autobox-2.53
+	>=dev-perl/autobox-2.530.0
 	dev-perl/autodie
 	dev-perl/namespace-autoclean
 	virtual/perl-parent
