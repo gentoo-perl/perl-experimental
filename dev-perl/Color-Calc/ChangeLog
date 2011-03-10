@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Color-Calc-1.71.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Color-Calc-1.71.0.ebuild:
+  Bump
+
 *Color-Calc-1.70.0 (10 Mar 2011)
 *Color-Calc-1.61.0 (10 Mar 2011)
 *Color-Calc-1.60.0 (10 Mar 2011)
