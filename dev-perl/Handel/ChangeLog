@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Handel
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> Handel-1.00011.ebuild,
+  Handel-1.00011-r1.ebuild, Handel-1.00011-r2.ebuild, Handel-1.00013.ebuild:
+  Fixdep Locale-Codes
 
 *Handel-1.00013 (09 Aug 2010)
 

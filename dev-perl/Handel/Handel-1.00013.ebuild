@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -26,7 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Starter-1.54
 	>=dev-perl/DateTime-0.61
 	>=dev-perl/DateTime-Format-MySQL-0.04
-	>=dev-perl/Locale-Codes-2.07
+	>=dev-perl/Locale-Codes-2.70.0
 	>=dev-perl/Locale-Currency-Format-1.28
 	>=dev-perl/FormValidator-Simple-0.28
 	>=dev-perl/Finance-Currency-Convert-WebserviceX-0.07001
