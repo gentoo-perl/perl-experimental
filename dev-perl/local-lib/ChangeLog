@@ -2,6 +2,22 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*local-lib-1.8.1 (10 Mar 2011)
+*local-lib-1.8.0 (10 Mar 2011)
+*local-lib-1.6.7 (10 Mar 2011)
+*local-lib-1.6.5 (10 Mar 2011)
+*local-lib-1.6.0 (10 Mar 2011)
+*local-lib-1.4.9 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -local-lib-1.004.009.ebuild, +local-lib-1.4.9.ebuild,
+  -local-lib-1.006.ebuild, +local-lib-1.6.0.ebuild,
+  -local-lib-1.006.005.ebuild, +local-lib-1.6.5.ebuild,
+  -local-lib-1.006.007.ebuild, +local-lib-1.6.7.ebuild,
+  -local-lib-1.008.000.ebuild, +local-lib-1.8.0.ebuild,
+  -local-lib-1.008.001.ebuild, +local-lib-1.8.1.ebuild:
+  Tidy up version spec to better meet current needs
+
 *local-lib-1.8.4 (10 Mar 2011)
 
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
