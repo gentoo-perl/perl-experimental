@@ -16,7 +16,7 @@ IUSE=""
 depend libwww-perl; # LWP
 depend-virtual IO-Zlib;
 depend-virtual version;
-depend local-lib 1.006.008;
+depend local-lib 1.6.8;
 depend-virtual ExtUtils-MakeMaker 6.56;
 depend CPAN-DistnameInfo 0.10;
 
