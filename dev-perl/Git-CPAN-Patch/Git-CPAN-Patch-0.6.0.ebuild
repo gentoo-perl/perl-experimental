@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	dev-perl/CLASS
 	>=virtual/perl-File-Temp-0.22
 	>=dev-lang/perl-5.10.0
-	>=virtual/perl-CPANPLUS-0.840
+	>=virtual/perl-CPANPLUS-0.840.0
 	dev-perl/autodie
 	>=dev-perl/BackPAN-Index-0.390
 
