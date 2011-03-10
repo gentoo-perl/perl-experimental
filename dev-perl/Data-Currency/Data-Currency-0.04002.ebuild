@@ -1,7 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=3
 MODULE_AUTHOR=CLACO
 inherit perl-module
 
@@ -20,3 +20,5 @@ DEPEND="
 	>=dev-perl/Locale-Codes-2.70.0
 	>=dev-perl/Locale-Currency-Format-1.22
 "
+RDEPEND="${DEPEND}"
+SRC_TEST="do"
