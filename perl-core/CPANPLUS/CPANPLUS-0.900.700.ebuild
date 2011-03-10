@@ -1,12 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
-
-inherit versionator
-MY_P=${PN}-$(delete_version_separator 2)
-S=${WORKDIR}/${MY_P}
+EAPI=3
+MODULE_VERSION=0.9007
 MODULE_AUTHOR=BINGOS
 inherit perl-module
 
@@ -22,6 +19,7 @@ RDEPEND="virtual/perl-Archive-Extract
 	virtual/perl-Locale-Maketext-Simple
 	virtual/perl-Module-Pluggable
 	virtual/perl-Object-Accessor
+	virtual/perl-Package-Constants
 	virtual/perl-Parse-CPAN-Meta
 	virtual/perl-File-Fetch
 	virtual/perl-Module-Loaded

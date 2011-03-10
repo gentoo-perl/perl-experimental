@@ -1,12 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
-
-inherit versionator
-MY_P=${PN}-$(delete_version_separator 2)
-S=${WORKDIR}/${MY_P}
+MODULE_VERSION=0.9010
 MODULE_AUTHOR=BINGOS
 inherit perl-module
 
