@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-InsideOut-0.105.0 (10 Mar 2011)
+*MooseX-InsideOut-0.104.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-InsideOut-0.104.ebuild, +MooseX-InsideOut-0.104.0.ebuild,
+  -MooseX-InsideOut-0.105.ebuild, +MooseX-InsideOut-0.105.0.ebuild:
+  Migrate to new Version scheme
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   MooseX-InsideOut-0.104.ebuild, MooseX-InsideOut-0.105.ebuild:
   Alternate deps for Class-MOP
