@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> -Lexical-Types-0.09.ebuild,
+  -Lexical-Types-0.100.ebuild:
+  Gone on CPAN
+
 *Lexical-Types-0.110.0 (27 Feb 2011)
 
   27 Feb 2011; Torsten Veller <tove@gentoo.org> +Lexical-Types-0.110.0.ebuild:
