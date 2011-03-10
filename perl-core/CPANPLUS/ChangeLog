@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPANPLUS-0.910.200 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> +CPANPLUS-0.910.200.ebuild:
+  Bump
+
 *CPANPLUS-0.901.0 (10 Mar 2011)
 *CPANPLUS-0.900.700 (10 Mar 2011)
 *CPANPLUS-0.900.500 (10 Mar 2011)
