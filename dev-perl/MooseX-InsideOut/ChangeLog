@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-InsideOut-0.106.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-InsideOut-0.106.0.ebuild:
+  Bump ]
+
 *MooseX-InsideOut-0.105.0 (10 Mar 2011)
 *MooseX-InsideOut-0.104.0 (10 Mar 2011)
 
