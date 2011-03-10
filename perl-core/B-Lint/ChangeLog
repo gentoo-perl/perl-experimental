@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/B-Lint
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*B-Lint-1.120.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> +B-Lint-1.120.0.ebuild,
+  +metadata.xml:
+  Added: reported out-of-date by cpan-outdated
+
