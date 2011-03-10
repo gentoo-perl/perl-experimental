@@ -18,6 +18,7 @@ RDEPEND="
 	>=dev-perl/System-Command-1.01
 "
 DEPEND="${RDEPEND}
+	virtual/perl-Module-Build
 "
 
 SRC_TEST=do
