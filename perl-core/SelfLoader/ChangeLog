@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/SelfLoader
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*SelfLoader-1.180.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> +SelfLoader-1.180.0.ebuild,
+  +metadata.xml:
+  Added: reported outdated by app-cpanoutdated
+
