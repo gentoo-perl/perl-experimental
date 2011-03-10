@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Declare-0.320.ebuild, MooseX-Declare-0.330.ebuild,
+  MooseX-Declare-0.340.ebuild:
+  Fixdep MooseX-Role-Parameterized
+
 *MooseX-Declare-0.340 (22 Jan 2011)
 *MooseX-Declare-0.330 (22 Jan 2011)
 *MooseX-Declare-0.320 (22 Jan 2011)

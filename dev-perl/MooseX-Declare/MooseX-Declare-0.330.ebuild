@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/namespace-autoclean-0.09
 	>=dev-perl/Moose-0.90
 	>=dev-perl/MooseX-Method-Signatures-0.300
-	>=dev-perl/MooseX-Role-Parameterized-0.12
+	>=dev-perl/MooseX-Role-Parameterized-0.120.0
 	>=dev-perl/MooseX-Types-0.20
 	dev-perl/List-MoreUtils
 "
