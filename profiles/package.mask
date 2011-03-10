@@ -1,4 +1,15 @@
-# Kent Fredric <kentfredric@gmail.com) (22 Jan 2011)
+# Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
+# Experimental Ebuilds for Perl-Core stuff
+perl-core/B-Debug
+perl-core/B-Lint
+perl-core/CPANPLUS-Dist-Build
+perl-core/Data-Dumper
+perl-core/Devel-DProf
+perl-core/SelfLoader
+virtual/perl-SelfLoader
+perl-core/Devel-SelfStubber
+
+# Kent Fredric <kentfredric@gmail.com> (22 Jan 2011)
 # Mask Moose 2.0 pre-releases, they break LOTS of things. 
 >=dev-perl/Moose-1.990
 =dev-perl/MooseX-SetOnce-0.100.472-r1
