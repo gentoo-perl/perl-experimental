@@ -3,8 +3,6 @@
 >=dev-perl/Moose-1.990
 =dev-perl/MooseX-SetOnce-0.100.472-r1
 =dev-perl/MooseX-StrictConstructor-0.120-r1
-=dev-perl/MooseX-ClassAttribute-0.210-r1
-=dev-perl/MooseX-ClassAttribute-0.230-r1
 
 # Torsten Veller <tove@gentoo.org> (09 Jan 2011)
 # Change version scheme. Latest version looks like a downgrade
