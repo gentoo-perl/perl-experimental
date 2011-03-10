@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	>=dev-perl/Devel-Declare-0.003004
 	dev-perl/Moose
 	dev-perl/MooseX-Types
-	>=dev-perl/Scope-Upper-0.06
+	>=dev-perl/Scope-Upper-0.60.0
 	>=dev-perl/Variable-Magic-0.28
 	>=dev-perl/Sub-Exporter-0.979
 "
