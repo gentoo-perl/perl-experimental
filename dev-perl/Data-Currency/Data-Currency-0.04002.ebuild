@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,6 +17,6 @@ DEPEND="
 	>=dev-perl/Class-Accessor-Grouped-0.03
 	dev-perl/Class-Inspector
 	>=dev-perl/Finance-Currency-Convert-WebserviceX-0.03
-	>=dev-perl/Locale-Codes-2.07
+	>=dev-perl/Locale-Codes-2.70.0
 	>=dev-perl/Locale-Currency-Format-1.22
 "
