@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/autobox-2.23
+	>=dev-perl/autobox-2.230.0
 	>=dev-perl/Moose-0.42
 	>=dev-perl/Perl6-Junction-1.400.0
 "

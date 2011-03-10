@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> Moose-Autobox-0.10.ebuild,
+  Moose-Autobox-0.11.ebuild:
+  Fixdep autobox
+
   27 Feb 2011; Torsten Veller <tove@gentoo.org> Moose-Autobox-0.10.ebuild,
   Moose-Autobox-0.11.ebuild:
   Fix version of Perl6-Junction
