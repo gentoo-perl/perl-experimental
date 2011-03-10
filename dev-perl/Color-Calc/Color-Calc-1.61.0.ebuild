@@ -5,6 +5,7 @@
 EAPI=2
 
 MODULE_AUTHOR=CFAERBER
+MODULE_VERSION="1.061"
 inherit perl-module
 
 DESCRIPTION="Simple calculations with RGB colors."

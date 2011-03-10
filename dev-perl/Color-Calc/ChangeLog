@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Color-Calc-1.70.0 (10 Mar 2011)
+*Color-Calc-1.61.0 (10 Mar 2011)
+*Color-Calc-1.60.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> -Color-Calc-1.060.ebuild,
+  +Color-Calc-1.60.0.ebuild, -Color-Calc-1.061.ebuild,
+  +Color-Calc-1.61.0.ebuild, -Color-Calc-1.070.ebuild,
+  +Color-Calc-1.70.0.ebuild:
+  Migrate to new version scheme
+
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com> Color-Calc-1.060.ebuild,
   Color-Calc-1.061.ebuild, Color-Calc-1.070.ebuild:
   Fixdep on Graphics-ColorNames-WWW
