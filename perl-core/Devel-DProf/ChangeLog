@@ -1,0 +1,11 @@
+# ChangeLog for perl-core/Devel-DProf
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Devel-DProf-20110228.0.0 (10 Mar 2011)
+
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Devel-DProf-20110228.0.0.ebuild, +metadata.xml:
+  Added: marked as outdated by cpan-outdated. Rumours are circulating it will
+  eventually be stripped from core
+
