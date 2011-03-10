@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-perl/HTML-Parser
-	>=dev-perl/HTML-Selector-XPath-0.03
+	>=dev-perl/HTML-Selector-XPath-0.30.0
 	dev-perl/HTML-Tagset
 	dev-perl/HTML-Tree
 	dev-perl/HTML-TreeBuilder-LibXML
