@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Mar 2011; Kent Fredric <kentfredric@gmail.com> KiokuDB-0.420.ebuild,
+  KiokuDB-0.480.ebuild, KiokuDB-0.490.ebuild, KiokuDB-0.500.ebuild:
+  Fixdep MooseX-Role-Parameterized
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com> KiokuDB-0.420.ebuild,
   KiokuDB-0.480.ebuild, KiokuDB-0.490.ebuild, KiokuDB-0.500.ebuild:
   Alternate deps for Class-MOP
