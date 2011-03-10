@@ -26,7 +26,7 @@ COMMON_DEPEND="
 	>=dev-perl/MooseX-AttributeHelpers-0.21
 	>=dev-perl/MooseX-Declare-0.330
 	>=dev-perl/MooseX-MethodAttributes-0.16
-	>=dev-perl/MooseX-Role-Parameterized-0.13
+	>=dev-perl/MooseX-Role-Parameterized-0.130.0
 	>=dev-perl/MooseX-Types-0.20
 	>=dev-perl/MooseX-Method-Signatures-0.260
 "
