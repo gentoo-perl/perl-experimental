@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/if
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*if-0.60.100 (11 Mar 2011)
+
+  11 Mar 2011; Kent Fredric <kentfredric@gmail.com> +if-0.60.100.ebuild,
+  +metadata.xml:
+  Added: reported outdated by cpan-outdated
+
