@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/Filter-Simple
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Filter-Simple-0.850.0 (11 Mar 2011)
+
+  11 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Filter-Simple-0.850.0.ebuild, +metadata.xml:
+  Added: reported outdated by cpan-outdated
+
