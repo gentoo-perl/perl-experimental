@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Module-CPANTS-Analyse-0.850.0-r1 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/0.85/use_test_cpan_meta_yaml_version.patch,
+  +Module-CPANTS-Analyse-0.850.0-r1.ebuild:
+  Add patched version to work with newer Test::YAML changes
+
 *Module-CPANTS-Analyse-0.850.0 (12 Mar 2011)
 
   12 Mar 2011; Kent Fredric <kentfredric@gmail.com>

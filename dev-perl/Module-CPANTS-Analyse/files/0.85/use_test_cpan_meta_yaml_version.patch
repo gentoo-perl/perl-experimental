@@ -1,0 +1,57 @@
+diff -urbaN Module-CPANTS-Analyse-0.85.orig//Build.PL Module-CPANTS-Analyse-0.85/Build.PL
+--- Module-CPANTS-Analyse-0.85.orig//Build.PL	2009-07-06 23:29:45.000000000 +0200
++++ Module-CPANTS-Analyse-0.85/Build.PL	2011-03-11 14:19:52.934875496 +0100
+@@ -15,7 +15,7 @@
+         'Module::Pluggable'         => '2.96',
+         'IO::Capture'               => '0.05',
+         'Array::Diff'               => '0.04',
+-        'Test::YAML::Meta::Version' => '0.11',
++        'Test::CPAN::Meta::YAML::Version' => '0.11',
+         'version'                   => '0.73',
+         'List::MoreUtils'           => '0',
+         'File::Find::Rule'          => '0',
+diff -urbaN Module-CPANTS-Analyse-0.85.orig//lib/Module/CPANTS/Kwalitee/MetaYML.pm Module-CPANTS-Analyse-0.85/lib/Module/CPANTS/Kwalitee/MetaYML.pm
+--- Module-CPANTS-Analyse-0.85.orig//lib/Module/CPANTS/Kwalitee/MetaYML.pm	2009-07-06 23:29:45.000000000 +0200
++++ Module-CPANTS-Analyse-0.85/lib/Module/CPANTS/Kwalitee/MetaYML.pm	2011-03-11 14:19:52.934875496 +0100
+@@ -3,7 +3,7 @@
+ use strict;
+ use File::Spec::Functions qw(catfile);
+ use YAML::Syck qw(Load LoadFile);
+-use Test::YAML::Meta::Version;
++use Test::CPAN::Meta::YAML::Version;
+ 
+ sub order { 20 }
+ 
+@@ -149,7 +149,7 @@
+         }
+     }
+     $hash{spec} = $version;
+-    my $spec = Test::YAML::Meta::Version->new(%hash);
++    my $spec = Test::CPAN::Meta::YAML::Version->new(%hash);
+     if ($spec->parse()) {
+         my $report_version= $version || 'known';
+         my @errors;
+diff -urbaN Module-CPANTS-Analyse-0.85.orig//Makefile.PL Module-CPANTS-Analyse-0.85/Makefile.PL
+--- Module-CPANTS-Analyse-0.85.orig//Makefile.PL	2009-07-11 23:58:36.000000000 +0200
++++ Module-CPANTS-Analyse-0.85/Makefile.PL	2011-03-11 14:19:52.934875496 +0100
+@@ -25,7 +25,7 @@
+                            'Test::More' => '0',
+                            'Test::NoWarnings' => '0',
+                            'Test::Warn' => '0.11',
+-                           'Test::YAML::Meta::Version' => '0.11',
++                           'Test::CPAN::Meta::YAML::Version' => '0.11',
+                            'Text::CSV_XS' => '0.45',
+                            'YAML::Syck' => '0.95',
+                            'version' => '0.73'
+diff -urbaN Module-CPANTS-Analyse-0.85.orig//META.yml Module-CPANTS-Analyse-0.85/META.yml
+--- Module-CPANTS-Analyse-0.85.orig//META.yml	2009-07-11 23:58:37.000000000 +0200
++++ Module-CPANTS-Analyse-0.85/META.yml	2011-03-11 14:19:52.934875496 +0100
+@@ -27,7 +27,7 @@
+   Pod::Simple::Checker: 2.02
+   Readonly: 0
+   Software::License: 0.003
+-  Test::YAML::Meta::Version: 0.11
++  Test::CPAN::Meta::YAML::Version: 0.11
+   Text::CSV_XS: 0.45
+   YAML::Syck: 0.95
+   perl: 5.006
