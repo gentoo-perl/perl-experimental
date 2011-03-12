@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="catalyst">Install Catalyst and friends via
+			<pkg>dev-perl/Task-Catalyst</pkg></flag>
+		<flag name="tt">Install Template Toolkit (
+			<pkg>dev-perl/Template-Toolkit</pkg>)</flag>
+		<flag name="cgi-formbuilder-perlconfig">Install
+			<pkg>dev-perl/CGI-FormBuilder-Source-Perl</pkg>
+		</flag>
+		<flag name="xmlrss">Install <pkg>dev-perl/XML-RSS</pkg></flag>
+		<flag name="xmlatom">Install <pkg>dev-perl/XML-Atom</pkg></flag>
+		<flag name="mimetypes">Install <pkg>dev-perl/MIME-Types</pkg></flag>
+	</use>
+</pkgmetadata>
