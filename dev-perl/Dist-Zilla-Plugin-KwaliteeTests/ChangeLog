@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-KwaliteeTests
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dist-Zilla-Plugin-KwaliteeTests-1.101.420 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-KwaliteeTests-1.101.420.ebuild,
+  -Dist-Zilla-Plugin-KwaliteeTests-1.101420.ebuild:
+  Migrate to new vspec
 
 *Dist-Zilla-Plugin-KwaliteeTests-1.101420 (23 Aug 2010)
 
