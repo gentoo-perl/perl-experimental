@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	>=dev-lang/perl-5.10.0
 	>=virtual/perl-CPANPLUS-0.840.0
 	dev-perl/autodie
-	>=dev-perl/BackPAN-Index-0.390
+	>=dev-perl/BackPAN-Index-0.390.0
 
 "
 DEPEND="
