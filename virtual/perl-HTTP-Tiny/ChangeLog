@@ -1,0 +1,10 @@
+# ChangeLog for virtual/perl-HTTP-Tiny
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-HTTP-Tiny-0.10.0 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-HTTP-Tiny-0.10.0.ebuild, +metadata.xml:
+  Added
+
