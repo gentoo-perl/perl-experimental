@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/HTTP-Tiny
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTTP-Tiny-0.10.0 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com> +HTTP-Tiny-0.10.0.ebuild,
+  +metadata.xml:
+  Added: Comming up in Perl 5.14
+
