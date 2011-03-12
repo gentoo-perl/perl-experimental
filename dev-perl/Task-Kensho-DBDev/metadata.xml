@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="perl-dbi">Install <pkg>dev-perl/DBI</pkg></flag>
+		<flag name="sqlite">Install <pkg>dev-perl/DBI-SQLite</pkg></flag>
+		<flag name="dbixclass">Install <pkg>dev-perl/DBIx-Class</pkg></flag>
+		<flag name="schemaloader">Install
+			<pkg>dev-perl/DBIx-Class-Schema-Loader</pkg></flag>
+		<flag name="sqlt">Install <pkg>dev-perl/SQL-Translator</pkg></flag>
+	</use>
+</pkgmetadata>
