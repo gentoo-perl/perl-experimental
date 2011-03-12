@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="httplite">Install <pkg>dev-perl/HTTP-Lite</pkg></flag>
+		<flag name="lwp">Install LWP::* from
+			<pkg>dev-perl/libwww-perl</pkg></flag>
+		<flag name="wwwmech">Install <pkg>dev-perl/WWW-Mechanize</pkg></flag>
+		<flag name="wwwmechtreebuilder">Install
+			<pkg>dev-perl/WWW-Mechanize-TreeBuilder</pkg></flag>
+	</use>
+</pkgmetadata>
