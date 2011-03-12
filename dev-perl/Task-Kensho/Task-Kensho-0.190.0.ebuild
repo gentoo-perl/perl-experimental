@@ -1,94 +1,104 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
-MODULE_AUTHOR=APEIRON
+MODULE_AUTHOR=PERIGRIN
+MODULE_VERSION="0.19"
 inherit perl-module
 
 DESCRIPTION="A Glimpse at an Enlightened Perl"
 LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
-KEYWORDS="~x86 ~amd64" # yet to test
+KEYWORDS="~amd64 ~x86"
 
 IUSE="+basic-toolchain +testing oop async webdev db crawl module-devel date
-config cli scripting xml +exceptions spreadsheet email scalability"
+config cli scripting xml +exceptions spreadsheet email"
 COMMON_DEPEND="
 	basic-toolchain? (
-		dev-perl/App-cpanminus
+		dev-perl/Bundle-CPAN
 		dev-perl/local-lib
 		virtual/perl-version
 	)
 	exceptions? (
 		dev-perl/Try-Tiny
 		dev-perl/TryCatch
-		dev-perl/autodie
 	)
 	testing? (
-		dev-perl/Devel-Cover
-		dev-perl/Test-Exception
-		dev-perl/Test-Memory-Cycle
+		virtual/perl-Test-Simple
 		dev-perl/Test-Most
+		dev-perl/Test-Exception
 		dev-perl/Test-Pod
 		dev-perl/Test-Pod-Coverage
-		virtual/perl-Test-Simple
+		dev-perl/Test-Memory-Cycle
+		dev-perl/Devel-Cover
 	)
 	oop? (
-		dev-perl/Task-Moose
+		dev-perl/Moose
+		dev-perl/MooseX-Types
+		dev-perl/Moose-Autobox
+		dev-perl/MooseX-Aliases
+		dev-perl/MooseX-Storage
+		dev-perl/MooseX-Getopt
+		dev-perl/MooseX-SimpleConfig
+		dev-perl/MooseX-StrictConstructor
+		dev-perl/namespace-autoclean
 	)
 	async? (
 		dev-perl/POE
 	)
 	xml? (
-		dev-perl/XML-Generator-PerlData
 		dev-perl/XML-LibXML
-		dev-perl/XML-LibXSLT
 		dev-perl/XML-SAX
+		dev-perl/XML-Generator-PerlData
 		dev-perl/XML-SAX-Writer
 	)
 	webdev? (
+		dev-perl/Catalyst-Runtime
+		dev-perl/Catalyst-View-TT
+		dev-perl/Catalyst-Model-DBIC-Schema
+		dev-perl/Catalyst-Devel
+		dev-perl/Catalyst-Plugin-Session
+		dev-perl/Catalyst-Plugin-Authentication
+		dev-perl/Catalyst-Plugin-StackTrace
+		dev-perl/Catalyst-Plugin-FillInForm
+		dev-perl/Catalyst-Controller-FormBuilder
+		dev-perl/Catalyst-Plugin-Session-State-Cookie
+		dev-perl/Catalyst-Plugin-Session-Store-DBIC
+		dev-perl/Catalyst-Plugin-Static-Simple
+		dev-perl/Catalyst-View-JSON
 		dev-perl/CGI-FormBuilder-Source-Perl
-		dev-perl/MIME-Types
-		dev-perl/Task-Catalyst
-		dev-perl/Template-Toolkit
-		dev-perl/XML-Atom
 		dev-perl/XML-RSS
+		dev-perl/MIME-Types
 	)
 	db? (
-		dev-perl/DBD-SQLite
 		dev-perl/DBI
+		dev-perl/DBD-SQLite
 		dev-perl/DBIx-Class
-		dev-perl/DBIx-Class-Schema-Loader
 		dev-perl/SQL-Translator
 	)
 	crawl? (
-		dev-perl/HTTP-Lite
-		dev-perl/WWW-Mechanize
-		dev-perl/WWW-Mechanize-TreeBuilder
 		dev-perl/libwww-perl
+		dev-perl/WWW-Mechanize
 	)
 	module-devel? (
-		dev-perl/CPAN-Uploader
-		dev-perl/Carp-Always
-		dev-perl/Devel-NYTProf
 		dev-perl/Dist-Zilla
-		dev-perl/Modern-Perl
 		dev-perl/Module-Install
-		dev-perl/Perl-Critic
-		dev-perl/Perl-Version
-		dev-perl/Pod-Readme
-		dev-perl/Software-License
+		dev-perl/Devel-NYTProf
 		dev-perl/perltidy
+		dev-perl/Perl-Critic
+		dev-perl/Carp-Always
+		dev-perl/Modern-Perl
+		dev-perl/Software-License
+		dev-perl/Pod-Readme
 	)
-	scalability? (
-		dev-perl/CHI
-	)
+
 	date? (
-		dev-perl/Date-Tiny
 		dev-perl/DateTime
-		dev-perl/DateTime-Tiny
+		dev-perl/Date-Tiny
 		dev-perl/Time-Tiny
+		dev-perl/DateTime-Tiny
 		dev-perl/Time-modules
 	)
 	config? (
@@ -96,25 +106,23 @@ COMMON_DEPEND="
 		dev-perl/config-general
 	)
 	cli? (
-		dev-perl/App-perlbrew
-		dev-perl/App-Nopaste
-		dev-perl/Devel-REPL
 		sys-apps/ack
+		dev-perl/Devel-REPL
 		virtual/perl-Module-CoreList
 	)
 	scripting? (
-		dev-perl/IO-All
 		dev-perl/Smart-Comments
 		dev-perl/Term-ProgressBar-Simple
+		dev-perl/IO-All
 	)
 	spreadsheet? (
+		dev-perl/Text-CSV_XS
 		dev-perl/Spreadsheet-ParseExcel-Simple
 		dev-perl/Spreadsheet-WriteExcel-Simple
-		dev-perl/Text-CSV_XS
 	)
 	email? (
-		dev-perl/Email-Sender
 		dev-perl/Email-Valid
+		dev-perl/Email-Sender
 	)
 "
 #>=virtual/perl-ExtUtils-MakeMaker-6.42
@@ -122,8 +130,3 @@ DEPEND="
 	${COMMON_DEPEND}
 "
 RDEPEND="${COMMON_DEPEND}"
-
-src_prepare(){
-	# Workaround for http://rt.cpan.org/Public/Bug/Display.html?id=53211
-	sed -i 's/auto_install;//g' Makefile.PL  || die "Cant patch out auto_install";
-}

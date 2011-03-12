@@ -1,9 +1,10 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 MODULE_AUTHOR=PERIGRIN
+MODULE_VERSION="0.15"
 inherit perl-module
 
 DESCRIPTION="A Glimpse at an Enlightened Perl"
@@ -13,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="+basic-toolchain +testing oop async webdev db crawl module-devel date
-config cli scripting"
+config cli scripting xml"
 COMMON_DEPEND="
 	basic-toolchain? (
 		dev-perl/Bundle-CPAN
@@ -41,6 +42,12 @@ COMMON_DEPEND="
 	)
 	async? (
 		dev-perl/POE
+	)
+	xml? (
+		dev-perl/XML-LibXML
+		dev-perl/XML-SAX
+		dev-perl/XML-Generator-PerlData
+		dev-perl/XML-SAX-Writer
 	)
 	webdev? (
 		dev-perl/Catalyst-Runtime
@@ -74,6 +81,7 @@ COMMON_DEPEND="
 		dev-perl/DateTime
 		dev-perl/Date-Tiny
 		dev-perl/Time-modules
+		dev-perl/Time-y2038
 	)
 	config? (
 		dev-perl/Config-Any
@@ -87,13 +95,10 @@ COMMON_DEPEND="
 	scripting? (
 		dev-perl/Smart-Comments
 		dev-perl/IO-All
-		dev-perl/XXX
 	)
 "
-
 #>=virtual/perl-ExtUtils-MakeMaker-6.42
-
 DEPEND="
-		${COMMON_DEPEND}
+	${COMMON_DEPEND}
 "
 RDEPEND="${COMMON_DEPEND}"

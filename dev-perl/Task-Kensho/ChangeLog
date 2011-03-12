@@ -1,6 +1,30 @@
 # ChangeLog for dev-perl/Task-Kensho
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Task-Kensho-0.260.0 (12 Mar 2011)
+*Task-Kensho-0.240.0 (12 Mar 2011)
+*Task-Kensho-0.230.0 (12 Mar 2011)
+*Task-Kensho-0.200.0 (12 Mar 2011)
+*Task-Kensho-0.190.0 (12 Mar 2011)
+*Task-Kensho-0.180.0 (12 Mar 2011)
+*Task-Kensho-0.170.0 (12 Mar 2011)
+*Task-Kensho-0.150.0 (12 Mar 2011)
+*Task-Kensho-0.140.0 (12 Mar 2011)
+*Task-Kensho-0.130.0 (12 Mar 2011)
+*Task-Kensho-0.110.0 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com> -Task-Kensho-0.11.ebuild,
+  -Task-Kensho-0.13.ebuild, -Task-Kensho-0.14.ebuild, -Task-Kensho-0.15.ebuild,
+  -Task-Kensho-0.17.ebuild, -Task-Kensho-0.18.ebuild, -Task-Kensho-0.19.ebuild,
+  -Task-Kensho-0.20.ebuild, -Task-Kensho-0.23.ebuild, -Task-Kensho-0.24.ebuild,
+  -Task-Kensho-0.26.ebuild, +Task-Kensho-0.110.0.ebuild,
+  +Task-Kensho-0.130.0.ebuild, +Task-Kensho-0.140.0.ebuild,
+  +Task-Kensho-0.150.0.ebuild, +Task-Kensho-0.170.0.ebuild,
+  +Task-Kensho-0.180.0.ebuild, +Task-Kensho-0.190.0.ebuild,
+  +Task-Kensho-0.200.0.ebuild, +Task-Kensho-0.230.0.ebuild,
+  +Task-Kensho-0.240.0.ebuild, +Task-Kensho-0.260.0.ebuild:
+  Migrate to new version scheme
 
 *Task-Kensho-0.26 (14 Dec 2010)
 
