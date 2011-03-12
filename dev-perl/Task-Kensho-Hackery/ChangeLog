@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Task-Kensho-Hackery
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Task-Kensho-Hackery-0.270.0 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-Hackery-0.270.0.ebuild, +metadata.xml:
+  Added
+
