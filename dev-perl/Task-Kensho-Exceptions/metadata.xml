@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+    </maintainer>
+	<use>
+		<flag name="trytiny">Install <pkg>dev-perl/Try-Tiny</pkg></flag>
+		<flag name="trycatch">Install <pkg>dev-perl/TryCatch</pkg></flag>
+		<flag name="autodie">Install <pkg>dev-perl/autodie</pkg></flag>
+	</use>
+</pkgmetadata>
