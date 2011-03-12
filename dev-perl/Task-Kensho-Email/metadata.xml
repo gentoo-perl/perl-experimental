@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="emailsimple">Install <pkg>dev-perl/Email-Simple</pkg></flag>
+		<flag name="emailvalid">Install <pkg>dev-perl/Email-Valid</pkg></flag>
+		<flag name="emailsender">Install <pkg>dev-perl/Email-Sender</pkg></flag>
+		<flag name="emailmimekit">Install
+			<pkg>dev-perl/Email-MIME-Kit</pkg></flag>
+	</use>
+</pkgmetadata>
