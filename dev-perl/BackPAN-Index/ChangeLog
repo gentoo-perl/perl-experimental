@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*BackPAN-Index-0.390.0 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -BackPAN-Index-0.390.ebuild, +BackPAN-Index-0.390.0.ebuild,
+  BackPAN-Index-0.400.0.ebuild:
+  Fixdep on CPAN-DistnameInfo, add .0 
+
   07 Mar 2011; Kent Fredric <kentfredric@gmail.com>
   BackPAN-Index-0.400.0.ebuild:
   Fix this version to depend on >= MB 0.37 during compile
