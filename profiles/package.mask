@@ -8,6 +8,13 @@ perl-core/Devel-DProf
 perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Devel-SelfStubber
+perl-core/if
+perl-core/IPC-SysV
+perl-core/NEXT
+perl-core/Pod-LaTeX
+perl-core/Pod-Plainer
+perl-core/Unicode-Collate
+perl-core/Unicode-Normalize
 
 # Kent Fredric <kentfredric@gmail.com> (22 Jan 2011)
 # Mask Moose 2.0 pre-releases, they break LOTS of things. 
