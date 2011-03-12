@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.2.ebuild:
+  Fixdep on Kwalitee Tests
+
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-PluginBundle-Author-KENTNL-1.0.2.ebuild:
   fixdep on Git plugin
