@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  KiokuDB-Backend-DBI-1.190.0.ebuild:
+  Fix my version bungle
+
 *KiokuDB-Backend-DBI-1.190.0 (10 Mar 2011)
 
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com>

@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
-MODULE_AUTHOR=DRUOSO
-MODULE_VERSION="1.18"
+MODULE_AUTHOR=NUFFIN
+MODULE_VERSION="1.19"
 inherit perl-module
 
 DESCRIPTION="DBI backend for KiokuDB"
