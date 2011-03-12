@@ -18,7 +18,7 @@ depend-virtual IO-Zlib;
 depend-virtual version;
 depend local-lib 1.6.8;
 depend-virtual ExtUtils-MakeMaker 6.56;
-depend CPAN-DistnameInfo 0.10;
+depend CPAN-DistnameInfo 0.100;
 
 ddep_setup;
 
