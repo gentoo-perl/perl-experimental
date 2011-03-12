@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="dzil">Install <pkg>dev-perl/Dist-Zilla</pkg></flag>
+		<flag name="moduleinstall">Install
+			<pkg>dev-perl/Module-Install</pkg></flag>
+		<flag name="nytprof">Install <pkg>dev-perl/Devel-NYTProf</pkg></flag>
+		<flag name="perltidy">Install <pkg>dev-perl/perltidy</pkg></flag>
+		<flag name="perlcritic">Install <pkg>dev-perl/Perl-Critic</pkg></flag>
+		<flag name="carpalways">Install <pkg>dev-perl/Carp-Always</pkg></flag>
+		<flag name="modernperl">Install <pkg>dev-perl/Modern-Perl</pkg></flag>
+		<flag name="perlversion">Install <pkg>dev-perl/Perl-Version</pkg></flag>
+		<flag name="softwarelicense">Install
+			<pkg>dev-perl/Software-License</pkg></flag>
+		<flag name="podreadme">Install <pkg>dev-perl/Pod-Readme</pkg></flag>
+		<flag name="cpanuploader">Install
+			<pkg>dev-perl/CAPN-Uploader</pkg></flag>
+	</use>
+</pkgmetadata>
