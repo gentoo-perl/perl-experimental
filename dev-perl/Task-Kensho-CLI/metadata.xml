@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="ack">Install <pkg>sys-apps/ack</pkg></flag>
+		<flag name="nopaste">Install <pkg>dev-perl/App-Nopaste</pkg></flag>
+		<flag name="repl">Install <pkg>dev-perl/Devel-REPL</pkg></flag>
+		<flag name="corelist">Install <pkg>virtual/perl-Module-CoreList</pkg></flag>
+		<flag name="perlbrew">Install <pkg>dev-perl/App-perlbrew</pkg></flag>
+	</use>
+</pkgmetadata>
