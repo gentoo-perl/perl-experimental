@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Module-CPANTS-Analyse-0.820
+	>=dev-perl/Module-CPANTS-Analyse-0.820.0
 	>=virtual/perl-Test-Simple-0.47
 "
 DEPEND="

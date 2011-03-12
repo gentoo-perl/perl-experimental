@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com> Test-Kwalitee-1.10.ebuild:
+  Add .0 to Module-CPANTS-Analyse dep
+
 *Test-Kwalitee-1.10 (15 Feb 2011)
 
   15 Feb 2011; Kent Fredric <kentfredric@gmail.com> -Test-Kwalitee-1.01.ebuild,
