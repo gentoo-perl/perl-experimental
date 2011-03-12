@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-1.960.0 (12 Mar 2011)
+
+  12 Mar 2011; Kent Fredric <kentfredric@gmail.com> +CPAN-1.960.0.ebuild:
+  Bump
+
   31 Jan 2011; Kent Fredric <kentfredric@gmail.com> CPAN-1.946.400_rc.ebuild:
   Buh, this ebuild was still broken, internal-value != externa value => sucks 
 
