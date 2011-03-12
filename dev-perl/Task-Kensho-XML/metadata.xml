@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="libxml">Install <pkg>dev-perl/XML-LibXML</pkg></flag>
+		<flag name="libxslt">Install <pkg>dev-perl/XML-LibXSLT</pkg></flag>
+		<flag name="sax">Install <pkg>dev-perl/XML-SAX</pkg></flag>
+		<flag name="xmlgeneratorperldata">Install
+			<pkg>dev-perl/XML-Generator-PerlData</pkg></flag>
+		<flag name="saxwriter">Install <pkg>dev-perl/XML-SAX-Writer</pkg></flag>
+	</use>
+</pkgmetadata>
