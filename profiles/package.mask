@@ -7,6 +7,9 @@ perl-core/Data-Dumper
 perl-core/Devel-DProf
 perl-core/SelfLoader
 virtual/perl-SelfLoader
+perl-core/Dumpvalue
+perl-core/ExtUtils-Constant
+perl-core/Filter-Simple
 perl-core/Devel-SelfStubber
 perl-core/if
 perl-core/IPC-SysV
