@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="testsimple">Install Test::Simple/Test::More via
+			<pkg>virtual/perl-Test-Simple</pkg></flag>
+		<flag name="testmost">Install <pkg>dev-perl/Test-Most</pkg></flag>
+		<flag name="testexception">Install
+			<pkg>dev-perl/Test-Exception</pkg></flag>
+		<flag name="testpod">Install <pkg>dev-perl/Test-Pod</pkg></flag>
+		<flag name="testpodcoverage">Install
+			<pkg>dev-perl/Test-Pod-Coverage</pkg></flag>
+		<flag name="testmemorycycle">Install
+			<pkg>dev-perl/Test-Memory-Cycle</pkg></flag>
+		<flag name="develcover">Install <pkg>dev-perl/Devel-Cover</pkg></flag>
+	</use>
+</pkgmetadata>
