@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/HTTP-Server-Simple-PSGI
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTTP-Server-Simple-PSGI-0.140.0 (14 Mar 2011)
+
+  14 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTTP-Server-Simple-PSGI-0.140.0.ebuild, +metadata.xml:
+  Added for Dancer
+
