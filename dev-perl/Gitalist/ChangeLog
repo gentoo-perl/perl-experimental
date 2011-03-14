@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Gitalist-0.3.1 (14 Mar 2011)
+
+  14 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Gitalist-0.3.1.ebuild:
+  Bump
+
 *Gitalist-0.2.9 (10 Mar 2011)
 
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Gitalist-0.2.9.ebuild:
