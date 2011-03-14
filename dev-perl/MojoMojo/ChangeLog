@@ -2,6 +2,15 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MojoMojo-1.30.0 (14 Mar 2011)
+*MojoMojo-1.20.0 (14 Mar 2011)
+*MojoMojo-1.10.0 (14 Mar 2011)
+
+  14 Mar 2011; Kent Fredric <kentfredric@gmail.com> -MojoMojo-1.10.ebuild,
+  +MojoMojo-1.10.0.ebuild, -MojoMojo-1.20.ebuild, +MojoMojo-1.20.0.ebuild,
+  -MojoMojo-1.30.ebuild, +MojoMojo-1.30.0.ebuild:
+  Move to double-dotted
+
   04 Mar 2011; Kent Fredric <kentfredric@gmail.com> MojoMojo-0.999.42.ebuild,
   MojoMojo-1.10.ebuild, MojoMojo-1.20.ebuild, MojoMojo-1.30.ebuild:
   Fixdep SQL-Translator" 
