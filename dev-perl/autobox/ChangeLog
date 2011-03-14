@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*autobox-2.730.0 (14 Mar 2011)
+
+  14 Mar 2011; Kent Fredric <kentfredric@gmail.com> +autobox-2.730.0.ebuild:
+  Bump
+
 *autobox-2.720.0 (14 Mar 2011)
 
   14 Mar 2011; Kent Fredric <kentfredric@gmail.com> -autobox-2.720.ebuild,
