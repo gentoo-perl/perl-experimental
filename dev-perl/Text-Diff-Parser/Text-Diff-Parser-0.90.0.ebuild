@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=GWYN
+MODULE_VERSION="0.0900"
 inherit perl-module
 
 DESCRIPTION="Parse patch files containing unified and standard diffs"

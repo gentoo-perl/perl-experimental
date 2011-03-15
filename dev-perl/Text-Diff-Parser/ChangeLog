@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Text-Diff-Parser
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Text-Diff-Parser-0.100.100 (15 Mar 2011)
+*Text-Diff-Parser-0.90.0 (15 Mar 2011)
+
+  15 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Text-Diff-Parser-0.90.0.ebuild, +Text-Diff-Parser-0.100.100.ebuild,
+  -Text-Diff-Parser-0.0900.ebuild, -Text-Diff-Parser-0.1001.ebuild:
+  Migrate, EAPI3, Check
 
 *Text-Diff-Parser-0.1001 (11 Sep 2009)
 
