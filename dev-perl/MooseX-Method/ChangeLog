@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/MooseX-Method
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Method-0.440.0 (15 Mar 2011)
+
+  15 Mar 2011; Kent Fredric <kentfredric@gmail.com> -MooseX-Method-0.44.ebuild,
+  +MooseX-Method-0.440.0.ebuild:
+  Move to new version scheme, EAPI=3, fixdeps
 
 *MooseX-Method-0.44 (09 Jul 2009)
 
