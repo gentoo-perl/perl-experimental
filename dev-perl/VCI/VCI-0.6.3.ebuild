@@ -1,8 +1,8 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=MKANAT
 inherit perl-module
@@ -18,9 +18,9 @@ IUSE="bazaar cvs git mercurial subversion test"
 RDEPEND=">=dev-perl/Moose-0.27
 	dev-perl/MooseX-Method
 	dev-perl/DateTime
-	>=dev-perl/Path-Abstract-0.093
+	>=dev-perl/Path-Abstract-0.93.0
 	dev-perl/DateTime-Format-DateParse
-	>=dev-perl/Text-Diff-Parser-0.07
+	>=dev-perl/Text-Diff-Parser-0.70.0
 	>=virtual/perl-IPC-Cmd-0.42
 	>=virtual/perl-Module-Load-Conditional-0.24
 	>=dev-perl/IPC-Run-0.55

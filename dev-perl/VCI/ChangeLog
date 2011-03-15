@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/VCI
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Mar 2011; Kent Fredric <kentfredric@gmail.com> VCI-0.5.4.ebuild,
+  VCI-0.6.3.ebuild, VCI-0.7.1.ebuild, metadata.xml:
+  EAPI3, Check, Depfix
 
 *VCI-0.7.1 (21 Dec 2010)
 

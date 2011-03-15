@@ -5,5 +5,10 @@
     <maintainer>
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="bazaar"> Add support of the Bazaar VCS</flag>
+		<flag name="git"> Add support for the Git VCS</flag>
+		<flag name="mercurial"> Add support for the Mercurial VCS</flag>
+	</use>
 </pkgmetadata>
