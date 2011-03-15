@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Path-Abstract
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Path-Abstract-0.96.0 (15 Mar 2011)
+*Path-Abstract-0.95.0 (15 Mar 2011)
+
+  15 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -Path-Abstract-0.095.ebuild, +Path-Abstract-0.95.0.ebuild,
+  -Path-Abstract-0.096.ebuild, +Path-Abstract-0.96.0.ebuild:
+  EAPI3, Check, Migrate versions
 
 *Path-Abstract-0.096 (15 May 2010)
 
