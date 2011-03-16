@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-Mock-LWP
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-Mock-LWP-0.50.0 (16 Mar 2011)
+
+  16 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-Mock-LWP-0.50.0.ebuild, +metadata.xml:
+  added
+
