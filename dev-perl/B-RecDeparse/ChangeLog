@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/B-RecDeparse
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*B-RecDeparse-0.50.0 (16 Mar 2011)
+
+  16 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +B-RecDeparse-0.50.0.ebuild, +metadata.xml:
+  Added
+
