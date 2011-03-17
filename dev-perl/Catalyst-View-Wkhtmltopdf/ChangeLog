@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-View-Wkhtmltopdf-0.0.200 (17 Mar 2011)
+
+  17 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-View-Wkhtmltopdf-0.0.200.ebuild,
+  -Catalyst-View-Wkhtmltopdf-0.0002.ebuild:
+  Move to new version scheme, add DESCRIPTION
+
 *Catalyst-View-Wkhtmltopdf-0.0002 (16 Mar 2011)
 
   16 Mar 2011; Michele Beltrame <m@cattlegrid.info>

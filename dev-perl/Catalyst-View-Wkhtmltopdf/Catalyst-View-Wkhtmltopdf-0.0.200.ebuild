@@ -5,10 +5,10 @@
 EAPI=3
 
 MODULE_AUTHOR=ARTHAS
-#MODULE_VERSION=0.0.8.7
+MODULE_VERSION="0.0002"
 inherit perl-module
 
-DESCRIPTION=""
+DESCRIPTION="Catalyst view to convert HTML (or TT) content to PDF using wkhtmltopdf"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
