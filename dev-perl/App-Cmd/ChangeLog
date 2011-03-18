@@ -1,6 +1,15 @@
 # ChangeLog for dev-perl/App-Cmd
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-Cmd-0.310.0 (18 Mar 2011)
+*App-Cmd-0.309.0 (18 Mar 2011)
+*App-Cmd-0.308.0 (18 Mar 2011)
+
+  18 Mar 2011; Kent Fredric <kentfredric@gmail.com> -App-Cmd-0.308.ebuild,
+  +App-Cmd-0.308.0.ebuild, -App-Cmd-0.309.ebuild, +App-Cmd-0.309.0.ebuild,
+  -App-Cmd-0.310.ebuild, +App-Cmd-0.310.0.ebuild:
+  Migrate to x.y.z version scheme
 
   18 Dec 2010; Kent Fredric <kentfredric@gmail.com> -App-Cmd-0.307.ebuild:
   gone from cpan

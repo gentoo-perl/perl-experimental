@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.310"
 inherit perl-module
 
 DESCRIPTION="write command line apps with less suffering "
@@ -15,6 +16,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	dev-perl/Data-OptList
+	>=dev-perl/Class-Load-0.06
 	dev-perl/Getopt-Long-Descriptive
 	dev-perl/IO-TieCombine
 	virtual/perl-Module-Pluggable
