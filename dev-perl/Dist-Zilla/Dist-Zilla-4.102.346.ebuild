@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/App-Cmd-0.309
+	>=dev-perl/App-Cmd-0.309.0
 	virtual/perl-Archive-Tar
 	>=virtual/perl-CPAN-Meta-2.101.550
 	>=dev-perl/CPAN-Uploader-0.101.550

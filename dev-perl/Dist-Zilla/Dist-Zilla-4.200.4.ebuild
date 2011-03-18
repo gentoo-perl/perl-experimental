@@ -20,7 +20,7 @@ bdepend-virtual Test-Simple 0.96 # Test::More
 
 # App::Cmd::Setup 0.309
 # App::Cmd::Tester 0.306
-depend App-Cmd 0.309 # ^^
+depend App-Cmd 0.309.0 # ^^
 depend-virtual Archive-Tar
 # CPAN::Meta::Converter 2.101550
 # CPAN::Meta::Prereqs 2.101390
