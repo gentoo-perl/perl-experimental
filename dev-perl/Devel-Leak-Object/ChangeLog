@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -Devel-Leak-Object-0.920.0.ebuild:
+  Gone on CPAN
+
 *Devel-Leak-Object-1.10.0 (18 Mar 2011)
 *Devel-Leak-Object-0.920.0 (18 Mar 2011)
 
