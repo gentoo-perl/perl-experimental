@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Devel-Leak-Object
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Devel-Leak-Object-1.10.0 (18 Mar 2011)
+*Devel-Leak-Object-0.920.0 (18 Mar 2011)
+
+  18 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -Devel-Leak-Object-0.92.ebuild, +Devel-Leak-Object-0.920.0.ebuild,
+  -Devel-Leak-Object-1.01.ebuild, +Devel-Leak-Object-1.10.0.ebuild:
+  Migrate to new version scheme, update EAPI
 
 *Devel-Leak-Object-1.01 (22 Jun 2010)
 
