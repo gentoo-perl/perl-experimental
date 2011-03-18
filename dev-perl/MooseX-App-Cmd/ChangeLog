@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-App-Cmd-0.60.0 (18 Mar 2011)
+
+  18 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-App-Cmd-0.06.ebuild, +MooseX-App-Cmd-0.60.0.ebuild:
+  Migrate to x.y.z
+
   18 Mar 2011; Kent Fredric <kentfredric@gmail.com> MooseX-App-Cmd-0.06.ebuild:
   Fixdep App::Cmd
 

@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=NUFFIN
+MODULE_VERSION="0.06"
 inherit perl-module
 
 DESCRIPTION="Mashes up MooseX::Getopt and App::Cmd."
