@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Class-Std-0.11.0 (18 Mar 2011)
+
+  18 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Class-Std-0.11.0.ebuild:
+  Bump
+
   18 Mar 2011; Kent Fredric <kentfredric@gmail.com> Class-Std-0.0.9.ebuild:
   Check/EAPI3/QA Deps
 
