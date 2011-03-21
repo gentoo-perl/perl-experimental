@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/DateTime-Format-DB2
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  21 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  DateTime-Format-DB2-0.50.0.ebuild:
+  EAPI4 / Test/Check
+
+*DateTime-Format-DB2-0.50.0 (21 Mar 2011)
+
+  21 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -DateTime-Format-DB2-0.05.ebuild, +DateTime-Format-DB2-0.50.0.ebuild:
+  Migrate to new version scheme
 
   06 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
   DateTime-Format-DB2-0.05.ebuild, +metadata.xml:
