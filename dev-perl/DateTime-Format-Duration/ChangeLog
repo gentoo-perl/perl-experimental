@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/DateTime-Format-Duration
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*DateTime-Format-Duration-1.30-r1 (21 Mar 2011)
+
+  21 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -DateTime-Format-Duration-1.03a.ebuild,
+  +DateTime-Format-Duration-1.30-r1.ebuild:
+  Fix version schemes, modernize ebuild format
 
   06 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
   DateTime-Format-Duration-1.03a.ebuild, +metadata.xml:

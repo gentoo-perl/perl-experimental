@@ -1,13 +1,14 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
 MODULE_AUTHOR=RICKM
+MODULE_VERSION="1.03a"
+MODULE_A_EXT="tgz"
 inherit perl-module
 
-SRC_URI="mirror://cpan/authors/id/R/RI/RICKM/${P}.tgz"
 S="${WORKDIR}/${PN}-1.03"
 
 DESCRIPTION="Format and parse DateTime::Durations"
