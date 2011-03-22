@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/autobox-List-Util
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*autobox-List-Util-20090629.0.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +autobox-List-Util-20090629.0.0.ebuild, +metadata.xml:
+  Added for perl5i
+
