@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> HTTP-Body-1.30.0.ebuild,
+  HTTP-Body-1.40.0.ebuild, HTTP-Body-1.50.0.ebuild:
+  QA Fixup
+
 *HTTP-Body-1.110.0 (22 Mar 2011)
 *HTTP-Body-1.90.0 (22 Mar 2011)
 *HTTP-Body-1.70.0 (22 Mar 2011)

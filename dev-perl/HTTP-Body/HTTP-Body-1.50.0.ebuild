@@ -13,6 +13,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	>=dev-perl/yaml-0.39
 "
+DEPEND="${RDEPEND}"
+SRC_TEST="do"
