@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 
-MODULE_AUTHOR=MRAMBERG
+MODULE_AUTHOR=GETTY
+MODULE_VERSION="1.11"
 inherit perl-module
 
 DESCRIPTION="HTTP Body Parser"
@@ -12,7 +13,9 @@ DESCRIPTION="HTTP Body Parser"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-
+PATCHES=(
+	"${FILESDIR}/multipartpatch.patch"
+)
 RDEPEND="
 	>=virtual/perl-File-Temp-0.14
 	dev-perl/libwww-perl
