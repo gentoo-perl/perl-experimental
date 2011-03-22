@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Date-JD
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Date-JD-0.4.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Date-JD-0.4.0.ebuild,
+  +metadata.xml:
+  Added for DateTime-TimeZone-SystemV
+
