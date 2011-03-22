@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Object-ID
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Object-ID-0.1.1 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Object-ID-0.1.1.ebuild,
+  +metadata.xml:
+  Added for perl5i
+
