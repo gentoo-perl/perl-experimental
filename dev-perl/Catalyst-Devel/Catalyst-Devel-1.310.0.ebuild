@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 PATCHES=(
-	"${FILESDIR}/MakeFile-Check-${PV}.patch"
+	"${FILESDIR}/${MODULE_VERSION}/MakeFile-Check.patch"
 )
 RDEPEND="
 	dev-perl/Moose

@@ -2,6 +2,18 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Devel-1.320.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.27/MakeFile-Check.patch, +files/1.28/MakeFile-Check.patch,
+  +files/1.30/MakeFile-Check.patch, +files/1.32/MakeFile-Check.patch,
+  -files/MakeFile-Check-1.27.patch, -files/MakeFile-Check-1.28.patch,
+  Catalyst-Devel-1.270.0.ebuild, +files/1.31/MakeFile-Check.patch,
+  Catalyst-Devel-1.300.0.ebuild, -files/MakeFile-Check-1.300.patch,
+  Catalyst-Devel-1.310.0.ebuild, -files/MakeFile-Check-1.310.patch,
+  +Catalyst-Devel-1.320.0.ebuild:
+  Bump, fix PATCHES var for existing
+
 *Catalyst-Devel-1.310.0 (22 Mar 2011)
 *Catalyst-Devel-1.300.0 (22 Mar 2011)
 *Catalyst-Devel-1.280.0 (22 Mar 2011)

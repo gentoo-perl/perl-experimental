@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=1.30
+MODULE_VERSION=1.32
 inherit perl-module
 
 DESCRIPTION="Catalyst Development Tools"
@@ -17,6 +17,9 @@ IUSE="test"
 PATCHES=(
 	"${FILESDIR}/${MODULE_VERSION}/MakeFile-Check.patch"
 )
+
+comment() { echo ''; }
+
 RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Emulate-Class-Accessor-Fast
@@ -37,6 +40,7 @@ RDEPEND="
 DEPEND="${DEPEND}
 	test? (
 		>=virtual/perl-Test-Simple-0.94
+		>=dev-perl/Test-Fatal-0.003 $(comment 0.3.0)
 	)
 "
 #src_compile() {
