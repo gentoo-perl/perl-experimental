@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-LeakTrace
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-LeakTrace-0.130.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-LeakTrace-0.130.0.ebuild, +metadata.xml:
+  Added for Hash::FieldHash
+
