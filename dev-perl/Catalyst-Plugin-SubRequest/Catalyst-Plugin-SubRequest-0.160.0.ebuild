@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.16"
 inherit perl-module
 
 DESCRIPTION="Make subrequests to actions in Catalyst"
@@ -13,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.701.200
+	>=dev-perl/Catalyst-Runtime-5.800.030
 "
 DEPEND="
 	${RDEPEND}

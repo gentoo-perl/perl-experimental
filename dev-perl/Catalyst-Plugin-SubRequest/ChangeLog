@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-SubRequest
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Plugin-SubRequest-0.160.0 (22 Mar 2011)
+*Catalyst-Plugin-SubRequest-0.150.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-SubRequest-0.15.ebuild,
+  -Catalyst-Plugin-SubRequest-0.16.ebuild,
+  +Catalyst-Plugin-SubRequest-0.150.0.ebuild,
+  +Catalyst-Plugin-SubRequest-0.160.0.ebuild:
+  [migrate] Catalyst-Plugin-SubRequest
 
 *Catalyst-Plugin-SubRequest-0.16 (31 Jan 2010)
 
