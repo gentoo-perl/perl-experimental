@@ -36,7 +36,7 @@ depend Data-Dump
 depend Data-OptList
 depend HTML-Parser # HTML::Entities
 depend HTML-Parser # HTML::HeadParser
-depend HTTP-Body 1.06
+depend HTTP-Body 1.60.0
 depend libwww-perl 1.64 # HTTP::Headers
 depend libwww-perl 5.814 # HTTP::Request
 depend libwww-perl 5.813 # HTTP::Response

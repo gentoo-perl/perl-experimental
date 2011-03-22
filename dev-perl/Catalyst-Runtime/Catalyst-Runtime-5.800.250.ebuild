@@ -32,7 +32,7 @@ COMMON_DEPEND="
 	dev-perl/Data-OptList
 
 	dev-perl/HTML-Parser
-	>=dev-perl/HTTP-Body-1.04
+	>=dev-perl/HTTP-Body-1.40.0
 	>=dev-perl/libwww-perl-5.814
 
 	>=dev-perl/HTTP-Request-AsCGI-1.0
