@@ -35,7 +35,7 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	catalystframework? (
 		>=dev-perl/Catalyst-Runtime-5.700.700
-		>=dev-perl/Catalyst-Devel-1.02
+		>=dev-perl/Catalyst-Devel-1.20.0
 		dev-perl/Catalyst-View-TT
 		dev-perl/Catalyst-Plugin-Session
 		dev-perl/Catalyst-Plugin-Session-Store-File
