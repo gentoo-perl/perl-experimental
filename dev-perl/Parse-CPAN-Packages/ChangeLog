@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Parse-CPAN-Packages
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Parse-CPAN-Packages-2.31.ebuild, -Parse-CPAN-Packages-2.31-r1.ebuild:
+  Drop -r1
 
 *Parse-CPAN-Packages-2.31-r1 (20 Jul 2009)
 
