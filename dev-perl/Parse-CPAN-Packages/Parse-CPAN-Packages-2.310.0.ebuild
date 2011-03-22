@@ -5,6 +5,7 @@
 EAPI=2
 
 MODULE_AUTHOR=LBROCARD
+MODULE_VERSION="2.31"
 inherit perl-module
 
 DESCRIPTION="Parse 02packages.details.txt.gz"
