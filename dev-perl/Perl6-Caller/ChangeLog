@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Perl6-Caller
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Perl6-Caller-0.100.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Perl6-Caller-0.100.0.ebuild, +metadata.xml:
+  Added for perl5i
+
