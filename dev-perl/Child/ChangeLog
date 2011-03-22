@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Child
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Child-0.9.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Child-0.9.0.ebuild,
+  +metadata.xml:
+  Added for perl5i
+
