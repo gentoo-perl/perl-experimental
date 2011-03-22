@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="1.27"
 inherit perl-module
 
 DESCRIPTION="Catalyst Development Tools"

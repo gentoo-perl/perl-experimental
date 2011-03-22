@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="1.28"
 inherit perl-module
 
 DESCRIPTION="Catalyst Development Tools"
