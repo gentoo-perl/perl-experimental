@@ -17,7 +17,7 @@ IUSE=""
 RDEPEND="
 	dev-perl/Catalyst-Authentication-Credential-HTTP
 	dev-perl/Catalyst-Plugin-ConfigLoader
-	>=dev-perl/Catalyst-Devel-1.26
+	>=dev-perl/Catalyst-Devel-1.260.0
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/CatalystX-Component-Traits
 	dev-perl/Catalyst-Action-REST
