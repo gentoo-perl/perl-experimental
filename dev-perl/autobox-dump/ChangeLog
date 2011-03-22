@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/autobox-dump
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*autobox-dump-20090426.174.600 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +autobox-dump-20090426.174.600.ebuild, +metadata.xml:
+  Added for perl5i
+
