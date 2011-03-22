@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Date-ISO8601
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Date-ISO8601-0.3.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Date-ISO8601-0.3.0.ebuild,
+  +metadata.xml:
+  Added for DateTime-TimeZone-SystemV
+
