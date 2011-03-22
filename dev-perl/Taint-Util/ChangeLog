@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Taint-Util
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Taint-Util-0.80.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Taint-Util-0.80.0.ebuild,
+  +metadata.xml:
+  Added for perl5i
+
