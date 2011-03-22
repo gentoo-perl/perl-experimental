@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Hash-FieldHash
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Hash-FieldHash-0.100.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Hash-FieldHash-0.100.0.ebuild, +metadata.xml:
+  Added for Object-ID
+
