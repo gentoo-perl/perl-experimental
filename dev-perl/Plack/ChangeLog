@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> Plack-0.996.100.ebuild,
+  Plack-0.996.200.ebuild, Plack-0.996.300.ebuild, Plack-0.996.700.ebuild,
+  Plack-0.996.800.ebuild, Plack-0.996.900.ebuild, Plack-0.997.ebuild,
+  Plack-0.997.300.ebuild, Plack-0.997.400.ebuild:
+  Fixdep HTTP-Body
+
 *Plack-0.997.400 (04 Mar 2011)
 
   04 Mar 2011; Torsten Veller <tove@gentoo.org> +Plack-0.997.400.ebuild:
