@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=4
 
 MODULE_AUTHOR=LBROCARD
 MODULE_VERSION="2.31"

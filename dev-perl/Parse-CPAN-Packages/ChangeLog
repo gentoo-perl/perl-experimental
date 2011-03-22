@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  Parse-CPAN-Packages-2.310.0.ebuild:
+  EAPI/Check
+
 *Parse-CPAN-Packages-2.310.0 (22 Mar 2011)
 
   22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
