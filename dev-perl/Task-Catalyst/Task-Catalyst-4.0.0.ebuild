@@ -1,8 +1,9 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=3
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="4.00"
 inherit perl-module
 
 DESCRIPTION="All you need to start with Catalyst"
@@ -13,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 
-DEPEND="
+RDEPEND="
 	dev-perl/Catalyst-Authentication-Credential-HTTP
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	>=dev-perl/Catalyst-Devel-1.260.0
@@ -49,3 +50,5 @@ DEPEND="
 	dev-perl/Catalyst-Engine-HTTP-Prefork
 	dev-perl/Catalyst-Plugin-Authentication
 "
+DEPEND="${RDEPEND}"
+SRC_TEST="do"
