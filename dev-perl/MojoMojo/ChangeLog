@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com> MojoMojo-0.999.42.ebuild,
+  MojoMojo-1.10.0.ebuild, MojoMojo-1.20.0.ebuild, MojoMojo-1.30.0.ebuild,
+  MojoMojo-1.40.0.ebuild:
+  Fixdep Catalyst-Plugin-SubRequest
+
 *MojoMojo-1.40.0 (14 Mar 2011)
 
   14 Mar 2011; Kent Fredric <kentfredric@gmail.com> +MojoMojo-1.40.0.ebuild:

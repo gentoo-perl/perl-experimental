@@ -36,7 +36,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-Store-Cache
 	dev-perl/Catalyst-Plugin-Setenv
 	>=dev-perl/Catalyst-Plugin-Static-Simple-0.07
-	>=dev-perl/Catalyst-Plugin-SubRequest-0.15
+	>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
 	>=dev-perl/Catalyst-Plugin-Unicode-0.8
 	>=dev-perl/Catalyst-View-TT-0.23
 	>=dev-perl/Catalyst-View-JSON-0.26
