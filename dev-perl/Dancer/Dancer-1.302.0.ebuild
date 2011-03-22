@@ -16,7 +16,7 @@ comment() { echo ''; }
 
 COMMON_DEPEND="
 	dev-perl/libwww-perl
-	>=dev-perl/HTTP-Body-1.07
+	>=dev-perl/HTTP-Body-1.70.0
 	>=dev-perl/HTTP-Server-Simple-PSGI-0.110.0
 	dev-perl/MIME-Types
 	dev-perl/URI
