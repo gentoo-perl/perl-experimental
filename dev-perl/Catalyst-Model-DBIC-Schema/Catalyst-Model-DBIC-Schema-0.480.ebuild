@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Tie-IxHash
 	dev-perl/Try-Tiny
 	catalyst_helper? (
-		>=dev-perl/Catalyst-Devel-1.0
+		>=dev-perl/Catalyst-Devel-1.0.0
 		>=dev-perl/DBIx-Class-Schema-Loader-0.40.50
 		>=dev-perl/MooseX-NonMoose-0.150
 	)
