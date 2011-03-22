@@ -82,7 +82,7 @@ conflict Catalyst-Controller-AllowDisable 0.03
 conflict Reaction 0.001999
 conflict Catalyst-Plugin-Upload-Image-Magick 0.03
 conflict Catalyst-Plugin-ConfigLoader 0.22
-conflict Catalyst-Devel 1.190
+conflict Catalyst-Devel 1.190.0
 conflict Catalyst-Plugin-SmartURI 0.032
 conflict CatalystX-CRUD 0.37
 conflict Catalyst-Action-RenderView 0.07

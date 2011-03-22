@@ -55,7 +55,7 @@ COMMON_DEPEND="
 
 	dev-perl/B-Hooks-OP-Check-StashChange
 	!<=dev-perl/Catalyst-View-Mason-0.17
-	!<=dev-perl/Catalyst-Devel-1.19
+	!<=dev-perl/Catalyst-Devel-1.190.0
 
 "
 RDEPEND="
