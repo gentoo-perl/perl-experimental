@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DateTime-Format-Epoch
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DateTime-Format-Epoch-0.130.0 (22 Mar 2011)
+
+  22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +DateTime-Format-Epoch-0.130.0.ebuild, +metadata.xml:
+  Added for perl5i
+
