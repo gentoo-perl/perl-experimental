@@ -67,7 +67,7 @@ test-depend Test-Exception
 test-depend-virtual Test-Simple 0.88 # Test::More
 test-depend Data-Dump
 
-conflict Catalyst-Plugin-SubRequest 0.14
+conflict Catalyst-Plugin-SubRequest 0.140.0
 conflict Catalyst-Model-Akismet 0.02
 conflict Catalyst-Component-ACCEPT_CONTEXT 0.06
 conflict Catalyst-Plugin-ENV
