@@ -2,6 +2,30 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-NonMoose-0.180.0 (23 Mar 2011)
+*MooseX-NonMoose-0.170.0 (23 Mar 2011)
+*MooseX-NonMoose-0.160.0 (23 Mar 2011)
+*MooseX-NonMoose-0.150.0 (23 Mar 2011)
+*MooseX-NonMoose-0.140.0 (23 Mar 2011)
+*MooseX-NonMoose-0.110.0 (23 Mar 2011)
+*MooseX-NonMoose-0.90.0 (23 Mar 2011)
+*MooseX-NonMoose-0.80.0 (23 Mar 2011)
+*MooseX-NonMoose-0.70.0 (23 Mar 2011)
+*MooseX-NonMoose-0.50.0 (23 Mar 2011)
+
+  23 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-NonMoose-0.50.ebuild, +MooseX-NonMoose-0.50.0.ebuild,
+  -MooseX-NonMoose-0.70.ebuild, +MooseX-NonMoose-0.70.0.ebuild,
+  -MooseX-NonMoose-0.80.ebuild, +MooseX-NonMoose-0.80.0.ebuild,
+  -MooseX-NonMoose-0.90.ebuild, +MooseX-NonMoose-0.90.0.ebuild,
+  -MooseX-NonMoose-0.110.ebuild, +MooseX-NonMoose-0.110.0.ebuild,
+  -MooseX-NonMoose-0.140.ebuild, +MooseX-NonMoose-0.140.0.ebuild,
+  -MooseX-NonMoose-0.150.ebuild, +MooseX-NonMoose-0.150.0.ebuild,
+  -MooseX-NonMoose-0.160.ebuild, +MooseX-NonMoose-0.160.0.ebuild,
+  -MooseX-NonMoose-0.170.ebuild, +MooseX-NonMoose-0.170.0.ebuild,
+  -MooseX-NonMoose-0.180.ebuild, +MooseX-NonMoose-0.180.0.ebuild:
+  Addzeros
+
 *MooseX-NonMoose-0.200.0 (23 Mar 2011)
 
   23 Mar 2011; Kent Fredric <kentfredric@gmail.com>
