@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Class-Inspector
 	dev-perl/Class-Unload
 	>=dev-perl/Moose-1.12
-	>=dev-perl/MooseX-NonMoose-0.150
+	>=dev-perl/MooseX-NonMoose-0.150.0
 	>=dev-perl/namespace-autoclean-0.09
 	>=dev-perl/Data-Dumper-Concise-1.200
 	dev-perl/Scope-Guard
