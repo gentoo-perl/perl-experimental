@@ -27,7 +27,7 @@ RDEPEND="
 	catalyst_helper? (
 		>=dev-perl/Catalyst-Devel-1.0.0
 		>=dev-perl/DBIx-Class-Schema-Loader-0.40.50
-		>=dev-perl/MooseX-NonMoose-0.150
+		>=dev-perl/MooseX-NonMoose-0.150.0
 	)
 	caching? (
 		dev-perl/DBIx-Class-Cursor-Cached

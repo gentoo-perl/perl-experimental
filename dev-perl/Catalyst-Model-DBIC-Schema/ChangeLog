@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Model-DBIC-Schema-0.480.ebuild:
+  Fixdep MooseX-NonMoose (addzero)
+
   22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Model-DBIC-Schema-0.410.ebuild,
   Catalyst-Model-DBIC-Schema-0.430.ebuild,
