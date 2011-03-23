@@ -5,6 +5,7 @@
 EAPI="4"
 
 MODULE_AUTHOR=CREAMYG
+MODULE_VERSION="0.311"
 inherit perl-module
 
 DESCRIPTION="search engine library"
