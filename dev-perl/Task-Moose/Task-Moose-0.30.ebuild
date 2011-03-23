@@ -27,7 +27,7 @@ COMMON_DEPEND="
 		dev-perl/MooseX-GlobRef
 		dev-perl/MooseX-InsideOut
 		>=dev-perl/MooseX-Singleton-0.200
-		>=dev-perl/MooseX-NonMoose-0.60
+		>=dev-perl/MooseX-NonMoose-0.60.0
 	)
 	declare? (
 		dev-perl/MooseX-Declare
