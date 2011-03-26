@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Cave-Wrapper
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Cave-Wrapper-0.10.0.20 (26 Mar 2011)
+
+  26 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Cave-Wrapper-0.10.0.20.ebuild, -Cave-Wrapper-0.01000002.ebuild:
+  Migrate to new Version scheme
+
