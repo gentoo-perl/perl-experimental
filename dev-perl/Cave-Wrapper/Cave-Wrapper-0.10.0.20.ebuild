@@ -1,7 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=4
 MODULE_AUTHOR=KENTNL
 MODULE_VERSION="0.01000002"
 inherit perl-module
@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	sys-apps/paludis
+	>=sys-apps/paludis-0.50.0
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
