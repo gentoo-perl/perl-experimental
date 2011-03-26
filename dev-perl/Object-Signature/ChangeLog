@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Object-Signature-1.70.0 (26 Mar 2011)
+
+  26 Mar 2011; Kent Fredric <kentfredric@gmail.com>
+  +Object-Signature-1.70.0.ebuild:
+  Bump
+
   26 Mar 2011; Kent Fredric <kentfredric@gmail.com>
   Object-Signature-1.40.0.ebuild, Object-Signature-1.50.0.ebuild:
   QA, EAPI=3, +SRC TEST
