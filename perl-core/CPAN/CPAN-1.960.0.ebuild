@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="query, download and build perl modules from CPAN sites"
 
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="build readline -interesting"
 
 PATCHES=(

@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Mar 2011; Kent Fredric <kentfredric@gmail.com> CPAN-1.960.0.ebuild:
+  ~arch keywords
+
 *CPAN-1.960.0 (12 Mar 2011)
 
   12 Mar 2011; Kent Fredric <kentfredric@gmail.com> +CPAN-1.960.0.ebuild:
