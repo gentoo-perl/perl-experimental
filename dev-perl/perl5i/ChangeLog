@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl5i-2.6.1 (26 Mar 2011)
+
+  26 Mar 2011; Kent Fredric <kentfredric@gmail.com> +perl5i-2.6.1.ebuild:
+  Bump
+
 *perl5i-2.6.0 (22 Mar 2011)
 
   22 Mar 2011; Kent Fredric <kentfredric@gmail.com> +perl5i-2.6.0.ebuild,
