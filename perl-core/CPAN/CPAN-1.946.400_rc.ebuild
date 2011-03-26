@@ -12,7 +12,7 @@ DESCRIPTION="query, download and build perl modules from CPAN sites"
 
 SLOT="0"
 KEYWORDS=""
-IUSE="build readline -interesting"
+IUSE="readline -interesting"
 
 PATCHES=(
 	"${FILESDIR}/${MODULE_VERSION}/0001-Apply-1.94-Makefile.patch.patch"
@@ -20,51 +20,49 @@ PATCHES=(
 )
 RDEPEND="
 	>=dev-lang/perl-5.8.8-r8
-	!build? (
-		virtual/perl-ExtUtils-MakeMaker
-		virtual/perl-File-Path
-		dev-perl/YAML-Syck
-		virtual/perl-File-Spec
-		virtual/perl-File-Temp
-		virtual/perl-MIME-Base64
-		virtual/perl-Digest-MD5
-	    virtual/perl-Scalar-List-Utils
-		>=virtual/perl-Test-Harness-2.62
-		>=virtual/perl-Test-Simple-0.62
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Path
+	dev-perl/YAML-Syck
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-MIME-Base64
+	virtual/perl-Digest-MD5
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Harness-2.62
+	>=virtual/perl-Test-Simple-0.62
 
+	|| (
+		dev-perl/libwww-perl
+		>=dev-perl/HTTP-Tiny-0.5
+	)
+
+	interesting? (
+		virtual/perl-Archive-Tar
+		dev-perl/Archive-Zip
+		dev-perl/Compress-Bzip2
+		virtual/perl-IO-Compress
+		dev-perl/CPAN-Checksums
+		virtual/perl-Digest-SHA
+		virtual/perl-ExtUtils-CBuilder
+		dev-perl/File-HomeDir
+		dev-perl/File-Which
+		virtual/perl-IO-Zlib
+		dev-perl/libwww-perl
+		virtual/perl-Module-Build
+		dev-perl/Module-Signature
+		virtual/perl-libnet
+		virtual/perl-Parse-CPAN-Meta
+		dev-perl/TermReadKey
+		virtual/perl-Test-Simple
+		dev-perl/Text-Glob
+		virtual/perl-Text-Tabs+Wrap
+		dev-perl/yaml
+		dev-perl/YAML-LibYAML
+	)
+	readline? (
 		|| (
-			dev-perl/libwww-perl
-			>=dev-perl/HTTP-Tiny-0.5
-		)
-
-		interesting? (
-			virtual/perl-Archive-Tar
-			dev-perl/Archive-Zip
-			dev-perl/Compress-Bzip2
-			virtual/perl-IO-Compress
-			dev-perl/CPAN-Checksums
-			virtual/perl-Digest-SHA
-			virtual/perl-ExtUtils-CBuilder
-			dev-perl/File-HomeDir
-			dev-perl/File-Which
-			virtual/perl-IO-Zlib
-			dev-perl/libwww-perl
-			virtual/perl-Module-Build
-			dev-perl/Module-Signature
-			virtual/perl-libnet
-			virtual/perl-Parse-CPAN-Meta
-			dev-perl/TermReadKey
-			virtual/perl-Test-Simple
-			dev-perl/Text-Glob
-			virtual/perl-Text-Tabs+Wrap
-			dev-perl/yaml
-			dev-perl/YAML-LibYAML
-		)
-		readline? (
-			|| (
-				dev-perl/Term-ReadLine-Perl
-				dev-perl/Term-ReadLine-GNU
-			)
+			dev-perl/Term-ReadLine-Perl
+			dev-perl/Term-ReadLine-Gnu
 		)
 	)
 "

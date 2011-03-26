@@ -12,7 +12,7 @@ DESCRIPTION="query, download and build perl modules from CPAN sites"
 
 SLOT="0"
 KEYWORDS=""
-IUSE="build readline"
+IUSE="readline"
 
 PATCHES=(
 	"${FILESDIR}/1.94-Makefile.patch"
@@ -20,12 +20,10 @@ PATCHES=(
 )
 RDEPEND="
 	>=dev-lang/perl-5.8.8-r8
-	!build? (
-		readline? (
-			|| (
-				dev-perl/Term-ReadLine-Perl
-				dev-perl/Term-ReadLine-GNU
-			)
+	readline? (
+		|| (
+			dev-perl/Term-ReadLine-Perl
+			dev-perl/Term-ReadLine-Gnu
 		)
 	)
 "
