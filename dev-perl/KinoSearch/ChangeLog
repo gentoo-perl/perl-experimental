@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*KinoSearch-0.313.0 (26 Mar 2011)
+
+  26 Mar 2011; Kent Fredric <kentfredric@gmail.com> +KinoSearch-0.313.0.ebuild:
+  Bump
+
   23 Mar 2011; Kent Fredric <kentfredric@gmail.com> -KinoSearch-0.165.0.ebuild:
   removed, nolonger builds
 
