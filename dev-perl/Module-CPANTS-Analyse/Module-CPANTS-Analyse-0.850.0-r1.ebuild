@@ -31,7 +31,7 @@ COMMON_DEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/File-Find-Rule
 	dev-perl/Readonly
-	>=dev-perl/Software-License-0.003
+	>=dev-perl/Software-License-0.3
 	dev-perl/File-Slurp
 	>=dev-perl/Text-CSV_XS-0.45
 	dev-perl/libwww-perl
