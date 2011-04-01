@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=JQUELIN
+MODULE_VERSION=1.092870
 inherit perl-module
 
 DESCRIPTION="common tests to check syntax of your modules
