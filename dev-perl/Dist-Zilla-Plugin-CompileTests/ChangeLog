@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-CompileTests
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dist-Zilla-Plugin-CompileTests-1.110.870 (01 Apr 2011)
+
+  01 Apr 2011; Torsten Veller <tove@gentoo.org>
+  +Dist-Zilla-Plugin-CompileTests-1.110.870.ebuild:
+  Version bump
 
 *Dist-Zilla-Plugin-CompileTests-1.103030 (05 Nov 2010)
 
