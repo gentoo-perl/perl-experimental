@@ -52,7 +52,7 @@ COMMON_DEPEND="
 	>=dev-perl/Perl-PrereqScanner-0.100830
 	dev-perl/Perl-Version
 	>=dev-perl/Pod-Eventual-0.091480
-	>=dev-perl/Software-License-0.101370
+	>=dev-perl/Software-License-0.101.370
 	>=dev-perl/String-Formatter-0.100.680
 	>=dev-perl/String-RewritePrefix-0.005
 	dev-perl/Sub-Exporter

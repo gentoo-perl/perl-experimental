@@ -76,7 +76,7 @@ depend Perl-PrereqScanner 0.100830
 depend Perl-Version
 depend Pod-Eventual 0.091480
 depend-virtual Scalar-List-Utils # Scalar::Util
-depend Software-License 0.101370
+depend Software-License 0.101.370
 # Software::LicenseUtils -> depend Software-License
 depend String-Formatter 0.100680
 depend String-RewritePrefix 0.005
