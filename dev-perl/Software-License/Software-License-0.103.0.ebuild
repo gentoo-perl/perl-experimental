@@ -2,9 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
 MODULE_AUTHOR=RJBS
+MODULE_VERSION=0.103000
 inherit perl-module
 
 DESCRIPTION="Packages that provide templated software licenses"
