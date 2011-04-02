@@ -19,4 +19,3 @@ DEPEND="${RDEPEND}
 	virtual/perl-Test-Simple
 "
 SRC_TEST="do"
-
