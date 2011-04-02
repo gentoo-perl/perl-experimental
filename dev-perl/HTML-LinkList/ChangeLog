@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/HTML-LinkList
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTML-LinkList-0.150.300 (02 Apr 2011)
+
+  02 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-LinkList-0.150.300.ebuild, -HTML-LinkList-0.1503.ebuild:
+  Migrate, EAPI=3, DEPEND fix, SRC_TEST
+
