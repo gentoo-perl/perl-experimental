@@ -58,5 +58,11 @@ DEPEND="
 		>=virtual/perl-Test-Simple-0.92
 	)
 "
-
+pkg_pretend() {
+	if has_version "<=dev-perl/HTML-FormFu-0.09000"; then
+		eerror "Sorry, in order to upgrade to HTML-FormFu 0.90.0 or greater you"
+		eerror "need to first remove older versions."
+		die "Installation requirements not met"
+	fi
+}
 SRC_TEST=do
