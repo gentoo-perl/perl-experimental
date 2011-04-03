@@ -1,0 +1,13 @@
+# ChangeLog for virtual/perl-Data-Dumper
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Data-Dumper-2.128.0 (03 Apr 2011)
+*perl-Data-Dumper-2.125.0 (03 Apr 2011)
+*perl-Data-Dumper-2.124.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Data-Dumper-2.124.0.ebuild, +perl-Data-Dumper-2.125.0.ebuild,
+  +perl-Data-Dumper-2.128.0.ebuild, +metadata.xml:
+  Added for Data::Dumper
+
