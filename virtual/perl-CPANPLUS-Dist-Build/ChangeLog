@@ -1,0 +1,14 @@
+# ChangeLog for virtual/perl-CPANPLUS-Dist-Build
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-CPANPLUS-Dist-Build-0.540.0 (03 Apr 2011)
+*perl-CPANPLUS-Dist-Build-0.460.0 (03 Apr 2011)
+*perl-CPANPLUS-Dist-Build-0.360.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-CPANPLUS-Dist-Build-0.360.0.ebuild,
+  +perl-CPANPLUS-Dist-Build-0.460.0.ebuild,
+  +perl-CPANPLUS-Dist-Build-0.540.0.ebuild, +metadata.xml:
+  Added for perl-core/CPANPLUS-Dist-Build
+
