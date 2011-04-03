@@ -2,6 +2,22 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-POE-0.211.0 (03 Apr 2011)
+*MooseX-POE-0.210.0 (03 Apr 2011)
+*MooseX-POE-0.209.0 (03 Apr 2011)
+*MooseX-POE-0.208.0 (03 Apr 2011)
+*MooseX-POE-0.207.0 (03 Apr 2011)
+*MooseX-POE-0.205.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com> -MooseX-POE-0.205.ebuild,
+  +MooseX-POE-0.205.0.ebuild, -MooseX-POE-0.207.ebuild,
+  +MooseX-POE-0.207.0.ebuild, -MooseX-POE-0.208.ebuild,
+  +MooseX-POE-0.208.0.ebuild, -MooseX-POE-0.209.ebuild,
+  +MooseX-POE-0.209.0.ebuild, -MooseX-POE-0.210.ebuild,
+  +MooseX-POE-0.210.0.ebuild, -MooseX-POE-0.211.ebuild,
+  +MooseX-POE-0.211.0.ebuild:
+  Migrate to x.y.z
+
 *MooseX-POE-0.211 (08 Jan 2011)
 
   08 Jan 2011; Torsten Veller <tove@gentoo.org> +MooseX-POE-0.211.ebuild:
