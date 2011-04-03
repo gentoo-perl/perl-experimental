@@ -21,12 +21,19 @@ virtual/perl-Filter-Simple
 perl-core/Devel-SelfStubber
 virtual/perl-Devel-SelfStubber
 perl-core/if
+virtual/perl-if
 perl-core/IPC-SysV
+virtual/perl-IPC-SysV
 perl-core/NEXT
+virtual/perl-NEXT
 perl-core/Pod-LaTeX
+virtual/perl-Pod-LaTeX
 perl-core/Pod-Plainer
+virtual/perl-Pod-Plainer
 perl-core/Unicode-Collate
+virtual/perl-Unicode-Collate
 perl-core/Unicode-Normalize
+virtual/perl-Unicode-Normalize
 
 # Kent Fredric <kentfredric@gmail.com> (22 Jan 2011)
 # Mask Moose 2.0 pre-releases, they break LOTS of things. 
