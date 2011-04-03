@@ -1,13 +1,19 @@
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
+virtual/perl-B-Debug
 perl-core/B-Lint
+virtual/perl-B-Lint
 perl-core/CPANPLUS-Dist-Build
+virtual/perl-CPANPLUS-Dist-Build
 perl-core/Data-Dumper
+virtual/perl-Data-Dumper
 perl-core/Devel-DProf
+virtual/perl-Devel-DProf
 perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Dumpvalue
+virtual/perl-Dumpvalue
 perl-core/ExtUtils-Constant
 perl-core/Filter-Simple
 perl-core/Devel-SelfStubber
