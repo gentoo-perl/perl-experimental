@@ -1,0 +1,16 @@
+# ChangeLog for virtual/perl-Unicode-Collate
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Unicode-Collate-0.740.0 (03 Apr 2011)
+*perl-Unicode-Collate-0.730.0 (03 Apr 2011)
+*perl-Unicode-Collate-0.520.100_rc (03 Apr 2011)
+*perl-Unicode-Collate-0.520.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Unicode-Collate-0.520.0.ebuild,
+  +perl-Unicode-Collate-0.520.100_rc.ebuild,
+  +perl-Unicode-Collate-0.730.0.ebuild, +perl-Unicode-Collate-0.740.0.ebuild,
+  +metadata.xml:
+  added
+
