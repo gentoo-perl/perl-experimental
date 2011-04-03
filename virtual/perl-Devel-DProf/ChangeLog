@@ -1,0 +1,12 @@
+# ChangeLog for virtual/perl-Devel-DProf
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Devel-DProf-20110228.0.0 (03 Apr 2011)
+*perl-Devel-DProf-20080331.0.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Devel-DProf-20080331.0.0.ebuild, +perl-Devel-DProf-20110228.0.0.ebuild,
+  +metadata.xml:
+  Added for Devel::DProf
+
