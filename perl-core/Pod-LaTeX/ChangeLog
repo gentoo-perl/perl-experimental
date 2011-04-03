@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Pod-LaTeX-0.590.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com> -Pod-LaTeX-0.59.ebuild,
+  +Pod-LaTeX-0.590.0.ebuild:
+  Migrate to new vscheme
+
 *Pod-LaTeX-0.59 (11 Mar 2011)
 
   11 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Pod-LaTeX-0.59.ebuild,

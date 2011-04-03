@@ -3,6 +3,7 @@
 # $Header: $
 EAPI="3"
 MODULE_AUTHOR=TJENNESS
+MODULE_VERSION="0.59"
 inherit perl-module
 
 DESCRIPTION="Convert Pod data to formatted Latex"
