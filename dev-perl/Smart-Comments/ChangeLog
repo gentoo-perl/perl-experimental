@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Smart-Comments-1.0.3.ebuild, Smart-Comments-1.0.4.ebuild:
+  QA Fixes, annotate the dependencies, remove the rubbish version magic in
+  favour of MODULE_VERSION
+
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
   Smart-Comments-1.0.4.ebuild:
   MB dep fix

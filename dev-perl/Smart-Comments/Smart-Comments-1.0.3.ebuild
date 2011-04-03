@@ -1,11 +1,10 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=3
 MODULE_AUTHOR=DCONWAY
-MY_P="${PN}-v${PV}"
-S="${WORKDIR}/${MY_P}"
+MODULE_VERSION="v1.0.3"
 inherit perl-module
 DESCRIPTION="Comments that do more than just sit there"
 LICENSE="|| ( Artistic GPL-2 )"
@@ -14,14 +13,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
+comment() { echo  ''; }
 DEPEND="
 	virtual/perl-Text-Balanced
+	virtual/perl-Test-Simple
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-version
+	$(comment virtual/perl-Data-Dumper)
+	$(comment virtual/perl-Filter-Simple)
 "
-# Data::Dumper
-# Filter::Simple
-# List::Util
-# Test::More
 
 RDEPEND="${DEPEND}"
 SRC_TEST="do"

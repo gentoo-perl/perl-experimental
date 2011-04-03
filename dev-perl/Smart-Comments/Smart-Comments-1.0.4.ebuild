@@ -2,10 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=4
 MODULE_AUTHOR=CHORNY
-#MY_P="${PN}-v${PV}"
-#S="${WORKDIR}/${MY_P}"
+MODULE_VERSION=1.0.4
 inherit perl-module
 DESCRIPTION="Comments that do more than just sit there"
 LICENSE="|| ( Artistic GPL-2 )"
@@ -14,13 +13,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
+comment() { echo ''; }
 RDEPEND="
 	virtual/perl-Text-Balanced
 	virtual/perl-version
-	virtual/perl-Filter
+	$(comment virtual/perl-Filter-Simple)
+	$(comment virtual/perl-Data-Dumper)
 	virtual/perl-Scalar-List-Utils
 "
-# Data::Dumper
 
 DEPEND="${DEPEND}
 	virtual/perl-Module-Build
