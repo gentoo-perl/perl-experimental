@@ -1,0 +1,13 @@
+# ChangeLog for virtual/perl-Pod-Plainer
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Pod-Plainer-1.30.0 (03 Apr 2011)
+*perl-Pod-Plainer-1.20.0 (03 Apr 2011)
+*perl-Pod-Plainer-1.10.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Pod-Plainer-1.10.0.ebuild, +perl-Pod-Plainer-1.20.0.ebuild,
+  +perl-Pod-Plainer-1.30.0.ebuild, +metadata.xml:
+  Added
+
