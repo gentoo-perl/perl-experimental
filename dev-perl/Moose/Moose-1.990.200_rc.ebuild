@@ -40,7 +40,7 @@ conflict MooseX-HasDefaults 0.20;
 conflict MooseX-InstanceTracking 0.40;
 conflict MooseX-LazyRequire 0.50;
 conflict MooseX-NonMoose 0.150.0;
-conflict MooseX-POE 0.205;
+conflict MooseX-POE 0.205.0;
 conflict MooseX-Params-Validate 0.50;
 conflict MooseX-Role-Cmd 0.60;
 conflict MooseX-Role-WithOverloading 0.070;
