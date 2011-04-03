@@ -1,0 +1,13 @@
+# ChangeLog for virtual/perl-B-Lint
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-B-Lint-1.120.0 (03 Apr 2011)
+*perl-B-Lint-1.110.100_rc (03 Apr 2011)
+*perl-B-Lint-1.110.0 (03 Apr 2011)
+
+  03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-B-Lint-1.110.0.ebuild, +perl-B-Lint-1.110.100_rc.ebuild,
+  +perl-B-Lint-1.120.0.ebuild, +metadata.xml:
+  Added for B::Lint
+
