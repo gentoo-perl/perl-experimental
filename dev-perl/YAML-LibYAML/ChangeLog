@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/YAML-LibYAML
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*YAML-LibYAML-0.340.0 (04 Apr 2011)
+*YAML-LibYAML-0.330.0 (04 Apr 2011)
+*YAML-LibYAML-0.320.0 (04 Apr 2011)
+
+  04 Apr 2011; Kent Fredric <kentfredric@gmail.com> -YAML-LibYAML-0.32.ebuild,
+  -YAML-LibYAML-0.33.ebuild, -YAML-LibYAML-0.34.ebuild,
+  +YAML-LibYAML-0.320.0.ebuild, +YAML-LibYAML-0.330.0.ebuild,
+  +YAML-LibYAML-0.340.0.ebuild:
+  Migrate to x.y.z
 
 *YAML-LibYAML-0.34 (27 Sep 2010)
 
