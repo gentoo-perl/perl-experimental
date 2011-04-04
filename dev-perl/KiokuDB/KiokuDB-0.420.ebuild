@@ -37,7 +37,7 @@ COMMON_DEPEND="
 	>=dev-perl/Search-GIN-0.03
 	>=dev-perl/JSON-2.12
 	>=dev-perl/JSON-XS-2.2.3.1
-	>=dev-perl/YAML-LibYAML-0.30
+	>=dev-perl/YAML-LibYAML-0.300.0
 	virtual/perl-Storable
 	>=dev-perl/PadWalker-1.9
 	virtual/perl-Digest-SHA

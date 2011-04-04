@@ -26,7 +26,7 @@ COMMON_DEPEND="
 	>=dev-perl/PadWalker-1.9
 	>=dev-perl/Search-GIN-0.03
 	>=dev-perl/Set-Object-1.26
-	>=dev-perl/YAML-LibYAML-0.30
+	>=dev-perl/YAML-LibYAML-0.300.0
 	>=dev-perl/namespace-clean-0.08
 	>=virtual/perl-IO-1.23
 	dev-perl/Data-UUID
