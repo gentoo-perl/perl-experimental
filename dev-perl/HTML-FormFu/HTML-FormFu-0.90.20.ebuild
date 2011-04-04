@@ -46,7 +46,7 @@ COMMON_DEPEND="
 	dev-perl/Readonly
 	dev-perl/regexp-common
 	dev-perl/Path-Class
-	>=dev-perl/YAML-LibYAML-0.32
+	>=dev-perl/YAML-LibYAML-0.320.0
 	dev-perl/Template-Toolkit
 "
 RDEPEND="${COMMON_DEPEND}"

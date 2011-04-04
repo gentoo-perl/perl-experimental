@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -42,7 +42,7 @@ COMMON_DEPEND="
 	dev-perl/Readonly
 	dev-perl/regexp-common
 	dev-perl/Path-Class
-	>=dev-perl/YAML-LibYAML-0.32
+	>=dev-perl/YAML-LibYAML-0.320.0
 	dev-perl/Template-Toolkit
 "
 RDEPEND="${COMMON_DEPEND}"

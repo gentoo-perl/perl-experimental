@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Apr 2011; Kent Fredric <kentfredric@gmail.com> HTML-FormFu-0.90.20.ebuild,
+  HTML-FormFu-0.07002.ebuild, HTML-FormFu-0.08002.ebuild:
+  Fixdep on YAML::LibYAML
+
   02 Apr 2011; Kent Fredric <kentfredric@gmail.com> HTML-FormFu-0.90.20.ebuild:
   Add fix to move the error related to upgrading to happen during pkg-pretend
   instead of during src_configure
