@@ -1,0 +1,30 @@
+From a748ae9e83e90244b0d48147085fc223743ebd8a Mon Sep 17 00:00:00 2001
+From: Kent Fredric <kentfredric@gmail.com>
+Date: Thu, 18 Nov 2010 15:38:06 +1300
+Subject: [PATCH 2/2] Add RUNPATH patch from ::gentoo
+
+---
+ lib/ExtUtils/MM_Any.pm |    7 +++++++
+ 1 files changed, 7 insertions(+), 0 deletions(-)
+
+diff --git a/lib/ExtUtils/MM_Any.pm b/lib/ExtUtils/MM_Any.pm
+index 3ea0947..dde1628 100644
+--- a/lib/ExtUtils/MM_Any.pm
++++ b/lib/ExtUtils/MM_Any.pm
+@@ -1900,6 +1900,13 @@ CODE
+             # LD_RUN_PATH now computed by ExtUtils::Liblist
+             ($self->{EXTRALIBS},  $self->{BSLOADLIBS}, 
+              $self->{LDLOADLIBS}, $self->{LD_RUN_PATH}) = @libs;
++            # We do not want the build root in RPATH
++            if ( exists $ENV{PORTAGE_TMPDIR} ){
++                # If we have a PORTAGE_TMPDIR set, strip that, as just testing for
++                # /usr and /opt might not be sufficient.
++                $self->{LD_RUN_PATH} = join ':', grep !/^\Q$ENV{PORTAGE_TMPDIR}/,
++                                       split /:/, $self->{LD_RUN_PATH};
++            }
+             last;
+         }
+     }
+-- 
+1.7.4.rc1
+
