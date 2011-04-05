@@ -3,6 +3,7 @@
 # $Header: $
 EAPI="3"
 MODULE_AUTHOR=JAWNSY
+MODULE_VERSION="1.009"
 inherit perl-module
 
 DESCRIPTION="Author test that validates a package MANIFEST"
