@@ -1,0 +1,12 @@
+diff -Naur a/lib/Audio/Extract/PCM/Format.pm b/lib/Audio/Extract/PCM/Format.pm
+--- a/lib/Audio/Extract/PCM/Format.pm
++++ b/lib/Audio/Extract/PCM/Format.pm
+@@ -5,7 +5,7 @@
+ use base qw(Class::Accessor::Fast);
+ use List::Util qw(max);
+ use List::MoreUtils qw(any);
+-use base qw(Exporter);
++use Exporter qw(import);
+ 
+ use constant AEPF => __PACKAGE__;
+ our @EXPORT = qw(AEPF);
