@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION=0.01037118
 inherit perl-module
 
 DESCRIPTION="Time-Relative versioning"

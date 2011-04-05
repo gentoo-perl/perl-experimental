@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-AutoVersion-Relative-0.10.371.180 (05 Apr 2011)
+
+  05 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-AutoVersion-Relative-0.10.371.180.ebuild,
+  -Dist-Zilla-Plugin-AutoVersion-Relative-0.01037118.ebuild:
+  Migrate to x.y.z
+
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Plugin-AutoVersion-Relative-0.01037118.ebuild:
   Fix dependency on Dist::Zilla
