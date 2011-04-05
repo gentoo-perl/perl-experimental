@@ -15,7 +15,7 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-perl/Class-Load-0.06 $(comment 0.60.0)
 	>=dev-perl/Dist-Zilla-4.101.612
-	>=dev-perl/Dist-Zilla-Plugin-AutoVersion-Relative-0.01035617 $(comment 0.10.356.170)
+	>=dev-perl/Dist-Zilla-Plugin-AutoVersion-Relative-0.10.356.170
 	>=dev-perl/Dist-Zilla-Plugin-CompileTests-1.110.930
 	dev-perl/Dist-Zilla-Plugin-CPANChangesTests
 	>=dev-perl/Dist-Zilla-Plugin-CriticTests-1.102280 $(comment 1.102.280)
