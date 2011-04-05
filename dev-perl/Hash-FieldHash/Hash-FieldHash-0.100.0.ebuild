@@ -23,7 +23,7 @@ DEPEND="
 	${COMMON_DEPEND}
 	$(comment CONFIGURE REQUIRES)
 	>=virtual/perl-ExtUtils-MakeMaker-6.42 $(comment 6.420.0)
-	>=virtual/perl-Devel-PPPort-3.19 $(comment 3.190.0)
+	>=virtual/perl-Devel-PPPort-3.190.0
 	test? (
 		>=virtual/perl-Test-Simple-0.62 $(comment 0.620.0)
 		>=dev-perl/Test-LeakTrace-0.70.0
