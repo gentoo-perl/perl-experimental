@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-ModuleInstall
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-ModuleInstall-0.10.540.200 (05 Apr 2011)
+
+  05 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-ModuleInstall-0.10.540.200.ebuild, +metadata.xml:
+  Added
+
