@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 COMMON_DEPEND="
-	>=dev-perl/Cache-Ref-0.02
+	>=dev-perl/Cache-Ref-0.20.0
 	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
 	>=dev-perl/Data-Stream-Bulk-0.08
 	>=dev-perl/Data-Visitor-0.24

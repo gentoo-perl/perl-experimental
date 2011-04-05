@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Apr 2011; Kent Fredric <kentfredric@gmail.com> KiokuDB-0.480.ebuild,
+  KiokuDB-0.490.ebuild, KiokuDB-0.500.ebuild, KiokuDB-0.510.0.ebuild:
+  Fixdep Cache-Ref
+
   04 Apr 2011; Kent Fredric <kentfredric@gmail.com> KiokuDB-0.420.ebuild,
   KiokuDB-0.480.ebuild, KiokuDB-0.490.ebuild, KiokuDB-0.500.ebuild,
   KiokuDB-0.510.0.ebuild:
