@@ -31,7 +31,7 @@ DEPEND="
 	!!<=dev-perl/KinoSearch-0.20
 	>=virtual/perl-ExtUtils-CBuilder-0.18
 	>=virtual/perl-ExtUtils-ParseXS-2.16
-	>=virtual/perl-Devel-PPPort-3.13
+	>=virtual/perl-Devel-PPPort-3.130.0
 "
 kino_api_changed() {
 	elog "This package ( $P ) includes a new API incompatible with <= 0.20."
