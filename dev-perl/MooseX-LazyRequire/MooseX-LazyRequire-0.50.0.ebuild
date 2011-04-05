@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
-	>=dev-perl/aliased-0.30
+	>=dev-perl/aliased-0.300.0
 	dev-perl/Moose
 "
 DEPEND="${RDEPEND}
