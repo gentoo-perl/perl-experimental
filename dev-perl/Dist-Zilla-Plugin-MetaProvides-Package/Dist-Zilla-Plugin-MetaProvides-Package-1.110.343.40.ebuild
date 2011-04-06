@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="1.11034304"
 inherit perl-module
 
 DESCRIPTION="Extract namespaces/version from traditional packages for provides"
