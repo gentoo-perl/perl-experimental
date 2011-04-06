@@ -7,6 +7,13 @@
   Dist-Zilla-PluginBundle-Author-KENTNL-1.0.3.ebuild,
   Dist-Zilla-PluginBundle-Author-KENTNL-1.0.4.ebuild,
   Dist-Zilla-PluginBundle-Author-KENTNL-1.0.5.ebuild:
+  Fixdep Dist-Zilla-Plugin-MetaProvides-Package
+
+  06 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.2.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.3.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.4.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.5.ebuild:
   [fixdep] Dist-Zilla-PluginBundle-Author-KENTNL ->
   Dist-Zilla-Plugin-MetaProvides 
 
