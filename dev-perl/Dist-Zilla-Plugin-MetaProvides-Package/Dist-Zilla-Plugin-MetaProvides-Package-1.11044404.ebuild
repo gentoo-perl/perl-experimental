@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.11034201
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.110.342.10
 	>=dev-perl/Module-Extract-Namespaces-0.14
 	>=dev-perl/Module-Extract-VERSION-0.13
 	dev-perl/Moose

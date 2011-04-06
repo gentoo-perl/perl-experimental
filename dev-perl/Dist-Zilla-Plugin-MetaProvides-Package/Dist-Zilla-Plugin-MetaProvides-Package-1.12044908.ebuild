@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+metanoindex"
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.12044806[metanoindex=]
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.120.448.60[metanoindex=]
 	>=dev-perl/Module-Extract-Namespaces-0.14
 	>=dev-perl/Module-Extract-VERSION-0.13
 	dev-perl/Moose
