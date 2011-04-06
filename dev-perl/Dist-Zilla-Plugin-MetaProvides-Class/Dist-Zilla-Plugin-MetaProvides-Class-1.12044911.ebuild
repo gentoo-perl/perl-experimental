@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="+metanoindex"
 COMMON_DEPEND="
 	dev-perl/Class-Discover
-	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.12044806[metanoindex=]
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.120.448.60[metanoindex=]
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
 	dev-perl/namespace-autoclean
