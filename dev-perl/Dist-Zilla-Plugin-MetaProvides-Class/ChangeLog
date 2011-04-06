@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-MetaProvides-Class-1.120.449.110 (06 Apr 2011)
+*Dist-Zilla-Plugin-MetaProvides-Class-1.110.444.60 (06 Apr 2011)
+
+  06 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MetaProvides-Class-1.110.444.60.ebuild,
+  +Dist-Zilla-Plugin-MetaProvides-Class-1.120.449.110.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-Class-1.11044406.ebuild,
+  -Dist-Zilla-Plugin-MetaProvides-Class-1.12044911.ebuild:
+  Migrate
+
   06 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Plugin-MetaProvides-Class-1.11044406.ebuild,
   Dist-Zilla-Plugin-MetaProvides-Class-1.12044911.ebuild:

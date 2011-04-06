@@ -3,24 +3,24 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="1.11044406"
 inherit perl-module
 
 DESCRIPTION="Scans Dist::Zilla's .pm files and tries to identify classes using Class::Discover"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="+metanoindex"
+IUSE=""
 COMMON_DEPEND="
 	dev-perl/Class-Discover
-	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.120.448.60[metanoindex=]
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.110.444.50
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
 	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.01000011
-	dev-perl/Test-Fatal
+	>=dev-perl/Dist-Zilla-4.0
 	>=virtual/perl-Module-Build-0.36.01
 	>=virtual/perl-Test-Simple-0.88
 	virtual/perl-File-Temp
