@@ -16,7 +16,7 @@ COMMON_DEPEND="
 	$(comment virtual/perl-Carp)
 	dev-perl/Class-Load
 	dev-perl/Config-INI $(comment Config::INI::Reader)
-	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.11034201
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.110.342.10
 	$(comment ^^ ::ProvideRecord )
 	$(comment ^^ MetaProvides 1.110.342.10)
 	$(comment ^^ ::MetaProvider::Provider)
