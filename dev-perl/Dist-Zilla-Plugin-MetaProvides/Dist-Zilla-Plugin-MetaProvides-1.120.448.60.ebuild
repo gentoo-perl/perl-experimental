@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="1.12044806"
 inherit perl-module
 
 DESCRIPTION="Generating and Populating 'provides' in your META.yml"
