@@ -30,13 +30,13 @@ PDEPEND="
 	package? (
 		dev-perl/Dist-Zilla-Plugin-MetaProvides-Package
 		metanoindex? (
-			>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.11044404
+			>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.110.444.40
 		)
 	)
 	class? (
 		dev-perl/Dist-Zilla-Plugin-MetaProvides-Class
 		metanoindex? (
-			>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.11044406
+			>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Class-1.110.444.60
 		)
 	)
 "
