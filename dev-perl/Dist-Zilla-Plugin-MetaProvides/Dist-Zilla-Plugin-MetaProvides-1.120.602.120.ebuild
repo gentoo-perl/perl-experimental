@@ -45,7 +45,7 @@ PDEPEND="
 	)
 "
 DEPEND="
-	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.01000004 $(comment 0.10.0.40)
+	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.10.0.40
 	$(comment virtual/perl-English)
 	$(comment virtual/perl-File-Find)
 	virtual/perl-File-Temp

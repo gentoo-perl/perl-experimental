@@ -30,7 +30,7 @@ PDEPEND="
 "
 DEPEND="
 	>=virtual/perl-Module-Build-0.36.01
-	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.01000004
+	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.10.0.40
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.88
 	${COMMON_DEPEND}
