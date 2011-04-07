@@ -1,6 +1,18 @@
 # ChangeLog for dev-perl/MooseX-Has-Sugar
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-Has-Sugar-0.50.556.160 (07 Apr 2011)
+*MooseX-Has-Sugar-0.50.466.110 (07 Apr 2011)
+*MooseX-Has-Sugar-0.50.443.30 (07 Apr 2011)
+*MooseX-Has-Sugar-0.40.500 (07 Apr 2011)
+
+  07 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Has-Sugar-0.40.500.ebuild, +MooseX-Has-Sugar-0.50.443.30.ebuild,
+  +MooseX-Has-Sugar-0.50.466.110.ebuild, +MooseX-Has-Sugar-0.50.556.160.ebuild,
+  -MooseX-Has-Sugar-0.0405.ebuild, -MooseX-Has-Sugar-0.05044303.ebuild,
+  -MooseX-Has-Sugar-0.05046611.ebuild, -MooseX-Has-Sugar-0.05055616.ebuild:
+  migrate to new versioning scheme
 
 *MooseX-Has-Sugar-0.05055616 (17 Nov 2010)
 

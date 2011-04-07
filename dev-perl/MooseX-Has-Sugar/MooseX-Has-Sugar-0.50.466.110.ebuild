@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="0.05046611"
 inherit perl-module
 
 DESCRIPTION="Sugar Syntax for moose 'has' fields"
@@ -24,19 +25,19 @@ PERL_CONFIGURE_REQUIRES="
 "
 PERL_BUILD_REQUIRES="
 	>=virtual/perl-Module-Build-0.36.01
+"
+PERL_TEST_REQUIRES="
 	>=virtual/perl-Test-Simple-0.88
 	dev-perl/Moose
+	dev-perl/MooseX-Types
 	dev-perl/Test-Exception
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Temp
 "
-PERL_TEST_REQUIRES="test? (
-
-)"
 
 DEPEND="${PERL_REQUIRES}"
-DEPEND="${DEPEND} ${PERL_BUILD_REQUIRES}"
-#DEPEND="${DEPEND} ${PERL_TEST_REQUIRES}"
+DEPEND="${DEPEND} ${PERL_BUILD_REQUIRES} ${PERL_TEST_REQUIRES}"
+#DEPEND="${DEPEND} ${PERL_BUILD_REQUIRES} test? ( ${PERL_TEST_REQUIRES} )"
 
 RDEPEND="
 	${PERL_REQUIRES}
