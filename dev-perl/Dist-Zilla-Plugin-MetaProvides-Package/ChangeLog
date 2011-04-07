@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-MetaProvides-Package-1.120.449.80.ebuild,
+  Dist-Zilla-Plugin-MetaProvides-Package-1.120.602.130.ebuild:
+  fixdep Dist-Zilla-Util-Test-KENTNL
+
 *Dist-Zilla-Plugin-MetaProvides-Package-1.120.602.130 (06 Apr 2011)
 
   06 Apr 2011; Kent Fredric <kentfredric@gmail.com>
