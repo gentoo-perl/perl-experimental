@@ -20,7 +20,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.01000011
+	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.10.0.110
 	dev-perl/Test-Fatal
 	>=virtual/perl-Module-Build-0.36.01
 	>=virtual/perl-Test-Simple-0.88

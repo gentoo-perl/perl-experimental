@@ -23,7 +23,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.01000011 $(comment 0.10.0.110)
+	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.10.0.110
 	$(comment virtual/perl-English)
 	$(comment virtual/perl-File-Find)
 	virtual/perl-File-Temp
