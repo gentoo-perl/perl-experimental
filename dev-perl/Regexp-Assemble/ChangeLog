@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Regexp-Assemble
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Regexp-Assemble-0.350.0 (09 Apr 2011)
+
+  09 Apr 2011; Torsten Veller <tove@gentoo.org>
+  +Regexp-Assemble-0.350.0.ebuild:
+  Version bump
+
