@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-Uploader-0.103.0 (09 Apr 2011)
+
+  09 Apr 2011; Torsten Veller <tove@gentoo.org> +CPAN-Uploader-0.103.0.ebuild:
+  Version bump
+
 *CPAN-Uploader-0.102.150 (15 Feb 2011)
 *CPAN-Uploader-0.101.670 (15 Feb 2011)
 
