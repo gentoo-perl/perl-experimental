@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Test-JSON
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Apr 2011; Kent Fredric <kentfredric@gmail.com> Test-JSON-0.11.ebuild:
+  Add Module::Build dep
 
 *Test-JSON-0.11 (13 Aug 2009)
 
