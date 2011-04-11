@@ -24,5 +24,6 @@
 		<flag name="spreadsheet">Excel/CSV Spreadsheet Tools</flag>
 		<flag name="email">Email Tools</flag>
 		<flag name="scalability">Scalarbility Tools</flag>
+		<flag name="logging">Logging Tools</flag>
 	</use>
 </pkgmetadata>
