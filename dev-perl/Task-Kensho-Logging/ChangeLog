@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Task-Kensho-Logging
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Task-Kensho-Logging-0.10.0 (11 Apr 2011)
+
+  11 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Task-Kensho-Logging-0.10.0.ebuild, +metadata.xml:
+  Added for Task::Kensho
+

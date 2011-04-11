@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="logdispatch">Install <pkg>dev-perl/log-dispatch</pkg></flag>
+		<flag name="log4perl">Install <pkg>dev-perl/Log-Log4perl</pkg></flag>
+		<flag name="logcontextual">Install
+			<pkg>dev-perl/Log-Contextual</pkg></flag>
+	</use>
+</pkgmetadata>
