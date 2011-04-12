@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 
 MODULE_AUTHOR=NKH
+MODULE_VERSION="1.02.71"
 inherit perl-module
 
 DESCRIPTION="gtk2-perl application to draw ASCII diagrams"

@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/App-Asciio
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-Asciio-1.2.71 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com> -App-Asciio-1.02.71.ebuild,
+  +App-Asciio-1.2.71.ebuild:
+  Migrate
 
   26 Oct 2009; Kent Fredric <kentfredric@gmail.com>
   App-Asciio-1.02.71.ebuild:
