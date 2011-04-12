@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Algorithm-Merge-0.80.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Algorithm-Merge-0.80.ebuild, +Algorithm-Merge-0.80.0.ebuild:
+  Add Zero
+
 *Algorithm-Merge-0.80 (12 Feb 2011)
 
   12 Feb 2011; Torsten Veller <tove@gentoo.org> -Algorithm-Merge-0.08.ebuild,
