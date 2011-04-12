@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*autobox-Core-1.200.0 (12 Apr 2011)
+*autobox-Core-0.600.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com> -autobox-Core-0.6.ebuild,
+  +autobox-Core-0.600.0.ebuild, -autobox-Core-1.2.ebuild,
+  +autobox-Core-1.200.0.ebuild:
+  Migrate
+
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com> autobox-Core-0.6.ebuild,
   autobox-Core-1.2.ebuild:
   Fixdep autobox

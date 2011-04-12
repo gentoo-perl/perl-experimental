@@ -3,6 +3,7 @@
 # $Header: $
 
 MODULE_AUTHOR=SWALTERS
+MODULE_VERSION="1.2"
 inherit perl-module
 
 DESCRIPTION="Methods for core built-in functions in primitive types"
