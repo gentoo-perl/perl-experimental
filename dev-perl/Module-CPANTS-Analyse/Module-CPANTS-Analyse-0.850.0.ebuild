@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/Module-ExtractUse-0.18
 	>=virtual/perl-Module-Pluggable-2.96
 	>=dev-perl/IO-Capture-0.05
-	>=dev-perl/Array-Diff-0.40
+	>=dev-perl/Array-Diff-0.40.0
 	>=dev-perl/Test-YAML-Meta-0.110
 	>=virtual/perl-version-0.73
 	dev-perl/List-MoreUtils
