@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Business-Tax-VAT-Validation-0.200.0 (12 Apr 2011)
+*Business-Tax-VAT-Validation-0.190.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Business-Tax-VAT-Validation-0.19.ebuild,
+  +Business-Tax-VAT-Validation-0.190.0.ebuild,
+  -Business-Tax-VAT-Validation-0.200.ebuild,
+  +Business-Tax-VAT-Validation-0.200.0.ebuild:
+  Migrate/Addzero
+
 *Business-Tax-VAT-Validation-0.200 (12 Feb 2011)
 
   12 Feb 2011; Torsten Veller <tove@gentoo.org>
