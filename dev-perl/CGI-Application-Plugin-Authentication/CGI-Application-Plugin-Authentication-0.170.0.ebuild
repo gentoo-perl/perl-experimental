@@ -24,7 +24,7 @@ RDEPEND="
 	recommended? (
 		virtual/perl-Digest-MD5
 		dev-perl/CGI-Application-Plugin-Session
-		>=dev-perl/Apache-Htpasswd-1.800
+		>=dev-perl/Apache-Htpasswd-1.800.0
 		>=dev-perl/Color-Calc-0.120.0
 	)
 
