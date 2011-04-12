@@ -2,6 +2,19 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*B-Hooks-OP-Check-EntersubForCV-0.60.0 (12 Apr 2011)
+*B-Hooks-OP-Check-EntersubForCV-0.50.0 (12 Apr 2011)
+*B-Hooks-OP-Check-EntersubForCV-0.40.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -B-Hooks-OP-Check-EntersubForCV-0.40.ebuild,
+  +B-Hooks-OP-Check-EntersubForCV-0.40.0.ebuild,
+  -B-Hooks-OP-Check-EntersubForCV-0.50.ebuild,
+  +B-Hooks-OP-Check-EntersubForCV-0.50.0.ebuild,
+  -B-Hooks-OP-Check-EntersubForCV-0.60.ebuild,
+  +B-Hooks-OP-Check-EntersubForCV-0.60.0.ebuild:
+  Addzero
+
 *B-Hooks-OP-Check-EntersubForCV-0.50 (12 Feb 2011)
 *B-Hooks-OP-Check-EntersubForCV-0.40 (12 Feb 2011)
 
