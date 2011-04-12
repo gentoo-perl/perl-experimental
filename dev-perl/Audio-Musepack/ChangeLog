@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Audio-Musepack-0.700.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com> -Audio-Musepack-0.7.ebuild,
+  +Audio-Musepack-0.700.0.ebuild:
+  Migrate
+
 *Audio-Musepack-1.0.1 (02 Jan 2011)
 
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com>
