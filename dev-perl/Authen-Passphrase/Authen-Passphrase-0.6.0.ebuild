@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=ZEFRAM
+MODULE_VERSION="0.006"
 inherit perl-module
 
 DESCRIPTION="hashed passwords/passphrases as objects"
@@ -11,10 +12,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Authen-DecHpwd-2.003
+	>=dev-perl/Authen-DecHpwd-2.3.0
 	>=dev-perl/Crypt-Blowfish-2.00
 	dev-perl/Crypt-DES
-	>=dev-perl/Crypt-Eksblowfish-0.008
+	>=dev-perl/Crypt-Eksblowfish-0.005
 	>=dev-perl/Crypt-MySQL-0.03
 	>=dev-perl/Crypt-PasswdMD5-1.0
 	>=dev-perl/Crypt-UnixCrypt_XS-0.08
@@ -24,7 +25,7 @@ COMMON_DEPEND="
 	>=virtual/perl-Digest-MD5-1.9953
 	dev-perl/Digest-SHA1
 	>=virtual/perl-MIME-Base64-2.21
-	>=dev-perl/Module-Runtime-0.0056
+	>=dev-perl/Module-Runtime-0.005
 	dev-perl/Params-Classify
 "
 DEPEND="

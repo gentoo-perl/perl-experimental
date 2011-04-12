@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Authen-Passphrase
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Authen-Passphrase-0.7.0 (12 Apr 2011)
+*Authen-Passphrase-0.6.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Authen-Passphrase-0.006.ebuild, +Authen-Passphrase-0.6.0.ebuild,
+  -Authen-Passphrase-0.007.ebuild, +Authen-Passphrase-0.7.0.ebuild:
+  Migrate, fixdep Authen-DecHpwd
 
 *Authen-Passphrase-0.007 (10 Aug 2010)
 
