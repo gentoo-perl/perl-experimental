@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/B-Hooks-OP-Check-EntersubForCV-0.30
+	>=dev-perl/B-Hooks-OP-Check-EntersubForCV-0.30.0
 "
 DEPEND="
 	${COMMON_DEPEND}

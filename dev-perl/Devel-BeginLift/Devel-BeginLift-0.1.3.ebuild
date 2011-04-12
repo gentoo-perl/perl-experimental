@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-perl/B-Hooks-OP-Check-EntersubForCV-0.30"
+RDEPEND=">=dev-perl/B-Hooks-OP-Check-EntersubForCV-0.30.0"
 DEPEND="${RDEPEND}"
 
 SRC_TEST="do"
