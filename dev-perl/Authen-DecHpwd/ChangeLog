@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Authen-DecHpwd
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Authen-DecHpwd-2.5.0 (12 Apr 2011)
+*Authen-DecHpwd-2.4.0 (12 Apr 2011)
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Authen-DecHpwd-2.004.ebuild, +Authen-DecHpwd-2.4.0.ebuild,
+  -Authen-DecHpwd-2.005.ebuild, +Authen-DecHpwd-2.5.0.ebuild:
+  Migrate
 
 *Authen-DecHpwd-2.005 (05 Aug 2010)
 
