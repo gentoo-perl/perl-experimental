@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/App-Cache-0.370
+	>=dev-perl/App-Cache-0.370.0
 	>=dev-perl/CPAN-DistnameInfo-0.90.0
 	>=dev-perl/CLASS-1.00
 	dev-perl/libwww-perl
