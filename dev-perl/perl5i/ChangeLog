@@ -4,6 +4,10 @@
 
   12 Apr 2011; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
   perl5i-2.6.1.ebuild:
+  Fixdep autovivification
+
+  12 Apr 2011; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
+  perl5i-2.6.1.ebuild:
   Fixdep autobox-Core
 
 *perl5i-2.6.1 (26 Mar 2011)
