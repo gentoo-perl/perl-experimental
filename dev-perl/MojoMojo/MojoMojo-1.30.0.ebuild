@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Algorithm-Merge
 	>=dev-perl/Archive-Zip-1.14
 	>=dev-perl/MRO-Compat-0.10
-	>=dev-perl/Cache-FastMmap-1.29
+	>=dev-perl/Cache-FastMmap-1.290.0
 	>=dev-perl/Catalyst-Runtime-5.700.100
 	>=dev-perl/Catalyst-Action-RenderView-0.07
 	>=dev-perl/Catalyst-Authentication-Store-DBIx-Class-0.101
