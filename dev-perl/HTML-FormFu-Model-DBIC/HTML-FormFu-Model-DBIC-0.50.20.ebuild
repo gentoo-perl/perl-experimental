@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBD-SQLite
 	>=dev-perl/DBIx-Class-0.08106
-	>=dev-perl/HTML-FormFu-0.05000
+	>=dev-perl/HTML-FormFu-0.50.0
 "
 DEPEND="
 	${RDEPEND}

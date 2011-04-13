@@ -18,7 +18,7 @@ IUSE="test"
 COMMON_DEPEND="
 	dev-perl/DBD-SQLite
 	>=dev-perl/DBIx-Class-0.08108
-	>=dev-perl/HTML-FormFu-0.05000
+	>=dev-perl/HTML-FormFu-0.50.0
 "
 DEPEND="
 	${COMMON_DEPEND}
