@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Apr 2011; Kent Fredric <kentfredric@gmail.com> HTML-FormFu-0.90.20.ebuild:
+  Fixdep in package_pretend
+
 *HTML-FormFu-0.80.20 (13 Apr 2011)
 *HTML-FormFu-0.70.20 (13 Apr 2011)
 
