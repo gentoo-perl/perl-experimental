@@ -57,7 +57,7 @@ RDEPEND="
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/File-MMagic-1.27
 	>=dev-perl/HTML-Parser-3.60
-	>=dev-perl/HTML-FormFu-0.02000
+	>=dev-perl/HTML-FormFu-0.20.0
 	dev-perl/HTML-FormFu-Model-DBIC
 	>=dev-perl/HTML-Strip-1.04
 	dev-perl/HTML-Defang
@@ -87,7 +87,7 @@ RDEPEND="
 		dev-perl/SQL-Translator
 	)
 	recaptcha? (
-		>=dev-perl/HTML-FormFu-0.03004
+		>=dev-perl/HTML-FormFu-0.30.40
 	)
 	syntaxhighlight? (
 		dev-perl/Syntax-Highlight-Engine-Kate
