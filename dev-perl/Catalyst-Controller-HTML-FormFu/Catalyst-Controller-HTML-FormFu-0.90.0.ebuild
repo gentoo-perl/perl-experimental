@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.710.010
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
-	>=dev-perl/HTML-FormFu-0.04001
+	>=dev-perl/HTML-FormFu-0.40.10
 	>=dev-perl/MRO-Compat-0.10
 	dev-perl/Moose
 	dev-perl/Regexp-Assemble
