@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dancer-1.303.0 (13 Apr 2011)
+
+  13 Apr 2011; Kent Fredric <kentfredric@gmail.com> +Dancer-1.303.0.ebuild:
+  Bump
+
   22 Mar 2011; Kent Fredric <kentfredric@gmail.com> Dancer-1.301.400.ebuild,
   Dancer-1.302.0.ebuild:
   Fixdep HTTP-Body
