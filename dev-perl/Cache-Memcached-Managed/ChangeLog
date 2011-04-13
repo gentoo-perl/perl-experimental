@@ -1,0 +1,17 @@
+# ChangeLog for dev-perl/Cache-Memcached-Managed
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Cache-Memcached-Managed-0.200.0 (13 Apr 2011)
+*Cache-Memcached-Managed-0.190.0-r1 (13 Apr 2011)
+*Cache-Memcached-Managed-0.190.0 (13 Apr 2011)
+
+  13 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Cache-Memcached-Managed-0.19.ebuild,
+  -Cache-Memcached-Managed-0.19-r1.ebuild,
+  -Cache-Memcached-Managed-0.20.ebuild,
+  +Cache-Memcached-Managed-0.190.0.ebuild,
+  +Cache-Memcached-Managed-0.190.0-r1.ebuild,
+  +Cache-Memcached-Managed-0.200.0.ebuild:
+  Migrate
+
