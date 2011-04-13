@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Apr 2011; Kent Fredric <kentfredric@gmail.com> metadata.xml:
+  Remove tocgen from meta
+
   13 Apr 2011; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
   MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild:
   Fixdep Catalyst-Controller-HTML-FormFu

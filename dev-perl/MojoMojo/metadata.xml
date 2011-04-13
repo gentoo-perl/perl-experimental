@@ -17,6 +17,5 @@
     <flag name="rssformatter">RSS Formatter</flag>
     <flag name="emoticons">Emoticons</flag>
     <flag name="recaptcha">reCAPTCHA for anonymous edits</flag>
-    <flag name="tocgen">Deprecated</flag>
   </use>
 </pkgmetadata>
