@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 COMMON_DEPEND="
-	>=dev-perl/Captcha-reCAPTCHA-0.93
+	>=dev-perl/Captcha-reCAPTCHA-0.930.0
 	dev-perl/Class-Accessor-Chained
 	>=dev-perl/Clone-0.31
 	>=dev-perl/Config-Any-0.18

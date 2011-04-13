@@ -2,6 +2,15 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormFu-0.80.20 (13 Apr 2011)
+*HTML-FormFu-0.70.20 (13 Apr 2011)
+
+  13 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormFu-0.70.20.ebuild, +HTML-FormFu-0.80.20.ebuild,
+  HTML-FormFu-0.90.20.ebuild, -HTML-FormFu-0.07002.ebuild,
+  -HTML-FormFu-0.08002.ebuild:
+  Migrate, Fixdep Captcha-reCAPTCHA
+
   04 Apr 2011; Kent Fredric <kentfredric@gmail.com> HTML-FormFu-0.90.20.ebuild,
   HTML-FormFu-0.07002.ebuild, HTML-FormFu-0.08002.ebuild:
   Fixdep on YAML::LibYAML
