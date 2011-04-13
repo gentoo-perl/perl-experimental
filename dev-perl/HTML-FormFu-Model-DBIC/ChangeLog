@@ -2,6 +2,19 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormFu-Model-DBIC-0.80.20 (13 Apr 2011)
+*HTML-FormFu-Model-DBIC-0.60.0 (13 Apr 2011)
+*HTML-FormFu-Model-DBIC-0.50.20 (13 Apr 2011)
+
+  13 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormFu-Model-DBIC-0.50.20.ebuild,
+  +HTML-FormFu-Model-DBIC-0.60.0.ebuild,
+  +HTML-FormFu-Model-DBIC-0.80.20.ebuild,
+  -HTML-FormFu-Model-DBIC-0.05002.ebuild,
+  -HTML-FormFu-Model-DBIC-0.06000.ebuild,
+  -HTML-FormFu-Model-DBIC-0.08002.ebuild:
+  Migrate
+
 *HTML-FormFu-Model-DBIC-0.90.0 (01 Apr 2011)
 
   01 Apr 2011; Torsten Veller <tove@gentoo.org>
