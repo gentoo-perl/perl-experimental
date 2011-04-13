@@ -77,7 +77,7 @@ conflict Catalyst-Authentication-Credential-HTTP 1.009
 conflict Catalyst-Plugin-Session-Store-File 0.16
 conflict Catalyst-Plugin-Session 0.21
 conflict Catalyst-Plugin-Session-State-Cookie 0.10
-conflict Catalyst-Plugin-Session-Store-FastMmap 0.09
+conflict Catalyst-Plugin-Session-Store-FastMmap 0.90.0
 conflict Catalyst-Controller-AllowDisable 0.03
 conflict Reaction 0.001999
 conflict Catalyst-Plugin-Upload-Image-Magick 0.03
