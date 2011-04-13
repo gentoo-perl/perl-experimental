@@ -39,7 +39,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
 	>=dev-perl/Catalyst-Plugin-Unicode-0.8
 	>=dev-perl/Catalyst-View-TT-0.23
-	>=dev-perl/Catalyst-View-JSON-0.26
+	>=dev-perl/Catalyst-View-JSON-0.260.0
 	>=dev-perl/Catalyst-View-Email-0.14
 	dev-perl/Config-JFDI
 	>=dev-perl/crypt-cbc-2.12
