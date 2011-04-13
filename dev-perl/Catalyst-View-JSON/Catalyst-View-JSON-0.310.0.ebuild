@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=MIYAGAWA
+MODULE_VERSION="0.31"
 inherit perl-module
 
 DESCRIPTION="JSON View Class"
