@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-4.101.540
-	>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.01000101
+	>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10
 	dev-perl/Hash-Merge-Simple
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
