@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="0.01000515"
 inherit perl-module
 
 DESCRIPTION="Nasty tools for probing Dist::Zilla's internal state."

@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="0.01000101"
 inherit perl-module
 
 DESCRIPTION="Nasty tools for probing Dist::Zilla's internal state."
@@ -25,8 +26,8 @@ DEPEND="
 	>=dev-perl/Dist-Zilla-Util-Test-KENTNL-0.10.0.110
 	virtual/perl-File-Temp
 	>=virtual/perl-Module-Build-0.36.01
-	>=dev-perl/Test-Fatal-0.003
-	>=virtual/perl-Test-Simple-0.96
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-0.88
 "
 RDEPEND="
 	${COMMON_DEPEND}
