@@ -14,7 +14,7 @@ IUSE="+fromfile +package +class +metanoindex"
 comment() { echo ''; }
 COMMON_DEPEND="
 	dev-perl/Dist-Zilla $(comment Role::MetaProvider since 1.7.0)
-	>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.01000101 $(comment 0.10.1.10)
+	>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10
 	dev-perl/Moose
 	$(comment Moose::Role)
 	dev-perl/MooseX-Types

@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+fromfile +package +class +metanoindex"
 COMMON_DEPEND="
-	>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.01000101
+	>=dev-perl/Dist-Zilla-Util-EmulatePhase-0.10.1.10
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
