@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="0.01014716"
 inherit perl-module
 
 DESCRIPTION="Report what versions of things your distribution was built against"
