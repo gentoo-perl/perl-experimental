@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-Packer-1.0.0 (15 Apr 2011)
+*HTML-Packer-0.400.0 (15 Apr 2011)
+
+  15 Apr 2011; Kent Fredric <kentfredric@gmail.com> -HTML-Packer-0.400.ebuild,
+  +HTML-Packer-0.400.0.ebuild, -HTML-Packer-1.ebuild,
+  +HTML-Packer-1.0.0.ebuild:
+  Addzero, Fixdep -> Regexp-RegGrp
+
 *HTML-Packer-1 (30 Jan 2011)
 
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com> +HTML-Packer-1.ebuild:
