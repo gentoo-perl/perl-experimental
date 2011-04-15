@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-LogDispatch
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-LogDispatch-1.2000.ebuild, MooseX-LogDispatch-1.2002.ebuild:
+  Fixdep Log-Dispatch-Config
 
 *MooseX-LogDispatch-1.2002 (29 Apr 2010)
 

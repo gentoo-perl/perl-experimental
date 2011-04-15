@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	dev-perl/Moose
-	>dev-perl/Log-Dispatch-Config-0.05
+	>=dev-perl/Log-Dispatch-Config-0.50.0
 "
 DEPEND="
 	${COMMON_DEPEND}
