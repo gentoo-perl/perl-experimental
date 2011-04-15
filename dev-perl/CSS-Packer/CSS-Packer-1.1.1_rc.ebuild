@@ -5,17 +5,17 @@
 EAPI=4
 
 MODULE_AUTHOR=NEVESENIN
-MODULE_VERSION="1.000"
+MODULE_VERSION="1.001_001"
 inherit perl-module perl-declaredeps
 
 DESCRIPTION="Another CSS minifier"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE=""
 
 test-depend-virtual Test-Simple ; # Test::More
-depend Regexp-RegGrp 1.0.0;
+depend Regexp-RegGrp 1.1.1_rc;
 
 ddep_setup;
 
