@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 test-depend-virtual Test-Simple # Test::More
-depend Regexp-RegGrp 1
+depend Regexp-RegGrp 1.0.0
 
 ddep_setup
 
