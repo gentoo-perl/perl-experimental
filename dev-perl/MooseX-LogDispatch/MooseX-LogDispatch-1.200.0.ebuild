@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=JGOULAH
+MODULE_VERSION="1.2000"
 inherit perl-module
 
 DESCRIPTION="A Logging Role for Moose"
