@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Search-GIN-Extract-ClassMap-0.10.608.150 (15 Apr 2011)
+
+  15 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Search-GIN-Extract-ClassMap-0.10.608.150.ebuild:
+  bump
+
 *Search-GIN-Extract-ClassMap-0.10.23.120 (22 Jan 2011)
 
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
