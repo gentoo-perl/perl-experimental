@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CSS-Packer-1.0.0 (15 Apr 2011)
+*CSS-Packer-0.200.0 (15 Apr 2011)
+
+  15 Apr 2011; Kent Fredric <kentfredric@gmail.com> -CSS-Packer-0.200.ebuild,
+  +CSS-Packer-0.200.0.ebuild, -CSS-Packer-1.ebuild, +CSS-Packer-1.0.0.ebuild:
+  AddZero
+
 *CSS-Packer-1.0.1 (04 Mar 2011)
 
   04 Mar 2011; Torsten Veller <tove@gentoo.org> +CSS-Packer-1.0.1.ebuild:
