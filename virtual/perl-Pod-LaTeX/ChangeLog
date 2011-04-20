@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-Pod-LaTeX-0.590.0.ebuild:
+  Added 5.14
+
 *perl-Pod-LaTeX-0.590.0 (03 Apr 2011)
 *perl-Pod-LaTeX-0.580.0 (03 Apr 2011)
 
