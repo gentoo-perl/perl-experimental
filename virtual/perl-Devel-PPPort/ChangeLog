@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-Devel-PPPort-3.190.0.ebuild:
+  Added 5.14
+
 *perl-Devel-PPPort-3.190.200_rc (05 Apr 2011)
 
   05 Apr 2011; Kent Fredric <kentfredric@gmail.com>
