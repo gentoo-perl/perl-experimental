@@ -34,6 +34,8 @@ perl-core/Unicode-Collate
 virtual/perl-Unicode-Collate
 perl-core/Unicode-Normalize
 virtual/perl-Unicode-Normalize
+perl-core/constant
+virtual/perl-constant
 
 # Kent Fredric <kentfredric@gmail.com> (22 Jan 2011)
 # Mask Moose 2.0 pre-releases, they break LOTS of things. 
