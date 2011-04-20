@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com> perl-if-0.60.100.ebuild:
+  Added 5.14
+
 *perl-if-0.60.100 (03 Apr 2011)
 *perl-if-0.50.0 (03 Apr 2011)
 
