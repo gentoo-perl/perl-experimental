@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	>=dev-perl/System-Command-1.01
+	>=dev-perl/System-Command-1.10.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build

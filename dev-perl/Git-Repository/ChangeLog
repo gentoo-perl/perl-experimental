@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Git-Repository-1.170.0.ebuild:
+  Fixdep System::Command
+
 *Git-Repository-1.180.0 (20 Apr 2011)
 
   20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
