@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  Log-Contextual-0.3.40.ebuild:
+  Fix: broken due to missing comment function
+
 *Log-Contextual-0.3.40 (11 Apr 2011)
 
   11 Apr 2011; Kent Fredric <kentfredric@gmail.com>

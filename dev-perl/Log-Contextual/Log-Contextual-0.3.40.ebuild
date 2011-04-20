@@ -11,6 +11,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+comment() { echo ''; }
 COMMON_DEPEND="
 	dev-perl/Data-Dumper-Concise
 "
