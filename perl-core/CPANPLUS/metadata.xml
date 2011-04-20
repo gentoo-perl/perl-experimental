@@ -2,4 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<herd>perl</herd>
+	<use>
+		<flag name="cpantest">Install dependencies to enable CPAN Testers
+			features</flag>
+		<flag name="md5">Install dependencies to make MD5 checksum
+			support.</flag>
+		<flag name="signature">Install support for Module::Signature based
+			SIGNATURE files</flag>
+		<flag name="storable">Install support for the "Storable" backend</flag>
+		<flag name="sqlite_backend">Install support for using SQLite as a cache
+			for CPANPLUS</flag>
+	</use>
 </pkgmetadata>
