@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-Log-Message-0.040.ebuild:
+  Added 5.14
+
   10 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   perl-Log-Message-0.02.ebuild:
   fix for 5.12.3
