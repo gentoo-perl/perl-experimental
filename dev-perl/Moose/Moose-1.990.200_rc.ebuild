@@ -22,7 +22,7 @@ conflict Devel-REPL 1.003008 # OLD
 #conflict Devel-REPL 1.3.8 # NEW
 conflict Fey 0.360
 conflict Fey-ORM 0.350
-conflict File-ChangeNotify 0.150;
+conflict File-ChangeNotify 0.150.0;
 conflict KiokuDB 0.490;
 conflict Markdent 0.160;
 conflict MooseX-Aliases 0.70;
