@@ -12,4 +12,7 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="~perl-core/Devel-SelfStubber-${PV}"
+RDEPEND="|| (
+	~dev-lang/perl-5.14.0 ~dev-lang/perl-5.14.0_rc1
+	~perl-core/Devel-SelfStubber-${PV}
+)"
