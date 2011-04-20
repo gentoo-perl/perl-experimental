@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-CPANPLUS-Dist-Build-0.540.0.ebuild:
+  Add 5.14
+
 *perl-CPANPLUS-Dist-Build-0.560.0 (20 Apr 2011)
 
   20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
