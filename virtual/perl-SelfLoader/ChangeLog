@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-SelfLoader-1.180.0.ebuild:
+  Added 5.14
+
   03 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   perl-SelfLoader-1.170.0.ebuild:
   [fix] virtual for SelfLoader to be closer to corelist definition
