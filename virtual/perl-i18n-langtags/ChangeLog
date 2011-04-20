@@ -1,0 +1,52 @@
+# ChangeLog for virtual/perl-i18n-langtags
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/virtual/perl-i18n-langtags/ChangeLog,v 1.6 2011/01/22 10:14:48 tove Exp $
+
+*perl-i18n-langtags-0.350.100_rc-r1 (17 Jun 2011)
+
+  17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-i18n-langtags-0.350.100_rc.ebuild,
+  +perl-i18n-langtags-0.350.100_rc-r1.ebuild:
+  Update for perl-5.14.1 with star-match
+
+  17 May 2011; <kent@gentoo.org> perl-i18n-langtags-0.350.100_rc.ebuild:
+  Remove 5.14.0_rc depend
+
+  14 May 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-i18n-langtags-0.350.100_rc.ebuild:
+  Replace rc2 with rc3 for 5.14.0
+
+  08 May 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-i18n-langtags-0.350.100_rc.ebuild:
+  Update virtuals from _rc1 to _rc2
+
+*perl-i18n-langtags-0.350.100_rc (20 Apr 2011)
+
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-i18n-langtags-0.350.100_rc.ebuild, +metadata.xml:
+  Import from ::Gentoo, bump to 0.35_01 for perl 5.14
+
+  22 Jan 2011; Torsten Veller <tove@gentoo.org> perl-i18n-langtags-0.35.ebuild:
+  Add perl-5.12.3 as provider
+
+  06 Nov 2010; Torsten Veller <tove@gentoo.org>
+  perl-i18n-langtags-0.35.ebuild:
+  Add perl-5.12 as provider
+
+  07 Jan 2010; Torsten Veller <tove@gentoo.org>
+  perl-i18n-langtags-0.35.ebuild:
+  Set empty HOMEPAGE and LICENSE
+
+  07 Dec 2009; Torsten Veller <tove@gentoo.org> metadata.xml:
+  Add perl herd
+
+  25 Aug 2009; Torsten Veller <tove@gentoo.org>
+  perl-i18n-langtags-0.35.ebuild:
+  Add support for perl-5.10.1
+
+*perl-i18n-langtags-0.35 (10 Aug 2009)
+
+  10 Aug 2009; Torsten Veller <tove@gentoo.org>
+  +perl-i18n-langtags-0.35.ebuild, +metadata.xml:
+  Initial commit
+
