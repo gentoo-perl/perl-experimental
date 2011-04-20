@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-RDEPEND=">=dev-perl/Devel-Cover-0.43
+RDEPEND=">=dev-perl/Devel-Cover-0.430.0
 	virtual/perl-File-Spec"
 DEPEND="${RDEPEND}
 	test? ( dev-perl/Test-Pod
