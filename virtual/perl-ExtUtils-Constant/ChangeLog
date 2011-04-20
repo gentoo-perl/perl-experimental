@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-ExtUtils-Constant-0.230.0.ebuild:
+  Add 5.14
+
 *perl-ExtUtils-Constant-0.230.0 (03 Apr 2011)
 *perl-ExtUtils-Constant-0.220.0 (03 Apr 2011)
 
