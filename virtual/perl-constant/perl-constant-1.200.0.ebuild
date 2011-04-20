@@ -13,7 +13,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="
-	|| ( 
+	|| (
 		~dev-lang/perl-5.12.3
 		~dev-lang/perl-5.12.2
 	)
