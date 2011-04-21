@@ -1,0 +1,66 @@
+This is a suggested fix for http://code.google.com/p/www-mechanize/issues/detail?id=157
+It solves problems on machines with unusual DNS magic.
+
+diff --git a/t/back_ok.t b/t/back_ok.t
+index 7042c90..e75f0ce 100644
+--- a/t/back_ok.t
++++ b/t/back_ok.t
+@@ -47,14 +47,14 @@ GOOD_GET: {
+ }
+ 
+ BAD_GET: {
+-    my $badurl = 'http://wango.nonexistent.xx-only-testing/';
++    my $badurl = 'http://wango.nonexistent.xx-only-testing./';
+     $mech->get($badurl);
+     ok(!$mech->success, q{sanity check: we can't load NONEXISTENT.html});
+ 
+     test_out( 'not ok 1 - Try to get bad URL' );
+     test_fail( +3 );
+     test_diag( '500' );
+-    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing:80 (Bad hostname 'wango.nonexistent.xx-only-testing')} );
++    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing.:80 (Bad hostname 'wango.nonexistent.xx-only-testing.')} );
+     my $ok = $mech->get_ok( $badurl, 'Try to get bad URL' );
+     test_test( 'Fails to get nonexistent URI and reports failure' );
+ 
+diff --git a/t/get_ok.t b/t/get_ok.t
+index 4df896f..5b1ba87 100644
+--- a/t/get_ok.t
++++ b/t/get_ok.t
+@@ -48,14 +48,14 @@ GOOD_GET: {
+ }
+ 
+ BAD_GET: {
+-    my $badurl = 'http://wango.nonexistent.xx-only-testing/';
++    my $badurl = 'http://wango.nonexistent.xx-only-testing./';
+     $mech->get($badurl);
+     ok(!$mech->success, q{sanity check: we can't load NONEXISTENT.html});
+ 
+     test_out( 'not ok 1 - Try to get bad URL' );
+     test_fail( +3 );
+     test_diag( '500' );
+-    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing:80 (Bad hostname 'wango.nonexistent.xx-only-testing')} );
++    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing.:80 (Bad hostname 'wango.nonexistent.xx-only-testing.')} );
+     my $ok = $mech->get_ok( $badurl, 'Try to get bad URL' );
+     test_test( 'Fails to get nonexistent URI and reports failure' );
+ 
+diff --git a/t/head_ok.t b/t/head_ok.t
+index c123e70..e503a04 100644
+--- a/t/head_ok.t
++++ b/t/head_ok.t
+@@ -47,14 +47,14 @@ GOOD_HEAD: { # Stop giggling, you!
+ }
+ 
+ BAD_HEAD: {
+-    my $badurl = 'http://wango.nonexistent.xx-only-testing/';
++    my $badurl = 'http://wango.nonexistent.xx-only-testing./';
+     $mech->head($badurl);
+     ok(!$mech->success, q{sanity check: we can't load NONEXISTENT.html} );
+ 
+     test_out( 'not ok 1 - Try to HEAD bad URL' );
+     test_fail( +3 );
+     test_diag( '500' );
+-    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing:80 (Bad hostname 'wango.nonexistent.xx-only-testing')} );
++    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing.:80 (Bad hostname 'wango.nonexistent.xx-only-testing.')} );
+     my $ok = $mech->head_ok( $badurl, 'Try to HEAD bad URL' );
+     test_test( 'Fails to HEAD nonexistent URI and reports failure' );
+ 
