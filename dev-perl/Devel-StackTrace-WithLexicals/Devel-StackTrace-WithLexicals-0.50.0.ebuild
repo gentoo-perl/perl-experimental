@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 
 MODULE_AUTHOR=SARTAK
+MODULE_VERSION="0.05"
 inherit perl-module
 
 DESCRIPTION="Devel::StackTrace + PadWalker"
@@ -15,7 +16,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	>=dev-perl/Devel-StackTrace-1.22
-	>=dev-perl/PadWalker-1.9.2
+	dev-perl/PadWalker
 "
 DEPEND="${COMMON_DEPEND}"
 RDEPEND="${COMMON_DEPEND}"
