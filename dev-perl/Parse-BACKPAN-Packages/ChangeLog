@@ -1,6 +1,15 @@
 # ChangeLog for dev-perl/Parse-BACKPAN-Packages
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Parse-BACKPAN-Packages-0.360.0 (22 Apr 2011)
+*Parse-BACKPAN-Packages-0.350.0 (22 Apr 2011)
+
+  22 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Parse-BACKPAN-Packages-0.35.ebuild, -Parse-BACKPAN-Packages-0.36.ebuild,
+  +Parse-BACKPAN-Packages-0.350.0.ebuild,
+  +Parse-BACKPAN-Packages-0.360.0.ebuild:
+  Migrate
 
 *Parse-BACKPAN-Packages-0.36 (20 Nov 2009)
 
