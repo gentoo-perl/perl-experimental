@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=CREAMYG
+MODULE_VERSION="1.00"
 inherit perl-module
 
 DESCRIPTION="search engine library"
