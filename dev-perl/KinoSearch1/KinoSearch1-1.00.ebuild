@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	virtual/perl-IO-Compress
-	>=dev-perl/Lingua-Stem-Snowball-0.94
+	>=dev-perl/Lingua-Stem-Snowball-0.940.0
 	>=dev-perl/Lingua-StopWords-0.02
 "
 DEPEND="
