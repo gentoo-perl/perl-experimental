@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Perl-Critic-Moose
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Perl-Critic-Moose-0.999.2_rc (22 Apr 2011)
+
+  22 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Perl-Critic-Moose-0.999.2_rc.ebuild, -Perl-Critic-Moose-0.999.002.ebuild:
+  Migrate, QA, Rehash deps, Add Module::Build depend
 
 *Perl-Critic-Moose-0.999.002 (25 Aug 2009)
 
