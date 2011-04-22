@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.093001"
 inherit perl-module
 
 DESCRIPTION="a transformer to replace 'wikidoc' data regions with Pod5 elements"
