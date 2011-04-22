@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -14,7 +14,7 @@ COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
 	>=dev-perl/Pod-Elemental-0.092941
-	>=dev-perl/Pod-WikiDoc-0.18
+	>=dev-perl/Pod-WikiDoc-0.180.0
 	dev-perl/namespace-autoclean
 "
 DEPEND="
