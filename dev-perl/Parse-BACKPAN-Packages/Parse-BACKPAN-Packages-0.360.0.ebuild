@@ -21,6 +21,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	virtual/perl-Module-Build
 	test? (
 		virtual/perl-Test-Simple
 	)
