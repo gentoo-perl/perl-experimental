@@ -20,6 +20,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
+	virtual/perl-Module-Build
 	>=virtual/perl-Test-Simple-0.45
 	>=dev-perl/IPC-Run3-0.033
 	>=dev-perl/Probe-Perl-0.01
