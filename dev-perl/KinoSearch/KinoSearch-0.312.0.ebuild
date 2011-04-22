@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 COMMOND_DEPEND="
-	>=dev-perl/Lingua-Stem-Snowball-0.952
+	>=dev-perl/Lingua-Stem-Snowball-0.952.0
 	>=dev-perl/Lingua-StopWords-0.09
 	dev-perl/Parse-RecDescent
 	>=dev-perl/JSON-XS-1.53
