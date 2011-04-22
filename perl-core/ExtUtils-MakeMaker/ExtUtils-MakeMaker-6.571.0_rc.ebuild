@@ -15,9 +15,11 @@ IUSE=""
 comment() { echo ''; }
 
 DEPEND="
-	>=virtual/perl-ExtUtils-Manifest-1.56
+	>=virtual/perl-CPAN-Meta-2.110.930
 	>=virtual/perl-ExtUtils-Command-1.16
 	>=virtual/perl-ExtUtils-Install-1.52
+	>=virtual/perl-ExtUtils-Manifest-1.58
+	>=virtual/perl-Parse-CPAN-Meta-1.440.100
 	>=virtual/perl-File-Spec-0.8 $(comment 0.800.0)
 "
 RDEPEND="${DEPEND}
@@ -27,10 +29,20 @@ PATCHES=(
 	"${FILESDIR}/${PV}/0001-Add-patch-from-gentoo-as-stolen-from-debian.patch"
 	"${FILESDIR}/${PV}/0002-Add-RUNPATH-patch-from-gentoo.patch"
 )
+SRC_TEST=do
+
 src_prepare (){
 	edos2unix "${S}/lib/ExtUtils/MM_Unix.pm"
 	edos2unix "${S}/lib/ExtUtils/MM_Any.pm"
 
 	perl-module_src_prepare
 }
-SRC_TEST=do
+
+src_install() {
+	perl-module_src_install
+
+	# remove all the bundled distributions
+	pushd "${D}" >/dev/null
+	find ".${VENDOR_LIB}" -mindepth 1 -maxdepth 1 -not -name "ExtUtils" -exec rm -rf {} \+
+	popd >/dev/null
+}
