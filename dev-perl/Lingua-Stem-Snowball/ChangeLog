@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Lingua-Stem-Snowball
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Lingua-Stem-Snowball-0.952.0 (22 Apr 2011)
+
+  22 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Lingua-Stem-Snowball-0.952.ebuild, +Lingua-Stem-Snowball-0.952.0.ebuild:
+  Migrate, Add Module::Build
+
