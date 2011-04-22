@@ -48,17 +48,18 @@ PDEPEND=">=app-admin/perl-cleaner-2.5"
 S="${WORKDIR}/${MY_P}"
 
 dual_scripts() {
-	src_remove_dual_scripts perl-core/Archive-Tar        1.760.0    ptar ptardiff
-	src_remove_dual_scripts perl-core/Digest-SHA         5.610.0    shasum
-	src_remove_dual_scripts perl-core/CPAN               1.960.0  cpan
+	src_remove_dual_scripts perl-core/Archive-Tar        1.760.0      ptar ptardiff ptargrep
+	src_remove_dual_scripts perl-core/Digest-SHA         5.610.0      shasum
+	src_remove_dual_scripts perl-core/CPAN               1.960.0      cpan
 	src_remove_dual_scripts perl-core/CPANPLUS           0.910.300    cpanp cpan2dist cpanp-run-perl
-	src_remove_dual_scripts perl-core/Encode             2.420.0    enc2xs piconv
-	src_remove_dual_scripts perl-core/ExtUtils-MakeMaker 6.570.500_rc    instmodsh
-	src_remove_dual_scripts perl-core/Module-Build       0.380.0  config_data
-	src_remove_dual_scripts perl-core/Module-CoreList    2.470.0    corelist
-	src_remove_dual_scripts perl-core/PodParser          1.370.0    pod2usage podchecker podselect
-	src_remove_dual_scripts perl-core/Test-Harness       3.230.0   prove
-	src_remove_dual_scripts perl-core/podlators          2.4.0   pod2man pod2text
+	src_remove_dual_scripts perl-core/Encode             2.420.0      enc2xs piconv
+	src_remove_dual_scripts perl-core/ExtUtils-MakeMaker 6.570.500_rc instmodsh
+	src_remove_dual_scripts perl-core/JSON-PP            2.271.50     json_pp
+	src_remove_dual_scripts perl-core/Module-Build       0.380.0      config_data
+	src_remove_dual_scripts perl-core/Module-CoreList    2.470.0      corelist
+	src_remove_dual_scripts perl-core/PodParser          1.370.0      pod2usage podchecker podselect
+	src_remove_dual_scripts perl-core/Test-Harness       3.230.0      prove
+	src_remove_dual_scripts perl-core/podlators          2.4.0        pod2man pod2text
 }
 
 pkg_setup() {
