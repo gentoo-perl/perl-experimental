@@ -67,7 +67,7 @@ RDEPEND="
 	dev-perl/Imager
 	dev-perl/Image-Math-Constrain
 	>=virtual/perl-IO-1.14
-	>=dev-perl/KinoSearch1-1.00
+	>=dev-perl/KinoSearch1-1.0.0
 	>=dev-perl/Module-Pluggable-Ordered-1.4
 	dev-perl/Moose
 	dev-perl/Number-Format
