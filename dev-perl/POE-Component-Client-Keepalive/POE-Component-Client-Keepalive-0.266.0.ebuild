@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/POE-1.299
-		>=dev-perl/POE-Component-Resolver-0.910
+		>=dev-perl/POE-Component-Resolver-0.910.0
 		dev-perl/Net-IP"
 DEPEND="${RDEPEND}"
 
