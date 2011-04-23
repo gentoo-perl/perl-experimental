@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Apr 2011; Kent Fredric <kentfredric@gmail.com> -App-Cmd-0.308.0.ebuild:
+  Gone on CPAN
+
 *App-Cmd-0.311.0 (18 Mar 2011)
 
   18 Mar 2011; Kent Fredric <kentfredric@gmail.com> +App-Cmd-0.311.0.ebuild:
