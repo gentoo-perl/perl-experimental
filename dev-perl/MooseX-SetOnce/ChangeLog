@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-SetOnce-0.100.471.ebuild:
+  Gone on CPAN
+
   20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   -MooseX-SetOnce-0.100.472-r1.ebuild:
   Removing custom-hacked version, fixed upstream
