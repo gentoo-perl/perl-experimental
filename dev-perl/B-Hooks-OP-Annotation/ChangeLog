@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -B-Hooks-OP-Annotation-0.430.0.ebuild:
+  Gone on CPAN
+
 *B-Hooks-OP-Annotation-0.440.0 (20 Apr 2011)
 
   20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
