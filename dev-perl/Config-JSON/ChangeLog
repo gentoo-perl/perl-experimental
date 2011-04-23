@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Config-JSON-1.510.0 (23 Apr 2011)
+*Config-JSON-1.500.0 (23 Apr 2011)
+
+  23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  +Config-JSON-1.500.0.ebuild, +Config-JSON-1.510.0.ebuild,
+  -Config-JSON-1.5000.ebuild, -Config-JSON-1.5100.ebuild:
+  Migrate to x.y.z
+
 *Config-JSON-1.5100 (08 Jan 2011)
 
   08 Jan 2011; Kent Fredric <kentfredric@gmail.com> +Config-JSON-1.5100.ebuild:
