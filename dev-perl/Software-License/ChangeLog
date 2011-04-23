@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -Software-License-0.102.250.ebuild:
+  Gone on CPAN
+
 *Software-License-0.103.0 (01 Apr 2011)
 *Software-License-0.102.341 (01 Apr 2011)
 *Software-License-0.102.340 (01 Apr 2011)
