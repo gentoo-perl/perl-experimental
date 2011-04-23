@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -POE-Component-Client-Keepalive-0.263.0.ebuild:
+  Gone on CPAN
+
 *POE-Component-Client-Keepalive-0.266.0 (23 Apr 2011)
 *POE-Component-Client-Keepalive-0.265.0 (23 Apr 2011)
 *POE-Component-Client-Keepalive-0.263.0 (23 Apr 2011)
