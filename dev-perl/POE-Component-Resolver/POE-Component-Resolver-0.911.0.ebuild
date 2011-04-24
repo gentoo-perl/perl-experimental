@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND=">=dev-perl/POE-1.299
 	>=virtual/perl-Scalar-List-Utils-1.23
-	>=dev-perl/Socket-GetAddrInfo-0.19
+	>=dev-perl/Socket-GetAddrInfo-0.190.0
 	>=virtual/perl-Storable-2.18
 	virtual/perl-Time-HiRes"
 DEPEND="${RDEPEND}

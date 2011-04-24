@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  POE-Component-Resolver-0.911.0.ebuild:
+  FIxdep -> Socket-GetAddrInfo
+
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   -POE-Component-Resolver-0.910.0.ebuild:
   Gone on CPAN
