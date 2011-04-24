@@ -16,7 +16,7 @@ IUSE=""
 
 RDEPEND="virtual/perl-XSLoader"
 DEPEND="${RDEPEND}
-	>=dev-perl/ExtUtils-CChecker-0.60
+	>=dev-perl/ExtUtils-CChecker-0.60.0
 	virtual/perl-Module-Build"
 
 SRC_TEST="do"
