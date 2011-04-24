@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ExtUtils-CChecker-0.60.0 (24 Apr 2011)
+
+  24 Apr 2011; Kent Fredric <kentfredric@gmail.com>
+  -ExtUtils-CChecker-0.60.ebuild, +ExtUtils-CChecker-0.60.0.ebuild:
+  Add Zero
+
 *ExtUtils-CChecker-0.60 (13 Feb 2011)
 
   13 Feb 2011; Torsten Veller <tove@gentoo.org> +ExtUtils-CChecker-0.60.ebuild,
