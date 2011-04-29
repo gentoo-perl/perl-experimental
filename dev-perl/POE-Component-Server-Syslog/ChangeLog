@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/POE-Component-Server-Syslog
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*POE-Component-Server-Syslog-1.20 (29 Apr 2011)
+
+  29 Apr 2011; Daniel Westermann-Clark <dwc@pobox.com>
+  -POE-Component-Server-Syslog-1.18.ebuild,
+  +POE-Component-Server-Syslog-1.20.ebuild:
+  Bump
 
 *POE-Component-Server-Syslog-1.18 (08 Jul 2009)
 
