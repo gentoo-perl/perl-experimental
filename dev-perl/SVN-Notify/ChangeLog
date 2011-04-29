@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/SVN-Notify
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*SVN-Notify-2.81 (29 Apr 2011)
+
+  29 Apr 2011; Daniel Westermann-Clark <dwc@pobox.com>
+  -SVN-Notify-2.80.ebuild, +SVN-Notify-2.81.ebuild:
+  Bump
 
   23 Jun 2010; Daniel Westermann-Clark <dwc@pobox.com>
   SVN-Notify-2.80.ebuild:

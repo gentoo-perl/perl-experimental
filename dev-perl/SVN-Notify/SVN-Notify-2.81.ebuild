@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=4
 
 MODULE_AUTHOR=DWHEELER
+MODULE_VERSION="2.81"
 inherit perl-module
 
 DESCRIPTION="Subversion activity notification"
@@ -17,6 +18,7 @@ SRC_TEST="do"
 IUSE="test"
 RDEPEND="dev-vcs/subversion
 	>=virtual/perl-Getopt-Long-2.34
+	>=dev-lang/perl-5.6
 	virtual/perl-PodParser
 	dev-perl/HTML-Parser
 	virtual/perl-libnet"
