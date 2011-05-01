@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/Test-WWW-Mechanize/ChangeLog,v 1.34 2011/01/04 19:11:47 tove Exp $
 
+*Test-WWW-Mechanize-1.30-r2 (01 May 2011)
+
+  01 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.30/fix_dns-r2.patch, +Test-WWW-Mechanize-1.30-r2.ebuild:
+  Added more vendor patches to make tests pass again with recent modules and
+  Perl 5.14. Dep on 5.14 for tests because the tests aren't back-compat
+
 *Test-WWW-Mechanize-1.30-r1 (21 Apr 2011)
 
   21 Apr 2011; Kent Fredric <kentfredric@gmail.com> +files/1.30/fix_dns.patch,

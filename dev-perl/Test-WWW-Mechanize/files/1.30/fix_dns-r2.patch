@@ -1,0 +1,155 @@
+diff --git a/t/back_ok.t b/t/back_ok.t
+index 7042c90..d59df9e 100644
+--- a/t/back_ok.t
++++ b/t/back_ok.t
+@@ -47,14 +47,14 @@ GOOD_GET: {
+ }
+ 
+ BAD_GET: {
+-    my $badurl = 'http://wango.nonexistent.xx-only-testing/';
++    my $badurl = 'http://wango.nonexistent.xx-only-testing./';
+     $mech->get($badurl);
+     ok(!$mech->success, q{sanity check: we can't load NONEXISTENT.html});
+ 
+     test_out( 'not ok 1 - Try to get bad URL' );
+     test_fail( +3 );
+     test_diag( '500' );
+-    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing:80 (Bad hostname 'wango.nonexistent.xx-only-testing')} );
++    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing.:80 (Bad hostname)} );
+     my $ok = $mech->get_ok( $badurl, 'Try to get bad URL' );
+     test_test( 'Fails to get nonexistent URI and reports failure' );
+ 
+diff --git a/t/content_lacks.t b/t/content_lacks.t
+index 0a9792c..fdd3525 100644
+--- a/t/content_lacks.t
++++ b/t/content_lacks.t
+@@ -35,7 +35,7 @@ test_out( q{not ok 1 - Shouldn't say it's a test page} );
+ test_fail(+4);
+ test_diag(q(    searched: "<html>\x{0a}    <head>\x{0a}        <title>Test Page</title>"...) );
+ test_diag(q(   and found: "Test Page") );
+-test_diag(q( at position: 33) );
++test_diag(q( at position: 33 (line 3 column 16)) );
+ $mech->content_lacks( 'Test Page', q{Shouldn't say it's a test page} );
+ test_test( 'Handles not finding it' );
+ 
+diff --git a/t/get_ok.t b/t/get_ok.t
+index 4df896f..f61ab81 100644
+--- a/t/get_ok.t
++++ b/t/get_ok.t
+@@ -48,14 +48,14 @@ GOOD_GET: {
+ }
+ 
+ BAD_GET: {
+-    my $badurl = 'http://wango.nonexistent.xx-only-testing/';
++    my $badurl = 'http://wango.nonexistent.xx-only-testing./';
+     $mech->get($badurl);
+     ok(!$mech->success, q{sanity check: we can't load NONEXISTENT.html});
+ 
+     test_out( 'not ok 1 - Try to get bad URL' );
+     test_fail( +3 );
+     test_diag( '500' );
+-    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing:80 (Bad hostname 'wango.nonexistent.xx-only-testing')} );
++    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing.:80 (Bad hostname)} );
+     my $ok = $mech->get_ok( $badurl, 'Try to get bad URL' );
+     test_test( 'Fails to get nonexistent URI and reports failure' );
+ 
+diff --git a/t/head_ok.t b/t/head_ok.t
+index 4557e83..bbfc062 100644
+--- a/t/head_ok.t
++++ b/t/head_ok.t
+@@ -2,12 +2,21 @@
+ 
+ use strict;
+ use warnings;
+-use Test::More tests => 11;
++use Test::More;
+ use Test::Builder::Tester;
+ 
+-my $NONEXISTENT = 'blahblablah.xx-nonexistent.foo';
++use constant NONEXISTENT => 'http://blahblablah.xx-nonexistent.';
++BEGIN {
++    if ( gethostbyname( NONEXISTENT ) ) {
++        plan skip_all => 'Found an A record for the non-existent domain';
++    }
++}
++
++BEGIN {
++    plan tests => 11;
++    use_ok( 'Test::WWW::Mechanize' );
++}
+ 
+-require_ok( 'Test::WWW::Mechanize' );
+ 
+ use lib 't';
+ use TestServer;
+@@ -16,7 +25,7 @@ my $server      = TestServer->new;
+ my $pid         = $server->background;
+ my $server_root = $server->root;
+ 
+-my $mech = Test::WWW::Mechanize->new( autocheck => 0 );
++my $mech=Test::WWW::Mechanize->new( autocheck => 0 );
+ isa_ok($mech,'Test::WWW::Mechanize');
+ 
+ GOOD_HEAD: { # Stop giggling, you!
+@@ -37,22 +46,15 @@ GOOD_HEAD: { # Stop giggling, you!
+     test_test('HEAD existing URI and reports success - default desc');
+ }
+ 
+-# Bad HEAD test. Relies on getting an error finding a non-existent domain.
+-# Some ISPs "helpfully" provide resolution for non-existent domains,
+-# and thus this test fails by succeeding.  We check for this annoying
+-# behavior and skip this subtest if we get it.
+-SKIP: {
+-    skip "Found an A record for the non-existent domain $NONEXISTENT", 4
+-        if gethostbyname $NONEXISTENT;
+-
+-    my $badurl = "http://$NONEXISTENT/";
++BAD_HEAD: {
++    my $badurl = 'http://wango.nonexistent.xx-only-testing./';
+     $mech->head($badurl);
+-    ok(!$mech->success, q{sanity check: we can't load $badurl} );
++    ok(!$mech->success, q{sanity check: we can't load NONEXISTENT.html} );
+ 
+     test_out( 'not ok 1 - Try to HEAD bad URL' );
+     test_fail( +3 );
+     test_diag( '500' );
+-    test_diag( qq{Can't connect to $NONEXISTENT:80 (Bad hostname '$NONEXISTENT')} );
++    test_diag( q{Can't connect to wango.nonexistent.xx-only-testing.:80 (Bad hostname)} );
+     my $ok = $mech->head_ok( $badurl, 'Try to HEAD bad URL' );
+     test_test( 'Fails to HEAD nonexistent URI and reports failure' );
+ 
+diff --git a/t/link_content.t b/t/link_content.t
+index 3f89e1c..22b83d3 100644
+--- a/t/link_content.t
++++ b/t/link_content.t
+@@ -36,7 +36,7 @@ $mech->link_content_like(\@urls,qr/Test/,'Checking all page links contain: Test'
+ test_test('Handles All page links contents successful');
+ 
+ # like - default desc
+-test_out('ok 1 - ' . scalar(@urls) . ' links are like \'(?-xism:Test)\'');
++test_out('ok 1 - ' . scalar(@urls) . ' links are like \'(?^:Test)\'');
+ $mech->link_content_like(\@urls,qr/Test/);
+ test_test('Handles All page links contents successful - default desc');
+ 
+@@ -61,7 +61,7 @@ $mech->link_content_unlike(\@urls,qr/BadTest/,'Checking all page links do not co
+ test_test('Handles All page links unlike contents successful');
+ 
+ # unlike - default desc
+-test_out('ok 1 - ' . scalar(@urls) . ' links are not like "(?-xism:BadTest)"');
++test_out('ok 1 - ' . scalar(@urls) . ' links are not like "(?^:BadTest)"');
+ $mech->link_content_unlike(\@urls,qr/BadTest/);
+ test_test('Handles All page links unlike contents successful - default desc');
+ 
+diff --git a/t/page_links_content.t b/t/page_links_content.t
+index 6c37393..a71df7f 100644
+--- a/t/page_links_content.t
++++ b/t/page_links_content.t
+@@ -34,7 +34,7 @@ $mech->page_links_content_like(qr/Test/,'Checking all page links contain: Test')
+ test_test('Handles All page links contents successful');
+ 
+ # like - default desc
+-test_out(q{ok 1 - All links are like "(?-xism:Test)"});
++test_out(q{ok 1 - All links are like "(?^:Test)"});
+ $mech->page_links_content_like(qr/Test/);
+ test_test('Handles All page links contents successful');
+ 
