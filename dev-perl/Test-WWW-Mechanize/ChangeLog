@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/Test-WWW-Mechanize/ChangeLog,v 1.34 2011/01/04 19:11:47 tove Exp $
 
+  01 May 2011; Kent Fredric <kentfredric@gmail.com>
+  files/1.30/fix_dns-r2.patch:
+  Regenerate patch to actually work
+
 *Test-WWW-Mechanize-1.30-r2 (01 May 2011)
 
   01 May 2011; Kent Fredric <kentfredric@gmail.com>
