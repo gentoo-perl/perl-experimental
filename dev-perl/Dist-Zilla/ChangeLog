@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-4.200.6 (05 May 2011)
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com> +Dist-Zilla-4.200.6.ebuild:
+  Bump
+
   05 May 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-4.200.3-r1.ebuild, Dist-Zilla-4.200.4.ebuild:
   Fixdep Data::Section
