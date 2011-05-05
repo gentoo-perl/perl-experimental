@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=2
 
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.100270"
 inherit perl-module
 
 DESCRIPTION="read multiple hunks of data out of your DATA section"
@@ -18,7 +19,6 @@ COMMON_DEPEND="
 	>=dev-perl/Sub-Exporter-0.979
 "
 DEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-6.31
 	${COMMON_DEPEND}
 "
 RDEPEND="

@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Data-Section
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Data-Section-0.101.620 (05 May 2011)
+*Data-Section-0.100.770 (05 May 2011)
+*Data-Section-0.100.270 (05 May 2011)
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Data-Section-0.100.270.ebuild, +Data-Section-0.100.770.ebuild,
+  +Data-Section-0.101.620.ebuild, -Data-Section-0.100270.ebuild,
+  -Data-Section-0.100770.ebuild, -Data-Section-0.101620.ebuild:
+  Migrate to x.y.z
 
   25 Oct 2010; Kent Fredric <kentfredric@gmail.com>
   -Data-Section-0.093410.ebuild:
