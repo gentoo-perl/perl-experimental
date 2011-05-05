@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Module-Extract-Namespaces
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Module-Extract-Namespaces-0.140.0 (05 May 2011)
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -Module-Extract-Namespaces-0.14.ebuild,
+  +Module-Extract-Namespaces-0.140.0.ebuild:
+  migrate
 
 *Module-Extract-Namespaces-0.14 (31 May 2009)
 
