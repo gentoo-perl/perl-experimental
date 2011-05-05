@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=BINGOS
+MODULE_VERSION="0.10"
 inherit perl-module
 
 DESCRIPTION="Automatically include GitHub meta information in META.yml"
