@@ -15,7 +15,7 @@ COMMON_DEPEND="
 	>=dev-perl/Authen-DecHpwd-2.3.0
 	>=dev-perl/Crypt-Blowfish-2.00
 	dev-perl/Crypt-DES
-	>=dev-perl/Crypt-Eksblowfish-0.008
+	>=dev-perl/Crypt-Eksblowfish-0.8.0
 	>=dev-perl/Crypt-MySQL-0.03
 	>=dev-perl/Crypt-PasswdMD5-1.0
 	>=dev-perl/Crypt-UnixCrypt_XS-0.08
