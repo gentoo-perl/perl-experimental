@@ -40,7 +40,7 @@ depend Config-INI # ^^
 depend Config-MVP 2.101.540 # ^^
 depend Config-MVP-Reader-INI 2
 # depend Data-Dumper # CORE
-depend Data-Section 0.004
+depend Data-Section 0.4.0
 depend DateTime 0.44
 depend-virtual ExtUtils-MakeMaker
 depend-virtual ExtUtils-Manifest 1.54
