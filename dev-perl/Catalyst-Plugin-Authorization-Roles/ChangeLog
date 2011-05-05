@@ -2,6 +2,19 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Authorization-Roles-0.80.0 (05 May 2011)
+*Catalyst-Plugin-Authorization-Roles-0.70.0 (05 May 2011)
+*Catalyst-Plugin-Authorization-Roles-0.50.0 (05 May 2011)
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Authorization-Roles-0.05.ebuild,
+  -Catalyst-Plugin-Authorization-Roles-0.07.ebuild,
+  -Catalyst-Plugin-Authorization-Roles-0.08.ebuild,
+  +Catalyst-Plugin-Authorization-Roles-0.50.0.ebuild,
+  +Catalyst-Plugin-Authorization-Roles-0.70.0.ebuild,
+  +Catalyst-Plugin-Authorization-Roles-0.80.0.ebuild:
+  Migrate to x.y.z
+
   09 Feb 2011; Torsten Veller <tove@gentoo.org>
   Catalyst-Plugin-Authorization-Roles-0.07.ebuild,
   Catalyst-Plugin-Authorization-Roles-0.08.ebuild:

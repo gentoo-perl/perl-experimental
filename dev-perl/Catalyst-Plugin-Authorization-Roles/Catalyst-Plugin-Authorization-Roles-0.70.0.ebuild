@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=BRICAS
+MODULE_VERSION="0.07"
 inherit perl-module
 
 DESCRIPTION="Role based authorization for Catalyst based on Catalyst::Plugin::Authentication"
