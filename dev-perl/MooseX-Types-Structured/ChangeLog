@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 May 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Types-Structured-0.19.ebuild, MooseX-Types-Structured-0.21.ebuild,
+  MooseX-Types-Structured-0.22.ebuild, MooseX-Types-Structured-0.23.ebuild,
+  MooseX-Types-Structured-0.260.ebuild:
+  Fixdep Devel-PartialDump
+
 *MooseX-Types-Structured-0.260 (10 Jan 2011)
 
   10 Jan 2011; Torsten Veller <tove@gentoo.org>
