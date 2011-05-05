@@ -14,7 +14,7 @@ IUSE="+metanoindex"
 COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.120.448.60[metanoindex=]
 	>=dev-perl/Module-Extract-Namespaces-0.140.0
-	>=dev-perl/Module-Extract-VERSION-0.13
+	>=dev-perl/Module-Extract-VERSION-0.130.0
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
 	dev-perl/namespace-autoclean

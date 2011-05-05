@@ -7,6 +7,13 @@
   Dist-Zilla-Plugin-MetaProvides-Package-1.120.449.80.ebuild,
   Dist-Zilla-Plugin-MetaProvides-Package-1.120.602.130.ebuild,
   Dist-Zilla-Plugin-MetaProvides-Package-1.120.605.10.ebuild:
+  Fixdep -> Module-Extract-VERSION
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-MetaProvides-Package-1.110.444.40.ebuild,
+  Dist-Zilla-Plugin-MetaProvides-Package-1.120.449.80.ebuild,
+  Dist-Zilla-Plugin-MetaProvides-Package-1.120.602.130.ebuild,
+  Dist-Zilla-Plugin-MetaProvides-Package-1.120.605.10.ebuild:
   Fixdep Module-Extract-Namespaces
 
   11 Apr 2011; Kent Fredric <kentfredric@gmail.com>
