@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/CatalystX-Component-Traits
 	dev-perl/Catalyst-Action-REST
-	>=dev-perl/Catalyst-Runtime-5.800
+	>=dev-perl/Catalyst-Runtime-5.800.0
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/Catalyst-Controller-ActionRole
 	dev-perl/CatalystX-LeakChecker
@@ -41,7 +41,7 @@ RDEPEND="
 	dev-perl/FCGI
 	dev-perl/Catalyst-Plugin-Session-Store-File
 	dev-perl/Catalyst-View-Email
-	>=dev-perl/Catalyst-Manual-5.80
+	>=dev-perl/Catalyst-Manual-5.800.0
 	dev-perl/Catalyst-Plugin-Static-Simple
 	dev-perl/CatalystX-SimpleLogin
 	dev-perl/Catalyst-Plugin-StackTrace
