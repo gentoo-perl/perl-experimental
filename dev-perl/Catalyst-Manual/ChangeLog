@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Catalyst-Manual
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Manual-5.800.500 (05 May 2011)
+*Catalyst-Manual-5.800.400 (05 May 2011)
+*Catalyst-Manual-5.800.300 (05 May 2011)
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Manual-5.800.300.ebuild, +Catalyst-Manual-5.800.400.ebuild,
+  +Catalyst-Manual-5.800.500.ebuild, -Catalyst-Manual-5.8003.ebuild,
+  -Catalyst-Manual-5.8004.ebuild, -Catalyst-Manual-5.8005.ebuild:
+  Migrate
 
 *Catalyst-Manual-5.8005 (17 Dec 2010)
 
