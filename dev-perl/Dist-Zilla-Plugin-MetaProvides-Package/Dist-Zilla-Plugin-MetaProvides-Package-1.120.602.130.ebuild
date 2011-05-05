@@ -17,7 +17,7 @@ COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.120.448.60[metanoindex=]
 	$(comment Dist::Zilla::Role::MetaProvider::Provider)
 	virtual/perl-File-Temp
-	>=dev-perl/Module-Extract-Namespaces-0.14 $(comment 0.140.0)
+	>=dev-perl/Module-Extract-Namespaces-0.140.0
 	>=dev-perl/Module-Extract-VERSION-0.13    $(comment 0.130.0)
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
