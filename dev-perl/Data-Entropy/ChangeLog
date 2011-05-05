@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-Entropy-0.7.0 (05 May 2011)
+
+  05 May 2011; Kent Fredric <kentfredric@gmail.com> +Data-Entropy-0.7.0.ebuild:
+  Bump
+
 *Data-Entropy-0.6.0 (05 May 2011)
 
   05 May 2011; Kent Fredric <kentfredric@gmail.com> -Data-Entropy-0.006.ebuild,
