@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Text-MultiMarkdown
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Text-MultiMarkdown-1.0.33 (06 May 2011)
+*Text-MultiMarkdown-1.0.32 (06 May 2011)
+*Text-MultiMarkdown-1.0.31 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Text-MultiMarkdown-1.0.31.ebuild, +Text-MultiMarkdown-1.0.32.ebuild,
+  +Text-MultiMarkdown-1.0.33.ebuild, -Text-MultiMarkdown-1.000031.ebuild,
+  -Text-MultiMarkdown-1.000032.ebuild, -Text-MultiMarkdown-1.000033.ebuild:
+  Migrate
 
 *Text-MultiMarkdown-1.000033 (24 Mar 2010)
 

@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="1.000031"
 inherit perl-module
 
 DESCRIPTION="Convert MultiMarkdown syntax to (X)HTML"
