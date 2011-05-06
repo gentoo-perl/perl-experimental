@@ -2,6 +2,23 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Types-Structured-0.260.0 (06 May 2011)
+*MooseX-Types-Structured-0.230.0 (06 May 2011)
+*MooseX-Types-Structured-0.220.0 (06 May 2011)
+*MooseX-Types-Structured-0.210.0 (06 May 2011)
+*MooseX-Types-Structured-0.190.0 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-Types-Structured-0.19.ebuild, -MooseX-Types-Structured-0.21.ebuild,
+  -MooseX-Types-Structured-0.22.ebuild, -MooseX-Types-Structured-0.23.ebuild,
+  +MooseX-Types-Structured-0.190.0.ebuild,
+  +MooseX-Types-Structured-0.210.0.ebuild,
+  +MooseX-Types-Structured-0.220.0.ebuild,
+  +MooseX-Types-Structured-0.230.0.ebuild,
+  -MooseX-Types-Structured-0.260.ebuild,
+  +MooseX-Types-Structured-0.260.0.ebuild:
+  Migrate
+
   05 May 2011; Kent Fredric <kentfredric@gmail.com>
   MooseX-Types-Structured-0.19.ebuild, MooseX-Types-Structured-0.21.ebuild,
   MooseX-Types-Structured-0.22.ebuild, MooseX-Types-Structured-0.23.ebuild,

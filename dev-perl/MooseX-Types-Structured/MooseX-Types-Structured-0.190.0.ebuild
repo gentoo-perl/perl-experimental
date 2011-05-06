@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=JJNAPIORK
+MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.19"
 inherit perl-module
 
 DESCRIPTION="Structured Type Constraints for Moose"

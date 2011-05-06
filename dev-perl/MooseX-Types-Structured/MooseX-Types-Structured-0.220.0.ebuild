@@ -4,8 +4,8 @@
 
 EAPI=3
 
-MODULE_AUTHOR=JJNAPIORK
-#MODULE_AUTHOR=FLORA
+MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.22"
 inherit perl-module
 
 DESCRIPTION="Structured Type Constraints for Moose"
@@ -21,11 +21,8 @@ RDEPEND="
 	>=dev-perl/Sub-Exporter-0.982
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.42
 	test? (
-		>=dev-perl/Test-Exception-0.27
-		dev-perl/MooseX-Types-DateTime
-		dev-perl/DateTime
+	  >=dev-perl/Test-Exception-0.27
 	)
 "
 SRC_TEST="do"
