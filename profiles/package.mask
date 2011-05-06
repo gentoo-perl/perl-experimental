@@ -3,6 +3,7 @@
 # virtuals have to be updated, @INC layout changes,..
 # tracker bug #356171
 =dev-lang/perl-5.14.0*
+=dev-perl/Test-WWW-Mechanize-1.30-r2
 
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
