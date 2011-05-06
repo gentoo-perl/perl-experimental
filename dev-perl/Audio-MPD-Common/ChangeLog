@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Audio-MPD-Common-1.110.550 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Audio-MPD-Common-1.110.550.ebuild:
+  Bump
+
 *Audio-MPD-Common-1.100.430 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com>
