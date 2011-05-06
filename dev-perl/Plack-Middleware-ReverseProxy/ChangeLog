@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Plack-Middleware-ReverseProxy-0.80.0 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -Plack-Middleware-ReverseProxy-0.80.ebuild,
+  +Plack-Middleware-ReverseProxy-0.80.0.ebuild:
+  Addzero
+
 *Plack-Middleware-ReverseProxy-0.80 (30 Jan 2011)
 
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
