@@ -81,7 +81,7 @@ RDEPEND="
 	>=dev-perl/yaml-0.36
 	dev-perl/Text-Textile
 	dev-perl/Term-Prompt
-	>=dev-perl/Text-MultiMarkdown-1.000032
+	>=dev-perl/Text-MultiMarkdown-1.0.32
 
 	createdb? (
 		dev-perl/SQL-Translator
