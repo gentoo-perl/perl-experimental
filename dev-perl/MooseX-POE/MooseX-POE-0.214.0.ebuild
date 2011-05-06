@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=GETTY
-MODULE_VERSION=0.213
+MODULE_VERSION=0.214
 inherit perl-module
 
 DESCRIPTION="The Illicit Love Child of Moose and POE"
@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 comment() { echo ''; }
 RDEPEND="
-	>=dev-perl/Moose-0.90 $(comment 0.900.0)
-	>=dev-perl/POE-1.004 $(comment 1.4.0)
+	>=dev-perl/Moose-2.0.200
+	>=dev-perl/POE-1.310.0
 "
 DEPEND="${RDEPEND}
 >=virtual/perl-ExtUtils-MakeMaker-6.31 $(comment 6.310.0)
