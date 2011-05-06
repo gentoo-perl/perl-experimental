@@ -10,7 +10,7 @@ EGIT_REPO_URI="git://repo.or.cz/audio-mpd-common.git"
 
 LICENSE="Artistic GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ia64 ~ppc ~sparc ~x86"
+KEYWORDS=""
 IUSE=""
 
 SRC_TEST="do"
