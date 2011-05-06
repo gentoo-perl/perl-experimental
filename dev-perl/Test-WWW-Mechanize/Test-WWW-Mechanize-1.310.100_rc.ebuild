@@ -12,7 +12,7 @@ DESCRIPTION="Testing-specific WWW::Mechanize subclass"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
+IUSE=""
 #PATCHES=(
 #	"${FILESDIR}/${PV}/fix_dns-r2.patch"
 #)
@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Server-Simple-0.42 $(comment 0.420.0)
 	$(comment HTTP::Server::Simple::CGI ^^ )
 	>=dev-perl/libwww-perl-6.20.0
-	>=virtual/perl-Test-Simple-0.94 $( 0.940.0 Test::Builder::Tester 1.09 )
+	>=virtual/perl-Test-Simple-0.94 $(comment 0.940.0 Test::Builder::Tester 1.09 )
 	>=dev-perl/Test-LongString-0.150 $(comment 0.150.0)
 	virtual/perl-Test-Simple $(comment Test::More)
 	dev-perl/URI $(comment URI::file)
