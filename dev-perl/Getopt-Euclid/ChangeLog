@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Getopt-Euclid
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com> Getopt-Euclid-0.2.1.ebuild,
+  +metadata.xml:
+  Modernize
+
