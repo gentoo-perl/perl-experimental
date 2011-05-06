@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Tree-Trie
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Tree-Trie-1.700.0 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com> -Tree-Trie-1.7.ebuild,
+  +Tree-Trie-1.700.0.ebuild:
+  Migrate
 
 *Tree-Trie-1.7 (04 Nov 2010)
 

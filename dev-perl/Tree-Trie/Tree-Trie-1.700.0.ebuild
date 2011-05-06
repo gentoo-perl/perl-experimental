@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=AVIF
+MODULE_VERSION="1.7"
 inherit perl-module
 
 DESCRIPTION="A data structure optimized for prefix lookup"
