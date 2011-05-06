@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Method-Signatures-0.290.ebuild, MooseX-Method-Signatures-0.300.ebuild,
+  MooseX-Method-Signatures-0.350.ebuild, MooseX-Method-Signatures-0.360.ebuild:
+  Fixdep Devel::Declare, MooseX::LazyRequire, MooseX::Types,
+  MooseX::Types::Structured
+
 *MooseX-Method-Signatures-0.360 (22 Jan 2011)
 *MooseX-Method-Signatures-0.350 (22 Jan 2011)
 *MooseX-Method-Signatures-0.300 (22 Jan 2011)
