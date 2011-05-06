@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -Audio-MPD-Common-9999.ebuild:
+  Remove -9999 version
+
 *Audio-MPD-Common-1.110.550 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com>
