@@ -1,9 +1,10 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.27"
 inherit perl-module
 
 DESCRIPTION="An serialization framework for Moose classes"
@@ -34,7 +35,7 @@ DEPEND="${RDEPEND}
 
 		dev-perl/Test-Deep
 		dev-perl/Test-Exception
-		>=virtual/perl-Test-Simple-0.42
+		>=virtual/perl-Test-Simple-0.88
 		>=dev-perl/Test-TempDir-0.02
 
 		json? (
