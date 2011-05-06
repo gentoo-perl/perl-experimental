@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Tree-Trie-1.800.0 (06 May 2011)
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com> +Tree-Trie-1.800.0.ebuild:
+  Bump
+
 *Tree-Trie-1.700.0 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com> -Tree-Trie-1.7.ebuild,
