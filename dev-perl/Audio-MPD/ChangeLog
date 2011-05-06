@@ -1,0 +1,7 @@
+# ChangeLog for dev-perl/Audio-MPD
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  06 May 2011; Kent Fredric <kentfredric@gmail.com> -Audio-MPD-9999.ebuild:
+  Remove -9999 version
+
