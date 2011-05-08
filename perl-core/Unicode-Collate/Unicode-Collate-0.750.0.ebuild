@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=SADAHIRO
-MODULE_VERSION="0.74"
+MODULE_VERSION="0.75"
 SRC_URI="mirror://cpan/authors/id/S/SA/SADAHIRO/Unicode-Collate-${MODULE_VERSION}-withoutworldwriteables.tar.gz"
 inherit perl-module
 
