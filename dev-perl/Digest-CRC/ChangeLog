@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2011; Kent Fredric <kentfredric@gmail.com> Digest-CRC-0.16.ebuild:
+  Fixdep Module-Build
+
 *Digest-CRC-0.16 (27 Jan 2011)
 
   27 Jan 2011; Michele Beltrame <m@cattlegrid.info> +Digest-CRC-0.16.ebuild,

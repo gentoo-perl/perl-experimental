@@ -14,5 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=""
-
+DEPEND="
+	virtual/perl-Module-Build
+"
 SRC_TEST=do
