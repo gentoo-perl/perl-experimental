@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2011; Kent Fredric <kentfredric@gmail.com> signatures-0.60.ebuild:
+  Fixdep B-Hooks-OP-PPAddr
+
 *signatures-0.60 (12 Feb 2011)
 
   12 Feb 2011; Kent Fredric <kentfredric@gmail.com> -signatures-0.06.ebuild,
