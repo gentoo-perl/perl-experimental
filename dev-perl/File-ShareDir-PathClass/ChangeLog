@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/File-ShareDir-PathClass
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*File-ShareDir-PathClass-1.101.620 (08 May 2011)
+
+  08 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +File-ShareDir-PathClass-1.101.620.ebuild, +metadata.xml:
+  Added
+
