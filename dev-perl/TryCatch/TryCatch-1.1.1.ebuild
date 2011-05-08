@@ -15,7 +15,7 @@ COMMON_DEPEND="
 	>=dev-perl/Parse-Method-Signatures-1.003003
 	>=dev-perl/B-Hooks-EndOfScope-0.05
 	>=dev-perl/B-Hooks-OP-Check-0.15
-	>=dev-perl/B-Hooks-OP-PPAddr-0.20
+	>=dev-perl/B-Hooks-OP-PPAddr-0.20.0
 	>=dev-perl/Devel-Declare-0.003004
 	dev-perl/Moose
 	dev-perl/MooseX-Types

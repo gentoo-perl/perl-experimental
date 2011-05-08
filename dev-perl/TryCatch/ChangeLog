@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2011; Kent Fredric <kentfredric@gmail.com> TryCatch-1.1.1.ebuild,
+  TryCatch-1.2.ebuild, TryCatch-1.2-r1.ebuild, TryCatch-1.3.ebuild:
+  Fixdep B-Hooks-OP-PPAddr
+
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com> TryCatch-1.1.1.ebuild,
   TryCatch-1.2.ebuild, TryCatch-1.2-r1.ebuild, TryCatch-1.3.ebuild:
   Fixdep Scope-Upper
