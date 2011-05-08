@@ -17,7 +17,7 @@ PATCHES=(
 )
 COMMON_DEPEND="
 	>=dev-perl/Class-Accessor-0.19
-	>=dev-perl/Archive-Any-0.06
+	>=dev-perl/Archive-Any-0.60.0
 	>=virtual/perl-Archive-Tar-1.30
 	>=dev-perl/CPAN-DistnameInfo-0.60.0
 	>=virtual/perl-Pod-Simple-2.02
