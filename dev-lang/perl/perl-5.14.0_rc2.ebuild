@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.12.3.ebuild,v 1.2 2011/03/07 11:35:06 tove Exp $
 
-EAPI=3
+EAPI=4
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
@@ -56,7 +56,7 @@ dual_scripts() {
 	src_remove_dual_scripts perl-core/ExtUtils-MakeMaker 6.570.500_rc instmodsh
 	src_remove_dual_scripts perl-core/JSON-PP            2.271.50     json_pp
 	src_remove_dual_scripts perl-core/Module-Build       0.380.0      config_data
-	src_remove_dual_scripts perl-core/Module-CoreList    2.470.0      corelist
+	src_remove_dual_scripts perl-core/Module-CoreList    2.480.0      corelist
 	src_remove_dual_scripts perl-core/PodParser          1.370.0      pod2usage podchecker podselect
 	src_remove_dual_scripts perl-core/Test-Harness       3.230.0      prove
 	src_remove_dual_scripts perl-core/podlators          2.4.0        pod2man pod2text
@@ -83,12 +83,12 @@ pkg_setup() {
 	fi
 
 	LIBPERL="libperl$(get_libname ${MY_PV} )"
-	PRIV_LIB="/usr/$(get_libdir)/perl5/${SHORT_PV}"
-	ARCH_LIB="/usr/$(get_libdir)/perl5/${SHORT_PV}/${myarch}${mythreading}"
-	SITE_LIB="/usr/local/$(get_libdir)/perl5/${SHORT_PV}"
-	SITE_ARCH="/usr/local/$(get_libdir)/perl5/${SHORT_PV}/${myarch}${mythreading}"
-	VENDOR_LIB="/usr/$(get_libdir)/perl5/vendor_perl/${SHORT_PV}"
-	VENDOR_ARCH="/usr/$(get_libdir)/perl5/vendor_perl/${SHORT_PV}/${myarch}${mythreading}"
+	PRIV_LIB="/usr/$(get_libdir)/perl5/${MY_PV}"
+	ARCH_LIB="/usr/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}"
+	SITE_LIB="/usr/local/$(get_libdir)/perl5/${MY_PV}"
+	SITE_ARCH="/usr/local/$(get_libdir)/perl5/${MY_PV}/${myarch}${mythreading}"
+	VENDOR_LIB="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}"
+	VENDOR_ARCH="/usr/$(get_libdir)/perl5/vendor_perl/${MY_PV}/${myarch}${mythreading}"
 
 	if use ithreads ; then
 		echo ""
@@ -142,8 +142,8 @@ src_prepare() {
 
 	# pod/perltoc.pod fails
 	# lib/ExtUtils/t/Embed.t fails
-	ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV})
-	ln -s ${LIBPERL} libperl$(get_libname )
+	ln -s ${LIBPERL} libperl$(get_libname ${SHORT_PV}) || die
+	ln -s ${LIBPERL} libperl$(get_libname ) || die
 }
 
 myconf() {
@@ -292,18 +292,18 @@ src_install() {
 	if use build ; then
 		installtarget=install.perl
 	fi
-	emake DESTDIR="${D}" ${installtarget} || die "Unable to make ${installtarget}"
+	emake DESTDIR="${D}" ${installtarget}
 
 	rm -f "${D}"/usr/bin/perl
-	ln -s perl${MY_PV} "${D}"/usr/bin/perl
+	ln -s perl${MY_PV} "${D}"/usr/bin/perl || die
 
-	dolib.so "${D}"/${coredir}/${LIBPERL} || die
-	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname ${SHORT_PV}) || die
-	dosym ${LIBPERL} /usr/$(get_libdir)/libperl$(get_libname) || die
-	rm -f "${D}"/${coredir}/${LIBPERL}
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/${LIBPERL}
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname ${SHORT_PV})
-	dosym ../../../../../$(get_libdir)/${LIBPERL} ${coredir}/libperl$(get_libname)
+	dolib.so "${D}"${coredir}/${LIBPERL}
+	rm -f "${D}"${coredir}/${LIBPERL}
+	ln -sf ${LIBPERL} "${D}"/usr/$(get_libdir)/libperl$(get_libname ${SHORT_PV}) || die
+	ln -sf ${LIBPERL} "${D}"/usr/$(get_libdir)/libperl$(get_libname) || die
+	ln -sf ../../../../../$(get_libdir)/${LIBPERL} "${D}"${coredir}/${LIBPERL} || die
+	ln -sf ../../../../../$(get_libdir)/${LIBPERL} "${D}"${coredir}/libperl$(get_libname ${SHORT_PV}) || die
+	ln -sf ../../../../../$(get_libdir)/${LIBPERL} "${D}"${coredir}/libperl$(get_libname) || die
 
 	rm -rf "${D}"/usr/share/man/man3 || die "Unable to remove module man pages"
 
@@ -325,7 +325,7 @@ src_install() {
 	# ( use berkdb && has_version '=sys-libs/db-1*' ) ||
 	#	find "${D}" -name "*NDBM*" | xargs rm -f
 
-	dodoc Changes* README AUTHORS || die
+	dodoc Changes* README AUTHORS
 
 	if use doc ; then
 		# HTML Documentation
