@@ -5,5 +5,9 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="recommended">Pull in recommended dependencies to ensure XS
+			Modules are built</flag>
+	</use>
 </pkgmetadata>
