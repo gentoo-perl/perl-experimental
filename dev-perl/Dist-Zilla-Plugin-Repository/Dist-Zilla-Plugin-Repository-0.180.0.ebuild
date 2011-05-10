@@ -18,5 +18,5 @@ bdepend-virtual Test-Simple 0.88 # Test::More
 bdepend Dist-Zilla 4.102.340 # Dist::Zilla::Tester 4.102340
 
 depend  Dist-Zilla 4.102.340
-
+ddep_setup;
 SRC_TEST="do"
