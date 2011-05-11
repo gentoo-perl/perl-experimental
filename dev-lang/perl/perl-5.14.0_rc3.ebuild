@@ -56,7 +56,7 @@ dual_scripts() {
 	src_remove_dual_scripts perl-core/ExtUtils-MakeMaker 6.570.500_rc instmodsh
 	src_remove_dual_scripts perl-core/JSON-PP            2.271.50     json_pp
 	src_remove_dual_scripts perl-core/Module-Build       0.380.0      config_data
-	src_remove_dual_scripts perl-core/Module-CoreList    2.480.0      corelist
+	src_remove_dual_scripts perl-core/Module-CoreList    2.490.0      corelist
 	src_remove_dual_scripts perl-core/PodParser          1.370.0      pod2usage podchecker podselect
 	src_remove_dual_scripts perl-core/Test-Harness       3.230.0      prove
 	src_remove_dual_scripts perl-core/podlators          2.4.0        pod2man pod2text
@@ -284,10 +284,6 @@ src_install() {
 	local i
 	local coredir="${ARCH_LIB}/CORE"
 
-#	# Fix for "stupid" modules and programs
-#	dodir ${SITE_ARCH} ${SITE_LIB}
-#	keepdir "${VENDOR_ARCH}" #338802 for enc2xs
-
 	local installtarget=install
 	if use build ; then
 		installtarget=install.perl
@@ -319,7 +315,10 @@ src_install() {
 		sed -i -e "s:${D}::" "${i}" || die "Sed failed"
 	done
 
-	find "${D}" -type f -name .packlist -delete || die
+	#find "${D}" -type f -name .packlist -delete || die
+	ewarn "Print all .packlist files"
+	find "${D}" -type f -name .packlist
+	ewarn "Done."
 
 	# Note: find out from psm why we would need/want this.
 	# ( use berkdb && has_version '=sys-libs/db-1*' ) ||
