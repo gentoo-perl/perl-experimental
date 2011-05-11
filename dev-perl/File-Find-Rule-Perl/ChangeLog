@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/File-Find-Rule-Perl
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*File-Find-Rule-Perl-1.10-r1 (11 May 2011)
+
+  11 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.10/0001-Fix-the-test-for-ExtUtils-MakeMaker-and-also-being-i.patch,
+  +File-Find-Rule-Perl-1.10-r1.ebuild:
+  Add fix for Test failures with some EUMMs
 
 *File-Find-Rule-Perl-1.10 (05 Nov 2010)
 
