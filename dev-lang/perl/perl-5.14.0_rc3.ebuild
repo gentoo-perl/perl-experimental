@@ -315,10 +315,7 @@ src_install() {
 		sed -i -e "s:${D}::" "${i}" || die "Sed failed"
 	done
 
-	#find "${D}" -type f -name .packlist -delete || die
-	ewarn "Print all .packlist files"
-	find "${D}" -type f -name .packlist
-	ewarn "Done."
+	find "${D}" -type f -name .packlist -delete || die
 
 	# Note: find out from psm why we would need/want this.
 	# ( use berkdb && has_version '=sys-libs/db-1*' ) ||
