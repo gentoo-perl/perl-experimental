@@ -25,5 +25,5 @@ depend Moose 0.58
 depend Params-Validate 0.88
 depend-virtual Scalar-List-Utils # Scalar-Util
 depend Sub-Exporter
-
+ddep_setup;
 SRC_TEST=do

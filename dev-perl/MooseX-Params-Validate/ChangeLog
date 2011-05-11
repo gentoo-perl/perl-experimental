@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 May 2011; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Params-Validate-0.160.ebuild:
+  Fix missing ddep_setup
+
 *MooseX-Params-Validate-0.160 (31 Jan 2011)
 
   31 Jan 2011; Kent Fredric <kentfredric@gmail.com>
