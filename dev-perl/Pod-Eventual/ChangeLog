@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Pod-Eventual
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 May 2011; Kent Fredric <kentfredric@gmail.com>
+  Pod-Eventual-0.093330.ebuild:
+  Add missing Test-Deep dependency
 
 *Pod-Eventual-0.093330 (10 Dec 2009)
 
