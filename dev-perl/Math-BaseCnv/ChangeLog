@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Math-BaseCnv-1.8 (14 May 2011)
+
+  14 May 2011; Torsten Veller <tove@gentoo.org> +Math-BaseCnv-1.8.ebuild:
+  Version bump
+
   12 Feb 2011; Torsten Veller <tove@gentoo.org> Math-BaseCnv-1.6.ebuild:
   Tests fail without dev-perl/Test-Pod-Coverage
 
