@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-TreeDumper-0.400.0 (21 May 2011)
+
+  21 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Data-TreeDumper-0.400.0.ebuild:
+  Version Bump
+
 *Data-TreeDumper-0.370.0 (21 May 2011)
 
   21 May 2011; Kent Fredric <kentfredric@gmail.com>
