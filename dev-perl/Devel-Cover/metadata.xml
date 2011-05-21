@@ -2,4 +2,6 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<herd>perl</herd>
+	<use>
+		<flag name="recommended">Install packages recommended by Upstream for maximum utility</flag></use>
 </pkgmetadata>

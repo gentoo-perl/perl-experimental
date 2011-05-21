@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-Cover-0.780.0 (21 May 2011)
+
+  21 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Devel-Cover-0.780.0.ebuild, metadata.xml:
+  Bump version, tests fail : https://rt.cpan.org/Ticket/Display.html?id=68353 
+
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   -Devel-Cover-0.670.0.ebuild, -Devel-Cover-0.680.0.ebuild:
   GOne on CPAN
