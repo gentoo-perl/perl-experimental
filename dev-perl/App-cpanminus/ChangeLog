@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -App-cpanminus-1.1.0.ebuild, -App-cpanminus-1.1.100.ebuild,
+  -App-cpanminus-1.1.200.ebuild, -App-cpanminus-1.1.500.ebuild,
+  -App-cpanminus-1.100.200.ebuild, -App-cpanminus-1.100.400.ebuild,
+  -App-cpanminus-1.100.500.ebuild, -App-cpanminus-1.100.600.ebuild,
+  -App-cpanminus-1.100.800.ebuild, -App-cpanminus-1.190.200_rc.ebuild:
+  Remove versions 3 months or more old
+
 *App-cpanminus-1.400.500 (14 May 2011)
 
   14 May 2011; Torsten Veller <tove@gentoo.org>
