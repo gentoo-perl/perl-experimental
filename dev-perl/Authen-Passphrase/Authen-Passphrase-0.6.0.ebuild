@@ -20,12 +20,12 @@ COMMON_DEPEND="
 	>=dev-perl/Crypt-PasswdMD5-1.0
 	>=dev-perl/Crypt-UnixCrypt_XS-0.08
 	dev-perl/Data-Entropy
-	>=virtual/perl-digest-base-1.00
+	>=virtual/perl-digest-base-1.0.0
 	>=dev-perl/Digest-MD4-1.2
 	>=virtual/perl-Digest-MD5-1.9953
 	dev-perl/Digest-SHA1
-	>=virtual/perl-MIME-Base64-2.21
-	>=dev-perl/Module-Runtime-0.005
+	>=virtual/perl-MIME-Base64-2.210.0
+	>=dev-perl/Module-Runtime-0.5.0
 	dev-perl/Params-Classify
 "
 DEPEND="
