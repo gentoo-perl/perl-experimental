@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Singleton-0.250.0 (24 May 2011)
+*MooseX-Singleton-0.240.0 (24 May 2011)
+*MooseX-Singleton-0.220.0 (24 May 2011)
+
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-Singleton-0.220.ebuild, +MooseX-Singleton-0.220.0.ebuild,
+  -MooseX-Singleton-0.240.ebuild, +MooseX-Singleton-0.240.0.ebuild,
+  -MooseX-Singleton-0.250.ebuild, +MooseX-Singleton-0.250.0.ebuild:
+  Addzero
+
 *MooseX-Singleton-0.260.0 (27 Feb 2011)
 
   27 Feb 2011; Torsten Veller <tove@gentoo.org>
