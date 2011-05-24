@@ -72,7 +72,7 @@ depend MooseX-Types-Perl
 depend PPI
 depend Params-Util
 depend Path-Class
-depend Perl-PrereqScanner 0.100830
+depend Perl-PrereqScanner 0.100.830
 depend Perl-Version
 depend Pod-Eventual 0.091480
 depend-virtual Scalar-List-Utils # Scalar::Util
