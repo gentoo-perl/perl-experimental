@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Filter-Simple-0.870.0 (24 May 2011)
+
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Filter-Simple-0.870.0.ebuild:
+  Version bump
+
 *Filter-Simple-0.850.0 (11 Mar 2011)
 
   11 Mar 2011; Kent Fredric <kentfredric@gmail.com>
