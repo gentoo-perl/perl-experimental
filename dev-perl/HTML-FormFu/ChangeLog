@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormFu-0.90.30.100_rc (24 May 2011)
+
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormFu-0.90.30.100_rc.ebuild:
+  Bump to DEVELOPER
+
 *HTML-FormFu-0.90.30 (14 May 2011)
 
   14 May 2011; Torsten Veller <tove@gentoo.org> +HTML-FormFu-0.90.30.ebuild:
