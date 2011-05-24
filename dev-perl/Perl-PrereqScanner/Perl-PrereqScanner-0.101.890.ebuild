@@ -1,15 +1,19 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
-MODULE_AUTHOR=RJBS
+
+EAPI=3
+
+MODULE_AUTHOR=JQUELIN
+MODULE_VERSION="0.101890"
 inherit perl-module
 
 DESCRIPTION="a tool to scan your Perl code for its prerequisites"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
+
 COMMON_DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
@@ -23,10 +27,9 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.31
-	virtual/perl-File-Temp
-	dev-perl/PPI
-	virtual/perl-Test-Simple
-	dev-perl/Try-Tiny
+	test? ( virtual/perl-File-Temp
+		virtual/perl-Test-Simple
+		dev-perl/Try-Tiny )
 "
 RDEPEND="
 	${COMMON_DEPEND}

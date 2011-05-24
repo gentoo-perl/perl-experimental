@@ -2,6 +2,22 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Perl-PrereqScanner-1.2.0 (24 May 2011)
+*Perl-PrereqScanner-1.1.0 (24 May 2011)
+*Perl-PrereqScanner-0.101.891 (24 May 2011)
+*Perl-PrereqScanner-0.101.890 (24 May 2011)
+*Perl-PrereqScanner-0.101.480 (24 May 2011)
+*Perl-PrereqScanner-0.101.250 (24 May 2011)
+
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +Perl-PrereqScanner-0.101.250.ebuild, +Perl-PrereqScanner-0.101.480.ebuild,
+  +Perl-PrereqScanner-0.101.890.ebuild, +Perl-PrereqScanner-0.101.891.ebuild,
+  -Perl-PrereqScanner-0.101250.ebuild, -Perl-PrereqScanner-0.101480.ebuild,
+  -Perl-PrereqScanner-0.101890.ebuild, -Perl-PrereqScanner-0.101891.ebuild,
+  -Perl-PrereqScanner-1.001.ebuild, +Perl-PrereqScanner-1.1.0.ebuild,
+  -Perl-PrereqScanner-1.2.ebuild, +Perl-PrereqScanner-1.2.0.ebuild:
+  Migrate/Addzero
+
   06 Mar 2011; Torsten Veller <tove@gentoo.org>
   Perl-PrereqScanner-0.101250.ebuild, Perl-PrereqScanner-0.101480.ebuild,
   Perl-PrereqScanner-0.101890.ebuild, Perl-PrereqScanner-0.101891.ebuild,

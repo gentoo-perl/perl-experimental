@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.101891"
 inherit perl-module
 
 DESCRIPTION="a tool to scan your Perl code for its prerequisites"
