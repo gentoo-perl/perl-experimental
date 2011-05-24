@@ -13,7 +13,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="|| (
-	~dev-lang/perl-5.14.0 ~dev-lang/perl-5.14.0_rc1
+	~dev-lang/perl-5.14.0
 	~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2
 	~dev-lang/perl-5.10.1
 	~perl-core/Devel-PPPort-${PV}

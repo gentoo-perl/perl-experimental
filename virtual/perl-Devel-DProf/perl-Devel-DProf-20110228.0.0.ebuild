@@ -12,4 +12,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="|| ( ~dev-lang/perl-5.14.0 ~dev-lang/perl-5.14.0_rc1 ~perl-core/Devel-DProf-${PV} )"
+RDEPEND="|| ( ~dev-lang/perl-5.14.0 ~perl-core/Devel-DProf-${PV} )"

@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-CPANPLUS-0.910.300.ebuild:
+  Remove _rc1 references and fix to be 5.14.0 friendly
+
 *perl-CPANPLUS-0.910.500 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com>

@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-Devel-PPPort-3.190.0.ebuild:
+  Remove _rc1 references and fix to be 5.14.0 friendly
+
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   -perl-Devel-PPPort-3.190.200_rc.ebuild:
   Gone, no longer available

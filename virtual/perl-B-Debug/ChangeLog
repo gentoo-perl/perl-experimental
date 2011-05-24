@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  perl-B-Debug-1.160.0.ebuild:
+  Remove _rc1 references and fix to be 5.14.0 friendly
+
   20 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   perl-B-Debug-1.160.0.ebuild:
   Add 5.14 and 5.14-rc1
