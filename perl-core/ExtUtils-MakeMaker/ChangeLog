@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/perl-core/ExtUtils-MakeMaker/ChangeLog,v 1.21 2010/09/13 14:41:47 josejx Exp $
 
+*ExtUtils-MakeMaker-6.571.100_rc (24 May 2011)
+
+  24 May 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/6.571.100_rc/0001-Add-patch-from-gentoo-as-stolen-from-debian.patch,
+  +files/6.571.100_rc/0002-Add-RUNPATH-patch-from-gentoo.patch,
+  +ExtUtils-MakeMaker-6.571.100_rc.ebuild:
+  Version Bump
+
   22 Apr 2011; Torsten Veller <tove@gentoo.org>
   ExtUtils-MakeMaker-6.571.0_rc.ebuild:
   Do not install bundled distributions
