@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dancer-1.305.100 (28 May 2011)
+
+  28 May 2011; Torsten Veller <tove@gentoo.org> +Dancer-1.305.100.ebuild:
+  Version bump
+
 *Dancer-1.305.0 (21 May 2011)
 
   21 May 2011; Kent Fredric <kentfredric@gmail.com> +Dancer-1.305.0.ebuild:
