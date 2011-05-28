@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Net-LDAP-Server
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Net-LDAP-Server-0.430.0 (28 May 2011)
+
+  28 May 2011; Torsten Veller <tove@gentoo.org>
+  +Net-LDAP-Server-0.430.0.ebuild:
+  Version bump
 
   03 Jun 2010; Torsten Veller <tove@gentoo.org> -Net-LDAP-Server-0.4.ebuild:
   Removed from CPAN
