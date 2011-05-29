@@ -5,6 +5,7 @@
 EAPI=3
 
 MODULE_AUTHOR=RJBS
+MODULE_VERSION=3.101632
 inherit perl-module
 
 DESCRIPTION="weave together a Pod document from an outline"
