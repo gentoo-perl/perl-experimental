@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Module-Install-0.79
-	>=dev-perl/Class-Discover-1.000001
+	>=dev-perl/Class-Discover-1.0.1
 "
 DEPEND="
 	${COMMON_DEPEND}

@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Module-Install-ProvidesClass
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  Module-Install-ProvidesClass-1.000000.ebuild:
+  Change version scheme: dev-perl/Class-Discover 1.000001 -> 1.0.1
 
   15 Aug 2010; Kent Fredric <kentfredric@gmail.com>
   -Module-Install-ProvidesClass-0.000001.ebuild,
