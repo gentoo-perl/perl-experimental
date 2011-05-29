@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Handel-1.0.130 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org> +Handel-1.0.130.ebuild,
+  -Handel-1.00011.ebuild, -Handel-1.00011-r1.ebuild, -Handel-1.00011-r2.ebuild,
+  -Handel-1.00013.ebuild:
+  Change version scheme. Looks like a downgrade
+
   22 Mar 2011; Kent Fredric <kentfredric@gmail.com> Handel-1.00011.ebuild,
   Handel-1.00011-r1.ebuild, Handel-1.00011-r2.ebuild, Handel-1.00013.ebuild:
   Fixdep Catalyst-Devel
