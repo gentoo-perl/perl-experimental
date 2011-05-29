@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-Dumper-2.131.0 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  -Data-Dumper-2.130.30_rc.ebuild, +Data-Dumper-2.131.0.ebuild:
+  Version bump
+
 *Data-Dumper-2.130.30_rc (24 May 2011)
 
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
