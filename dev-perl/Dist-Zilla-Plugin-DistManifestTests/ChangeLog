@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-DistManifestTests-1.101.420 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  +Dist-Zilla-Plugin-DistManifestTests-1.101.420.ebuild,
+  -Dist-Zilla-Plugin-DistManifestTests-1.101420.ebuild:
+  Change version scheme: dev-perl/Dist-Zilla-Plugin-CriticTests
+
 *Dist-Zilla-Plugin-DistManifestTests-1.101420 (09 Jan 2011)
 
   09 Jan 2011; Kent Fredric <kentfredric@gmail.com>
