@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  Pod-Elemental-Transformer-WikiDoc-0.93.1.ebuild:
+  Change version scheme: dev-perl/Pod-Elemental-Transformer-WikiDoc
+
 *Pod-Elemental-Transformer-WikiDoc-0.93.1 (22 Apr 2011)
 
   22 Apr 2011; Kent Fredric <kentfredric@gmail.com>

@@ -14,7 +14,7 @@ IUSE=""
 COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
-	>=dev-perl/Pod-Elemental-0.092941
+	>=dev-perl/Pod-Elemental-0.92.941
 	>=dev-perl/Pod-WikiDoc-0.180.0
 	dev-perl/namespace-autoclean
 "
