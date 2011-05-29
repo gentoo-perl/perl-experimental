@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.10
 	dev-perl/Params-Util
-	>=dev-perl/Pod-Elemental-0.100220
+	>=dev-perl/Pod-Elemental-0.100.220
 	>=dev-perl/String-Flogger-1
 	dev-perl/String-Formatter
 	dev-perl/String-RewritePrefix
