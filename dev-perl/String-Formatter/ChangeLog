@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/String-Formatter
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*String-Formatter-0.102.82 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  +String-Formatter-0.102.82.ebuild, -String-Formatter-0.102082.ebuild:
+  Change version scheme. Looks like a downgrade
 
 *String-Formatter-0.102082 (04 Nov 2010)
 
