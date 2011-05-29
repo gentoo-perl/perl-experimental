@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	dev-perl/Moose-Autobox
 	>=dev-perl/Pod-Elemental-0.92.970
 	dev-perl/Pod-Elemental-Transformer-List
-	>=dev-perl/Pod-Weaver-3.00310
+	>=dev-perl/Pod-Weaver-3.3.100
 "
 DEPEND="
 	${COMMON_DEPEND}

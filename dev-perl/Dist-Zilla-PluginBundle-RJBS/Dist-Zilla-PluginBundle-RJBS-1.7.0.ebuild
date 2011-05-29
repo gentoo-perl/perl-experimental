@@ -27,8 +27,8 @@ COMMON_DEPEND="
 	dev-perl/Moose-Autobox
 	>=dev-perl/Pod-Elemental-0.92.970 $(comment 0.92.970)
 	dev-perl/Pod-Elemental-Transformer-List
-	>=dev-perl/Pod-Weaver-3.100310 $(comment 3.100.310)
-	>=dev-perl/Pod-Weaver-3.092990 $(comment 3.92.990 first Pod::Weaver::Config::Assembler)
+	>=dev-perl/Pod-Weaver-3.100.310 $(comment 3.100.310)
+	>=dev-perl/Pod-Weaver-3.92.990 $(comment 3.92.990 first Pod::Weaver::Config::Assembler)
 "
 DEPEND="
 	${COMMON_DEPEND}
