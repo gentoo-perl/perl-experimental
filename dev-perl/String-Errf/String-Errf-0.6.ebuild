@@ -22,7 +22,7 @@ cdepend-virtual ExtUtils-MakeMaker 6.56;
 # depend Carp # CORE
 depend Params-Util
 depend-virtual Scalar-List-Utils # Scalar-Util
-depend String-Formatter 0.102081 # OLD SCHEME
+depend String-Formatter 0.102.81 # OLD SCHEME
 depend Sub-Exporter
 depend-virtual Time-Piece
 
