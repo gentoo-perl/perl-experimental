@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-CriticTests-1.111.450 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  +Dist-Zilla-Plugin-CriticTests-1.111.450.ebuild:
+  Version bump
+
 *Dist-Zilla-Plugin-CriticTests-1.102.280 (29 May 2011)
 
   29 May 2011; Torsten Veller <tove@gentoo.org>
