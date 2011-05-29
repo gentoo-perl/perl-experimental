@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 May 2011; Torsten Veller <tove@gentoo.org> Dist-Zilla-4.200.3-r1.ebuild,
+  Dist-Zilla-4.200.4.ebuild, Dist-Zilla-4.200.6.ebuild:
+  Change version scheme: dev-perl/String-Formatter
+
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-4.200.3-r1.ebuild, Dist-Zilla-4.200.4.ebuild,
   Dist-Zilla-4.200.6.ebuild:
