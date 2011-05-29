@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-2.101.40 $(comment first PluginBundle::Easy role)
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	>=dev-perl/Pod-Elemental-0.092970 $(comment 0.92.970)
+	>=dev-perl/Pod-Elemental-0.92.970 $(comment 0.92.970)
 	dev-perl/Pod-Elemental-Transformer-List
 	>=dev-perl/Pod-Weaver-3.100310 $(comment 3.100.310)
 	>=dev-perl/Pod-Weaver-3.092990 $(comment 3.92.990 first Pod::Weaver::Config::Assembler)

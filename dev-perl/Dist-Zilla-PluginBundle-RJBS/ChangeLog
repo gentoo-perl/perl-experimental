@@ -6,6 +6,12 @@
   Dist-Zilla-PluginBundle-RJBS-1.4.0.ebuild,
   Dist-Zilla-PluginBundle-RJBS-1.6.0.ebuild,
   Dist-Zilla-PluginBundle-RJBS-1.7.0.ebuild:
+  Change version scheme: dev-perl/Pod-Elemental
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  Dist-Zilla-PluginBundle-RJBS-1.4.0.ebuild,
+  Dist-Zilla-PluginBundle-RJBS-1.6.0.ebuild,
+  Dist-Zilla-PluginBundle-RJBS-1.7.0.ebuild:
   Change version scheme: dev-perl/Dist-Zilla-Plugin-PodWeaver
 
 *Dist-Zilla-PluginBundle-RJBS-1.7.0 (05 May 2011)
