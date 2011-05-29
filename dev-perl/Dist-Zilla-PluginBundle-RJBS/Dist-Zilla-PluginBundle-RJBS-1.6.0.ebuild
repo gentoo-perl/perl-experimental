@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-2.100922
-	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.092971
+	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.92.971
 	dev-perl/Dist-Zilla-Plugin-Repository
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
 	>=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330

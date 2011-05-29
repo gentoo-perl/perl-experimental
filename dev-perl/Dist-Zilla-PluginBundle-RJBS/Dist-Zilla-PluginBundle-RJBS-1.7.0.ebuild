@@ -17,7 +17,7 @@ COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-2.100.860 $(comment first ::AutoPrereq)
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
 	>=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.120.0
-	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.092971 $(comment 3.92.971)
+	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.92.971 $(comment 3.92.971)
 	dev-perl/Dist-Zilla-Plugin-Repository
 	>=dev-perl/Dist-Zilla-Plugin-TaskWeaver-0.93.330
 	>=dev-perl/Dist-Zilla-2.100.960 $(comment first ::PluginBundle::Basic)
