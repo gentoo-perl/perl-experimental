@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Data-Dumper-2.131.0 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  -perl-Data-Dumper-2.130.20_rc.ebuild, -perl-Data-Dumper-2.130.30_rc.ebuild,
+  +perl-Data-Dumper-2.131.0.ebuild:
+  Version bump
+
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
   perl-Data-Dumper-2.130.20_rc.ebuild:
   Remove _rc1 references and fix to be 5.14.0 friendly
