@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/IO-CaptureOutput
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*IO-CaptureOutput-1.110.200 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  +IO-CaptureOutput-1.110.200.ebuild, -IO-CaptureOutput-1.1101.ebuild,
+  -IO-CaptureOutput-1.1102.ebuild:
+  Change version scheme. Looks like a downgrade
 
 *IO-CaptureOutput-1.1102 (11 May 2010)
 
