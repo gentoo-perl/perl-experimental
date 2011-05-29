@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/DateTime-Format-Pg
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*DateTime-Format-Pg-0.160.50 (29 May 2011)
+
+  29 May 2011; Torsten Veller <tove@gentoo.org>
+  +DateTime-Format-Pg-0.160.50.ebuild, -DateTime-Format-Pg-0.16003.ebuild,
+  -DateTime-Format-Pg-0.16004.ebuild, -DateTime-Format-Pg-0.16005.ebuild:
+  Change version scheme. Looks like a downgrade
 
 *DateTime-Format-Pg-0.16005 (25 Jun 2010)
 
