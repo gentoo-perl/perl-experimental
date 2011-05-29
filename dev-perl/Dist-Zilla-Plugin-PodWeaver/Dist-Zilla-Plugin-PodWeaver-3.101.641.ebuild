@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	dev-perl/PPI
 	dev-perl/Pod-Elemental
 	dev-perl/Pod-Elemental-PerlMunger
-	>=dev-perl/Pod-Weaver-3.100710
+	>=dev-perl/Pod-Weaver-3.100.710
 	dev-perl/namespace-autoclean
 "
 DEPEND="
