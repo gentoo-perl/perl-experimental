@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	dev-perl/PPI
-	>=dev-perl/Pod-Elemental-0.092941
+	>=dev-perl/Pod-Elemental-0.92.941
 	dev-perl/namespace-autoclean
 	dev-perl/Moose
 "
