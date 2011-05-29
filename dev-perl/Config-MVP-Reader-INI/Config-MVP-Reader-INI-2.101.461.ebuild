@@ -1,23 +1,28 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 EAPI=3
+
 MODULE_AUTHOR=RJBS
+MODULE_VERSION=2.101461
 inherit perl-module
 
 DESCRIPTION="an MVP config reader for .ini files"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-COMMON_DEPEND=""
+
+COMMON_DEPEND="
+	dev-perl/Config-INI
+	dev-perl/Moose
+"
 DEPEND="
 	${COMMON_DEPEND}
 	virtual/perl-Test-Simple
 	>=virtual/perl-ExtUtils-MakeMaker-6.52
-	dev-perl/Config-INI
 	>=dev-perl/Config-MVP-2
-	dev-perl/Moose
 "
 RDEPEND="
 	${COMMON_DEPEND}
