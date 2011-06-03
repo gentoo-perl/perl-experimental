@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Config-INI-0.18.0 (03 Jun 2011)
+
+  03 Jun 2011; Torsten Veller <tove@gentoo.org> +Config-INI-0.18.0.ebuild:
+  Version bump
+
   02 Jan 2011; Kent Fredric <kentfredric@gmail.com> -Config-INI-0.014.ebuild:
   gone on cpan
 
