@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -Mojolicious-1.320.0.ebuild, -Mojolicious-1.340.0.ebuild:
+  Gone On CPAN
+
 *Mojolicious-1.410.0 (03 Jun 2011)
 
   03 Jun 2011; Torsten Veller <tove@gentoo.org> +Mojolicious-1.410.0.ebuild:
