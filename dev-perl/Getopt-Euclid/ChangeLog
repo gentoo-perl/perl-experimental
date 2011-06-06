@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jun 2011; Kent Fredric <kentfredric@gmail.com> Getopt-Euclid-0.2.1.ebuild,
+  Getopt-Euclid-0.2.3.ebuild:
+  Minor: get rid of excess ; and ", it annoys naive parsers
+
 *Getopt-Euclid-0.2.3 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com>

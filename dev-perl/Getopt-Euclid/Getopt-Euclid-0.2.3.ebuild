@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=KGALINSKY
-MODULE_VERSION="v0.2.3";
+MODULE_VERSION=v0.2.3
 inherit perl-module
 
 DESCRIPTION="Executable Uniform Command-Line Interface Descriptions"
