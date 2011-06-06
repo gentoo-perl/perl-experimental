@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -Unicode-Collate-0.730.0.ebuild, -Unicode-Collate-0.740.0.ebuild,
+  -Unicode-Collate-0.750.0.ebuild:
+  Gone on CPAN
+
 *Unicode-Collate-0.760.0 (24 May 2011)
 
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
