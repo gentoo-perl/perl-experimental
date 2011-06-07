@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=KARMAN
+MODULE_VERSION="1.006"
 inherit perl-module
 
 DESCRIPTION="Authentication from an LDAP Directory."

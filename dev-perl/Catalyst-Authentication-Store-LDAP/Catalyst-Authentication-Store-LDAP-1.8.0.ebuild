@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=BOBTFISH
+MODULE_AUTHOR=KARMAN
+MODULE_VERSION="1.008"
 inherit perl-module
 
 DESCRIPTION="Authentication from an LDAP Directory."

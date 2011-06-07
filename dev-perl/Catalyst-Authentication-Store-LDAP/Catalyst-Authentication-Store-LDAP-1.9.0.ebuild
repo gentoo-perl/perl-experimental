@@ -1,8 +1,9 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=2
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="1.009"
 inherit perl-module
 
 DESCRIPTION="Authentication from an LDAP Directory."
@@ -18,10 +19,12 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.30
 "
 DEPEND="
-	>=dev-perl/Net-LDAP-Server-Test-0.70.0
-	virtual/perl-Test-Simple
-	dev-perl/Test-MockObject
-	dev-perl/Test-Exception
+	test? (
+		>=dev-perl/Net-LDAP-Server-Test-0.70.0
+		virtual/perl-Test-Simple
+		dev-perl/Test-MockObject
+		dev-perl/Test-Exception
+	)
 	${RDEPEND}
 "
 SRC_TEST="do"
