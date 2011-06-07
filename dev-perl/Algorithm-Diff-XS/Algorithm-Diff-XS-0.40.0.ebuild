@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 COMMON_DEPEND="
-	>=dev-perl/Algorithm-Diff-1.19
+	>=dev-perl/Algorithm-Diff-1.190.0
 "
 DEPEND="
 	${COMMON_DEPEND}
