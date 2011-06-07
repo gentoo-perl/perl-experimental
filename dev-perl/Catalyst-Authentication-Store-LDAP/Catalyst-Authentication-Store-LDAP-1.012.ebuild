@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.30
 "
 DEPEND="
-	>=dev-perl/Net-LDAP-Server-Test-0.07
+	>=dev-perl/Net-LDAP-Server-Test-0.70.0
 	virtual/perl-Test-Simple
 	dev-perl/Test-MockObject
 	dev-perl/Test-Exception

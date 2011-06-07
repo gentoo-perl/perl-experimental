@@ -19,7 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	test? (
-		>=dev-perl/Net-LDAP-Server-Test-0.07
+		>=dev-perl/Net-LDAP-Server-Test-0.70.0
 		virtual/perl-Test-Simple
 		dev-perl/Test-MockObject
 		dev-perl/Test-Exception

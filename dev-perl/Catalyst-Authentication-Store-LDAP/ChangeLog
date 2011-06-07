@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Authentication-Store-LDAP-1.006.ebuild,
+  Catalyst-Authentication-Store-LDAP-1.008.ebuild,
+  Catalyst-Authentication-Store-LDAP-1.009.ebuild,
+  Catalyst-Authentication-Store-LDAP-1.011.ebuild,
+  Catalyst-Authentication-Store-LDAP-1.012.ebuild:
+  Fixdep Net-LDAP-Server-Test
+
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Authentication-Store-LDAP-1.006.ebuild,
   Catalyst-Authentication-Store-LDAP-1.008.ebuild,
