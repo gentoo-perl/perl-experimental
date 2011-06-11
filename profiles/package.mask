@@ -1,9 +1,9 @@
 # Torsten Veller <tove@gentoo.org> (20 Apr 2011)
-# Mask perl-5.14: not released, needs testing,
+# Mask perl-5.14: needs testing,
 # virtuals have to be updated, @INC layout changes,..
 # tracker bug #356171
 =dev-lang/perl-5.14.0*
-=dev-perl/Test-WWW-Mechanize-1.30-r2
+=dev-lang/perl-5.14.1*
 
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
