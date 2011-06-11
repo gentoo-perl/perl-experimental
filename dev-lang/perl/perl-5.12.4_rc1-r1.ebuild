@@ -8,7 +8,7 @@ inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
 PATCH_VER=2
 
-PERL_OLDVERSEN="5.12.2 5.12.1 5.12.0"
+PERL_OLDVERSEN="5.12.3 5.12.2 5.12.1 5.12.0"
 
 SHORT_PV="${PV%.*}"
 MY_P="perl-${PV/_rc/-RC}"

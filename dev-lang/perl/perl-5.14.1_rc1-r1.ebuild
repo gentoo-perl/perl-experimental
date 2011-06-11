@@ -8,7 +8,7 @@ inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
 PATCH_VER=1
 
-PERL_OLDVERSEN=""
+PERL_OLDVERSEN="5.14.0"
 MODULE_AUTHOR=JESSE
 
 SHORT_PV="${PV%.*}"
