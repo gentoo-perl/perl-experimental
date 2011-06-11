@@ -1,3 +1,7 @@
+# Torsten Veller <tove@gentoo.org> (11 Jun 2011)
+# Mask perl-5.12.4* for testing
+=dev-lang/perl-5.12.4*
+
 # Torsten Veller <tove@gentoo.org> (20 Apr 2011)
 # Mask perl-5.14: needs testing,
 # virtuals have to be updated, @INC layout changes,..
