@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Module-Compile
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Compile-0.210.0 (11 Jun 2011)
+
+  11 Jun 2011; Torsten Veller <tove@gentoo.org> +Module-Compile-0.210.0.ebuild:
+  Version bump
+
