@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-lang/perl/perl-5.12.3-r1.ebuild,v 1.7 2011/05/07 16:36:19 armin76 Exp $
 
-EAPI=3
+EAPI=4
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=2
+PATCH_VER=1
 
 PERL_OLDVERSEN="5.12.3 5.12.2 5.12.1 5.12.0"
 
