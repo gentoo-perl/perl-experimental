@@ -13,6 +13,6 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="|| (
-	~dev-lang/perl-5.14.0
+	=dev-lang/perl-5.14*
 	~perl-core/Devel-SelfStubber-${PV}
 )"
