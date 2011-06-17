@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-CPANPLUS-Dist-Build-0.540.0-r1 (17 Jun 2011)
+
+  17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-CPANPLUS-Dist-Build-0.540.0.ebuild,
+  +perl-CPANPLUS-Dist-Build-0.540.0-r1.ebuild:
+  Update for perl-5.14.1 with star-match
+
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
   perl-CPANPLUS-Dist-Build-0.540.0.ebuild:
   Remove _rc1 references and fix to be 5.14.0 friendly
