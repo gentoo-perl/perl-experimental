@@ -2,6 +2,15 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Pod-Perldoc-3.150.400_rc (17 Jun 2011)
+*perl-Pod-Perldoc-3.150.300_rc-r1 (17 Jun 2011)
+
+  17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-Pod-Perldoc-3.150.300_rc.ebuild,
+  +perl-Pod-Perldoc-3.150.300_rc-r1.ebuild,
+  +perl-Pod-Perldoc-3.150.400_rc.ebuild:
+  Update for perl-5.14.1 with star-match
+
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
   perl-Pod-Perldoc-3.150.300_rc.ebuild:
   Remove _rc1 references and fix to be 5.14.0 friendly
