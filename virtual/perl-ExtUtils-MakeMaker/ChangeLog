@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/virtual/perl-ExtUtils-MakeMaker/ChangeLog,v 1.25 2010/09/13 14:42:31 josejx Exp $
 
+*perl-ExtUtils-MakeMaker-6.570.500_rc-r1 (17 Jun 2011)
+
+  17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-ExtUtils-MakeMaker-6.570.500_rc.ebuild,
+  +perl-ExtUtils-MakeMaker-6.570.500_rc-r1.ebuild:
+  Update for perl-5.14.1 with star-match
+
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
   perl-ExtUtils-MakeMaker-6.570.500_rc.ebuild:
   Remove _rc1 references and fix to be 5.14.0 friendly
