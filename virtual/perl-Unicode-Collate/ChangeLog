@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Unicode-Collate-0.730.0-r2 (17 Jun 2011)
+
+  17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-Unicode-Collate-0.730.0-r1.ebuild,
+  +perl-Unicode-Collate-0.730.0-r2.ebuild:
+  Update for perl-5.14.1 with star-match
+
 *perl-Unicode-Collate-0.730.0-r1 (06 Jun 2011)
 
   06 Jun 2011; Kent Fredric <kentfredric@gmail.com>
