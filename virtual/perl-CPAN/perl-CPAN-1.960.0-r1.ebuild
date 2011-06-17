@@ -13,8 +13,8 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="|| (
-	~dev-lang/perl-5.14.0
-	~dev-lang/perl-5.12.3 ~dev-lang/perl-5.12.2
-	~dev-lang/perl-5.10.1
+	=dev-lang/perl-5.14*
+	=dev-lang/perl-5.12*
+	=dev-lang/perl-5.10*
 	~perl-core/CPAN-${PV}
 )"
