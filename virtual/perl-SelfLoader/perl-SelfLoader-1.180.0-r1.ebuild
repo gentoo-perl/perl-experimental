@@ -12,4 +12,4 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="|| ( ~dev-lang/perl-5.14.0 ~perl-core/SelfLoader-${PV} )"
+RDEPEND="|| ( =dev-lang/perl-5.14* ~perl-core/SelfLoader-${PV} )"
