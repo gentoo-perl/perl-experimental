@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/CGI-Application-3.0
+	>=dev-perl/CGI-Application-3.0.0
 "
 DEPEND="${RDEPEND}"
 SRC_TEST=do
