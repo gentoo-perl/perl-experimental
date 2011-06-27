@@ -13,9 +13,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="recommended"
+comment() { echo ''; }
 RDEPEND="
-	>=dev-perl/CGI-Application-4
-	>=virtual/perl-CGI-3.16
+	>=dev-perl/CGI-Application-4.0.0
+	>=virtual/perl-CGI-3.160 $(comment 3.160.0)
 	dev-perl/Digest-SHA1
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Attribute-Handlers
@@ -31,8 +32,8 @@ RDEPEND="
 
 "
 DEPEND="
-	>=dev-perl/Test-Warn-0.11
-	>=virtual/perl-Module-Build-0.36
+	>=dev-perl/Test-Warn-0.11 $(comment 0.110.0)
+	>=virtual/perl-Module-Build-0.36 $(comment 0.360.0)
 "
 #	dev-perl/Task-Weaken
 DEPEND="${DEPEND}
@@ -42,7 +43,7 @@ DEPEND="${DEPEND}
 	dev-perl/Test-Regression
 	dev-perl/Test-Taint
 	dev-perl/Test-Without-Module
-	>=virtual/perl-Test-Simple-0.93
+	>=virtual/perl-Test-Simple-0.93 $(comment 0.930.0)
 	${RDEPEND}
 "
 SRC_TEST=do

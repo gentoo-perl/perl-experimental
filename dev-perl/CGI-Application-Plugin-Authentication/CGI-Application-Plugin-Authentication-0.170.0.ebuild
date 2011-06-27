@@ -13,8 +13,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="recommended"
+comment() { echo ''; }
 RDEPEND="
-	>=dev-perl/CGI-Application-4
+	>=dev-perl/CGI-Application-4.0.0
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Class-ISA
 	dev-perl/UNIVERSAL-require
@@ -30,10 +31,11 @@ RDEPEND="
 
 "
 DEPEND="
-	>=dev-perl/Test-Warn-0.11
+	>=dev-perl/Test-Warn-0.11 $(comment 0.110.0)
 	virtual/perl-Test-Simple
 	dev-perl/Task-Weaken
 	dev-perl/Test-Exception
 	${RDEPEND}
 "
+
 SRC_TEST=do

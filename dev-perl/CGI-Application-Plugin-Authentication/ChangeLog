@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Plugin-Authentication-0.170.0.ebuild,
+  CGI-Application-Plugin-Authentication-0.180.0.ebuild,
+  CGI-Application-Plugin-Authentication-0.190.0.ebuild:
+  Fixdep CGI-Application
+
 *CGI-Application-Plugin-Authentication-0.200.0 (21 May 2011)
 
   21 May 2011; Kent Fredric <kentfredric@gmail.com>
