@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CGI-PSGI
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-PSGI-0.150.0 (27 Jun 2011)
+
+  27 Jun 2011; Kent Fredric <kentfredric@gmail.com> +CGI-PSGI-0.150.0.ebuild,
+  +metadata.xml:
+  Added for CGI-Application
+
