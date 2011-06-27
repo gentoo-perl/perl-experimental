@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/CGI-Application-Plugin-Stash
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Application-Plugin-Stash-0.10.0 (27 Jun 2011)
+
+  27 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -CGI-Application-Plugin-Stash-0.01.ebuild,
+  +CGI-Application-Plugin-Stash-0.10.0.ebuild:
+  Migrate to new version scheme
+
