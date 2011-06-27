@@ -14,8 +14,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/CGI-Application-3.210
-	>=dev-perl/CGI-Session-3.950
+	>=dev-perl/CGI-Application-3.210.0
+	>=dev-perl/CGI-Session-3.950.0
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 "
