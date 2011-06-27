@@ -14,8 +14,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/CGI-Application-4.0
-	>=dev-perl/Template-Toolkit-2.0
+	>=dev-perl/CGI-Application-4.0.0
+	>=dev-perl/Template-Toolkit-2.0.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
