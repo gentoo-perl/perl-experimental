@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Dispatch-2.160.0.ebuild,
+  CGI-Application-Dispatch-2.170.0.ebuild,
+  CGI-Application-Dispatch-2.180.0.ebuild:
+  Fix dependency on CGI-Application
+
 *CGI-Application-Dispatch-2.180.0 (27 Jun 2011)
 *CGI-Application-Dispatch-2.170.0 (27 Jun 2011)
 *CGI-Application-Dispatch-2.160.0 (27 Jun 2011)

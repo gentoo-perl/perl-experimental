@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 RDEPEND="
 	perl-core/Module-Build
-	>=dev-perl/CGI-Application-3.2
+	>=dev-perl/CGI-Application-3.200.0
 	dev-perl/Exception-Class
 	dev-perl/Exception-Class-TryCatch
 "

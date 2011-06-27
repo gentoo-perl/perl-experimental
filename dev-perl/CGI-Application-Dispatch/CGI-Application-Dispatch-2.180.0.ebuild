@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/CGI-Application-3.2
+	>=dev-perl/CGI-Application-3.200.0
 	dev-perl/Exception-Class
 	dev-perl/Exception-Class-TryCatch
 	>=virtual/perl-version-0.82
@@ -32,13 +32,13 @@ DEPEND="
 SRC_TEST=do
 
 src_test() {
-	# This jiggerypokery appears to be required if Apache::Test 
-	# is present. If it is not present or not use test? then we're ok, 
-	# but otherwise, we need to specify where apache is, or it will 
+	# This jiggerypokery appears to be required if Apache::Test
+	# is present. If it is not present or not use test? then we're ok,
+	# but otherwise, we need to specify where apache is, or it will
 	# for some reason, get stuck in a death loop and fill your log file
 	# and your hard drive. JOY! http://gist.github.com/447135
 
-	# NB. Because I have no way of conditionally triggering this code 
+	# NB. Because I have no way of conditionally triggering this code
 	# whether or not Apache-Test is installed ( like the code does )
 	# I have test-depped on it basically forcing a known circuit.
 
