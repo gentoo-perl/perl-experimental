@@ -2,6 +2,18 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CGI-Application-4.310.0 (27 Jun 2011)
+*CGI-Application-4.210.0 (27 Jun 2011)
+*CGI-Application-4.200.0 (27 Jun 2011)
+*CGI-Application-4.110.0 (27 Jun 2011)
+
+  27 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -CGI-Application-4.110.ebuild, +CGI-Application-4.110.0.ebuild,
+  -CGI-Application-4.200.ebuild, +CGI-Application-4.200.0.ebuild,
+  -CGI-Application-4.210.ebuild, +CGI-Application-4.210.0.ebuild,
+  -CGI-Application-4.310.ebuild, +CGI-Application-4.310.0.ebuild:
+  Add Zero
+
 *CGI-Application-4.310 (12 Jan 2011)
 *CGI-Application-4.210 (12 Jan 2011)
 *CGI-Application-4.200 (12 Jan 2011)
