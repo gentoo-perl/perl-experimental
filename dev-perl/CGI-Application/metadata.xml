@@ -5,5 +5,8 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="recommended">Install recommended support for PSGI with <pkg>dev-perl/CGI-PSGI</pkg></flag>
+	</use>
 </pkgmetadata>
