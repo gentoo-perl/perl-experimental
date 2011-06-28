@@ -90,7 +90,7 @@ conflict Catalyst-Action-DebugCookie 0.999002 # 0.999.2
 conflict Catalyst-Plugin-Authentication 0.100.91
 conflict CatalystX-Imports 0.03 # 0.30.0
 conflict Catalyst-Plugins-HashedCookies 1.03 # 1.30.0
-conflict Catalyst-Action-REST 0.670 # 0.670.0
+conflict Catalyst-Action-REST 0.670.0
 conflict CatalystX-CRUD 0.42 # 0.420.0
 conflict CatalystX-CRUD-Model-RDBO 0.20 # 0.200.0
 conflict Catalyst-View-Mason 0.17 # 0.170.0
