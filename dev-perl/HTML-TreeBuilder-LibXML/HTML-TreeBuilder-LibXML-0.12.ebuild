@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-perl/HTML-TreeBuilder-XPath-0.11
+RDEPEND=">=dev-perl/HTML-TreeBuilder-XPath-0.110.0
 	>=dev-perl/XML-LibXML-1.70"
 DEPEND="${RDEPEND}"
 

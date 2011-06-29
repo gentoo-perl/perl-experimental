@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/HTML-TreeBuilder-LibXML
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  29 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  HTML-TreeBuilder-LibXML-0.12.ebuild:
+  Fixdep HTML-TreeBuilder-XPath
 
 *HTML-TreeBuilder-LibXML-0.12 (04 Nov 2010)
 
