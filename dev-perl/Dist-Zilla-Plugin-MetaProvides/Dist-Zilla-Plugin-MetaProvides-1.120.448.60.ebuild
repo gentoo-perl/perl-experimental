@@ -17,10 +17,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
 	metanoindex? (
-		|| (
 			>=dev-perl/Dist-Zilla-4.200.4
-			dev-perl/Dist-Zilla-Plugin-MetaNoIndex
-		)
 	)
 "
 PDEPEND="
