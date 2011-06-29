@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-Test-CPAN-Changes-0.5.0 (29 Jun 2011)
+
+  29 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-Test-CPAN-Changes-0.5.0.ebuild:
+  Version Bump
+
 *Dist-Zilla-Plugin-Test-CPAN-Changes-0.4.0 (23 Apr 2011)
 
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
