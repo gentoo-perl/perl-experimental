@@ -1,6 +1,15 @@
 # ChangeLog for dev-perl/HTML-TreeBuilder-XPath
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-TreeBuilder-XPath-0.120.0 (29 Jun 2011)
+*HTML-TreeBuilder-XPath-0.110.0 (29 Jun 2011)
+
+  29 Jun 2011; Kent Fredric <kentfredric@gmail.com>
+  -HTML-TreeBuilder-XPath-0.11.ebuild, -HTML-TreeBuilder-XPath-0.12.ebuild,
+  +HTML-TreeBuilder-XPath-0.110.0.ebuild,
+  +HTML-TreeBuilder-XPath-0.120.0.ebuild:
+  Migrate to new version scheme
 
 *HTML-TreeBuilder-XPath-0.12 (04 Nov 2010)
 

@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR="MIROD"
+MODULE_VERSION="0.12"
 inherit perl-module
 
 DESCRIPTION="Add XPath support to HTML::TreeBuilder"
