@@ -4,7 +4,8 @@
 
 EAPI=3
 
-MODULE_AUTHOR=TOKUHIROM
+MODULE_AUTHOR="MIYAGAWA"
+MODULE_VERSION="0.11"
 inherit perl-module
 
 DESCRIPTION="HTML::TreeBuilder and XPath compatible interface with libxml"
@@ -13,8 +14,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-perl/HTML-TreeBuilder-XPath-0.110.0
-	>=dev-perl/XML-LibXML-1.70"
+RDEPEND="dev-perl/HTML-TreeBuilder-XPath
+	dev-perl/XML-LibXML"
 DEPEND="${RDEPEND}"
 
 SRC_TEST="do"
