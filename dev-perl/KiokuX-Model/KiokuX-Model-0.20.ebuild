@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/KiokuDB-0.240
+	>=dev-perl/KiokuDB-0.240.0
 	>=dev-perl/MooseX-StrictConstructor-0.08
 "
 DEPEND="
