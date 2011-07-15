@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Model-KiokuDB-0.120.ebuild:
+  Fixdep -> KiokuDB ( addzeros )
+
 *Catalyst-Model-KiokuDB-0.120 (22 Jan 2011)
 *Catalyst-Model-KiokuDB-0.110 (22 Jan 2011)
 

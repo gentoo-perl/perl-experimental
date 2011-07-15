@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/KiokuDB-0.460
+	>=dev-perl/KiokuDB-0.460.0
 	dev-perl/KiokuX-Model
 	>=dev-perl/Catalyst-Runtime-5.800
 	dev-perl/Moose
