@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Util-EmulatePhase-0.10.258.0 (15 Jul 2011)
+
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Util-EmulatePhase-0.10.258.0.ebuild:
+  Version Bump
+
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   -Dist-Zilla-Util-EmulatePhase-0.10.1.10.ebuild:
   Gone on CPAN
