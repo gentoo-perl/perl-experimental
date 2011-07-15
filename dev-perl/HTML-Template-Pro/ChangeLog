@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -HTML-Template-Pro-0.950.400.ebuild:
+  Gone on CPAN
+
 *HTML-Template-Pro-0.950.500 (15 Jul 2011)
 
   15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
