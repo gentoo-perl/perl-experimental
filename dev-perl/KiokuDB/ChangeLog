@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*KiokuDB-0.520.0 (15 Jul 2011)
+
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com> +KiokuDB-0.520.0.ebuild:
+  Version Bump
+
 *KiokuDB-0.500.0 (15 Jul 2011)
 *KiokuDB-0.490.0 (15 Jul 2011)
 *KiokuDB-0.480.0 (15 Jul 2011)
