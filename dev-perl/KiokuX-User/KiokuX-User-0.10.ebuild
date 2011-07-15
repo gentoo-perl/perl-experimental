@@ -14,7 +14,7 @@ IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Moose-0.63
 	dev-perl/namespace-clean
-	>=dev-perl/KiokuDB-0.90
+	>=dev-perl/KiokuDB-0.90.0
 	dev-perl/Sub-Exporter
 	dev-perl/MooseX-Types-Authen-Passphrase
 "

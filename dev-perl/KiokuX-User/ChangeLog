@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com> KiokuX-User-0.10.ebuild,
+  KiokuX-User-0.20.ebuild:
+  Fixdep -> KiokuDB ( addzeros )
+
 *KiokuX-User-0.20 (22 Jan 2011)
 *KiokuX-User-0.10 (22 Jan 2011)
 

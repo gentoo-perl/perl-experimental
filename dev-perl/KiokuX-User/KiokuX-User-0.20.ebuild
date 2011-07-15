@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/KiokuDB-0.90
+	>=dev-perl/KiokuDB-0.90.0
 	>=dev-perl/Moose-0.63
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-Types-Authen-Passphrase
