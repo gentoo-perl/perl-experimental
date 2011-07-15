@@ -24,7 +24,7 @@ COMMON_DEPEND="
 	>=dev-perl/DBI-1.607
 	>=dev-perl/DBIx-Class-0.81.270
 	>=dev-perl/Data-Stream-Bulk-0.07
-	>=dev-perl/KiokuDB-0.460
+	>=dev-perl/KiokuDB-0.460.0
 	>=dev-perl/MooseX-Types-0.08
 	>=virtual/perl-Test-Simple-0.88
 	dev-perl/Class-Accessor-Grouped

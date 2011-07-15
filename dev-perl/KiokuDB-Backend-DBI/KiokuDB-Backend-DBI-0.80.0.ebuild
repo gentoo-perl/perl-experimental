@@ -14,7 +14,7 @@ IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types
-	>=dev-perl/KiokuDB-0.240
+	>=dev-perl/KiokuDB-0.240.0
 	>=dev-perl/DBIx-Class-0.08102
 	>=dev-perl/DBI-1.607
 	>=dev-perl/Data-Stream-Bulk-0.07
