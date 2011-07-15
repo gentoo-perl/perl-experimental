@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Devel-StackTrace-1.23 $(comment 1.230.0)
 	>=dev-perl/Devel-StackTrace-AsHTML-0.110 $(comment 0.110.0)
 	dev-perl/Filesys-Notify-Simple
-	>=dev-perl/Hash-MultiValue-0.05 $(comment 0.50.0)
+	>=dev-perl/Hash-MultiValue-0.50.0
 	>=dev-perl/HTTP-Body-1.60.0
 	>=dev-perl/Test-TCP-0.11 $(comment 0.110.0)
 "
