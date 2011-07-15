@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Imager-0.840.0 (15 Jul 2011)
+
+  15 Jul 2011; Kent Fredric <kentfredric@gmail.com> +Imager-0.840.0.ebuild:
+  Version Bump
+
   06 Jun 2011; Kent Fredric <kentfredric@gmail.com> -Imager-0.810.0.ebuild:
   Gone on CPAN
 
