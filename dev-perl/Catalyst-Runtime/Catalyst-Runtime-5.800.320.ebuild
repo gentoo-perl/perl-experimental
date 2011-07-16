@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.00903
 	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.95 )
 	>=dev-perl/Moose-1.03
-	>=dev-perl/MooseX-MethodAttributes-0.24
+	>=dev-perl/MooseX-MethodAttributes-0.240.0
 	>=dev-perl/MooseX-Role-WithOverloading-0.09
 
 	>=dev-perl/Class-C3-Adopt-NEXT-0.07

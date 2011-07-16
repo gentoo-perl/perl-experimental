@@ -26,7 +26,7 @@ depend B-Hooks-EndOfScope 0.08 # 0.80.0
 depend MooseX-Emulate-Class-Accessor-Fast 0.00903 # 0.9.30
 depend Data-OptList
 depend Moose 1.03 # 1.30.0
-depend MooseX-MethodAttributes 0.24 # MooseX::MethodAttributes::Inheritable 0.240.0
+depend MooseX-MethodAttributes 0.240.0 # MooseX::MethodAttributes::Inheritable 0.240.0
 depend MooseX-Role-WithOverloading 0.090 # 0.90.0
 depend MooseX-Types-LoadableClass 0.3 # 0.3.0
 # depend Carp # CORE
