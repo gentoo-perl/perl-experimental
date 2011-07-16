@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Padre-Plugin-Autoformat-1.220.0 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -Padre-Plugin-Autoformat-1.220.ebuild,
+  +Padre-Plugin-Autoformat-1.220.0.ebuild:
+  addzero
+
   16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
   -Padre-Plugin-Autoformat-1.21.ebuild:
   Gone on CPAN
