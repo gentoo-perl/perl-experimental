@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
-MODULE_AUTHOR=LBROCARD
+MODULE_AUTHOR=BROQ
+MODULE_VERSION="0.47"
 inherit perl-module
 
 DESCRIPTION="A Pure Perl interface to Git repositories"
@@ -13,6 +14,7 @@ IUSE=""
 COMMON_DEPEND="
 	virtual/perl-Archive-Extract
 	virtual/perl-Compress-Raw-Zlib
+	dev-perl/Config-GitLike
 	virtual/perl-IO-Compress
 	dev-perl/Data-Stream-Bulk
 	dev-perl/DateTime
@@ -22,9 +24,14 @@ COMMON_DEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-StrictConstructor
 	dev-perl/MooseX-Types-Path-Class
+	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${COMMON_DEPEND}
+	test? (
+		>=virtual/perl-Test-Simple-0.88
+		>=dev-perl/Test-utf8-0.02
+	)
 "
 RDEPEND="
 	${COMMON_DEPEND}

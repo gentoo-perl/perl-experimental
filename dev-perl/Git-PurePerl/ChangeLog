@@ -1,6 +1,20 @@
 # ChangeLog for dev-perl/Git-PurePerl
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Git-PurePerl-0.470.0 (16 Jul 2011)
+*Git-PurePerl-0.460.0 (16 Jul 2011)
+*Git-PurePerl-0.450.0 (16 Jul 2011)
+*Git-PurePerl-0.430.0 (16 Jul 2011)
+*Git-PurePerl-0.410.0 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com> -Git-PurePerl-0.41.ebuild,
+  -Git-PurePerl-0.43.ebuild, -Git-PurePerl-0.45.ebuild,
+  -Git-PurePerl-0.46.ebuild, -Git-PurePerl-0.47.ebuild,
+  +Git-PurePerl-0.410.0.ebuild, +Git-PurePerl-0.430.0.ebuild,
+  +Git-PurePerl-0.450.0.ebuild, +Git-PurePerl-0.460.0.ebuild,
+  +Git-PurePerl-0.470.0.ebuild:
+  Migrate to new Version Scheme
 
 *Git-PurePerl-0.47 (15 Aug 2010)
 
