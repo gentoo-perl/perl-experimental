@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Env-1.30.0 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com> +Env-1.30.0.ebuild:
+  Version Bump
+
 *Env-1.20.0 (11 Mar 2011)
 
   11 Mar 2011; Kent Fredric <kentfredric@gmail.com> +Env-1.20.0.ebuild,
