@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -Task-Kensho-0.110.0.ebuild, -Task-Kensho-0.130.0.ebuild,
+  -Task-Kensho-0.140.0.ebuild, -Task-Kensho-0.150.0.ebuild,
+  -Task-Kensho-0.170.0.ebuild, -Task-Kensho-0.180.0.ebuild,
+  -Task-Kensho-0.190.0.ebuild, -Task-Kensho-0.200.0.ebuild:
+  Gone on CPAN
+
 *Task-Kensho-0.310.0 (13 Apr 2011)
 
   13 Apr 2011; Kent Fredric <kentfredric@gmail.com>
