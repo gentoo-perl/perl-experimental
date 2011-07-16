@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com> -MooseX-POE-0.205.0.ebuild,
+  -MooseX-POE-0.207.0.ebuild:
+  Gone on CPAN
+
 *MooseX-POE-0.214.0 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com> MooseX-POE-0.213.0.ebuild,
