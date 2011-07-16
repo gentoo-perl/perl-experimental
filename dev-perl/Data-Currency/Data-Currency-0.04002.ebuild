@@ -18,7 +18,7 @@ DEPEND="
 	dev-perl/Class-Inspector
 	>=dev-perl/Finance-Currency-Convert-WebserviceX-0.03
 	>=dev-perl/Locale-Codes-2.70.0
-	>=dev-perl/Locale-Currency-Format-1.22
+	>=dev-perl/Locale-Currency-Format-1.220.0
 "
 RDEPEND="${DEPEND}"
 SRC_TEST="do"
