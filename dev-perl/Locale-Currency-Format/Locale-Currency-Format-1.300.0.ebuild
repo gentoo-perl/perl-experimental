@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=TNGUYEN
-MODULE_VERSION=1.28
+MODULE_VERSION=1.30
 inherit perl-module
 
 DESCRIPTION="Perl functions for formatting monetary values"
