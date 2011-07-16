@@ -16,7 +16,7 @@ IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/Catalyst-Runtime-5.800.130
-	>=dev-perl/MooseX-MethodAttributes-0.18 $(comment 0.180.0)
+	>=dev-perl/MooseX-MethodAttributes-0.180.0
 	>=dev-perl/Catalyst-Action-REST-0.740.0
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Catalyst-View-TT
