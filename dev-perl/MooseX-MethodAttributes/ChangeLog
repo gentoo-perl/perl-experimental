@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-MethodAttributes-0.250.0 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-MethodAttributes-0.250.0.ebuild:
+  Version Bump
+
 *MooseX-MethodAttributes-0.240.0 (16 Jul 2011)
 *MooseX-MethodAttributes-0.220.0 (16 Jul 2011)
 *MooseX-MethodAttributes-0.200.0 (16 Jul 2011)
