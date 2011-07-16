@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
+  Fixdep Locale-Currency-Format
+
 *Handel-1.0.130 (29 May 2011)
 
   29 May 2011; Torsten Veller <tove@gentoo.org> +Handel-1.0.130.ebuild,
