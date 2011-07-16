@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Module-Compile-0.200.0 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -Module-Compile-0.20.ebuild, +Module-Compile-0.200.0.ebuild:
+  Migrate
+
 *Module-Compile-0.220.0 (12 Jun 2011)
 
   12 Jun 2011; Torsten Veller <tove@gentoo.org> +Module-Compile-0.220.0.ebuild:
