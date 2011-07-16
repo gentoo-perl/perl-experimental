@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Dumpvalue-1.160.0-r2 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-Dumpvalue-1.160.0-r1.ebuild, +perl-Dumpvalue-1.160.0-r2.ebuild:
+  Permit perl-core/ being used
+
 *perl-Dumpvalue-1.160.0-r1 (17 Jun 2011)
 
   17 Jun 2011; Kent Fredric <kentfredric@gmail.com>

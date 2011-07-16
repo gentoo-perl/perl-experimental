@@ -13,6 +13,8 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="
+|| (
 		=dev-lang/perl-5.14*
-		!perl-core/Dumpvalue
+		~perl-core/Dumpvalue-${PV}
+)
 "
