@@ -45,7 +45,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-ISO8601
 	dev-perl/namespace-autoclean
 
-	>=dev-perl/Git-PurePerl-0.47 $(comment 0.470.0)
+	>=dev-perl/Git-PurePerl-0.470.0
 
 	dev-perl/aliased
 	virtual/perl-CGI

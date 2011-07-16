@@ -36,7 +36,7 @@ RDEPEND="
 	dev-perl/File-Type
 	dev-perl/File-Type-WebImages
 	dev-perl/File-Which
-	>=dev-perl/Git-PurePerl-0.47 $(comment 0.470.0)
+	>=dev-perl/Git-PurePerl-0.470.0
 	dev-perl/HTML-Parser
 	dev-perl/IPC-Run
 	dev-perl/JSON-XS
