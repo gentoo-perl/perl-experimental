@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com> pip-1.16.ebuild,
+  pip-1.18.ebuild, pip-1.190.ebuild:
+  Fixdep LWP-Online
+
   31 Jan 2011; Kent Fredric <kentfredric@gmail.com> pip-1.16.ebuild,
   pip-1.18.ebuild, pip-1.190.ebuild:
   Fix dependency on virtual/perl-CPAN

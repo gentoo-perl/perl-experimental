@@ -31,7 +31,7 @@ DEPEND="
 	test? (
 		>=virtual/perl-Test-Simple-0.42
 		>=dev-perl/Test-Script-1.02
-		>=dev-perl/LWP-Online-0.02
+		>=dev-perl/LWP-Online-0.20.0
 	)
 "
 RDEPEND="
