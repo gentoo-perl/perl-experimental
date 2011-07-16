@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Daemonize-0.130.0 (16 Jul 2011)
+
+  16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Daemonize-0.130.0.ebuild:
+  Version Bump
+
 *MooseX-Daemonize-0.120.0 (16 Jul 2011)
 *MooseX-Daemonize-0.100.0 (16 Jul 2011)
 *MooseX-Daemonize-0.90.0 (16 Jul 2011)
