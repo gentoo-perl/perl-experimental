@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Cache-FastMmap-1.390.0 (18 Jul 2011)
+
+  18 Jul 2011; Torsten Veller <tove@gentoo.org> +Cache-FastMmap-1.390.0.ebuild:
+  Version bump
+
 *Cache-FastMmap-1.370.0 (16 Jul 2011)
 
   16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
