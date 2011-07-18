@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTTP-Tiny-0.13.0 (18 Jul 2011)
+
+  18 Jul 2011; Torsten Veller <tove@gentoo.org> +HTTP-Tiny-0.13.0.ebuild:
+  Version bump
+
 *HTTP-Tiny-0.12.0 (01 Apr 2011)
 
   01 Apr 2011; Torsten Veller <tove@gentoo.org> +HTTP-Tiny-0.12.0.ebuild:
