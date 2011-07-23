@@ -33,7 +33,7 @@ RDEPEND="
 
 	|| (
 		dev-perl/libwww-perl
-		>=dev-perl/HTTP-Tiny-0.5
+		>=virtual/perl-HTTP-Tiny-0.5.0
 	)
 
 	interesting? (

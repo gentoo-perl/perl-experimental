@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jul 2011; Kent Fredric <kentfredric@gmail.com> CPAN-1.946.400_rc.ebuild:
+  Fixdep HTTP-Tiny
+
   26 Mar 2011; Kent Fredric <kentfredric@gmail.com> CPAN-1.940.200-r1.ebuild,
   CPAN-1.946.400_rc.ebuild, CPAN-1.960.0.ebuild:
   Remove build IUSE, Fix GNU dep
