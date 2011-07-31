@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-ConfigLoader
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-ConfigLoader-0.27.ebuild,
+  -Catalyst-Plugin-ConfigLoader-0.28.ebuild:
+  Gone on CPAN
 
 *Catalyst-Plugin-ConfigLoader-0.30 (28 Aug 2010)
 
