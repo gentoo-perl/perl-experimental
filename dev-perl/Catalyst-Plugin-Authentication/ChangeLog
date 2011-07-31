@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Authentication-0.100.180 (31 Jul 2011)
+
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Authentication-0.100.180.ebuild:
+  Version Bump
+
 *Catalyst-Plugin-Authentication-0.100.170 (29 Jan 2011)
 *Catalyst-Plugin-Authentication-0.100.160 (29 Jan 2011)
 
