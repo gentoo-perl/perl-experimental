@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -Filter-Simple-0.850.0.ebuild:
+  Gone on CPAN
+
 *Filter-Simple-0.870.0 (24 May 2011)
 
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
