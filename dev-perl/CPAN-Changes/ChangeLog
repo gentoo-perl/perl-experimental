@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -CPAN-Changes-0.110.0.ebuild, -CPAN-Changes-0.130.0.ebuild,
+  -CPAN-Changes-0.150.0.ebuild:
+  Gone on CPAN
+
 *CPAN-Changes-0.170.0 (23 Apr 2011)
 
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com>
