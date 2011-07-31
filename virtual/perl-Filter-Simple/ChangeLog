@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-Filter-Simple-0.850.0.ebuild:
+  Not available on CPAN or in any stable Perl
+
 *perl-Filter-Simple-0.860.0-r1 (17 Jun 2011)
 
   17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
