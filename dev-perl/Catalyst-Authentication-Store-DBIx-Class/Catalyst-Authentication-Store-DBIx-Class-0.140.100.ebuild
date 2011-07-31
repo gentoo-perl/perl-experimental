@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 COMMONDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.80
-	>=dev-perl/Catalyst-Model-DBIC-Schema-0.180
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.180.0
 	>=dev-perl/DBIx-Class-0.08
 	dev-perl/Moose
 	dev-perl/namespace-autoclean

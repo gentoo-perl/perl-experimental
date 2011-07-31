@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.80
-	>=dev-perl/Catalyst-Model-DBIC-Schema-0.180
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.180.0
 	dev-perl/DBIx-Class
 "
 DEPEND="${RDEPEND}"
