@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Plack-Test-ExternalServer
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Plack-Test-ExternalServer-0.10.0 (31 Jul 2011)
+
+  31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
+  +Plack-Test-ExternalServer-0.10.0.ebuild, +metadata.xml:
+  Added
+
