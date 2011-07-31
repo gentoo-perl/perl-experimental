@@ -27,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Action-RenderView-0.07
 	>=dev-perl/Catalyst-Authentication-Store-DBIx-Class-0.101.0
 	>=dev-perl/Catalyst-Controller-HTML-FormFu-0.30.70
-	>=dev-perl/Catalyst-Model-DBIC-Schema-0.10
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.10.0
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.50
 	dev-perl/Catalyst-Plugin-Cache
 	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.13
