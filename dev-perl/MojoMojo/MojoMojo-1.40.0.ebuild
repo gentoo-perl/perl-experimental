@@ -125,7 +125,7 @@ DEPEND="
 		>=dev-perl/SQL-Translator-0.90.6
 		>=dev-perl/Email-Sender-0.102.370
 		>=dev-perl/WWW-Mechanize-1.54
-		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.51
+		>=dev-perl/Test-WWW-Mechanize-Catalyst-0.510.0
 		>=dev-perl/WWW-Mechanize-TreeBuilder-1.100
 	)
 	${RDEPEND}
