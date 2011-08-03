@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=RCAPUTO
-MODULE_VERSION=0.267
+MODULE_VERSION=0.268
 inherit perl-module
 
 DESCRIPTION="manage connections, with keep-alive"
