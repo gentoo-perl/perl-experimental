@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/Math-Complex
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Math-Complex-1.580.0 (03 Aug 2011)
+
+  03 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Math-Complex-1.580.0.ebuild, +metadata.xml:
+  Added as listed as outdated by CPANOUTDATED
+
