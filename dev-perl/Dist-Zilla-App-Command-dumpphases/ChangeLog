@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-App-Command-dumpphases
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-App-Command-dumpphases-0.1.0 (03 Aug 2011)
+
+  03 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-App-Command-dumpphases-0.1.0.ebuild, +metadata.xml:
+  Added
+
