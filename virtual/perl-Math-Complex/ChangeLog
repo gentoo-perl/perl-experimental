@@ -1,0 +1,13 @@
+# ChangeLog for virtual/perl-Math-Complex
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Math-Complex-1.580.0 (03 Aug 2011)
+*perl-Math-Complex-1.560.0 (03 Aug 2011)
+*perl-Math-Complex-1.350.0 (03 Aug 2011)
+
+  03 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Math-Complex-1.350.0.ebuild, +perl-Math-Complex-1.560.0.ebuild,
+  +perl-Math-Complex-1.580.0.ebuild, +metadata.xml:
+  Adding virtuals for all available perls
+
