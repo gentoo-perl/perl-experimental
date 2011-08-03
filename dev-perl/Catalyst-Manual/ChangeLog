@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Manual-5.800.800 (03 Aug 2011)
+
+  03 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Manual-5.800.800.ebuild:
+  Version Bump
+
 *Catalyst-Manual-5.800.700 (05 May 2011)
 
   05 May 2011; Kent Fredric <kentfredric@gmail.com>
