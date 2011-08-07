@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Net-Google-DataAPI
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Net-Google-DataAPI-0.24 (07 Aug 2011)
+
+  07 Aug 2011; Daniel Westermann-Clark <dwc@pobox.com>
+  -Net-Google-DataAPI-0.22.ebuild, -Net-Google-DataAPI-0.23.ebuild,
+  +Net-Google-DataAPI-0.24.ebuild:
+  Bump
 
 *Net-Google-DataAPI-0.23 (21 Dec 2010)
 

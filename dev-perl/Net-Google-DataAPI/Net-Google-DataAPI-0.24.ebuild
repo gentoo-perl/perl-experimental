@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,10 +17,10 @@ SRC_TEST="do"
 IUSE="test"
 RDEPEND="dev-perl/XML-Atom
 	>=dev-perl/Net-Google-AuthSub-0.5
-	dev-perl/Crypt-SSLeay
 	dev-perl/Digest-SHA1
 	dev-perl/Net-OAuth
 	dev-perl/libwww-perl
+	dev-perl/LWP-Protocol-https
 	dev-perl/URI
 	dev-perl/Lingua-EN-Inflect-Number
 	dev-perl/namespace-autoclean
