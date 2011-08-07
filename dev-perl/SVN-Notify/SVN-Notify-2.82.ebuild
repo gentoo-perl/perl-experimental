@@ -5,7 +5,6 @@
 EAPI=4
 
 MODULE_AUTHOR=DWHEELER
-MODULE_VERSION="2.81"
 inherit perl-module
 
 DESCRIPTION="Subversion activity notification"

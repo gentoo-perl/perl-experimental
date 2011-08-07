@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*SVN-Notify-2.82 (07 Aug 2011)
+
+  07 Aug 2011; Daniel Westermann-Clark <dwc@pobox.com> -SVN-Notify-2.81.ebuild,
+  +SVN-Notify-2.82.ebuild:
+  Bump
+
 *SVN-Notify-2.81 (29 Apr 2011)
 
   29 Apr 2011; Daniel Westermann-Clark <dwc@pobox.com>
