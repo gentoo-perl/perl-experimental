@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/XML-RSS-LibXML
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*XML-RSS-LibXML-0.31.01 (07 Aug 2011)
+
+  07 Aug 2011; Daniel Westermann-Clark <dwc@pobox.com>
+  -XML-RSS-LibXML-0.31.00.ebuild, +XML-RSS-LibXML-0.31.01.ebuild:
+  Bump
 
 *XML-RSS-LibXML-0.31.00 (22 Jun 2010)
 
