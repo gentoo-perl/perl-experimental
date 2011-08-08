@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/V
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*V-0.130.0 (08 Aug 2011)
+
+  08 Aug 2011; Torsten Veller <tove@gentoo.org> +V-0.130.0.ebuild,
+  +metadata.xml:
+  Initial commit for bug #373615
+
