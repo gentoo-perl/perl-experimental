@@ -371,19 +371,23 @@ perl_link_duallife_scripts() {
 	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in "${DUALLIFESCRIPTS[@]}" ; do
-			alternatives_auto_makesym "/usr/bin/${i}" "/usr/bin/${i}-[0-9]*"
-			ff=`echo "${EROOT}"/usr/share/man/man1/${i}-${PV}-${P}.1*`
+			alternatives_auto_makesym "/${i}" "/${i}-[0-9]*"
+		done
+		for i in "${DUALLIFEMAN[@]}" ; do
+			ff=`echo "${EROOT}"/${i%.1}-${PV}-${P}.1*`
 			ff=${ff##*.1}
-			alternatives_auto_makesym "/usr/share/man/man1/${i}.1${ff}" "/usr/share/man/man1/${i}-[0-9]*"
+			alternatives_auto_makesym "/${i}${ff}" "/${i%.1}-[0-9]*"
 		done
 	else
 		pushd "${ED}" > /dev/null
 		for i in $(find usr/bin -maxdepth 1 -type f 2>/dev/null) ; do
 			mv ${i}{,-${PV}-${P}} || die
-			DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i##*/}
-			if [[ -f usr/share/man/man1/${i##*/}.1 ]] ; then
-				mv usr/share/man/man1/${i##*/}{.1,-${PV}-${P}.1} || die
-			fi
+			#DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i##*/}
+			DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i}
+		done
+		for i in $(find usr/share/man/man1 -maxdepth 1 -type f 2>/dev/null) ; do
+			mv ${i} ${i%.1}-${PV}-${P}.1 || die
+			DUALLIFEMAN[${#DUALLIFEMAN[*]}]=${i}
 		done
 		popd > /dev/null
 	fi
