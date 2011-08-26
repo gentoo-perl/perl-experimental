@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-GithubMeta-0.200.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-GithubMeta-0.200.0.ebuild:
+  Version Bump
+
 *Dist-Zilla-Plugin-GithubMeta-0.160.0 (15 Jul 2011)
 
   15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
