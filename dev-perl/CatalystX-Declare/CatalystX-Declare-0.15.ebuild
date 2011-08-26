@@ -11,25 +11,25 @@ LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-
+comment() { true;}
 COMMON_DEPEND="
-	>=dev-perl/Class-Inspector-1.24
+	>=dev-perl/Class-Inspector-1.24 $(comment 1.240.0)
 	>=dev-perl/Perl6-Junction-1.400.0
 	>=dev-perl/aliased-0.300.0
-	>=virtual/perl-parent-0.221
-	>=dev-perl/Data-Dump-1.14
+	>=virtual/perl-parent-0.221 $(comment 0.221.0)
+	>=dev-perl/Data-Dump-1.14 $(comment 1.140.0)
 	>=dev-perl/Catalyst-Runtime-5.800.250
-	>=dev-perl/CLASS-1.0
-	>=dev-perl/Devel-Declare-0.006000
-	>=dev-perl/Moose-1.14
-	>=dev-perl/MooseX-Declare-0.340
+	>=dev-perl/CLASS-1.0 $(comment 1.0.0)
+	>=dev-perl/Devel-Declare-0.006000 $(comment 0.6.0)
+	>=dev-perl/Moose-1.14 $(comment 1.140.0)
+	>=dev-perl/MooseX-Declare-0.340.0
 	>=dev-perl/MooseX-MethodAttributes-0.240.0
 	>=dev-perl/MooseX-Role-Parameterized-0.190.0
-	>=dev-perl/MooseX-Types-0.24
-	>=dev-perl/MooseX-Method-Signatures-0.360
+	>=dev-perl/MooseX-Types-0.240.0
+	>=dev-perl/MooseX-Method-Signatures-0.360 $(comment 0.360.0)
 
-	>=dev-perl/Catalyst-Controller-ActionRole-0.15
-	>=dev-perl/Data-Pond-0.002
+	>=dev-perl/Catalyst-Controller-ActionRole-0.15 $(comment 0.150.0)
+	>=dev-perl/Data-Pond-0.002 $(comment 0.2.0)
 "
 DEPEND="
 	${COMMON_DEPEND}
