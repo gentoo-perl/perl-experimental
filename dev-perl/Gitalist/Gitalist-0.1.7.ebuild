@@ -37,13 +37,13 @@ RDEPEND="
 	dev-perl/File-Type
 	dev-perl/File-Type-WebImages
 	dev-perl/File-Which
-	>=dev-perl/Git-PurePerl-0.46 $(comment 0.460.0)
+	>=dev-perl/Git-PurePerl-0.460.0
 	dev-perl/HTML-Parser
 	dev-perl/IPC-Run
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	>=dev-perl/MooseX-Declare-0.330 $(comment 0.330.0)
+	>=dev-perl/MooseX-Declare-0.330.0
 	>=dev-perl/MooseX-MultiMethods-0.100 $(comment 0.100.0)
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Common

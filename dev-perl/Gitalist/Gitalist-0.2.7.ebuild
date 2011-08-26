@@ -44,7 +44,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	>=dev-perl/MooseX-Declare-0.320 $(comment 0.320.0)
+	>=dev-perl/MooseX-Declare-0.320.0
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types-DateTime
