@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*MooseX-Types-LoadableClass-0.6.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Types-LoadableClass-0.6.0.ebuild:
+  Version Bump
+
 *MooseX-Types-LoadableClass-0.5.0 (26 Aug 2011)
 
   26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
