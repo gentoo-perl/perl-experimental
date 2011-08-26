@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="2"
 
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.11"
 inherit perl-module
 
 DESCRIPTION="File storage backend for session data"
@@ -17,7 +18,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.650
-	>=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.02
+	>=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.05
 	dev-perl/Class-Accessor
 	>=dev-perl/DBIx-Class-0.07000
 	virtual/perl-MIME-Base64
