@@ -181,6 +181,17 @@ perl-module_src_compile() {
 #  If you want more verbose testing, set TEST_VERBOSE=1
 #  in your bashrc | /etc/make.conf | ENV
 #
+# Additionally, you can add support for a few additional situations:
+#
+#   1. GENTOO_PERL_TESTS="network" will enable running tests that require
+#   network connectivity.
+#
+#   2. GENTOO_PERL_TESTS="broken" will enable running tests that we have marked
+#   as broken.
+#
+#   3. GENTOO_PERL_TESTS="undefined" will make all packages using the
+#   perl-module eclass to behave as if somebody had put a SRC_TEST stanza in it.
+#
 # For ebuild writers:
 #  If you wish to enable default tests w/ 'make test' ,
 #
@@ -194,11 +205,67 @@ perl-module_src_compile() {
 #   SRC_TEST="parallel do"
 #   SRC_TEST=parallel
 #
+#  If your ebuild has tests, but they require networking to work, you can
+#  disable tests by adding "network" in your SRC_TEST string.
+#
+#  If your ebuild has tests, but they are broken, you can disable them
+#  with SRC_TEST="broken"
+#
+
+perltest() {
+	has $1 ${SRC_TEST}
+}
+perlenvtest() {
+	has $1 ${GENTOO_PERL_TESTS}
+}
 
 perl-module_src_test() {
 	debug-print-function $FUNCNAME "$@"
-	if has 'do' ${SRC_TEST} || has 'parallel' ${SRC_TEST} ; then
-		if has "${TEST_VERBOSE:-0}" 0 && has 'parallel' ${SRC_TEST} ; then
+
+	local skip_testing has_tests skip_reason need_flags;
+
+	has_tests=0;
+
+	if perltest 'do' \
+		|| perltest 'parallel' \
+		|| perltest 'broken' \
+		|| perltest 'network' ; then
+		has_tests=1;
+	fi
+	if [ $has_tests = 0 ] && perlenvtest 'undefined'; then
+		ewarn "${P}: SRC_TEST undefined, but forced";
+		has_tests=1
+	fi
+
+	skip_testing=0;
+	need_flags=""
+
+	if perltest 'network';  then
+		if perlenvtest 'network'; then
+			ewarn "${P}: Required network for testing, granted"
+		else
+			ewarn "${P}: Requires network for testing."
+			skip_testing=1
+			need_flags="${need_flags} network"
+		fi
+	fi
+	if perltest 'broken';  then
+		if perlenvtest 'broken'; then
+			ewarn "${P}: Tests marked broken. You have chosen to run anyway."
+		else
+			ewarn "${P}: Tests marked broken by Gentoo."
+			skip_testing=1
+			need_flags="${need_flags} broken"
+		fi
+	fi
+
+	if [[ $has_tests = 1 && $skip_testing = 1 ]]; then
+		ewarn "${P}: Tests skipped: set GENTOO_PERL_TESTS=\"${need_flags}\" to force."
+	elif [ $has_tests = 0 ]; then
+		eqawarn \
+			"${P}: This perl-module ebuild does not define SRC_TEST, tests possibly missing"
+	else
+		if has "${TEST_VERBOSE:-0}" 0 && perltest 'parallel' ; then
 			export HARNESS_OPTIONS=j$(echo -j1 ${MAKEOPTS} | sed -r "s/.*(-j\s*|--jobs=)([0-9]+).*/\2/" )
 			einfo "Test::Harness Jobs=${HARNESS_OPTIONS}"
 		fi
@@ -207,6 +274,8 @@ perl-module_src_test() {
 			./Build test verbose=${TEST_VERBOSE:-0} || die "test failed"
 		elif [[ -f Makefile ]] ; then
 			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
+		else
+			ewarn "No ./Build or ./Makefile, can not run tests"
 		fi
 	fi
 }
