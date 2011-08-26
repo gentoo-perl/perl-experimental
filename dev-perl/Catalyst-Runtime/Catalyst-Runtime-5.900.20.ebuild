@@ -31,7 +31,7 @@ depend Data-OptList
 depend Moose 1.03 # 1.30.0
 depend MooseX-MethodAttributes 0.240.0 # MooseX::MethodAttributes::Inheritable 0.240.0
 depend MooseX-Role-WithOverloading 0.090 # 0.90.0
-depend MooseX-Types-LoadableClass 0.3 # 0.3.0
+depend MooseX-Types-LoadableClass 0.3.0
 # depend-virtual Carp # CORE
 depend Class-C3-Adopt-NEXT 0.07 # 0.70.0
 depend Cgi-Simple 1.109 # CGI::Simple::Cookie 1.109.0
