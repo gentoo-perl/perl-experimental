@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Meta-Builder
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Meta-Builder-0.3.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com> +Meta-Builder-0.3.0.ebuild,
+  +metadata.xml:
+  Added for Exporter::Declare
+
