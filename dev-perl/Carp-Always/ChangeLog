@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Carp-Always-0.100.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Carp-Always-0.100.0.ebuild:
+  Version Bump
+
 *Carp-Always-0.90.0 (26 Aug 2011)
 
   26 Aug 2011; Kent Fredric <kentfredric@gmail.com> -Carp-Always-0.09.ebuild,
