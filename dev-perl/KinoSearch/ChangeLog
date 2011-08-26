@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com> -KinoSearch-0.311.0.ebuild,
+  -KinoSearch-0.312.0.ebuild:
+  Gone on CPAN
+
   22 Apr 2011; Kent Fredric <kentfredric@gmail.com> KinoSearch-0.311.0.ebuild,
   KinoSearch-0.312.0.ebuild, KinoSearch-0.313.0.ebuild:
   fixdep Lingua-Stem-Snowball
