@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Compress
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-Compress-0.5.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Plugin-Compress-0.5.0.ebuild, +metadata.xml:
+  Added
+
