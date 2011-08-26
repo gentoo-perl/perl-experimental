@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Devel-Cover-0.790.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Devel-Cover-0.790.0.ebuild:
+  Version Bump
+
 *Devel-Cover-0.780.0 (21 May 2011)
 
   21 May 2011; Kent Fredric <kentfredric@gmail.com>
