@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=SRI
-MODULE_VERSION=1.64
+MODULE_VERSION=1.92
 inherit perl-module
 
 DESCRIPTION="The Box!"
@@ -19,6 +19,7 @@ COMMON_DEPEND="
 	$(comment virtual/perl-B)
 	$(comment virtual/perl-Carp)
 	virtual/perl-File-Spec $(comment Cwd.pm)
+	$(comment virtual/perl-Config)
 	$(comment virtual/perl-Data-Dumper)
 	virtual/perl-Digest-MD5
 	virtual/perl-Encode
@@ -40,7 +41,6 @@ COMMON_DEPEND="
 	virtual/perl-IO $(comment IO::Poll)
 	virtual/perl-IO $(comment IO::Socket)
 	virtual/perl-IO $(comment IO::Socket::INET)
-	virtual/perl-IO $(comment IO::Socket::UNIX)
 	virtual/perl-Scalar-List-Utils $(comment List::Util)
 	virtual/perl-locale-maketext
 	virtual/perl-MIME-Base64
