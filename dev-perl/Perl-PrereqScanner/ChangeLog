@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Perl-PrereqScanner-1.6.0 (26 Aug 2011)
+
+  26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Perl-PrereqScanner-1.6.0.ebuild:
+  Version Bump
+
 *Perl-PrereqScanner-1.4.0 (31 May 2011)
 
   31 May 2011; Torsten Veller <tove@gentoo.org>
