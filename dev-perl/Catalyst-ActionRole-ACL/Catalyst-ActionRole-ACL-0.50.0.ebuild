@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=CONVERTER
+MODULE_VERSION="0.05"
 inherit perl-module
 
 DESCRIPTION="User role-based authorization action class"
