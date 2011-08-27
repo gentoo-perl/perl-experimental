@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Pod-ProjectDocs
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-ProjectDocs-0.390.0 (27 Aug 2011)
+*Pod-ProjectDocs-0.380.0 (27 Aug 2011)
+*Pod-ProjectDocs-0.360.0 (27 Aug 2011)
+
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  -Pod-ProjectDocs-0.36.ebuild, -Pod-ProjectDocs-0.38.ebuild,
+  -Pod-ProjectDocs-0.39.ebuild, +Pod-ProjectDocs-0.360.0.ebuild,
+  +Pod-ProjectDocs-0.380.0.ebuild, +Pod-ProjectDocs-0.390.0.ebuild:
+  Migrate to new version scheme
 
 *Pod-ProjectDocs-0.39 (04 Nov 2010)
 
