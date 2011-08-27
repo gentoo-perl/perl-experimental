@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-4.200.3-r1.ebuild, Dist-Zilla-4.200.4.ebuild,
+  Dist-Zilla-4.200.6.ebuild, Dist-Zilla-4.200.7.ebuild,
+  Dist-Zilla-4.200.8.ebuild, Dist-Zilla-4.200.10.ebuild,
+  Dist-Zilla-4.200.11.ebuild, Dist-Zilla-4.200.12.ebuild,
+  Dist-Zilla-4.300.0.ebuild:
+  Fixdep File-ShareDir-Install
+
 *Dist-Zilla-4.300.0 (26 Aug 2011)
 
   26 Aug 2011; Kent Fredric <kentfredric@gmail.com> +Dist-Zilla-4.300.0.ebuild:
