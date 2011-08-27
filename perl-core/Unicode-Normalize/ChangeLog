@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  -Unicode-Normalize-1.120.0.ebuild:
+  Gone on CPAN
+
 *Unicode-Normalize-1.130.0 (03 Aug 2011)
 
   03 Aug 2011; Kent Fredric <kentfredric@gmail.com>
