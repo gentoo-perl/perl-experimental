@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Archive-Extract-0.560.0 (27 Aug 2011)
+
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +Archive-Extract-0.560.0.ebuild:
+  Version Bump
+
 *Archive-Extract-0.520.0 (06 May 2011)
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com>
