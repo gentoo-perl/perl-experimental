@@ -32,7 +32,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.31
-	>=dev-perl/File-ShareDir-Install-0.03
+	>=dev-perl/File-ShareDir-Install-0.30.0
 	test? (
 		>=virtual/perl-Test-Simple-0.77
 		dev-perl/Test-Differences

@@ -34,7 +34,7 @@ DEPEND="
 	${COMMON_DEPEND}
 	$(comment CONFIGURE REQUIRES)
 	>=virtual/perl-ExtUtils-MakeMaker-6.30
-	>=dev-perl/File-ShareDir-Install-0.03 $(comment 0.30.0)
+	>=dev-perl/File-ShareDir-Install-0.30.0
 	test? (
 		dev-perl/Test-Differences
 		dev-perl/Test-Exception
