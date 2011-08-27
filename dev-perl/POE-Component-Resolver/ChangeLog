@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  -POE-Component-Resolver-0.912.0.ebuild:
+  Gone on CPAN
+
 *POE-Component-Resolver-0.913.0 (31 Jul 2011)
 
   31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
