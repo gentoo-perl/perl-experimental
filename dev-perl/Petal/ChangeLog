@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Petal-2.200.0 (27 Aug 2011)
+
+  27 Aug 2011; Kent Fredric <kentfredric@gmail.com> +Petal-2.200.0.ebuild:
+  Version Bump
+
 *Petal-2.190.0 (27 Aug 2011)
 
   27 Aug 2011; Kent Fredric <kentfredric@gmail.com> -Petal-2.19.ebuild,
