@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Digest-CRC-0.170.0 (28 Aug 2011)
+
+  28 Aug 2011; Kent Fredric <kentfredric@gmail.com> +Digest-CRC-0.170.0.ebuild:
+  Version Bump
+
 *Digest-CRC-0.160.0 (28 Aug 2011)
 
   28 Aug 2011; Kent Fredric <kentfredric@gmail.com> -Digest-CRC-0.16.ebuild,
