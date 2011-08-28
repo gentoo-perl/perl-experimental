@@ -1,9 +1,10 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=2
 MODULE_AUTHOR=JQUELIN
-MODULE_VERSION=1.110930
+MODULE_VERSION=1.092870
+MY_PN=Dist-Zilla-Plugin-CompileTests
 inherit perl-module
 
 DESCRIPTION="common tests to check syntax of your modules
@@ -13,14 +14,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
+	virtual/perl-Test-Simple
 	dev-perl/Moose
 	dev-perl/Dist-Zilla
 "
 DEPEND="
-	virtual/perl-File-Temp
-	>=virtual/perl-Module-Build-0.36.01
-	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.94
 	${COMMON_DEPEND}
 "
 RDEPEND="

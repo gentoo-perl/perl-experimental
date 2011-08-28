@@ -3,7 +3,8 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=JQUELIN
-MODULE_VERSION=1.092870
+MODULE_VERSION=1.101800
+MY_PN=Dist-Zilla-Plugin-CompileTests
 inherit perl-module
 
 DESCRIPTION="common tests to check syntax of your modules

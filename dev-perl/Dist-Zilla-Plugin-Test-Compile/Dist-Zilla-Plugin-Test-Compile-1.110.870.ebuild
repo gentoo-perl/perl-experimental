@@ -1,9 +1,10 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=4
 MODULE_AUTHOR=JQUELIN
-MODULE_VERSION=1.103030
+MODULE_VERSION=1.110870
+MY_PN=Dist-Zilla-Plugin-CompileTests
 inherit perl-module
 
 DESCRIPTION="common tests to check syntax of your modules

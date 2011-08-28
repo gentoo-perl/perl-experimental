@@ -1,0 +1,1 @@
+move dev-perl/Dist-Zilla-Plugin-CompileTests dev-perl/Dist-Zilla-Plugin-Test-Compile
