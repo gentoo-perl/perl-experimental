@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-1.980.0 (28 Aug 2011)
+
+  28 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.9800/0001-Apply-1.94-Makefile.patch.patch,
+  +files/1.9800/0002-Apply-part-of-1.94-SignatureTest.patch.patch,
+  +CPAN-1.980.0.ebuild:
+  Version Bump
+
   23 Jul 2011; Kent Fredric <kentfredric@gmail.com> CPAN-1.946.400_rc.ebuild:
   Fixdep HTTP-Tiny
 
