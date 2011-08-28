@@ -5,6 +5,7 @@
 EAPI=2
 
 MODULE_AUTHOR=OLIMAUL
+MODULE_VERSION="0.16"
 inherit perl-module
 
 DESCRIPTION="Generic CRC functions"
