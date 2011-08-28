@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-CPAN-1.980.0 (28 Aug 2011)
+
+  28 Aug 2011; Kent Fredric <kentfredric@gmail.com> +perl-CPAN-1.980.0.ebuild:
+  Version Bump
+
 *perl-CPAN-1.975.100_rc (23 Jul 2011)
 
   23 Jul 2011; Kent Fredric <kentfredric@gmail.com>
