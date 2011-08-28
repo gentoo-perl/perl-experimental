@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Aug 2011; Kent Fredric <kentfredric@gmail.com>
+  Authen-DecHpwd-2.6.0.ebuild:
+  Fixdep on Digest-CRC
+
 *Authen-DecHpwd-2.6.0 (08 May 2011)
 
   08 May 2011; Kent Fredric <kentfredric@gmail.com>

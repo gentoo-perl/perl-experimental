@@ -16,7 +16,7 @@ IUSE="test +recommended"
 comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-perl/Data-Integer-0.003 $(comment 0.3.0)
-	>=dev-perl/Digest-CRC-0.14 $(comment 0.140.0)
+	>=dev-perl/Digest-CRC-0.140.0
 	$(comment virtual/perl-Exporter)
 	dev-perl/Scalar-String
 	$(comment virtual/perl-constant)
