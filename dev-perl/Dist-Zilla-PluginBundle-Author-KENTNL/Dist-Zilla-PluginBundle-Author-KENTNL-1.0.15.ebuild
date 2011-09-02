@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-AutoVersion-Relative-0.10.356.170
 	>=dev-perl/Dist-Zilla-Plugin-Test-Compile-1.110.930
 	$(comment Dist::Zilla::Plugin::ConfirmRelease)
-	>=dev-perl/Dist-Zilla-Plugin-CriticTests-1.102.280 $(comment 1.102.280)
+	>=dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic-1.102.280 $(comment 1.102.280)
 	>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.02 $(comment 0.20.0)
 	$(comment Dist::Zilla::Plugin::FakeRelease)
 	$(comment Dist::Zilla::Plugin::GatherDir)

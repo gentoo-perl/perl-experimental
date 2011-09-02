@@ -35,7 +35,7 @@ COMMON_DEPEND="
 	$(comment Dist::Zilla::Plugin::ConfirmRelease)
 
 	$(comment Dist::Zilla::Plugin::CriticTests 1.102280)
-	>=dev-perl/Dist-Zilla-Plugin-CriticTests-1.102.280
+	>=dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic-1.102.280
 
 	$(comment Dist::Zilla::Plugin::EOLTests 0.02)
 	>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.02 $(comment 0.20.0)
