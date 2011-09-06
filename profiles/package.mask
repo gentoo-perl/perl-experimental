@@ -17,8 +17,6 @@ perl-core/B-Lint
 virtual/perl-B-Lint
 perl-core/CPANPLUS-Dist-Build
 virtual/perl-CPANPLUS-Dist-Build
-perl-core/Data-Dumper
-virtual/perl-Data-Dumper
 perl-core/Devel-DProf
 virtual/perl-Devel-DProf
 perl-core/SelfLoader
