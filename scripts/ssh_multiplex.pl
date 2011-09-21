@@ -77,20 +77,26 @@ sub map_param {
 
 sub spawn_child {
   my (@cmd) = @_;
+  local $!;
+  local $?;
+  local $@;
   my $cleanup = pop @cmd;
   my $pid;
   if ( not defined( $pid = fork() ) ) {
-    my (@error) = ( $!, $?, $@ );
+    my (%error) = ( '$!', $!, '$?', $?, '$@', $@ );
     require Carp;
-    Carp::croak("Forking Failed :( @error ");
+    Carp::croak( 'Forking Failed :( ' . dump \%error );
   }
   if ($pid) {
     return $pid;
   }
+  local $!;
+  local $?;
+  local $@;
   system(@cmd) == 0 or do {
-    my (@error) = ( $!, $?, $@ );
+    my (%error) = ( '$!', $!, '$?', $?, '$@', $@ );
     require Carp;
-    Carp::croak("Running command Failed :( @error ");
+    Carp::croak( 'Running command Failed :( ' . dump \%error );
   };
   $cleanup->();
   exit;
