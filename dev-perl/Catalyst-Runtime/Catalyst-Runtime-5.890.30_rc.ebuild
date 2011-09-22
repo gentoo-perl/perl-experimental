@@ -83,7 +83,7 @@ conflict Catalyst-Plugin-SubRequest 0.140.0
 conflict Catalyst-Model-Akismet 0.02 # 0.20.0
 conflict Catalyst-Component-ACCEPT_CONTEXT 0.06 # 0.60.0
 conflict Catalyst-Plugin-ENV
-conflict Catalyst-Plugin-Unicode-Encoding 0.2 # 0.200.0
+conflict Catalyst-Plugin-Unicode-Encoding 0.200.0
 conflict Catalyst-Plugin-Authentication 0.100.100
 conflict Catalyst-Authentication-Credential-HTTP 1.009 # 1.9.0
 conflict Catalyst-Plugin-Session-Store-File 0.16 # 0.160.0
