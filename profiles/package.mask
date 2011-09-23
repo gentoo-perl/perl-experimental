@@ -1,3 +1,13 @@
+# Kent Fredric <kentfredric@gmail.com> (23 Sep 2011)
+# KwaliteeTests now deprecated in favour of Test::Kwalitee
+# People needing the old (depracated) module can also get the same
+# module by installing dev-perl/Dist-Zilla-Plugin-Test-Kwalitee
+# which now ships the KwaliteeTests plugin instead.
+#
+# Removal Scheduled for 2012-01-01
+dev-perl/Dist-Zilla-Plugin-KwaliteeTetsts
+<=dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL-1.0.16
+
 # Torsten Veller <tove@gentoo.org> (11 Jun 2011)
 # Mask perl-5.12.4* for testing
 =dev-lang/perl-5.12.4*
