@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  -Devel-PatchPerl-0.400.0.ebuild, -Devel-PatchPerl-0.420.0.ebuild,
+  -Devel-PatchPerl-0.440.0.ebuild:
+  Gone on CPAN
+
 *Devel-PatchPerl-0.520.0 (26 Aug 2011)
 
   26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
