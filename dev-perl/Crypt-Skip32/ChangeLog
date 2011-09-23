@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Crypt-Skip32
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Crypt-Skip32-0.150.0 (23 Sep 2011)
+*Crypt-Skip32-0.140.0 (23 Sep 2011)
+
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com> -Crypt-Skip32-0.14.ebuild,
+  -Crypt-Skip32-0.15.ebuild, +Crypt-Skip32-0.140.0.ebuild,
+  +Crypt-Skip32-0.150.0.ebuild:
+  Migrate to new verson Schema 
 
 *Crypt-Skip32-0.15 (10 Feb 2010)
 
