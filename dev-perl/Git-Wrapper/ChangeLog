@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Git-Wrapper-0.16.0 (23 Sep 2011)
+
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com> +Git-Wrapper-0.16.0.ebuild:
+  Version Bump
+
 *Git-Wrapper-0.15.0 (16 Jul 2011)
 
   16 Jul 2011; Kent Fredric <kentfredric@gmail.com> +Git-Wrapper-0.15.0.ebuild:
