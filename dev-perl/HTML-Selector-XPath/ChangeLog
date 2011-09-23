@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-Selector-XPath-0.80.0 (23 Sep 2011)
+
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +HTML-Selector-XPath-0.80.0.ebuild:
+  Version Bump
+
 *HTML-Selector-XPath-0.70.0 (10 Mar 2011)
 
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com>
