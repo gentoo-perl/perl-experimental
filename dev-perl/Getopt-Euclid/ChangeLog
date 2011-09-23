@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Getopt-Euclid-0.3.0 (23 Sep 2011)
+
+  23 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +Getopt-Euclid-0.3.0.ebuild:
+  Version Bump
+
 *Getopt-Euclid-0.2.7 (15 Jul 2011)
 
   15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
