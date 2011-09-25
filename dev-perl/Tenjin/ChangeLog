@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Tenjin
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Tenjin-0.70.1 (25 Sep 2011)
+
+  25 Sep 2011; Kent Fredric <kentfredric@gmail.com> +Tenjin-0.70.1.ebuild,
+  +metadata.xml:
+  Added
+
