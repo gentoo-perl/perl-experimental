@@ -22,7 +22,7 @@ perl_eumm_prereq_pm() {
 	# XML::XPathEngine 0.12
 	echo '>=dev-perl/XML-XPathEngine-0.120.0'
 	# HTML::TreeBuilder
-	dev-perl/HTML-Tree
+	echo dev-perl/HTML-Tree
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 
