@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/XXX
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*XXX-0.170.0 (25 Sep 2011)
+*XXX-0.160.0 (25 Sep 2011)
+
+  25 Sep 2011; Kent Fredric <kentfredric@gmail.com> -XXX-0.16.ebuild,
+  -XXX-0.17.ebuild, +XXX-0.160.0.ebuild, +XXX-0.170.0.ebuild:
+  Migrate to X.y.z
 
 *XXX-0.17 (22 Aug 2010)
 
