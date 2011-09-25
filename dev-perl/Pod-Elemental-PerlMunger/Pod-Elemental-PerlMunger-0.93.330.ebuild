@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.093330"
 inherit perl-module
 
 DESCRIPTION="a thing that takes a string of Perl and rewrites its documentation"
