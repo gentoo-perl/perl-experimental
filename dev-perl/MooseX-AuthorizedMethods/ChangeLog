@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-AuthorizedMethods
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-AuthorizedMethods-0.6.0 (25 Sep 2011)
+
+  25 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-AuthorizedMethods-0.6.0.ebuild, +metadata.xml:
+  Added
+
