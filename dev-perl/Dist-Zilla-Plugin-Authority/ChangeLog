@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-Authority
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-Authority-1.5.0 (26 Sep 2011)
+
+  26 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-Authority-1.5.0.ebuild, +metadata.xml:
+  Added
+
