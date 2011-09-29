@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/virtual/perl-Module-CoreList/ChangeLog,v 1.38 2011/06/13 02:02:11 mattst88 Exp $
 
+*perl-Module-CoreList-2.490.200_rc (29 Sep 2011)
+
+  29 Sep 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Module-CoreList-2.490.200_rc.ebuild:
+  Added and tweaked so if you == this version, it will force removal of the
+  perl-core/ version
+
 *perl-Module-CoreList-2.490.100_rc (17 Jun 2011)
 
   17 Jun 2011; Kent Fredric <kentfredric@gmail.com>
