@@ -13,6 +13,8 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="
-	=dev-lang/perl-5.14.1*
+	|| ( =dev-lang/perl-5.14.2*
+		=dev-lang/perl-5.14.1*
+	)
 	!perl-core/Pod-Perldoc
 "
