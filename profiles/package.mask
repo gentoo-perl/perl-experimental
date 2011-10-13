@@ -8,17 +8,6 @@
 dev-perl/Dist-Zilla-Plugin-KwaliteeTetsts
 <=dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL-1.0.16
 
-# Torsten Veller <tove@gentoo.org> (11 Jun 2011)
-# Mask perl-5.12.4* for testing
-=dev-lang/perl-5.12.4*
-
-# Torsten Veller <tove@gentoo.org> (20 Apr 2011)
-# Mask perl-5.14: needs testing,
-# virtuals have to be updated, @INC layout changes,..
-# tracker bug #356171
-=dev-lang/perl-5.14.0*
-=dev-lang/perl-5.14.1*
-
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
