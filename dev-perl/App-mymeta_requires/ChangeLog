@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/App-mymeta_requires
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*App-mymeta_requires-0.2.0 (17 Oct 2011)
+
+  17 Oct 2011; Torsten Veller <tove@gentoo.org>
+  +App-mymeta_requires-0.2.0.ebuild, +metadata.xml:
+  Initial commit
+
