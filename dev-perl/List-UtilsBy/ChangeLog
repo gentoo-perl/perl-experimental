@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/List-UtilsBy
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*List-UtilsBy-0.70.0 (17 Oct 2011)
+
+  17 Oct 2011; Torsten Veller <tove@gentoo.org> +List-UtilsBy-0.70.0.ebuild,
+  +metadata.xml:
+  Initial commit
+
