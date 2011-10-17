@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Unicode-Collate-0.800.0 (17 Oct 2011)
+
+  17 Oct 2011; Torsten Veller <tove@gentoo.org>
+  +perl-Unicode-Collate-0.800.0.ebuild:
+  Version bump
+
   27 Aug 2011; Kent Fredric <kentfredric@gmail.com>
   -perl-Unicode-Collate-0.770.0.ebuild:
   All providers of this version gone
