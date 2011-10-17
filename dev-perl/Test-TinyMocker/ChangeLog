@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-TinyMocker
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-TinyMocker-0.30.0 (17 Oct 2011)
+
+  17 Oct 2011; Torsten Veller <tove@gentoo.org> +Test-TinyMocker-0.30.0.ebuild,
+  +metadata.xml:
+  Initial commit
+
