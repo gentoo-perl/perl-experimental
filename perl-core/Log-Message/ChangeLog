@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Log-Message-0.40.0 (18 Oct 2011)
+
+  18 Oct 2011; Torsten Veller <tove@gentoo.org> -Log-Message-0.040.ebuild,
+  +Log-Message-0.40.0.ebuild:
+  Fix version to match the virtual
+
 *Log-Message-0.040 (09 Jan 2011)
 
   09 Jan 2011; Torsten Veller <tove@gentoo.org> +Log-Message-0.040.ebuild:
