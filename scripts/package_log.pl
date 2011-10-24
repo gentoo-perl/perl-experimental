@@ -1,7 +1,22 @@
 #!/usr/bin/env perl 
+
+eval 'echo "Called with something not perl"' && exit 1    # Non-Perl protection.
+  if 0;
+
 use 5.14.2;
 use strict;
 use warnings;
+
+use FindBin;
+use lib "$FindBin::Bin/lib";
+
+use env::gentoo::perl_experimental;
+use metacpan qw( mcpan );
+use Term::ANSIColor qw( :constants );
+use Try::Tiny;
+use coloriterator
+  coloriser => { -as => 'author_colour' },
+  coloriser => { -as => 'dist_colour' };
 
 # FILENAME: pvlist.pl
 # CREATED: 16/10/11 20:16:03 by Kent Fredric (kentnl) <kentfredric@gmail.com>
@@ -19,22 +34,19 @@ use warnings;
 # * CPAN::Changes
 #
 
-use metacpan qw( mcpan );
-
 my $flags;
 my $singleflags;
-@ARGV = grep { defined } map { 
-  $_ =~ /^--(\w+)/ ? 
-  do { $flags->{$1}++ ; undef }
-  : 
-  do { $_ =~ /^-(\w+)/ ? 
-    do { $singleflags->{$1}++;  undef }
-    :
-    do { $_ }
-  }
+@ARGV = grep { defined } map {
+  $_ =~ /^--(\w+)/
+    ? do { $flags->{$1}++; undef }
+    : do {
+    $_ =~ /^-(\w+)/
+      ? do { $singleflags->{$1}++; undef }
+      : do { $_ }
+    }
 } @ARGV;
 
-if( $flags->{help} or $singleflags->{h} ) {
+if ( $flags->{help} or $singleflags->{h} ) {
   print <<"EOF";
 package_log.pl
 
@@ -62,7 +74,7 @@ USAGE:
     --deps    Show Dependency data ( as reported via metadata )
     --trace   Turn on extra debugging.
 EOF
-exit 0;
+  exit 0;
 }
 
 my $package = shift @ARGV;
@@ -97,20 +109,11 @@ $search->{sort} = [
 $search->{size} = 1024;
 
 # $flags->{fields} = [qw( author name date distribution )],
-_log(['initialized: fetching search results']);
+_log( ['initialized: fetching search results'] );
 
 my $results = mcpan->post( 'release', $search );
 
-_log(['fetched %s results', scalar @{$results->{hits}->{hits}} ]);
-
-use Term::ANSIColor qw( :constants );
-
-use Try::Tiny;
-
-
-use coloriterator 
-  coloriser => { -as => 'author_colour' },
-  coloriser => { -as => 'dist_colour' };
+_log( [ 'fetched %s results', scalar @{ $results->{hits}->{hits} } ] );
 
 sub ac {
   return author_colour( $_[0] ) . $_[0] . RESET;
@@ -138,9 +141,8 @@ sub _log {
   my $conf = $_[0];
   my ( $str, @args ) = @{$conf};
   $str =~ s/\n?$/\n/;
-  return *STDERR->print(sprintf "\e[7m* %s:\e[0m " . $str , 'package_log.pl', @args );
+  return *STDERR->print( sprintf "\e[7m* %s:\e[0m " . $str, 'package_log.pl', @args );
 }
-
 
 for my $result ( @{ $results->{hits}->{hits} } ) {
 
@@ -148,23 +150,21 @@ for my $result ( @{ $results->{hits}->{hits} } ) {
 
   #  say pp \%f;
   my ( $date, $distribution, $name, $author, $deps, $version ) = @f{qw( date distribution name author dependency version )};
-  _log(['formatting entry for %s', $name ]);
+  _log( [ 'formatting entry for %s', $name ] );
   say entry_heading( @f{qw( date author distribution name version)} );
 
   if ( $flags->{deps} ) {
-    _log(['processing %s deps for %s', scalar @{$deps} , $name]);
+    _log( [ 'processing %s deps for %s', scalar @{$deps}, $name ] );
     print $_ for sort map { dep_line($_) } @{$deps};
   }
   if ( $flags->{changes} ) {
-    _log(['processing changes deps for %s', $name]);
+    _log( [ 'processing changes deps for %s', $name ] );
   }
   if ( $flags->{changes} and my $message = change_for( $author, $name ) ) {
     say "\n\e[1;38m" . $message . "\e[0m";
   }
 
 }
-
-
 
 sub entry_heading {
   my ( $date, $author, $distribution, $name, $version ) = @_;
@@ -185,6 +185,7 @@ sub dep_line {
   my $version = $gentoo_version . gv( $dep->{version}, { lax => 1 } ) . RESET;
   return sprintf "%s %s: %s %s %s\n", $rel, $phase, $dep->{module}, $dep->{version}, $version;
 }
+
 sub change_for {
   my ( $author, $release ) = @_;
   my $file;
@@ -193,24 +194,25 @@ sub change_for {
 
   my $success;
 
-  for my $basename ( @trylist ) {
+  for my $basename (@trylist) {
     try {
-      _log(['trying %s for %s', $basename, $release ]);
+      _log( [ 'trying %s for %s', $basename, $release ] );
       $file = mcpan->source(
-      author  => $author,
-      release => $release,
-      path    => $basename,
+        author  => $author,
+        release => $release,
+        path    => $basename,
       );
       $success = $basename;
-    } catch {
+    }
+    catch {
       $success = 0;
-      _log(['failed with %s for %s : %s', $basename, $release, $_ ]);
+      _log( [ 'failed with %s for %s : %s', $basename, $release, $_ ] );
       push @errors, $_;
     };
     last if $success;
   }
   if ( !$success ) {
-    _log(['no changes file %s ', $release ]);
+    _log( [ 'no changes file %s ', $release ] );
     warn for @errors;
   }
 
@@ -218,12 +220,14 @@ sub change_for {
 
   require CPAN::Changes;
   my $changes = CPAN::Changes->load_string($file);
-  if ( $changes ){
+  if ($changes) {
     my @releases = $changes->releases();
     return $releases[-1]->serialize() if @releases;
-    _log(['No releases reported by CPAN::Changes for file %s on %s', $success, $release ]);
+    _log( [ 'No releases reported by CPAN::Changes for file %s on %s', $success, $release ] );
+
     #warn "No releases :( ";
   }
+
   #warn "Cant load \$file with CPAN::Changes";
   my @out = split /$/m, $file;
   return join qq{\n}, splice @out, 0, 10;
