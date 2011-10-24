@@ -2,6 +2,18 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-Changes-0.180.0 (24 Oct 2011)
+
+  24 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +CPAN-Changes-0.180.0.ebuild:
+  Version Bump
+
+  - Expand changes_file_ok() to accept arguments so that a specific version may
+  be checked
+
+  - Add $VERSION to Test::CPAN::Changes so it plays nice with the toolchain e.g
+  Module::Install::AuthorRequres
+
   31 Jul 2011; Kent Fredric <kentfredric@gmail.com>
   -CPAN-Changes-0.110.0.ebuild, -CPAN-Changes-0.130.0.ebuild,
   -CPAN-Changes-0.150.0.ebuild:
