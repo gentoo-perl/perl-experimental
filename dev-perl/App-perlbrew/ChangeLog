@@ -2,6 +2,26 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*App-perlbrew-0.300.0 (24 Oct 2011)
+
+  24 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +App-perlbrew-0.300.0.ebuild:
+  Version Bump.
+
+  - New command: lib
+
+  - local::lib integration is done with this command.
+
+  - New command: install-patchperl
+
+  - skip runs of 'exec' on aliases
+  https://github.com/gugod/App-perlbrew/pull/135
+
+  - Respect -f flag when installing to replace an already installed perl.
+
+  - Redefine the default value of -q flag to be false, and define it's meaning
+  to be "complete silent"
+
 *App-perlbrew-0.290.0 (21 Sep 2011)
 
   21 Sep 2011; Kent Fredric <kentfredric@gmail.com>
