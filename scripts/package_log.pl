@@ -36,6 +36,7 @@ use coloriterator
 
 my $flags;
 my $singleflags;
+
 @ARGV = grep { defined } map {
   $_ =~ /^--(\w+)/
     ? do { $flags->{$1}++; undef }
@@ -46,51 +47,20 @@ my $singleflags;
     }
 } @ARGV;
 
-if ( $flags->{help} or $singleflags->{h} ) {
-  print <<"EOF";
-package_log.pl
-
-USAGE:
-
-  package_log.pl PACKAGE [PACKAGE*] [--all] [--help] [--changes] [--deps] [--trace]
-
-  ie:
-
-  # Just show the recent log for Moose, Catalyst-Runtime and Dist-Zilla
-  package_log.pl Moose Catalyst-Runtime Dist-Zilla
-
-  # show all log events for Moose
-  package_log.pl Moose --all
-
-  # show recent Moose log events with attached changelog data and dependenices
-  package_log.pl Moose --changes --deps
-
-  # Be verbose about what we're doing
-  package_log.pl Moose --trace --all
-
-    --all     Show all releases in the log.
-    --help    Show this message
-    --changes Show ChangeLog Excerpts using CPAN::Changes where possible
-    --deps    Show Dependency data ( as reported via metadata )
-    --trace   Turn on extra debugging.
-EOF
-  exit 0;
-}
-
-my $package = shift @ARGV;
-
-my (@want_dists) = ( $package, @ARGV );
+if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
 
 my $oldest_date = '2011-09-01T00:00:00.000Z';
 my $newest_date = '2012-01-01T00:00:00.000Z';
 
 my $search = {};
+
 $search->{query} = {
   terms => {
-    distribution  => [ @want_dists, ],
+    distribution  => [ @ARGV, ],
     minimum_match => 1,
   },
 };
+
 if ( not $flags->{all} ) {
   $search->{filter} = {
     range => {
@@ -108,62 +78,75 @@ $search->{sort} = [
 ];
 $search->{size} = 1024;
 
-# $flags->{fields} = [qw( author name date distribution )],
+$search->{fields} = [qw( author name date distribution version )];
+
+if ( $flags->{deps} ) {
+  push @{ $search->{fields} }, '_source.dependency';
+}
+
 _log( ['initialized: fetching search results'] );
 
 my $results = mcpan->post( 'release', $search );
 
 _log( [ 'fetched %s results', scalar @{ $results->{hits}->{hits} } ] );
 
-sub ac {
-  return author_colour( $_[0] ) . $_[0] . RESET;
+for my $result ( @{ $results->{hits}->{hits} } ) {
+
+  #  use Data::Dump qw(pp);
+  #  pp $result;
+  say $_ for format_result( $result->{fields}, $flags );
 }
 
-sub dc {
-  return dist_colour( $_[0] ) . $_[1] . RESET;
-}
+exit 0;
 
-sub pp {
-  require Data::Dump;
-  goto \&Data::Dump::pp;
-}
+# Utils
 
-sub gv {
-  require Gentoo::PerlMod::Version;
-  goto \&Gentoo::PerlMod::Version::gentooize_version;
-}
+sub ac { return author_colour( $_[0] ) . $_[0] . RESET }
+sub dc { return dist_colour( $_[0] ) . $_[1] . RESET }
+sub pp { require Data::Dump; goto \&Data::Dump::pp }
+sub gv { require Gentoo::PerlMod::Version; goto \&Gentoo::PerlMod::Version::gentooize_version }
 
 sub _log {
   return unless $flags->{trace};
-  if ( not ref $_[0] ) {
-    return *STDERR->print(@_);
-  }
-  my $conf = $_[0];
-  my ( $str, @args ) = @{$conf};
+  return *STDERR->print(@_) if ( not ref $_[0] );
+
+  state $prefix = "\e[7m* package_log.pl:\e[0m ";
+
+  my ( $str, @args ) = @{ $_[0] };
   $str =~ s/\n?$/\n/;
-  return *STDERR->print( sprintf "\e[7m* %s:\e[0m " . $str, 'package_log.pl', @args );
+
+  *STDERR->print($prefix);
+  *STDERR->printf( $str, @args );
+  return;
+
 }
 
-for my $result ( @{ $results->{hits}->{hits} } ) {
+sub format_result {
 
-  my %f = %{ $result->{_source} };
+  my %f = %{ $_[0] };
+  my %opts = %{ $_[1] || {} };
 
-  #  say pp \%f;
-  my ( $date, $distribution, $name, $author, $deps, $version ) = @f{qw( date distribution name author dependency version )};
-  _log( [ 'formatting entry for %s', $name ] );
-  say entry_heading( @f{qw( date author distribution name version)} );
+  _log( [ 'formatting entry for %s', $f{name} ] );
 
-  if ( $flags->{deps} ) {
-    _log( [ 'processing %s deps for %s', scalar @{$deps}, $name ] );
-    print $_ for sort map { dep_line($_) } @{$deps};
+  my @out;
+
+  push @out, entry_heading( @f{qw( date author distribution name version)} );
+
+  my $name   = $f{name};
+  my $author = $f{author};
+
+  if ( $opts{deps} ) {
+    my $deps = $f{'_source.dependency'};
+    _log( [ 'processing %s deps for %s', scalar @{$deps}, $f{name} ] );
+    push @out, sort map { dep_line($_) } @{$deps};
   }
-  if ( $flags->{changes} ) {
+  if ( $opts{changes} ) {
     _log( [ 'processing changes deps for %s', $name ] );
   }
-  if ( $flags->{changes} and my $message = change_for( $author, $name ) ) {
-    say "\n\e[1;38m" . $message . "\e[0m";
+  if ( $opts{changes} and my $message = change_for( $author, $name ) ) {
+    push @out, "\e[1;38m" . $message . "\e[0m";
   }
-
+  return @out;
 }
 
 sub entry_heading {
@@ -183,7 +166,7 @@ sub dep_line {
   my $rel = ( $dep->{relationship} ne 'requires' ? BRIGHT_BLUE . $dep->{relationship} : q[] );
   my $phase = ( $dep->{phase} eq 'develop' ? BRIGHT_GREEN : q[] ) . $dep->{phase};
   my $version = $gentoo_version . gv( $dep->{version}, { lax => 1 } ) . RESET;
-  return sprintf "%s %s: %s %s %s\n", $rel, $phase, $dep->{module}, $dep->{version}, $version;
+  return sprintf "%s %s: %s %s %s", $rel, $phase, $dep->{module}, $dep->{version}, $version;
 }
 
 sub change_for {
@@ -231,6 +214,37 @@ sub change_for {
   #warn "Cant load \$file with CPAN::Changes";
   my @out = split /$/m, $file;
   return join qq{\n}, splice @out, 0, 10;
+
+}
+
+sub help {
+  return <<"EOF";
+package_log.pl
+
+USAGE:
+
+  package_log.pl PACKAGE [PACKAGE*] [--all] [--help] [--changes] [--deps] [--trace]
+
+  ie:
+
+  # Just show the recent log for Moose, Catalyst-Runtime and Dist-Zilla
+  package_log.pl Moose Catalyst-Runtime Dist-Zilla
+
+  # show all log events for Moose
+  package_log.pl Moose --all
+
+  # show recent Moose log events with attached changelog data and dependenices
+  package_log.pl Moose --changes --deps
+
+  # Be verbose about what we're doing
+  package_log.pl Moose --trace --all
+
+    --all     Show all releases in the log.
+    --help    Show this message
+    --changes Show ChangeLog Excerpts using CPAN::Changes where possible
+    --deps    Show Dependency data ( as reported via metadata )
+    --trace   Turn on extra debugging.
+EOF
 
 }
 
