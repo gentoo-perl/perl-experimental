@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Archive-Peek-0.350.0 (24 Oct 2011)
+
+  24 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +Archive-Peek-0.350.0.ebuild:
+  Version Bump
+
+  - adds support for .tar.bz2
+
 *Archive-Peek-0.340.0 (02 Sep 2011)
 
   02 Sep 2011; Kent Fredric <kentfredric@gmail.com>
