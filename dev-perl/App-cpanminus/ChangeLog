@@ -2,6 +2,24 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*App-cpanminus-1.500.300 (24 Oct 2011)
+
+  24 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +App-cpanminus-1.500.300.ebuild:
+  Version Bump.
+
+  Noteable enhancements vs pre-1.500:
+
+  * Supports MYMETA.json with spec 2.0
+
+  * Added --metacpan support
+
+  * Added --mirror-index, --skip-satisfied and --cascade-search
+
+  * Installs MYMETA.json into $ARCH/.meta
+
+  * Better -L handling.
+
 *App-cpanminus-1.490.100_rc (28 Jun 2011)
 
   28 Jun 2011; Kent Fredric <kentfredric@gmail.com>
