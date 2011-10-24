@@ -2,6 +2,18 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +B-Hooks-OP-Check-EntersubForCV-0.80.0.ebuild:
+  Version Bump
+
+  - Explicitly export XS API Symbols
+
+*B-Hooks-OP-Check-EntersubForCV-0.80.0 (24 Oct 2011)
+
+  24 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +B-Hooks-OP-Check-EntersubForCV-0.80.0.ebuild:
+  Version Bump
+
 *B-Hooks-OP-Check-EntersubForCV-0.70.0 (21 Sep 2011)
 
   21 Sep 2011; Kent Fredric <kentfredric@gmail.com>
