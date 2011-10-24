@@ -18,26 +18,8 @@ use warnings;
 # * Gentoo::PerlMod::Version
 # * CPAN::Changes
 #
-sub mcpan {
-  state $mcpan = do {
-    require MetaCPAN::API;
-    require CHI;
-    my $cache = CHI->new(
-      driver => 'File',
-      root_dir => '/tmp/gentoo-metacpan-cache'
-    );
-    require WWW::Mechanize::Cached;
-    my $mech = WWW::Mechanize::Cached->new(
-      cache => $cache,
-      timeout => 20000,
-      autocheck => 1,
-    );
-    require HTTP::Tiny::Mech;
-    MetaCPAN::API->new(
-      ua => HTTP::Tiny::Mech->new( mechua => $mech )
-    );
-  };
-}
+
+use metacpan qw( mcpan );
 
 my $flags;
 my $singleflags;
@@ -121,10 +103,33 @@ my $results = mcpan->post( 'release', $search );
 
 _log(['fetched %s results', scalar @{$results->{hits}->{hits}} ]);
 
+use Term::ANSIColor qw( :constants );
+
+use Try::Tiny;
+
+
+use coloriterator 
+  coloriser => { -as => 'author_colour' },
+  coloriser => { -as => 'dist_colour' };
+
+sub ac {
+  return author_colour( $_[0] ) . $_[0] . RESET;
+}
+
+sub dc {
+  return dist_colour( $_[0] ) . $_[1] . RESET;
+}
+
 sub pp {
   require Data::Dump;
   goto \&Data::Dump::pp;
 }
+
+sub gv {
+  require Gentoo::PerlMod::Version;
+  goto \&Gentoo::PerlMod::Version::gentooize_version;
+}
+
 sub _log {
   return unless $flags->{trace};
   if ( not ref $_[0] ) {
@@ -136,7 +141,6 @@ sub _log {
   return *STDERR->print(sprintf "\e[7m* %s:\e[0m " . $str , 'package_log.pl', @args );
 }
 
-use Term::ANSIColor qw( :constants );
 
 for my $result ( @{ $results->{hits}->{hits} } ) {
 
@@ -160,10 +164,7 @@ for my $result ( @{ $results->{hits}->{hits} } ) {
 
 }
 
-sub gv {
-  require Gentoo::PerlMod::Version;
-  goto \&Gentoo::PerlMod::Version::gentooize_version;
-}
+
 
 sub entry_heading {
   my ( $date, $author, $distribution, $name, $version ) = @_;
@@ -184,9 +185,6 @@ sub dep_line {
   my $version = $gentoo_version . gv( $dep->{version}, { lax => 1 } ) . RESET;
   return sprintf "%s %s: %s %s %s\n", $rel, $phase, $dep->{module}, $dep->{version}, $version;
 }
-
-use Try::Tiny;
-
 sub change_for {
   my ( $author, $release ) = @_;
   my $file;
@@ -230,91 +228,5 @@ sub change_for {
   my @out = split /$/m, $file;
   return join qq{\n}, splice @out, 0, 10;
 
-}
-
-sub ac {
-  state $cgen = mcgen();
-  return $cgen->( $_[0] ) . $_[0] . RESET;
-}
-
-sub dc {
-  state $cgen = mcgen();
-  return $cgen->( $_[0] ) . $_[1] . RESET;
-}
-
-sub ITALIC() { "\e[3m" }
-
-sub gen_colour_map {
-  my (@styles) = (
-    RESET,
-    BOLD,
-    ITALIC,
-    UNDERLINE,
-    REVERSE,
-    ( ( BOLD . ITALIC, BOLD . UNDERLINE, BOLD . REVERSE ), ( ITALIC . UNDERLINE, ITALIC . REVERSE, ), ( UNDERLINE . REVERSE ), ),
-    ( BOLD . ITALIC . UNDERLINE, BOLD . ITALIC . REVERSE, ITALIC . UNDERLINE . REVERSE, ),
-    ( BOLD . ITALIC . UNDERLINE . REVERSE ),
-  );
-  my (@fgs) = (
-    BLACK,        RED,        GREEN,        YELLOW,        BLUE,        MAGENTA,        CYAN,        WHITE,
-    BRIGHT_BLACK, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_YELLOW, BRIGHT_BLUE, BRIGHT_MAGENTA, BRIGHT_CYAN, BRIGHT_WHITE
-  );
-
-  my (@bgs) = (
-    "",               ON_WHITE,       ON_RED,            ON_GREEN,        ON_YELLOW,     ON_BLUE,
-    ON_MAGENTA,       ON_CYAN,        ON_BLACK,          ON_BRIGHT_WHITE, ON_BRIGHT_RED, ON_BRIGHT_GREEN,
-    ON_BRIGHT_YELLOW, ON_BRIGHT_BLUE, ON_BRIGHT_MAGENTA, ON_BRIGHT_CYAN,  ON_BRIGHT_BLACK
-  );
-
-  my @bad = (
-    [ undef, BLACK,   ON_BLACK ],
-    [ undef, BLACK,   "" ],
-    [ undef, RED,     ON_RED ],
-    [ undef, GREEN,   ON_GREEN ],
-    [ undef, YELLOW,  ON_YELLOW ],
-    [ undef, BLUE,    ON_BLUE ],
-    [ undef, MAGENTA, ON_MAGENTA ],
-    [ undef, CYAN,    ON_CYAN ],
-    [ undef, WHITE,   ON_WHITE ],
-  );
-
-  my (@colours);
-  my $is_bad = sub {
-    my ( $style, $fg, $bg ) = @_;
-    for my $bc (@bad) {
-      my ( $sm, $fgm, $bgm );
-      $sm  = ( not defined $bc->[0] or $bc->[0] eq $style );
-      $fgm = ( not defined $bc->[1] or $bc->[1] eq $fg );
-      $bgm = ( not defined $bc->[2] or $bc->[2] eq $bg );
-      return 1 if ( $sm and $fgm and $bgm );
-    }
-    return;
-  };
-  for my $bg (@bgs) {
-    for my $style (@styles) {
-
-      for my $fg (@fgs) {
-        next if $is_bad->( $style, $fg, $bg );
-        push @colours, $style . $fg . $bg;
-
-      }
-    }
-  }
-  return \@colours;
-}
-
-sub mcgen {
-  my $colours    = {};
-  my $cmap       = gen_colour_map;
-  my $colour_gen = sub {
-    my $colour = shift @{$cmap};
-    push @{$cmap}, $colour;
-    return $colour;
-  };
-  return sub {
-    my $key = $_[0];
-    return $colours->{$key} if exists $colours->{$key};
-    return ( $colours->{$key} = $colour_gen->() );
-  };
 }
 

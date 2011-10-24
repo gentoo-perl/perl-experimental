@@ -36,7 +36,8 @@ sub _build_root {
   return $root;
 }
 
-use colorcarp { redconfess => [ 31, 47, 'confess' ] };
+use colorcarp 
+  carper => {  attributes => [qw( red on_white )], method => 'confess' , -as => 'redconfess' };
 
 sub check_script {
   my ( $self, $scriptname ) = @_;
