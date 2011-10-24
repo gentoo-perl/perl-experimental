@@ -201,6 +201,10 @@ sub change_for {
 
   return unless $file;
 
+  if ( $flags->{'nosummarize'} ) {
+    return $file;
+  }
+
   require CPAN::Changes;
   my $changes = CPAN::Changes->load_string($file);
   if ($changes) {
@@ -239,11 +243,13 @@ USAGE:
   # Be verbose about what we're doing
   package_log.pl Moose --trace --all
 
-    --all     Show all releases in the log.
-    --help    Show this message
-    --changes Show ChangeLog Excerpts using CPAN::Changes where possible
-    --deps    Show Dependency data ( as reported via metadata )
-    --trace   Turn on extra debugging.
+    --all         Show all releases in the log.
+    --help        Show this message
+    --changes     Show ChangeLog Excerpts using CPAN::Changes where possible
+    --deps        Show Dependency data ( as reported via metadata )
+    --trace       Turn on extra debugging.
+    --nosummarize Do no processing of Changes data and report it verbatim
+                  ( Useful when CPAN::Changes gets it wrong :( )
 EOF
 
 }
