@@ -33,6 +33,25 @@ sub mcpan {
     }
 }
 
+#
+# ->find_dist_all( $module::name , \%opts ) # returns an array of results.
+#
+# $opts{notrim} = 1 to skip the postprocessing filter that eliminates false matches.
+#
+# $opts{mangle} = sub {
+#    my $query = shift;
+#    # You can optionally do this to modify the query before it is performed.
+# };
+#
+# Array items are each a subset of a 'file' entry which contains information
+# about the distribution that file was in.
+#
+# each 'file' entry will have at least one 'file.module' entry that conforms to 
+#   
+#   module.name == $module::name  && module.authorized == true && module.indexed == true
+#
+# Essentially returning exactly what CPAN does.
+#
 sub find_dist_all {
   my ( $class, $module, $opts ) = @_;
 
@@ -82,7 +101,19 @@ sub find_dist_all {
 
 
 }
-use Data::Dump qw( pp );
+
+# ->find_dist_simple( $module::name , \%opts ) # returns an array of results.
+#
+# A convenience wrapper around find_dist_all
+#
+# Adds 3 records not already in metacpan to the result for conveninece. 
+#
+# $record{mod_path}  = "AUTHOR/Release-Name-1.2.3-TRIAL/lib/path/to/module.pm"
+# $record{mod}       = [ "path::to::module" , "1.9.9" ]
+#
+# $record{as_string} =  "path::to::module 1.9.9 in AUTHOR/Release-Name-1.2.3-TRIAL/lib/path/to/module.pm"
+#
+#
 sub find_dist_simple {
   my ( $class, $module, $opts ) = @_;
   return map {
@@ -108,6 +139,40 @@ sub _skip_result {
         and ( ( not $package->{authorized} ) or ( not $package->{indexed} ) );
   }
   return 1;
+}
+
+#
+# ->find_release( 'DOY' , 'Moose-2.0301-TRIAL' )
+#
+# Returns the content of a /release/ entry matching that criteria.
+#
+# Will return an array just in case there's more than one, but its not likely.
+#
+sub find_release {
+  my ( $class, $author, $distrelease , $opts ) = @_ ; 
+  my @terms = (
+    { term => { author => $author } },
+    { term => { name => $distrelease } },
+  );
+   my $filter = {  filter => { and => [ 
+          @terms
+  ]}};
+  my $q = {
+     explain => 1,
+     query => { constant_score => $filter },
+  };
+  my @query = (
+    release => $q 
+  );
+
+  if ( $opts->{mangle} ) {
+    $opts->{mangle}->( $q, );
+  }
+
+  my $results = mcpan->post(@query);
+
+  return map { $_->{_source} } @{ $results->{hits}->{hits} };
+
 }
 
 1;

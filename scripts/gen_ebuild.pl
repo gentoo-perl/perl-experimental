@@ -10,6 +10,9 @@ use FindBin;
 use lib "$FindBin::Bin/lib";
 use env::gentoo::perl_experimental;
 use metacpan qw( mcpan );
+use utf8;
+use Gentoo::PerlMod::Version qw( gentooize_version );
+use Text::Wrap;
 
 my $flags;
 my $singleflags;
@@ -36,12 +39,179 @@ if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
 #  emits Moose/Moose-2.30.100_rc.ebuild
 my ($release) = shift(@ARGV);
 
-my $result = [ map { $_->{as_string} } metacpan->find_dist_simple( $release , {notrim=>1}) ];
+*STDOUT->binmode(':utf8');
+*STDERR->binmode(':utf8');
+
+my %phases;
+my %modules;
+my %providers;
+
+my $dep_phases = get_dep_phases( $release );
+%phases = %{ $dep_phases->{phases} };
+%modules = %{ $dep_phases->{modules} };
 
 use Data::Dump qw( pp );
-use JSON qw( to_json );
-say to_json($result , { pretty => 1 } );
-1;
+use JSON qw( to_json encode_json );
+
+sub provider_map {
+  my ( $module ) = shift;
+  my @providers =  metacpan->find_dist_simple( $module );
+  my %moduleprov;
+  
+  for my $provider ( @providers ) {
+
+    next if $provider->{status} eq 'backpan';
+    next if $provider->{maturity} eq 'developer';
+#    pp $provider;
+
+    my $dist = $provider->{distribution};
+    my $distv = $provider->{version} // 'undef';
+    $moduleprov{$dist} //= [];
+    my @provided_matching_mods;
+    for my $mod ( @{ $provider->{'_source.module' } } ) {
+      next unless $mod->{name} eq $module;
+      my $modv = $mod->{version} // 'undef';
+      my $dv = $distv;
+      if( $distv ne $modv ) { 
+        $dv = $distv . " => " . '"' . $modv . '"';
+      }
+      push @provided_matching_mods, $dv
+        if $mod->{name} eq $module;
+    }
+    push @{ $moduleprov{$dist} }, @provided_matching_mods;
+  }
+  return \%moduleprov;
+}
+for my $module ( keys %modules ) {
+  for my $declaration ( @{ $modules{$module} } ) {
+
+    my $depstring = $module;
+    if ( $declaration->[1] ne '0.0.0' ) {
+      $depstring .= " " . $declaration->[0] . " ( " . $declaration->[1] . " ) " ;
+    }
+
+    my $want_string = "$release -> " . $declaration->[2] . " " . $declaration->[3] . " " . $depstring;
+
+ 
+    my %moduleprov = %{ provider_map( $module ) };
+
+    my $pc = scalar keys %moduleprov;
+
+    my $multi = ( $pc > 1 );
+    my $any   = ( $pc > 0 );
+
+    *STDERR->printf("\e[1;93m%s\e[0m\n", $want_string );
+
+    
+
+    if ( not $any ) {
+      *STDERR->printf("%sWARNING: NO PROVIDER FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
+      next;
+    }
+    if( $multi ){
+      *STDERR->printf("%sWARNING: MULTIPLE PROVIDERS FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
+    }
+
+    for my $prov ( keys %moduleprov ) {
+        my $prefix = $depstring . ' in ' . $prov;
+        my $lines = xwrap( join q[, ], @{$moduleprov{ $prov } } );
+        my ( @slines ) = split /$/m , $lines;
+        $_ =~ s/[\r\n]*//m for @slines;
+       *STDERR->printf(" %s%s -> %s%s\n", "\e[1;92m", $depstring, "\e[0m\e[92m" ,$prov);
+       for ( @slines ) {
+         *STDERR->print(" \e[1;91m*") if $multi;
+         *STDERR->print(" \e[1;92m*") if not $multi;
+
+         *STDERR->printf("  %s%s -> %s%s\n", "\e[1;94m", $prov , "\e[0m\e[94m", $_ );
+       }
+    }
+    if ( $multi ){
+      *STDERR->print(" \e[1;91m-\n\n");
+    } else {
+     *STDERR->print(" \e[1;92m-\n\n");
+    }
+
+#    my ( $prov ) = ( keys %moduleprov );
+#    my $prefix = $want_string.q{/}.$prov;
+    #
+#    *STDERR->printf("%s -> %s [ \n%s\n] \n", $want_string, $prov, clines("\e[39m", "\e[96m$prefix\e[0m", xwrap( join q[, ], @{$moduleprov{$prov}} ) ));
+#  } else {
+#    *STDERR->printf("\n%s -> \e[31mMULTIPLE CHOICE: [\e[0m\n", $module);
+#    for my $prov ( keys %moduleprov ) {
+#      my $prefix = "\e[94m$want_string/$prov\e[0m";
+#      *STDERR->printf(" %s -> \e[31m%s \e[0m[\n%s\n]\n", $want_string, $prov, clines("\e[32m",$prefix, xwrap(join q[, ], @{$moduleprov{$prov}})) );
+#    }
+#    *STDERR->print("\e[31m]\e[0m\n");
+
+#  }
+#  *STDERR->printf("%s -> %s\n",  $module, $providers{$module}->[0]->{as_string} );
+  #push @{ $modules{$module}->[0] }, $providers{$module}->[0]->{as_string};
+}}
+
+use Data::Dump qw( pp );
+use JSON qw( to_json encode_json );
+#say pp( \%modules,);# { pretty => 1 } );
+exit 1;
+
+sub xwrap {
+  local $Text::Wrap::break = qr/,/;
+  local $Text::Wrap::overflow = 'huge';
+  local $Text::Wrap::columns = 128;
+  $Text::Wrap::overflow = 'huge';
+  my $pre = " ";
+  my $lines = wrap( $pre , $pre, @_ );
+  return $lines;
+}
+sub clines {
+  my ( $c, $prefix , $lines ) = @_ ; 
+  $lines =~ s/^/$prefix>>$c/mg;
+  $lines =~ s/$/\e[0m/mg;
+  return $lines;
+}
+
+sub get_dep_phases {
+  my ( $release ) = shift;
+  my %phases;
+  my %modules;
+  my ( $result, ) = get_deps($release);
+  for my $dep ( @{ $result->{dependency} } ) {
+    my $phase = $dep->{phase};
+    my $module = $dep->{module};
+    my $required = ( $dep->{relationship} eq 'requires' );
+
+    next unless $required;
+   next if $phase eq 'develop';
+
+    $phases{$phase} //= [];
+    $modules{$module} //= [];
+
+    my $v = gentooize_version( $dep->{version}, { lax => 1 } );
+
+    push @{ $phases{$phase} }, [ $dep->{module} , $dep->{version} , $v, $dep->{relationship} ];
+    push @{ $modules{$module} }, [ $dep->{version}, $v, $dep->{phase} , $dep->{relationship} ];
+  }
+  return { phases => \%phases, modules => \%modules };
+}
+
+sub to_curl {
+  my ( $target, $query ) = @_;
+
+  my $query_json = to_json( $query, { pretty => 1 } );
+  print 'curl -XPOST api.metacpan.org/v0/' . $target . '/_search -d \'';
+  print $query_json;
+  print qq{'\n};
+
+}
+
+sub get_deps {
+  my ($release) = shift;
+
+  my ( $author, $distrelease );
+
+  $release =~ qr{^([^/]+)/(.*$)};
+  ( $author, $distrelease ) = ( "$1", "$2" );
+  return metacpan->find_release( $author, $distrelease ); 
+}
 
 sub pkg_for_module {
   my ($module) = shift;
