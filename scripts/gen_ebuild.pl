@@ -67,8 +67,8 @@ sub provider_map {
 
   for my $provider ( @providers ) {
 
-    #next if $provider->{status} eq 'backpan';
-    #next if $provider->{maturity} eq 'developer';
+    next if $provider->{status} eq 'backpan';
+    next if $provider->{maturity} eq 'developer';
 #    pp $provider;
 
     my $dist = $provider->{distribution};
