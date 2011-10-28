@@ -52,35 +52,87 @@ my $dep_phases = get_dep_phases( $release );
 
 use Data::Dump qw( pp );
 use JSON qw( to_json encode_json );
+use Try::Tiny;
+use version ();
 
 sub provider_map {
-  my ( $module ) = shift;
+  my ( $module , $version ) = @_;
   my @providers =  metacpan->find_dist_simple( $module );
   my %moduleprov;
-  
+ 
+
+  my %specialvs; 
+
+  my $wanted_version = version->parse( $version );
+
   for my $provider ( @providers ) {
 
-    next if $provider->{status} eq 'backpan';
-    next if $provider->{maturity} eq 'developer';
+    #next if $provider->{status} eq 'backpan';
+    #next if $provider->{maturity} eq 'developer';
 #    pp $provider;
 
     my $dist = $provider->{distribution};
     my $distv = $provider->{version} // 'undef';
+    my $gv    = 'undef';
+    if ( $distv ne 'undef' ){
+      try {
+        $gv = gentooize_version( $distv , { lax => 1 } );
+      } catch {
+        $gv = '???';
+      };
+    }
+
+    #next if $gv eq '???';
+
     $moduleprov{$dist} //= [];
+
     my @provided_matching_mods;
     for my $mod ( @{ $provider->{'_source.module' } } ) {
       next unless $mod->{name} eq $module;
       my $modv = $mod->{version} // 'undef';
-      my $dv = $distv;
-      if( $distv ne $modv ) { 
-        $dv = $distv . " => " . '"' . $modv . '"';
+
+      my $got_version = version->parse( $mod->{version} );
+
+     my $dv = $distv;
+      #if( $distv ne $modv ) { 
+        $dv = sprintf "%s ( %s ) => \"%s\"" , $distv , $gv, $modv;
+      #}
+      # specials 
+      
+      $specialvs{newest} //= {};
+      $specialvs{oldest} //= {};
+      $specialvs{closest} //= {};
+      $specialvs{closestx} //= {};
+
+      $specialvs{newest}->{$dist} = $dv if not exists $specialvs{newest}->{$dist};
+      $specialvs{oldest}->{$dist} = $dv; 
+
+      #     *STDERR->printf("\e[99m%s > %s , %s\n", $got_version, $wanted_version,  $got_version > $wanted_version );
+
+      if ( not defined $version or $got_version >= $wanted_version  ){
+#        *STDERR->printf("\e[99m%s > %s , %s x2\n", $got_version, $version , 1 );
+        if ( not defined $specialvs{closestx}->{$dist} ) {
+#         *STDERR->printf("\e[99m%s > %s => set \n", $got_version, $version );
+          $specialvs{closestx}->{$dist} = $got_version;
+          $specialvs{closest}->{$dist} = $dv;
+        } else {
+          if( $specialvs{closestx}->{$dist} >= $got_version ) {
+#           *STDERR->printf("\e[99m%s > %s => << \n", $got_version, $version );
+
+            $specialvs{closestx}->{$dist} = $got_version;
+            $specialvs{closest}->{$dist} = $dv;
+
+          }
+        }
       }
+     #
+ 
       push @provided_matching_mods, $dv
         if $mod->{name} eq $module;
     }
     push @{ $moduleprov{$dist} }, @provided_matching_mods;
   }
-  return \%moduleprov;
+  return \%moduleprov, \%specialvs;
 }
 for my $module ( keys %modules ) {
   for my $declaration ( @{ $modules{$module} } ) {
@@ -93,9 +145,9 @@ for my $module ( keys %modules ) {
     my $want_string = "$release -> " . $declaration->[2] . " " . $declaration->[3] . " " . $depstring;
 
  
-    my %moduleprov = %{ provider_map( $module ) };
+    my ( $moduleprov, $specialvs ) = provider_map( $module , $declaration->[0]);
 
-    my $pc = scalar keys %moduleprov;
+    my $pc = scalar keys %$moduleprov;
 
     my $multi = ( $pc > 1 );
     my $any   = ( $pc > 0 );
@@ -112,17 +164,23 @@ for my $module ( keys %modules ) {
       *STDERR->printf("%sWARNING: MULTIPLE PROVIDERS FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
     }
 
-    for my $prov ( keys %moduleprov ) {
+    my $indent = " \e[1;92m*";
+    $indent = " \e[1;91m*" if $multi;
+
+    for my $prov ( keys %{$moduleprov} ) {
         my $prefix = $depstring . ' in ' . $prov;
-        my $lines = xwrap( join q[, ], @{$moduleprov{ $prov } } );
+        my $lines = xwrap( join q[, ], @{$moduleprov->{ $prov } } );
         my ( @slines ) = split /$/m , $lines;
         $_ =~ s/[\r\n]*//m for @slines;
        *STDERR->printf(" %s%s -> %s%s\n", "\e[1;92m", $depstring, "\e[0m\e[92m" ,$prov);
+       *STDERR->printf("%s newest: %s\e[0m\n", $indent, $specialvs->{newest}->{$prov});
+       *STDERR->printf("%s oldest: %s\e[0m\n", $indent, $specialvs->{oldest}->{$prov});
+       my $v = $specialvs->{closest}->{$prov};
+       if( not defined $v ){ $v = 'undef' }
+       *STDERR->printf("%s closest: %s\e[0m\n", $indent, $v );
        for ( @slines ) {
-         *STDERR->print(" \e[1;91m*") if $multi;
-         *STDERR->print(" \e[1;92m*") if not $multi;
 
-         *STDERR->printf("  %s%s -> %s%s\n", "\e[1;94m", $prov , "\e[0m\e[94m", $_ );
+         *STDERR->printf("%s %s%s -> %s%s\n", $indent, "\e[1;94m", $prov , "\e[0m\e[94m", $_ );
        }
     }
     if ( $multi ){
