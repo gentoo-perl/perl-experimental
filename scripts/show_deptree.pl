@@ -29,14 +29,14 @@ my $singleflags;
 
 if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
 
-# FILENAME: gen_ebuild.pl
+# FILENAME: show_deptree.pl
 # CREATED: 25/10/11 12:15:51 by Kent Fredric (kentnl) <kentfredric@gmail.com>
-# ABSTRACT: An attempt at generating ebuilds entirely from MetaCPAN data
+# ABSTRACT: show the metadata harvested for a given packages install tree.
 
 # usage:
 #
 # gen_ebuild.pl DOY/Moose-2.0301-TRIAL
-#  emits Moose/Moose-2.30.100_rc.ebuild
+# 
 my ($release) = shift(@ARGV);
 
 *STDOUT->binmode(':utf8');
@@ -103,7 +103,7 @@ sub provider_map {
       $specialvs{oldest} //= {};
       $specialvs{closest} //= {};
       $specialvs{closestx} //= {};
-
+      $specialvs{latest} = [ $dist , $dv ] if not exists $specialvs{latest};
       $specialvs{newest}->{$dist} = $dv if not exists $specialvs{newest}->{$dist};
       $specialvs{oldest}->{$dist} = $dv; 
 
@@ -134,6 +134,8 @@ sub provider_map {
   }
   return \%moduleprov, \%specialvs;
 }
+
+
 for my $module ( keys %modules ) {
   for my $declaration ( @{ $modules{$module} } ) {
 
@@ -152,58 +154,46 @@ for my $module ( keys %modules ) {
     my $multi = ( $pc > 1 );
     my $any   = ( $pc > 0 );
 
-    *STDERR->printf("\e[1;93m%s\e[0m\n", $want_string );
+    *STDOUT->printf("\e[1;93m%s\e[0m\n", $want_string );
 
     
 
     if ( not $any ) {
-      *STDERR->printf("%sWARNING: NO PROVIDER FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
+      *STDOUT->printf("%sWARNING: NO PROVIDER FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
       next;
     }
     if( $multi ){
-      *STDERR->printf("%sWARNING: MULTIPLE PROVIDERS FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
+      *STDOUT->printf("%sWARNING: MULTIPLE PROVIDERS FOUND FOR \"%s\"%s\n", "\e[1;91m", $module, "\e[0m" );
     }
+
 
     my $indent = " \e[1;92m*";
     $indent = " \e[1;91m*" if $multi;
+
+    *STDOUT->printf("%s latest: %s => %s\n", $indent, @{ $specialvs->{latest} } );
 
     for my $prov ( keys %{$moduleprov} ) {
         my $prefix = $depstring . ' in ' . $prov;
         my $lines = xwrap( join q[, ], @{$moduleprov->{ $prov } } );
         my ( @slines ) = split /$/m , $lines;
         $_ =~ s/[\r\n]*//m for @slines;
-       *STDERR->printf(" %s%s -> %s%s\n", "\e[1;92m", $depstring, "\e[0m\e[92m" ,$prov);
-       *STDERR->printf("%s newest: %s\e[0m\n", $indent, $specialvs->{newest}->{$prov});
-       *STDERR->printf("%s oldest: %s\e[0m\n", $indent, $specialvs->{oldest}->{$prov});
+       *STDOUT->printf(" %s%s -> %s%s\n", "\e[1;92m", $depstring, "\e[0m\e[92m" ,$prov);
+       *STDOUT->printf("%s newest: %s\e[0m\n", $indent, $specialvs->{newest}->{$prov});
+       *STDOUT->printf("%s oldest: %s\e[0m\n", $indent, $specialvs->{oldest}->{$prov});
        my $v = $specialvs->{closest}->{$prov};
        if( not defined $v ){ $v = 'undef' }
-       *STDERR->printf("%s closest: %s\e[0m\n", $indent, $v );
+       *STDOUT->printf("%s closest: %s\e[0m\n", $indent, $v );
        for ( @slines ) {
 
-         *STDERR->printf("%s %s%s -> %s%s\n", $indent, "\e[1;94m", $prov , "\e[0m\e[94m", $_ );
+         *STDOUT->printf("%s %s%s -> %s%s\n", $indent, "\e[1;94m", $prov , "\e[0m\e[94m", $_ );
        }
     }
     if ( $multi ){
-      *STDERR->print(" \e[1;91m-\n\n");
+      *STDOUT->print(" \e[1;91m-\n\n");
     } else {
-     *STDERR->print(" \e[1;92m-\n\n");
+     *STDOUT->print(" \e[1;92m-\n\n");
     }
 
-#    my ( $prov ) = ( keys %moduleprov );
-#    my $prefix = $want_string.q{/}.$prov;
-    #
-#    *STDERR->printf("%s -> %s [ \n%s\n] \n", $want_string, $prov, clines("\e[39m", "\e[96m$prefix\e[0m", xwrap( join q[, ], @{$moduleprov{$prov}} ) ));
-#  } else {
-#    *STDERR->printf("\n%s -> \e[31mMULTIPLE CHOICE: [\e[0m\n", $module);
-#    for my $prov ( keys %moduleprov ) {
-#      my $prefix = "\e[94m$want_string/$prov\e[0m";
-#      *STDERR->printf(" %s -> \e[31m%s \e[0m[\n%s\n]\n", $want_string, $prov, clines("\e[32m",$prefix, xwrap(join q[, ], @{$moduleprov{$prov}})) );
-#    }
-#    *STDERR->print("\e[31m]\e[0m\n");
-
-#  }
-#  *STDERR->printf("%s -> %s\n",  $module, $providers{$module}->[0]->{as_string} );
-  #push @{ $modules{$module}->[0] }, $providers{$module}->[0]->{as_string};
 }}
 
 use Data::Dump qw( pp );
