@@ -340,10 +340,18 @@ sub gentooize_pkg {
   return 'dev-perl/' . $pkg;
 }
 
+my @queue;
+
 for my $module ( keys %modules ) {
   for my $declaration ( @{ $modules{$module} } ) {
-    handle_declaration( $release, $module, $declaration, *STDOUT );
+    push @queue, [ $module, $declaration ];
   }
+}
+my @squeue =
+  sort { $a->[1]->[2] cmp $b->[1]->[2] or $a->[1]->[3] cmp $b->[1]->[3] or $a->[0] cmp $b->[0] } @queue;
+
+for my $qi (@squeue) {
+  handle_declaration( $release, @{$qi}, *STDOUT );
 }
 
 use Data::Dump qw( pp );
