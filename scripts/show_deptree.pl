@@ -63,16 +63,18 @@ my @squeue =
   sort { $a->[1]->[2] cmp $b->[1]->[2] or $a->[1]->[3] cmp $b->[1]->[3] or $a->[0] cmp $b->[0] } @queue;
 
 require dep::handler::stdout;
+require dep::handler::bashcode;
+
 my $handler = dep::handler::stdout->new();
+my $handler2 = dep::handler::bashcode->new();
+
 
 for my $qi (@squeue) {
-  deptools::dispatch_dependency_handler( $release, @{$qi}, $handler );
+  deptools::dispatch_dependency_handler( $release, @{$qi}, $handler2 );
 }
 
 #say pp( \%modules,);# { pretty => 1 } );
 exit 1;
-
-
 
 sub pkg_for_module {
   my ($module) = shift;
@@ -84,5 +86,4 @@ sub gen_dep {
   my ( $module, $version ) = @_;
 
 }
-
 

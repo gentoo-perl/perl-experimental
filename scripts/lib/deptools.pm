@@ -146,8 +146,8 @@ sub get_dep_phases {
     my $module   = $dep->{module};
     my $required = ( $dep->{relationship} eq 'requires' );
 
-    next unless $required;
-    next if $phase eq 'develop';
+    #next unless $required;
+    #next if $phase eq 'develop';
 
     $phases{$phase}   //= [];
     $modules{$module} //= [];
