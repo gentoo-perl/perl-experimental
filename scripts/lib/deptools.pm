@@ -10,6 +10,7 @@ package deptools;
 
 sub virtual($) { return 'virtual/perl-' . shift }
 sub lang($)    { return 'dev-lang/' . shift }
+sub perl($)    { return 'dev-perl/' . shift }
 
 sub _vmap_langs {
   return ( 'perl', 'perl_debug', );
@@ -45,6 +46,7 @@ sub _vmap_perl_strange {
     'Locale-MakeText' => virtual 'locale-maketext',
     'Net-Ping'        => virtual 'net-ping',
     'Pod-Parser'      => virtual 'PodParser',
+    'Config-General'  => perl 'config-general',
   );
 }
 
