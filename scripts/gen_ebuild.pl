@@ -101,7 +101,7 @@ $fh->say("MODULE_VERSION=" . $release_info->{version});
 $fh->say('inherit perl-module');
 $fh->say('');
 
-$fh->say('DESCRIPTION="' . quotemeta( $release_info->{abstract} ) . '"');
+$fh->say('DESCRIPTION=\'' .  $release_info->{abstract} . '\'');
 
 my $lics = [];
 my $licmap = {
@@ -171,8 +171,8 @@ if ( $handler2->has_tdeps ) {
   push @{ $depends }, 'test? ( $(perl_meta_test) )';
 }
 
-$fh->say("DEPENDS=\"\n" .  ( join qq{\n}, map { "\t$_" } @{$depends} ) . "\n\"");
-$fh->say("RDEPENDS=\"\n" .  ( join qq{\n}, map { "\t$_" } @{$rdepends} ) . "\n\"");
+$fh->say("DEPEND=\"\n" .  ( join qq{\n}, map { "\t$_" } @{$depends} ) . "\n\"");
+$fh->say("RDEPEND=\"\n" .  ( join qq{\n}, map { "\t$_" } @{$rdepends} ) . "\n\"");
 $fh->say("SRC_TEST=\"do\"");
 
 #say pp( \%modules,);# { pretty => 1 } );
