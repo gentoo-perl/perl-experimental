@@ -23,9 +23,7 @@ my $perls = {
   stable        => CoreGroup->new( name => 'stable',        perls => [qw( 5.12.3 5.12.4 )] ),
 };
 
-
-pp $perls->{masked_future}->get_perl(qw( 5.14.2 ))->delta( 
-  $perls->{stable}->get_perl(qw( 5.12.4 )) );
+pp $perls->{masked_future}->get_perl(qw( 5.14.2 ))->delta( $perls->{stable}->get_perl(qw( 5.12.4 )) );
 
 #for my $group ( $perls->{masked_future} ) {
 #  for my $perl ( values $group->perls ) {
@@ -83,49 +81,47 @@ BEGIN {
 
   __PACKAGE__->meta->make_immutable;
 
-
   sub delta {
-    my ( $self, $other ) = @_ ; 
-    my ( %all ) = map { $_ , 1 } 
+    my ( $self, $other ) = @_;
+    my (%all) = map { $_, 1 }
       $self->module_names,
       $other->module_names;
     my %diffs;
     for my $module ( keys %all ) {
-      if( $self->has_module( $module ) and not $other->has_module( $module ) ) {
+      if ( $self->has_module($module) and not $other->has_module($module) ) {
         $diffs{$module} = {
-          kind => 'ours',
-          available_in => $self->perl_version,
-          not_available_in => $other->perl_version,
-          module => $module,
-          available_version => $self->module( $module )->version,
+          kind              => 'ours',
+          available_in      => $self->perl_version,
+          not_available_in  => $other->perl_version,
+          module            => $module,
+          available_version => $self->module($module)->version,
         };
         next;
       }
-      if( not $self->has_module( $module ) and $other->has_module( $module ) ) {
+      if ( not $self->has_module($module) and $other->has_module($module) ) {
         $diffs{$module} = {
-          kind => 'theirs',
-          available_in => $other->perl_version,
-          not_available_in => $self->perl_version,
-          module => $module,
-          available_version => $other->module( $module )->version,
+          kind              => 'theirs',
+          available_in      => $other->perl_version,
+          not_available_in  => $self->perl_version,
+          module            => $module,
+          available_version => $other->module($module)->version,
         };
         next;
       }
-      if ( ( $self->module( $module )->version // 'undef' ) ne ( $other->module($module)->version // 'undef' ) ) {
-        $diffs{$module} = { 
-          kind => 'cross',
-          module => $module,
-          our_version => $self->module( $module )->version,
-          their_version => $other->module( $module )->version,
-          our_perl => $self->perl_version,
-          their_perl => $other->perl_version,
+      if ( ( $self->module($module)->version // 'undef' ) ne ( $other->module($module)->version // 'undef' ) ) {
+        $diffs{$module} = {
+          kind          => 'cross',
+          module        => $module,
+          our_version   => $self->module($module)->version,
+          their_version => $other->module($module)->version,
+          our_perl      => $self->perl_version,
+          their_perl    => $other->perl_version,
         };
       }
 
     }
     return \%diffs;
   }
-  
 
   # BUILDERS
   sub _build_perl_version {
@@ -184,16 +180,17 @@ BEGIN {
   __PACKAGE__->meta->make_immutable;
 
   sub get_perl {
-    my ($self,$perlv) = @_;
-    if ( not exists $self->perls->{$perlv} ) { 
+    my ( $self, $perlv ) = @_;
+    if ( not exists $self->perls->{$perlv} ) {
       die "No key $perlv";
     }
     return $self->perls->{$perlv};
   }
+
   # BUILDERS
   sub _build_perls {
     my $self = shift;
-    return { map { $_ , CoreList::Single->new( coregroup => $self->name, perl => $_ ) } @{ $self->_perls } };
+    return { map { $_, CoreList::Single->new( coregroup => $self->name, perl => $_ ) } @{ $self->_perls } };
   }
 
 }
