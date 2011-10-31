@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
+  MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild:
+  Fixdep Catalyst-{Action-RenderView,Plugin-{Static-Simple,ConfigLoader}}
+
   03 Aug 2011; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
   MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild:
   Fixdep Test-WWW-Mechanize-Catalyst

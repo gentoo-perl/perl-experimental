@@ -24,18 +24,18 @@ RDEPEND="
 	>=dev-perl/MRO-Compat-0.10
 	>=dev-perl/Cache-FastMmap-1.290.0
 	>=dev-perl/Catalyst-Runtime-5.700.100
-	>=dev-perl/Catalyst-Action-RenderView-0.07
+	>=dev-perl/Catalyst-Action-RenderView-0.70.0
 	>=dev-perl/Catalyst-Authentication-Store-DBIx-Class-0.101.0
 	>=dev-perl/Catalyst-Controller-HTML-FormFu-0.30.70
 	>=dev-perl/Catalyst-Model-DBIC-Schema-0.10.0
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.50
 	dev-perl/Catalyst-Plugin-Cache
-	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.13
+	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.130.0
 	dev-perl/Catalyst-Plugin-I18N
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session-Store-Cache
 	dev-perl/Catalyst-Plugin-Setenv
-	>=dev-perl/Catalyst-Plugin-Static-Simple-0.07
+	>=dev-perl/Catalyst-Plugin-Static-Simple-0.70.0
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
 	>=dev-perl/Catalyst-Plugin-Unicode-0.8
 	>=dev-perl/Catalyst-View-TT-0.23
