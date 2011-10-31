@@ -11,7 +11,7 @@ use Moose;
 require dep::module;
 
 has 'distribution' => ( isa => 'Defined', is => 'rw', required => 1 );
-has 'version'  => ( is  => 'rw',       required   => 1 );
+has 'version'  => ( isa => 'Maybe[Str]', is  => 'rw', default => sub { undef } );
 has 'maturity' => ( is  => 'rw',       required   => 1 );
 has 'status'   => ( is  => 'rw',       required   => 1 );
 has 'gv'       => ( is  => 'rw',       lazy_build => 1 );
