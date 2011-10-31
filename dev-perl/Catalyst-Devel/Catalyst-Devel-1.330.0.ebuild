@@ -27,9 +27,9 @@ RDEPEND="
 	dev-perl/namespace-clean
 	dev-perl/namespace-autoclean
 	>=dev-perl/Catalyst-Runtime-5.800.150
-	>=dev-perl/Catalyst-Action-RenderView-0.10
-	>=dev-perl/Catalyst-Plugin-Static-Simple-0.28
-	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.30
+	>=dev-perl/Catalyst-Action-RenderView-0.100.0
+	>=dev-perl/Catalyst-Plugin-Static-Simple-0.280.0
+	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.300.0
 	>=dev-perl/config-general-2.42
 	>=dev-perl/File-ChangeNotify-0.70.0
 	dev-perl/File-Copy-Recursive
