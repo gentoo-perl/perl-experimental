@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-MinimumPerl
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-MinimumPerl-1.3.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-MinimumPerl-1.3.0.ebuild, +metadata.xml:
+  Added
+
