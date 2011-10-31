@@ -55,6 +55,10 @@ my ($release) = shift(@ARGV);
 require deptools;
 
 my ( $release_info ) = deptools::get_deps( $release );
+
+if ( not $release_info ){
+  die "Cannot find $release on MetaCPAN";
+}
 my $dep_phases = deptools::get_dep_phases($release);
 
 my @queue;
