@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Perl-MinimumVersion
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Perl-MinimumVersion-1.280.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +Perl-MinimumVersion-1.280.0.ebuild, +metadata.xml:
+  added
+
