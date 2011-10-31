@@ -37,7 +37,7 @@ perl_mb_requires() {
 	echo dev-perl/Dist-Zilla
 
 	#Dist::Zilla::Plugin::EOLTests 0.02
-	echo \>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.02
+	echo \>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.20.0
 
 	#Dist::Zilla::Plugin::FakeRelease
 	#Dist::Zilla::Plugin::GatherDir
@@ -106,7 +106,7 @@ perl_mb_requires() {
 	# Dist::Zilla::Plugin::TestRelease
 
 	# Dist::Zilla::Plugin::Twitter 0.007
-	echo \>=dev-perl/Dist-Zilla-Plugin-Twitter-0.7
+	echo \>=dev-perl/Dist-Zilla-Plugin-Twitter-0.7.0
 
 	# Dist::Zilla::Plugin::UploadToCPAN
 	# Dist::Zilla::Role::FileGatherer
@@ -148,7 +148,7 @@ perl_mb_requires() {
 	echo dev-perl/Test-CPAN-Meta
 
 	# Test::EOL 0.9
-	echo \>=dev-perl/Test-EOL-0.9
+	echo \>=dev-perl/Test-EOL-0.900.0
 
 	# namespace::autoclean 0.09
 	echo \>=dev-perl/namespace-autoclean-0.90.0

@@ -2,6 +2,17 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.9.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.12.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.14.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.15.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.16.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.17.ebuild,
+  Dist-Zilla-PluginBundle-Author-KENTNL-1.0.21.ebuild:
+  Fixdep on Test-EOL, Plugin-Twitter, Plugin-ReadmeFromPod,
+  ReportVersions-Tiny, EOLTests
+
 *Dist-Zilla-PluginBundle-Author-KENTNL-1.0.21 (26 Sep 2011)
 
   26 Sep 2011; Kent Fredric <kentfredric@gmail.com>

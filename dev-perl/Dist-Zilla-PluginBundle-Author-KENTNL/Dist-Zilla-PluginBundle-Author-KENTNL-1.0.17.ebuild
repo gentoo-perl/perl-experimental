@@ -36,7 +36,7 @@ COMMON_DEPEND="
 	dev-perl/Dist-Zilla
 
 	$(comment Dist::Zilla::Plugin::EOLTests 0.02)
-	>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.02 $(comment 0.20.0)
+	>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.20.0
 
 	$(comment Dist::Zilla::Plugin::FakeRelease)
 	$(comment Dist::Zilla::Plugin::GatherDir)
@@ -85,10 +85,10 @@ COMMON_DEPEND="
 	dev-perl/Dist-Zilla
 
 	$(comment Dist::Zilla::Plugin::ReadmeFromPod 0.12)
-	>=dev-perl/Dist-Zilla-Plugin-ReadmeFromPod-0.12 $(comment 0.120.0)
+	>=dev-perl/Dist-Zilla-Plugin-ReadmeFromPod-0.120.0
 
 	$(comment Dist::Zilla::Plugin::ReportVersions::Tiny 1.01)
-	>=dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny-1.01 $(comment 1.10.0)
+	>=dev-perl/Dist-Zilla-Plugin-ReportVersions-Tiny-1.10.0
 
 	$(comment Dist::Zilla::Plugin::Test::CPAN::Changes)
 	dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes
@@ -105,7 +105,7 @@ COMMON_DEPEND="
 	$(comment Dist::Zilla::Plugin::TestRelease)
 
 	$(comment Dist::Zilla::Plugin::Twitter 0.007)
-	>=dev-perl/Dist-Zilla-Plugin-Twitter-0.7 $(comment 0.700.0)
+	>=dev-perl/Dist-Zilla-Plugin-Twitter-0.7.0
 
 	$(comment Dist::Zilla::Plugin::UploadToCPAN)
 	$(comment Dist::Zilla::Role::FileGatherer)
@@ -147,7 +147,7 @@ COMMON_DEPEND="
 	dev-perl/Test-CPAN-Meta
 
 	$(comment Test::EOL 0.9)
-	>=dev-perl/Test-EOL-0.9 $(comment 0.900.0)
+	>=dev-perl/Test-EOL-0.900.0
 
 	$(comment namespace::autoclean 0.09)
 	>=dev-perl/namespace-autoclean-0.09 $(comment 0.90.0)
