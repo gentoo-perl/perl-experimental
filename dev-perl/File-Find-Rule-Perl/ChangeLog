@@ -2,6 +2,21 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*File-Find-Rule-Perl-1.100.0-r1 (31 Oct 2011)
+*File-Find-Rule-Perl-1.100.0 (31 Oct 2011)
+*File-Find-Rule-Perl-1.90.0 (31 Oct 2011)
+*File-Find-Rule-Perl-1.80.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +files/1.100/0001-Fix-the-test-for-ExtUtils-MakeMaker-and-also-being-i.patch,
+  -File-Find-Rule-Perl-1.10-r1.ebuild,
+  -files/1.10/0001-Fix-the-test-for-ExtUtils-MakeMaker-and-also-being-i.patch,
+  -File-Find-Rule-Perl-1.08.ebuild, -File-Find-Rule-Perl-1.09.ebuild,
+  -File-Find-Rule-Perl-1.10.ebuild, +File-Find-Rule-Perl-1.80.0.ebuild,
+  +File-Find-Rule-Perl-1.90.0.ebuild, +File-Find-Rule-Perl-1.100.0.ebuild,
+  +File-Find-Rule-Perl-1.100.0-r1.ebuild:
+  Migrate to x.y.z
+
 *File-Find-Rule-Perl-1.10-r1 (11 May 2011)
 
   11 May 2011; Kent Fredric <kentfredric@gmail.com>
