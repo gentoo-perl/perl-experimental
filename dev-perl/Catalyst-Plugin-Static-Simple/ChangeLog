@@ -1,6 +1,19 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-Static-Simple
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Plugin-Static-Simple-0.290.0 (31 Oct 2011)
+*Catalyst-Plugin-Static-Simple-0.280.0 (31 Oct 2011)
+*Catalyst-Plugin-Static-Simple-0.260.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Static-Simple-0.26.ebuild,
+  -Catalyst-Plugin-Static-Simple-0.28.ebuild,
+  -Catalyst-Plugin-Static-Simple-0.29.ebuild,
+  +Catalyst-Plugin-Static-Simple-0.260.0.ebuild,
+  +Catalyst-Plugin-Static-Simple-0.280.0.ebuild,
+  +Catalyst-Plugin-Static-Simple-0.290.0.ebuild:
+  Migrate to x.y.z
 
 *Catalyst-Plugin-Static-Simple-0.29 (16 Apr 2010)
 
