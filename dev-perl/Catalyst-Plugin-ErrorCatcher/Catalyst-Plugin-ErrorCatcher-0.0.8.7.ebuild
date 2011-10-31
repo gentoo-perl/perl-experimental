@@ -28,7 +28,7 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.100
-	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.22
+	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.220.0
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session-Store-File
