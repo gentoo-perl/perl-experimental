@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 COMMON_DEPEND="
-	>=dev-perl/File-Find-Rule-Perl-1.07
+	>=dev-perl/File-Find-Rule-Perl-1.70.0
 	dev-perl/File-Find-Rule
 	dev-perl/PPI
 	dev-perl/Path-Class
