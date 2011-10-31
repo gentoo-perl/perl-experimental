@@ -2,6 +2,19 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-ReportVersions-Tiny-1.30.0 (31 Oct 2011)
+*Dist-Zilla-Plugin-ReportVersions-Tiny-1.20.0 (31 Oct 2011)
+*Dist-Zilla-Plugin-ReportVersions-Tiny-1.10.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-ReportVersions-Tiny-1.01.ebuild,
+  -Dist-Zilla-Plugin-ReportVersions-Tiny-1.02.ebuild,
+  -Dist-Zilla-Plugin-ReportVersions-Tiny-1.03.ebuild,
+  +Dist-Zilla-Plugin-ReportVersions-Tiny-1.10.0.ebuild,
+  +Dist-Zilla-Plugin-ReportVersions-Tiny-1.20.0.ebuild,
+  +Dist-Zilla-Plugin-ReportVersions-Tiny-1.30.0.ebuild:
+  Migrate to x.y.z
+
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Plugin-ReportVersions-Tiny-1.01.ebuild,
   Dist-Zilla-Plugin-ReportVersions-Tiny-1.02.ebuild,

@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=DANIELP
+MODULE_VERSION="1.01"
 inherit perl-module
 
 DESCRIPTION="reports dependency versions during testing"

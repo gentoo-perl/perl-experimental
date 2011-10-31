@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=DANIELP
+MODULE_VERSION="1.02"
 inherit perl-module
 
 DESCRIPTION="reports dependency versions during testing"
@@ -21,7 +22,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.88
-	dev-perl/Test-Warn
 	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "
 RDEPEND="
