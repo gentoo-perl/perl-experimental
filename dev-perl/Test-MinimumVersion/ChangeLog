@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-MinimumVersion
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-MinimumVersion-0.101.80 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-MinimumVersion-0.101.80.ebuild, +metadata.xml:
+  Added
+
