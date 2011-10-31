@@ -106,6 +106,7 @@ $fh->say('DESCRIPTION=\'' .  $release_info->{abstract} . '\'');
 my $lics = [];
 my $licmap = {
   perl_5 => [qw( Artistic GPL-2 )],
+  apache_2_0 => [qw( Apache-2.0 )],
 };
 
 for my $lic ( @{ $release_info->{license} } ){ 
