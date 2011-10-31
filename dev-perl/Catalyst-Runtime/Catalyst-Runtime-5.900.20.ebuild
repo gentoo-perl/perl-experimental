@@ -93,11 +93,11 @@ conflict Catalyst-Plugin-Session-Store-FastMmap 0.90.0
 conflict Catalyst-Controller-AllowDisable 0.03 # 0.30.0
 conflict Reaction 0.001999 # 0.1.999
 conflict Catalyst-Plugin-Upload-Image-Magick 0.03 # 0.30.0
-conflict Catalyst-Plugin-ConfigLoader 0.22 # 0.220.0
+conflict Catalyst-Plugin-ConfigLoader 0.220.0
 conflict Catalyst-Devel 1.190.0
 conflict Catalyst-Plugin-SmartURI 0.032 # 0.32.0
 conflict CatalystX-CRUD 0.37 # 0.370.0
-conflict Catalyst-Action-RenderView 0.07 # 0.70.0
+conflict Catalyst-Action-RenderView 0.70.0
 conflict Catalyst-Action-DebugCookie 0.999002 # 0.999.2
 conflict Catalyst-Plugin-Authentication 0.100.91
 conflict CatalystX-Imports 0.03 # 0.30.0
