@@ -111,6 +111,7 @@ my $lics = [];
 my $licmap = {
   perl_5 => [qw( Artistic GPL-2 )],
   apache_2_0 => [qw( Apache-2.0 )],
+  mit => [qw( MIT )],
 };
 
 for my $lic ( @{ $release_info->{license} } ){ 
