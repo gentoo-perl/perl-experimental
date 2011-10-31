@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Best-0.140.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com> +Best-0.140.0.ebuild:
+  Version Bump
+
 *Best-0.120.0 (12 Apr 2011)
 
   12 Apr 2011; Kent Fredric <kentfredric@gmail.com> -Best-0.120.ebuild,
