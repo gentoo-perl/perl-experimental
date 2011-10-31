@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=SSCAFFIDI
+MODULE_VERSION="0.14"
 inherit perl-module
 
 DESCRIPTION="Automatically convert POD to a README for Dist::Zilla"
