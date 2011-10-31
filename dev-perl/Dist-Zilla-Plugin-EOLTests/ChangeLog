@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Plugin-EOLTests-0.20.0 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-EOLTests-0.02.ebuild,
+  +Dist-Zilla-Plugin-EOLTests-0.20.0.ebuild:
+  Migrate to x.y.z
+
   30 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Plugin-EOLTests-0.02.ebuild:
   Fix dependency on Dist::Zilla

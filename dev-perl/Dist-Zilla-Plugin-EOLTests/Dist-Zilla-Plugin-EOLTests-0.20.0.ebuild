@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=FLORA
+MODULE_VERSION="0.02"
 inherit perl-module
 
 DESCRIPTION="Release tests making sure correct line endings are used"
