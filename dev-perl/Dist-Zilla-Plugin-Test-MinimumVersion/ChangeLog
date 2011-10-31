@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-Test-MinimumVersion-2.0.1 (31 Oct 2011)
+
+  31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-Test-MinimumVersion-2.0.1.ebuild, +metadata.xml:
+  Added
+
