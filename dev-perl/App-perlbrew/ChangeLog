@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  App-perlbrew-0.300.0.ebuild:
+  fix dep n File-Path-Tiny
+
 *App-perlbrew-0.310.0 (04 Nov 2011)
 
   04 Nov 2011; Kent Fredric <kentfredric@gmail.com>

@@ -41,7 +41,7 @@ meta_runtime_dep() {
 	# Devel::PatchPerl 0.46 ( 0.460.0 )
 	echo \>=dev-perl/Devel-PatchPerl-0.460.0
 	# File::Path::Tiny 0.1 ( 0.100.0 )
-	echo \>=dev-perl/File-Path-Tiny-0.1
+	echo \>=dev-perl/File-Path-Tiny-0.100.0
 	# Text::Levenshtein 0.04 ( 0.40.0 )
 	echo \>=dev-perl/Text-Levenshtein-0.40.0
 	# local::lib 1.0 ( 1.0.0 )
