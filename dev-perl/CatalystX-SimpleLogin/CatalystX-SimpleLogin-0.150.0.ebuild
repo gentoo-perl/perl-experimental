@@ -29,7 +29,7 @@ COMMON_DEPEND="
 	$(comment CatalystX::InjectComponent)
 	dev-perl/CatalystX-InjectComponent
 	$(comment CatalystX::Component::Traits 0.13)
-	>=dev-perl/CatalystX-Component-Traits-0.13
+	>=dev-perl/CatalystX-Component-Traits-0.130.0
 	$(comment Moose::Autobox 0.09)
 	>=dev-perl/Moose-Autobox-0.09
 	$(comment MooseX::Types::Common)
