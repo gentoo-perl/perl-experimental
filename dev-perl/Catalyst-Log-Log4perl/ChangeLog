@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Log-Log4perl-1.30.0.ebuild, Catalyst-Log-Log4perl-1.40.0.ebuild:
+  Fixdep Catalyst-Runtime
+
 *Catalyst-Log-Log4perl-1.50.0 (11 Nov 2011)
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>

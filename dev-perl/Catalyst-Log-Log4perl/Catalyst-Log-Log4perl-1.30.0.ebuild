@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.600
+	>=dev-perl/Catalyst-Runtime-5.600.0
 	>=dev-perl/Log-Log4perl-0.49
 	dev-perl/Params-Validate
 	dev-perl/Sub-Install
