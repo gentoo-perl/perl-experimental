@@ -16,7 +16,7 @@ IUSE="+template"
 
 DEPEND="
 	>=dev-perl/CGI-FormBuilder-3.02
-	>=dev-perl/Catalyst-Runtime-5.700
+	>=dev-perl/Catalyst-Runtime-5.700.0
 	>=dev-perl/MRO-Compat-0.09
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0
 	>=dev-perl/Tie-IxHash-1.21
