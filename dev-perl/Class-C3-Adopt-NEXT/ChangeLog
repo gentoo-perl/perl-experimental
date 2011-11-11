@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Class-C3-Adopt-NEXT
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Class-C3-Adopt-NEXT-0.130.0 (11 Nov 2011)
+*Class-C3-Adopt-NEXT-0.120.0 (11 Nov 2011)
+*Class-C3-Adopt-NEXT-0.110.0 (11 Nov 2011)
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -Class-C3-Adopt-NEXT-0.11.ebuild, -Class-C3-Adopt-NEXT-0.12.ebuild,
+  -Class-C3-Adopt-NEXT-0.13.ebuild, +Class-C3-Adopt-NEXT-0.110.0.ebuild,
+  +Class-C3-Adopt-NEXT-0.120.0.ebuild, +Class-C3-Adopt-NEXT-0.130.0.ebuild:
+  Migrate
 
 *Class-C3-Adopt-NEXT-0.13 (13 May 2010)
 
