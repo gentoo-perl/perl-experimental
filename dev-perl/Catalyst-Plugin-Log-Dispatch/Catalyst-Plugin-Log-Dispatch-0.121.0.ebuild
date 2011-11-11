@@ -17,7 +17,7 @@ IUSE=""
 RDEPEND="
 	>=dev-perl/log-dispatch-2.13
 	dev-perl/Log-Dispatch-Config
-	>=dev-perl/Catalyst-Runtime-5.650
+	>=dev-perl/Catalyst-Runtime-5.650.0
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "

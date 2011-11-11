@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	>=dev-perl/log-dispatch-2.13
-	>=dev-perl/Catalyst-Runtime-5.650
+	>=dev-perl/Catalyst-Runtime-5.650.0
 	dev-perl/UNIVERSAL-require
 "
 RDEPEND="${DEPEND}"
