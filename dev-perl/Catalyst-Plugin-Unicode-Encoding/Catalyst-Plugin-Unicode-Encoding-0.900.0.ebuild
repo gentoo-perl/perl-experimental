@@ -16,7 +16,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.800
+	>=dev-perl/Catalyst-Runtime-5.800.0
 	>=virtual/perl-Encode-2.21
 	>=dev-perl/libwww-perl-5.828
 	>=dev-perl/URI-1.36

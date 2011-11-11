@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.800
+	>=dev-perl/Catalyst-Runtime-5.800.0
 	dev-perl/Class-Data-Inheritable
 	>=virtual/perl-Encode-2.21
 	>=dev-perl/libwww-perl-5.828
