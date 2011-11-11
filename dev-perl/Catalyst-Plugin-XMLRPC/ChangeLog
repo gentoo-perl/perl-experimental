@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-XMLRPC
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-XMLRPC-2.01.ebuild:
+  Fixdep Catalyst-Runtime
 
   10 Dec 2009; Kent Fredric <kentfredric@gmail.com>
   -Catalyst-Plugin-XMLRPC-1.0-r1.ebuild:
