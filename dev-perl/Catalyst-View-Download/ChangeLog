@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-View-Download-0.70.0 (11 Nov 2011)
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-View-Download-0.70.0.ebuild:
+  Version Bump
+
 *Catalyst-View-Download-0.60.0 (11 Nov 2011)
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
