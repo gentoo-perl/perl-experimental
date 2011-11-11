@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 COMMON_DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.700
+	>=dev-perl/Catalyst-Runtime-5.700.0
 	dev-perl/MRO-Compat
 	dev-perl/Task-Weaken
 "
