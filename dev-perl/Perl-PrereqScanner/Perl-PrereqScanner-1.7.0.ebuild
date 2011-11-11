@@ -39,7 +39,7 @@ COMMON_DEPEND="
 	dev-perl/Params-Util
 
 	$(comment String::RewritePrefix 0.005)
-	>=dev-perl/String-RewritePrefix-0.005 $(comment 0.5.0)
+	>=dev-perl/String-RewritePrefix-0.5.0
 
 	$(comment Version::Requirements 0.100630)
 	>=virtual/perl-Version-Requirements-0.100.630

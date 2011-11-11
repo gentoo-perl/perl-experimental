@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	$(comment Moose::Role is Moose)
 	>=dev-perl/PPI-1.205.0
 	dev-perl/Params-Util
-	>=dev-perl/String-RewritePrefix-0.005 $(comment 0.5.0)
+	>=dev-perl/String-RewritePrefix-0.5.0
 	>=virtual/perl-Version-Requirements-0.100.630
 	dev-perl/namespace-autoclean
 "

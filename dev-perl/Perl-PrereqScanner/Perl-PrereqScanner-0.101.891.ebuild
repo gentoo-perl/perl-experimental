@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	dev-perl/Moose
 	>=dev-perl/PPI-1.205
 	dev-perl/Params-Util
-	>=dev-perl/String-RewritePrefix-0.005
+	>=dev-perl/String-RewritePrefix-0.5.0
 	>=virtual/perl-Version-Requirements-0.100.630
 	dev-perl/namespace-autoclean
 "
