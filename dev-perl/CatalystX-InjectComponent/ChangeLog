@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/CatalystX-InjectComponent
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  CatalystX-InjectComponent-0.024.ebuild:
+  Fixdep Catalyst-Runtime
 
 *CatalystX-InjectComponent-0.024 (16 Apr 2010)
 
