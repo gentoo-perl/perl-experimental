@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-FormValidator-0.94.ebuild:
+  Fixdep Catalyst-Runtime
+
 *Catalyst-Plugin-FormValidator-0.94 (30 Jan 2011)
 *Catalyst-Plugin-FormValidator-0.30 (30 Jan 2011)
 

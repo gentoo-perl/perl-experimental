@@ -17,7 +17,7 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.800
+	>=dev-perl/Catalyst-Runtime-5.800.0
 	dev-perl/Data-FormValidator
 	dev-perl/MRO-Compat
 	>=dev-perl/Moose-0.93
