@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/Catalyst-Runtime-5.490
+RDEPEND=">=dev-perl/Catalyst-Runtime-5.490.0
 	>=dev-perl/Catalyst-Plugin-Session-0.27
 	dev-perl/DBI
 	virtual/perl-MIME-Base64
