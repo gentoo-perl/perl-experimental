@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-Scheduler
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Scheduler-0.10.ebuild:
+  Fixdep Catalyst-Runtime
 
 *Catalyst-Plugin-Scheduler-0.10 (10 Aug 2010)
 
