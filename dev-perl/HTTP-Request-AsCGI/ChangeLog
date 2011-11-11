@@ -1,6 +1,20 @@
 # ChangeLog for dev-perl/HTTP-Request-AsCGI
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTTP-Request-AsCGI-1.200.0 (11 Nov 2011)
+*HTTP-Request-AsCGI-1.0.0 (11 Nov 2011)
+*HTTP-Request-AsCGI-0.900.0 (11 Nov 2011)
+*HTTP-Request-AsCGI-0.500.0 (11 Nov 2011)
+*HTTP-Request-AsCGI-0.300.0 (11 Nov 2011)
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -HTTP-Request-AsCGI-0.3.ebuild, -HTTP-Request-AsCGI-0.5.ebuild,
+  -HTTP-Request-AsCGI-0.9.ebuild, +HTTP-Request-AsCGI-0.300.0.ebuild,
+  +HTTP-Request-AsCGI-0.500.0.ebuild, +HTTP-Request-AsCGI-0.900.0.ebuild,
+  -HTTP-Request-AsCGI-1.0.ebuild, +HTTP-Request-AsCGI-1.0.0.ebuild,
+  -HTTP-Request-AsCGI-1.2.ebuild, +HTTP-Request-AsCGI-1.200.0.ebuild:
+  Migate to x.y.z
 
 *HTTP-Request-AsCGI-1.2 (22 Jan 2010)
 
