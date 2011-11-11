@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.700
+	>=dev-perl/Catalyst-Runtime-5.700.0
 	dev-perl/Class-Accessor
 	dev-perl/MRO-Compat
 	dev-perl/Path-Class
