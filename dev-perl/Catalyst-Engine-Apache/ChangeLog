@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Engine-Apache
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Engine-Apache-1.16.ebuild:
+  Fixdep Catalyst-Runtime
 
 *Catalyst-Engine-Apache-1.16 (17 Dec 2010)
 
