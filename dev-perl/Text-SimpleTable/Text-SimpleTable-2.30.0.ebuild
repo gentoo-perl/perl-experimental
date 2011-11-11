@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 
 MODULE_AUTHOR=MRAMBERG
+MODULE_VERSION="2.03"
 inherit perl-module
 
 DESCRIPTION="Simple Eyecandy ASCII Tables"
