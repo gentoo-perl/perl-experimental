@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.690
+	>=dev-perl/Catalyst-Runtime-5.690.0
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Path-Class
 	dev-perl/MRO-Compat
