@@ -80,7 +80,7 @@ depend-virtual Scalar-List-Utils # Scalar::Util
 depend Software-License 0.101.370
 # Software::LicenseUtils -> depend Software-License
 depend String-Formatter 0.100.680
-depend String-RewritePrefix 0.005 # 0.5.0
+depend String-RewritePrefix 0.5.0
 depend Sub-Exporter
 depend Sub-Exporter-ForMethods
 # Sub::Exporter::Util -> depend Sub::Exporter
