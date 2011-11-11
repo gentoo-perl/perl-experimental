@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.710.010
+	>=dev-perl/Catalyst-Runtime-5.710.10
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
 	>=dev-perl/HTML-FormFu-0.40.10
