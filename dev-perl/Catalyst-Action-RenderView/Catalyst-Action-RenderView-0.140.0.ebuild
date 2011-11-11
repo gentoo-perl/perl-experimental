@@ -16,7 +16,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.700
+	>=dev-perl/Catalyst-Runtime-5.700.0
 	>=dev-perl/Data-Visitor-0.24
 	dev-perl/MRO-Compat
 "
