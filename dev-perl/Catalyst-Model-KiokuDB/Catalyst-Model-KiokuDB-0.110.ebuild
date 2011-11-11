@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	dev-perl/KiokuX-Model
-	>=dev-perl/Catalyst-Runtime-5.800
+	>=dev-perl/Catalyst-Runtime-5.800.0
 	dev-perl/Moose
 	dev-perl/Scope-Guard
 	dev-perl/Hash-Util-FieldHash-Compat
