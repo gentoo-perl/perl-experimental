@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-SubRequest-0.160.0.ebuild,
+  Catalyst-Plugin-SubRequest-0.170.0.ebuild:
+  Fixdep Catalyst-Runtime
+
 *Catalyst-Plugin-SubRequest-0.170.0 (22 Mar 2011)
 
   22 Mar 2011; Kent Fredric <kentfredric@gmail.com>
