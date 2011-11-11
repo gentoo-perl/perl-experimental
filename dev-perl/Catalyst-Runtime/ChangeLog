@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Runtime-5.800.240.ebuild, Catalyst-Runtime-5.800.250.ebuild,
+  Catalyst-Runtime-5.800.290.ebuild, Catalyst-Runtime-5.800.300.ebuild,
+  Catalyst-Runtime-5.800.320.ebuild, Catalyst-Runtime-5.800.330.ebuild,
+  Catalyst-Runtime-5.890_rc.ebuild, Catalyst-Runtime-5.890.20_rc.ebuild,
+  Catalyst-Runtime-5.890.30_rc.ebuild, Catalyst-Runtime-5.900.20.ebuild:
+  Fixdep on : MooseX-Emulate-Class-Accessor-Fast, MooseX-Role-WithOverloading,
+  Class-C3-Adopt-NEXT, HTTP-Request-AsCGI , Text-SimpleTable ,
+  String-RewritePrefix 
+
 *Catalyst-Runtime-5.900.60 (11 Nov 2011)
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>

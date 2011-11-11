@@ -23,14 +23,14 @@ depend List-MoreUtils
 depend namespace-autoclean 0.90.0
 depend namespace-clean 0.130.0
 depend B-Hooks-EndOfScope 0.08 # 0.80.0
-depend MooseX-Emulate-Class-Accessor-Fast 0.00903 # 0.9.30
+depend MooseX-Emulate-Class-Accessor-Fast 0.9.30
 depend Data-OptList
 depend Moose 1.03 # 1.30.0
 depend MooseX-MethodAttributes 0.240.0 # MooseX::MethodAttributes::Inheritable 0.240.0
-depend MooseX-Role-WithOverloading 0.05 # 0.50.0
+depend MooseX-Role-WithOverloading 0.50.0
 depend MooseX-Types-LoadableClass 0.3.0
 # depend Carp # CORE
-depend Class-C3-Adopt-NEXT 0.07 # 0.70.0
+depend Class-C3-Adopt-NEXT 0.70.0
 depend Cgi-Simple 1.109 # CGI::Simple::Cookie 1.109.0
 depend Data-Dump
 depend Data-OptList
@@ -40,13 +40,13 @@ depend HTTP-Body 1.60.0
 depend HTTP-Message 1.640.0 # HTTP::Headers
 depend HTTP-Message 5.814.0 # HTTP::Request
 depend HTTP-Message 5.813.0 # HTTP::Response
-depend HTTP-Request-AsCGI 1.0 # 1.0.0
+depend HTTP-Request-AsCGI 1.0.0
 depend libwww-perl # LWP::UserAgent
 depend-virtual Module-Pluggable 3.9 # 3.900.0
 depend Path-Class 0.90.0
 depend-virtual Scalar-List-Utils # Scalar-Util
 depend Sub-Exporter
-depend Text-SimpleTable 0.03 # 0.30.0
+depend Text-SimpleTable 0.30.0
 depend-virtual Time-HiRes
 depend Tree-Simple 1.15 # 1.150.0
 depend Tree-Simple-VisitorFactory # Tree-Simple-Visitor-FindByPath
@@ -58,7 +58,7 @@ depend MRO-Compat
 depend MooseX-Getopt 0.30 # 0.300.0
 depend MooseX-Types
 depend MooseX-Types-Common # MooseX::Types::Common::Numeric
-depend String-RewritePrefix 0.004 # 0.4.0
+depend String-RewritePrefix 0.4.0
 depend Plack 0.993.500
 depend Plack-Middleware-ReverseProxy 0.40.0
 
