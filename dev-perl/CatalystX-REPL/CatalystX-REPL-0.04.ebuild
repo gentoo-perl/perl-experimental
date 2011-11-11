@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -13,7 +13,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	dev-perl/namespace-autoclean
-	>=dev-perl/Catalyst-Runtime-5.800.060
+	>=dev-perl/Catalyst-Runtime-5.800.60
 	dev-perl/Carp-REPL
 "
 DEPEND="
