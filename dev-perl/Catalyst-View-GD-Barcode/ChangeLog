@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-View-GD-Barcode
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-View-GD-Barcode-0.04.ebuild, Catalyst-View-GD-Barcode-0.05.ebuild:
+  Fixdep Catalyst-Runtime
 
 *Catalyst-View-GD-Barcode-0.05 (28 Apr 2010)
 
