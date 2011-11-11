@@ -47,6 +47,7 @@ sub _vmap_perl_strange {
     'Net-Ping'        => virtual 'net-ping',
     'Pod-Parser'      => virtual 'PodParser',
     'Config-General'  => perl 'config-general',
+    'CGI-Simple' => perl 'Cgi-Simple',
   );
 }
 

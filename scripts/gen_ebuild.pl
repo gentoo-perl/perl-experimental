@@ -104,14 +104,19 @@ $fh->say("MODULE_AUTHOR=" . $release_info->{author});
 $fh->say("MODULE_VERSION=" . $release_info->{version});
 $fh->say('inherit perl-module');
 $fh->say('');
-
-$fh->say('DESCRIPTION=\'' .  $release_info->{abstract} . '\'');
+if ( not defined $release_info->{abstract} ) { 
+  $fh->say('DESCRIPTION=\'' . $release_info->{distribution} . '\'');
+  warn "Missing an ABSTRACT";
+} else {
+  $fh->say('DESCRIPTION=\'' .  $release_info->{abstract} . '\'');
+}
 
 my $lics = [];
 my $licmap = {
   perl_5 => [qw( Artistic GPL-2 )],
   apache_2_0 => [qw( Apache-2.0 )],
   mit => [qw( MIT )],
+  lgpl_2_1 => [qw( LGPL-2.1 )]
 };
 
 for my $lic ( @{ $release_info->{license} } ){ 
