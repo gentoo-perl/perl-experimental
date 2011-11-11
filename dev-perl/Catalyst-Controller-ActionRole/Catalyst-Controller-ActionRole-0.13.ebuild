@@ -16,8 +16,8 @@ DEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
 	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.80 )
-	>=dev-perl/String-RewritePrefix-0.004
-	>=dev-perl/Catalyst-Runtime-5.710.010
+	>=dev-perl/String-RewritePrefix-0.4.0
+	>=dev-perl/Catalyst-Runtime-5.710.10
 	>=dev-perl/Moose-0.90
 "
 RDEPEND="${DEPEND}"

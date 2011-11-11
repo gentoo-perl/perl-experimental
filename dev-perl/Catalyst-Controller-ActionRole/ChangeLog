@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Controller-ActionRole-0.13.ebuild,
+  Catalyst-Controller-ActionRole-0.14.ebuild,
+  Catalyst-Controller-ActionRole-0.15.ebuild:
+  Fixdep Catalyst-Runtime, String-RewritePrefix
+
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Controller-ActionRole-0.13.ebuild,
   Catalyst-Controller-ActionRole-0.14.ebuild,
