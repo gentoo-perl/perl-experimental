@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Catalyst-Log-Log4perl
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Log-Log4perl-1.40.0 (11 Nov 2011)
+*Catalyst-Log-Log4perl-1.30.0 (11 Nov 2011)
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Log-Log4perl-1.03.ebuild, -Catalyst-Log-Log4perl-1.04.ebuild,
+  +Catalyst-Log-Log4perl-1.30.0.ebuild, +Catalyst-Log-Log4perl-1.40.0.ebuild:
+  migrate to x.y.z
 
 *Catalyst-Log-Log4perl-1.04 (02 Nov 2009)
 
