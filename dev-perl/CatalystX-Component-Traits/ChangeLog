@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  CatalystX-Component-Traits-0.140.0.ebuild,
+  CatalystX-Component-Traits-0.160.0.ebuild:
+  Fixdep Catalyst-Runtime
+
 *CatalystX-Component-Traits-0.160.0 (11 Nov 2011)
 *CatalystX-Component-Traits-0.140.0 (11 Nov 2011)
 
