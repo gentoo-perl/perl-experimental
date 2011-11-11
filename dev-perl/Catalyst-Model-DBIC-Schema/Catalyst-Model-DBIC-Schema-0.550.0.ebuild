@@ -19,7 +19,7 @@ RDEPEND="
 	$(comment Catalyst::Runtime 5.80005)
 	>=dev-perl/Catalyst-Runtime-5.800.50
 	$(comment CatalystX::Component::Traits 0.14)
-	>=dev-perl/CatalystX-Component-Traits-0.14 $(comment 0.140.0)
+	>=dev-perl/CatalystX-Component-Traits-0.140.0
 	$(comment Moose 1.12)
 	>=dev-perl/Moose-1.12
 	$(comment MooseX::Types)

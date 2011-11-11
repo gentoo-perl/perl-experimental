@@ -16,7 +16,7 @@ IUSE="catalyst_helper caching replication test"
 RDEPEND="
 	>=dev-perl/DBIx-Class-0.08114 $(comment 0.81.140)
 	>=dev-perl/Catalyst-Runtime-5.800.50
-	>=dev-perl/CatalystX-Component-Traits-0.14 $(comment 0.140.0)
+	>=dev-perl/CatalystX-Component-Traits-0.140.0
 	>=dev-perl/Moose-1.12 $(comment 1.120.0)
 	dev-perl/MooseX-Types
 	>=dev-perl/namespace-autoclean-0.90.0

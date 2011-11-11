@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="catalyst_helper caching replication test"
 RDEPEND="
 	>=dev-perl/DBIx-Class-0.08114
-	>=dev-perl/Catalyst-Runtime-5.800.050
-	>=dev-perl/CatalystX-Component-Traits-0.14
+	>=dev-perl/Catalyst-Runtime-5.800.50
+	>=dev-perl/CatalystX-Component-Traits-0.140.0
 	>=dev-perl/Moose-0.90
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
