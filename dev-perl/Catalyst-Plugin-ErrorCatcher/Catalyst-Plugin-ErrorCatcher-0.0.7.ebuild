@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.710.010
+	>=dev-perl/Catalyst-Runtime-5.710.10
 	dev-perl/Class-Data-Accessor
 	virtual/perl-IO
 	dev-perl/MRO-Compat
