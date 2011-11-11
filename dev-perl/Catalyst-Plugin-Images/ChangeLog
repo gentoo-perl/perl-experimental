@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Images
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Images-0.02.ebuild:
+  Fixdep Catalyst-Runtime
+
