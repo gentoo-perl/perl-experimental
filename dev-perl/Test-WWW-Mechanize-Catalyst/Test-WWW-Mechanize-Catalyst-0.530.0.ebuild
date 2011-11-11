@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.000
+	>=dev-perl/Catalyst-Runtime-5.0.0
 	>=dev-perl/libwww-perl-5.816
 	>=dev-perl/Test-WWW-Mechanize-1.14
 	>=dev-perl/WWW-Mechanize-1.54
