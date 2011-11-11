@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Catalyst-Runtime-5.660
+	>=dev-perl/Catalyst-Runtime-5.660.0
 	<=dev-perl/RPC-XML-0.67
 	dev-perl/MRO-Compat
 	dev-perl/Clone-Fast
