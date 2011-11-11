@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-Session-Store-BerkeleyDB
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Session-Store-BerkeleyDB-0.04.ebuild:
+  Fixdep Catalyst-Runtime
 
 *Catalyst-Plugin-Session-Store-BerkeleyDB-0.04 (16 Apr 2010)
 

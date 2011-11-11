@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 COMMON_DEPEND="
 	dev-perl/BerkeleyDB-Manager
 	>=dev-perl/Catalyst-Plugin-Session-0.27
-	>=dev-perl/Catalyst-Runtime-5.700.000
+	>=dev-perl/Catalyst-Runtime-5.700.0
 	dev-perl/Class-Data-Inheritable
 	dev-perl/MRO-Compat
 	dev-perl/namespace-clean
