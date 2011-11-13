@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
+# Depend on Not-Yet-Available Module::Build 0.360.0
+=dev-perl/Catalyst-Plugin-Singleton-0.200.0
+
 # Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
 # Packages only available in 5.14.x
 =virtual/perl-i18n-langtags-0.350.100_rc
