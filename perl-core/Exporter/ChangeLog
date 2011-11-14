@@ -1,0 +1,11 @@
+# ChangeLog for perl-core/Exporter
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Exporter-5.650.0 (14 Nov 2011)
+*Exporter-5.630.0 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com> +Exporter-5.630.0.ebuild,
+  +Exporter-5.650.0.ebuild, +metadata.xml:
+  Added
+
