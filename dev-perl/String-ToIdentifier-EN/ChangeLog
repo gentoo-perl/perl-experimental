@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-ToIdentifier-EN
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-ToIdentifier-EN-0.50.0 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  +String-ToIdentifier-EN-0.50.0.ebuild, +metadata.xml:
+  Added
+
