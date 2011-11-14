@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.091480"
 inherit perl-module
 
 DESCRIPTION="read a POD document as a series of trivial events
@@ -16,10 +17,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
-	test? (
-		virtual/perl-Test-Simple
-		dev-perl/Test-Deep
-	)
+	test? ( virtual/perl-Test-Simple )
 "
 RDEPEND="
 	${COMMON_DEPEND}

@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Pod-Eventual-0.93.330 (14 Nov 2011)
+*Pod-Eventual-0.93.170 (14 Nov 2011)
+*Pod-Eventual-0.91.480 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  +Pod-Eventual-0.91.480.ebuild, +Pod-Eventual-0.93.170.ebuild,
+  +Pod-Eventual-0.93.330.ebuild, -Pod-Eventual-0.091480.ebuild,
+  -Pod-Eventual-0.093170.ebuild, -Pod-Eventual-0.093330.ebuild:
+  migrate to x.y.z
+
   11 May 2011; Kent Fredric <kentfredric@gmail.com>
   Pod-Eventual-0.093330.ebuild:
   Add missing Test-Deep dependency
