@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	dev-perl/List-MoreUtils
 	>=dev-perl/Log-Dispatchouli-1.100.710
 	dev-perl/Moose
-	>=dev-perl/Moose-Autobox-0.10
+	>=dev-perl/Moose-Autobox-0.100.0
 	dev-perl/Params-Util
 	>=dev-perl/Pod-Elemental-0.100.220
 	>=dev-perl/String-Flogger-1

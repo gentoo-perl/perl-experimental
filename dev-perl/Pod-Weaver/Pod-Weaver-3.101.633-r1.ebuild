@@ -53,7 +53,7 @@ perl_eumm_prereq_pm() {
 	# Moose
 	echo dev-perl/Moose
 	# Moose::Autobox 0.10
-	echo \>=dev-perl/Moose-Autobox-0.10
+	echo \>=dev-perl/Moose-Autobox-0.100.0
 	# Params::Util
 	echo dev-perl/Params-Util
 	# Pod::Elemental 0.100220
