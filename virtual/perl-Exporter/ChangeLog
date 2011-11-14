@@ -1,0 +1,16 @@
+# ChangeLog for virtual/perl-Exporter
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Exporter-5.640.300_rc (14 Nov 2011)
+*perl-Exporter-5.640.100_rc (14 Nov 2011)
+*perl-Exporter-5.630.0 (14 Nov 2011)
+*perl-Exporter-5.580.0 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Exporter-5.580.0.ebuild, +perl-Exporter-5.630.0.ebuild,
+  +perl-Exporter-5.640.100_rc.ebuild, +perl-Exporter-5.640.300_rc.ebuild,
+  +metadata.xml:
+  Added as a bunch of things need specific versions and its easier to just have
+  this with automated things
+
