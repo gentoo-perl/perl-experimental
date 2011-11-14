@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	dev-perl/Moose
 
 	$(comment Moose::Autobox 0.10)
-	>=dev-perl/Moose-Autobox-0.10 $(comment 0.100.0)
+	>=dev-perl/Moose-Autobox-0.100.0
 
 	$(comment Moose::Role 0.90)
 	>=dev-perl/Moose-0.90
@@ -38,7 +38,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 
 	$(comment Pod::Eventual::Simple 0.004)
-	>=dev-perl/Pod-Eventual-0.004 $(comment 0.4.0)
+	>=dev-perl/Pod-Eventual-0.4.0
 
 	$(comment String::RewritePrefix)
 	dev-perl/String-RewritePrefix
