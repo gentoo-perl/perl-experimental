@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR="ACOBURN"
+MODULE_VERSION="0.16"
 inherit perl-module
 
 DESCRIPTION="Part-of-speech tagger for English natural language processing"

@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Lingua-EN-Tagger
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Lingua-EN-Tagger-0.160.0 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -Lingua-EN-Tagger-0.16.ebuild, +Lingua-EN-Tagger-0.160.0.ebuild:
+  Migrate to x.y.z
 
 *Lingua-EN-Tagger-0.16 (01 Jun 2010)
 
