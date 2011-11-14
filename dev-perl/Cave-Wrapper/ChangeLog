@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Cave-Wrapper-0.10.0.30 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  +Cave-Wrapper-0.10.0.30.ebuild:
+  Version Bump
+
   26 Mar 2011; Kent Fredric <kentfredric@gmail.com>
   Cave-Wrapper-0.10.0.20.ebuild:
   Fixdep on paludis
