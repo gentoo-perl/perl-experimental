@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 COMMON_DEPEND="
-	>=dev-perl/Class-Mix-0.001
+	>=dev-perl/Class-Mix-0.1.0
 	>=virtual/perl-MIME-Base64-2.21
 	virtual/perl-parent
 "

@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Crypt-Eksblowfish-0.9.0-r1 (14 Nov 2011)
+*Crypt-Eksblowfish-0.8.0-r1 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -Crypt-Eksblowfish-0.8.0.ebuild, +Crypt-Eksblowfish-0.8.0-r1.ebuild,
+  -Crypt-Eksblowfish-0.9.0.ebuild, +Crypt-Eksblowfish-0.9.0-r1.ebuild:
+  Fixdep Class::Mix
+
 *Crypt-Eksblowfish-0.9.0 (05 May 2011)
 
   05 May 2011; Kent Fredric <kentfredric@gmail.com>

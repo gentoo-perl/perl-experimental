@@ -16,7 +16,7 @@ IUSE=""
 comment() { echo ''; }
 COMMON_DEPEND="
 	$(comment virtual/perl-Carp)
-	>=dev-perl/Class-Mix-0.001 $(comment 0.1.0)
+	>=dev-perl/Class-Mix-0.1.0
 	$(comment virtual/perl-Exporter)
 	>=virtual/perl-MIME-Base64-2.21 $(comment 2.210.0)
 	virtual/perl-XSLoader
