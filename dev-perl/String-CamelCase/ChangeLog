@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-CamelCase
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-CamelCase-0.20.0 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  +String-CamelCase-0.20.0.ebuild, +metadata.xml:
+  Added
+
