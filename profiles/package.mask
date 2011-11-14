@@ -2,6 +2,17 @@
 # Depend on Not-Yet-Available Module::Build 0.360.0
 =dev-perl/Catalyst-Plugin-Singleton-0.200.0
 
+# Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
+# Old virtuals only for 5.10.x 5.8.x
+=virtual/perl-Exporter-5.580.0
+=virtual/perl-Math-Complex-1.350.0
+=virtual/perl-B-Debug-1.110.0
+=virtual/perl-B-Lint-1.110.0
+=virtual/perl-constant-1.170.0
+=virtual/perl-CPANPLUS-Dist-Build-0.360.0
+=virtual/perl-Pod-Plainer-1.10.0
+=virtual/perl-Unicode-Collate-0.520.0
+
 # Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
 # Packages only available in 5.14.x
 =virtual/perl-i18n-langtags-0.350.100_rc
@@ -12,6 +23,7 @@
 # =virtual/perl-Test-1.250.200_rc # 5.12.{0-4} also
 =virtual/perl-Time-HiRes-1.972.101_rc
 =virtual/perl-Time-Piece-1.200.100_rc
+=virtual/perl-Exporter-5.640.300_rc
 
 # Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
 # Packages only available in 5.14.0 and 5.14.1
