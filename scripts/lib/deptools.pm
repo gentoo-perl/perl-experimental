@@ -47,19 +47,24 @@ sub _vmap_perl_strange {
     'Net-Ping'        => virtual 'net-ping',
     'Pod-Parser'      => virtual 'PodParser',
     'Config-General'  => perl 'config-general',
-    'CGI-Simple' => perl 'Cgi-Simple',
+    'CGI-Simple'      => perl 'Cgi-Simple',
+    'Text-Template'   => perl 'text-template',
   );
 }
 
 sub _vmap_overlay_native {
   return (
-    'Archive-Extract',    'B-Debug',             'B-Lint',             'constant',     'CPAN',
-    'CPANPLUS',           'CPANPLUS-Dist-Build', 'Devel-DProf',        'Devel-PPPort', 'Devel-SelfStubber',
-    'Dumpvalue',          'ExtUtils-Constant',   'ExtUtils-MakeMaker', 'File-Fetch',   'Filter-Simple',
-    'HTTP-Tiny',          'i18n-langtags',       'if',                 'IPC-SysV',     'Log-Message',
-    'Log-Message-Simple', 'Math-Complex',        'Module-CoreList',    'NEXT',         'Object-Accessor',
-    'Pod-LaTeX',          'Pod-Perldoc',         'Pod-Plainer',        'SelfLoader',   'Term-UI',
-    'Unicode-Collate',    'Unicode-Normalize',
+    (
+      'Archive-Extract',    'B-Debug',           'B-Lint',              'constant',
+      'CPAN',               'CPANPLUS',          'CPANPLUS-Dist-Build', 'Devel-DProf',
+      'Devel-PPPort',       'Devel-SelfStubber', 'Dumpvalue',           'ExtUtils-Constant',
+      'ExtUtils-MakeMaker', 'File-Fetch',        'Filter-Simple',       'HTTP-Tiny',
+      'i18n-langtags',      'if',                'IPC-SysV',            'Log-Message',
+      'Log-Message-Simple', 'Math-Complex',      'Module-CoreList',     'NEXT',
+      'Object-Accessor',    'Pod-LaTeX',         'Pod-Perldoc',         'Pod-Plainer',
+      'SelfLoader',         'Term-UI',           'Unicode-Collate',     'Unicode-Normalize',
+    ),
+    ( 'Exporter', 'base', )
   );
 }
 
@@ -98,9 +103,8 @@ sub provider_map {
   require dep::specialvs;
   my $specialvs = dep::specialvs->new();
 
-
   for my $provider (@providers) {
-  
+
     next if $provider->is_backpan;
     next if $provider->is_dev;
 
@@ -112,8 +116,8 @@ sub provider_map {
       next unless $mod->name eq $wanted->module;
 
       # specials
-      $specialvs->set_latest_mod( $provider->distribution , $mod );
-      $specialvs->set_newest_mod( $provider->distribution, $mod  );
+      $specialvs->set_latest_mod( $provider->distribution, $mod );
+      $specialvs->set_newest_mod( $provider->distribution, $mod );
       $specialvs->set_oldest_mod( $provider->distribution, $mod );
 
       if ( $wanted->no_version_dep or $mod->version >= $wanted->version ) {
@@ -128,6 +132,7 @@ sub provider_map {
   }
   return \%moduleprov, $specialvs;
 }
+
 sub get_deps {
   my ($release) = shift;
 
@@ -154,7 +159,7 @@ sub get_dep_phases {
 
     $phases{$phase}   //= [];
     $modules{$module} //= [];
-  
+
     require Gentoo::PerlMod::Version;
     my $v = Gentoo::PerlMod::Version::gentooize_version( $dep->{version}, { lax => 1 } );
 
@@ -165,7 +170,7 @@ sub get_dep_phases {
 }
 
 sub dispatch_dependency_handler {
-  
+
   my ( $release, $module, $declaration, $feeder ) = @_;
 
   my ( $moduleprov, $specialvs ) = provider_map( $module, $declaration->[0] );
@@ -177,9 +182,8 @@ sub dispatch_dependency_handler {
 
   $feeder->begin_dep( $release, $module, $declaration );
 
-
-  if( $module eq 'perl' ){ 
-    $feeder->perl_dep( $module, $declaration , gentooize_pkg( 'perl', $declaration->[1] ));
+  if ( $module eq 'perl' ) {
+    $feeder->perl_dep( $module, $declaration, gentooize_pkg( 'perl', $declaration->[1] ) );
     return $feeder->done;
   }
 
@@ -187,19 +191,16 @@ sub dispatch_dependency_handler {
 
   if ($multi) { $feeder->evt_multi( $module, $declaration ); }
 
-  #pp { 
-  #  moduleprov => $moduleprov, 
+  #pp {
+  #  moduleprov => $moduleprov,
   #  specialvs => $specialvs,
   #  release => $release,
-  #  module => $module, 
+  #  module => $module,
   #  declaration => $declaration,
   #  latest => $specialvs->latest,
   #};
-  if( $specialvs->has_latest ) {
-    $feeder->set_latest( $specialvs->latest, 
-    gentooize_pkg( $specialvs->latest->[0],
-      $declaration->[1] ) 
-    );
+  if ( $specialvs->has_latest ) {
+    $feeder->set_latest( $specialvs->latest, gentooize_pkg( $specialvs->latest->[0], $declaration->[1] ) );
   }
 
   for my $prov ( keys %{$moduleprov} ) {
