@@ -15,7 +15,8 @@ DEPEND=""
 RDEPEND="
 	|| (
 		(
-			=dev-lang/perl-5.14*
+			~dev-lang/perl-5.15.3
+			~dev-lang/perl-5.15.4
 			!perl-core/Exporter
 		)
 		~perl-core/Exporter-${PV}
