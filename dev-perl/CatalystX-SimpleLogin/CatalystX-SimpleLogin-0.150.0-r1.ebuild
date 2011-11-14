@@ -31,7 +31,7 @@ COMMON_DEPEND="
 	$(comment CatalystX::Component::Traits 0.13)
 	>=dev-perl/CatalystX-Component-Traits-0.130.0
 	$(comment Moose::Autobox 0.09)
-	>=dev-perl/Moose-Autobox-0.09
+	>=dev-perl/Moose-Autobox-0.90.0
 	$(comment MooseX::Types::Common)
 	dev-perl/MooseX-Types-Common
 	$(comment MooseX::Types)

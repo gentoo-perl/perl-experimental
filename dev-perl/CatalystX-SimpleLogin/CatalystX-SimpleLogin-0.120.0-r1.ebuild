@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION="0.09"
+MODULE_VERSION="0.12"
 inherit perl-module
 
 DESCRIPTION="Provide a simple Login controller which can be reused"
@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	dev-perl/Catalyst-View-TT
 	dev-perl/CatalystX-InjectComponent
 	>=dev-perl/CatalystX-Component-Traits-0.130.0
-	>=dev-perl/Moose-Autobox-0.09 $(comment 0.90.0)
+	>=dev-perl/Moose-Autobox-0.90.0
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types
 	>=dev-perl/MooseX-RelatedClassRoles-0.004 $(comment 0.4.0)
