@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Moose-Autobox-0.110.0 (14 Nov 2011)
+*Moose-Autobox-0.100.0 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com> -Moose-Autobox-0.10.ebuild,
+  -Moose-Autobox-0.11.ebuild, +Moose-Autobox-0.100.0.ebuild,
+  +Moose-Autobox-0.110.0.ebuild:
+  Migrate to x.y.z
+
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com> Moose-Autobox-0.10.ebuild,
   Moose-Autobox-0.11.ebuild:
   Fixdep autobox

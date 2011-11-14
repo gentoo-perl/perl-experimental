@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=RJBS
+MODULE_VERSION="0.10"
 inherit perl-module
 
 DESCRIPTION="Autoboxed wrappers for Native Perl datatypes"
