@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,3 +16,6 @@ IUSE=""
 DEPEND="
 	>=app-editors/padre-0.37
 "
+RDEPEND="${DEPEND}"
+
+S="${WORKDIR}/${PN}-0.23"
