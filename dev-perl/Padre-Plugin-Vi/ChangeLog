@@ -4,7 +4,7 @@
 
   25 Nov 2011; Sergiy Borodych <Sergiy.Borodych@gmail.com>
   Padre-Plugin-Vi-0.23.0.ebuild:
-  fix: add necessary MODULE_VERSION
+  fix $S for this version
 
 *Padre-Plugin-Vi-0.23.0 (10 Aug 2010)
 

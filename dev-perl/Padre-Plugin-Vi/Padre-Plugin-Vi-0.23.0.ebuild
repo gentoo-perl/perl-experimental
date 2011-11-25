@@ -5,7 +5,6 @@
 EAPI=3
 
 MODULE_AUTHOR=ZENOG
-MODULE_VERSION=0.23
 inherit perl-module
 
 DESCRIPTION="vi keyboard for Padre"
@@ -18,3 +17,5 @@ DEPEND="
 	>=app-editors/padre-0.37
 "
 RDEPEND="${DEPEND}"
+
+S="${WORKDIR}/${PN}-0.23"
