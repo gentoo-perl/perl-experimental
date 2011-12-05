@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=SRI
-MODULE_VERSION=1.98
+MODULE_VERSION=2.35
 inherit perl-module
 
 DESCRIPTION="The Box!"
@@ -15,8 +15,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_eumm_configure() {
-	#perl 5.008007
-	echo \>=dev-lang/perl-5.8.7
+	#perl 5.010100
+	echo \>=dev-lang/perl-5.10.1
 	# strict
 
 	# warnings

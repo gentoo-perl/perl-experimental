@@ -2,7 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
-*Mojolicious-1.980.0 (24 Sep 2011)
+*Mojolicious-2.35.0 (04 Dec 2011)
+
+  04 Dec 2011; Dmytro Gorbunov <dmitro.gorbunov@gmail.com>
+  -Mojolicious-1.980.0.ebuild, +Mojolicious-2.35.0.ebuild:
+  Version BUmp
 
   24 Sep 2011; Kent Fredric <kentfredric@gmail.com>
   -Mojolicious-1.940.0.ebuild, +Mojolicious-1.980.0.ebuild:
