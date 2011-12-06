@@ -12,4 +12,16 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="|| ( =dev-lang/perl-5.14* ~perl-core/ExtUtils-Constant-${PV} )"
+RDEPEND="
+	|| (
+		(
+			|| (
+				~dev-lang/perl-5.12.4
+				~dev-lang/perl-5.12.3
+				~dev-lang/perl-5.10.1
+			)
+			!perl-core/ExtUtils-Constant
+		)
+		~perl-core/ExtUtils-Constant-${PV}
+	)
+"
