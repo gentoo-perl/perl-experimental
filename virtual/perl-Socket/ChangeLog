@@ -1,0 +1,14 @@
+# ChangeLog for virtual/perl-Socket
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-Socket-1.950.0 (06 Dec 2011)
+*perl-Socket-1.940.0 (06 Dec 2011)
+*perl-Socket-1.870.100_rc (06 Dec 2011)
+*perl-Socket-1.820.0 (06 Dec 2011)
+
+  06 Dec 2011; Kent Fredric <kentfredric@gmail.com>
+  +perl-Socket-1.820.0.ebuild, +perl-Socket-1.870.100_rc.ebuild,
+  +perl-Socket-1.940.0.ebuild, +perl-Socket-1.950.0.ebuild, +metadata.xml:
+  Added becauise IO-Socket-IP needs a specific minimum version
+
