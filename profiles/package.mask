@@ -62,8 +62,6 @@ perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Dumpvalue
 virtual/perl-Dumpvalue
-perl-core/ExtUtils-Constant
-virtual/perl-ExtUtils-Constant
 perl-core/Filter-Simple
 virtual/perl-Filter-Simple
 perl-core/Devel-SelfStubber
