@@ -1,0 +1,10 @@
+# ChangeLog for perl-core/Socket
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Socket-1.950.0 (05 Dec 2011)
+
+  05 Dec 2011; Kent Fredric <kentfredric@gmail.com> +Socket-1.950.0.ebuild,
+  +metadata.xml:
+  Added as is newer than core and needed
+
