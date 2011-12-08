@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Test-UseAllModules
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Test-UseAllModules-0.130.0 (08 Dec 2011)
+
+  08 Dec 2011; Kent Fredric <kentfredric@gmail.com>
+  +Test-UseAllModules-0.130.0.ebuild, +metadata.xml:
+  Added for Catalyst-Plugin-StackTrace
+
