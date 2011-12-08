@@ -32,7 +32,7 @@ DEPEND="${RDEPEND}
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session-Store-File
-	>=dev-perl/Catalyst-Plugin-StackTrace-0.10
+	>=dev-perl/Catalyst-Plugin-StackTrace-0.100.0
 	dev-perl/config-general
 	dev-perl/File-Find-Rule
 	dev-perl/FindBin-libs
