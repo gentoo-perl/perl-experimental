@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-ExtUtils-Constant-0.230.0-r2 (06 Dec 2011)
+*perl-ExtUtils-Constant-0.220.0-r1 (06 Dec 2011)
+
+  06 Dec 2011; Kent Fredric <kentfredric@gmail.com>
+  -perl-ExtUtils-Constant-0.220.0.ebuild,
+  +perl-ExtUtils-Constant-0.220.0-r1.ebuild,
+  -perl-ExtUtils-Constant-0.230.0-r1.ebuild,
+  +perl-ExtUtils-Constant-0.230.0-r2.ebuild:
+  Fix deps to align to perl versions in virtual/perl-ExtUtils-Constant
+
 *perl-ExtUtils-Constant-0.230.0-r1 (17 Jun 2011)
 
   17 Jun 2011; Kent Fredric <kentfredric@gmail.com>

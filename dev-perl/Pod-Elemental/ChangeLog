@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Pod-Elemental-0.102.361-r1 (14 Nov 2011)
+*Pod-Elemental-0.102.360-r1 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Elemental-0.102.360.ebuild, +Pod-Elemental-0.102.360-r1.ebuild,
+  -Pod-Elemental-0.102.361.ebuild, +Pod-Elemental-0.102.361-r1.ebuild:
+  Fixdep on Moose-Autobox and Pod-Eventual
+
 *Pod-Elemental-0.102.361 (27 Aug 2011)
 
   27 Aug 2011; Kent Fredric <kentfredric@gmail.com>

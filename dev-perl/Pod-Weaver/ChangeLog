@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Pod-Weaver-3.101.633-r1 (14 Nov 2011)
+*Pod-Weaver-3.101.632-r1 (14 Nov 2011)
+
+  14 Nov 2011; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Weaver-3.101.632.ebuild, +Pod-Weaver-3.101.632-r1.ebuild,
+  -Pod-Weaver-3.101.633.ebuild, +Pod-Weaver-3.101.633-r1.ebuild:
+  Fixdep Moose::Autobox
+
 *Pod-Weaver-3.101.633 (25 Sep 2011)
 
   25 Sep 2011; Kent Fredric <kentfredric@gmail.com>

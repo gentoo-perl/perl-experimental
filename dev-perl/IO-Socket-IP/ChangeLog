@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/IO-Socket-IP
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*IO-Socket-IP-0.70.60_rc (06 Dec 2011)
+*IO-Socket-IP-0.70.0 (06 Dec 2011)
+
+  06 Dec 2011; Kent Fredric <kentfredric@gmail.com>
+  +IO-Socket-IP-0.70.0.ebuild, +IO-Socket-IP-0.70.60_rc.ebuild, +metadata.xml:
+  Added for Audio-MPD
+
