@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=XSAWYERX
-MODULE_VERSION=1.3090
+MODULE_VERSION=1.3091
 inherit perl-module
 
 DESCRIPTION='A minimal-effort oriented web application framework'
