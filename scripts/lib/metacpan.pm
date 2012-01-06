@@ -102,7 +102,7 @@ sub find_dist_all {
     $opts->{mangle}->( $q, );
   }
 
-  my $results = mcpan->post( file => $q );
+  my $results = mcpan->post( "file/_search" => $q );
 
   if ( not $opts->{notrim} ) {
     $results->{hits}->{hits} = [ grep { _skip_result( $_, $module ) } @{ $results->{hits}->{hits} } ];
@@ -173,7 +173,7 @@ sub find_release {
      query => { constant_score => $filter },
   };
   my @query = (
-    release => $q 
+    "release/_search" => $q
   );
 
   if ( $opts->{mangle} ) {
