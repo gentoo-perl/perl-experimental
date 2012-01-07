@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> 07 Jan 2012
+# Depends on not-yet-available Module-Metadata 1.0.7
+=dev-perl/App-cpanoutdated-0.200.0
+
 # Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
 # Depend on Not-Yet-Available Module::Build 0.360.0
 =dev-perl/Catalyst-Plugin-Singleton-0.200.0
