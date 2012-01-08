@@ -49,34 +49,45 @@ my $singleflags;
 
 if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
 
-my $oldest_date = '2011-09-01T00:00:00.000Z';
-my $newest_date = '2012-01-01T00:00:00.000Z';
+my $oldest_date = '2011-10-01T00:00:00.000Z';
+my $newest_date = '2012-02-01T00:00:00.000Z';
 
 my $search = {};
 
-$search->{query} = {
-  terms => {
-    distribution  => [ @ARGV, ],
-    minimum_match => 1,
-  },
-};
+my $and = [];
 
 if ( not $flags->{all} ) {
-  $search->{filter} = {
-    range => {
-      date => {
-        from => $oldest_date,
-        to   => $newest_date,
-      },
-    },
-  };
+    push @{$and}, {
+        range => {
+            date => {
+                from => $oldest_date,
+                to   => $newest_date,
+            }
+        }
+    };
 }
+
+push @{$and} , {
+    term => {
+    'distribution'  => @ARGV,
+#     minimum_match => 1,
+    }
+};
+
+$search->{query} = {
+     constant_score => {
+         filter => {
+              and => $and,
+         }
+     }
+};
+
 $search->{sort} = [
 
   #   { 'author' => 'asc', },
   { 'date' => 'desc', },
 ];
-$search->{size} = 1024;
+$search->{size} = 10;
 
 $search->{fields} = [qw( author name date distribution version )];
 
@@ -84,9 +95,10 @@ if ( $flags->{deps} ) {
   push @{ $search->{fields} }, '_source.dependency';
 }
 
+
 _log( ['initialized: fetching search results'] );
 
-my $results = mcpan->post( 'release', $search );
+my $results = mcpan->post( 'release/_search', $search );
 
 _log( [ 'fetched %s results', scalar @{ $results->{hits}->{hits} } ] );
 

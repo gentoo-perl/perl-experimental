@@ -1,5 +1,9 @@
+# Kent Fredric <kentfredric@gmail.com> 07 Jan 2012
+# Depends on not-yet-available Module-Metadata 1.0.7
+=dev-perl/App-cpanoutdated-0.200.0
+
 # Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
-# Depend on Not-Yet-Available Module::Build 0.360.0
+# Depend on Not-Yet-Available Module::Build 0.390.0
 =dev-perl/Catalyst-Plugin-Singleton-0.200.0
 
 # Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
@@ -40,15 +44,6 @@
 =virtual/perl-Encode-2.420.100_rc
 =virtual/perl-CPAN-1.960.1_rc
 =virtual/perl-Module-CoreList-2.490.200_rc
-
-# Kent Fredric <kentfredric@gmail.com> (23 Sep 2011)
-# KwaliteeTests now deprecated in favour of Test::Kwalitee
-# People needing the old (depracated) module can also get the same
-# module by installing dev-perl/Dist-Zilla-Plugin-Test-Kwalitee
-# which now ships the KwaliteeTests plugin instead.
-# Removal Scheduled for 2012-01-01
-dev-perl/Dist-Zilla-Plugin-KwaliteeTetsts
-<=dev-perl/Dist-Zilla-PluginBundle-Author-KENTNL-1.0.16
 
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff

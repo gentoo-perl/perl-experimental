@@ -20,11 +20,22 @@ sub mcpan {
       root_dir => File::Spec->catdir( File::Spec->tmpdir, 'gentoo-metacpan-cache' ),
     );
     require WWW::Mechanize::Cached;
-    my $mech = WWW::Mechanize::Cached->new(
-      cache     => $cache,
-      timeout   => 20000,
+    my $mech;
+
+    if ( defined $ENV{WWW_MECH_NOCACHE} ) {
+        $mech = LWP::UserAgent->new();
+    } else {
+      $mech = WWW::Mechanize::Cached->new(
+       cache     => $cache,
+       timeout   => 20000,
       autocheck => 1,
-    );
+     );
+    }
+    if ( defined $ENV{WWW_MECH_DEBUG} ) {
+        $mech->add_handler("request_send", sub { warn shift->dump ; return });
+        $mech->add_handler("response_done", sub { warn shift->dump ; return });
+
+    }
     require HTTP::Tiny::Mech;
     my $tinymech = HTTP::Tiny::Mech->new( mechua => $mech );
     require MetaCPAN::API;
@@ -91,7 +102,7 @@ sub find_dist_all {
     $opts->{mangle}->( $q, );
   }
 
-  my $results = mcpan->post( file => $q );
+  my $results = mcpan->post( "file/_search" => $q );
 
   if ( not $opts->{notrim} ) {
     $results->{hits}->{hits} = [ grep { _skip_result( $_, $module ) } @{ $results->{hits}->{hits} } ];
@@ -162,7 +173,7 @@ sub find_release {
      query => { constant_score => $filter },
   };
   my @query = (
-    release => $q 
+    "release/_search" => $q
   );
 
   if ( $opts->{mangle} ) {

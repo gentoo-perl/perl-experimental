@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/App-perlbrew
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-perlbrew-0.390.0 (06 Jan 2012)
+
+  06 Jan 2012; Kent Fredric <kentfredric@gmail.com>
+  +App-perlbrew-0.390.0.ebuild:
+  Version Bump
 
 *App-perlbrew-0.330.0 (05 Dec 2011)
 

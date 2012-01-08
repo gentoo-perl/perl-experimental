@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MojoX-Renderer-TT
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MojoX-Renderer-TT-1.13 (02 Jan 2012)
+
+  02 Jan 2012; Michele Beltrame <m@cattlegrid.info>
+  +MojoX-Renderer-TT-1.13.ebuild, +metadata.xml:
+  Init
+
