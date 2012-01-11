@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Mojolicious-Plugin-Database
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Mojolicious-Plugin-Database-1.05 (11 Jan 2012)
+
+  11 Jan 2012; Michele Beltrame <m@cattlegrid.info>
+  +Mojolicious-Plugin-Database-1.05.ebuild, +metadata.xml:
+  Initial
+
