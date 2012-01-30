@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Dancer
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dancer-1.309.200 (30 Jan 2012)
+
+  30 Jan 2012; Sergiy Borodych <Sergiy.Borodych@gmail.com>
+  -Dancer-1.306.0.ebuild, -Dancer-1.307.0.ebuild, -Dancer-1.307.1.ebuild,
+  +Dancer-1.309.200.ebuild:
+  version bump, cleanup old versions
 
 *Dancer-1.309.100 (20 Dec 2011)
 
