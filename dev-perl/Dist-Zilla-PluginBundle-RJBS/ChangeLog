@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Dist-Zilla-PluginBundle-RJBS
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-PluginBundle-RJBS-1.4.0.ebuild:
+  Gone on CPAN
 
   29 May 2011; Torsten Veller <tove@gentoo.org>
   Dist-Zilla-PluginBundle-RJBS-1.4.0.ebuild,
