@@ -1,6 +1,12 @@
 # ChangeLog for perl-core/Log-Message-Simple
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Log-Message-Simple-0.80.0 (08 Feb 2012)
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Log-Message-Simple-0.80.ebuild, +Log-Message-Simple-0.80.0.ebuild:
+  Renormalise to have a .0 so it matches the virtual
 
 *Log-Message-Simple-0.80 (20 Jan 2011)
 
