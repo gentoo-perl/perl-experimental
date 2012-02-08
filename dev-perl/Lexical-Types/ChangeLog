@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Lexical-Types
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Lexical-Types-0.110.0.ebuild:
+  Gone on CPAN
 
 *Lexical-Types-0.120.0 (26 Aug 2011)
 
