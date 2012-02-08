@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-AttributeIndexes
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-AttributeIndexes-0.10.10.70.ebuild:
+  Gone on CPAN
 
 *MooseX-AttributeIndexes-1.0.1 (05 Apr 2011)
 
