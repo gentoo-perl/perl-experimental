@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Perl-PrereqScanner
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Perl-PrereqScanner-0.101.250.ebuild, -Perl-PrereqScanner-0.101.480.ebuild,
+  -Perl-PrereqScanner-0.101.891.ebuild, -Perl-PrereqScanner-1.3.0.ebuild:
+  Gone On CPAN
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
   Perl-PrereqScanner-0.101.480.ebuild, Perl-PrereqScanner-0.101.890.ebuild,
