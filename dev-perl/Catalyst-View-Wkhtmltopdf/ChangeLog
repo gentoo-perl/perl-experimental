@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-View-Wkhtmltopdf
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-View-Wkhtmltopdf-0.0.300.ebuild:
+  Gone On CPAN
 
   21 May 2011; Kent Fredric <kentfredric@gmail.com>
   -Catalyst-View-Wkhtmltopdf-0.0.200.ebuild:
