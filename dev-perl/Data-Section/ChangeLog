@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Data-Section
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Data-Section-0.100.270.ebuild:
+  Gone on CPAN
 
 *Data-Section-0.101.621 (05 May 2011)
 
