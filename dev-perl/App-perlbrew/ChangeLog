@@ -2,6 +2,16 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -App-perlbrew-0.190.0.ebuild, -App-perlbrew-0.200.0.ebuild,
+  -App-perlbrew-0.210.0.ebuild, -App-perlbrew-0.220.0.ebuild,
+  -App-perlbrew-0.230.0.ebuild, -App-perlbrew-0.240.0.ebuild,
+  -App-perlbrew-0.250.0.ebuild, -App-perlbrew-0.270.0.ebuild,
+  -App-perlbrew-0.280.0.ebuild, -App-perlbrew-0.290.0.ebuild,
+  -App-perlbrew-0.300.0.ebuild, -App-perlbrew-0.310.0.ebuild,
+  -App-perlbrew-0.320.0.ebuild, -App-perlbrew-0.330.0.ebuild:
+  Gone on CPAN
+
 *App-perlbrew-0.390.0 (06 Jan 2012)
 
   06 Jan 2012; Kent Fredric <kentfredric@gmail.com>
