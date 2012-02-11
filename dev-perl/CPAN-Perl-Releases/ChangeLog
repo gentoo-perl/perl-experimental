@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CPAN-Perl-Releases
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CPAN-Perl-Releases-0.420.0 (11 Feb 2012)
+
+  11 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +CPAN-Perl-Releases-0.420.0.ebuild, +metadata.xml:
+  Added for App-perlbrew
+
