@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -85,7 +85,7 @@ conflict Catalyst-Component-ACCEPT_CONTEXT 0.06 # 0.60.0
 conflict Catalyst-Plugin-ENV
 conflict Catalyst-Plugin-Unicode-Encoding 0.200.0
 conflict Catalyst-Plugin-Authentication 0.100.100
-conflict Catalyst-Authentication-Credential-HTTP 1.009 # 1.9.0
+conflict Catalyst-Authentication-Credential-HTTP 1.9.0
 conflict Catalyst-Plugin-Session-Store-File 0.16 # 0.160.0
 conflict Catalyst-Plugin-Session 0.21 # 0.210.0
 conflict Catalyst-Plugin-Session-State-Cookie 0.10 # 0.100.0
