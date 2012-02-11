@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Authen-Passphrase
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  11 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  Authen-Passphrase-0.6.0.ebuild, Authen-Passphrase-0.7.0.ebuild:
+  Fixdep on Crypt-{UnixCrypt_XS,MySQL}
 
   24 May 2011; Kent Fredric <kentfredric@gmail.com>
   Authen-Passphrase-0.6.0.ebuild, Authen-Passphrase-0.7.0.ebuild:

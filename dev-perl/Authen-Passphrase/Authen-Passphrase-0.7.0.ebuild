@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -16,9 +16,9 @@ COMMON_DEPEND="
 	>=dev-perl/Crypt-Blowfish-2.00
 	dev-perl/Crypt-DES
 	>=dev-perl/Crypt-Eksblowfish-0.8.0
-	>=dev-perl/Crypt-MySQL-0.03
+	>=dev-perl/Crypt-MySQL-0.30.0
 	>=dev-perl/Crypt-PasswdMD5-1.0
-	>=dev-perl/Crypt-UnixCrypt_XS-0.08
+	>=dev-perl/Crypt-UnixCrypt_XS-0.80.0
 	dev-perl/Data-Entropy
 	>=virtual/perl-digest-base-1.0.0
 	>=dev-perl/Digest-MD4-1.2
