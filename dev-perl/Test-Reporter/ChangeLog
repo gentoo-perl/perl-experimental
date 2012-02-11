@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Test-Reporter
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Test-Reporter-1.570.0 (11 Feb 2012)
+*Test-Reporter-1.560.0 (11 Feb 2012)
+
+  11 Feb 2012; Kent Fredric <kentfredric@gmail.com> -Test-Reporter-1.56.ebuild,
+  -Test-Reporter-1.57.ebuild, +Test-Reporter-1.560.0.ebuild,
+  +Test-Reporter-1.570.0.ebuild:
+  Migrate to X.Y.Z
 
 *Test-Reporter-1.580.0 (22 Jul 2011)
 
