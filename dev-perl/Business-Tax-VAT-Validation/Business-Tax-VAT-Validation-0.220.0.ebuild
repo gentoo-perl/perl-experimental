@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,10 +24,10 @@ meta_configure_dep() {
 }
 meta_runtime_dep() {
 	# HTTP::Request::Common 1 1.0.0
-	echo '|| (
-		( >=dev-perl/HTTP-Message-1.0.0 )
-		( !dev-perl/HTTP-Message  <dev-perl/libwww-perl-6.0.0 >=dev-perl/libwww-perl-1.0.0 )
-	)'
+	echo '
+		>=dev-perl/HTTP-Message-1.0.0
+		>=dev-perl/libwww-perl-6.0.0
+	'
 	# LWP::UserAgent 1 1.0.0
 	echo \>=dev-perl/libwww-perl-1.0.0
 }
