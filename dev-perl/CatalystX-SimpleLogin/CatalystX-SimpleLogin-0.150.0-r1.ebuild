@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -45,7 +45,7 @@ COMMON_DEPEND="
 	$(comment namespace::autoclean)
 	dev-perl/namespace-autoclean
 	$(comment Catalyst::Plugin::Session 0.27)
-	>=dev-perl/Catalyst-Plugin-Session-0.27 $(comment 0.270.0)
+	>=dev-perl/Catalyst-Plugin-Session-0.270.0
 "
 DEPEND="
 	${COMMON_DEPEND}
