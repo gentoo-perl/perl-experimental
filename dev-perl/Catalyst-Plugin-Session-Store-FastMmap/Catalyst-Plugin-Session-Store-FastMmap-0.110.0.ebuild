@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="
 	>=dev-perl/Cache-FastMmap-1.290.0
-	>=dev-perl/Catalyst-Plugin-Session-0.22
+	>=dev-perl/Catalyst-Plugin-Session-0.220.0
 	dev-perl/Path-Class
 	dev-perl/MRO-Compat
 	virtual/perl-File-Spec
