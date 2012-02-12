@@ -87,7 +87,7 @@ conflict Catalyst-Plugin-Unicode-Encoding 0.200.0
 conflict Catalyst-Plugin-Authentication 0.100.100
 conflict Catalyst-Authentication-Credential-HTTP 1.9.0
 conflict Catalyst-Plugin-Session-Store-File 0.16 # 0.160.0
-conflict Catalyst-Plugin-Session 0.21 # 0.210.0
+conflict Catalyst-Plugin-Session 0.210.0
 conflict Catalyst-Plugin-Session-State-Cookie 0.10 # 0.100.0
 conflict Catalyst-Plugin-Session-Store-FastMmap 0.90.0
 conflict Catalyst-Controller-AllowDisable 0.03 # 0.30.0

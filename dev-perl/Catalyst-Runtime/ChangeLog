@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Runtime-5.890_rc.ebuild, Catalyst-Runtime-5.890.20_rc.ebuild,
+  Catalyst-Runtime-5.890.30_rc.ebuild, Catalyst-Runtime-5.900.20.ebuild:
+  Fixdep Catalyst-Plugin-Session
+
   11 Feb 2012; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Runtime-5.890_rc.ebuild, Catalyst-Runtime-5.890.20_rc.ebuild,
   Catalyst-Runtime-5.890.30_rc.ebuild, Catalyst-Runtime-5.900.20.ebuild:
