@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Handel
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 Feb 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
+  Fixdep Catalyst-Plugin-Session-{,Store-File,State-Cookie}
 
   16 Jul 2011; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
   Fixdep Locale-Currency-Format

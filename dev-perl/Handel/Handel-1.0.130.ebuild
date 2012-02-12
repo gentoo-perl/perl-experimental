@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -38,9 +38,9 @@ DEPEND="
 		>=dev-perl/Catalyst-Runtime-5.800.250
 		>=dev-perl/Catalyst-Devel-1.280.0
 		>=dev-perl/Catalyst-View-TT-0.34
-		>=dev-perl/Catalyst-Plugin-Session-0.3
-		>=dev-perl/Catalyst-Plugin-Session-Store-File-0.18
-		>=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.17
+		>=dev-perl/Catalyst-Plugin-Session-0.300.0
+		>=dev-perl/Catalyst-Plugin-Session-Store-File-0.180.0
+		>=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.170.0
 		>=dev-perl/yaml-0.71
 		>=dev-perl/HTML-FillInForm-2.00
 	)
