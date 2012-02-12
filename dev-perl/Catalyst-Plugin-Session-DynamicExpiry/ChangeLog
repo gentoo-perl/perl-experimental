@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-Session-DynamicExpiry
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-Session-DynamicExpiry-0.20.0 (12 Feb 2012)
+
+  12 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Session-DynamicExpiry-0.02.ebuild,
+  +Catalyst-Plugin-Session-DynamicExpiry-0.20.0.ebuild:
+  Migrate to x.y.z, fixdep on Catalyst-Plugin-Session, QA DEPEND fixup
+
