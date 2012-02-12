@@ -27,8 +27,8 @@ RDEPEND="
 	>=virtual/perl-Test-Simple-0.88
 
 "
-#	!<=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.03
-#	!<=dev-perl/Catalyst-Plugin-Session-State-URI-0.02
+#	!<=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.30.0
+#	!<=dev-perl/Catalyst-Plugin-Session-State-URI-0.20.0
 DEPEND="${RDEPEND}
 	test? (
 			dev-perl/Test-Deep
