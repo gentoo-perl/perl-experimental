@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -34,10 +34,8 @@ DEPEND="
 		$(comment IO::Scalar)
 		dev-perl/IO-stringy
 		$(comment HTTP::Status)
-		|| (
-			( >=dev-perl/libwww-perl-6.0.0 dev-perl/HTTP-Message )
-			<dev-perl/libwww-perl-6.0.0
-		)
+		>=dev-perl/libwww-perl-6.0.0
+		dev-perl/HTTP-Message
 	)
 "
 SRC_TEST=do
