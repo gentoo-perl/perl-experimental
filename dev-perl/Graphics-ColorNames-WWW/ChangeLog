@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Graphics-ColorNames-WWW
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Graphics-ColorNames-WWW-1.130.0 (12 Feb 2012)
+
+  12 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Graphics-ColorNames-WWW-1.130.ebuild,
+  +Graphics-ColorNames-WWW-1.130.0.ebuild:
+  Add Zero
 
   11 Feb 2011; Kent Fredric <kentfredric@gmail.com>
   Graphics-ColorNames-WWW-1.130.ebuild:
