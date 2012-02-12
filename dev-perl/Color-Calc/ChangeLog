@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Color-Calc
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Color-Calc-1.72.0 (12 Feb 2012)
+
+  12 Feb 2012; Kent Fredric <kentfredric@gmail.com> Color-Calc-1.60.0.ebuild,
+  Color-Calc-1.61.0.ebuild, Color-Calc-1.70.0.ebuild, Color-Calc-1.71.0.ebuild,
+  +Color-Calc-1.72.0.ebuild:
+  Version Bump, fix deps on Graphics-ColorNames-WWW
 
 *Color-Calc-1.71.0 (10 Mar 2011)
 
