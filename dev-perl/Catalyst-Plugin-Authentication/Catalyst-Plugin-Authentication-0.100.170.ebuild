@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Inspector
-	>=dev-perl/Catalyst-Plugin-Session-0.10
+	>=dev-perl/Catalyst-Plugin-Session-0.100.0
 	dev-perl/MRO-Compat
 "
 DEPEND="
