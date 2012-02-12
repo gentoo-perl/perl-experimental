@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=4
 MODULE_AUTHOR=ASH
+MODULE_VERSION="0.07"
 inherit perl-module
 
 DESCRIPTION="File based storage model for Catalyst."
@@ -12,8 +13,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.690.0
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Path-Class
 "
+DEPEND="${RDEPEND}"
+SRC_TEST="do"
