@@ -61,7 +61,7 @@ if ( not $flags->{all} ) {
         range => {
             date => {
                 from => $oldest_date,
-                to   => $newest_date,
+                #to   => $newest_date,
             }
         }
     };
