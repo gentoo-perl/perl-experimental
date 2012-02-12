@@ -10,6 +10,7 @@ use FindBin;
 use lib "$FindBin::Bin/lib";
 use env::gentoo::perl_experimental;
 use utf8;
+use Data::Dump qw( pp );
 
 my $env = env::gentoo::perl_experimental->new();
 my $flags;
@@ -145,20 +146,32 @@ else {
   $fh->say('IUSE=""');
 }
 
+pp($handler2);
+
 if ( $handler2->has_cdeps ) {
   $fh->say('perl_meta_configure() {');
   for my $dep ( @{ $handler2->cdeps } ) {
     $fh->say( "\t# " . $dep->{dep} );
-    $fh->say( "\techo " . $dep->{install} );
+    if ( not defined $dep->{install} ) {
+      $fh->say( "\t#echo unresolved");
+      warn "cdep " . $dep->{dep} . " was not resolved to a dependency";
+    } else {
+      $fh->say( "\techo " . $dep->{install} );
+    }
   }
   $fh->say('}');
   push @{$depends}, '$(perl_meta_configure)';
 }
 if ( $handler2->has_bdeps ) {
   $fh->say('perl_meta_build() {');
-  for my $dep ( @{ $handler2->bdeps } ) {
+  for my $dep ( @{ $handler2->bdeps } ) { 
     $fh->say( "\t# " . $dep->{dep} );
-    $fh->say( "\techo " . $dep->{install} );
+    if ( not defined $dep->{install} ) {
+      $fh->say( "\t#echo unresolved");
+      warn "bdep " . $dep->{dep} . " was not resolved to a dependency";
+    } else {
+      $fh->say( "\techo " . $dep->{install} );
+    }
   }
   $fh->say('}');
   push @{$depends}, '$(perl_meta_build)';
@@ -168,7 +181,12 @@ if ( $handler2->has_rdeps ) {
   $fh->say('perl_meta_runtime() {');
   for my $dep ( @{ $handler2->rdeps } ) {
     $fh->say( "\t# " . $dep->{dep} );
-    $fh->say( "\techo " . $dep->{install} );
+    if ( not defined $dep->{install} ) {
+      $fh->say( "\t#echo unresolved");
+      warn "rdep: " . $dep->{dep} . " was not resolved to a dependency";
+    } else {
+      $fh->say( "\techo " . $dep->{install} );
+    }
   }
   $fh->say('}');
   push @{$depends},  '$(perl_meta_runtime)';
@@ -179,7 +197,12 @@ if ( $handler2->has_tdeps ) {
   $fh->say('perl_meta_test() {');
   for my $dep ( @{ $handler2->tdeps } ) {
     $fh->say( "\t# " . $dep->{dep} );
-    $fh->say( "\techo " . $dep->{install} );
+    if ( not defined $dep->{install} ) {
+      $fh->say( "\t#echo unresolved");
+      warn "tdep: " . $dep->{dep} . " was not resolved to a dependency";
+    } else {
+      $fh->say( "\techo " . $dep->{install} );
+    }
   }
   $fh->say('}');
   push @{$depends}, 'test? ( $(perl_meta_test) )';
