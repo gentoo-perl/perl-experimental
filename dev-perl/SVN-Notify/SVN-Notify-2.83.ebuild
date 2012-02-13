@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ RDEPEND="dev-vcs/subversion
 	>=dev-lang/perl-5.6
 	virtual/perl-PodParser
 	dev-perl/HTML-Parser
-	virtual/perl-libnet"
+	dev-perl/Net-SMTP-TLS"
 DEPEND=">=virtual/perl-Module-Build-0.27.01
 	${RDEPEND}
 	virtual/perl-File-Spec
