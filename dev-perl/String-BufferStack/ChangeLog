@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/String-BufferStack
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*String-BufferStack-1.16 (13 Feb 2012)
+
+  13 Feb 2012; Daniel Westermann-Clark <dwc@pobox.com>
+  -String-BufferStack-1.15.ebuild, +String-BufferStack-1.16.ebuild:
+  Bump dev-perl/String-BufferStack to 1.16
 
 *String-BufferStack-1.15 (14 Jan 2010)
 
