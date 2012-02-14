@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/DBIx-Class-DateTime-Epoch
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*DBIx-Class-DateTime-Epoch-0.90.0 (14 Feb 2012)
+
+  14 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Class-DateTime-Epoch-0.90.0.ebuild:
+  Version Bump
 
 *DBIx-Class-DateTime-Epoch-0.70.0 (08 Dec 2011)
 *DBIx-Class-DateTime-Epoch-0.60.0 (08 Dec 2011)
