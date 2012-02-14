@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DBIx-Class-IntrospectableM2M
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DBIx-Class-IntrospectableM2M-0.1.1 (14 Feb 2012)
+
+  14 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Class-IntrospectableM2M-0.1.1.ebuild, +metadata.xml:
+  Added for DBIx-Class-Schema-Loader
+
