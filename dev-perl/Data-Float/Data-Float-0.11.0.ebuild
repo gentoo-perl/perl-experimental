@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=ZEFRAM
+MODULE_VERSION="0.011"
 inherit perl-module
 
 DESCRIPTION="details of the floating point data type"

@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Data-Float
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Data-Float-0.11.0 (14 Feb 2012)
+*Data-Float-0.10.0 (14 Feb 2012)
+*Data-Float-0.9.0 (14 Feb 2012)
+
+  14 Feb 2012; Kent Fredric <kentfredric@gmail.com> -Data-Float-0.009.ebuild,
+  +Data-Float-0.9.0.ebuild, -Data-Float-0.010.ebuild,
+  +Data-Float-0.10.0.ebuild, -Data-Float-0.011.ebuild,
+  +Data-Float-0.11.0.ebuild:
+  Migrate to x.y.z
 
 *Data-Float-0.011 (06 Nov 2010)
 
