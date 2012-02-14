@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Feb 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
+  Fixdep on DBIx-Class-UUIDColumns
+
   12 Feb 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
   Fixdep Catalyst-Plugin-Session-{,Store-File,State-Cookie}
 

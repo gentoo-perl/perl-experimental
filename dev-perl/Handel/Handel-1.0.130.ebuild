@@ -16,7 +16,7 @@ IUSE="catalystframework"
 
 DEPEND="
 	>=dev-perl/DBIx-Class-0.08123
-	>=dev-perl/DBIx-Class-UUIDColumns-0.02005
+	>=dev-perl/DBIx-Class-UUIDColumns-0.20.50
 	>=dev-perl/DBIx-Class-Validation-0.02005
 	>=dev-perl/Data-Currency-0.04002
 	>=dev-perl/Class-Accessor-Grouped-0.09003
