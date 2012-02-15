@@ -33,8 +33,14 @@ sub mcpan {
     }
     if ( defined $ENV{WWW_MECH_DEBUG} ) {
         $mech->add_handler("request_send", sub { warn shift->dump ; return });
-        $mech->add_handler("response_done", sub { warn shift->dump ; return });
-
+        $mech->add_handler("response_done", sub {
+            if( $ENV{WWW_MECH_DEBUG} > 1 ){
+              warn shift->content;
+            } else {
+              warn shift->dump;
+            }
+            return;
+        });
     }
     require HTTP::Tiny::Mech;
     my $tinymech = HTTP::Tiny::Mech->new( mechua => $mech );
