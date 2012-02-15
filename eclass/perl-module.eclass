@@ -75,6 +75,46 @@ PREFER_BUILDPL="yes"
 pm_echovar=""
 perlinfo_done=false
 
+perl_diagfile() {
+	echo "${T}/perl-diagnostics.log"
+}
+
+perl_diagnostics() {
+	local d;
+	d=$( perl_diagfile );
+	echo "perl: $(which perl)" > $d;
+	echo >> $d;
+	if [[ -x $(which grep) && -x $(which env)]]; then
+		echo "interesting ENV values:" >> $d;
+		env | grep "^\(PERL\|HOME=\|MANPATH\|PATH\|TEST\|GENTOO_PERL\)"  \
+			>> $d;
+		echo >> $d;
+	fi
+	if [[ -x $(which perl) ]]; then
+		echo "perl -V : " >> $d;
+		echo >> $d;
+		perl -V 2>&1 >> $d
+		echo >> $d
+		if [[ -x $(which perl-info) ]]; then
+			echo "perl-info output: " >> $d;
+			echo >> $d;
+			perl-info >> $d;
+			echo >> $d;
+		fi
+		echo "Corelist Versions: " >> $d;
+		echo >> $d;
+		perl -MModule::CoreList -e 'for $mod ( Module::CoreList->find_modules(qr/^/) ) {
+			eval "require $mod; print q[$mod : ] . \$${mod}::VERSION . qq[\n]; 1" or print qq{\e[31mNA: $mod\e[0m\n};
+		}' >> $d;
+	fi
+}
+
+perl_fatal_error() {
+	debug-print-function $FUNCNAME "$@"
+	perl_diagnostics();
+	eerror "Please attach the contents of $(perl_diagfile) with your bug report";
+	die "$@"
+}
 perl-module_src_unpack() {
 	debug-print-function $FUNCNAME "$@"
 	base_src_unpack
