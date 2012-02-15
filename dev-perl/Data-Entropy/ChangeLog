@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Data-Entropy
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Feb 2012; Kent Fredric <kentfredric@gmail.com> Data-Entropy-0.6.0.ebuild,
+  Data-Entropy-0.7.0.ebuild:
+  Fixdep Data::Float
 
 *Data-Entropy-0.7.0 (05 May 2011)
 

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Crypt-Rijndael
-	>=dev-perl/Data-Float-0.008
+	>=dev-perl/Data-Float-0.8.0
 	>=dev-perl/libwww-perl-5.539
 	dev-perl/Params-Classify
 	!<dev-perl/Math-BigInt-1.60

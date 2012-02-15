@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -15,7 +15,7 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	$(comment virtual/perl-Carp)
 	dev-perl/Crypt-Rijndael
-	>=dev-perl/Data-Float-0.008 $(comment 0.8.0)
+	>=dev-perl/Data-Float-0.8.0
 	$(comment virtual/perl-Errno 1.0.0)
 	$(comment virtual/perl-Exporter)
 	>=dev-perl/HTTP-Lite-2.2 $(comment 2.200.0)
@@ -40,7 +40,7 @@ DEPEND="
 
 	$(comment BUILD REQUIRES)
 	dev-perl/Crypt-Rijndael
-	>=dev-perl/Data-Float-0.008 $(comment 0.8.0)
+	>=dev-perl/Data-Float-0.8.0
 	>=virtual/perl-IO-1.03 $(comment 1.30.0 IO::File)
 	virtual/perl-Module-Build
 	virtual/perl-Test-Simple $(comment Test::More)
