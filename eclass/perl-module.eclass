@@ -111,7 +111,7 @@ perl_diagnostics() {
 
 perl_fatal_error() {
 	debug-print-function $FUNCNAME "$@"
-	perl_diagnostics();
+	perl_diagnostics;
 	eerror "Please attach the contents of $(perl_diagfile) with your bug report";
 	die "$@"
 }
@@ -158,7 +158,7 @@ perl-module_src_prep() {
 			eqawarn "           Add virtual/perl-Module-Build to DEPEND!"
 			if [[ -n ${PERLQAFATAL} ]]; then
 				eerror "Bailing out due to PERLQAFATAL=1";
-				die;
+				perl_fatal_error;
 			fi
 		fi
 		set -- \
@@ -169,7 +169,7 @@ perl-module_src_prep() {
 			"${myconf_local[@]}"
 		einfo "perl Build.PL" "$@"
 		perl Build.PL "$@" <<< "${pm_echovar}" \
-				|| die "Unable to build!"
+			|| perl_fatal_error "Unable to build!"
 	elif [[ -f Makefile.PL ]] ; then
 		einfo "Using ExtUtils::MakeMaker"
 		set -- \
@@ -180,7 +180,7 @@ perl-module_src_prep() {
 			"${myconf_local[@]}"
 		einfo "perl Makefile.PL" "$@"
 		perl Makefile.PL "$@" <<< "${pm_echovar}" \
-				|| die "Unable to build!"
+			|| perl_fatal_error "Unable to build!"
 	fi
 	if [[ ! -f Build.PL && ! -f Makefile.PL ]] ; then
 		einfo "No Make or Build file detected..."
@@ -202,14 +202,14 @@ perl-module_src_compile() {
 
 	if [[ -f Build ]] ; then
 		./Build build \
-			|| die "Compilation failed"
+			|| perl_fatal_error "Compilation failed"
 	elif [[ -f Makefile ]] ; then
 		set -- \
 			OTHERLDFLAGS="${LDFLAGS}" \
 			"${mymake_local[@]}"
 		einfo "emake" "$@"
 		emake "$@" \
-			|| die "Compilation failed"
+			|| perl_fatal_error "Compilation failed"
 #			OPTIMIZE="${CFLAGS}" \
 	fi
 }
@@ -311,9 +311,9 @@ perl-module_src_test() {
 		fi
 		${perlinfo_done} || perl_set_version
 		if [[ -f Build ]] ; then
-			./Build test verbose=${TEST_VERBOSE:-0} || die "test failed"
+			./Build test verbose=${TEST_VERBOSE:-0} || perl_fatal_error "test failed"
 		elif [[ -f Makefile ]] ; then
-			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
+			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || perl_fatal_error "test failed"
 		else
 			ewarn "No ./Build or ./Makefile, can not run tests"
 		fi
@@ -343,10 +343,10 @@ perl-module_src_install() {
 
 	if [[ -f Build ]] ; then
 		./Build ${mytargets} \
-			|| die "./Build ${mytargets} failed"
+			|| perl_fatal_error "./Build ${mytargets} failed"
 	elif [[ -f Makefile ]] ; then
 		emake "${myinst_local[@]}" ${mytargets} \
-			|| die "emake ${myinst_local[@]} ${mytargets} failed"
+			|| perl_fatal_error "emake ${myinst_local[@]} ${mytargets} failed"
 	fi
 
 	perl_delete_module_manpages
