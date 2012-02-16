@@ -2,6 +2,18 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CatalystX-Declare-0.15.0 (16 Feb 2012)
+*CatalystX-Declare-0.13.0 (16 Feb 2012)
+*CatalystX-Declare-0.12.0 (16 Feb 2012)
+*CatalystX-Declare-0.11.0 (16 Feb 2012)
+
+  16 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -CatalystX-Declare-0.11.ebuild, +CatalystX-Declare-0.11.0.ebuild,
+  -CatalystX-Declare-0.12.ebuild, +CatalystX-Declare-0.12.0.ebuild,
+  -CatalystX-Declare-0.13.ebuild, +CatalystX-Declare-0.13.0.ebuild,
+  -CatalystX-Declare-0.15.ebuild, +CatalystX-Declare-0.15.0.ebuild:
+  Migrate to x.y.z
+
   16 Feb 2012; Kent Fredric <kentfredric@gmail.com>
   CatalystX-Declare-0.15.ebuild:
   Fixdep on Data-Pond
