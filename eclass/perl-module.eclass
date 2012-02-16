@@ -133,15 +133,20 @@ perl_nonfatal() {
 
 perl_fatal_error() {
 	debug-print-function $FUNCNAME "$@"
+	local msg;
+	msg="
+
+-- Gentoo Perl Team Specific Bug reporting request --
+
+Please attach the contents of the following file with your bug report:
+
+	$(perl_diagfile)
+
+"
 	perl_diagnostics;
-	eerror "-- Gentoo Perl Team Specific Bug reporting request -- "
-	eerror ""
-	eerror "Please attach the contents of the following file with your bug report:";
-	eerror ""
-	eerror "  $(perl_diagfile)"
-	eerror ""
-	die "$@"
+	die "$@ $msg"
 }
+
 perl-module_src_unpack() {
 	debug-print-function $FUNCNAME "$@"
 	base_src_unpack
