@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/CatalystX-Declare
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  16 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  CatalystX-Declare-0.15.ebuild:
+  Fixdep on Data-Pond
 
   26 Aug 2011; Kent Fredric <kentfredric@gmail.com>
   CatalystX-Declare-0.11.ebuild, CatalystX-Declare-0.12.ebuild,

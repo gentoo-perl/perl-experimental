@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -29,7 +29,7 @@ COMMON_DEPEND="
 	>=dev-perl/MooseX-Method-Signatures-0.360 $(comment 0.360.0)
 
 	>=dev-perl/Catalyst-Controller-ActionRole-0.15 $(comment 0.150.0)
-	>=dev-perl/Data-Pond-0.002 $(comment 0.2.0)
+	>=dev-perl/Data-Pond-0.2.0
 "
 DEPEND="
 	${COMMON_DEPEND}
