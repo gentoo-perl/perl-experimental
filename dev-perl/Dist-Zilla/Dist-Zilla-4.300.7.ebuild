@@ -1,9 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RJBS
-MODULE_VERSION=4.300003
+MODULE_VERSION=4.300007
 inherit perl-module
 
 DESCRIPTION='distribution builder; installer not included!'
@@ -28,12 +28,16 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-CPAN-Meta-2.101.550
 	# CPAN::Meta::Prereqs 2.101390 ( 2.101.390 )
 	echo \>=virtual/perl-CPAN-Meta-2.101.390
+	# CPAN::Meta::Requirements
+	echo virtual/perl-CPAN-Meta
 	# CPAN::Meta::Validator 2.101550 ( 2.101.550 )
 	echo \>=virtual/perl-CPAN-Meta-2.101.550
 	# CPAN::Uploader 0.101550 ( 0.101.550 )
 	echo \>=dev-perl/CPAN-Uploader-0.101.550
 	# Carp
-	echo dev-lang/perl
+	# echo dev-perl/Carp
+	# Class::Load
+	echo dev-perl/Class-Load
 	# Config::INI::Reader
 	echo dev-perl/Config-INI
 	# Config::MVP::Assembler
@@ -156,8 +160,6 @@ perl_meta_runtime() {
 	echo dev-perl/text-template
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
-	# Version::Requirements 0.100630 ( 0.100.630 )
-	echo \>=virtual/perl-Version-Requirements-0.100.630
 	# YAML::Tiny
 	echo dev-perl/YAML-Tiny
 	# autobox 2.53 ( 2.530.0 )
