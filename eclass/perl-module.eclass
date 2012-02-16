@@ -66,7 +66,7 @@ fi
 [[ -z "${SRC_URI}" && -n "${MODULE_AUTHOR}" ]] && \
 	SRC_URI="mirror://cpan/authors/id/${MODULE_AUTHOR:0:1}/${MODULE_AUTHOR:0:2}/${MODULE_AUTHOR}/${MODULE_SECTION:+${MODULE_SECTION}/}${MODULE_A}"
 [[ -z "${HOMEPAGE}" ]] && \
-	HOMEPAGE="http://search.cpan.org/dist/${MY_PN:-${PN}}/"
+	HOMEPAGE="https://metacpan.org/release/${MY_PN:-${PN}}/"
 
 SRC_PREP="no"
 SRC_TEST="skip"
