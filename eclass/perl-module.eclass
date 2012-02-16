@@ -109,10 +109,37 @@ perl_diagnostics() {
 	fi
 }
 
+perl_nonfatal() {
+	# This is an awful hack because
+	#  a) EAPI <4 are fatal
+	#  b) EAPI >4 are nonfatal
+	#  c) There's no way to get EAPI<4 behaviour without the 'nonfatal' pragma
+	#  d) The 'nonfatal' pragma is banned from EAPI<4
+	#  e) The underlying implementation of the nonfatal pragma is PM Specific
+	#		* Portage uses PORAGE_FATAL=1
+	#		* Paludis uses PALUDIS_FAILURE_IS_NONFATAL=yes
+	#  f) Arrrghh.
+	#     -- kentfredric@gmail.com
+	local exitcond
+	if has "${EAPI:-0}" 0 1 2 3 3_pre2 ; then
+		if [[ $# -lt 1 ]]; then
+			die "$FUNCNAME(): Missing argument"
+		fi
+		"$@"
+		return $?
+	fi
+	nonfatal "$@"
+}
+
 perl_fatal_error() {
 	debug-print-function $FUNCNAME "$@"
 	perl_diagnostics;
-	eerror "Please attach the contents of $(perl_diagfile) with your bug report";
+	eerror "-- Gentoo Perl Team Specific Bug reporting request -- "
+	eerror ""
+	eerror "Please attach the contents of the following file with your bug report:";
+	eerror ""
+	eerror "  $(perl_diagfile)"
+	eerror ""
 	die "$@"
 }
 perl-module_src_unpack() {
@@ -208,7 +235,7 @@ perl-module_src_compile() {
 			OTHERLDFLAGS="${LDFLAGS}" \
 			"${mymake_local[@]}"
 		einfo "emake" "$@"
-		emake "$@" \
+		perl_nonfatal emake "$@" \
 			|| perl_fatal_error "Compilation failed"
 #			OPTIMIZE="${CFLAGS}" \
 	fi
@@ -313,7 +340,7 @@ perl-module_src_test() {
 		if [[ -f Build ]] ; then
 			./Build test verbose=${TEST_VERBOSE:-0} || perl_fatal_error "test failed"
 		elif [[ -f Makefile ]] ; then
-			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || perl_fatal_error "test failed"
+			perl_nonfatal emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || perl_fatal_error "test failed"
 		else
 			ewarn "No ./Build or ./Makefile, can not run tests"
 		fi
@@ -345,7 +372,7 @@ perl-module_src_install() {
 		./Build ${mytargets} \
 			|| perl_fatal_error "./Build ${mytargets} failed"
 	elif [[ -f Makefile ]] ; then
-		emake "${myinst_local[@]}" ${mytargets} \
+		perl_nonfatal emake "${myinst_local[@]}" ${mytargets} \
 			|| perl_fatal_error "emake ${myinst_local[@]} ${mytargets} failed"
 	fi
 
