@@ -84,7 +84,7 @@ perl_diagnostics() {
 	d=$( perl_diagfile );
 	echo "perl: $(which perl)" > $d;
 	echo >> $d;
-	if [[ -x $(which grep) && -x $(which env)]]; then
+	if [[ -x $(which grep) ]]; then
 		echo "interesting ENV values:" >> $d;
 		env | grep "^\(PERL\|HOME=\|MANPATH\|PATH\|TEST\|GENTOO_PERL\)"  \
 			>> $d;
