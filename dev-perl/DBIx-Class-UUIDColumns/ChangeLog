@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*DBIx-Class-UUIDColumns-0.20.60 (16 Feb 2012)
+
+  16 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Class-UUIDColumns-0.20.60.ebuild:
+  Version Bump
+
 *DBIx-Class-UUIDColumns-0.20.50 (14 Feb 2012)
 *DBIx-Class-UUIDColumns-0.20.40 (14 Feb 2012)
 *DBIx-Class-UUIDColumns-0.20.30 (14 Feb 2012)
