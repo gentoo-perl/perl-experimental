@@ -13,4 +13,7 @@
 		<flag name="writeexcelsimple">Install
 			<pkg>dev-perl/Spreadsheet-WriteExcel-Simple</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-ExcelCSV</remote-id>
+    </upstream>
 </pkgmetadata>

@@ -14,4 +14,7 @@
 		<flag name="wwwmechtreebuilder">Install
 			<pkg>dev-perl/WWW-Mechanize-TreeBuilder</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-WebCrawling</remote-id>
+    </upstream>
 </pkgmetadata>

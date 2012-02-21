@@ -12,4 +12,7 @@
 			<flag name="blowfish">Support for Crypt::Eksblowfish</flag>
 			<flag name="gpg">Support for OpenPGP Encryption</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">DBIx-Class-EncodedColumn</remote-id>
+    </upstream>
 </pkgmetadata>

@@ -12,4 +12,7 @@
 		<flag name="config-general">Config::General (text/x-config-general)	support</flag>
 		<flag name="freezethaw">FreezeThaw (application/x-freezethaw) support</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Catalyst-Action-REST</remote-id>
+    </upstream>
 </pkgmetadata>

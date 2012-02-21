@@ -20,4 +20,7 @@
 		</flag>
 
 	</use>
+    <upstream>
+        <remote-id type="cpan">MooseX-Storage</remote-id>
+    </upstream>
 </pkgmetadata>

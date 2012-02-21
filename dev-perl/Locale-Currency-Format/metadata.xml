@@ -6,4 +6,7 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Locale-Currency-Format</remote-id>
+    </upstream>
 </pkgmetadata>

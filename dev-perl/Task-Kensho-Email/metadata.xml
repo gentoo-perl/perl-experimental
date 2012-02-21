@@ -13,4 +13,7 @@
 		<flag name="emailmimekit">Install
 			<pkg>dev-perl/Email-MIME-Kit</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-Email</remote-id>
+    </upstream>
 </pkgmetadata>

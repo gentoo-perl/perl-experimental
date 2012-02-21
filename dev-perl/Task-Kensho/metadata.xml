@@ -26,4 +26,7 @@
 		<flag name="scalability">Scalarbility Tools</flag>
 		<flag name="logging">Logging Tools</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho</remote-id>
+    </upstream>
 </pkgmetadata>

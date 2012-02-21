@@ -9,4 +9,7 @@
 	<use>
 		<flag name="colorobject">Install Graphics::ColorObject </flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Color-Calc</remote-id>
+    </upstream>
 </pkgmetadata>

@@ -6,4 +6,7 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Encode-Base32-Crockford</remote-id>
+    </upstream>
 </pkgmetadata>

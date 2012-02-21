@@ -25,4 +25,7 @@
 			with Moose</flag>
 		<flag name="utils">Install utilities for working with Moose</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Moose</remote-id>
+    </upstream>
 </pkgmetadata>

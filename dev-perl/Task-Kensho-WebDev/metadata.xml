@@ -18,4 +18,7 @@
 		<flag name="xmlatom">Install <pkg>dev-perl/XML-Atom</pkg></flag>
 		<flag name="mimetypes">Install <pkg>dev-perl/MIME-Types</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-WebDev</remote-id>
+    </upstream>
 </pkgmetadata>

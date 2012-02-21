@@ -9,4 +9,7 @@
 	<use>
 		<flag name="catalystframework">Catalyst Support</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Handel</remote-id>
+    </upstream>
 </pkgmetadata>

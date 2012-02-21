@@ -9,4 +9,7 @@
     <use>
         <flag name="recommended">Install recommended package <pkg>Data::FormValidator</pkg></flag>
     </use>
+    <upstream>
+        <remote-id type="cpan">DBIx-Class-Validation</remote-id>
+    </upstream>
 </pkgmetadata>

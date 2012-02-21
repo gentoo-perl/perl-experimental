@@ -9,4 +9,7 @@
 	<use>
 		<flag name="recommended">Install recommended extras</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">CGI-Application-Plugin-Authentication</remote-id>
+    </upstream>
 </pkgmetadata>

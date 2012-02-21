@@ -11,4 +11,7 @@
       <flag name="caching">Caching support</flag>
       <flag name="replication">Replication support</flag>
     </use>
+    <upstream>
+        <remote-id type="cpan">Catalyst-Model-DBIC-Schema</remote-id>
+    </upstream>
 </pkgmetadata>

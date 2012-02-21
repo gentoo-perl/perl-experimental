@@ -9,4 +9,7 @@
 	<use>
 		<flag name="object_uuid">Unique object identifier using UUIDs</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Object-ID</remote-id>
+    </upstream>
 </pkgmetadata>

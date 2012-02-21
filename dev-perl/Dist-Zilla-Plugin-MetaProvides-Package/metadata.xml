@@ -10,4 +10,7 @@
 		<flag name="metanoindex">Install support libraries for meta_no_index
 			feature</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Dist-Zilla-Plugin-MetaProvides-Package</remote-id>
+    </upstream>
 </pkgmetadata>

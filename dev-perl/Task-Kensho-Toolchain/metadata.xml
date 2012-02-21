@@ -12,4 +12,7 @@
 		<flag name="version">Install version.pm via
 			<pkg>virutal/perl-version</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-Toolchain</remote-id>
+    </upstream>
 </pkgmetadata>

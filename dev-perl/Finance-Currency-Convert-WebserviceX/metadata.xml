@@ -6,4 +6,7 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Finance-Currency-Convert-WebserviceX</remote-id>
+    </upstream>
 </pkgmetadata>

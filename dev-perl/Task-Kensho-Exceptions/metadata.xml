@@ -11,4 +11,7 @@
 		<flag name="trycatch">Install <pkg>dev-perl/TryCatch</pkg></flag>
 		<flag name="autodie">Install <pkg>dev-perl/autodie</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-Exceptions</remote-id>
+    </upstream>
 </pkgmetadata>

@@ -4,4 +4,7 @@
 	<herd>perl</herd>
 	<use>
 		<flag name="recommended">Install packages recommended by Upstream for maximum utility</flag></use>
+        <upstream>
+                <remote-id type="cpan">Devel-Cover</remote-id>
+        </upstream>
 </pkgmetadata>

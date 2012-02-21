@@ -10,4 +10,7 @@
 		<flag name="big-net-test">Permit connecting to the internet and BACKPAN
 			to run a test that downloads 1MB of data or more</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Parse-BACKPAN-Packages</remote-id>
+    </upstream>
 </pkgmetadata>

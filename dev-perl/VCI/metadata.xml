@@ -11,4 +11,7 @@
 		<flag name="git"> Add support for the Git VCS</flag>
 		<flag name="mercurial"> Add support for the Mercurial VCS</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">VCI</remote-id>
+    </upstream>
 </pkgmetadata>

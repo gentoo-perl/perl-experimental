@@ -14,4 +14,7 @@
 			<pkg>dev-perl/DBIx-Class-Schema-Loader</pkg></flag>
 		<flag name="sqlt">Install <pkg>dev-perl/SQL-Translator</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-DBDev</remote-id>
+    </upstream>
 </pkgmetadata>

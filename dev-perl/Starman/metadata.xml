@@ -9,4 +9,7 @@
 	<use>
 		<flag name="recommended">Install recommended dependencies</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Starman</remote-id>
+    </upstream>
 </pkgmetadata>

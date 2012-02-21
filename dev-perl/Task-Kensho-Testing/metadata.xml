@@ -19,4 +19,7 @@
 			<pkg>dev-perl/Test-Memory-Cycle</pkg></flag>
 		<flag name="develcover">Install <pkg>dev-perl/Devel-Cover</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-Testing</remote-id>
+    </upstream>
 </pkgmetadata>

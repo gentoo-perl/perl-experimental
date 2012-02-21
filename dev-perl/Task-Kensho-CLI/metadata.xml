@@ -13,4 +13,7 @@
 		<flag name="corelist">Install <pkg>virtual/perl-Module-CoreList</pkg></flag>
 		<flag name="perlbrew">Install <pkg>dev-perl/App-perlbrew</pkg></flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Task-Kensho-CLI</remote-id>
+    </upstream>
 </pkgmetadata>

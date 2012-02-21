@@ -6,4 +6,7 @@
         <email>dabbott@gentoo.org</email>
         <name>David Abbott</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Method-Signatures-Simple</remote-id>
+    </upstream>
 </pkgmetadata>

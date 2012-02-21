@@ -18,4 +18,7 @@
     <flag name="emoticons">Emoticons</flag>
     <flag name="recaptcha">reCAPTCHA for anonymous edits</flag>
   </use>
+  <upstream>
+    <remote-id type="cpan">MojoMojo</remote-id>
+  </upstream>
 </pkgmetadata>

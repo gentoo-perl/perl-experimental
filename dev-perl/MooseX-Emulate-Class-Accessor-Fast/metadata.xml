@@ -10,4 +10,7 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">MooseX-Emulate-Class-Accessor-Fast</remote-id>
+    </upstream>
 </pkgmetadata>

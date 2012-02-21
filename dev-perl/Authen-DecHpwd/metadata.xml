@@ -10,4 +10,7 @@
 		<flag name="recommended">Pull in recommended dependencies to ensure XS
 			Modules are built</flag>
 	</use>
+    <upstream>
+        <remote-id type="cpan">Authen-DecHpwd</remote-id>
+    </upstream>
 </pkgmetadata>
