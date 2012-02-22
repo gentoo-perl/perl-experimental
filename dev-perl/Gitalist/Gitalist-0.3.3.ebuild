@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Catalyst-Controller-ActionRole
 	>=dev-perl/Catalyst-View-Component-SubInclude-0.07 $(comment 0.70.0)
-	>=dev-perl/Catalyst-View-TT-0.34 $(comment 0.340.0)
+	>=dev-perl/Catalyst-View-TT-0.340.0
 	dev-perl/Try-Tiny
 	>=dev-perl/Template-Toolkit-2.22 $(comment Template)
 	dev-perl/Template-Plugin-Cycle
