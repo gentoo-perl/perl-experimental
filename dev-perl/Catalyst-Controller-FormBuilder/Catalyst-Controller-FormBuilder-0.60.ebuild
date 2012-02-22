@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,7 +24,7 @@ DEPEND="
 	>=dev-perl/Class-Inspector-1.13
 	>=virtual/perl-Scalar-List-Utils-1.19
 	template? (
-			>=dev-perl/Catalyst-View-TT-0.23
+			>=dev-perl/Catalyst-View-TT-0.230.0
 	)
 "
 RDEPEND="${DEPEND}"
