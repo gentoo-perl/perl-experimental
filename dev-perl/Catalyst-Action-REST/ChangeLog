@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Action-REST-0.980.0 (22 Feb 2012)
+
+  22 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Action-REST-0.980.0.ebuild:
+  Version Bump. Note, dep is on EUMM 0.59, not 0.63_02,
+  this is a bug with Module::Install.
+
 *Catalyst-Action-REST-0.960.0 (11 Feb 2012)
 
   11 Feb 2012; Kent Fredric <kentfredric@gmail.com>
