@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/CSS-Packer
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CSS-Packer-1.2.1 (22 Feb 2012)
+
+  22 Feb 2012; Kent Fredric <kentfredric@gmail.com> +CSS-Packer-1.2.1.ebuild:
+  Version Bump
 
 *CSS-Packer-1.2.0 (09 Jun 2011)
 
