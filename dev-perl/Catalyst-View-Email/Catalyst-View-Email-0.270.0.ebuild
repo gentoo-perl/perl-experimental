@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 MODULE_AUTHOR=DHOSS
+MODULE_VERSION="0.27"
 inherit perl-module
 
 DESCRIPTION="Send Email from Catalyst"
@@ -20,6 +21,8 @@ COMMON_DEPEND="
 	>=virtual/perl-parent-0.223
 	>=dev-perl/Email-Sender-0.100.110
 	>=dev-perl/Email-MIME-1.859
+	>=dev-perl/Catalyst-View-TT-0.310.0
+	>=dev-perl/Catalyst-View-Mason-0.18
 "
 RDEPEND="
 	${COMMON_DEPEND}
