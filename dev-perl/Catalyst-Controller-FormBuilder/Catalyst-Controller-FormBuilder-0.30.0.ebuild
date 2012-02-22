@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 MODULE_AUTHOR=JCAMACHO
+MODULE_VERSION="0.03"
 inherit perl-module
 
 DESCRIPTION="Catalyst FormBuilder Base Controller"
@@ -18,5 +19,7 @@ DEPEND="
 	>=dev-perl/Class-Accessor-0.25
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0
 	>=dev-perl/Tie-IxHash-1.21
+	>=dev-perl/Class-Data-Inheritable-0.04
+	>=dev-perl/Class-Inspector-1.13
 "
 RDEPEND="${DEPEND}"
