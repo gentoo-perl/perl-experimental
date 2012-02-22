@@ -1,6 +1,18 @@
 # ChangeLog for dev-perl/Catalyst-View-TT
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-View-TT-0.360.0 (22 Feb 2012)
+*Catalyst-View-TT-0.350.0 (22 Feb 2012)
+*Catalyst-View-TT-0.340.0 (22 Feb 2012)
+*Catalyst-View-TT-0.310.0 (22 Feb 2012)
+
+  22 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-View-TT-0.31.ebuild, -Catalyst-View-TT-0.34.ebuild,
+  -Catalyst-View-TT-0.35.ebuild, -Catalyst-View-TT-0.36.ebuild,
+  +Catalyst-View-TT-0.310.0.ebuild, +Catalyst-View-TT-0.340.0.ebuild,
+  +Catalyst-View-TT-0.350.0.ebuild, +Catalyst-View-TT-0.360.0.ebuild:
+  Migrate to x.y.z
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-View-TT-0.31.ebuild, Catalyst-View-TT-0.34.ebuild,
