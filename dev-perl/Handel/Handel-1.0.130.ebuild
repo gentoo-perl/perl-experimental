@@ -37,7 +37,7 @@ DEPEND="
 	catalystframework? (
 		>=dev-perl/Catalyst-Runtime-5.800.250
 		>=dev-perl/Catalyst-Devel-1.280.0
-		>=dev-perl/Catalyst-View-TT-0.34
+		>=dev-perl/Catalyst-View-TT-0.340.0
 		>=dev-perl/Catalyst-Plugin-Session-0.300.0
 		>=dev-perl/Catalyst-Plugin-Session-Store-File-0.180.0
 		>=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.170.0
