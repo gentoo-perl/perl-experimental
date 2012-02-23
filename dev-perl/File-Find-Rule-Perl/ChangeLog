@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/File-Find-Rule-Perl
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*File-Find-Rule-Perl-1.120.0 (23 Feb 2012)
+
+  23 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +File-Find-Rule-Perl-1.120.0.ebuild:
+  Version Bump
 
   31 Oct 2011; Kent Fredric <kentfredric@gmail.com>
   +files/1.100.0/0001-Fix-the-test-for-ExtUtils-MakeMaker-and-also-being-i.patc
