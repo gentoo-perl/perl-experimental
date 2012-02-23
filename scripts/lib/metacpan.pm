@@ -18,8 +18,8 @@ sub mcpan {
     my $cache = CHI->new(
       driver   => 'File',
       root_dir => File::Spec->catdir( File::Spec->tmpdir, 'gentoo-metacpan-cache' ),
-      expires_in => '1 hour',
-      expires_variance => 0.5,
+      expires_in => '6 hour',
+      expires_variance => 0.2,
     );
     require WWW::Mechanize::Cached;
     my $mech;
