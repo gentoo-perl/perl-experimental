@@ -42,8 +42,23 @@ gen_ebuild.pl
 
 USAGE:
 
-  show_deptree.pl DOY/Moose-2.0301-TRIAL
+  gen_ebuild.pl DOY/Moose-2.0301-TRIAL
 
+  exports:
+         WWW_MECH_DEBUG=1 for basic internal http tracing
+         WWW_MECH_DEBUG=2 for full response content output
+         WWW_MECH_NOCACHE=1 to disable caching
+
+  parameters:
+
+    --debug=1
+        Verbose tracing.
+
+    --debug=2
+        Even More verbose tracing.
+
+    --dumphandler
+        Print the full resolution map
 EOF
 }
 my ($release) = shift(@ARGV);
@@ -70,10 +85,23 @@ for my $module ( keys %{ $dep_phases->{modules} } ) {
 my @squeue =
   sort { $a->[1]->[2] cmp $b->[1]->[2] or $a->[1]->[3] cmp $b->[1]->[3] or $a->[0] cmp $b->[0] } @queue;
 
-require dep::handler::stdout;
 require dep::handler::bashcode;
 
-my $handler = dep::handler::stdout->new();
+my $handler;
+
+if ( defined $flags->{debug} and $flags->{debug} ne "1" or $flags->{debug} ne "2" ) {
+  $flags->{debug} = 1;
+}
+
+if ( $flags->{debug} == 1 ) {
+  require dep::handler::stdout::terse;
+  $handler = dep::handler::stdout::terse->new();
+}
+if ( $flags->{debug} == 2 ) {
+  require dep::handler::stdout;
+  $handler = dep::handler::stdout->new();
+}
+
 my $handler2 = dep::handler::bashcode->new( ( $flags->{debug} ? ( debug => 1 ) : () ), debug_handler => $handler, );
 
 for my $qi (@squeue) {
@@ -145,66 +173,73 @@ if ( $handler2->has_tdeps ) {
 else {
   $fh->say('IUSE=""');
 }
-
-pp($handler2);
+if ( $flags->{dumphandler} ) {
+  pp($handler2);
+}
 
 if ( $handler2->has_cdeps ) {
-  $fh->say('perl_meta_configure() {');
+  my @lines;
   for my $dep ( @{ $handler2->cdeps } ) {
-    $fh->say( "\t# " . $dep->{dep} );
+    push @lines, '# ' . $dep->{dep};
     if ( not defined $dep->{install} ) {
-      $fh->say( "\t#echo unresolved");
+      push @lines, '#echo unresolved';
       warn "cdep " . $dep->{dep} . " was not resolved to a dependency";
-    } else {
-      $fh->say( "\techo " . $dep->{install} );
+    }
+    else {
+      push @lines, 'echo ' . $dep->{install};
     }
   }
-  $fh->say('}');
   push @{$depends}, '$(perl_meta_configure)';
+  $fh->say( gen_func( 'perl_meta_configure', @lines ) );
+
 }
 if ( $handler2->has_bdeps ) {
-  $fh->say('perl_meta_build() {');
-  for my $dep ( @{ $handler2->bdeps } ) { 
-    $fh->say( "\t# " . $dep->{dep} );
+  my @lines;
+  for my $dep ( @{ $handler2->bdeps } ) {
+    push @lines, '# ' . $dep->{dep};
     if ( not defined $dep->{install} ) {
-      $fh->say( "\t#echo unresolved");
+      push @lines, '#echo unresolved';
       warn "bdep " . $dep->{dep} . " was not resolved to a dependency";
-    } else {
-      $fh->say( "\techo " . $dep->{install} );
+    }
+    else {
+      push @lines, 'echo ' . $dep->{install};
     }
   }
-  $fh->say('}');
+  $fh->say( gen_func( 'perl_meta_build', @lines ) );
   push @{$depends}, '$(perl_meta_build)';
 
 }
 if ( $handler2->has_rdeps ) {
-  $fh->say('perl_meta_runtime() {');
+  my @lines;
   for my $dep ( @{ $handler2->rdeps } ) {
-    $fh->say( "\t# " . $dep->{dep} );
+    push @lines, '# ' . $dep->{dep};
     if ( not defined $dep->{install} ) {
-      $fh->say( "\t#echo unresolved");
+      push @lines, '#echo unresolved';
       warn "rdep: " . $dep->{dep} . " was not resolved to a dependency";
-    } else {
-      $fh->say( "\techo " . $dep->{install} );
+    }
+    else {
+      push @lines, 'echo ' . $dep->{install};
     }
   }
-  $fh->say('}');
+  $fh->say( gen_func( 'perl_meta_runtime', @lines ) );
   push @{$depends},  '$(perl_meta_runtime)';
   push @{$rdepends}, '$(perl_meta_runtime)';
 
 }
 if ( $handler2->has_tdeps ) {
-  $fh->say('perl_meta_test() {');
+  my @lines;
   for my $dep ( @{ $handler2->tdeps } ) {
-    $fh->say( "\t# " . $dep->{dep} );
+    push @lines, '# ' . $dep->{dep};
+
     if ( not defined $dep->{install} ) {
-      $fh->say( "\t#echo unresolved");
+      push @lines, '#echo unresolved';
       warn "tdep: " . $dep->{dep} . " was not resolved to a dependency";
-    } else {
-      $fh->say( "\techo " . $dep->{install} );
+    }
+    else {
+      push @lines, 'echo ' . $dep->{install};
     }
   }
-  $fh->say('}');
+  $fh->say( gen_func( 'perl_meta_test', @lines ) );
   push @{$depends}, 'test? ( $(perl_meta_test) )';
 }
 
@@ -215,14 +250,7 @@ $fh->say("SRC_TEST=\"do\"");
 #say pp( \%modules,);# { pretty => 1 } );
 exit 1;
 
-sub pkg_for_module {
-  my ($module) = shift;
-
+sub gen_func {
+  my ( $name, @body ) = @_;
+  return join( q{\n}, $name . '() {', ( map { "\t" . $_ } @body ), '}' );
 }
-
-sub gen_dep {
-  state $template = qq{\t# %s%s\n\techo %s\n};
-  my ( $module, $version ) = @_;
-
-}
-
