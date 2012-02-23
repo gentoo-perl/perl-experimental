@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Encode-ZapCP1252
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Encode-ZapCP1252-0.320.0 (23 Feb 2012)
+*Encode-ZapCP1252-0.120.0 (23 Feb 2012)
+
+  23 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Encode-ZapCP1252-0.12.ebuild, -Encode-ZapCP1252-0.32.ebuild,
+  +Encode-ZapCP1252-0.120.0.ebuild, +Encode-ZapCP1252-0.320.0.ebuild:
+  Migrate to x.y.z
 
 *Encode-ZapCP1252-0.32 (23 Jul 2010)
 
