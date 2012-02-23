@@ -135,7 +135,9 @@ if ( not defined $release_info->{abstract} ) {
   warn "Missing an ABSTRACT";
 }
 else {
-  $fh->say( 'DESCRIPTION=\'' . $release_info->{abstract} . '\'' );
+  my $abstract = $release_info->{abstract};
+  $abstract =~ s/'/'\\''/g;  #  ' => '\'' 
+  $fh->say( 'DESCRIPTION=\'' . $abstract . '\'' );
 }
 
 my $lics   = [];
