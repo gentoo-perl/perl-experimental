@@ -13,6 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	virtual/perl-Module-Build
 "
+DEPEND="${RDEPEND}"
