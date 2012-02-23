@@ -252,5 +252,5 @@ exit 1;
 
 sub gen_func {
   my ( $name, @body ) = @_;
-  return join( q{\n}, $name . '() {', ( map { "\t" . $_ } @body ), '}' );
+  return join( qq{\n}, $name . '() {', ( map { "\t" . $_ } @body ), '}' );
 }
