@@ -12,5 +12,6 @@
 		<flag name="storable">Install support for the "Storable" backend</flag>
 		<flag name="sqlite_backend">Install support for using SQLite as a cache
 			for CPANPLUS</flag>
+		<flag name="selfupgrade">Pull more dependencies by emulating a "selfupgrade" scenario</flag>
 	</use>
 </pkgmetadata>
