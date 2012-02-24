@@ -89,7 +89,7 @@ require dep::handler::bashcode;
 
 my $handler;
 
-if ( defined $flags->{debug} and $flags->{debug} ne "1" or $flags->{debug} ne "2" ) {
+if ( defined $flags->{debug} and ( $flags->{debug} ne "1" or $flags->{debug} ne "2" ) ) {
   $flags->{debug} = 1;
 }
 

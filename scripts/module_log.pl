@@ -85,20 +85,15 @@ use Data::Dump qw( pp );
 
 my ($release) = shift(@ARGV);
 
-my $result = [ map { $_->{as_string} } metacpan->find_dist_simple( $release, $flags ) ];
+my (@data) =   metacpan->find_dist_simple( $release, $flags );
+if( not $flags->{dump} ) {
+  my $result = [ map { $_->{as_string} } @data ];
 
-use JSON qw( to_json );
-say to_json( $result, { pretty => 1 } );
+  use JSON qw( to_json );
+  say to_json( $result, { pretty => 1 } );
+} else {
+  pp $_ for @data;
+}
 1;
 
-sub pkg_for_module {
-  my ($module) = shift;
-
-}
-
-sub gen_dep {
-  state $template = qq{\t# %s%s\n\techo %s\n};
-  my ( $module, $version ) = @_;
-
-}
 

@@ -16,33 +16,38 @@ sub mcpan {
   $mcpan ||= do {
     require CHI;
     my $cache = CHI->new(
-      driver   => 'File',
-      root_dir => File::Spec->catdir( File::Spec->tmpdir, 'gentoo-metacpan-cache' ),
-      expires_in => '6 hour',
+      driver           => 'File',
+      root_dir         => File::Spec->catdir( File::Spec->tmpdir, 'gentoo-metacpan-cache' ),
+      expires_in       => '6 hour',
       expires_variance => 0.2,
     );
     require WWW::Mechanize::Cached;
     my $mech;
 
     if ( defined $ENV{WWW_MECH_NOCACHE} ) {
-        $mech = LWP::UserAgent->new();
-    } else {
+      $mech = LWP::UserAgent->new();
+    }
+    else {
       $mech = WWW::Mechanize::Cached->new(
-       cache     => $cache,
-       timeout   => 20000,
-      autocheck => 1,
-     );
+        cache     => $cache,
+        timeout   => 20000,
+        autocheck => 1,
+      );
     }
     if ( defined $ENV{WWW_MECH_DEBUG} ) {
-        $mech->add_handler("request_send", sub { warn shift->dump ; return });
-        $mech->add_handler("response_done", sub {
-            if( $ENV{WWW_MECH_DEBUG} > 1 ){
-              warn shift->content;
-            } else {
-              warn shift->dump;
-            }
-            return;
-        });
+      $mech->add_handler( "request_send", sub { warn shift->dump; return } );
+      $mech->add_handler(
+        "response_done",
+        sub {
+          if ( $ENV{WWW_MECH_DEBUG} > 1 ) {
+            warn shift->content;
+          }
+          else {
+            warn shift->dump;
+          }
+          return;
+        }
+      );
     }
     require HTTP::Tiny::Mech;
     my $tinymech = HTTP::Tiny::Mech->new( mechua => $mech );
@@ -65,8 +70,8 @@ sub mcpan {
 # Array items are each a subset of a 'file' entry which contains information
 # about the distribution that file was in.
 #
-# each 'file' entry will have at least one 'file.module' entry that conforms to 
-#   
+# each 'file' entry will have at least one 'file.module' entry that conforms to
+#
 #   module.name == $module::name  && module.authorized == true && module.indexed == true
 #
 # Essentially returning exactly what CPAN does.
@@ -74,37 +79,78 @@ sub mcpan {
 sub find_dist_all {
   my ( $class, $module, $opts ) = @_;
 
-  my @wanted_terms = (
-    { term => { 'file.module.authorized' => 1 } },
-    { term => { 'file.module.indexed'    => 1 } },
-    { term => { 'file.module.name'       => $module } },
-  );
-
-  my @unwanted_terms = ( { terms => { 'file.distribution' => [qw( libwww-perl HTTP-Message )] } } );
-
-  my $simple_filter = { bool => { must => [@wanted_terms] } };
-  my $nested_filer = {
-    nested => {
-      path  => 'file.module',
-      query => { bool => { must => [@wanted_terms] } },
-    }
-  };
-
-  my $query_nondirs = { term => { directory => 0 } };
+  #  my @unwanted_terms = ( { terms => { 'file.distribution' => [qw( libwww-perl HTTP-Message )] } } );
   my $fields = [
     'status',  'date',           'author',           'maturity',     'indexed',      'documentation',
     'id',      '_source.module', 'authorized',       'release_id',   'version',      'name',
     'release', 'path',           'version_numified', '_source.stat', 'distribution', 'level',
-    'sloc',    'abstract',       'slop',             'mime'
+    'sloc',    'abstract',       'slop',             'mime',         'directory',
   ];
 
-  my $q = {
-    query  => $query_nondirs,
-    filter => $simple_filter,
-    fields => $fields,
-    sort   => { 'file.date' => 'desc' },
-    size   => 9999,
+  my $simple_filter = {
+    bool => {
+      must => [
+        { term => { 'file.module.authorized' => 1 } },
+        { term => { 'file.module.indexed'    => 1 } },
+        { term => { 'file.module.name'       => $module } },
+        { term => { 'directory'              => 0 } },
+      ]
+    }
   };
+
+  my $q = {
+    sort => { 'file.date' => 'desc' },
+    size => 9999,
+  };
+
+  if ( not defined $opts->{method} or $opts->{method} eq 'nested' ) {
+    $q->{query} = {
+      constant_score => {
+        query => {
+          nested => {
+            path  => 'module',
+            query => {
+              constant_score => {
+                filter => {
+                  bool => {
+                    must => [
+                      { term => { 'module.authorized' => 1 } },
+                      { term => { 'module.indexed'    => 1 } },
+                      { term => { 'module.name'       => $module } },
+                    ]
+                  }
+                }
+              }
+            },
+            size => 5,
+          }
+        }
+      }
+    };
+  }
+  else {
+    $q->{query} = {
+      constant_score => {
+        filter => {
+          bool => {
+            must => [
+              { term => { 'file.module.authorized' => 1 } },
+              { term => { 'file.module.indexed'    => 1 } },
+              { term => { 'file.module.name'       => $module } },
+              { term => { 'directory'              => 0 } },
+            ]
+          }
+        }
+      }
+    };
+  }
+
+  if ( $opts->{version} ) {
+    $q->{version} = 1;
+    push @{$fields}, '_version';
+  }
+
+  $q->{fields} = $fields;
 
   if ( $opts->{mangle} ) {
     $opts->{mangle}->( $q, );
@@ -118,14 +164,13 @@ sub find_dist_all {
 
   return map { $_->{fields} } @{ $results->{hits}->{hits} };
 
-
 }
 
 # ->find_dist_simple( $module::name , \%opts ) # returns an array of results.
 #
 # A convenience wrapper around find_dist_all
 #
-# Adds 3 records not already in metacpan to the result for conveninece. 
+# Adds 3 records not already in metacpan to the result for conveninece.
 #
 # $record{mod_path}  = "AUTHOR/Release-Name-1.2.3-TRIAL/lib/path/to/module.pm"
 # $record{mod}       = [ "path::to::module" , "1.9.9" ]
@@ -137,13 +182,13 @@ sub find_dist_simple {
   my ( $class, $module, $opts ) = @_;
   return map {
     my $i = $_;
-    my ( $j ) = grep { $_->{name} eq $module } @{ $i->{'_source.module'} };
+    my ($j) = grep { $_->{name} eq $module } @{ $i->{'_source.module'} };
     my $x = {
       %{$i},
       mod_path => ( sprintf q{%s/%s/%s}, $i->{author}, $i->{release}, $i->{path} ),
       mod      => [ $j->{name},          $j->{version} ],
     };
-    $x->{as_string} = $j->{name} . ' ' . ($j->{version}//'') . ' in ' . $x->{mod_path};
+    $x->{as_string} = $j->{name} . ' ' . ( $j->{version} // '' ) . ' in ' . $x->{mod_path};
     $x;
   } $class->find_dist_all( $module, $opts );
 }
@@ -168,21 +213,14 @@ sub _skip_result {
 # Will return an array just in case there's more than one, but its not likely.
 #
 sub find_release {
-  my ( $class, $author, $distrelease , $opts ) = @_ ; 
-  my @terms = (
-    { term => { author => $author } },
-    { term => { name => $distrelease } },
-  );
-   my $filter = {  filter => { and => [ 
-          @terms
-  ]}};
+  my ( $class, $author, $distrelease, $opts ) = @_;
+  my @terms = ( { term => { author => $author } }, { term => { name => $distrelease } }, );
+  my $filter = { filter => { and => [ @terms ] } };
   my $q = {
-     explain => 1,
-     query => { constant_score => $filter },
+    explain => 1,
+    query   => { constant_score => $filter },
   };
-  my @query = (
-    "release/_search" => $q
-  );
+  my @query = ( "release/_search" => $q );
 
   if ( $opts->{mangle} ) {
     $opts->{mangle}->( $q, );

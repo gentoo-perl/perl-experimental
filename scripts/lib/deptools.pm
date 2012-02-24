@@ -55,14 +55,15 @@ sub _vmap_perl_strange {
 sub _vmap_overlay_native {
   return (
     (
-      'Archive-Extract',    'B-Debug',           'B-Lint',              'constant',
-      'CPAN',               'CPANPLUS',          'CPANPLUS-Dist-Build', 'Devel-DProf',
-      'Devel-PPPort',       'Devel-SelfStubber', 'Dumpvalue',           'ExtUtils-Constant',
-      'ExtUtils-MakeMaker', 'File-Fetch',        'Filter-Simple',       'HTTP-Tiny',
-      'i18n-langtags',      'if',                'IPC-SysV',            'Log-Message',
-      'Log-Message-Simple', 'Math-Complex',      'Module-CoreList',     'NEXT',
-      'Object-Accessor',    'Pod-LaTeX',         'Pod-Perldoc',         'Pod-Plainer',
-      'SelfLoader',         'Term-UI',           'Unicode-Collate',     'Unicode-Normalize',
+      'Archive-Extract',    'B-Debug',            'B-Lint',              'constant',
+      'CPAN',               'CPANPLUS',           'CPANPLUS-Dist-Build', 'Devel-DProf',
+      'Devel-PPPort',       'Devel-SelfStubber',  'Dumpvalue',           'ExtUtils-Constant',
+      'ExtUtils-MakeMaker', 'File-Fetch',         'Filter-Simple',       'HTTP-Tiny',
+      'i18n-langtags',      'if',                 'IPC-SysV',            'Locale-Maketext-Simple',
+      'Log-Message',        'Log-Message-Simple', 'Math-Complex',        'Module-CoreList',
+      'NEXT',               'Object-Accessor',    'Pod-LaTeX',           'Pod-Perldoc',
+      'Pod-Plainer',        'SelfLoader',         'Term-UI',             'Unicode-Collate',
+      'Unicode-Normalize',
     ),
     ( 'Exporter', 'base', )
   );
