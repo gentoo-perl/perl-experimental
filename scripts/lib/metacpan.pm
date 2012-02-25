@@ -35,7 +35,19 @@ sub mcpan {
       );
     }
     if ( defined $ENV{WWW_MECH_DEBUG} ) {
-      $mech->add_handler( "request_send", sub { warn shift->dump; return } );
+      require Data::Dump;
+      $mech->add_handler(
+        "request_send",
+        sub {
+          if ( $ENV{WWW_MECH_DEBUG} > 1 ) {
+            warn shift->as_string;
+          }
+          else {
+            warn shift->dump;
+          }
+          return;
+        }
+      );
       $mech->add_handler(
         "response_done",
         sub {
@@ -67,6 +79,15 @@ sub mcpan {
 #    # You can optionally do this to modify the query before it is performed.
 # };
 #
+# $opts{latest} = 1  # return only latest versions of dists
+#
+# $opts{method} = 'simple' # non-nested query ( introduces bad results )
+# $opts{method} = 'nested' # works like notrim but serverside
+#
+# $opts{version} = 1 # return version information
+#
+# $opts{'sort-latest'} = 1 # sort by status == latest first.
+#
 # Array items are each a subset of a 'file' entry which contains information
 # about the distribution that file was in.
 #
@@ -79,7 +100,6 @@ sub mcpan {
 sub find_dist_all {
   my ( $class, $module, $opts ) = @_;
 
-  #  my @unwanted_terms = ( { terms => { 'file.distribution' => [qw( libwww-perl HTTP-Message )] } } );
   my $fields = [
     'status',  'date',           'author',           'maturity',     'indexed',      'documentation',
     'id',      '_source.module', 'authorized',       'release_id',   'version',      'name',
@@ -87,62 +107,59 @@ sub find_dist_all {
     'sloc',    'abstract',       'slop',             'mime',         'directory',
   ];
 
-  my $simple_filter = {
-    bool => {
-      must => [
-        { term => { 'file.module.authorized' => 1 } },
-        { term => { 'file.module.indexed'    => 1 } },
-        { term => { 'file.module.name'       => $module } },
-        { term => { 'directory'              => 0 } },
-      ]
-    }
-  };
-
   my $q = {
-    sort => { 'file.date' => 'desc' },
+
+    script_fields => { 'latest' => { script => q{ doc[ 'status' ].value == 'latest' } } },
+    sort          => [
+      (
+        $opts->{'sort-latest'}
+        ? (
+          {
+            '_script' => {
+              script => q{ doc['status'].value == 'latest' ? 1 : 0 },
+              type   => 'number',
+              order  => 'desc',
+            }
+          }
+          )
+        : ()
+      ),
+      { 'file.date' => 'desc' },
+    ],
     size => 9999,
   };
 
-  if ( not defined $opts->{method} or $opts->{method} eq 'nested' ) {
+  if ( not defined $opts->{method}
+    or $opts->{method} eq 'nested' )
+  {
+    my $module_rules = [
+      { term => { 'module.authorized' => 1 } },
+      { term => { 'module.indexed'    => 1 } },
+      { term => { 'module.name'       => $module } },
+    ];
+    my $nest = {
+      path  => 'module',
+      query => { constant_score => { filter => { bool => { must => $module_rules, } } } },
+      size  => 5,
+    };
     $q->{query} = {
       constant_score => {
-        query => {
-          nested => {
-            path  => 'module',
-            query => {
-              constant_score => {
-                filter => {
-                  bool => {
-                    must => [
-                      { term => { 'module.authorized' => 1 } },
-                      { term => { 'module.indexed'    => 1 } },
-                      { term => { 'module.name'       => $module } },
-                    ]
-                  }
-                }
-              }
-            },
-            size => 5,
-          }
-        }
+        query =>
+          { bool => { must => [ ( $opts->{latest} ? { term => { 'status' => 'latest' } } : () ), { nested => $nest }, ], } }
       }
     };
   }
   else {
-    $q->{query} = {
-      constant_score => {
-        filter => {
-          bool => {
-            must => [
-              { term => { 'file.module.authorized' => 1 } },
-              { term => { 'file.module.indexed'    => 1 } },
-              { term => { 'file.module.name'       => $module } },
-              { term => { 'directory'              => 0 } },
-            ]
-          }
-        }
-      }
-    };
+
+    my $document_rules = [
+      { term => { 'file.module.authorized' => 1 } },
+      { term => { 'file.module.indexed'    => 1 } },
+      { term => { 'file.module.name'       => $module } },
+      { term => { 'directory'              => 0 } },
+      ( $opts->{latest} ? { term => { 'status' => 'latest' } } : () ),
+    ];
+
+    $q->{query} = { constant_score => { filter => { bool => { must => $document_rules } } } };
   }
 
   if ( $opts->{version} ) {
@@ -215,7 +232,7 @@ sub _skip_result {
 sub find_release {
   my ( $class, $author, $distrelease, $opts ) = @_;
   my @terms = ( { term => { author => $author } }, { term => { name => $distrelease } }, );
-  my $filter = { filter => { and => [ @terms ] } };
+  my $filter = { filter => { and => [@terms] } };
   my $q = {
     explain => 1,
     query   => { constant_score => $filter },

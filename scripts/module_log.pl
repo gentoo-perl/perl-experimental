@@ -15,14 +15,19 @@ my $flags;
 my $singleflags;
 
 @ARGV = grep { defined } map {
-  $_ =~ /^--(\w+)/
+  $_ =~ /^--(.+)/
     ? do { $flags->{$1}++; undef }
     : do {
-    $_ =~ /^-(\w+)/
+    $_ =~ /^-(.+)/
       ? do { $singleflags->{$1}++; undef }
       : do { $_ }
     }
 } @ARGV;
+for my $f ( keys %{$flags} ) {
+  if ( $f =~ /^([^=]+)=(.*$)/ ) {
+    $flags->{$1} = $2;
+  }
+}
 
 if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
 
