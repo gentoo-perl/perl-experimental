@@ -1,6 +1,18 @@
 # ChangeLog for dev-perl/FormValidator-Simple
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*FormValidator-Simple-0.280.0 (25 Feb 2012)
+*FormValidator-Simple-0.230.0 (25 Feb 2012)
+*FormValidator-Simple-0.220.0 (25 Feb 2012)
+*FormValidator-Simple-0.210.0 (25 Feb 2012)
+
+  25 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -FormValidator-Simple-0.21.ebuild, -FormValidator-Simple-0.22.ebuild,
+  -FormValidator-Simple-0.23.ebuild, -FormValidator-Simple-0.28.ebuild,
+  +FormValidator-Simple-0.210.0.ebuild, +FormValidator-Simple-0.220.0.ebuild,
+  +FormValidator-Simple-0.230.0.ebuild, +FormValidator-Simple-0.280.0.ebuild:
+  Migrate to x.y.z
 
   04 Mar 2011; Kent Fredric <kentfredric@gmail.com>
   FormValidator-Simple-0.21.ebuild, FormValidator-Simple-0.22.ebuild,
