@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 MODULE_AUTHOR=MIYAGAWA
+MODULE_VERSION="0.05"
 inherit perl-module
 
 DESCRIPTION="Email::Valid which allows dot before at mark"
@@ -12,5 +13,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND=">=perl-core/Test-Simple-0.32
-	>=dev-perl/Email-Valid-0.13"
+DEPEND="
+	>=dev-perl/Email-Valid-0.13
+"
+RDEPEND="${DEPEND}"
+SRC_TEST=do
