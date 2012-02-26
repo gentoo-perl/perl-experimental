@@ -17,7 +17,7 @@ my $flags;
 my $singleflags;
 
 @ARGV = grep { defined } map {
-  $_ =~ /^--(\w+)/
+  $_ =~ /^--(.+)/
     ? do { $flags->{$1}++; undef }
     : do {
     $_ =~ /^-(\w+)/
@@ -26,6 +26,11 @@ my $singleflags;
     }
 } @ARGV;
 
+for my $k ( keys %{$flags} ) {
+  if ( $k =~ /^([^=]+)=(.*$)/ ) {
+    $flags->{$1} = $2;
+  }
+}
 if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
 
 # FILENAME: show_deptree.pl
@@ -74,11 +79,22 @@ if ( not $release_info ) {
   die "Cannot find $release on MetaCPAN";
 }
 my $dep_phases = deptools::get_dep_phases($release);
+pp( $dep_phases->{phases} );
 
+#warn "Found $#{$dep_phases} phases";
 my @queue;
 
 for my $module ( keys %{ $dep_phases->{modules} } ) {
   for my $declaration ( @{ $dep_phases->{modules}->{$module} } ) {
+    if ( $declaration->[3] eq 'recommends' ) {
+      warn "skipped dep on recommended module $module";
+      next;
+    }
+    if ( $declaration->[3] eq 'suggests' ) {
+      warn "skipped dep on suggested module $module";
+      next;
+    }
+
     push @queue, [ $module, $declaration ];
   }
 }
@@ -88,21 +104,25 @@ my @squeue =
 require dep::handler::bashcode;
 
 my $handler;
+my $hc = 'dep::handler::stdout::simple';
 
-if ( defined $flags->{debug} and ( $flags->{debug} ne "1" or $flags->{debug} ne "2" ) ) {
-  $flags->{debug} = 1;
+if ( defined $flags->{debug} ) {
+  if ( $flags->{debug} eq "1" ) {
+    $hc = 'dep::handler::stdout::terse';
+  }
+  elsif ( $flags->{debug} eq "2" ) {
+    $hc = 'dep::handler::stdout';
+  }
+  else {
+    $hc = 'dep::handler::stdout::terse';
+  }
 }
 
-if ( $flags->{debug} == 1 ) {
-  require dep::handler::stdout::terse;
-  $handler = dep::handler::stdout::terse->new();
-}
-if ( $flags->{debug} == 2 ) {
-  require dep::handler::stdout;
-  $handler = dep::handler::stdout->new();
-}
+require Class::Load;
+Class::Load::load_class($hc);
+$handler = $hc->new();
 
-my $handler2 = dep::handler::bashcode->new( ( $flags->{debug} ? ( debug => 1 ) : () ), debug_handler => $handler, );
+my $handler2 = dep::handler::bashcode->new( debug => 1, debug_handler => $handler, );
 
 for my $qi (@squeue) {
   deptools::dispatch_dependency_handler( $release, @{$qi}, $handler2 );
@@ -136,7 +156,7 @@ if ( not defined $release_info->{abstract} ) {
 }
 else {
   my $abstract = $release_info->{abstract};
-  $abstract =~ s/'/'\\''/g;  #  ' => '\'' 
+  $abstract =~ s/'/'\\''/g;    #  ' => '\''
   $fh->say( 'DESCRIPTION=\'' . $abstract . '\'' );
 }
 
