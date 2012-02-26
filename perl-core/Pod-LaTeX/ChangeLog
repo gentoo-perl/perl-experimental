@@ -1,6 +1,11 @@
 # ChangeLog for perl-core/Pod-LaTeX
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-LaTeX-0.600.0 (26 Feb 2012)
+
+  26 Feb 2012; Kent Fredric <kentfredric@gmail.com> +Pod-LaTeX-0.600.0.ebuild:
+  Version Bump
 
 *Pod-LaTeX-0.590.0 (03 Apr 2011)
 
