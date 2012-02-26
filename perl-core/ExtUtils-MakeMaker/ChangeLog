@@ -1,6 +1,13 @@
 # ChangeLog for perl-core/ExtUtils-MakeMaker
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/perl-core/ExtUtils-MakeMaker/ChangeLog,v 1.21 2010/09/13 14:41:47 josejx Exp $
+
+  26 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -ExtUtils-MakeMaker-6.570.600_rc.ebuild,
+  -ExtUtils-MakeMaker-6.571.0_rc.ebuild,
+  -ExtUtils-MakeMaker-6.571.100_rc.ebuild:
+  Removing as they dont correspond to a perl version and add maint weigt, and
+  are now superceded in gentoo by a long time by v6.580.0 and higher
 
 *ExtUtils-MakeMaker-6.571.100_rc (24 May 2011)
 
