@@ -1,9 +1,10 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 MODULE_AUTHOR=CHROMATIC
+MODULE_VERSION="1.03"
 inherit perl-module
 
 DESCRIPTION="enable all of the features of Modern Perl with one command"
