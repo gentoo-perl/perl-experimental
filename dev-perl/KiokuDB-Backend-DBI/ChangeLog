@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/KiokuDB-Backend-DBI
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  KiokuDB-Backend-DBI-1.180.0.ebuild, KiokuDB-Backend-DBI-1.190.0.ebuild,
+  KiokuDB-Backend-DBI-1.200.0.ebuild:
+  Fixdep Search-GIN
 
   15 Jul 2011; Kent Fredric <kentfredric@gmail.com>
   KiokuDB-Backend-DBI-0.80.0.ebuild, KiokuDB-Backend-DBI-1.100.0.ebuild,

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -31,7 +31,7 @@ COMMON_DEPEND="
 	dev-perl/JSON
 	dev-perl/Moose
 	dev-perl/SQL-Abstract
-	>=dev-perl/Search-GIN-0.70
+	>=dev-perl/Search-GIN-0.70.0
 	dev-perl/Test-TempDir
 	dev-perl/Test-use-ok
 	dev-perl/Try-Tiny
