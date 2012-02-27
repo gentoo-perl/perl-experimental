@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Method-Signatures
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Method-Signatures-20111125.0.0 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Method-Signatures-20111125.0.0.ebuild, +metadata.xml:
+  Added for Git-CPAN-Patch
+
