@@ -1,10 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.09"
 inherit perl-module
 
 DESCRIPTION="Use subincludes in your Catalyst views"
@@ -17,15 +18,15 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.140
 	dev-perl/Catalyst-Plugin-SubRequest
 	dev-perl/Moose
-	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
-	dev-perl/libwww-perl
-	dev-perl/URI
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Test-Simple-0.88
-	dev-perl/Catalyst-View-TT
-	dev-perl/Catalyst-Action-RenderView
+	test? (
+		dev-perl/Catalyst-View-TT
+		dev-perl/Catalyst-Action-RenderView
+		>=dev-perl/Test-Pod-1.14
+		>=dev-perl/Test-Pod-Coverage-1.04
+	)
 "
 SRC_TEST=do
