@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	test? (
-		>=dev-perl/Exception-Class-TryCatch-1.100
+		>=dev-perl/Exception-Class-TryCatch-1.100.0
 		>=virtual/perl-Test-Simple-0.62
 	)
 	>=virtual/perl-ExtUtils-MakeMaker-6.56

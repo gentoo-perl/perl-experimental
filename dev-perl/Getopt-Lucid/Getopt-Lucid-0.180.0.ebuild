@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=DAGOLDEN
+MODULE_VERSION="0.18"
 inherit perl-module
 
 DESCRIPTION="Clear, readable syntax for command line processing"
