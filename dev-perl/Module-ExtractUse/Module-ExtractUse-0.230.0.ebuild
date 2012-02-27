@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Parse-RecDescent-1.94
-	>=dev-perl/Pod-Strip-1.00
+	>=dev-perl/Pod-Strip-1.0.0
 "
 DEPEND="
 	${COMMON_DEPEND}
