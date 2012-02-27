@@ -3,14 +3,14 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=PEVANS
-MODULE_VERSION=0.07_006
+MODULE_VERSION=0.08
 inherit perl-module
 
 DESCRIPTION='A drop-in replacement for IO::Socket::INET supporting
 both IPv4 and IPv6'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_build() {
 	# Test::More
@@ -23,6 +23,7 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-Socket-1.950.0
 }
 DEPEND="
+	virtual/perl-Module-Build
 	$(perl_meta_build)
 	$(perl_meta_runtime)
 "
