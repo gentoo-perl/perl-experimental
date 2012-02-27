@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Git-Repository
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Git-Repository-1.250.0 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Git-Repository-1.250.0.ebuild:
+  Version Bump
 
 *Git-Repository-1.220.0 (23 Sep 2011)
 
