@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Devel-Pragma
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Devel-Pragma-0.540.0 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Devel-Pragma-0.540.0.ebuild, +metadata.xml:
+  Added for Method::Signatures
+
