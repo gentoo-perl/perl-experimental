@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com> -Modern-Perl-1.30.0.ebuild:
+  Gone on CPAN
+
 *Modern-Perl-1.201.201.300 (27 Feb 2012)
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
