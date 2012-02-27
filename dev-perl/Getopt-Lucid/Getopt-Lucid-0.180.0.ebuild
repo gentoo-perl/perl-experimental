@@ -17,7 +17,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/Exception-Class-TryCatch-1.100
+	>=dev-perl/Exception-Class-TryCatch-1.100.0
 	test? (
 		>=virtual/perl-Test-Simple-0.62
 	)
