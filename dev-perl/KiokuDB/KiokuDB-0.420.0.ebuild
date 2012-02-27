@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -34,7 +34,7 @@ COMMON_DEPEND="
 	dev-perl/Test-use-ok
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
-	>=dev-perl/Search-GIN-0.03
+	>=dev-perl/Search-GIN-0.30.0
 	>=dev-perl/JSON-2.12
 	>=dev-perl/JSON-XS-2.2.3.1
 	>=dev-perl/YAML-LibYAML-0.300.0

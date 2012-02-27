@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -26,7 +26,7 @@ COMMON_DEPEND="
 	>=dev-perl/MooseX-Role-Parameterized-0.100.0
 	>=dev-perl/MooseX-YAML-0.04
 	>=dev-perl/PadWalker-1.9
-	>=dev-perl/Search-GIN-0.03
+	>=dev-perl/Search-GIN-0.30.0
 	>=dev-perl/Set-Object-1.26
 	>=dev-perl/YAML-LibYAML-0.300.0
 	>=dev-perl/namespace-clean-0.08
