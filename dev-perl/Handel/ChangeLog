@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Handel-1.0.140 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com> +Handel-1.0.140.ebuild:
+  Version Bump
+
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
   Fixdep on DateTime-Format-MySQL , Finance-Currency-Convert-WebserviceX and
   Data-Currency
