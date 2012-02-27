@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Search-GIN
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Search-GIN-0.80.0 (27 Feb 2012)
+*Search-GIN-0.70.0 (27 Feb 2012)
+*Search-GIN-0.30.0 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com> -Search-GIN-0.03.ebuild,
+  +Search-GIN-0.30.0.ebuild, -Search-GIN-0.70.ebuild,
+  +Search-GIN-0.70.0.ebuild, -Search-GIN-0.80.ebuild,
+  +Search-GIN-0.80.0.ebuild:
+  Migrate/Addzero to x.y.z
 
 *Search-GIN-0.80 (08 Feb 2011)
 
