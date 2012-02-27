@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 
 MODULE_AUTHOR=JROCKWAY
+MODULE_VERSION="0.14"
 inherit perl-module
 
 DESCRIPTION="Easy-to-use self-cleaning scratch space"
