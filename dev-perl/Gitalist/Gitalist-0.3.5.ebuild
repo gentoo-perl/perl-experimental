@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/Catalyst-Action-REST
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Catalyst-Controller-ActionRole
-	>=dev-perl/Catalyst-View-Component-SubInclude-0.07 $(comment 0.70.0)
+	>=dev-perl/Catalyst-View-Component-SubInclude-0.70.0
 	>=dev-perl/Catalyst-View-TT-0.340.0
 	dev-perl/Try-Tiny
 	>=dev-perl/Template-Toolkit-2.22 $(comment Template)
@@ -70,7 +70,7 @@ DEPEND="${RDEPEND}
 	test? (
 		>=dev-perl/Test-Deep-0.108 $(comment 0.108.0)
 		>=virtual/perl-Test-Simple-0.88 $(comment 0.880.0)
-		>=dev-perl/Test-utf8-0.02 $(comment 0.20.0)
+		>=dev-perl/Test-utf8-0.20.0
 		>=dev-perl/Test-Exception-0.31 $(comment 0.310.0)
 	)"
 

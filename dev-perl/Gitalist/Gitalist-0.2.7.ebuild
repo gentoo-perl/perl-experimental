@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
 	dev-perl/Catalyst-Plugin-Unicode-Encoding
 	>=dev-perl/Catalyst-Runtime-5.800.150
-	>=dev-perl/Catalyst-View-Component-SubInclude-0.07 $(comment 0.70.0)
+	>=dev-perl/Catalyst-View-Component-SubInclude-0.70.0
 	>=dev-perl/Catalyst-View-TT-0.340.0
 	dev-perl/config-general
 	dev-perl/DateTime
@@ -55,7 +55,7 @@ RDEPEND="
 	>=dev-perl/Template-Toolkit-2.22 $(comment 2.220.0)
 	dev-perl/Template-Plugin-Cycle
 	dev-perl/Template-Provider-Encoding
-	>=dev-perl/Test-utf8-0.02 $(comment 0.20.0)
+	>=dev-perl/Test-utf8-0.20.0
 	dev-perl/Try-Tiny
 	dev-perl/aliased
 	dev-perl/namespace-autoclean
