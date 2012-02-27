@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Getopt-Lucid-0.14
+	>=dev-perl/Getopt-Lucid-0.140.0
 	>=dev-perl/IO-String-1.06
 	>=dev-perl/Parse-RecDescent-1.94
 	>=virtual/perl-Scalar-List-Utils-1.02
