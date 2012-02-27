@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
+  MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild:
+  Fixdep on Catalyst-Plugin-Unicode, Directory-Scratch,
+  Module-Pluggable-Ordered, Text-Context
+
   22 Feb 2012; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
   MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild:
   Fixdep Catalyst-View-{Email,TT}

@@ -37,7 +37,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Setenv
 	>=dev-perl/Catalyst-Plugin-Static-Simple-0.70.0
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
-	>=dev-perl/Catalyst-Plugin-Unicode-0.8
+	>=dev-perl/Catalyst-Plugin-Unicode-0.800.0
 	>=dev-perl/Catalyst-View-TT-0.230.0
 	>=dev-perl/Catalyst-View-JSON-0.260.0
 	>=dev-perl/Catalyst-View-Email-0.140.0
@@ -48,7 +48,7 @@ RDEPEND="
 	>=dev-perl/Data-Page-2.00
 	>=dev-perl/DateTime-0.28
 	dev-perl/DateTime-Format-Mail
-	>=dev-perl/Directory-Scratch-0.14
+	>=dev-perl/Directory-Scratch-0.140.0
 	>=dev-perl/DBD-SQLite-1.27
 	>=dev-perl/DBIx-Class-0.08
 	dev-perl/DBIx-Class-DateTime-Epoch
@@ -68,13 +68,13 @@ RDEPEND="
 	dev-perl/Image-Math-Constrain
 	>=virtual/perl-IO-1.14
 	>=dev-perl/KinoSearch1-1.0.0
-	>=dev-perl/Module-Pluggable-Ordered-1.4
+	>=dev-perl/Module-Pluggable-Ordered-1.400.0
 	dev-perl/Moose
 	dev-perl/Number-Format
 	virtual/perl-parent
 	dev-perl/Template-Toolkit
 	dev-perl/Template-Plugin-JavaScript
-	>=dev-perl/Text-Context-3.5
+	>=dev-perl/Text-Context-3.500.0
 	dev-perl/Text-Password-Pronounceable
 	>=dev-perl/URI-1.37
 	dev-perl/URI-Find
