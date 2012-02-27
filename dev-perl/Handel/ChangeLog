@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
+  Fixdep on DateTime-Format-MySQL , Finance-Currency-Convert-WebserviceX and
+  Data-Currency
+
   25 Feb 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild:
   Fixdep on DBIx-Class-Validation and FormValidator-Simple
 
