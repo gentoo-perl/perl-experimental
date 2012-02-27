@@ -1,6 +1,25 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-PageCache
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Plugin-PageCache-0.310.0 (27 Feb 2012)
+*Catalyst-Plugin-PageCache-0.220.0 (27 Feb 2012)
+*Catalyst-Plugin-PageCache-0.210.0 (27 Feb 2012)
+*Catalyst-Plugin-PageCache-0.190.0 (27 Feb 2012)
+*Catalyst-Plugin-PageCache-0.180.0 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-PageCache-0.18.ebuild,
+  -Catalyst-Plugin-PageCache-0.19.ebuild,
+  -Catalyst-Plugin-PageCache-0.21.ebuild,
+  -Catalyst-Plugin-PageCache-0.22.ebuild,
+  -Catalyst-Plugin-PageCache-0.31.ebuild,
+  +Catalyst-Plugin-PageCache-0.180.0.ebuild,
+  +Catalyst-Plugin-PageCache-0.190.0.ebuild,
+  +Catalyst-Plugin-PageCache-0.210.0.ebuild,
+  +Catalyst-Plugin-PageCache-0.220.0.ebuild,
+  +Catalyst-Plugin-PageCache-0.310.0.ebuild:
+  Migrate to x.y.z, fixdep Catalyst-Plugin-Cache
 
 *Catalyst-Plugin-PageCache-0.31 (03 Jan 2011)
 

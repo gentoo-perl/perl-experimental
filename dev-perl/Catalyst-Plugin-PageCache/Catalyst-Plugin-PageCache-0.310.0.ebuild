@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
-MODULE_AUTHOR=MRAMBERG
+EAPI=3
+MODULE_AUTHOR=TIMB
+MODULE_VERSION="0.31"
 inherit perl-module
 
 DESCRIPTION="Cache the output of entire pages"
@@ -16,8 +17,12 @@ KEYWORDS="~amd64 ~x86"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/MRO-Compat-0.10
+	dev-perl/Digest-SHA1
 "
-# Tests will skip atm. 
-# https://rt.cpan.org/Ticket/Display.html?id=47373
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	virtual/perl-Test-Simple
+	>=dev-perl/Catalyst-Plugin-Cache-0.100.0
+	>=dev-perl/Cache-Cache-1.04
+	>=virtual/perl-File-Path-2.08
+"
 SRC_TEST="do"
