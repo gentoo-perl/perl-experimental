@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MooseX-Attribute-Chained
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MooseX-Attribute-Chained-1.0.1 (27 Feb 2012)
+
+  27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Attribute-Chained-1.0.1.ebuild, +metadata.xml:
+  Added for HTML-FormFu
+
