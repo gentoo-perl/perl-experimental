@@ -16,6 +16,7 @@ sub _vmap_langs {
   return ( 'perl', 'perl_debug', );
 }
 
+# ::gentoo virtual/core things
 sub _vmap_perl_native {
   return (
     'Archive-Tar',       'Attribute-Handlers',   'AutoLoader',           'CGI',
@@ -39,6 +40,7 @@ sub _vmap_perl_native {
   );
 }
 
+# ::gentoo Exceptions
 sub _vmap_perl_strange {
   return (
     'Digest'          => virtual 'digest-base',
@@ -51,12 +53,14 @@ sub _vmap_perl_strange {
     'Text-Template'   => perl 'text-template',
     'Crypt-CBC'       => perl 'crypt-cbc',
     'YAML'            => perl 'yaml',
+    'Perl-Tidy'       => perl 'perltidy',
     'Net-Server'      => perl 'net-server',
     'Image-ExifTool'  => 'media-libs/exiftool',
     'Padre'           => 'app-editors/padre',
   );
 }
 
+# ::perl-experimental exceptions
 sub _vmap_overlay_native {
   return (
     (
