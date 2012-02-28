@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=MADCAT
-MODULE_VERSION=1.05
+MODULE_VERSION="1.05"
 inherit perl-module
 
 DESCRIPTION='"proper" handling of DBI based connections in Mojolicious'

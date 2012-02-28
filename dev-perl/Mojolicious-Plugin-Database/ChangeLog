@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Mojolicious-Plugin-Database-1.50.0 (28 Feb 2012)
+
+  28 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Mojolicious-Plugin-Database-1.05.ebuild,
+  +Mojolicious-Plugin-Database-1.50.0.ebuild:
+  Migrate to x.y.z
+
 *Mojolicious-Plugin-Database-1.05 (11 Jan 2012)
 
   11 Jan 2012; Michele Beltrame <m@cattlegrid.info>
