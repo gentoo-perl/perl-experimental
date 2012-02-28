@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  IPTables-ChainMgr-0.900.0.ebuild:
+  Fixdep Net-IPv4Addr
+
 *IPTables-ChainMgr-0.900.0 (28 Feb 2012)
 
   28 Feb 2012; Kent Fredric <kentfredric@gmail.com>

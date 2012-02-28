@@ -15,7 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/IPTables-Parse-0.700.0
-	>=dev-perl/Net-IPv4Addr-0.10"
+	>=dev-perl/Net-IPv4Addr-0.100.0
+"
 DEPEND="${RDEPEND}"
 
 SRC_TEST=do
