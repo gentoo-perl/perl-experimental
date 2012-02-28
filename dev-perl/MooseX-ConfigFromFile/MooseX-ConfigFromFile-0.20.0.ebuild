@@ -1,27 +1,23 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
-
-MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=0.03
+EAPI=2
+MODULE_AUTHOR=BLBLACK
+MODULE_VERSION="0.02"
 inherit perl-module
 
 DESCRIPTION="An abstract Moose role for setting attributes from a configfile"
+LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
 
-RDEPEND="
+IUSE=""
+DEPEND="
 	>=dev-perl/Moose-0.35
 	>=dev-perl/MooseX-Types-Path-Class-0.04
-	dev-perl/Try-Tiny
-	dev-perl/namespace-autoclean
 "
-DEPEND="${RDEPEND}
-	test? (
-		dev-perl/Test-Fatal
-	)"
+# >=Test-More-0.47
+RDEPEND="${DEPEND}"
 SRC_TEST="do"
