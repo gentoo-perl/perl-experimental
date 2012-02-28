@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=MADCAT
-MODULE_VERSION=1.20
+MODULE_VERSION="1.20"
 inherit perl-module
 
 DESCRIPTION='A plugin to make authentication a bit easier'
