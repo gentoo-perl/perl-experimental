@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	virtual/perl-Test-Simple $(comment Test::More)
 	virtual/perl-IO	$(comment IO::Socket IO::Select)
-	>=dev-perl/Net-LDAP-Server-0.3 $(comment 0.300.0)
+	>=dev-perl/Net-LDAP-Server-0.300.0
 	dev-perl/perl-ldap $(comment Net::LDAP)
 	dev-perl/Data-Dump
 "
