@@ -51,7 +51,9 @@ sub _vmap_perl_strange {
     'Text-Template'   => perl 'text-template',
     'Crypt-CBC'       => perl 'crypt-cbc',
     'YAML'            => perl 'yaml',
+    'Net-Server'      => perl 'net-server',
     'Image-ExifTool'  => 'media-libs/exiftool',
+    'Padre'           => 'app-editors/padre',
   );
 }
 
