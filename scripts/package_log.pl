@@ -14,6 +14,7 @@ use env::gentoo::perl_experimental;
 use metacpan qw( mcpan );
 use Term::ANSIColor qw( :constants );
 use Try::Tiny;
+use optparse;
 use coloriterator
   coloriser => { -as => 'author_colour' },
   coloriser => { -as => 'dist_colour' };
@@ -34,20 +35,10 @@ use coloriterator
 # * CPAN::Changes
 #
 
-my $flags;
-my $singleflags;
-
-@ARGV = grep { defined } map {
-  $_ =~ /^--(\w+)/
-    ? do { $flags->{$1}++; undef }
-    : do {
-    $_ =~ /^-(\w+)/
-      ? do { $singleflags->{$1}++; undef }
-      : do { $_ }
-    }
-} @ARGV;
-
-if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
+my $optparse = optparse->new(
+  argv => \@ARGV,
+  help => sub { print help(); },
+);
 
 my $oldest_date = '2011-10-01T00:00:00.000Z';
 my $newest_date = '2012-02-01T00:00:00.000Z';
@@ -56,45 +47,50 @@ my $search = {};
 
 my $and = [];
 
-if ( not $flags->{all} ) {
-    push @{$and}, {
-        range => {
-            date => {
-                from => $oldest_date,
-                #to   => $newest_date,
-            }
-        }
-    };
+if ( not $optparse->long_opts->{all} ) {
+  push @{$and}, {
+    range => {
+      date => {
+        from => $oldest_date,
+
+        #to   => $newest_date,
+      }
+    }
+  };
 }
 
-push @{$and} , {
-    term => {
-    'distribution'  => @ARGV,
-#     minimum_match => 1,
-    }
+#my $or = [];
+
+#for my $dist ( @{ $optparse->extra_opts } ) {
+
+push @{$and}, {
+  terms => {
+    'distribution' => $optparse->extra_opts,
+
+    #     minimum_match => 1,
+  }
 };
 
-$search->{query} = {
-     constant_score => {
-         filter => {
-              and => $and,
-         }
-     }
-};
+#}
+
+#push @{$and}, {
+#    or => $or,
+#};
+
+$search->{query} = { constant_score => { filter => { and => $and, } } };
 
 $search->{sort} = [
 
   #   { 'author' => 'asc', },
   { 'date' => 'desc', },
 ];
-$search->{size} = 10;
+$search->{size} = 10000;
 
 $search->{fields} = [qw( author name date distribution version )];
 
-if ( $flags->{deps} ) {
+if ( $optparse->long_opts->{deps} ) {
   push @{ $search->{fields} }, '_source.dependency';
 }
-
 
 _log( ['initialized: fetching search results'] );
 
@@ -106,7 +102,7 @@ for my $result ( @{ $results->{hits}->{hits} } ) {
 
   #  use Data::Dump qw(pp);
   #  pp $result;
-  say $_ for format_result( $result->{fields}, $flags );
+  say $_ for format_result( $result->{fields}, $optparse->long_opts );
 }
 
 exit 0;
@@ -119,7 +115,7 @@ sub pp { require Data::Dump; goto \&Data::Dump::pp }
 sub gv { require Gentoo::PerlMod::Version; goto \&Gentoo::PerlMod::Version::gentooize_version }
 
 sub _log {
-  return unless $flags->{trace};
+  return unless $optparse->long_opts->{trace};
   return *STDERR->print(@_) if ( not ref $_[0] );
 
   state $prefix = "\e[7m* package_log.pl:\e[0m ";
@@ -213,7 +209,7 @@ sub change_for {
 
   return unless $file;
 
-  if ( $flags->{'nosummarize'} ) {
+  if ( $optparse->long_opts->{'nosummarize'} ) {
     return $file;
   }
 
