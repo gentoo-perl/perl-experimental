@@ -9,30 +9,13 @@ use warnings;
 use FindBin;
 use lib "$FindBin::Bin/lib";
 use env::gentoo::perl_experimental;
+use optparse;
 use metacpan qw( mcpan );
 
-my $flags;
-my $singleflags;
-
-@ARGV = grep { defined } map {
-  $_ =~ /^--(.+)/
-    ? do { $flags->{$1}++; undef }
-    : do {
-    $_ =~ /^-(.+)/
-      ? do { $singleflags->{$1}++; undef }
-      : do { $_ }
-    }
-} @ARGV;
-for my $f ( keys %{$flags} ) {
-  if ( $f =~ /^([^=]+)=(.*$)/ ) {
-    $flags->{$1} = $2;
-  }
-}
-
-if ( $flags->{help} or $singleflags->{h} ) { print help(); exit 0; }
-
-sub help {
-  return <<'EOF';
+my $optparse = optparse->new(
+  argv => \@ARGV,
+  help => sub {
+    return print <<'EOF';
 module_log.pl
 
 USAGE:
@@ -75,7 +58,8 @@ USAGE:
     #
 
 EOF
-}
+  },
+);
 
 # FILENAME: module_log.pl
 # CREATED: 25/10/11 12:15:51 by Kent Fredric (kentnl) <kentfredric@gmail.com>
@@ -88,17 +72,17 @@ EOF
 
 use Data::Dump qw( pp );
 
-my ($release) = shift(@ARGV);
+my ($release) = shift( $optparse->extra_opts );
 
-my (@data) =   metacpan->find_dist_simple( $release, $flags );
-if( not $flags->{dump} ) {
+my (@data) = metacpan->find_dist_simple( $release, $optparse->long_opts );
+if ( not $optparse->long_opts->{dump} ) {
   my $result = [ map { $_->{as_string} } @data ];
 
   use JSON qw( to_json );
   say to_json( $result, { pretty => 1 } );
-} else {
+}
+else {
   pp $_ for @data;
 }
 1;
-
 
