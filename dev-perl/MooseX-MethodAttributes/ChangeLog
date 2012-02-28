@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/MooseX-MethodAttributes
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-MethodAttributes-0.270.0 (28 Feb 2012)
+
+  28 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-MethodAttributes-0.270.0.ebuild:
+  Version Bump
 
 *MooseX-MethodAttributes-0.250.0 (16 Jul 2011)
 
