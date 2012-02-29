@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Test-Spec
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Test-Spec-0.400.0 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com> +Test-Spec-0.400.0.ebuild:
+  Version Bump
 
 *Test-Spec-0.390.0 (02 Sep 2011)
 
