@@ -266,6 +266,10 @@ USAGE:
     --trace       Turn on extra debugging.
     --nosummarize Do no processing of Changes data and report it verbatim
                   ( Useful when CPAN::Changes gets it wrong :( )
+
+    --from=2001-08-28T05:38:23.000Z  # Starting time  ( Defaults to somewhere in October 2011 )
+    --to=   sdfas                    # Stopping time  ( Defaults to unset == now )
+
 EOF
 
 }
