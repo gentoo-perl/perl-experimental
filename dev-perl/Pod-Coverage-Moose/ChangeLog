@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Pod-Coverage-Moose
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-Coverage-Moose-0.20.0 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Coverage-Moose-0.02.ebuild, +Pod-Coverage-Moose-0.20.0.ebuild:
+  Migrate to x.y.z
 
   22 Jan 2011; Kent Fredric <kentfredric@gmail.com>
   Pod-Coverage-Moose-0.02.ebuild:
