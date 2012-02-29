@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Test-Class-Most
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Test-Class-Most-0.60.0 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com>
+  +Test-Class-Most-0.60.0.ebuild:
+  Version BumP
+
 
 *Test-Class-Most-0.50.0 (29 Mar 2011)
 
