@@ -743,6 +743,7 @@
       "pip" : "dev-perl/pip",
       "pod2pdf" : "dev-perl/pod2pdf",
       "signatures" : "dev-perl/signatures",
-      "true" : "dev-perl/true"
+      "true" : "dev-perl/true",
+      "utf8-all" : "dev-perl/utf8-all"
    }
 }
