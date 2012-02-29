@@ -47,16 +47,24 @@ my $search = {};
 
 my $and = [];
 
+if ( $optparse->long_opts->{from} ) {
+  $oldest_date = $optparse->long_opts->{from};
+}
+my @to;
+if ( my $ts = $optparse->long_opts->{to} ) {
+  @to = ( to => $ts );
+}
+
 if ( not $optparse->long_opts->{all} ) {
-  push @{$and}, {
+  push @{$and},
+    {
     range => {
       date => {
         from => $oldest_date,
-
-        #to   => $newest_date,
+        @to,
       }
     }
-  };
+    };
 }
 
 #my $or = [];
