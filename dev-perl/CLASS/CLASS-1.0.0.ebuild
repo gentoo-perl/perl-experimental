@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=MSCHWERN
+MODULE_VERSION="1.00"
 inherit perl-module
 
 DESCRIPTION="Alias for __PACKAGE__"
