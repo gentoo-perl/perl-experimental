@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/utf8-all
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*utf8-all-0.4.0 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com> +utf8-all-0.4.0.ebuild,
+  +metadata.xml:
+  Added for perl5i
+
