@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Web-Scraper
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Web-Scraper-0.330.0 (29 Feb 2012)
+*Web-Scraper-0.320.0 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com> -Web-Scraper-0.32.ebuild,
+  +Web-Scraper-0.320.0.ebuild, -Web-Scraper-0.330.ebuild,
+  +Web-Scraper-0.330.0.ebuild:
+  Migrate to x.y.z
 
   10 Mar 2011; Kent Fredric <kentfredric@gmail.com> Web-Scraper-0.32.ebuild,
   Web-Scraper-0.330.ebuild, Web-Scraper-0.340.0.ebuild:
