@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=ROKR
+MODULE_VERSION="0.051"
 inherit perl-module
 
 DESCRIPTION="Recursively merge two or more hashes, simply"
@@ -15,8 +16,7 @@ IUSE="test"
 
 RDEPEND="dev-perl/Clone"
 DEPEND="${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.31
-	test? ( dev-perl/Test-Most
-		dev-perl/Test-Deep )"
+	>=virtual/perl-ExtUtils-MakeMaker-6.56
+	test? ( dev-perl/Test-Most dev-perl/Test-Deep virtual/perl-Test-Simple )"
 
 SRC_TEST=do
