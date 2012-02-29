@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Test-utf8-1.0.0 (29 Feb 2012)
+
+  29 Feb 2012; Kent Fredric <kentfredric@gmail.com> +Test-utf8-1.0.0.ebuild:
+  Version Bump
+
 *Test-utf8-0.20.0 (27 Feb 2012)
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com> -Test-utf8-0.02.ebuild,
