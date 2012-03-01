@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
 MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION="0.09"
 inherit perl-module
 
 DESCRIPTION="A Moose role for setting attributes from a simple configfile"
@@ -21,7 +22,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	test? (
-		>=virtual/perl-Test-Simple-0.42
+		>=virtual/perl-Test-Simple-0.88
 	)
 "
 RDEPEND="${COMMON_DEPEND}"
