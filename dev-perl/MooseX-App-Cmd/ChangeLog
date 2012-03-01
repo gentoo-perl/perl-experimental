@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/MooseX-App-Cmd
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-App-Cmd-0.70.0 (01 Mar 2012)
+
+  01 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-App-Cmd-0.70.0.ebuild:
+  Version bump, but Keymasked due to tests being broken, rt#75447
 
 *MooseX-App-Cmd-0.60.0 (18 Mar 2011)
 
