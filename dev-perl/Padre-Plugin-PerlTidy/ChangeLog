@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  -Padre-Plugin-PerlTidy-0.160.0.ebuild, -Padre-Plugin-PerlTidy-0.190.0.ebuild:
+  Gone on CPAN
+
 *Padre-Plugin-PerlTidy-0.220.0 (28 Feb 2012)
 
   28 Feb 2012; Kent Fredric <kentfredric@gmail.com>
