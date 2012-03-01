@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=DAGOLDEN
-MODULE_VERSION=1.2003
+MODULE_VERSION=1.2004
 inherit perl-module
 
 DESCRIPTION='Adds CPAN Testers reporting to CPAN.pm'
@@ -23,9 +23,9 @@ perl_meta_runtime() {
 	# Capture::Tiny
 	echo dev-perl/Capture-Tiny
 	# Carp
-	echo dev-lang/perl
+	# echo virtual/perl-Carp
 	# Config
-	#echo unresolved/undef
+	#echo unresolved
 	# Config::Tiny 2.08 ( 2.80.0 )
 	echo \>=dev-perl/Config-Tiny-2.08
 	# Devel::Autoflush 0.04 ( 0.40.0 )
