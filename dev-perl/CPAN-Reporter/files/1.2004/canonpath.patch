@@ -1,0 +1,398 @@
+diff -Naur CPAN-Reporter-1.2004/Changes CPAN-Reporter-1.2004_01/Changes
+--- CPAN-Reporter-1.2004/Changes	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/Changes	2012-03-02 11:33:56.888329313 +1300
+@@ -1,5 +1,7 @@
+ Revision history for Perl module CPAN::Reporter
+ 
++1.2004_01 2012-03-02 11:33:41 Pacific/Auckland
++
+ 1.2004    2012-02-13 16:25:07 EST5EDT
+ 
+   [BUG FIXES]
+diff -Naur CPAN-Reporter-1.2004/lib/CPAN/Reporter/API.pm CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/API.pm
+--- CPAN-Reporter-1.2004/lib/CPAN/Reporter/API.pm	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/API.pm	2012-03-02 11:33:56.919329455 +1300
+@@ -1,6 +1,6 @@
+ use strict; # make CPANTS happy
+ package CPAN::Reporter::API;
+-our $VERSION = '1.2004'; # VERSION
++our $VERSION = '1.2004_01'; # VERSION
+ 
+ 1;
+ 
+@@ -16,7 +16,7 @@
+ 
+ =head1 VERSION
+ 
+-version 1.2004
++version 1.2004_01
+ 
+ =head1 FUNCTIONS
+ 
+diff -Naur CPAN-Reporter-1.2004/lib/CPAN/Reporter/Config.pm CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/Config.pm
+--- CPAN-Reporter-1.2004/lib/CPAN/Reporter/Config.pm	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/Config.pm	2012-03-02 11:33:56.921329464 +1300
+@@ -1,6 +1,6 @@
+ use strict;
+ package CPAN::Reporter::Config;
+-our $VERSION = '1.2004'; # VERSION
++our $VERSION = '1.2004_01'; # VERSION
+ 
+ use Config::Tiny 2.08 ();
+ use File::Glob ();
+@@ -457,7 +457,7 @@
+         $id_file = File::Spec->catdir(File::HomeDir->my_home, $1);
+     }
+     elsif ( $id_file =~ /~/ ) {
+-        $id_file = File::Glob::bsd_glob( $id_file );
++        $id_file = File::Spec->canonpath(File::Glob::bsd_glob( $id_file ));
+     }
+     unless ( File::Spec->file_name_is_absolute( $id_file ) ) {
+         $id_file = File::Spec->catfile(
+@@ -661,7 +661,7 @@
+ 
+ =head1 VERSION
+ 
+-version 1.2004
++version 1.2004_01
+ 
+ =head1 SYNOPSIS
+ 
+diff -Naur CPAN-Reporter-1.2004/lib/CPAN/Reporter/FAQ.pm CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/FAQ.pm
+--- CPAN-Reporter-1.2004/lib/CPAN/Reporter/FAQ.pm	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/FAQ.pm	2012-03-02 11:33:56.920329460 +1300
+@@ -1,6 +1,6 @@
+ use strict; # make CPANTS happy
+ package CPAN::Reporter::FAQ;
+-our $VERSION = '1.2004'; # VERSION
++our $VERSION = '1.2004_01'; # VERSION
+ 
+ 1;
+ 
+@@ -16,7 +16,7 @@
+ 
+ =head1 VERSION
+ 
+-version 1.2004
++version 1.2004_01
+ 
+ =head1 REPORT GRADES
+ 
+diff -Naur CPAN-Reporter-1.2004/lib/CPAN/Reporter/History.pm CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/History.pm
+--- CPAN-Reporter-1.2004/lib/CPAN/Reporter/History.pm	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/History.pm	2012-03-02 11:33:56.920329460 +1300
+@@ -1,6 +1,6 @@
+ use strict;
+ package CPAN::Reporter::History;
+-our $VERSION = '1.2004'; # VERSION
++our $VERSION = '1.2004_01'; # VERSION
+ 
+ use vars qw/@ISA @EXPORT_OK/;
+ 
+@@ -320,7 +320,7 @@
+ 
+ =head1 VERSION
+ 
+-version 1.2004
++version 1.2004_01
+ 
+ =head1 SYNOPSIS
+ 
+diff -Naur CPAN-Reporter-1.2004/lib/CPAN/Reporter/PrereqCheck.pm CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/PrereqCheck.pm
+--- CPAN-Reporter-1.2004/lib/CPAN/Reporter/PrereqCheck.pm	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/lib/CPAN/Reporter/PrereqCheck.pm	2012-03-02 11:33:56.919329455 +1300
+@@ -1,6 +1,6 @@
+ use strict;
+ package CPAN::Reporter::PrereqCheck;
+-our $VERSION = '1.2004'; # VERSION
++our $VERSION = '1.2004_01'; # VERSION
+ 
+ use ExtUtils::MakeMaker 6.36;
+ use File::Spec;
+@@ -128,7 +128,7 @@
+ 
+ =head1 VERSION
+ 
+-version 1.2004
++version 1.2004_01
+ 
+ =head1 SYNOPSIS
+ 
+diff -Naur CPAN-Reporter-1.2004/lib/CPAN/Reporter.pm CPAN-Reporter-1.2004_01/lib/CPAN/Reporter.pm
+--- CPAN-Reporter-1.2004/lib/CPAN/Reporter.pm	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/lib/CPAN/Reporter.pm	2012-03-02 11:33:56.918329450 +1300
+@@ -1,6 +1,6 @@
+ use strict;
+ package CPAN::Reporter;
+-our $VERSION = '1.2004'; # VERSION
++our $VERSION = '1.2004_01'; # VERSION
+ 
+ use Config;
+ use Capture::Tiny qw/ capture tee_merged /;
+@@ -1480,7 +1480,7 @@
+ 
+ =head1 VERSION
+ 
+-version 1.2004
++version 1.2004_01
+ 
+ =head1 SYNOPSIS
+ 
+@@ -1683,7 +1683,7 @@
+ 
+ =back
+ 
+-=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders
++=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
+ 
+ =head1 SUPPORT
+ 
+@@ -1698,9 +1698,9 @@
+ This is open source software.  The code repository is available for
+ public review and contribution under the terms of the license.
+ 
+-L<https://github.com/dagolden/cpan-reporter>
++L<https://github.com/kentfredric/cpan-reporter>
+ 
+-  git clone https://github.com/dagolden/cpan-reporter.git
++  git clone https://github.com/kentfredric/cpan-reporter.git
+ 
+ =head1 AUTHOR
+ 
+diff -Naur CPAN-Reporter-1.2004/Makefile.PL CPAN-Reporter-1.2004_01/Makefile.PL
+--- CPAN-Reporter-1.2004/Makefile.PL	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/Makefile.PL	2012-03-02 11:33:56.937329537 +1300
+@@ -55,7 +55,7 @@
+     "strict" => 0,
+     "vars" => 0
+   },
+-  "VERSION" => "1.2004",
++  "VERSION" => "1.2004_01",
+   "test" => {
+     "TESTS" => "t/*.t"
+   }
+diff -Naur CPAN-Reporter-1.2004/META.json CPAN-Reporter-1.2004_01/META.json
+--- CPAN-Reporter-1.2004/META.json	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/META.json	2012-03-02 11:33:56.936329533 +1300
+@@ -4,7 +4,7 @@
+       "David Golden <dagolden@cpan.org>"
+    ],
+    "dynamic_config" : 0,
+-   "generated_by" : "Dist::Zilla version 4.300005, CPAN::Meta::Converter version 2.112621",
++   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120530",
+    "license" : [
+       "apache_2_0"
+    ],
+@@ -33,85 +33,85 @@
+       "runtime" : {
+          "requires" : {
+             "CPAN" : "1.9301",
+-            "CPAN::Version" : 0,
+-            "Capture::Tiny" : 0,
+-            "Carp" : 0,
+-            "Config" : 0,
++            "CPAN::Version" : "0",
++            "Capture::Tiny" : "0",
++            "Carp" : "0",
++            "Config" : "0",
+             "Config::Tiny" : "2.08",
+             "Devel::Autoflush" : "0.04",
+-            "Exporter" : 0,
++            "Exporter" : "0",
+             "ExtUtils::MakeMaker" : "6.36",
+-            "Fcntl" : 0,
+-            "File::Basename" : 0,
+-            "File::Find" : 0,
+-            "File::Glob" : 0,
++            "Fcntl" : "0",
++            "File::Basename" : "0",
++            "File::Find" : "0",
++            "File::Glob" : "0",
+             "File::HomeDir" : "0.58",
+-            "File::Path" : 0,
++            "File::Path" : "0",
+             "File::Spec" : "3.19",
+             "File::Temp" : "0.16",
+-            "IO::File" : 0,
++            "IO::File" : "0",
+             "IPC::Cmd" : "0.46",
+-            "Parse::CPAN::Meta" : 0,
+-            "Probe::Perl" : 0,
++            "Parse::CPAN::Meta" : "0",
++            "Probe::Perl" : "0",
+             "Test::Reporter" : "1.54",
+-            "constant" : 0,
++            "constant" : "0",
+             "perl" : "5.006",
+-            "strict" : 0,
+-            "vars" : 0
++            "strict" : "0",
++            "vars" : "0"
+          }
+       },
+       "test" : {
+          "requires" : {
+             "Archive::Tar" : "1.54",
+             "File::Copy::Recursive" : "0.35",
+-            "File::Spec::Functions" : 0,
++            "File::Spec::Functions" : "0",
+             "File::pushd" : "0.32",
+             "IO::CaptureOutput" : "1.03",
+-            "Test::Harness" : 0,
++            "Test::Harness" : "0",
+             "Test::More" : "0.62",
+-            "warnings" : 0
++            "warnings" : "0"
+          }
+       }
+    },
+    "provides" : {
+       "CPAN::Reporter" : {
+          "file" : "lib/CPAN/Reporter.pm",
+-         "version" : "1.2004"
++         "version" : "1.2004_01"
+       },
+       "CPAN::Reporter::API" : {
+          "file" : "lib/CPAN/Reporter/API.pm",
+-         "version" : "1.2004"
++         "version" : "1.2004_01"
+       },
+       "CPAN::Reporter::Config" : {
+          "file" : "lib/CPAN/Reporter/Config.pm",
+-         "version" : "1.2004"
++         "version" : "1.2004_01"
+       },
+       "CPAN::Reporter::FAQ" : {
+          "file" : "lib/CPAN/Reporter/FAQ.pm",
+-         "version" : "1.2004"
++         "version" : "1.2004_01"
+       },
+       "CPAN::Reporter::History" : {
+          "file" : "lib/CPAN/Reporter/History.pm",
+-         "version" : "1.2004"
++         "version" : "1.2004_01"
+       },
+       "CPAN::Reporter::PrereqCheck" : {
+          "file" : "lib/CPAN/Reporter/PrereqCheck.pm",
+-         "version" : "1.2004"
++         "version" : "1.2004_01"
+       }
+    },
+-   "release_status" : "stable",
++   "release_status" : "testing",
+    "resources" : {
+       "bugtracker" : {
+          "mailto" : "bug-cpan-reporter at rt.cpan.org",
+          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Reporter"
+       },
+-      "homepage" : "https://github.com/dagolden/cpan-reporter",
++      "homepage" : "https://github.com/kentfredric/cpan-reporter",
+       "repository" : {
+          "type" : "git",
+-         "url" : "https://github.com/dagolden/cpan-reporter.git",
+-         "web" : "https://github.com/dagolden/cpan-reporter"
++         "url" : "https://github.com/kentfredric/cpan-reporter.git",
++         "web" : "https://github.com/kentfredric/cpan-reporter"
+       }
+    },
+-   "version" : "1.2004"
++   "version" : "1.2004_01"
+ }
+ 
+diff -Naur CPAN-Reporter-1.2004/META.yml CPAN-Reporter-1.2004_01/META.yml
+--- CPAN-Reporter-1.2004/META.yml	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/META.yml	2012-03-02 11:33:56.930329504 +1300
+@@ -14,7 +14,7 @@
+ configure_requires:
+   ExtUtils::MakeMaker: 6.30
+ dynamic_config: 0
+-generated_by: 'Dist::Zilla version 4.300005, CPAN::Meta::Converter version 2.112621'
++generated_by: 'Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120530'
+ license: apache
+ meta-spec:
+   url: http://module-build.sourceforge.net/META-spec-v1.4.html
+@@ -31,22 +31,22 @@
+ provides:
+   CPAN::Reporter:
+     file: lib/CPAN/Reporter.pm
+-    version: 1.2004
++    version: 1.2004_01
+   CPAN::Reporter::API:
+     file: lib/CPAN/Reporter/API.pm
+-    version: 1.2004
++    version: 1.2004_01
+   CPAN::Reporter::Config:
+     file: lib/CPAN/Reporter/Config.pm
+-    version: 1.2004
++    version: 1.2004_01
+   CPAN::Reporter::FAQ:
+     file: lib/CPAN/Reporter/FAQ.pm
+-    version: 1.2004
++    version: 1.2004_01
+   CPAN::Reporter::History:
+     file: lib/CPAN/Reporter/History.pm
+-    version: 1.2004
++    version: 1.2004_01
+   CPAN::Reporter::PrereqCheck:
+     file: lib/CPAN/Reporter/PrereqCheck.pm
+-    version: 1.2004
++    version: 1.2004_01
+ requires:
+   CPAN: 1.9301
+   CPAN::Version: 0
+@@ -76,6 +76,6 @@
+   vars: 0
+ resources:
+   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Reporter
+-  homepage: https://github.com/dagolden/cpan-reporter
+-  repository: https://github.com/dagolden/cpan-reporter.git
+-version: 1.2004
++  homepage: https://github.com/kentfredric/cpan-reporter
++  repository: https://github.com/kentfredric/cpan-reporter.git
++version: 1.2004_01
+diff -Naur CPAN-Reporter-1.2004/README CPAN-Reporter-1.2004_01/README
+--- CPAN-Reporter-1.2004/README	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/README	2012-03-02 11:33:56.937329537 +1300
+@@ -2,7 +2,7 @@
+     CPAN::Reporter - Adds CPAN Testers reporting to CPAN.pm
+ 
+ VERSION
+-    version 1.2004
++    version 1.2004_01
+ 
+ SYNOPSIS
+     From the CPAN shell:
+@@ -176,9 +176,9 @@
+     This is open source software. The code repository is available for
+     public review and contribution under the terms of the license.
+ 
+-    <https://github.com/dagolden/cpan-reporter>
++    <https://github.com/kentfredric/cpan-reporter>
+ 
+-      git clone https://github.com/dagolden/cpan-reporter.git
++      git clone https://github.com/kentfredric/cpan-reporter.git
+ 
+ AUTHOR
+     David Golden <dagolden@cpan.org>
+diff -Naur CPAN-Reporter-1.2004/xt/author/pod-spell.t CPAN-Reporter-1.2004_01/xt/author/pod-spell.t
+--- CPAN-Reporter-1.2004/xt/author/pod-spell.t	2012-02-14 10:25:22.000000000 +1300
++++ CPAN-Reporter-1.2004_01/xt/author/pod-spell.t	2012-03-02 11:33:56.922329468 +1300
+@@ -1,4 +1,5 @@
+ #!perl
++
+ # This test is generated by Dist::Zilla::Plugin::Test::PodSpelling
+ 
+ use Test::More;
+@@ -34,4 +35,12 @@
+ wiki
+ David
+ Golden
++lib
++CPAN
++Reporter
++History
++Config
++PrereqCheck
++API
++FAQ
+ 
