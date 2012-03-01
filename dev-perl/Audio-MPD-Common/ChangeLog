@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Audio-MPD-Common
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Audio-MPD-Common-1.120.610 (01 Mar 2012)
+
+  01 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  +Audio-MPD-Common-1.120.610.ebuild:
+  Version Bump
 
   06 May 2011; Kent Fredric <kentfredric@gmail.com>
   -Audio-MPD-Common-9999.ebuild:
