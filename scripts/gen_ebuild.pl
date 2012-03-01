@@ -168,6 +168,7 @@ my $licmap = {
   mit        => [qw( MIT )],
   lgpl_2_1   => [qw( LGPL-2.1 )],
   artistic_2 => [qw( Artistic-2 )],
+  gpl_3      => [qw( GPL-3 )],
 };
 
 for my $lic ( @{ $release_info->{license} } ) {
