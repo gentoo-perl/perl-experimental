@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Adam
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Adam-0.910.0 (02 Mar 2012)
+
+  02 Mar 2012; Kent Fredric <kentfredric@gmail.com> +Adam-0.910.0.ebuild,
+  +metadata.xml:
+  Initial addition to overlay
+
