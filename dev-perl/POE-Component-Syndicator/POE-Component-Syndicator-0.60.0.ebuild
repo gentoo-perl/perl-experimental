@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.300.0
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
 }
 perl_meta_build() {
 	# Test::More
