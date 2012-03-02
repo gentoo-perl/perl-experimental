@@ -24,7 +24,13 @@ use Sub::Exporter -setup => { exports => [ coloriser => \&build_coloriser ], };
 
 use Term::ANSIColor qw( :constants );
 
-sub ITALIC() { "\e[3m" }
+BEGIN {
+  $Term::ANSIColor::ATTRIBUTES{italic} = 3;
+}
+
+sub ITALIC() {
+  Term::ANSIColor::ITALIC(@_);
+}
 
 sub build_coloriser {
   my ( $class, $name, $args ) = @_;
