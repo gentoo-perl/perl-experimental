@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/POE-Component-IRC
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*POE-Component-IRC-6.780.0 (02 Mar 2012)
+
+  02 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  +POE-Component-IRC-6.780.0.ebuild, +metadata.xml:
+  Added for Adam
+
