@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-AutoVersion-Relative-0.10.371.180.ebuild:
+  Gone on CPAN
+
 *Dist-Zilla-Plugin-AutoVersion-Relative-0.30.0.10 (23 Feb 2012)
 
   23 Feb 2012; Kent Fredric <kentfredric@gmail.com>
