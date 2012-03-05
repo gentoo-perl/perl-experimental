@@ -3,7 +3,7 @@
 eval 'echo "Called with something not perl"' && exit 1    # Non-Perl protection.
   if 0;
 
-use 5.14.2;
+use 5.12.2;
 use strict;
 use warnings;
 
