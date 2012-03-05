@@ -1,0 +1,44 @@
+.. vim: textwidth=79 ts=4 et sw=4 syntax=rst
+
+About
+=====
+These files represent the association between gentoo packages and upstream CPAN
+Distribution names.
+
+The general format is JSON, and the data it represents is like this::
+
+
+    {
+        'overlay-name': {
+            'cpan-name' : 'gentoo-package-name'
+            ....
+        }
+    }
+
+The `overlay-name` is taken from `$ROOT/profiles/repo_name`,
+and for each package ( `gentoo-package-name` ), an identifier relating to an
+upsteam CPAN distribution is determined ( `cpan-name` ) from reading
+`metadata.xml` and extracting `/pkgmeta/upstream/remote-id[type=cpan]` from it.
+
+This is of course not guaranteed to be reliable to produce all the cpan-names
+for all packages we have, but thats an acceptable caveat.
+
+Format wise, its permissible to have multiple `overlay-name`'s in the same
+file, representing multiple graphs for multiple repositories.
+
+Do note however, that the intended usage of these files in the `distmap`
+directory is to aggregate their values into a singular `Hash` prior to usage,
+so if 2 files emit the same `overlay-name`, one will likely take precidence (
+or possibly produce an error, the code doesn't exist yet.
+
+
+Metadata
+========
+
+:Date: 2012-03-06
+:Authors: - `Kent Fredric`_
+          
+
+.. _Kent Fredric: kentfredric@gmail.com
+
+
