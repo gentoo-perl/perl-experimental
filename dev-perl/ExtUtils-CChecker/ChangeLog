@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/ExtUtils-CChecker
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*ExtUtils-CChecker-0.80.0 (27 Mar 2012)
+
+  27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  +ExtUtils-CChecker-0.80.0.ebuild:
+  Version Bump
 
 *ExtUtils-CChecker-0.70.0 (24 Apr 2011)
 
