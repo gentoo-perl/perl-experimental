@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Mar 2012; Kent Fredric <kentfredric@gmail.com> PSGI-1.30.0.ebuild:
+  Fix LICENSE
+
 *PSGI-1.30.0 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com> -PSGI-1.03.ebuild,

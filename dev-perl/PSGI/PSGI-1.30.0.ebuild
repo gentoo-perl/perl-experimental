@@ -7,7 +7,7 @@ MODULE_VERSION="1.03"
 inherit perl-module
 
 DESCRIPTION="Perl Web Server Gateway Interface Specification"
-LICENSE="|| ( Artistic GPL-2 )"
+LICENSE="CCPL-ShareAlike-1.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
