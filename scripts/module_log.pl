@@ -3,7 +3,7 @@
 eval 'echo "Called with something not perl"' && exit 1    # Non-Perl protection.
   if 0;
 
-use 5.14.2;
+use 5.12.2;
 use strict;
 use warnings;
 use FindBin;
@@ -72,7 +72,7 @@ EOF
 
 use Data::Dump qw( pp );
 
-my ($release) = shift( $optparse->extra_opts );
+my ($release) = shift( @{$optparse->extra_opts} );
 
 my (@data) = metacpan->find_dist_simple( $release, $optparse->long_opts );
 if ( not $optparse->long_opts->{dump} ) {
