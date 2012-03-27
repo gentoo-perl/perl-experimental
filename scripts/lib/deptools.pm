@@ -78,11 +78,17 @@ sub _vmap_overlay_native {
   );
 }
 
+sub _vmap_overlay_strange {
+  return (
+    'ExtUtils-Depends' => perl 'extutils-depends',
+  );
+}
+
 sub _vmap {
   return (
     ( map { $_, lang $_ } _vmap_langs() ),
     ( map { $_, virtual $_ } _vmap_perl_native(), _vmap_overlay_native() ),
-    _vmap_perl_strange(),
+    _vmap_perl_strange(), _vmap_overlay_strange
   );
 }
 
