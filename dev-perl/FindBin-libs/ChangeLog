@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*FindBin-libs-1.640.0 (27 Mar 2012)
+
+  27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
+  +FindBin-libs-1.640.0.ebuild:
+  Version Bump
+
   25 Feb 2012; Kent Fredric <kentfredric@gmail.com>
   -FindBin-libs-1.520.0.ebuild:
   Gone on CPAN
