@@ -64,10 +64,6 @@ dual_scripts() {
 	src_remove_dual_man  perl-core/podlators          2.4.0        /usr/share/man/man1/perlpodstyle.1
 }
 
-pkg_pretend() {
-	check_rebuild
-}
-
 pkg_setup() {
 	case ${CHOST} in
 		*-freebsd*)   osname="freebsd" ;;
