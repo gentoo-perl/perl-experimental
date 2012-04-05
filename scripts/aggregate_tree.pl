@@ -52,25 +52,28 @@ else {
   $dest = $file->openw( iomode => ':utf8' );
 }
 
+my $cat; 
+$|++;
 $overlay->iterate(
   'packages' => sub {
     my ( $self, $c ) = @_;
     my $CP = $c->{category_name} . '/' . $c->{package_name};
     my $xmlfile = $root->subdir( $c->{category_name}, $c->{package_name} )->file('metadata.xml');
     if ( not -e $xmlfile ) {
-      warn "No metadata.xml for $CP\n";
+      warn "\e[31mNo metadata.xml for $CP\e[0m\n";
       return;
     }
-
-    # warn "Processing $xmlfile\n";
+    if( $c->{category_name} ne $cat ) {
+      *STDERR->print("\nProcessing " . $c->{category_name}  . " :");
+      $cat = $c->{category_name};
+    }
+    *STDERR->print(".");
     my $XML = XML::Smart->new( $xmlfile->absolute()->stringify() );
     if ( not exists $XML->{pkgmetadata} ) {
-
-      #     warn "<pkgmetadata> missing in $xmlfile\n";
+      warn "\e[31m<pkgmetadata> missing in $xmlfile\e[0m\n";
       return;
     }
     if ( not exists $XML->{pkgmetadata}->{upstream} ) {
-
       # warn "<pkgmetadata>/<upstream> missing in $xmlfile\n";
       return;
     }
@@ -91,6 +94,7 @@ $overlay->iterate(
     }
     my $upstream = $XML->{pkgmetadata}->{upstream}->{'remote-id'}->content();
     $packages->{$upstream} = $CP;
+    *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
   }
 );
 
