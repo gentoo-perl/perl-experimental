@@ -533,6 +533,7 @@
       "Ima-DBI" : "dev-perl/Ima-DBI",
       "Image-Imlib2" : "dev-perl/Image-Imlib2",
       "Image-Info" : "dev-perl/ImageInfo",
+      "Image-Scale" : "dev-perl/Image-Scale",
       "Image-Size" : "dev-perl/ImageSize",
       "Inline" : "dev-perl/Inline",
       "Inline-Files" : "dev-perl/inline-files",
