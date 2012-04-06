@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RKITOVER
-MODULE_VERSION=0.07017
+MODULE_VERSION=0.07021
 inherit perl-module
 
 DESCRIPTION='Create a DBIx::Class::Schema based on a database'
@@ -12,8 +12,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
 	# Config::Any
@@ -26,8 +26,8 @@ perl_meta_build() {
 	echo \>=dev-perl/DBI-1.560.0
 	# DBIx::Class::IntrospectableM2M
 	echo dev-perl/DBIx-Class-IntrospectableM2M
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# File::Copy
 	echo dev-lang/perl
 	# File::Path 2.07 ( 2.70.0 )
@@ -72,6 +72,8 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-Exporter-5.630.0
 	# File::Spec
 	echo virtual/perl-File-Spec
+	# Hash::Merge
+	echo dev-perl/Hash-Merge
 	# Lingua::EN::Inflect::Number 1.1 ( 1.100.0 )
 	echo \>=dev-perl/Lingua-EN-Inflect-Number-1.100.0
 	# Lingua::EN::Inflect::Phrase 0.02 ( 0.20.0 )

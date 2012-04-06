@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*DBIx-Class-Schema-Loader-0.70.210 (06 Apr 2012)
+
+  06 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-Schema-Loader-0.70.170.ebuild,
+  +DBIx-Class-Schema-Loader-0.70.210.ebuild:
+  Version Bump
+
 *DBIx-Class-Schema-Loader-0.70.170 (14 Feb 2012)
 
   14 Feb 2012; Kent Fredric <kentfredric@gmail.com>
