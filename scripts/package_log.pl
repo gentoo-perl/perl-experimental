@@ -92,7 +92,7 @@ $search->{sort} = [
   #   { 'author' => 'asc', },
   { 'date' => 'desc', },
 ];
-$search->{size} = 10000;
+$search->{size} = 5000;
 
 $search->{fields} = [qw( author name date distribution version )];
 

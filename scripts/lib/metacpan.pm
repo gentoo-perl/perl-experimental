@@ -126,7 +126,7 @@ sub find_dist_all {
       ),
       { 'file.date' => 'desc' },
     ],
-    size => 9999,
+    size => 5000,
   };
 
   if ( not defined $opts->{method}
