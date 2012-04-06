@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=GSHANK
-MODULE_VERSION=0.40004
+MODULE_VERSION=0.40005
 inherit perl-module
 
 DESCRIPTION='HTML forms using Moose'
