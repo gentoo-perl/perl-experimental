@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=TOKUHIROM
-MODULE_VERSION=0.15
+MODULE_VERSION=0.16
 inherit perl-module
 
 DESCRIPTION='HTML::TreeBuilder and XPath compatible interface with libxml'
