@@ -19,24 +19,25 @@ sub _vmap_langs {
 # ::gentoo virtual/core things
 sub _vmap_perl_native {
   return (
-    'Archive-Tar',       'Attribute-Handlers',   'AutoLoader',           'CGI',
-    'Class-ISA',         'Compress-Raw-Bzip2',   'Compress-Raw-Zlib',    'CPAN-Meta',
-    'CPAN-Meta-YAML',    'Data-Dumper',          'DB_File',              'Digest-MD5',
-    'Digest-SHA',        'Encode',               'ExtUtils-CBuilder',    'ExtUtils-Command',
-    'ExtUtils-Install',  'ExtUtils-MakeMaker',   'ExtUtils-Manifest',    'ExtUtils-ParseXS',
-    'File-Path',         'File-Temp',            'Filter',               'Getopt-Long',
-    'i18n-langtags',     'IO',                   'IO-Compress',          'IO-Zlib',
-    'IPC-Cmd',           'JSON-PP',              'libnet',               'Locale-MakeText-Simple',
-    'Math-BigInt',       'Math-BigInt-FastCalc', 'Memoize',              'MIME-Base64',
-    'Module-Build',      'Module-CoreList',      'Module-Load',          'Module-Load-Conditional',
-    'Module-Loaded',     'Module-Metadata',      'Module-Pluggable',     'Package-Constants',
-    'Params-Check',      'parent',               'Parse-CPAN-Meta',      'Perl-OSType',
-    'Pod-Escapes',       'podlators',            'Pod-Simple',           'Safe',
-    'Scalar-List-Utils', 'Storable',             'Switch',               'Sys-Syslog',
-    'Term-ANSIColor',    'Test',                 'Test-Harness',         'Test-Simple',
-    'Text-Balanced',     'Text-Tabs+Wrap',       'Thread-Queue',         'threads',
-    'Thread-Semaphore',  'threads-shared',       'Time-HiRes',           'Time-Local',
-    'Time-Piece',        'version',              'Version-Requirements', 'XSLoader',
+    'Archive-Tar',             'Attribute-Handlers', 'AutoLoader',           'CGI',
+    'Class-ISA',               'Compress-Raw-Bzip2', 'Compress-Raw-Zlib',    'CPAN-Meta',
+    'CPAN-Meta-Requirements',  'CPAN-Meta-YAML',     'Data-Dumper',          'DB_File',
+    'Digest-MD5',              'Digest-SHA',         'Encode',               'ExtUtils-CBuilder',
+    'ExtUtils-Command',        'ExtUtils-Install',   'ExtUtils-MakeMaker',   'ExtUtils-Manifest',
+    'ExtUtils-ParseXS',        'File-Path',          'File-Temp',            'Filter',
+    'Getopt-Long',             'i18n-langtags',      'IO',                   'IO-Compress',
+    'IO-Zlib',                 'IPC-Cmd',            'JSON-PP',              'libnet',
+    'Locale-MakeText-Simple',  'Math-BigInt',        'Math-BigInt-FastCalc', 'Memoize',
+    'MIME-Base64',             'Module-Build',       'Module-CoreList',      'Module-Load',
+    'Module-Load-Conditional', 'Module-Loaded',      'Module-Metadata',      'Module-Pluggable',
+    'Package-Constants',       'Params-Check',       'parent',               'Parse-CPAN-Meta',
+    'Perl-OSType',             'Pod-Escapes',        'podlators',            'Pod-Simple',
+    'Safe',                    'Scalar-List-Utils',  'Storable',             'Switch',
+    'Sys-Syslog',              'Term-ANSIColor',     'Test',                 'Test-Harness',
+    'Test-Simple',             'Text-Balanced',      'Text-Tabs+Wrap',       'Thread-Queue',
+    'threads',                 'Thread-Semaphore',   'threads-shared',       'Time-HiRes',
+    'Time-Local',              'Time-Piece',         'version',              'Version-Requirements',
+    'XSLoader',
   );
 }
 
@@ -48,6 +49,7 @@ sub _vmap_perl_strange {
     'Locale-Maketext' => virtual 'locale-maketext',
     'Net-Ping'        => virtual 'net-ping',
     'Pod-Parser'      => virtual 'PodParser',
+    'I18N-LangTags'   => virtual 'i18n-langtags',
     'Config-General'  => perl 'config-general',
     'CGI-Simple'      => perl 'Cgi-Simple',
     'Text-Template'   => perl 'text-template',
@@ -57,6 +59,17 @@ sub _vmap_perl_strange {
     'Net-Server'      => perl 'net-server',
     'Image-ExifTool'  => 'media-libs/exiftool',
     'Padre'           => 'app-editors/padre',
+    'App-SVN-Bisect'  => 'dev-util/App-SVN-Bisect',
+    'GBrowse'         => 'sci-biology/GBrowse',
+    'XML-XSH2'        => 'app-editors/XML-XSH2',
+    'ack'             => 'sys-apps/ack',
+    'Autodia'         => 'dev-utils/autodia',
+    'BioPerl'         => 'sci-biology/bioperl',
+    'BioPerl-DB'      => 'sci-biology/bioperl-db',
+    'BioPerl-Network' => 'sci-biology/bioperl-network',
+    'BioPerl-Run'     => 'sci-biology/bioperl-run',
+    'Snapback2'       => 'app-backup/snapback2',
+    'SVK'             => 'dev-vcs/svk',
   );
 }
 
@@ -79,9 +92,7 @@ sub _vmap_overlay_native {
 }
 
 sub _vmap_overlay_strange {
-  return (
-    'ExtUtils-Depends' => perl 'extutils-depends',
-  );
+  return ( 'ExtUtils-Depends' => perl 'extutils-depends', );
 }
 
 sub _vmap {
