@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=MSTROUT
-MODULE_VERSION=5.90010
+MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION=5.90011
 inherit perl-module
 
 DESCRIPTION='The Catalyst Framework Runtime'
@@ -12,16 +12,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
 	# Class::Data::Inheritable
 	echo dev-perl/Class-Data-Inheritable
 	# Data::Dump
 	echo dev-perl/Data-Dump
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# HTTP::Request::Common
 	echo dev-perl/HTTP-Message
 	# Test::Exception
@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# CGI::Simple::Cookie 1.109 ( 1.109.0 )
 	echo \>=dev-perl/Cgi-Simple-1.109.0
 	# Carp
-	# echo dev-perl/Carp
+	# echo virtual/perl-Carp
 	# Class::C3::Adopt::NEXT 0.07 ( 0.70.0 )
 	echo \>=dev-perl/Class-C3-Adopt-NEXT-0.70.0
 	# Class::Load 0.12 ( 0.120.0 )
