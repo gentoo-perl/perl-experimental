@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Test-DistManifest
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  -Test-DistManifest-1.9.0.ebuild, -Test-DistManifest-1.10.0_rc.ebuild:
+  This dist is now superceded by ::gentoo, but gentoo still has old-style
+  versioning :( 
+
 
 *Test-DistManifest-1.11.0 (24 Apr 2011)
 
