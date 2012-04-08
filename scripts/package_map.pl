@@ -72,8 +72,9 @@ for my $result ( @{ $results->{hits}->{hits} } ) {
   my $cdistrib = $fields->{distribution};
   $cversion =~ s/^${cdistrib}-//;
 
-  $fields->{canon_version} = $cversion;
-  $fields->{gentoo_version} = scalar try { gv( $cversion , { lax => 1 } ) };
+  $fields->{version_canon} = $cversion;
+  $fields->{version_gentoo} = scalar try { gv( $cversion , { lax => 1 } ) };
+  $fields->{archive_canon} = $fields->{author} . '/' . $fields->{archive};
   $data->{ $cdistrib } = [] unless exists $data->{ $cdistrib };
   push @{ $data->{ $cdistrib } }, $fields ;
 }
