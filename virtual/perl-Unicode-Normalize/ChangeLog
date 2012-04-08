@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  -perl-Unicode-Normalize-1.130.0.ebuild:
+  Gone on CPAN
+
 *perl-Unicode-Normalize-1.140.0 (06 Apr 2012)
 
   06 Apr 2012; Kent Fredric <kentfredric@gmail.com>
