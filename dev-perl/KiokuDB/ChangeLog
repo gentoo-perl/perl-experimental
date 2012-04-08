@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; Kent Fredric <kentfredric@gmail.com> -KiokuDB-0.500.0.ebuild:
+  Gone on CPAN
+
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com> KiokuDB-0.420.0.ebuild,
   KiokuDB-0.480.0.ebuild, KiokuDB-0.490.0.ebuild, KiokuDB-0.500.0.ebuild,
   KiokuDB-0.510.0.ebuild, KiokuDB-0.520.0.ebuild:
