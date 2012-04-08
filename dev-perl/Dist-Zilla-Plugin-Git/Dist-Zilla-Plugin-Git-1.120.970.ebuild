@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=JQUELIN
-MODULE_VERSION=1.120860
+MODULE_VERSION=1.120970
 inherit perl-module
 
 DESCRIPTION='update your git repository after release'
@@ -36,10 +36,16 @@ perl_meta_runtime() {
 	echo dev-perl/Dist-Zilla
 	# Dist::Zilla::Role::BeforeRelease
 	echo dev-perl/Dist-Zilla
+	# Dist::Zilla::Role::FileGatherer
+	echo dev-perl/Dist-Zilla
 	# Dist::Zilla::Role::PluginBundle
 	echo dev-perl/Dist-Zilla
 	# Dist::Zilla::Role::VersionProvider
 	echo dev-perl/Dist-Zilla
+	# File::HomeDir
+	echo dev-perl/File-HomeDir
+	# File::Spec
+	echo virtual/perl-File-Spec
 	# File::Spec::Functions
 	echo virtual/perl-File-Spec
 	# File::Temp
@@ -64,6 +70,10 @@ perl_meta_runtime() {
 	echo dev-perl/MooseX-Has-Sugar
 	# MooseX::Types::Moose
 	echo dev-perl/MooseX-Types
+	# MooseX::Types::Path::Class
+	echo dev-perl/MooseX-Types-Path-Class
+	# Path::Class
+	echo dev-perl/Path-Class
 	# Path::Class::Dir
 	echo dev-perl/Path-Class
 	# String::Formatter
@@ -98,8 +108,8 @@ perl_meta_test() {
 	echo dev-perl/File-Which
 	# File::pushd
 	echo dev-perl/File-pushd
-	# Path::Class
-	echo dev-perl/Path-Class
+	# Test::DZil
+	echo dev-perl/Dist-Zilla
 	# Test::Exception
 	echo dev-perl/Test-Exception
 	# Test::More 0.88 ( 0.880.0 )
