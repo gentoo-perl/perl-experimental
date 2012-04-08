@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/MooseX-NonMoose
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  -MooseX-NonMoose-0.50.0.ebuild, -MooseX-NonMoose-0.70.0.ebuild,
+  -MooseX-NonMoose-0.80.0.ebuild, -MooseX-NonMoose-0.90.0.ebuild,
+  -MooseX-NonMoose-0.110.0.ebuild, -MooseX-NonMoose-0.140.0.ebuild,
+  -MooseX-NonMoose-0.150.0.ebuild, -MooseX-NonMoose-0.160.0.ebuild,
+  -MooseX-NonMoose-0.170.0.ebuild:
+  Gone on CPAN
 
 *MooseX-NonMoose-0.220.0 (14 May 2011)
 
