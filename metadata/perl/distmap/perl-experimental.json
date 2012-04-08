@@ -725,6 +725,7 @@
       "VCI" : "dev-perl/VCI",
       "Version-Next" : "dev-perl/Version-Next",
       "WWW-Facebook-API" : "dev-perl/WWW-Facebook-API",
+      "WWW-Mechanize-Cached" : "dev-perl/WWW-Mechanize-Cached",
       "WWW-Mechanize-TreeBuilder" : "dev-perl/WWW-Mechanize-TreeBuilder",
       "WWW-Search" : "dev-perl/WWW-Search",
       "WWW-Search-PubMed" : "dev-perl/WWW-Search-PubMed",
