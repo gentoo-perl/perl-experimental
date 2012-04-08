@@ -1,0 +1,3 @@
+[submodule "metadata/perl"]
+	path = metadata/perl
+	url = git@github.com:gentoo-perl/perl-exprimental-metadata.git
