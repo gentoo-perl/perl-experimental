@@ -447,7 +447,6 @@
       "Gtk2-Ex-Simple-List" : "dev-perl/Gtk2-Ex-Simple-List",
       "Gtk2-GladeXML" : "dev-perl/gtk2-gladexml",
       "Gtk2-ImageView" : "dev-perl/Gtk2-ImageView",
-      "Gtk2-MozEmbed" : "dev-perl/Gtk2-MozEmbed",
       "Gtk2-Notify" : "dev-perl/Gtk2-Notify",
       "Gtk2-TrayIcon" : "dev-perl/gtk2-trayicon",
       "Gtk2-TrayManager" : "dev-perl/gtk2-traymanager",
