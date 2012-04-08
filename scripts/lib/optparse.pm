@@ -12,18 +12,24 @@ use Moose;
 has 'help' => ( isa => 'CodeRef',  is => 'rw', required => 1 );
 has 'argv' => ( isa => 'ArrayRef', is => 'rw', required => 1 );
 
-has 'long_opts'  => ( isa => 'HashRef',  is => 'rw', 'lazy_build' => 1 ,
-  traits => [qw( Hash )],
-  handles => { 
+has 'long_opts' => (
+  isa          => 'HashRef',
+  is           => 'rw',
+  'lazy_build' => 1,
+  traits       => [qw( Hash )],
+  handles      => {
     has_long_opt => 'exists',
-    long_opt => 'get',
+    long_opt     => 'get',
   },
 );
-has 'opts'       => ( isa => 'HashRef',  is => 'rw', lazy_build   => 1, 
-  traits => [qw( Hash )],
-  handles => { 
+has 'opts' => (
+  isa        => 'HashRef',
+  is         => 'rw',
+  lazy_build => 1,
+  traits     => [qw( Hash )],
+  handles    => {
     has_opt => 'exists',
-    opt => 'get',
+    opt     => 'get',
   },
 );
 has 'extra_opts' => ( isa => 'ArrayRef', is => 'rw', 'lazy_build' => 1 );
@@ -32,7 +38,6 @@ sub _build_extra_opts {
   my $self = shift;
   return [ grep { $_ !~ /^--(.+)/ and $_ !~ /^-(\w+)/ } @{ $self->argv } ];
 }
-
 
 sub _build_opts {
   my $self = shift;
