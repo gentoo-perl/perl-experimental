@@ -33,8 +33,6 @@ my $size = 300;
 my $metadata = $root->subdir( 'metadata', 'perl' );
 my $distmap = $metadata->subdir('distmap');
 
-#my $distinfo = $metadata->subdir('distinfo');
-$distinfo->mkpath();
 my (@json_files) = grep { not $_->is_dir and $_->basename =~ /\.json$/ } $distmap->children();
 
 use JSON;
@@ -90,7 +88,10 @@ $ENV{WWW_MECH_NOCACHE} = 1;
 my $results_string = mcpan->ua->request(
   'POST',
   mcpan->base_url . 'release/_search?search_type=scan&scroll=30s&size=' . $size,
-  { content => $encoder->encode($search), }
+  {
+    headers => { 'Accept-Encoding' => 'gzip', },
+    content => $encoder->encode($search),
+  }
 );
 
 say $results_string->{content};
@@ -125,8 +126,11 @@ exit 0;
 
 sub scroll {
   my ($id) = @_;
-  my $result =
-    mcpan->ua->request( 'GET', 'http://api.metacpan.org/_search/scroll/?scroll=30s&size=' . $size . '&scroll_id=' . $id );
+  my $result = mcpan->ua->request(
+    'GET',
+    'http://api.metacpan.org/_search/scroll/?scroll=30s&size=' . $size . '&scroll_id=' . $id,
+    { headers => { 'Accept-Encoding' => 'gzip', } }
+  );
 
   my $data = $decoder->decode( $result->{content} );
   return $data, $data->{_scroll_id};
