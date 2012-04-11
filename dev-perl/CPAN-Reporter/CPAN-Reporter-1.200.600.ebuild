@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=DAGOLDEN
-MODULE_VERSION=1.2005
+MODULE_VERSION=1.2006
 inherit perl-module
 
 DESCRIPTION='Adds CPAN Testers reporting to CPAN.pm'
@@ -52,8 +52,8 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-File-Temp-0.160.0
 	# IO::File
 	echo virtual/perl-IO
-	# IPC::Cmd 0.46 ( 0.460.0 )
-	echo \>=virtual/perl-IPC-Cmd-0.460.0
+	# IPC::Cmd 0.76 ( 0.760.0 )
+	echo \>=virtual/perl-IPC-Cmd-0.760.0
 	# Parse::CPAN::Meta
 	echo virtual/perl-Parse-CPAN-Meta
 	# Probe::Perl

@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*CPAN-Reporter-1.200.600 (11 Apr 2012)
+
+  11 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  CPAN-Reporter-1.200.500.ebuild, +CPAN-Reporter-1.200.600.ebuild:
+  Version Bump
+
 *CPAN-Reporter-1.200.500 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
