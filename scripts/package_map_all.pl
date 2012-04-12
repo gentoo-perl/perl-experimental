@@ -28,7 +28,7 @@ if ( $optparse->has_long_opt('root') ) {
   $root = Path::Class::Dir->new( $optparse->long_opt('root') );
 }
 
-my $size = 300;
+my $size = 1000;
 
 my $metadata = $root->subdir( 'metadata', 'perl' );
 my $distmap = $metadata->subdir('distmap');
