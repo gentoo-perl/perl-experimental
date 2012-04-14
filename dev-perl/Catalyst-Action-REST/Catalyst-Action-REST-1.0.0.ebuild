@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=0.99
+MODULE_VERSION=1.00
 inherit perl-module
 
 DESCRIPTION='Automated REST Method Dispatching'
@@ -18,6 +18,8 @@ perl_meta_configure() {
 perl_meta_build() {
 	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
+	# Test::More 0.88 ( 0.880.0 )
+	echo \>=virtual/perl-Test-Simple-0.88
 }
 perl_meta_runtime() {
 	# Catalyst::Runtime 5.80030 ( 5.800.300 )
