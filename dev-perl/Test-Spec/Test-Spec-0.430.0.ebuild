@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=PHILIP
-MODULE_VERSION=0.42
+MODULE_VERSION=0.43
 inherit perl-module
 
 DESCRIPTION='Write tests in a declarative specification style'
