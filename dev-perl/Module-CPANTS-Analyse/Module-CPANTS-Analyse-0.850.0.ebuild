@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	>=virtual/perl-Module-Pluggable-2.96
 	>=dev-perl/IO-Capture-0.05
 	>=dev-perl/Array-Diff-0.40.0
-	>=dev-perl/Test-YAML-Meta-0.110
+	>=dev-perl/Test-YAML-Meta-0.110.0
 	>=virtual/perl-version-0.73
 	dev-perl/List-MoreUtils
 	dev-perl/File-Find-Rule
