@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/KinoSearch
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*KinoSearch-0.314.0 (16 Apr 2012)
+
+  16 Apr 2012; Kent Fredric <kentfredric@gmail.com> KinoSearch-0.313.0.ebuild,
+  +KinoSearch-0.314.0.ebuild:
+  Version Bump
 
   26 Aug 2011; Kent Fredric <kentfredric@gmail.com> -KinoSearch-0.311.0.ebuild,
   -KinoSearch-0.312.0.ebuild:

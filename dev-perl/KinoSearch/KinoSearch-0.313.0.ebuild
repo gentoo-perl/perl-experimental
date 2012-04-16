@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ COMMOND_DEPEND="
 	>=dev-perl/Lingua-Stem-Snowball-0.952.0
 	>=dev-perl/Lingua-StopWords-0.09
 	dev-perl/Parse-RecDescent
-	>=dev-perl/JSON-XS-1.53
+	>=dev-perl/JSON-XS-1.530.0
 "
 RDEPEND="
 	${COMMON_DEPEND}
