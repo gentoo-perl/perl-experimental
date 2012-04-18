@@ -34,11 +34,12 @@ if ( defined $opts->long_opts->{root} ) {
 }
 my $overlay = Gentoo::Overlay->new( path => $root );
 
+my $overlay_name = $overlay->name;
 use JSON;
 
 my $data;
 
-my $packages = $data->{ $overlay->name } = {};
+my $packages = $data->{ $overlay_name } = {};
 
 my $encoder = JSON->new()->pretty->utf8->canonical;
 
@@ -52,7 +53,7 @@ else {
   $dest = $file->openw( iomode => ':utf8' );
 }
 
-my $cat; 
+my $cat;
 $|++;
 $overlay->iterate(
   'packages' => sub {
@@ -63,7 +64,7 @@ $overlay->iterate(
       warn "\e[31mNo metadata.xml for $CP\e[0m\n";
       return;
     }
-    if( $c->{category_name} ne $cat ) {
+    if( not $cat or $c->{category_name} ne $cat ) {
       *STDERR->print("\nProcessing " . $c->{category_name}  . " :");
       $cat = $c->{category_name};
     }
@@ -93,7 +94,26 @@ $overlay->iterate(
       return;
     }
     my $upstream = $XML->{pkgmetadata}->{upstream}->{'remote-id'}->content();
-    $packages->{$upstream} = $CP;
+    if ( not defined $packages->{$upstream} ) {
+      $packages->{$upstream} = [];
+    }
+    my $versions = [];
+    my $record = {
+      category => $c->{category_name},
+      package  => $c->{package_name},
+      repository => $overlay_name,
+      versions_gentoo => $versions,
+    };
+    $c->{package}->iterate( ebuilds => sub {
+      my ( $self, $d ) = @_;
+      my $version = $d->{ebuild_name};
+      my $p = $c->{package_name};
+      $version =~ s/\.ebuild$//;
+      $version =~ s/^\Q${p}\E-//;
+      push @{$versions}, $version;
+    });
+    push @{ $packages->{$upstream} }, $record;
+
     *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
   }
 );
@@ -103,7 +123,7 @@ if ( not $opts->long_opts->{format} ) {
   $opts->long_opts->{format} = "JSON";
 }
 if ( $opts->long_opts->{format} eq "JSON" ) {
-  $out = $encoder->encode($data);
+  $out = $encoder->encode($packages);
 }
 elsif ( $opts->long_opts->{format} eq 'distlist' ) {
   $out = join "\n", keys %{$packages};
