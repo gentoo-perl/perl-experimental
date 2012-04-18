@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
-	<use>
-		<flag name="interesting">Install non-essential but interesting packages
+  <herd>perl</herd>
+  <use>
+    <flag name="interesting">Install non-essential but interesting packages
 			to help with diagnostics</flag>
-	</use>
+  </use>
+  <upstream>
+    <remote-id type="cpan">CPAN</remote-id>
+  </upstream>
 </pkgmetadata>
