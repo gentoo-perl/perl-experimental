@@ -40,16 +40,26 @@ my $decoder = JSON->new()->utf8->relaxed;
 my $encoder = JSON->new()->pretty->utf8->canonical;
 
 my %lookup;
+my %g_repos;
 
 {
   for my $file (@json_files) {
+    my %repos;
     say "* Reading " . $file->relative;
-    my $hash = $decoder->decode( scalar $file->slurp );
-    say "  Found " . ( scalar keys %{$hash} ) . " repositories indexed in " . $file->relative;
-    for my $repo ( keys %{$hash} ) {
-      my $nodes = $hash->{$repo};
-      say "   ${repo}: " . ( scalar keys %{$nodes} ) . " distributions";
-      $lookup{$_}++ for keys %{$nodes};
+    my $nodes = $decoder->decode( scalar $file->slurp );
+
+    say "   Found " . ( scalar keys %{$nodes} ) . " distributions";
+    for ( keys %{$nodes} ) {
+      my $records = $nodes->{$_};
+      $lookup{$_}++;
+      for my $rec ( @{ $records }) {
+        my $repo = $rec->{repository};
+        $repos{$repo}++;
+      }
+    }
+    say "   $_ : " . $repos{$_} for keys %repos;
+    for ( keys %repos ) {
+      $g_repos{$_} += $repos{$_};
     }
   }
   say "* Found: " . ( scalar keys %lookup ) . " unique distributions";
