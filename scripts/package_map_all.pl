@@ -28,7 +28,8 @@ if ( $optparse->has_long_opt('root') ) {
   $root = Path::Class::Dir->new( $optparse->long_opt('root') );
 }
 
-my $size = 1000;
+my $size = 500;
+my $scroll_time = '20m';
 
 my $metadata = $root->subdir( 'metadata', 'perl' );
 my $distmap = $metadata->subdir('distmap');
@@ -52,7 +53,7 @@ my %g_repos;
     for ( keys %{$nodes} ) {
       my $records = $nodes->{$_};
       $lookup{$_}++;
-      for my $rec ( @{ $records }) {
+      for my $rec ( @{$records} ) {
         my $repo = $rec->{repository};
         $repos{$repo}++;
       }
@@ -72,58 +73,17 @@ my %g_repos;
 
 my @dists = keys %lookup;
 
-my $search = {};
-$search->{query} = { constant_score => { filter => { terms => { distribution => [@dists] } } } };
-$search->{sort}   = [ { 'date' => 'desc', }, ];
-$search->{size}   = $size;
-$search->{fields} = [
-  qw(
-    abstract
-    archive
-    author
-    authorized
-    date
-    distribution
-    download_url
-    license
-    maturity
-    name
-    status
-    version
-    )
-];
-
-$ENV{WWW_MECH_NOCACHE} = 1;
-
-my $results_string = mcpan->ua->request(
-  'POST',
-  mcpan->base_url . 'release/_search?search_type=scan&scroll=30s&size=' . $size,
-  {
-    headers => { 'Accept-Encoding' => 'gzip', },
-    content => $encoder->encode($search),
-  }
-);
-
-say $results_string->{content};
-
-my $results   = $decoder->decode( $results_string->{content} );
-my $scroll_id = $results->{_scroll_id};
-
-my $total_results = $results->{hits}->{total};
-
-say "Found: $total_results releases";
-
 my $dtree;
+
 my $seen = 0;
 
-while (1) {
-  my ( $result, $scroll ) = scroll($scroll_id);
-  last unless scalar @{ $result->{hits}->{hits} };
-  collate_resultset($result);
-  $scroll_id = $scroll;
-  say "Seen $seen of $total_results";
-}
+use List::MoreUtils qw( natatime );
 
+my $it = natatime 500, @dists;
+
+while ( my @dists_batch = $it->() ) {
+  get_data_for(@dists_batch);
+}
 for my $package ( sort keys %{$dtree} ) {
   say "Sorting $package";
   $dtree->{$package} = [ sort { $b->{date} cmp $a->{date} } @{ $dtree->{$package} } ];
@@ -134,14 +94,74 @@ $fh->print( $encoder->encode($dtree) );
 
 exit 0;
 
+sub get_data_for {
+  my (@items) = @_;
+  my $search = {};
+  $search->{query} = { constant_score => { filter => { terms => { distribution => [@items] } } } };
+  $search->{sort}   = [ { 'date' => 'desc', }, ];
+  $search->{size}   = $size;
+  $search->{fields} = [
+    qw(
+      abstract
+      archive
+      author
+      authorized
+      date
+      distribution
+      download_url
+      license
+      maturity
+      name
+      status
+      version
+      )
+  ];
+
+  $ENV{WWW_MECH_NOCACHE} = 1;
+
+  my $results_string = mcpan->ua->request(
+    'POST',
+    'https://api.metacpan.org/release/_search?search_type=scan&scroll=' . $scroll_time . '&size=' . $size,
+    {
+      headers => { 'Accept-Encoding' => 'gzip', },
+      content => $encoder->encode($search),
+    }
+  );
+
+  my $results   = $decoder->decode( $results_string->{content} );
+  my $scroll_id = $results->{_scroll_id};
+
+  my $total_results = $results->{hits}->{total};
+
+  say "Found: $total_results releases";
+  $seen = 0;
+  while (1) {
+    my ( $result, $scroll ) = scroll($scroll_id);
+    last unless scalar @{ $result->{hits}->{hits} };
+    collate_resultset($result);
+    $scroll_id = $scroll;
+    say "Seen $seen of $total_results";
+  }
+
+}
+
 sub scroll {
   my ($id) = @_;
   my $result = mcpan->ua->request(
     'GET',
-    'http://api.metacpan.org/_search/scroll/?scroll=30s&size=' . $size . '&scroll_id=' . $id,
+    'https://api.metacpan.org/_search/scroll/?scroll=' . $scroll_time . '&size=' . $size . '&scroll_id=' . $id,
     { headers => { 'Accept-Encoding' => 'gzip', } }
   );
 
+  if ( $result->{content} =~ /Server Error/ ) {
+    require Data::Dump;
+    Data::Dump::pp( { result => $result, size => $size, scroll_id => $id } );
+    die;
+  }
+  else {
+    #require Data::Dump;
+    #Data::Dump::pp( { result => { %{$result}, content => '...' }, size => $size, scroll_id => $id } );
+  }
   my $data = $decoder->decode( $result->{content} );
   return $data, $data->{_scroll_id};
 }
