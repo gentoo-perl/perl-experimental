@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Storage-0.240.0.ebuild, MooseX-Storage-0.270.0.ebuild,
+  MooseX-Storage-0.280.0.ebuild:
+  Fixdep Test-TempDir
+
 *MooseX-Storage-0.310.0 (29 Feb 2012)
 
   29 Feb 2012; Kent Fredric <kentfredric@gmail.com>

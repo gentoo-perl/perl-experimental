@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -37,7 +37,7 @@ DEPEND="${RDEPEND}
 		dev-perl/Test-Exception
 		dev-perl/Test-Requires
 		>=virtual/perl-Test-Simple-0.88
-		>=dev-perl/Test-TempDir-0.02
+		>=dev-perl/Test-TempDir-0.20.0
 
 		json? (
 			>=dev-perl/Test-JSON-0.06
