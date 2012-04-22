@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Test-Regression
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Test-Regression-0.60.0 (22 Apr 2012)
+*Test-Regression-0.50.0 (22 Apr 2012)
+
+  22 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  -Test-Regression-0.05.ebuild, +Test-Regression-0.50.0.ebuild,
+  -Test-Regression-0.060.ebuild, +Test-Regression-0.60.0.ebuild:
+  Migrate to x.y.z
 
 *Test-Regression-0.060 (08 Jan 2011)
 
