@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	>=virtual/perl-Test-Simple-0.70
-	>=dev-perl/Test-YAML-Valid-0.03
+	>=dev-perl/Test-YAML-Valid-0.30.0
 "
 DEPEND="
 	${COMMON_DEPEND}
