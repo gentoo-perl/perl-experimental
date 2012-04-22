@@ -1,9 +1,10 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 MODULE_AUTHOR=NUFFIN
+MODULE_VERSION="0.04"
 inherit perl-module
 
 DESCRIPTION="Temporary files support for testing."
