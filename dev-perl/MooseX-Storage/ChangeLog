@@ -4,6 +4,12 @@
 
   22 Apr 2012; Kent Fredric <kentfredric@gmail.com>
   MooseX-Storage-0.240.0.ebuild, MooseX-Storage-0.270.0.ebuild,
+  MooseX-Storage-0.280.0.ebuild, MooseX-Storage-0.290.0.ebuild,
+  MooseX-Storage-0.300.0.ebuild:
+  Fixdep Test-JSON
+
+  22 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Storage-0.240.0.ebuild, MooseX-Storage-0.270.0.ebuild,
   MooseX-Storage-0.280.0.ebuild:
   Fixdep Test-TempDir
 

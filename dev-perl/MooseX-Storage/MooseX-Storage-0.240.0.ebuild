@@ -39,7 +39,7 @@ DEPEND="${RDEPEND}
 		>=dev-perl/Test-TempDir-0.20.0
 
 		json? (
-			>=dev-perl/Test-JSON-0.06
+			>=dev-perl/Test-JSON-0.60.0
 		)
 	)
 "
