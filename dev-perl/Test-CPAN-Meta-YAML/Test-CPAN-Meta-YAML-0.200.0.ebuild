@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Test::More 0.70 ( 0.700.0 )
 	echo \>=virtual/perl-Test-Simple-0.70
 	# Test::YAML::Valid 0.03 ( 0.30.0 )
-	echo \>=dev-perl/Test-YAML-Valid-0.03
+	echo \>=dev-perl/Test-YAML-Valid-0.30.0
 }
 DEPEND="
 	$(perl_meta_build)
