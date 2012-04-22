@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	dev-perl/Test-use-ok
-	>=dev-perl/Test-TempDir-0.04
+	>=dev-perl/Test-TempDir-0.40.0
 	dev-perl/Test-Exception
 	dev-perl/Moose
 	>=dev-perl/namespace-clean-0.08
