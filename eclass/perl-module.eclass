@@ -281,11 +281,24 @@ perlinfo() {
 	perl_set_version
 }
 
+perl_check_module_version() {
+	local REAL_PV
+	local gpmv="$(type -p gentoo-perlmod-version.pl)"
+	[[ -n ${MODULE_VERSION} && -n ${gpmv} && -x ${gpmv} ]] || return
+	REAL_PV=$( ${gpmv} --oneshot "${MODULE_VERSION}" )
+	if [[ ${REAL_PV} != ${PV} ]] ; then
+		eqawarn "QA Notice: Based on MODULE_VERSION=${MODULE_VERSION} the ebuild version ${PV} is wrong!"
+		eqawarn "           The ebuild version should be ${REAL_PV}"
+	fi
+}
+
 perl_set_version() {
 	debug-print-function $FUNCNAME "$@"
 	debug-print "$FUNCNAME: perlinfo_done=${perlinfo_done}"
 	${perlinfo_done} && return 0
 	perlinfo_done=true
+
+	perl_check_module_version
 
 	local f version install{{site,vendor}{arch,lib},archlib}
 	eval "$(perl -V:{version,install{{site,vendor}{arch,lib},archlib}} )"
