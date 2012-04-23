@@ -132,6 +132,10 @@ perl-module_src_prep() {
 				|| die "Unable to build!"
 	elif [[ -f Makefile.PL ]] ; then
 		einfo "Using ExtUtils::MakeMaker"
+		if [[ -f Build && ${PERL_NO_BUILD_WARNING} != "true" ]] ; then
+			ewarn "Using ExtUtils::MakeMaker but found a ./Build script!"
+			ewarn "Shit happens NOW!"
+		fi
 		set -- \
 			PREFIX=${EPREFIX}/usr \
 			INSTALLDIRS=vendor \
@@ -160,7 +164,7 @@ perl-module_src_compile() {
 		local mymake_local=("${mymake[@]}")
 	fi
 
-	if [[ -f Build ]] ; then
+	if [[ ( ${PREFER_BUILDPL} == yes || ! -f Makefile ) && -f Build ]] ; then
 		./Build build \
 			|| die "Compilation failed"
 	elif [[ -f Makefile ]] ; then
