@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Petal
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2012; Kent Fredric <kentfredric@gmail.com> -Petal-2.190.0.ebuild:
+  Gone on CPAN
 
 *Petal-2.200.0 (27 Aug 2011)
 
