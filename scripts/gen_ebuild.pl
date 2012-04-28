@@ -170,10 +170,19 @@ my $licmap = {
   artistic_2 => [qw( Artistic-2 )],
   gpl_3      => [qw( GPL-3 )],
 };
+my $oddlic = {
+  open_source => sub {
+    warn "\n \e[31m*\e[0m User defined license in the metadata is 'open_source', which could mean any of:  gpl, lgpl or mozilla. Please check Makefile/Build.PL"
+      .  "\n   This is due to: https://metacpan.org/source/DAGOLDEN/CPAN-Meta-2.120921/lib/CPAN/Meta/Converter.pm#L155\n";
+  },
+};
 
 for my $lic ( @{ $release_info->{license} } ) {
   if ( exists $licmap->{$lic} ) {
     push @$lics, @{ $licmap->{$lic} };
+  }
+  elsif ( exists $oddlic->{$lic} ) {
+    $oddlic->{$lic}->();
   }
   else {
     warn "No Gentoo maping listed for $lic license type";
