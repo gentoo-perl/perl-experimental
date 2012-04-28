@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  -DBIx-Class-DateTime-Epoch-0.60.0.ebuild,
+  -DBIx-Class-DateTime-Epoch-0.70.0.ebuild:
+  Gone on CPAN
+
 *DBIx-Class-DateTime-Epoch-0.90.0 (14 Feb 2012)
 
   14 Feb 2012; Kent Fredric <kentfredric@gmail.com>
