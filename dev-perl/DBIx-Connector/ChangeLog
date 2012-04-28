@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/DBIx-Connector
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DBIx-Connector-0.510.0 (28 Apr 2012)
+
+  28 Apr 2012; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Connector-0.510.0.ebuild, +metadata.xml:
+  Added for Catalyst-Model-DBI
+
