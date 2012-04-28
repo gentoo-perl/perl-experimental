@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RJBS
-MODULE_VERSION=4.300014
+MODULE_VERSION=4.300015
 inherit perl-module
 
 DESCRIPTION='distribution builder; installer not included!'
@@ -28,8 +28,8 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-CPAN-Meta-2.101.550
 	# CPAN::Meta::Prereqs 2.120630 ( 2.120.630 )
 	echo \>=virtual/perl-CPAN-Meta-2.120.630
-	# CPAN::Meta::Requirements
-	echo virtual/perl-CPAN-Meta-Requirements
+	# CPAN::Meta::Requirements 2.121 ( 2.121.0 )
+	echo \>=virtual/perl-CPAN-Meta-Requirements-2.121.0
 	# CPAN::Meta::Validator 2.101550 ( 2.101.550 )
 	echo \>=virtual/perl-CPAN-Meta-2.101.550
 	# CPAN::Uploader 0.101550 ( 0.101.550 )
