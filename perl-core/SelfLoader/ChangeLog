@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Apr 2012; Kent Fredric <kentfredric@gmail.com> -SelfLoader-1.180.0.ebuild:
+  Gone on CPAN
+
 *SelfLoader-1.200.0 (26 Feb 2012)
 
   26 Feb 2012; Kent Fredric <kentfredric@gmail.com> +SelfLoader-1.200.0.ebuild:
