@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RKITOVER
-MODULE_VERSION=0.07022
+MODULE_VERSION=0.07023
 inherit perl-module
 
 DESCRIPTION='Create a DBIx::Class::Schema based on a database'
@@ -58,8 +58,8 @@ perl_meta_runtime() {
 	echo \>=dev-perl/Class-Accessor-Grouped-0.100.20
 	# Class::C3::Componentised 1.0008 ( 1.0.800 )
 	echo \>=dev-perl/Class-C3-Componentised-1.0.800
-	# Class::Inspector
-	echo dev-perl/Class-Inspector
+	# Class::Inspector 1.27 ( 1.270.0 )
+	echo \>=dev-perl/Class-Inspector-1.270.0
 	# Class::Unload
 	echo dev-perl/Class-Unload
 	# DBIx::Class 0.08127 ( 0.81.270 )
