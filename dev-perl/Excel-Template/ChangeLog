@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Excel-Template-0.340.0 (06 May 2012)
+
+  06 May 2012; Kent Fredric <kentfredric@gmail.com>
+  +Excel-Template-0.340.0.ebuild:
+  Version Bump
+
 *Excel-Template-0.330.0 (06 May 2012)
 *Excel-Template-0.320.0 (06 May 2012)
 *Excel-Template-0.310.0 (06 May 2012)
