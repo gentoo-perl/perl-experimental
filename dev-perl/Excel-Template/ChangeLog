@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Excel-Template
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Excel-Template-0.330.0 (06 May 2012)
+*Excel-Template-0.320.0 (06 May 2012)
+*Excel-Template-0.310.0 (06 May 2012)
+
+  06 May 2012; Kent Fredric <kentfredric@gmail.com>
+  -Excel-Template-0.31.ebuild, -Excel-Template-0.32.ebuild,
+  +Excel-Template-0.310.0.ebuild, +Excel-Template-0.320.0.ebuild,
+  -Excel-Template-0.330.ebuild, +Excel-Template-0.330.0.ebuild:
+  Migrate to x.y.z
 
 *Excel-Template-0.330 (21 Feb 2011)
 
