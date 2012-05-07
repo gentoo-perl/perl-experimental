@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -28,7 +28,7 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-Autobox-0.100.0
 
 	$(comment Moose::Role 0.90)
-	>=dev-perl/Moose-0.90
+	>=dev-perl/Moose-0.900
 
 	$(comment Moose::Util::TypeConstraints)
 	dev-perl/Moose
