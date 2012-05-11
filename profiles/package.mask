@@ -1,3 +1,7 @@
+# Torsten Veller <tove@gentoo.org> 11 May 2012
+# Mask perl-5.16 for testing (#415485)
+=dev-lang/perl-5.16*
+
 # Kent Fredric <kentfredric@gmail.com> 14 Nov 2011
 # Depend on Not-Yet-Available Module::Build 0.390.0
 =dev-perl/Catalyst-Plugin-Singleton-0.200.0
