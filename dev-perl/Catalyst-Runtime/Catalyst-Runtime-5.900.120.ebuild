@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=5.90011
+MODULE_VERSION=5.90012
 inherit perl-module
 
 DESCRIPTION='The Catalyst Framework Runtime'
@@ -30,8 +30,6 @@ perl_meta_build() {
 	echo \>=virtual/perl-Test-Simple-0.88
 }
 perl_meta_runtime() {
-	# B::Hooks::EndOfScope 0.10 ( 0.100.0 )
-	echo \>=dev-perl/B-Hooks-EndOfScope-0.100.0
 	# CGI::Simple::Cookie 1.109 ( 1.109.0 )
 	echo \>=dev-perl/Cgi-Simple-1.109.0
 	# Carp
@@ -116,8 +114,8 @@ perl_meta_runtime() {
 	echo \>=dev-perl/URI-1.35
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
-	# namespace::clean 0.13 ( 0.130.0 )
-	echo \>=dev-perl/namespace-clean-0.130.0
+	# namespace::clean 0.23 ( 0.230.0 )
+	echo \>=dev-perl/namespace-clean-0.230.0
 	# perl v5.8.3 ( 5.8.3 )
 	echo \>=dev-lang/perl-5.8.3
 }
