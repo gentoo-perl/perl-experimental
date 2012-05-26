@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=DAGOLDEN
-MODULE_VERSION=0.014
+MODULE_AUTHOR=DOHERTY
+MODULE_VERSION=0.016
 inherit perl-module
 
 DESCRIPTION='Twitter when you release with Dist::Zilla'
@@ -14,24 +14,34 @@ IUSE="test"
 perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
+	# Module::Build 0.3601 ( 0.360.100 )
+	echo \>=virtual/perl-Module-Build-0.36.01
+}
+perl_meta_build() {
+	# Module::Build 0.3601 ( 0.360.100 )
+	echo \>=virtual/perl-Module-Build-0.36.01
 }
 perl_meta_runtime() {
-	# Carp
-	# echo dev-perl/Carp
+	# Config::INI::Reader
+	echo dev-perl/Config-INI
+	# Config::INI::Writer
+	echo dev-perl/Config-INI
 	# Dist::Zilla 4 ( 4.0.0 )
 	echo \>=dev-perl/Dist-Zilla-4.0.0
 	# Dist::Zilla::Role::AfterRelease
 	echo dev-perl/Dist-Zilla
 	# Dist::Zilla::Role::TextTemplate
 	echo dev-perl/Dist-Zilla
-	# Math::BigFloat
-	echo virtual/perl-Math-BigInt
+	# Dist::Zilla::Util
+	echo dev-perl/Dist-Zilla
+	# File::Spec
+	echo virtual/perl-File-Spec
 	# Moose 0.99 ( 0.990.0 )
 	echo \>=dev-perl/Moose-0.990
-	# Net::Netrc
-	echo virtual/perl-libnet
 	# Net::Twitter 3 ( 3.0.0 )
 	echo \>=dev-perl/Net-Twitter-3.0.0
+	# Try::Tiny
+	echo dev-perl/Try-Tiny
 	# WWW::Shorten 3.02 ( 3.20.0 )
 	echo \>=dev-perl/WWW-Shorten-3.20.0
 	# WWW::Shorten::Simple
@@ -66,8 +76,6 @@ perl_meta_test() {
 	echo dev-perl/libwww-perl
 	# Params::Util
 	echo dev-perl/Params-Util
-	# Path::Class
-	echo dev-perl/Path-Class
 	# Sub::Exporter
 	echo dev-perl/Sub-Exporter
 	# Test::More 0.88 ( 0.880.0 )
@@ -77,6 +85,7 @@ perl_meta_test() {
 }
 DEPEND="
 	$(perl_meta_configure)
+	$(perl_meta_build)
 	$(perl_meta_runtime)
 	test? ( $(perl_meta_test) )
 "
