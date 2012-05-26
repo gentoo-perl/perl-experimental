@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 May 2012; Kent Fredric <kentfredric@gmail.com>
+  -IO-Socket-IP-0.70.0.ebuild:
+  Gone on CPAN
+
 *IO-Socket-IP-0.100.0 (26 May 2012)
 
   26 May 2012; Kent Fredric <kentfredric@gmail.com>
