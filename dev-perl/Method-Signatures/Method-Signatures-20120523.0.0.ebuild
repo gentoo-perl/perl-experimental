@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=BAREFOOT
-MODULE_VERSION=20111125
+MODULE_VERSION=20120523
 inherit perl-module
 
 DESCRIPTION='method and function declarations with signatures and no source filter'
