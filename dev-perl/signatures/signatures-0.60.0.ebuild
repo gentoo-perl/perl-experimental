@@ -15,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/B-Hooks-OP-Check-0.18
+	>=dev-perl/B-Hooks-OP-Check-0.180.0
 	>=dev-perl/B-Hooks-OP-PPAddr-0.30.0
-	>=dev-perl/B-Hooks-Parser-0.07
-	>=dev-perl/B-Hooks-EndOfScope-0.08
+	>=dev-perl/B-Hooks-Parser-0.70.0
+	>=dev-perl/B-Hooks-EndOfScope-0.80.0
 "
 DEPEND="
 	${RDEPEND}
