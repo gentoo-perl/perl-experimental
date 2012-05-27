@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=DLAMBLEY
-MODULE_VERSION=0.10
+MODULE_VERSION=0.11
 inherit perl-module
 
 DESCRIPTION='ISO8601 date and duration string type constraints and coercions for Moose'
