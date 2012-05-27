@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=0.34
+MODULE_VERSION=0.35
 inherit perl-module
 
 DESCRIPTION='Session plugin ties together server side storage and client side state required to maintain session'
@@ -12,12 +12,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# Plack::Middleware::ForceEnv
 	echo dev-perl/Plack-Middleware-ForceEnv
 	# Test::Deep
