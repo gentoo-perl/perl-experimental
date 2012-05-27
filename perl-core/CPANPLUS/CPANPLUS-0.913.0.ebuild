@@ -56,7 +56,7 @@ perl_feature_selfupgrade() {
 	echo "cpantest? ( $( perl_feature_cpantest ) )"
 
 	# File::Fetch 0.15_02
-	echo \>=virtual/perl-File-Fetch-0.16
+	echo \>=virtual/perl-File-Fetch-0.160.0
 	# File::Spec 0.82
 	echo \>=virtual/perl-File-Spec-0.82
 	# IPC::Cmd 0.36
