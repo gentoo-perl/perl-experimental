@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  27 May 2012; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-Test-CPAN-Changes-0.3.0.ebuild,
+  -Dist-Zilla-Plugin-Test-CPAN-Changes-0.4.0.ebuild:
+  Gone on CPAN
 
 *Dist-Zilla-Plugin-Test-CPAN-Changes-0.5.0 (29 Jun 2011)
 
