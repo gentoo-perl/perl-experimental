@@ -11,4 +11,4 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="|| ( =dev-lang/perl-5.16* =dev-lang/perl-5.14* ~perl-core/File-Fetch-${PV} )"
+RDEPEND="~perl-core/File-Fetch-${PV}"
