@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CPAN-Meta-Check
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CPAN-Meta-Check-0.4.0 (27 May 2012)
+
+  27 May 2012; Kent Fredric <kentfredric@gmail.com>
+  +CPAN-Meta-Check-0.4.0.ebuild, +metadata.xml:
+  Added for Test-CheckDeps
+
