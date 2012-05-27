@@ -1,6 +1,17 @@
 # ChangeLog for perl-core/File-Fetch
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*File-Fetch-0.300.0 (27 May 2012)
+*File-Fetch-0.280.0 (27 May 2012)
+*File-Fetch-0.240.0 (27 May 2012)
+*File-Fetch-0.220.0 (27 May 2012)
+
+  27 May 2012; Kent Fredric <kentfredric@gmail.com> -File-Fetch-0.22.ebuild,
+  -File-Fetch-0.24.ebuild, -File-Fetch-0.28.ebuild, +File-Fetch-0.220.0.ebuild,
+  +File-Fetch-0.240.0.ebuild, +File-Fetch-0.280.0.ebuild,
+  -File-Fetch-0.300.ebuild, +File-Fetch-0.300.0.ebuild:
+  Migrate to x.y.z
 
 *File-Fetch-0.320.0 (22 Jul 2011)
 
