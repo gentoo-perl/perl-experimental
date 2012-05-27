@@ -1,9 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 MODULE_AUTHOR=RKRIMEN
-MODULE_VERSION="0.23"
+MODULE_VERSION="0.22"
 inherit perl-module
 
 DESCRIPTION="JavaScript Templating with Template Toolkit"
@@ -15,5 +15,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	>=dev-perl/Template-Toolkit-2.19
-	>=dev-perl/File-Find-Rule-0.30
 "
