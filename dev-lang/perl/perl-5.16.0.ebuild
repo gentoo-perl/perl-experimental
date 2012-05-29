@@ -6,7 +6,7 @@ EAPI=4
 
 inherit eutils alternatives flag-o-matic toolchain-funcs multilib
 
-PATCH_VER=2
+PATCH_VER=3
 
 PERL_OLDVERSEN=""
 MODULE_AUTHOR=RJBS

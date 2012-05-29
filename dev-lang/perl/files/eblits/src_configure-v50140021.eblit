@@ -109,7 +109,7 @@ eblit-perl-src_configure() {
 		-Dldflags="${LDFLAGS}" \
 		-Dprefix="${EPREFIX}"'/usr' \
 		-Dinstallprefix="${EPREFIX}"'/usr' \
-		-Dsiteprefix="${EPREFIX}"'/usr' \
+		-Dsiteprefix="${EPREFIX}"'/usr/local' \
 		-Dvendorprefix="${EPREFIX}"'/usr' \
 		-Dscriptdir="${EPREFIX}"'/usr/bin' \
 		-Dprivlib="${EPREFIX}${PRIV_LIB}" \
@@ -120,8 +120,8 @@ eblit-perl-src_configure() {
 		-Dvendorarch="${EPREFIX}${VENDOR_ARCH}" \
 		-Dman1dir="${EPREFIX}"/usr/share/man/man1 \
 		-Dman3dir="${EPREFIX}"/usr/share/man/man3 \
-		-Dsiteman1dir="${EPREFIX}"/usr/share/man/man1 \
-		-Dsiteman3dir="${EPREFIX}"/usr/share/man/man3 \
+		-Dsiteman1dir="${EPREFIX}"/usr/local/man/man1 \
+		-Dsiteman3dir="${EPREFIX}"/usr/local/man/man3 \
 		-Dvendorman1dir="${EPREFIX}"/usr/share/man/man1 \
 		-Dvendorman3dir="${EPREFIX}"/usr/share/man/man3 \
 		-Dman1ext='1' \
