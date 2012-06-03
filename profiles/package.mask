@@ -79,8 +79,3 @@ perl-core/Unicode-Normalize
 virtual/perl-Unicode-Normalize
 perl-core/Math-Complex
 virtual/perl-Math-Complex
-
-# Torsten Veller <tove@gentoo.org> (09 Jan 2011)
-# Change version scheme. Latest version looks like a downgrade
->=virtual/perl-CPANPLUS-0.9001
->=perl-core/CPANPLUS-0.9001
