@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Travel::Routing::DE::VRR</remote-id>
+                <remote-id type="cpan-module">Travel::Routing::DE::VRR::Route</remote-id>
+                <remote-id type="cpan-module">Travel::Routing::DE::VRR::Route::Part</remote-id>
                 <remote-id type="cpan">Travel-Routing-DE-VRR</remote-id>
         </upstream>
 </pkgmetadata>

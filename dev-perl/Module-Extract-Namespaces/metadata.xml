@@ -7,6 +7,10 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Foo::First</remote-id>
+        <remote-id type="cpan-module">Foo::Second</remote-id>
+        <remote-id type="cpan-module">Foo::Third</remote-id>
+        <remote-id type="cpan-module">Module::Extract::Namespaces</remote-id>
         <remote-id type="cpan">Module-Extract-Namespaces</remote-id>
     </upstream>
 </pkgmetadata>

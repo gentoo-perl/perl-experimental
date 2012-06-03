@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Net::Server::SS::PreFork</remote-id>
         <remote-id type="cpan">Net-Server-SS-PreFork</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Data::Taxi</remote-id>
         <remote-id type="cpan">Data-Taxi</remote-id>
     </upstream>
 </pkgmetadata>

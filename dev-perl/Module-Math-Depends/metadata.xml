@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Module::Math::Depends</remote-id>
                 <remote-id type="cpan">Module-Math-Depends</remote-id>
         </upstream>
 </pkgmetadata>

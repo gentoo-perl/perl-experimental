@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Business::Tax::VAT::Validation</remote-id>
         <remote-id type="cpan">Business-Tax-VAT-Validation</remote-id>
     </upstream>
 </pkgmetadata>

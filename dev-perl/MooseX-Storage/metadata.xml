@@ -21,6 +21,28 @@
 
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Moose::Meta::Attribute::Custom::DoNotSerialize</remote-id>
+        <remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::DoNotSerialize</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Base::WithChecksum</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Basic</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Deferred</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Engine</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Engine::IO::AtomicFile</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Engine::IO::File</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Engine::Trait::DisableCycleDetection</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Engine::Trait::OnlyWhenBuilt</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Format::JSON</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Format::Storable</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Format::YAML</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::IO::AtomicFile</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::IO::File</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::IO::StorableFile</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Meta::Attribute::DoNotSerialize</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Meta::Attribute::Trait::DoNotSerialize</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Traits::DisableCycleDetection</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Traits::OnlyWhenBuilt</remote-id>
+        <remote-id type="cpan-module">MooseX::Storage::Util</remote-id>
         <remote-id type="cpan">MooseX-Storage</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::MinimumVersionTests</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::Test::MinimumVersion</remote-id>
         <remote-id type="cpan">Dist-Zilla-Plugin-Test-MinimumVersion</remote-id>
     </upstream>
 </pkgmetadata>

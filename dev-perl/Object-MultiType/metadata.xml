@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Object::MultiType</remote-id>
+                <remote-id type="cpan-module">Object::MultiType::Saver</remote-id>
                 <remote-id type="cpan">Object-MultiType</remote-id>
         </upstream>
 </pkgmetadata>

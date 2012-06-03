@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">System::Command</remote-id>
                 <remote-id type="cpan">System-Command</remote-id>
         </upstream>
 </pkgmetadata>

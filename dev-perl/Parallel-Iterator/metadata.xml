@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Parallel::Iterator</remote-id>
         <remote-id type="cpan">Parallel-Iterator</remote-id>
     </upstream>
 </pkgmetadata>

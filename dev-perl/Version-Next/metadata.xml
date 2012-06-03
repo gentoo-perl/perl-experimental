@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Version::Next</remote-id>
         <remote-id type="cpan">Version-Next</remote-id>
     </upstream>
 </pkgmetadata>

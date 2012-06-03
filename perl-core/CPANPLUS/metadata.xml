@@ -15,6 +15,47 @@
     <flag name="selfupgrade">Pull more dependencies by emulating a "selfupgrade" scenario</flag>
   </use>
   <upstream>
+    <remote-id type="cpan-module">CPANPLUS</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Backend</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Backend::RV</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Config</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Config::HomeEnv</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Configure</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Configure::Setup</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Dist</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Dist::Autobundle</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Dist::Base</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Dist::MM</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Dist::Sample</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Error</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Constants</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Constants::Report</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Extract</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Fetch</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Report</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Search</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Source</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Source::Memory</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Source::SQLite</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Source::SQLite::Tie</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Utils</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Internals::Utils::Autoflush</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Module</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Module::Author</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Module::Author::Fake</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Module::Checksums</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Module::Fake</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Module::Signature</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Selfupdate</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Selfupdate::Module</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell::Classic</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell::Default</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell::Default::Plugins::CustomSource</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell::Default::Plugins::Remote</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell::Default::Plugins::Source</remote-id>
+    <remote-id type="cpan-module">CPANPLUS::Shell::_Base::ReadLine</remote-id>
     <remote-id type="cpan">CPANPLUS</remote-id>
   </upstream>
 </pkgmetadata>

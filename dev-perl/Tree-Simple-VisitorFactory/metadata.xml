@@ -7,6 +7,24 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::BreadthFirstTraversal</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::CreateDirectoryTree</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::FindByNodeValue</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::FindByPath</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::FindByUID</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::FromNestedArray</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::FromNestedHash</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::GetAllDescendents</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::LoadClassHierarchy</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::LoadDirectoryTree</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::PathToRoot</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::PostOrderTraversal</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::PreOrderTraversal</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::Sort</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::ToNestedArray</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::ToNestedHash</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::Visitor::VariableDepthClone</remote-id>
+        <remote-id type="cpan-module">Tree::Simple::VisitorFactory</remote-id>
         <remote-id type="cpan">Tree-Simple-VisitorFactory</remote-id>
     </upstream>
 </pkgmetadata>

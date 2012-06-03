@@ -23,6 +23,7 @@
 			<pkg>dev-perl/CAPN-Uploader</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::ModuleDev</remote-id>
         <remote-id type="cpan">Task-Kensho-ModuleDev</remote-id>
     </upstream>
 </pkgmetadata>

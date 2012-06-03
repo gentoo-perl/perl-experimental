@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::Model::KiokuDB</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::Model::KiokuDB::UserWrapper</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::KiokuDB</remote-id>
         <remote-id type="cpan">Catalyst-Model-KiokuDB</remote-id>
     </upstream>
 </pkgmetadata>

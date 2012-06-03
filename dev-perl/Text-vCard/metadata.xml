@@ -7,6 +7,9 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Text::vCard</remote-id>
+        <remote-id type="cpan-module">Text::vCard::Addressbook</remote-id>
+        <remote-id type="cpan-module">Text::vCard::Node</remote-id>
         <remote-id type="cpan">Text-vCard</remote-id>
     </upstream>
 </pkgmetadata>

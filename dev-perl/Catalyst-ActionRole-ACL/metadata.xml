@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Action::Role::ACL</remote-id>
+        <remote-id type="cpan-module">Catalyst::ActionRole::ACL</remote-id>
         <remote-id type="cpan">Catalyst-ActionRole-ACL</remote-id>
     </upstream>
 </pkgmetadata>

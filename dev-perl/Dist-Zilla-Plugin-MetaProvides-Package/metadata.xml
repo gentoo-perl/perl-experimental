@@ -11,6 +11,7 @@
 			feature</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaProvides::Package</remote-id>
         <remote-id type="cpan">Dist-Zilla-Plugin-MetaProvides-Package</remote-id>
     </upstream>
 </pkgmetadata>

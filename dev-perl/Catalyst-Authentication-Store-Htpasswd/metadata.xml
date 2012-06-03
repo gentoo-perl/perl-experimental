@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::Htpasswd</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::Htpasswd::User</remote-id>
         <remote-id type="cpan">Catalyst-Authentication-Store-Htpasswd</remote-id>
     </upstream>
 </pkgmetadata>

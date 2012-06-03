@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Plugin::Compress::Deflate</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Compress::Gzip</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Compress::Zlib</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-Compress-Zlib</remote-id>
     </upstream>
 </pkgmetadata>

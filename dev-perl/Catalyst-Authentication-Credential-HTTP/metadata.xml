@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Authentication::Credential::HTTP</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Credential::HTTP::Nonce</remote-id>
         <remote-id type="cpan">Catalyst-Authentication-Credential-HTTP</remote-id>
     </upstream>
 </pkgmetadata>

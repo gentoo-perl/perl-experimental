@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">ExtUtils::MakeMaker::_version</remote-id>
+        <remote-id type="cpan-module">Module::Extract::VERSION</remote-id>
         <remote-id type="cpan">Module-Extract-VERSION</remote-id>
     </upstream>
 </pkgmetadata>

@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Acme::Damn</remote-id>
                 <remote-id type="cpan">Acme-Damn</remote-id>
         </upstream>
 </pkgmetadata>

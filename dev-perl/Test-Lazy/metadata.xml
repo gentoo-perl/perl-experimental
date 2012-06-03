@@ -7,6 +7,9 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Test::Lazy</remote-id>
+        <remote-id type="cpan-module">Test::Lazy::Template</remote-id>
+        <remote-id type="cpan-module">Test::Lazy::Tester</remote-id>
         <remote-id type="cpan">Test-Lazy</remote-id>
     </upstream>
 </pkgmetadata>

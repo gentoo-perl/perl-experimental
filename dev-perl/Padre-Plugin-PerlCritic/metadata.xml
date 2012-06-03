@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Padre::Plugin::PerlCritic</remote-id>
                 <remote-id type="cpan">Padre-Plugin-PerlCritic</remote-id>
         </upstream>
 </pkgmetadata>

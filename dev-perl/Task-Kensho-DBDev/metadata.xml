@@ -15,6 +15,7 @@
 		<flag name="sqlt">Install <pkg>dev-perl/SQL-Translator</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::DBDev</remote-id>
         <remote-id type="cpan">Task-Kensho-DBDev</remote-id>
     </upstream>
 </pkgmetadata>

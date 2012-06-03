@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Template::Plugin::Cycle</remote-id>
                 <remote-id type="cpan">Template-Plugin-Cycle</remote-id>
         </upstream>
 </pkgmetadata>

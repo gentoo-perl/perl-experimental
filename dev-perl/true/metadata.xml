@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">true</remote-id>
+        <remote-id type="cpan-module">true::VERSION</remote-id>
         <remote-id type="cpan">true</remote-id>
     </upstream>
 </pkgmetadata>

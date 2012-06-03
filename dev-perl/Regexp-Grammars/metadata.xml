@@ -7,6 +7,11 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Regexp</remote-id>
+        <remote-id type="cpan-module">Regexp::Grammars</remote-id>
+        <remote-id type="cpan-module">Regexp::Grammars::ContextRestorer</remote-id>
+        <remote-id type="cpan-module">Regexp::Grammars::Precursor</remote-id>
+        <remote-id type="cpan-module">Regexp::Grammars::TranslatorRestorer</remote-id>
         <remote-id type="cpan">Regexp-Grammars</remote-id>
     </upstream>
 </pkgmetadata>

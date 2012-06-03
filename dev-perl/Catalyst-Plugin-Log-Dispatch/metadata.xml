@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Plugin::Log::Dispatch</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Log::Dispatch::Backend</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-Log-Dispatch</remote-id>
     </upstream>
 </pkgmetadata>

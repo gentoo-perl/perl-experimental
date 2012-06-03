@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Padre::Plugin::XML</remote-id>
+                <remote-id type="cpan-module">Padre::Plugin::XML::Document</remote-id>
+                <remote-id type="cpan-module">Padre::Task::SyntaxChecker::XML</remote-id>
                 <remote-id type="cpan">Padre-Plugin-XML</remote-id>
         </upstream>
 </pkgmetadata>

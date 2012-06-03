@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Data::PowerSet</remote-id>
         <remote-id type="cpan">Data-PowerSet</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,13 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Data::Entropy</remote-id>
+        <remote-id type="cpan-module">Data::Entropy::Algorithms</remote-id>
+        <remote-id type="cpan-module">Data::Entropy::RawSource::CryptCounter</remote-id>
+        <remote-id type="cpan-module">Data::Entropy::RawSource::Local</remote-id>
+        <remote-id type="cpan-module">Data::Entropy::RawSource::RandomOrg</remote-id>
+        <remote-id type="cpan-module">Data::Entropy::RawSource::RandomnumbersInfo</remote-id>
+        <remote-id type="cpan-module">Data::Entropy::Source</remote-id>
         <remote-id type="cpan">Data-Entropy</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::Method::Signatures</remote-id>
+        <remote-id type="cpan-module">MooseX::Method::Signatures::Meta::Method</remote-id>
+        <remote-id type="cpan-module">MooseX::Method::Signatures::Types</remote-id>
         <remote-id type="cpan">MooseX-Method-Signatures</remote-id>
     </upstream>
 </pkgmetadata>

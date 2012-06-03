@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Template::Plugin::encoding</remote-id>
+                <remote-id type="cpan-module">Template::Provider::Encoding</remote-id>
+                <remote-id type="cpan-module">Template::Stash::ForceUTF8</remote-id>
                 <remote-id type="cpan">Template-Provider-Encoding</remote-id>
         </upstream>
 </pkgmetadata>

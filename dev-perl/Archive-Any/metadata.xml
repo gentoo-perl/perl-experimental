@@ -3,6 +3,10 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Archive::Any</remote-id>
+                <remote-id type="cpan-module">Archive::Any::Plugin</remote-id>
+                <remote-id type="cpan-module">Archive::Any::Plugin::Tar</remote-id>
+                <remote-id type="cpan-module">Archive::Any::Plugin::Zip</remote-id>
                 <remote-id type="cpan">Archive-Any</remote-id>
         </upstream>
 </pkgmetadata>

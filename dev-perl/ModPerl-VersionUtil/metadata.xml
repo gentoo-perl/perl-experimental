@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">ModPerl::VersionUtil</remote-id>
                 <remote-id type="cpan">ModPerl-VersionUtil</remote-id>
         </upstream>
 </pkgmetadata>

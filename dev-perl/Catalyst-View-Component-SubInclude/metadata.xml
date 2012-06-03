@@ -3,6 +3,12 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Catalyst::View::Component::SubInclude</remote-id>
+                <remote-id type="cpan-module">Catalyst::View::Component::SubInclude::ESI</remote-id>
+                <remote-id type="cpan-module">Catalyst::View::Component::SubInclude::HTTP</remote-id>
+                <remote-id type="cpan-module">Catalyst::View::Component::SubInclude::SSI</remote-id>
+                <remote-id type="cpan-module">Catalyst::View::Component::SubInclude::SubRequest</remote-id>
+                <remote-id type="cpan-module">Catalyst::View::Component::SubInclude::Visit</remote-id>
                 <remote-id type="cpan">Catalyst-View-Component-SubInclude</remote-id>
         </upstream>
 </pkgmetadata>

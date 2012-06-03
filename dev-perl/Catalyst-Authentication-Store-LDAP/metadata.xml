@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::LDAP</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::LDAP::Backend</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::LDAP::User</remote-id>
         <remote-id type="cpan">Catalyst-Authentication-Store-LDAP</remote-id>
     </upstream>
 </pkgmetadata>

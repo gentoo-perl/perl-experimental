@@ -7,6 +7,44 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Base</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ADO</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ADO::MS_Jet</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ADO::Microsoft_SQL_Server</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Component::QuotedDefault</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::DB2</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Firebird</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Informix</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::InterBase</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::MSSQL</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ODBC</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ODBC::ACCESS</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ODBC::Firebird</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ODBC::Microsoft_SQL_Server</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::ODBC::SQL_Anywhere</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Oracle</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Pg</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::SQLAnywhere</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::SQLite</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Sybase</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Sybase::Common</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Sybase::Microsoft_SQL_Server</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::Writing</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI::mysql</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBObject</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBObject::Informix</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBObject::Sybase</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Optional::Dependencies</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::RelBuilder</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_040</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_05</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_06</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_07</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Table</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Table::Informix</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Table::Sybase</remote-id>
         <remote-id type="cpan">DBIx-Class-Schema-Loader</remote-id>
     </upstream>
 </pkgmetadata>

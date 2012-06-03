@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Pod::Elemental::Transformer::WikiDoc</remote-id>
+        <remote-id type="cpan-module">Pod::Weaver::Plugin::WikiDoc</remote-id>
         <remote-id type="cpan">Pod-Elemental-Transformer-WikiDoc</remote-id>
     </upstream>
 </pkgmetadata>

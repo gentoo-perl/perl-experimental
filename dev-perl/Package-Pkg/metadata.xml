@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Package::Pkg</remote-id>
+                <remote-id type="cpan-module">Package::Pkg::Lexicon</remote-id>
+                <remote-id type="cpan-module">Package::Pkg::Loader</remote-id>
                 <remote-id type="cpan">Package-Pkg</remote-id>
         </upstream>
 </pkgmetadata>

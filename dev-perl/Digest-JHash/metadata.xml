@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Digest::JHash</remote-id>
         <remote-id type="cpan">Digest-JHash</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Audio::Ofa::Util</remote-id>
         <remote-id type="cpan">Audio-Ofa-Util</remote-id>
     </upstream>
 </pkgmetadata>

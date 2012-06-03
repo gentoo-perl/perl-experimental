@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Lingua::EN::Tagger</remote-id>
                 <remote-id type="cpan">Lingua-EN-Tagger</remote-id>
         </upstream>
 </pkgmetadata>

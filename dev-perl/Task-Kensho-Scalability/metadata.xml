@@ -10,6 +10,7 @@
 		<flag name="chi">Install <pkg>dev-perl/CHI</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::Scalability</remote-id>
         <remote-id type="cpan">Task-Kensho-Scalability</remote-id>
     </upstream>
 </pkgmetadata>

@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Time::Format</remote-id>
                 <remote-id type="cpan">Time-Format</remote-id>
         </upstream>
 </pkgmetadata>

@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::Workers</remote-id>
+        <remote-id type="cpan-module">MooseX::Workers::Engine</remote-id>
+        <remote-id type="cpan-module">MooseX::Workers::Job</remote-id>
         <remote-id type="cpan">MooseX-Workers</remote-id>
     </upstream>
 </pkgmetadata>

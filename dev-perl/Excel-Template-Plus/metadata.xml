@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Excel::Template::Plus</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Plus::TT</remote-id>
+        <remote-id type="cpan-module">Test::Excel::Template::Plus</remote-id>
         <remote-id type="cpan">Excel-Template-Plus</remote-id>
     </upstream>
 </pkgmetadata>

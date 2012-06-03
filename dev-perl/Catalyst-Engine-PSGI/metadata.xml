@@ -7,6 +7,10 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Controller::Metal</remote-id>
+        <remote-id type="cpan-module">Catalyst::Engine::PSGI</remote-id>
+        <remote-id type="cpan-module">Catalyst::Helper::PSGI</remote-id>
+        <remote-id type="cpan-module">Plack::Test::Adopt::Catalyst</remote-id>
         <remote-id type="cpan">Catalyst-Engine-PSGI</remote-id>
     </upstream>
 </pkgmetadata>

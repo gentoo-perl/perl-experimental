@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::MultiMethods</remote-id>
+        <remote-id type="cpan-module">MooseX::MultiMethods::Meta::Method</remote-id>
         <remote-id type="cpan">MooseX-MultiMethods</remote-id>
     </upstream>
 </pkgmetadata>

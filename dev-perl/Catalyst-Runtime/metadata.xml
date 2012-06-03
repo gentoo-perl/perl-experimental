@@ -7,6 +7,48 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action</remote-id>
+        <remote-id type="cpan-module">Catalyst::ActionChain</remote-id>
+        <remote-id type="cpan-module">Catalyst::ActionContainer</remote-id>
+        <remote-id type="cpan-module">Catalyst::Base</remote-id>
+        <remote-id type="cpan-module">Catalyst::ClassData</remote-id>
+        <remote-id type="cpan-module">Catalyst::Component</remote-id>
+        <remote-id type="cpan-module">Catalyst::Component::ApplicationAttribute</remote-id>
+        <remote-id type="cpan-module">Catalyst::Component::ContextClosure</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller</remote-id>
+        <remote-id type="cpan-module">Catalyst::DispatchType</remote-id>
+        <remote-id type="cpan-module">Catalyst::DispatchType::Chained</remote-id>
+        <remote-id type="cpan-module">Catalyst::DispatchType::Default</remote-id>
+        <remote-id type="cpan-module">Catalyst::DispatchType::Index</remote-id>
+        <remote-id type="cpan-module">Catalyst::DispatchType::Path</remote-id>
+        <remote-id type="cpan-module">Catalyst::DispatchType::Regex</remote-id>
+        <remote-id type="cpan-module">Catalyst::Dispatcher</remote-id>
+        <remote-id type="cpan-module">Catalyst::Engine</remote-id>
+        <remote-id type="cpan-module">Catalyst::EngineLoader</remote-id>
+        <remote-id type="cpan-module">Catalyst::Exception</remote-id>
+        <remote-id type="cpan-module">Catalyst::Exception::Base</remote-id>
+        <remote-id type="cpan-module">Catalyst::Exception::Basic</remote-id>
+        <remote-id type="cpan-module">Catalyst::Exception::Detach</remote-id>
+        <remote-id type="cpan-module">Catalyst::Exception::Go</remote-id>
+        <remote-id type="cpan-module">Catalyst::Exception::Interface</remote-id>
+        <remote-id type="cpan-module">Catalyst::Log</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model</remote-id>
+        <remote-id type="cpan-module">Catalyst::Request</remote-id>
+        <remote-id type="cpan-module">Catalyst::Request::Upload</remote-id>
+        <remote-id type="cpan-module">Catalyst::Response</remote-id>
+        <remote-id type="cpan-module">Catalyst::Runtime</remote-id>
+        <remote-id type="cpan-module">Catalyst::Script::CGI</remote-id>
+        <remote-id type="cpan-module">Catalyst::Script::Create</remote-id>
+        <remote-id type="cpan-module">Catalyst::Script::FastCGI</remote-id>
+        <remote-id type="cpan-module">Catalyst::Script::Server</remote-id>
+        <remote-id type="cpan-module">Catalyst::Script::Test</remote-id>
+        <remote-id type="cpan-module">Catalyst::ScriptRole</remote-id>
+        <remote-id type="cpan-module">Catalyst::ScriptRunner</remote-id>
+        <remote-id type="cpan-module">Catalyst::Stats</remote-id>
+        <remote-id type="cpan-module">Catalyst::Test</remote-id>
+        <remote-id type="cpan-module">Catalyst::Utils</remote-id>
+        <remote-id type="cpan-module">Catalyst::View</remote-id>
         <remote-id type="cpan">Catalyst-Runtime</remote-id>
     </upstream>
 </pkgmetadata>

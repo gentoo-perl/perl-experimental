@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">File::Find::Rule::VCS</remote-id>
                 <remote-id type="cpan">File-Find-Rule-VCS</remote-id>
         </upstream>
 </pkgmetadata>

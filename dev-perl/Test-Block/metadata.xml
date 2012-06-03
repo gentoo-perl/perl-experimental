@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Test::Block</remote-id>
+                <remote-id type="cpan-module">Test::Block::Plan</remote-id>
                 <remote-id type="cpan">Test-Block</remote-id>
         </upstream>
 </pkgmetadata>

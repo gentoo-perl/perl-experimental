@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">POE::Component::Client::Keepalive</remote-id>
+                <remote-id type="cpan-module">POE::Component::Connection::Keepalive</remote-id>
+                <remote-id type="cpan-module">TestServer</remote-id>
                 <remote-id type="cpan">POE-Component-Client-Keepalive</remote-id>
         </upstream>
 </pkgmetadata>

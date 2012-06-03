@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Log::Any::Adapter</remote-id>
+        <remote-id type="cpan-module">Log::Any::Adapter::Base</remote-id>
+        <remote-id type="cpan-module">Log::Any::Manager</remote-id>
         <remote-id type="cpan">Log-Any-Adapter</remote-id>
     </upstream>
 </pkgmetadata>

@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Web::Scraper</remote-id>
+                <remote-id type="cpan-module">Web::Scraper::Filter</remote-id>
+                <remote-id type="cpan-module">Web::Scraper::LibXML</remote-id>
                 <remote-id type="cpan">Web-Scraper</remote-id>
         </upstream>
 </pkgmetadata>

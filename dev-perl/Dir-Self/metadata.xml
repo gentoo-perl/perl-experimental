@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Dir::Self</remote-id>
                 <remote-id type="cpan">Dir-Self</remote-id>
         </upstream>
 </pkgmetadata>

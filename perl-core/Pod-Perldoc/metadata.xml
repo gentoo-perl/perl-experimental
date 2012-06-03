@@ -3,6 +3,19 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
+    <remote-id type="cpan-module">Pod::Perldoc</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::BaseTo</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::GetOptsOO</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToANSI</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToChecker</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToMan</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToNroff</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToPod</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToRtf</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToTerm</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToText</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToTk</remote-id>
+    <remote-id type="cpan-module">Pod::Perldoc::ToXml</remote-id>
     <remote-id type="cpan">Pod-Perldoc</remote-id>
   </upstream>
 </pkgmetadata>

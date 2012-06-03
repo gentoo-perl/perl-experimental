@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Helper::Model::DBI</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::DBI</remote-id>
         <remote-id type="cpan">Catalyst-Model-DBI</remote-id>
     </upstream>
 </pkgmetadata>

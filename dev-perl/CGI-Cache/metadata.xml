@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">CGI::Cache</remote-id>
+                <remote-id type="cpan-module">CGI::Cache::CatchSTDOUT</remote-id>
+                <remote-id type="cpan-module">CGI::Cache::MonitorSTDERR</remote-id>
                 <remote-id type="cpan">CGI-Cache</remote-id>
         </upstream>
 </pkgmetadata>

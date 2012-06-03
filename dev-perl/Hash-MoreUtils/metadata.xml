@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Hash::MoreUtils</remote-id>
         <remote-id type="cpan">Hash-MoreUtils</remote-id>
     </upstream>
 </pkgmetadata>

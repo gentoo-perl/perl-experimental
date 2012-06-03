@@ -13,6 +13,7 @@
 			<pkg>virutal/perl-version</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::Toolchain</remote-id>
         <remote-id type="cpan">Task-Kensho-Toolchain</remote-id>
     </upstream>
 </pkgmetadata>

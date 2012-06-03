@@ -7,6 +7,16 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Audio::MPD::Common</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Item</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Item::Directory</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Item::Playlist</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Item::Song</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Output</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Stats</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Status</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Time</remote-id>
+        <remote-id type="cpan-module">Audio::MPD::Common::Types</remote-id>
         <remote-id type="cpan">Audio-MPD-Common</remote-id>
     </upstream>
 </pkgmetadata>

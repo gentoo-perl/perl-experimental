@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">HTML::TreeBuilder::LibXML</remote-id>
+                <remote-id type="cpan-module">HTML::TreeBuilder::LibXML::Node</remote-id>
                 <remote-id type="cpan">HTML-TreeBuilder-LibXML</remote-id>
         </upstream>
 </pkgmetadata>

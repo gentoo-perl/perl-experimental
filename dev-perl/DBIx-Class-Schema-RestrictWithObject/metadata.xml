@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">DBIx::Class::Schema::RestrictWithObject</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::RestrictWithObject::RestrictComp::Schema</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::RestrictWithObject::RestrictComp::Source</remote-id>
         <remote-id type="cpan">DBIx-Class-Schema-RestrictWithObject</remote-id>
     </upstream>
 </pkgmetadata>

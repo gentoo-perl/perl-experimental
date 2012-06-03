@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Test::CPAN::Meta</remote-id>
+        <remote-id type="cpan-module">Test::CPAN::Meta::Version</remote-id>
         <remote-id type="cpan">Test-CPAN-Meta</remote-id>
     </upstream>
 </pkgmetadata>

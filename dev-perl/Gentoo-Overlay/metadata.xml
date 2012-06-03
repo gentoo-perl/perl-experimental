@@ -7,6 +7,12 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Gentoo::Overlay</remote-id>
+        <remote-id type="cpan-module">Gentoo::Overlay::Category</remote-id>
+        <remote-id type="cpan-module">Gentoo::Overlay::Ebuild</remote-id>
+        <remote-id type="cpan-module">Gentoo::Overlay::Exceptions</remote-id>
+        <remote-id type="cpan-module">Gentoo::Overlay::Package</remote-id>
+        <remote-id type="cpan-module">Gentoo::Overlay::Types</remote-id>
         <remote-id type="cpan">Gentoo-Overlay</remote-id>
     </upstream>
 </pkgmetadata>

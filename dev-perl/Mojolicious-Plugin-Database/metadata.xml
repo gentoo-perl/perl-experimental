@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Mojolicious::Plugin::Database</remote-id>
                 <remote-id type="cpan">Mojolicious-Plugin-Database</remote-id>
         </upstream>
 </pkgmetadata>

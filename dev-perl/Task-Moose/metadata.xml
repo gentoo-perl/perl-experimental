@@ -26,6 +26,7 @@
 		<flag name="utils">Install utilities for working with Moose</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Moose</remote-id>
         <remote-id type="cpan">Task-Moose</remote-id>
     </upstream>
 </pkgmetadata>

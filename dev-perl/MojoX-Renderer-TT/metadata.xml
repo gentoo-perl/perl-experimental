@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">MojoX::Renderer::TT</remote-id>
+                <remote-id type="cpan-module">Mojolicious::Plugin::TtRenderer</remote-id>
                 <remote-id type="cpan">MojoX-Renderer-TT</remote-id>
         </upstream>
 </pkgmetadata>

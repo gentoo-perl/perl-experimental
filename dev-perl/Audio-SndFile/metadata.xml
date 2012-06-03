@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Audio::SndFile</remote-id>
+        <remote-id type="cpan-module">Audio::SndFile::Constants</remote-id>
+        <remote-id type="cpan-module">Audio::SndFile::Info</remote-id>
         <remote-id type="cpan">Audio-SndFile</remote-id>
     </upstream>
 </pkgmetadata>

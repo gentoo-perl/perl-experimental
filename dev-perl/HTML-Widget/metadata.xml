@@ -7,6 +7,63 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">HTML::Widget</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Accessor</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::BlockContainer</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::ASCII</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::All</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::AllOrNone</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Any</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Bool</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Callback</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::CallbackOnce</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Date</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::DateTime</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::DependOn</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Email</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Equal</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::HTTP</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::In</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Integer</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Length</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Maybe</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Number</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Printable</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Range</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Regex</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::SingleValue</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::String</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Constraint::Time</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Container</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Block</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Button</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Checkbox</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Fieldset</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Hidden</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::NullContainer</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Password</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Radio</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::RadioGroup</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Reset</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Select</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Span</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Submit</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Textarea</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Textfield</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Element::Upload</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Error</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::Callback</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::HTMLEscape</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::HTMLStrip</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::LowerCase</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::TrimEdges</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::UpperCase</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Filter::Whitespace</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::NullContainer</remote-id>
+        <remote-id type="cpan-module">HTML::Widget::Result</remote-id>
         <remote-id type="cpan">HTML-Widget</remote-id>
     </upstream>
 </pkgmetadata>

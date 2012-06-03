@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::LazyRequire</remote-id>
+        <remote-id type="cpan-module">MooseX::LazyRequire::Meta::Attribute::Trait::LazyRequire</remote-id>
         <remote-id type="cpan">MooseX-LazyRequire</remote-id>
     </upstream>
 </pkgmetadata>

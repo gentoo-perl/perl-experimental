@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Module::Extract</remote-id>
                 <remote-id type="cpan">Module-Extract</remote-id>
         </upstream>
 </pkgmetadata>

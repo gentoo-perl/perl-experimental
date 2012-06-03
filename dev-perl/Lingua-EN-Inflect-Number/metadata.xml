@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Lingua::EN::Inflect::Number</remote-id>
         <remote-id type="cpan">Lingua-EN-Inflect-Number</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Devel::StackTrace::WithLexicals</remote-id>
+        <remote-id type="cpan-module">Devel::StackTrace::WithLexicals::Frame</remote-id>
         <remote-id type="cpan">Devel-StackTrace-WithLexicals</remote-id>
     </upstream>
 </pkgmetadata>

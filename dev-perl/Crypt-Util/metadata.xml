@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Crypt::Util</remote-id>
+        <remote-id type="cpan-module">Digest::MoreFallbacks</remote-id>
+        <remote-id type="cpan-module">Digest::MultiHash</remote-id>
         <remote-id type="cpan">Crypt-Util</remote-id>
     </upstream>
 </pkgmetadata>

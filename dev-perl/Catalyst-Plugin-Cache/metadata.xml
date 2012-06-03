@@ -7,6 +7,12 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Plugin::Cache</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Cache::Backend</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Cache::Backend::Memory</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Cache::Choose::KeyRegexes</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Cache::Curried</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Cache::Store::Memory</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-Cache</remote-id>
     </upstream>
 </pkgmetadata>

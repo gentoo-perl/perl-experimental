@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">FindBin::libs</remote-id>
                 <remote-id type="cpan">FindBin-libs</remote-id>
         </upstream>
 </pkgmetadata>

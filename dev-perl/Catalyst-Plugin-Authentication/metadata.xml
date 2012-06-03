@@ -7,6 +7,20 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Authentication::Credential::Password</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Credential::Remote</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Realm</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Realm::Compatibility</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Realm::Progressive</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::Minimal</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Store::Null</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::User</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::User::Hash</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Authentication</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::Credential::Password</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::Store::Minimal</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::User</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::User::Hash</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-Authentication</remote-id>
     </upstream>
 </pkgmetadata>

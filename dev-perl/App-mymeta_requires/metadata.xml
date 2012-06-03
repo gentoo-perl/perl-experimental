@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">App::mymeta_requires</remote-id>
                 <remote-id type="cpan">App-mymeta_requires</remote-id>
         </upstream>
 </pkgmetadata>

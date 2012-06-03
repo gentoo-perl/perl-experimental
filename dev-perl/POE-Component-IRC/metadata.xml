@@ -7,6 +7,32 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="cpan-module">POE::Component::IRC</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Common</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Constants</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::AutoJoin</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::BotAddressed</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::BotCommand</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::BotTraffic</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::CTCP</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::Connector</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::Console</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::CycleEmpty</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::DCC</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::FollowTail</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::ISupport</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::Logger</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::NickReclaim</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::NickServID</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::PlugMan</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::Proxy</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Plugin::Whois</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Qnet</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::Qnet::State</remote-id>
+		<remote-id type="cpan-module">POE::Component::IRC::State</remote-id>
+		<remote-id type="cpan-module">POE::Filter::IRC</remote-id>
+		<remote-id type="cpan-module">POE::Filter::IRC::Compat</remote-id>
 		<remote-id type="cpan">POE-Component-IRC</remote-id>
 	</upstream>
 </pkgmetadata>

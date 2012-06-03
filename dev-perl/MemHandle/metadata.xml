@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MemHandle</remote-id>
+        <remote-id type="cpan-module">MemHandle::Tie</remote-id>
         <remote-id type="cpan">MemHandle</remote-id>
     </upstream>
 </pkgmetadata>

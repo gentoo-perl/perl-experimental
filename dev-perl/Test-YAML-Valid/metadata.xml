@@ -12,6 +12,7 @@
 		<flag name="yaml-tiny">YAML::Tiny support</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Test::YAML::Valid</remote-id>
         <remote-id type="cpan">Test-YAML-Valid</remote-id>
     </upstream>
 </pkgmetadata>

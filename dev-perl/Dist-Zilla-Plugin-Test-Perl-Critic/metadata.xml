@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::CriticTests</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::Test::Perl::Critic</remote-id>
         <remote-id type="cpan">Dist-Zilla-Plugin-Test-Perl-Critic</remote-id>
     </upstream>
 </pkgmetadata>

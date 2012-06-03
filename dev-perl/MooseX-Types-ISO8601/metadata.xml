@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">MooseX::Types::ISO8601</remote-id>
                 <remote-id type="cpan">MooseX-Types-ISO8601</remote-id>
         </upstream>
 </pkgmetadata>

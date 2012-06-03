@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Test::Class::Most</remote-id>
                 <remote-id type="cpan">Test-Class-Most</remote-id>
         </upstream>
 </pkgmetadata>

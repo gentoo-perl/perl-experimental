@@ -7,6 +7,30 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::Declare</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Context</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Context::Namespaced</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Context::Parameterized</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Context::WithOptions</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::StackItem</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::EmptyBlockIfMissing</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Extending</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::InnerSyntaxHandling</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::Class</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::Clean</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::Method</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::MethodModifier</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::Namespace</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::Role</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::Keyword::With</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::KeywordHandling</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::MethodDeclaration</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::MethodDeclaration::Parameterized</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::MooseSetup</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::NamespaceHandling</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::OptionHandling</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Syntax::RoleApplication</remote-id>
+        <remote-id type="cpan-module">MooseX::Declare::Util</remote-id>
         <remote-id type="cpan">MooseX-Declare</remote-id>
     </upstream>
 </pkgmetadata>

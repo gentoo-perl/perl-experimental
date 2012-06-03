@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">App::perlbrew</remote-id>
         <remote-id type="cpan">App-perlbrew</remote-id>
     </upstream>
 </pkgmetadata>

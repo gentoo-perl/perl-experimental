@@ -3,6 +3,7 @@
 <pkgmetadata>
     <herd>perl</herd>
     <upstream>
+        <remote-id type="cpan-module">IPTables::Parse</remote-id>
         <remote-id type="cpan">IPTables-Parse</remote-id>
     </upstream>
 </pkgmetadata>

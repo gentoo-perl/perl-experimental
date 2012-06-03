@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Throwable::X</remote-id>
+        <remote-id type="cpan-module">Throwable::X::Types</remote-id>
         <remote-id type="cpan">Throwable-X</remote-id>
     </upstream>
 </pkgmetadata>

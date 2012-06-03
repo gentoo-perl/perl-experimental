@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Plugin::MortalForward</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-MortalForward</remote-id>
     </upstream>
 </pkgmetadata>

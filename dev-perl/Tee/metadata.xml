@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Tee</remote-id>
+        <remote-id type="cpan-module">Tee::App</remote-id>
         <remote-id type="cpan">Tee</remote-id>
     </upstream>
 </pkgmetadata>

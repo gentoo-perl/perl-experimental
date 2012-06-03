@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">UUID</remote-id>
                 <remote-id type="cpan">UUID</remote-id>
         </upstream>
 </pkgmetadata>

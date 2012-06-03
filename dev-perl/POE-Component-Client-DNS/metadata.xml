@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">POE::Component::Client::DNS</remote-id>
                 <remote-id type="cpan">POE-Component-Client-DNS</remote-id>
         </upstream>
 </pkgmetadata>

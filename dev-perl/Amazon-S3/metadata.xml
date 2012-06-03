@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Amazon::S3</remote-id>
+        <remote-id type="cpan-module">Amazon::S3::Bucket</remote-id>
         <remote-id type="cpan">Amazon-S3</remote-id>
     </upstream>
 </pkgmetadata>

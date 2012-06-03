@@ -7,6 +7,18 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Business::PayPal::API</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::AuthorizationRequest</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::CaptureRequest</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::DirectPayments</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::ExpressCheckout</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::GetTransactionDetails</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::MassPay</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::ReauthorizationRequest</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::RecurringPayments</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::RefundTransaction</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::TransactionSearch</remote-id>
+        <remote-id type="cpan-module">Business::PayPal::API::VoidRequest</remote-id>
         <remote-id type="cpan">Business-PayPal-API</remote-id>
     </upstream>
 </pkgmetadata>

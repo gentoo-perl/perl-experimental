@@ -7,6 +7,12 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">CPAN::Reporter</remote-id>
+        <remote-id type="cpan-module">CPAN::Reporter::API</remote-id>
+        <remote-id type="cpan-module">CPAN::Reporter::Config</remote-id>
+        <remote-id type="cpan-module">CPAN::Reporter::FAQ</remote-id>
+        <remote-id type="cpan-module">CPAN::Reporter::History</remote-id>
+        <remote-id type="cpan-module">CPAN::Reporter::PrereqCheck</remote-id>
         <remote-id type="cpan">CPAN-Reporter</remote-id>
     </upstream>
 </pkgmetadata>

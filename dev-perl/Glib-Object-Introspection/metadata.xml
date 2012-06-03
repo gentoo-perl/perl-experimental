@@ -3,6 +3,8 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
+    <remote-id type="cpan-module">Glib::Object::Introspection</remote-id>
+    <remote-id type="cpan-module">Glib::Object::Introspection::_FuncWrapper</remote-id>
     <remote-id type="cpan">Glib-Object-Introspection</remote-id>
   </upstream>
 </pkgmetadata>

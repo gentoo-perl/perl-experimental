@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Object::Tiny</remote-id>
                 <remote-id type="cpan">Object-Tiny</remote-id>
         </upstream>
 </pkgmetadata>

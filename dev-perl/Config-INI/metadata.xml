@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Config::INI</remote-id>
+        <remote-id type="cpan-module">Config::INI::Reader</remote-id>
+        <remote-id type="cpan-module">Config::INI::Writer</remote-id>
         <remote-id type="cpan">Config-INI</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,32 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Git::PurePerl</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Actor</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Config</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::DirectoryEntry</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Loose</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::NewDirectoryEntry</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::NewObject</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::NewObject::Blob</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::NewObject::Commit</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::NewObject::Tag</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::NewObject::Tree</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Object</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Object::Blob</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Object::Commit</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Object::Tag</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Object::Tree</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Pack</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Pack::WithIndex</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Pack::WithoutIndex</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::PackIndex</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::PackIndex::Version1</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::PackIndex::Version2</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Protocol</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Protocol::File</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Protocol::Git</remote-id>
+        <remote-id type="cpan-module">Git::PurePerl::Protocol::SSH</remote-id>
         <remote-id type="cpan">Git-PurePerl</remote-id>
     </upstream>
 </pkgmetadata>

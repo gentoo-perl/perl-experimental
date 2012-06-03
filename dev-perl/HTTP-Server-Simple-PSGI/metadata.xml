@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">HTTP::Server::Simple::PSGI</remote-id>
+        <remote-id type="cpan-module">HTTP::Server::Simple::PSGI::Writer</remote-id>
         <remote-id type="cpan">HTTP-Server-Simple-PSGI</remote-id>
     </upstream>
 </pkgmetadata>

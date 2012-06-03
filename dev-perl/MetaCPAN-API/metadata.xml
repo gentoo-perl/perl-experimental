@@ -7,6 +7,12 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="cpan-module">MetaCPAN::API</remote-id>
+		<remote-id type="cpan-module">MetaCPAN::API::Author</remote-id>
+		<remote-id type="cpan-module">MetaCPAN::API::Module</remote-id>
+		<remote-id type="cpan-module">MetaCPAN::API::POD</remote-id>
+		<remote-id type="cpan-module">MetaCPAN::API::Release</remote-id>
+		<remote-id type="cpan-module">MetaCPAN::API::Source</remote-id>
 		<remote-id type="cpan">MetaCPAN-API</remote-id>
 	</upstream>
 </pkgmetadata>

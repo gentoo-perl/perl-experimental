@@ -7,6 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo</remote-id>
+        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Atom</remote-id>
+        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Guard</remote-id>
+        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Maps</remote-id>
+        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Version</remote-id>
         <remote-id type="cpan">CPANPLUS-Dist-Gentoo</remote-id>
     </upstream>
 </pkgmetadata>

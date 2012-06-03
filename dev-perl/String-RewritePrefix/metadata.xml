@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">String::RewritePrefix</remote-id>
         <remote-id type="cpan">String-RewritePrefix</remote-id>
     </upstream>
 </pkgmetadata>

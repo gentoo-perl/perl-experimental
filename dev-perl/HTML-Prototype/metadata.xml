@@ -7,6 +7,13 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">HTML::Prototype</remote-id>
+        <remote-id type="cpan-module">HTML::Prototype::Controls</remote-id>
+        <remote-id type="cpan-module">HTML::Prototype::DragDrop</remote-id>
+        <remote-id type="cpan-module">HTML::Prototype::Effects</remote-id>
+        <remote-id type="cpan-module">HTML::Prototype::Helper</remote-id>
+        <remote-id type="cpan-module">HTML::Prototype::Helper::Tag</remote-id>
+        <remote-id type="cpan-module">HTML::Prototype::Js</remote-id>
         <remote-id type="cpan">HTML-Prototype</remote-id>
     </upstream>
 </pkgmetadata>

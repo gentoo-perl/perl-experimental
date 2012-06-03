@@ -7,6 +7,17 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::POE</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Aliased</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Method::State</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Role</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Trait</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Trait::Class</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Trait::Instance</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Trait::Object</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Meta::Trait::SweetArgs</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::Role</remote-id>
+        <remote-id type="cpan-module">MooseX::POE::SweetArgs</remote-id>
         <remote-id type="cpan">MooseX-POE</remote-id>
     </upstream>
 </pkgmetadata>

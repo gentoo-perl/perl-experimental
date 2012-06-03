@@ -7,6 +7,9 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan-module">Env</remote-id>
+    <remote-id type="cpan-module">Env::Array</remote-id>
+    <remote-id type="cpan-module">Env::Array::VMS</remote-id>
     <remote-id type="cpan">Env</remote-id>
   </upstream>
 </pkgmetadata>

@@ -10,6 +10,7 @@
 		<flag name="xs">Install Recommended XS dependencies for speed</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Array::Diff</remote-id>
         <remote-id type="cpan">Array-Diff</remote-id>
     </upstream>
 </pkgmetadata>

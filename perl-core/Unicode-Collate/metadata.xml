@@ -7,6 +7,14 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan-module">Unicode::Collate</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::Big5</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::GB2312</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::JISX0208</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::Korean</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::Pinyin</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::Stroke</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::Locale</remote-id>
     <remote-id type="cpan">Unicode-Collate</remote-id>
   </upstream>
 </pkgmetadata>

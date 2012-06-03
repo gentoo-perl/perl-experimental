@@ -7,6 +7,9 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="cpan-module">Object::Pluggable</remote-id>
+		<remote-id type="cpan-module">Object::Pluggable::Constants</remote-id>
+		<remote-id type="cpan-module">Object::Pluggable::Pipeline</remote-id>
 		<remote-id type="cpan">Object-Pluggable</remote-id>
 	</upstream>
 </pkgmetadata>

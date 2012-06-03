@@ -11,6 +11,9 @@
 			to run a test that downloads 1MB of data or more</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Parse::BACKPAN::Packages</remote-id>
+        <remote-id type="cpan-module">Parse::BACKPAN::Packages::Distribution</remote-id>
+        <remote-id type="cpan-module">Parse::BACKPAN::Packages::File</remote-id>
         <remote-id type="cpan">Parse-BACKPAN-Packages</remote-id>
     </upstream>
 </pkgmetadata>

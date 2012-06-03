@@ -7,6 +7,36 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">WWW::Facebook::API</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Admin</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Application</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Auth</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Canvas</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Comments</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Connect</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Data</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Events</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Exception</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::FBML</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::FQL</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Feed</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Friends</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Groups</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Intl</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Links</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::LiveMessage</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Message</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Notes</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Notifications</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Pages</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Permissions</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Photos</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Profile</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::SMS</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Status</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Stream</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Users</remote-id>
+        <remote-id type="cpan-module">WWW::Facebook::API::Video</remote-id>
         <remote-id type="cpan">WWW-Facebook-API</remote-id>
     </upstream>
 </pkgmetadata>

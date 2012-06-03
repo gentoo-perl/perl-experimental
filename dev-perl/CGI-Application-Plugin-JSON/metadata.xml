@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">CGI::Application::Plugin::JSON</remote-id>
         <remote-id type="cpan">CGI-Application-Plugin-JSON</remote-id>
     </upstream>
 </pkgmetadata>

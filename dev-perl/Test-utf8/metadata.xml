@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Test::utf8</remote-id>
         <remote-id type="cpan">Test-utf8</remote-id>
     </upstream>
 </pkgmetadata>

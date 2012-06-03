@@ -3,6 +3,52 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Gitalist</remote-id>
+                <remote-id type="cpan-module">Gitalist::ActionRole::FilenameArgs</remote-id>
+                <remote-id type="cpan-module">Gitalist::ContentMangler::Resolver</remote-id>
+                <remote-id type="cpan-module">Gitalist::ContentMangler::Resolver::Default</remote-id>
+                <remote-id type="cpan-module">Gitalist::ContentMangler::Transformer::SyntaxHighlight</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::Fragment</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::Fragment::Ref</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::Fragment::Repository</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::LegacyURI</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::OPML</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::Ref</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::Repository</remote-id>
+                <remote-id type="cpan-module">Gitalist::Controller::Root</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories::FromDirectory</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories::FromDirectory::WhiteList</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories::FromDirectoryRecursive</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories::FromListOfDirectories</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories::Role::Context</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositories::Vhost</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::CollectionOfRepositoriesWithRequestState</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::HasUtils</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Head</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Object</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Object::Blob</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Object::Commit</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Object::HasTree</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Object::Tag</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Object::Tree</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Repository</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Serializable</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Tag</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Types</remote-id>
+                <remote-id type="cpan-module">Gitalist::Git::Util</remote-id>
+                <remote-id type="cpan-module">Gitalist::Model::CollectionOfRepos</remote-id>
+                <remote-id type="cpan-module">Gitalist::Model::ContentMangler</remote-id>
+                <remote-id type="cpan-module">Gitalist::TraitFor::Script</remote-id>
+                <remote-id type="cpan-module">Gitalist::TraitFor::Script::FastCGI</remote-id>
+                <remote-id type="cpan-module">Gitalist::URIStructure::Fragment::WithLog</remote-id>
+                <remote-id type="cpan-module">Gitalist::URIStructure::Ref</remote-id>
+                <remote-id type="cpan-module">Gitalist::URIStructure::Repository</remote-id>
+                <remote-id type="cpan-module">Gitalist::URIStructure::WithLog</remote-id>
+                <remote-id type="cpan-module">Gitalist::Utils</remote-id>
+                <remote-id type="cpan-module">Gitalist::View::Default</remote-id>
+                <remote-id type="cpan-module">Gitalist::View::SyntaxHighlight</remote-id>
                 <remote-id type="cpan">Gitalist</remote-id>
         </upstream>
 </pkgmetadata>

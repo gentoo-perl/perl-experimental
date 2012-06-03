@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Carp::Clan::Share</remote-id>
                 <remote-id type="cpan">Carp-Clan-Share</remote-id>
         </upstream>
 </pkgmetadata>

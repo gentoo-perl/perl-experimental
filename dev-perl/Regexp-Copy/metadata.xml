@@ -7,6 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Regexp</remote-id>
+        <remote-id type="cpan-module">Regexp::Copy</remote-id>
+        <remote-id type="cpan-module">Regexp::Storable</remote-id>
         <remote-id type="cpan">Regexp-Copy</remote-id>
     </upstream>
 </pkgmetadata>

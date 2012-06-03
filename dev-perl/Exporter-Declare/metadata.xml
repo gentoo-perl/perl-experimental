@@ -7,6 +7,17 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Exporter::Declare</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Export</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Export::Alias</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Export::Generator</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Export::Sub</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Export::Variable</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Magic</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Magic::Parser</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Magic::Sub</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Meta</remote-id>
+        <remote-id type="cpan-module">Exporter::Declare::Specs</remote-id>
         <remote-id type="cpan">Exporter-Declare</remote-id>
     </upstream>
 </pkgmetadata>

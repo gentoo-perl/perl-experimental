@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Email::Valid::Loose</remote-id>
         <remote-id type="cpan">Email-Valid-Loose</remote-id>
     </upstream>
 </pkgmetadata>

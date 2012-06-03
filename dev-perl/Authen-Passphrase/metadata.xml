@@ -7,6 +7,25 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Authen::Passphrase</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::AcceptAll</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::BigCrypt</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::BlowfishCrypt</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::Clear</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::Crypt16</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::DESCrypt</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::EggdropBlowfish</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::LANManager</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::LANManagerHalf</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::MD5Crypt</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::MySQL323</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::MySQL41</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::NTHash</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::NetscapeMail</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::PHPass</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::RejectAll</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::SaltedDigest</remote-id>
+        <remote-id type="cpan-module">Authen::Passphrase::VMSPurdy</remote-id>
         <remote-id type="cpan">Authen-Passphrase</remote-id>
     </upstream>
 </pkgmetadata>

@@ -3,6 +3,15 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">App::Asciio</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::editable_arrow2</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::editable_box2</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::if_box</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::process_box</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::section_wirl_arrow</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::single_stripe</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::stripes</remote-id>
+                <remote-id type="cpan-module">App::Asciio::stripes::wirl_arrow</remote-id>
                 <remote-id type="cpan">App-Asciio</remote-id>
         </upstream>
 </pkgmetadata>

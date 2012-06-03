@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Dist::Zilla::Util::EmulatePhase</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Util::EmulatePhase::PrereqCollector</remote-id>
         <remote-id type="cpan">Dist-Zilla-Util-EmulatePhase</remote-id>
     </upstream>
 </pkgmetadata>

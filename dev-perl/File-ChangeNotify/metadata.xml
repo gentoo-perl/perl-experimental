@@ -11,6 +11,12 @@
 			for linux Inotify Support</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">File::ChangeNotify</remote-id>
+        <remote-id type="cpan-module">File::ChangeNotify::Event</remote-id>
+        <remote-id type="cpan-module">File::ChangeNotify::Watcher</remote-id>
+        <remote-id type="cpan-module">File::ChangeNotify::Watcher::Default</remote-id>
+        <remote-id type="cpan-module">File::ChangeNotify::Watcher::Inotify</remote-id>
+        <remote-id type="cpan-module">File::ChangeNotify::Watcher::KQueue</remote-id>
         <remote-id type="cpan">File-ChangeNotify</remote-id>
     </upstream>
 </pkgmetadata>

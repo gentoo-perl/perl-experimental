@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Package::Generator</remote-id>
+                <remote-id type="cpan-module">Package::Reaper</remote-id>
                 <remote-id type="cpan">Package-Generator</remote-id>
         </upstream>
 </pkgmetadata>

@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Check::ISA</remote-id>
                 <remote-id type="cpan">Check-ISA</remote-id>
         </upstream>
 </pkgmetadata>

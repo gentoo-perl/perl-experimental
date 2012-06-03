@@ -7,6 +7,12 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Crypt::Eksblowfish</remote-id>
+        <remote-id type="cpan-module">Crypt::Eksblowfish::Bcrypt</remote-id>
+        <remote-id type="cpan-module">Crypt::Eksblowfish::Blowfish</remote-id>
+        <remote-id type="cpan-module">Crypt::Eksblowfish::Family</remote-id>
+        <remote-id type="cpan-module">Crypt::Eksblowfish::Subkeyed</remote-id>
+        <remote-id type="cpan-module">Crypt::Eksblowfish::Uklblowfish</remote-id>
         <remote-id type="cpan">Crypt-Eksblowfish</remote-id>
     </upstream>
 </pkgmetadata>

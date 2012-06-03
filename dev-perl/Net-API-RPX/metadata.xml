@@ -7,6 +7,11 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Net::API::RPX</remote-id>
+        <remote-id type="cpan-module">Net::API::RPX::Exception</remote-id>
+        <remote-id type="cpan-module">Net::API::RPX::Exception::Network</remote-id>
+        <remote-id type="cpan-module">Net::API::RPX::Exception::Service</remote-id>
+        <remote-id type="cpan-module">Net::API::RPX::Exception::Usage</remote-id>
         <remote-id type="cpan">Net-API-RPX</remote-id>
     </upstream>
 </pkgmetadata>

@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Log::Dispatchouli</remote-id>
+                <remote-id type="cpan-module">Log::Dispatchouli::Global</remote-id>
+                <remote-id type="cpan-module">Log::Dispatchouli::Proxy</remote-id>
                 <remote-id type="cpan">Log-Dispatchouli</remote-id>
         </upstream>
 </pkgmetadata>

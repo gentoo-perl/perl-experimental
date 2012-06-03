@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Algorithm::Merge</remote-id>
         <remote-id type="cpan">Algorithm-Merge</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,18 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::Form</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::FormConfig</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::FormMethod</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::MultiForm</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::MultiFormConfig</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::MultiFormMethod</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::ActionBase::Form</remote-id>
+        <remote-id type="cpan-module">Catalyst::Helper::HTML::FormFu</remote-id>
+        <remote-id type="cpan-module">HTML::FormFu::Constraint::RequestToken</remote-id>
+        <remote-id type="cpan-module">HTML::FormFu::Element::RequestToken</remote-id>
+        <remote-id type="cpan-module">HTML::FormFu::Plugin::RequestToken</remote-id>
         <remote-id type="cpan">Catalyst-Controller-HTML-FormFu</remote-id>
     </upstream>
 </pkgmetadata>

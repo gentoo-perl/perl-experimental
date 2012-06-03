@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">DateTime::Format::Pg</remote-id>
         <remote-id type="cpan">DateTime-Format-Pg</remote-id>
     </upstream>
 </pkgmetadata>

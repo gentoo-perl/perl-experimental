@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Eval::Context</remote-id>
                 <remote-id type="cpan">Eval-Context</remote-id>
         </upstream>
 </pkgmetadata>

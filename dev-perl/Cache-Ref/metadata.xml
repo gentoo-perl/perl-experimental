@@ -7,6 +7,24 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Cache::Ref</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::CAR</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::CAR::Base</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::CART</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::CLOCK</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::CLOCK::Base</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::FIFO</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::GCLOCK</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::LIFO</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::LRU</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Null</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Random</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Role::API</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Role::Index</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Role::WithDoublyLinkedList</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Util::LRU::API</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Util::LRU::Array</remote-id>
+        <remote-id type="cpan-module">Cache::Ref::Util::LRU::List</remote-id>
         <remote-id type="cpan">Cache-Ref</remote-id>
     </upstream>
 </pkgmetadata>

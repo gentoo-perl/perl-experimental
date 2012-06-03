@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Directory::Scratch</remote-id>
                 <remote-id type="cpan">Directory-Scratch</remote-id>
         </upstream>
 </pkgmetadata>

@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Data::TreeDumper::Renderer::GTK</remote-id>
                 <remote-id type="cpan">Data-TreeDumper-Renderer-GTK</remote-id>
         </upstream>
 </pkgmetadata>

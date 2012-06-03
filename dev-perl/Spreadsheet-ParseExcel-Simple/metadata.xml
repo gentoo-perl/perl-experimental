@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Spreadsheet::ParseExcel::Simple</remote-id>
+        <remote-id type="cpan-module">Spreadsheet::ParseExcel::Simple::_Sheet</remote-id>
         <remote-id type="cpan">Spreadsheet-ParseExcel-Simple</remote-id>
     </upstream>
 </pkgmetadata>

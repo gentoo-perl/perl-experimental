@@ -3,6 +3,9 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
+    <remote-id type="cpan-module">Object::Accessor</remote-id>
+    <remote-id type="cpan-module">Object::Accessor::Lvalue</remote-id>
+    <remote-id type="cpan-module">Object::Accessor::TIE</remote-id>
     <remote-id type="cpan">Object-Accessor</remote-id>
   </upstream>
 </pkgmetadata>

@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Config::JSON</remote-id>
                 <remote-id type="cpan">Config-JSON</remote-id>
         </upstream>
 </pkgmetadata>

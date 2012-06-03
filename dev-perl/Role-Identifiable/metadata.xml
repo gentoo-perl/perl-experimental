@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Role::Identifiable::HasIdent</remote-id>
+        <remote-id type="cpan-module">Role::Identifiable::HasTags</remote-id>
         <remote-id type="cpan">Role-Identifiable</remote-id>
     </upstream>
 </pkgmetadata>

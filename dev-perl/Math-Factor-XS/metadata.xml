@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Math::Factor::XS</remote-id>
                 <remote-id type="cpan">Math-Factor-XS</remote-id>
         </upstream>
 </pkgmetadata>

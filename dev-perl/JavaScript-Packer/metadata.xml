@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">JavaScript::Packer</remote-id>
                 <remote-id type="cpan">JavaScript-Packer</remote-id>
         </upstream>
 </pkgmetadata>

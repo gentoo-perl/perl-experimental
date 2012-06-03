@@ -7,6 +7,8 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan-module">Math::Complex</remote-id>
+    <remote-id type="cpan-module">Math::Trig</remote-id>
     <remote-id type="cpan">Math-Complex</remote-id>
   </upstream>
 </pkgmetadata>

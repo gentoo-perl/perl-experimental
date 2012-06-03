@@ -7,6 +7,25 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">HTML::Zoom</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::ArrayStream</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::CodeStream</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::FilterBuilder</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::FilterStream</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::FlattenedStream</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::MappedStream</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::MaybeDebug</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::Parser::BuiltIn</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::Producer::BuiltIn</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::ReadFH</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::SelectorParser</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::StreamBase</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::StreamUtils</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::SubObject</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::Transform</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::TransformBuilder</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::TransformedStream</remote-id>
+        <remote-id type="cpan-module">HTML::Zoom::ZConfig</remote-id>
         <remote-id type="cpan">HTML-Zoom</remote-id>
     </upstream>
 </pkgmetadata>

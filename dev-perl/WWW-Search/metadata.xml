@@ -7,6 +7,16 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">WWW::Search</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Null</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Null::Count</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Null::Empty</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Null::Error</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Null::NoVersion</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Result</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Simple</remote-id>
+        <remote-id type="cpan-module">WWW::Search::Test</remote-id>
+        <remote-id type="cpan-module">WWW::SearchResult</remote-id>
         <remote-id type="cpan">WWW-Search</remote-id>
     </upstream>
 </pkgmetadata>

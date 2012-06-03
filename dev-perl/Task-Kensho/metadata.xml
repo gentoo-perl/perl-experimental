@@ -27,6 +27,7 @@
 		<flag name="logging">Logging Tools</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho</remote-id>
         <remote-id type="cpan">Task-Kensho</remote-id>
     </upstream>
 </pkgmetadata>

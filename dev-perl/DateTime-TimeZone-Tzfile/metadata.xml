@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">DateTime::TimeZone::Tzfile</remote-id>
         <remote-id type="cpan">DateTime-TimeZone-Tzfile</remote-id>
     </upstream>
 </pkgmetadata>

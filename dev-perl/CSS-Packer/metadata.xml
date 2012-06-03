@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">CSS::Packer</remote-id>
                 <remote-id type="cpan">CSS-Packer</remote-id>
         </upstream>
 </pkgmetadata>

@@ -7,6 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::View::Download</remote-id>
+        <remote-id type="cpan-module">Catalyst::View::Download::CSV</remote-id>
+        <remote-id type="cpan-module">Catalyst::View::Download::HTML</remote-id>
+        <remote-id type="cpan-module">Catalyst::View::Download::Plain</remote-id>
+        <remote-id type="cpan-module">Catalyst::View::Download::XML</remote-id>
         <remote-id type="cpan">Catalyst-View-Download</remote-id>
     </upstream>
 </pkgmetadata>

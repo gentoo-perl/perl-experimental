@@ -7,6 +7,19 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Pod::ProjectDocs</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::ArrowImage</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::CSS</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::Config</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::Doc</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::DocManager</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::DocManager::Iterator</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::File</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::IndexPage</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::Parser</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::Parser::JavaScriptPod</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::Parser::PerlPod</remote-id>
+        <remote-id type="cpan-module">Pod::ProjectDocs::Template</remote-id>
         <remote-id type="cpan">Pod-ProjectDocs</remote-id>
     </upstream>
 </pkgmetadata>

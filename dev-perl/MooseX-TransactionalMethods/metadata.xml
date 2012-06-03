@@ -7,6 +7,12 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Transactional</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Transactional::Application::ToClass</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Transactional::Application::ToComposite</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Transactional::Application::ToInstance</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Transactional::Meta::Role</remote-id>
+        <remote-id type="cpan-module">MooseX::TransactionalMethods</remote-id>
         <remote-id type="cpan">MooseX-TransactionalMethods</remote-id>
     </upstream>
 </pkgmetadata>

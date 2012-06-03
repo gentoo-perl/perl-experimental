@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Text::MultiMarkdown</remote-id>
         <remote-id type="cpan">Text-MultiMarkdown</remote-id>
     </upstream>
 </pkgmetadata>

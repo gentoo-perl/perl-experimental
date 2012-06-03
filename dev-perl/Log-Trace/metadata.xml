@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">DB</remote-id>
+                <remote-id type="cpan-module">Log::Trace</remote-id>
+                <remote-id type="cpan-module">_Log::Trace::PerlVersion</remote-id>
                 <remote-id type="cpan">Log-Trace</remote-id>
         </upstream>
 </pkgmetadata>

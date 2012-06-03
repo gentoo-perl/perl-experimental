@@ -3,6 +3,10 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Padre::Plugin::Vi</remote-id>
+                <remote-id type="cpan-module">Padre::Plugin::Vi::CommandLine</remote-id>
+                <remote-id type="cpan-module">Padre::Plugin::Vi::Editor</remote-id>
+                <remote-id type="cpan-module">Padre::Plugin::Vi::TabCompletition</remote-id>
                 <remote-id type="cpan">Padre-Plugin-Vi</remote-id>
         </upstream>
 </pkgmetadata>

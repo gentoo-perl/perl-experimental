@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Mixin::ExtraFields</remote-id>
+        <remote-id type="cpan-module">Mixin::ExtraFields::Driver</remote-id>
+        <remote-id type="cpan-module">Mixin::ExtraFields::Driver::HashGuts</remote-id>
         <remote-id type="cpan">Mixin-ExtraFields</remote-id>
     </upstream>
 </pkgmetadata>

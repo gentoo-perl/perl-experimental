@@ -3,6 +3,14 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Test::Spec</remote-id>
+                <remote-id type="cpan-module">Test::Spec::Context</remote-id>
+                <remote-id type="cpan-module">Test::Spec::ExportProxy</remote-id>
+                <remote-id type="cpan-module">Test::Spec::Mocks</remote-id>
+                <remote-id type="cpan-module">Test::Spec::Mocks::Expectation</remote-id>
+                <remote-id type="cpan-module">Test::Spec::Mocks::MockObject</remote-id>
+                <remote-id type="cpan-module">Test::Spec::Mocks::Stub</remote-id>
+                <remote-id type="cpan-module">Test::Spec::SharedHash</remote-id>
                 <remote-id type="cpan">Test-Spec</remote-id>
         </upstream>
 </pkgmetadata>

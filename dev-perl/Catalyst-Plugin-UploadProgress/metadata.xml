@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Plugin::UploadProgress</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::UploadProgress::Static</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-UploadProgress</remote-id>
     </upstream>
 </pkgmetadata>

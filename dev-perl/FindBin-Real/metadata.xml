@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">FindBin::Real</remote-id>
         <remote-id type="cpan">FindBin-Real</remote-id>
     </upstream>
 </pkgmetadata>

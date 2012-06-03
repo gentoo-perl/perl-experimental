@@ -7,6 +7,24 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Module::CPANTS::Analyse</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::BrokenInstaller</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::CpantsErrors</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Distname</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Distros</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Files</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::FindModules</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::License</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Manifest</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::MetaYML</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::NeedsCompiler</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Pod</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Prereq</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Repackageable</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Signature</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Uses</remote-id>
+        <remote-id type="cpan-module">Module::CPANTS::Kwalitee::Version</remote-id>
         <remote-id type="cpan">Module-CPANTS-Analyse</remote-id>
     </upstream>
 </pkgmetadata>

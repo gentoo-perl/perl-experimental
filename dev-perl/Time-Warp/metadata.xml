@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Time::Warp</remote-id>
         <remote-id type="cpan">Time-Warp</remote-id>
     </upstream>
 </pkgmetadata>

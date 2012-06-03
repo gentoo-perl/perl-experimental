@@ -10,6 +10,7 @@
 		<flag name="POE">Install POE</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::Async</remote-id>
         <remote-id type="cpan">Task-Kensho-Async</remote-id>
     </upstream>
 </pkgmetadata>

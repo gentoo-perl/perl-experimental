@@ -7,6 +7,38 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Excel::Template</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Base</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Bold</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Conditional</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Format</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Hidden</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Italic</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::KeepLeadingZeros</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Locked</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Loop</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Outline</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Row</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Scope</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Shadow</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Strikeout</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Workbook</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Container::Worksheet</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Context</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::Backref</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::Cell</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::Formula</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::FreezePanes</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::Image</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::MergeRange</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::Range</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Element::Var</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Factory</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Format</remote-id>
+        <remote-id type="cpan-module">Excel::Template::Iterator</remote-id>
+        <remote-id type="cpan-module">Excel::Template::TextObject</remote-id>
         <remote-id type="cpan">Excel-Template</remote-id>
     </upstream>
 </pkgmetadata>

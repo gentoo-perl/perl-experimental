@@ -3,6 +3,33 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Mason</remote-id>
+                <remote-id type="cpan-module">Mason::App</remote-id>
+                <remote-id type="cpan-module">Mason::CodeCache</remote-id>
+                <remote-id type="cpan-module">Mason::Compilation</remote-id>
+                <remote-id type="cpan-module">Mason::Component</remote-id>
+                <remote-id type="cpan-module">Mason::Component::ClassMeta</remote-id>
+                <remote-id type="cpan-module">Mason::Component::Import</remote-id>
+                <remote-id type="cpan-module">Mason::Component::Moose</remote-id>
+                <remote-id type="cpan-module">Mason::DynamicFilter</remote-id>
+                <remote-id type="cpan-module">Mason::Exceptions</remote-id>
+                <remote-id type="cpan-module">Mason::Filters::Standard</remote-id>
+                <remote-id type="cpan-module">Mason::Interp</remote-id>
+                <remote-id type="cpan-module">Mason::Moose</remote-id>
+                <remote-id type="cpan-module">Mason::Moose::Role</remote-id>
+                <remote-id type="cpan-module">Mason::Plugin</remote-id>
+                <remote-id type="cpan-module">Mason::Plugin::Defer</remote-id>
+                <remote-id type="cpan-module">Mason::Plugin::DollarDot</remote-id>
+                <remote-id type="cpan-module">Mason::Plugin::LvalueAttributes</remote-id>
+                <remote-id type="cpan-module">Mason::Plugin::TidyObjectFiles</remote-id>
+                <remote-id type="cpan-module">Mason::PluginBundle</remote-id>
+                <remote-id type="cpan-module">Mason::PluginBundle::Default</remote-id>
+                <remote-id type="cpan-module">Mason::PluginManager</remote-id>
+                <remote-id type="cpan-module">Mason::PluginRole</remote-id>
+                <remote-id type="cpan-module">Mason::Request</remote-id>
+                <remote-id type="cpan-module">Mason::Result</remote-id>
+                <remote-id type="cpan-module">Mason::TieHandle</remote-id>
+                <remote-id type="cpan-module">Mason::Types</remote-id>
                 <remote-id type="cpan">Mason</remote-id>
         </upstream>
 </pkgmetadata>

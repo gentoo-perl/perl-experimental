@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Exception::Class::TryCatch</remote-id>
         <remote-id type="cpan">Exception-Class-TryCatch</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Bundle::CPAN</remote-id>
+        <remote-id type="cpan-module">Bundle::CPANxxl</remote-id>
         <remote-id type="cpan">Bundle-CPAN</remote-id>
     </upstream>
 </pkgmetadata>

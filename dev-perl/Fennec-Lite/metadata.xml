@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Fennec::Lite</remote-id>
         <remote-id type="cpan">Fennec-Lite</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,16 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan-module">EVERY</remote-id>
+    <remote-id type="cpan-module">EVERY::LAST</remote-id>
+    <remote-id type="cpan-module">NEXT</remote-id>
+    <remote-id type="cpan-module">NEXT::ACTUAL</remote-id>
+    <remote-id type="cpan-module">NEXT::ACTUAL::DISTINCT</remote-id>
+    <remote-id type="cpan-module">NEXT::ACTUAL::UNSEEN</remote-id>
+    <remote-id type="cpan-module">NEXT::DISTINCT</remote-id>
+    <remote-id type="cpan-module">NEXT::DISTINCT::ACTUAL</remote-id>
+    <remote-id type="cpan-module">NEXT::UNSEEN</remote-id>
+    <remote-id type="cpan-module">NEXT::UNSEEN::ACTUAL</remote-id>
     <remote-id type="cpan">NEXT</remote-id>
   </upstream>
 </pkgmetadata>

@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">File::Type::WebImages</remote-id>
                 <remote-id type="cpan">File-Type-WebImages</remote-id>
         </upstream>
 </pkgmetadata>

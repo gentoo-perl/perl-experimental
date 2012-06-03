@@ -7,6 +7,16 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Child</remote-id>
+        <remote-id type="cpan-module">Child::IPC::Pipe</remote-id>
+        <remote-id type="cpan-module">Child::Link</remote-id>
+        <remote-id type="cpan-module">Child::Link::IPC</remote-id>
+        <remote-id type="cpan-module">Child::Link::IPC::Pipe</remote-id>
+        <remote-id type="cpan-module">Child::Link::IPC::Pipe::Parent</remote-id>
+        <remote-id type="cpan-module">Child::Link::IPC::Pipe::Proc</remote-id>
+        <remote-id type="cpan-module">Child::Link::Parent</remote-id>
+        <remote-id type="cpan-module">Child::Link::Proc</remote-id>
+        <remote-id type="cpan-module">Child::Util</remote-id>
         <remote-id type="cpan">Child</remote-id>
     </upstream>
 </pkgmetadata>

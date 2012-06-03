@@ -7,6 +7,10 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">DBIx::Class::QueryLog</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::QueryLog::Analyzer</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::QueryLog::Query</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::QueryLog::Transaction</remote-id>
         <remote-id type="cpan">DBIx-Class-QueryLog</remote-id>
     </upstream>
 </pkgmetadata>

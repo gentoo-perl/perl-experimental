@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Memoize::ExpireLRU</remote-id>
                 <remote-id type="cpan">Memoize-ExpireLRU</remote-id>
         </upstream>
 </pkgmetadata>

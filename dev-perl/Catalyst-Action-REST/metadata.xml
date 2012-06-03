@@ -13,6 +13,33 @@
 		<flag name="freezethaw">FreezeThaw (application/x-freezethaw) support</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::Callback</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::Data::Serializer</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON::XS</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::View</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::XML::Simple</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Deserialize::YAML</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::DeserializeMultiPart</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::REST</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::REST::ForBrowsers</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::Callback</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::Data::Serializer</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::JSON</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::JSON::XS</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::JSONP</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::View</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::XML::Simple</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::YAML</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::Serialize::YAML::HTML</remote-id>
+        <remote-id type="cpan-module">Catalyst::Action::SerializeBase</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::REST</remote-id>
+        <remote-id type="cpan-module">Catalyst::Request::REST</remote-id>
+        <remote-id type="cpan-module">Catalyst::Request::REST::ForBrowsers</remote-id>
+        <remote-id type="cpan-module">Catalyst::TraitFor::Request::REST</remote-id>
+        <remote-id type="cpan-module">Catalyst::TraitFor::Request::REST::ForBrowsers</remote-id>
         <remote-id type="cpan">Catalyst-Action-REST</remote-id>
     </upstream>
 </pkgmetadata>

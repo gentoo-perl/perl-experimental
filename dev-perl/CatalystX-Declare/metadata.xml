@@ -7,6 +7,23 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">CatalystX::Declare</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Action::CatchValidationError</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Context::AppSetup</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Context::StringParsing</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Controller::ActionPreparation</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Controller::DetermineActionClass</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Controller::Meta::TypeConstraintMapping</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Controller::QualifyClassNames</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::DefaultSuperclassing</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Dispatching::ChainTypeSensitivity</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::Action</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::Application</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::Component</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::Controller</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::Model</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::Role</remote-id>
+        <remote-id type="cpan-module">CatalystX::Declare::Keyword::View</remote-id>
         <remote-id type="cpan">CatalystX-Declare</remote-id>
     </upstream>
 </pkgmetadata>

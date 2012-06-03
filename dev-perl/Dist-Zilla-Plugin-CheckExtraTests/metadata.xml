@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Dist::Zilla::App::Command::xtest</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::CheckExtraTests</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::RunExtraTests</remote-id>
         <remote-id type="cpan">Dist-Zilla-Plugin-CheckExtraTests</remote-id>
     </upstream>
 </pkgmetadata>

@@ -3,6 +3,10 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Linux::DVB</remote-id>
+                <remote-id type="cpan-module">Linux::DVB::Decode</remote-id>
+                <remote-id type="cpan-module">Linux::DVB::Demux</remote-id>
+                <remote-id type="cpan-module">Linux::DVB::Frontend</remote-id>
                 <remote-id type="cpan">Linux-DVB</remote-id>
         </upstream>
 </pkgmetadata>

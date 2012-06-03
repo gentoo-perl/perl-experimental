@@ -11,6 +11,7 @@
 			Modules are built</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Authen::DecHpwd</remote-id>
         <remote-id type="cpan">Authen-DecHpwd</remote-id>
     </upstream>
 </pkgmetadata>

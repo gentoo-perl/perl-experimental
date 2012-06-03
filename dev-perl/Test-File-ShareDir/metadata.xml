@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Test::File::ShareDir</remote-id>
+        <remote-id type="cpan-module">Test::File::ShareDir::TempDirObject</remote-id>
         <remote-id type="cpan">Test-File-ShareDir</remote-id>
     </upstream>
 </pkgmetadata>

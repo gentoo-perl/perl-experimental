@@ -13,6 +13,7 @@
 			<pkg>dev-perl/Log-Contextual</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::Logging</remote-id>
         <remote-id type="cpan">Task-Kensho-Logging</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,36 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Search::GIN</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Callbacks</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Core</remote-id>
+        <remote-id type="cpan-module">Search::GIN::DelegateToIndexed</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Hash</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Pack</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Pack::Delim</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Pack::IDs</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Pack::Length</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Pack::UUID</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::Pack::Values</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Driver::TXN</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::Attributes</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::Callback</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::Class</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::Delegate</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::Multiplex</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Indexable</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Keys</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Keys::Deep</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Keys::Expand</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Keys::Join</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Query</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Query::Attributes</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Query::Class</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Query::Manual</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Query::Set</remote-id>
+        <remote-id type="cpan-module">Search::GIN::SelfIDs</remote-id>
         <remote-id type="cpan">Search-GIN</remote-id>
     </upstream>
 </pkgmetadata>

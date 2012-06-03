@@ -7,6 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Engine::Apache</remote-id>
+        <remote-id type="cpan-module">Catalyst::Engine::Apache2</remote-id>
+        <remote-id type="cpan-module">Catalyst::Engine::Apache2::MP19</remote-id>
+        <remote-id type="cpan-module">Catalyst::Engine::Apache2::MP20</remote-id>
+        <remote-id type="cpan-module">Catalyst::Engine::Apache::MP13</remote-id>
         <remote-id type="cpan">Catalyst-Engine-Apache</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Helper::Model::LDAP</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::LDAP</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::LDAP::Connection</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::LDAP::Entry</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::LDAP::Search</remote-id>
         <remote-id type="cpan">Catalyst-Model-LDAP</remote-id>
     </upstream>
 </pkgmetadata>

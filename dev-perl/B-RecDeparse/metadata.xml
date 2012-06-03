@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">B::RecDeparse</remote-id>
         <remote-id type="cpan">B-RecDeparse</remote-id>
     </upstream>
 </pkgmetadata>

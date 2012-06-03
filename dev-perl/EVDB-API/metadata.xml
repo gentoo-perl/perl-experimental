@@ -7,6 +7,10 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">EVDB::API</remote-id>
+        <remote-id type="cpan-module">EVDB::API::JSON</remote-id>
+        <remote-id type="cpan-module">EVDB::API::REST</remote-id>
+        <remote-id type="cpan-module">EVDB::API::YAML</remote-id>
         <remote-id type="cpan">EVDB-API</remote-id>
     </upstream>
 </pkgmetadata>

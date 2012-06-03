@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Audio::Extract::PCM</remote-id>
         <remote-id type="cpan">Audio-Extract-PCM</remote-id>
     </upstream>
 </pkgmetadata>

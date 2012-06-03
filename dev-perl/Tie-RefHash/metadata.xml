@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Tie::RefHash</remote-id>
+                <remote-id type="cpan-module">Tie::RefHash::Nestable</remote-id>
                 <remote-id type="cpan">Tie-RefHash</remote-id>
         </upstream>
 </pkgmetadata>

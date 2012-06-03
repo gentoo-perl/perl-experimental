@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Role::HasMessage</remote-id>
+        <remote-id type="cpan-module">Role::HasMessage::Errf</remote-id>
         <remote-id type="cpan">Role-HasMessage</remote-id>
     </upstream>
 </pkgmetadata>

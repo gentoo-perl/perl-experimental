@@ -3,6 +3,24 @@
 <pkgmetadata>
     <herd>perl</herd>
     <upstream>
+        <remote-id type="cpan-module">HTTP::Proxy</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::complete</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::htmlparser</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::htmltext</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::lines</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::save</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::simple</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::tags</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::Engine</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::Engine::Legacy</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::Engine::NoFork</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::Engine::ScoreBoard</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::Engine::Threaded</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::FilterStack</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::HeaderFilter</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::HeaderFilter::simple</remote-id>
+        <remote-id type="cpan-module">HTTP::Proxy::HeaderFilter::standard</remote-id>
         <remote-id type="cpan">HTTP-Proxy</remote-id>
     </upstream>
 </pkgmetadata>

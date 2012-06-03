@@ -3,6 +3,8 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">POE::Component::Resolver</remote-id>
+                <remote-id type="cpan-module">POE::Component::Resolver::Sidecar</remote-id>
                 <remote-id type="cpan">POE-Component-Resolver</remote-id>
         </upstream>
 </pkgmetadata>

@@ -7,6 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Beanstalk::Client</remote-id>
+        <remote-id type="cpan-module">Beanstalk::Job</remote-id>
+        <remote-id type="cpan-module">Beanstalk::Stats</remote-id>
         <remote-id type="cpan">Beanstalk-Client</remote-id>
     </upstream>
 </pkgmetadata>

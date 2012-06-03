@@ -7,6 +7,32 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Foo1</remote-id>
+        <remote-id type="cpan-module">Foo2</remote-id>
+        <remote-id type="cpan-module">Foo3</remote-id>
+        <remote-id type="cpan-module">Foo::Parameter</remote-id>
+        <remote-id type="cpan-module">Foo::Role</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Signature</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Method::Signature::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Parameter</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Parameter::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Parameter::Moose</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Parameter::Moose::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Combined</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Combined::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Named</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Named::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Positional</remote-id>
+        <remote-id type="cpan-module">MooseX::Meta::Signature::Positional::Compiled</remote-id>
+        <remote-id type="cpan-module">MooseX::Method</remote-id>
+        <remote-id type="cpan-module">MooseX::Method::Constant</remote-id>
+        <remote-id type="cpan-module">MooseX::Method::Exception</remote-id>
+        <remote-id type="cpan-module">MooseX::Test::Parameter::Moose</remote-id>
+        <remote-id type="cpan-module">MooseX::Test::Signature::Combined</remote-id>
+        <remote-id type="cpan-module">MooseX::Test::Signature::Named</remote-id>
+        <remote-id type="cpan-module">MooseX::Test::Signature::Positional</remote-id>
         <remote-id type="cpan">MooseX-Method</remote-id>
     </upstream>
 </pkgmetadata>

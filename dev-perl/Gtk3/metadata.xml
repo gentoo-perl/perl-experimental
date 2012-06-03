@@ -3,6 +3,7 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
+    <remote-id type="cpan-module">Gtk3</remote-id>
     <remote-id type="cpan">Gtk3</remote-id>
   </upstream>
 </pkgmetadata>

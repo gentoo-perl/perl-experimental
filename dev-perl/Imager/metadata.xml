@@ -7,6 +7,38 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Imager</remote-id>
+        <remote-id type="cpan-module">Imager::Color</remote-id>
+        <remote-id type="cpan-module">Imager::Color::Float</remote-id>
+        <remote-id type="cpan-module">Imager::Color::Table</remote-id>
+        <remote-id type="cpan-module">Imager::CountColor</remote-id>
+        <remote-id type="cpan-module">Imager::Expr</remote-id>
+        <remote-id type="cpan-module">Imager::Expr::Assem</remote-id>
+        <remote-id type="cpan-module">Imager::Expr::Infix</remote-id>
+        <remote-id type="cpan-module">Imager::Expr::Postfix</remote-id>
+        <remote-id type="cpan-module">Imager::ExtUtils</remote-id>
+        <remote-id type="cpan-module">Imager::FORMATS</remote-id>
+        <remote-id type="cpan-module">Imager::File::CUR</remote-id>
+        <remote-id type="cpan-module">Imager::File::ICO</remote-id>
+        <remote-id type="cpan-module">Imager::File::SGI</remote-id>
+        <remote-id type="cpan-module">Imager::Fill</remote-id>
+        <remote-id type="cpan-module">Imager::Filter::DynTest</remote-id>
+        <remote-id type="cpan-module">Imager::Filter::Flines</remote-id>
+        <remote-id type="cpan-module">Imager::Filter::Mandelbrot</remote-id>
+        <remote-id type="cpan-module">Imager::Font</remote-id>
+        <remote-id type="cpan-module">Imager::Font::BBox</remote-id>
+        <remote-id type="cpan-module">Imager::Font::FreeType2</remote-id>
+        <remote-id type="cpan-module">Imager::Font::Image</remote-id>
+        <remote-id type="cpan-module">Imager::Font::Truetype</remote-id>
+        <remote-id type="cpan-module">Imager::Font::Type1</remote-id>
+        <remote-id type="cpan-module">Imager::Font::Wrap</remote-id>
+        <remote-id type="cpan-module">Imager::Fountain</remote-id>
+        <remote-id type="cpan-module">Imager::Matrix2d</remote-id>
+        <remote-id type="cpan-module">Imager::Preprocess</remote-id>
+        <remote-id type="cpan-module">Imager::Probe</remote-id>
+        <remote-id type="cpan-module">Imager::Regops</remote-id>
+        <remote-id type="cpan-module">Imager::Test</remote-id>
+        <remote-id type="cpan-module">Imager::Transform</remote-id>
         <remote-id type="cpan">Imager</remote-id>
     </upstream>
 </pkgmetadata>

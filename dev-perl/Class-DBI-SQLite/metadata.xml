@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Class::DBI::SQLite</remote-id>
         <remote-id type="cpan">Class-DBI-SQLite</remote-id>
     </upstream>
 </pkgmetadata>

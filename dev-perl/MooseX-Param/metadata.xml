@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::Param</remote-id>
         <remote-id type="cpan">MooseX-Param</remote-id>
     </upstream>
 </pkgmetadata>

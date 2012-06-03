@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::App::Cmd</remote-id>
+        <remote-id type="cpan-module">MooseX::App::Cmd::Command</remote-id>
         <remote-id type="cpan">MooseX-App-Cmd</remote-id>
     </upstream>
 </pkgmetadata>

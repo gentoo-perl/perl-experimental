@@ -7,6 +7,22 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">FormValidator::Simple</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::ArrayList</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Constants</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Constraint</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Constraint::Iterator</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Constraints</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Data</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Exception</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Iterator</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Messages</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Profile</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Profile::Iterator</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Profile::Record</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Result</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Results</remote-id>
+        <remote-id type="cpan-module">FormValidator::Simple::Validator</remote-id>
         <remote-id type="cpan">FormValidator-Simple</remote-id>
     </upstream>
 </pkgmetadata>

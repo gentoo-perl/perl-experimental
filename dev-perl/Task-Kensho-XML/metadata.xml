@@ -15,6 +15,7 @@
 		<flag name="saxwriter">Install <pkg>dev-perl/XML-SAX-Writer</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::XML</remote-id>
         <remote-id type="cpan">Task-Kensho-XML</remote-id>
     </upstream>
 </pkgmetadata>

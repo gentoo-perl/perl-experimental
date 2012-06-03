@@ -10,6 +10,10 @@
 		<flag name="recommended">Install recommended dependencies</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">HTTP::Server::PSGI::Net::Server::PreFork</remote-id>
+        <remote-id type="cpan-module">Plack::Handler::Starman</remote-id>
+        <remote-id type="cpan-module">Starman</remote-id>
+        <remote-id type="cpan-module">Starman::Server</remote-id>
         <remote-id type="cpan">Starman</remote-id>
     </upstream>
 </pkgmetadata>

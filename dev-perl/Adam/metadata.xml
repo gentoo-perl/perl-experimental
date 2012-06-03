@@ -7,6 +7,10 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="cpan-module">Moses::Declare</remote-id>
+		<remote-id type="cpan-module">Moses::Declare::Syntax::BotKeyword</remote-id>
+		<remote-id type="cpan-module">Moses::Declare::Syntax::EventKeyword</remote-id>
+		<remote-id type="cpan-module">Moses::Declare::Syntax::PluginKeyword</remote-id>
 		<remote-id type="cpan">Adam</remote-id>
 	</upstream>
 </pkgmetadata>

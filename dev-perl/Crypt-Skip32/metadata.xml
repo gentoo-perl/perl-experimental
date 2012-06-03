@@ -10,6 +10,7 @@
 		<flag name="recommended">Install dependencies recommended by upstream that may add functionality</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Crypt::Skip32</remote-id>
         <remote-id type="cpan">Crypt-Skip32</remote-id>
     </upstream>
 </pkgmetadata>

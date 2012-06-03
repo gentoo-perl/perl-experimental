@@ -7,6 +7,15 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">DBIx::Class::KiokuDB</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::KiokuDB::EntryProxy</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::Schema::KiokuDB</remote-id>
+        <remote-id type="cpan-module">KiokuDB::Backend::DBI</remote-id>
+        <remote-id type="cpan-module">KiokuDB::Backend::DBI::Schema</remote-id>
+        <remote-id type="cpan-module">KiokuDB::TypeMap::Entry::DBIC::ResultSet</remote-id>
+        <remote-id type="cpan-module">KiokuDB::TypeMap::Entry::DBIC::ResultSource</remote-id>
+        <remote-id type="cpan-module">KiokuDB::TypeMap::Entry::DBIC::Row</remote-id>
+        <remote-id type="cpan-module">KiokuDB::TypeMap::Entry::DBIC::Schema</remote-id>
         <remote-id type="cpan">KiokuDB-Backend-DBI</remote-id>
     </upstream>
 </pkgmetadata>

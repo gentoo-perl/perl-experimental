@@ -7,6 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Regexp::RegGrp</remote-id>
+        <remote-id type="cpan-module">Regexp::RegGrp::Data</remote-id>
         <remote-id type="cpan">Regexp-RegGrp</remote-id>
     </upstream>
 </pkgmetadata>

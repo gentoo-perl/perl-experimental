@@ -3,6 +3,9 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">V</remote-id>
+                <remote-id type="cpan-module">V::Module::Info</remote-id>
+                <remote-id type="cpan-module">V::Module::Info::_version</remote-id>
                 <remote-id type="cpan">V</remote-id>
         </upstream>
 </pkgmetadata>

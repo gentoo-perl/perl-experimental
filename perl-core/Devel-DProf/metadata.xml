@@ -7,6 +7,8 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan-module">DB</remote-id>
+    <remote-id type="cpan-module">Devel::DProf</remote-id>
     <remote-id type="cpan">Devel-DProf</remote-id>
   </upstream>
 </pkgmetadata>

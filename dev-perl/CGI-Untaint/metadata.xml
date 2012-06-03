@@ -7,6 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">CGI::Untaint</remote-id>
+        <remote-id type="cpan-module">CGI::Untaint::hex</remote-id>
+        <remote-id type="cpan-module">CGI::Untaint::integer</remote-id>
+        <remote-id type="cpan-module">CGI::Untaint::object</remote-id>
+        <remote-id type="cpan-module">CGI::Untaint::printable</remote-id>
         <remote-id type="cpan">CGI-Untaint</remote-id>
     </upstream>
 </pkgmetadata>

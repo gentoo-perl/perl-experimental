@@ -12,6 +12,12 @@
       <flag name="replication">Replication support</flag>
     </use>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Helper::Model::DBIC::Schema</remote-id>
+        <remote-id type="cpan-module">Catalyst::Model::DBIC::Schema</remote-id>
+        <remote-id type="cpan-module">Catalyst::TraitFor::Model::DBIC::Schema::Caching</remote-id>
+        <remote-id type="cpan-module">Catalyst::TraitFor::Model::DBIC::Schema::PerRequestSchema</remote-id>
+        <remote-id type="cpan-module">Catalyst::TraitFor::Model::DBIC::Schema::Replicated</remote-id>
+        <remote-id type="cpan-module">Catalyst::TraitFor::Model::DBIC::Schema::SchemaProxy</remote-id>
         <remote-id type="cpan">Catalyst-Model-DBIC-Schema</remote-id>
     </upstream>
 </pkgmetadata>

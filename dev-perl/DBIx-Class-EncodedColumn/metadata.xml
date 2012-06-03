@@ -13,6 +13,11 @@
 			<flag name="gpg">Support for OpenPGP Encryption</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">DBIx::Class::EncodedColumn</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt::Eksblowfish::Bcrypt</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt::OpenPGP</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Digest</remote-id>
         <remote-id type="cpan">DBIx-Class-EncodedColumn</remote-id>
     </upstream>
 </pkgmetadata>

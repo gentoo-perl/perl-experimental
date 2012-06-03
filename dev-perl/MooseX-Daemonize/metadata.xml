@@ -7,6 +7,13 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">MooseX::Daemonize</remote-id>
+        <remote-id type="cpan-module">MooseX::Daemonize::Core</remote-id>
+        <remote-id type="cpan-module">MooseX::Daemonize::Pid</remote-id>
+        <remote-id type="cpan-module">MooseX::Daemonize::Pid::File</remote-id>
+        <remote-id type="cpan-module">MooseX::Daemonize::WithPidFile</remote-id>
+        <remote-id type="cpan-module">Test::MooseX::Daemonize</remote-id>
+        <remote-id type="cpan-module">Test::MooseX::Daemonize::Testable</remote-id>
         <remote-id type="cpan">MooseX-Daemonize</remote-id>
     </upstream>
 </pkgmetadata>

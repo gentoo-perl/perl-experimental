@@ -7,6 +7,9 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Parse::CPAN::Packages</remote-id>
+        <remote-id type="cpan-module">Parse::CPAN::Packages::Distribution</remote-id>
+        <remote-id type="cpan-module">Parse::CPAN::Packages::Package</remote-id>
         <remote-id type="cpan">Parse-CPAN-Packages</remote-id>
     </upstream>
 </pkgmetadata>

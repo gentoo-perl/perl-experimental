@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Catalyst::Helper::View::Wkhtmltopdf</remote-id>
+        <remote-id type="cpan-module">Catalyst::View::Wkhtmltopdf</remote-id>
         <remote-id type="cpan">Catalyst-View-Wkhtmltopdf</remote-id>
     </upstream>
 </pkgmetadata>

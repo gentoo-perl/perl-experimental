@@ -3,6 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
         <upstream>
+                <remote-id type="cpan-module">Data::TreeDumper</remote-id>
                 <remote-id type="cpan">Data-TreeDumper</remote-id>
         </upstream>
 </pkgmetadata>

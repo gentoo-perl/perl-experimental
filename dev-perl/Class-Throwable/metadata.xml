@@ -7,6 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Class::Throwable</remote-id>
+        <remote-id type="cpan-module">DB</remote-id>
         <remote-id type="cpan">Class-Throwable</remote-id>
     </upstream>
 </pkgmetadata>

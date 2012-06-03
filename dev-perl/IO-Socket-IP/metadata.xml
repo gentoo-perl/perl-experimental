@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">IO::Socket::IP</remote-id>
         <remote-id type="cpan">IO-Socket-IP</remote-id>
     </upstream>
 </pkgmetadata>

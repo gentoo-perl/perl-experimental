@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Plack::Test::ExternalServer</remote-id>
         <remote-id type="cpan">Plack-Test-ExternalServer</remote-id>
     </upstream>
 </pkgmetadata>

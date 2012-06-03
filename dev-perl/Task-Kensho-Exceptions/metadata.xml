@@ -12,6 +12,7 @@
 		<flag name="autodie">Install <pkg>dev-perl/autodie</pkg></flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::Exceptions</remote-id>
         <remote-id type="cpan">Task-Kensho-Exceptions</remote-id>
     </upstream>
 </pkgmetadata>

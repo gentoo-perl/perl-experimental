@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">CGI::Untaint::telephone</remote-id>
         <remote-id type="cpan">CGI-Untaint-telephone</remote-id>
     </upstream>
 </pkgmetadata>

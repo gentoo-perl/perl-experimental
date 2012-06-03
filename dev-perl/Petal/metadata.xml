@@ -7,6 +7,25 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan-module">Petal</remote-id>
+        <remote-id type="cpan-module">Petal::Cache::Disk</remote-id>
+        <remote-id type="cpan-module">Petal::Cache::Memory</remote-id>
+        <remote-id type="cpan-module">Petal::Canonicalizer::XHTML</remote-id>
+        <remote-id type="cpan-module">Petal::Canonicalizer::XML</remote-id>
+        <remote-id type="cpan-module">Petal::CodeGenerator</remote-id>
+        <remote-id type="cpan-module">Petal::CodeGenerator::Decode</remote-id>
+        <remote-id type="cpan-module">Petal::Entities</remote-id>
+        <remote-id type="cpan-module">Petal::Functions</remote-id>
+        <remote-id type="cpan-module">Petal::Hash</remote-id>
+        <remote-id type="cpan-module">Petal::Hash::String</remote-id>
+        <remote-id type="cpan-module">Petal::Hash::Test</remote-id>
+        <remote-id type="cpan-module">Petal::Hash::Var</remote-id>
+        <remote-id type="cpan-module">Petal::I18N</remote-id>
+        <remote-id type="cpan-module">Petal::Parser</remote-id>
+        <remote-id type="cpan-module">Petal::TranslationService::Gettext</remote-id>
+        <remote-id type="cpan-module">Petal::TranslationService::MOFile</remote-id>
+        <remote-id type="cpan-module">Petal::TranslationService::Noop</remote-id>
+        <remote-id type="cpan-module">Petal::TranslationService::h4x0r</remote-id>
         <remote-id type="cpan">Petal</remote-id>
     </upstream>
 </pkgmetadata>

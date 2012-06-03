@@ -16,6 +16,7 @@
 			which provides Time::ParseDate</flag>
 	</use>
     <upstream>
+        <remote-id type="cpan-module">Task::Kensho::Dates</remote-id>
         <remote-id type="cpan">Task-Kensho-Dates</remote-id>
     </upstream>
 </pkgmetadata>
