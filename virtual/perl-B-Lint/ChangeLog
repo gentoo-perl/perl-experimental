@@ -1,6 +1,14 @@
 # ChangeLog for virtual/perl-B-Lint
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*perl-B-Lint-1.140.0 (05 Jun 2012)
+*perl-B-Lint-1.130.0-r3 (05 Jun 2012)
+
+  05 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  -perl-B-Lint-1.130.0-r2.ebuild, +perl-B-Lint-1.130.0-r3.ebuild,
+  +perl-B-Lint-1.140.0.ebuild:
+  Update for Perl 5.16.0
 
 *perl-B-Lint-1.130.0-r2 (16 Jul 2011)
 
