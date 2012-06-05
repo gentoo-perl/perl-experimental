@@ -290,7 +290,7 @@ perl_check_module_version() {
 	local gpmv="$(type -p gentoo-perlmod-version.pl)"
 	[[ -n ${MODULE_VERSION} && -n ${gpmv} && -x ${gpmv} ]] || return
 	REAL_PV=$( ${gpmv} --oneshot "${MODULE_VERSION}" )
-	if [[ ${REAL_PV} != ${PV} ]] ; then
+	if [[ -n ${REAL_PV} && ${REAL_PV} != ${PV} ]] ; then
 		eqawarn "QA Notice: Based on MODULE_VERSION=${MODULE_VERSION} the ebuild version ${PV} is wrong!"
 		eqawarn "           The ebuild version should be ${REAL_PV}"
 	fi
