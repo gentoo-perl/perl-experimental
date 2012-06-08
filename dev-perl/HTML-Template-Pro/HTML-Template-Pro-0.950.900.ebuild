@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# File::Spec
 	echo virtual/perl-File-Spec
 	# JSON 2 ( 2.0.0 )
-	echo \>=dev-perl/JSON-2.0
+	echo \>=dev-perl/JSON-2.0.0
 	# Test::More
 	echo virtual/perl-Test-Simple
 }

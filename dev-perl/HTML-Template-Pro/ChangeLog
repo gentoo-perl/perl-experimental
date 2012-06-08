@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  HTML-Template-Pro-0.950.800.ebuild, HTML-Template-Pro-0.950.900.ebuild:
+  Normalize dep on JSON
+
   03 Mar 2012; Kent Fredric <kentfredric@gmail.com>
   -HTML-Template-Pro-0.950.500.ebuild:
   Gone on CPAN
