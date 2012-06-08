@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -37,7 +37,7 @@ perl_meta_runtime() {
 	# Params::Util 0.25 ( 0.250.0 )
 	echo \>=dev-perl/Params-Util-0.25
 	# Perl::Critic::Utils 1.104 ( 1.104.0 )
-	echo \>=dev-perl/Perl-Critic-1.104
+	echo \>=dev-perl/Perl-Critic-1.104.0
 	# perl v5.6.0 ( 5.6.0 )
 	echo \>=dev-lang/perl-5.6.0
 	# version 0.76 ( 0.760.0 )

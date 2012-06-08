@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Perl-MinimumVersion
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Perl-MinimumVersion-1.280.0.ebuild:
+  Normalize dep on Perl-Critic
 
 *Perl-MinimumVersion-1.280.0 (31 Oct 2011)
 
