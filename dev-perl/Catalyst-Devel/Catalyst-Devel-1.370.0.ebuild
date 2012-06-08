@@ -19,7 +19,7 @@ perl_meta_build() {
 	# ExtUtils::MakeMaker 6.36 ( 6.360.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.36
 	# Test::Fatal 0.003 ( 0.3.0 )
-	echo \>=dev-perl/Test-Fatal-0.003
+	echo \>=dev-perl/Test-Fatal-0.3.0
 	# Test::More 0.94 ( 0.940.0 )
 	echo \>=virtual/perl-Test-Simple-0.94
 }

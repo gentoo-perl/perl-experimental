@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -40,7 +40,7 @@ RDEPEND="
 DEPEND="${DEPEND}
 	test? (
 		>=virtual/perl-Test-Simple-0.94
-		>=dev-perl/Test-Fatal-0.003 $(comment 0.3.0)
+		>=dev-perl/Test-Fatal-0.3.0
 	)
 "
 #src_compile() {
