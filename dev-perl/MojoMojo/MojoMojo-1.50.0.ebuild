@@ -31,7 +31,7 @@ perl_meta_build() {
 	# Test::WWW::Mechanize::Catalyst 0.51 ( 0.510.0 )
 	echo \>=dev-perl/Test-WWW-Mechanize-Catalyst-0.510.0
 	# WWW::Mechanize 1.54 ( 1.540.0 )
-	echo \>=dev-perl/WWW-Mechanize-1.54
+	echo \>=dev-perl/WWW-Mechanize-1.540.0
 	# WWW::Mechanize::TreeBuilder 1.10000 ( 1.100.0 )
 	echo \>=dev-perl/WWW-Mechanize-TreeBuilder-1.100.0
 }
