@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Template-Plugin-JSON
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Template-Plugin-JSON-0.05.ebuild, Template-Plugin-JSON-0.06.ebuild:
+  Normalize dep on JSON
 
 *Template-Plugin-JSON-0.06 (29 Apr 2010)
 

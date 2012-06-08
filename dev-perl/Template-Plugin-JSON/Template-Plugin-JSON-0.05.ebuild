@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,5 +17,5 @@ DEPEND="
 	dev-perl/Mouse
 	>=dev-perl/Template-Toolkit-2.20
 	dev-perl/Test-use-ok
-	>=dev-perl/JSON-2.12
+	>=dev-perl/JSON-2.120.0
 "
