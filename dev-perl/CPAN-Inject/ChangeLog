@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/CPAN-Inject
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com> CPAN-Inject-0.100.ebuild,
+  CPAN-Inject-0.110.ebuild, CPAN-Inject-1.120.ebuild, CPAN-Inject-1.130.ebuild:
+  Normalize deps on File::Remove
 
   31 Jan 2011; Kent Fredric <kentfredric@gmail.com> CPAN-Inject-0.100.ebuild,
   CPAN-Inject-0.110.ebuild, CPAN-Inject-1.120.ebuild, CPAN-Inject-1.130.ebuild:

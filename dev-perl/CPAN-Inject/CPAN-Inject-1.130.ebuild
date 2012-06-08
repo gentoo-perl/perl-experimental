@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -27,7 +27,7 @@ depend CPAN-Checksums 1.05
 
 test-depend-virtual Test-Simple 0.42 # Test::More
 test-depend Test-Script 1.02
-test-depend File-Remove 0.34
+test-depend File-Remove 0.340.0
 
 ddep_setup
 
