@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/PPI-XS
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com> PPI-XS-0.901.ebuild:
+  Normalize dep on PPI
 
   15 Aug 2010; Kent Fredric <kentfredric@gmail.com> PPI-XS-0.901.ebuild:
   Dep tweaks.
