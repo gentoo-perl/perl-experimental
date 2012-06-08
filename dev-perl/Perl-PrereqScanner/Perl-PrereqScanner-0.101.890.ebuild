@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	dev-perl/Moose
-	>=dev-perl/PPI-1.205
+	>=dev-perl/PPI-1.205.0
 	dev-perl/Params-Util
 	>=dev-perl/String-RewritePrefix-0.5.0
 	>=virtual/perl-Version-Requirements-0.100.630

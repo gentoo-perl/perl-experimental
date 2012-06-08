@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Moose::Role
 	echo dev-perl/Moose
 	# PPI 1.205 ( 1.205.0 )
-	echo \>=dev-perl/PPI-1.205
+	echo \>=dev-perl/PPI-1.205.0
 	# Params::Util
 	echo dev-perl/Params-Util
 	# String::RewritePrefix 0.005 ( 0.5.0 )

@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Perl-PrereqScanner-0.101.890.ebuild, Perl-PrereqScanner-1.10.0.ebuild,
+  Perl-PrereqScanner-1.11.0.ebuild:
+  Normalize dep on PPI
+
 *Perl-PrereqScanner-1.11.0 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
