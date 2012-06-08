@@ -16,7 +16,7 @@ IUSE=""
 DEPEND="
 	>=dev-perl/CGI-FormBuilder-3.02
 	>=dev-perl/Catalyst-Runtime-5.700.0
-	>=dev-perl/Class-Accessor-0.25
+	>=dev-perl/Class-Accessor-0.250.0
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0
 	>=dev-perl/Tie-IxHash-1.21
 "
