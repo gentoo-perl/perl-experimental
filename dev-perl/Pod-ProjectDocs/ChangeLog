@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Pod-ProjectDocs
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Pod-ProjectDocs-0.360.0.ebuild, Pod-ProjectDocs-0.380.0.ebuild,
+  Pod-ProjectDocs-0.390.0.ebuild, Pod-ProjectDocs-0.400.0.ebuild:
+  Normalize dep on JSON
 
 *Pod-ProjectDocs-0.400.0 (27 Aug 2011)
 

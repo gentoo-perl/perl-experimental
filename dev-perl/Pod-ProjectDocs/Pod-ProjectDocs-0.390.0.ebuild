@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Class-Data-Inheritable
 	virtual/perl-File-Spec
-	>=dev-perl/JSON-2.04
+	>=dev-perl/JSON-2.40.0
 	virtual/perl-MIME-Base64
 	dev-perl/Readonly
 	dev-perl/Template-Toolkit

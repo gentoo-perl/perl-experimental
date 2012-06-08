@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -47,7 +47,7 @@ COMMON_DEPEND="
 	dev-perl/URI
 
 	$(comment JSON 2.04)
-	>=dev-perl/JSON-2.04 $(comment 2.40.0)
+	>=dev-perl/JSON-2.40.0
 "
 #	highlight? (
 #		dev-perl/Syntax-Highlight-Universal
