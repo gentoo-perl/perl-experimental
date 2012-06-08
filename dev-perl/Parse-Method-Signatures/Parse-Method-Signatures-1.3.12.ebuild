@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Types-0.17
 	dev-perl/MooseX-Types-Structured
 	>=dev-perl/namespace-clean-0.10
-	>=dev-perl/PPI-1.203
+	>=dev-perl/PPI-1.203.0
 "
 DEPEND="
 	${RDEPEND}

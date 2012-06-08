@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -34,8 +34,8 @@ perl_mi_requires() {
 	echo dev-perl/MooseX-Types-Structured
 	# namespace::clean 0.10
 	echo \>=dev-perl/namespace-clean-0.100
-	# PPI 1.203
-	echo \>=dev-perl/PPI-1.203
+	# PPI 1.203.0
+	echo \>=dev-perl/PPI-1.203.0
 }
 perl_mi_test() {
 	# aliased
