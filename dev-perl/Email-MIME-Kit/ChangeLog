@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Email-MIME-Kit
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Email-MIME-Kit-2.102.10.ebuild:
+  Normalize dep on JSON
 
 *Email-MIME-Kit-2.102.10 (29 May 2011)
 
