@@ -17,7 +17,7 @@ perl_meta_configure() {
 }
 perl_meta_build() {
 	# Capture::Tiny 0.05 ( 0.50.0 )
-	echo \>=dev-perl/Capture-Tiny-0.05
+	echo \>=dev-perl/Capture-Tiny-0.50.0
 	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
 	# File::Temp

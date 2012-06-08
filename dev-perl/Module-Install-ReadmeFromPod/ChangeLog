@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Module-Install-ReadmeFromPod-0.120.0.ebuild,
+  Module-Install-ReadmeFromPod-0.180.0.ebuild:
+  Normalize dep on Capture-Tiny
+
 *Module-Install-ReadmeFromPod-0.180.0 (27 Feb 2012)
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com>

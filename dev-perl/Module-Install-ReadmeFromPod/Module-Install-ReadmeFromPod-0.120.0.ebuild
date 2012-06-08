@@ -20,7 +20,7 @@ COMMON_DEPEND="
 "
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/Capture-Tiny-0.05
+	>=dev-perl/Capture-Tiny-0.50.0
 	virtual/perl-File-Temp
 	test? (
 		>=virtual/perl-Test-Simple-0.47
