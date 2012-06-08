@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Class-Accessor-0.22
+	>=dev-perl/Class-Accessor-0.220.0
 	>=dev-perl/Class-Inspector-1.13
 	>=dev-perl/Class-Data-Inheritable-0.04
 	>=dev-perl/UNIVERSAL-require-0.10

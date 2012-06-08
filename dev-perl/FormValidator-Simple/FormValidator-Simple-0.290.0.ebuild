@@ -21,7 +21,7 @@ perl_meta_build() {
 }
 perl_meta_runtime() {
 	# Class::Accessor 0.22 ( 0.220.0 )
-	echo \>=dev-perl/Class-Accessor-0.22
+	echo \>=dev-perl/Class-Accessor-0.220.0
 	# Class::Data::Accessor 0.03 ( 0.30.0 )
 	echo \>=dev-perl/Class-Data-Accessor-0.30.0
 	# Class::Data::Inheritable 0.04 ( 0.40.0 )
