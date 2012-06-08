@@ -89,7 +89,7 @@ perl_meta_runtime() {
 	# Hash::Merge::Simple
 	echo dev-perl/Hash-Merge-Simple
 	# JSON 2 ( 2.0.0 )
-	echo \>=dev-perl/JSON-2.0
+	echo \>=dev-perl/JSON-2.0.0
 	# List::MoreUtils
 	echo dev-perl/List-MoreUtils
 	# List::Util
