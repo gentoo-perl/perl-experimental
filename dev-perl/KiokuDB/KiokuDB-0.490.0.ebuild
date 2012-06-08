@@ -17,7 +17,7 @@ COMMON_DEPEND="
 	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.94 )
 	>=dev-perl/Data-Stream-Bulk-0.07
 	>=dev-perl/Data-Visitor-0.24
-	>=dev-perl/JSON-2.12
+	>=dev-perl/JSON-2.120.0
 	>=dev-perl/JSON-XS-2.2.3.1
 	>=dev-perl/Moose-0.92
 	>=dev-perl/MooseX-Clone-0.04

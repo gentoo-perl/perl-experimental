@@ -35,7 +35,7 @@ COMMON_DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 	>=dev-perl/Search-GIN-0.30.0
-	>=dev-perl/JSON-2.12
+	>=dev-perl/JSON-2.120.0
 	>=dev-perl/JSON-XS-2.2.3.1
 	>=dev-perl/YAML-LibYAML-0.300.0
 	virtual/perl-Storable
