@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-MetaData-BuiltWith-0.10.182.40.ebuild,
+  -Dist-Zilla-Plugin-MetaData-BuiltWith-0.10.182.50.ebuild:
+  Gone on CPAN
+
 *Dist-Zilla-Plugin-MetaData-BuiltWith-0.30.0.0 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
