@@ -39,14 +39,14 @@ COMMON_DEPEND="
 	>=dev-perl/Hash-Merge-Simple-0.40.0
 	>=dev-perl/List-MoreUtils-0.22 $(comment 0.220.0)
 	>=dev-perl/indirect-0.22 $(comment 0.220.0)
-	>=dev-perl/JSON-2.17 $(comment 2.170.0)
+	>=dev-perl/JSON-2.170.0
 	>=dev-perl/yaml-0.70 $(comment 0.700.0) $(comment YAML::Any)
 	>=dev-perl/Digest-SHA1-2.09 $(comment 2.90.0)
 	>=virtual/perl-Digest-MD5-2.36 $(comment 2.360.0)
 	>=dev-perl/Object-ID-0.1.0
 	>=dev-perl/Devel-Declare-0.006000 $(comment 0.6.0)
 	>=dev-perl/true-0.16.0 $(comment true::VERSION)
-	>=dev-perl/Capture-Tiny-0.06 $(comment 0.60.0)
+	>=dev-perl/Capture-Tiny-0.60.0
 "
 DEPEND="
 	${COMMON_DEPEND}

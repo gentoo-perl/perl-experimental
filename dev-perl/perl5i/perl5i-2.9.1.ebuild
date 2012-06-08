@@ -31,7 +31,7 @@ perl_meta_runtime() {
 	# CLASS 1.00 ( 1.0.0 )
 	echo \>=dev-perl/CLASS-1.0.0
 	# Capture::Tiny 0.06 ( 0.60.0 )
-	echo \>=dev-perl/Capture-Tiny-0.06
+	echo \>=dev-perl/Capture-Tiny-0.60.0
 	# Child 0.009 ( 0.9.0 )
 	echo \>=dev-perl/Child-0.9.0
 	# DateTime 0.47 ( 0.470.0 )
@@ -53,7 +53,7 @@ perl_meta_runtime() {
 	# IPC::System::Simple 1.18 ( 1.180.0 )
 	echo \>=dev-perl/IPC-System-Simple-1.18
 	# JSON 2.17 ( 2.170.0 )
-	echo \>=dev-perl/JSON-2.17
+	echo \>=dev-perl/JSON-2.170.0
 	# List::MoreUtils 0.22 ( 0.220.0 )
 	echo \>=dev-perl/List-MoreUtils-0.220.0
 	# Modern::Perl 1.03 ( 1.30.0 )
