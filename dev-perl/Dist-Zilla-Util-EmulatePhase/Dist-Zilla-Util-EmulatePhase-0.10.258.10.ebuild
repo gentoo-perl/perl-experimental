@@ -53,7 +53,7 @@ perl_meta_test() {
 	# File::Temp
 	echo virtual/perl-File-Temp
 	# Test::Fatal 0.003 ( 0.3.0 )
-	echo \>=dev-perl/Test-Fatal-0.033
+	echo \>=dev-perl/Test-Fatal-0.3.0
 	# Test::More 0.96 ( 0.960.0 )
 	echo \>=virtual/perl-Test-Simple-0.96
 }
