@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/CGI-Application-Plugin-JSON
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Plugin-JSON-1.20.0.ebuild:
+  Normalise dep on JSON
 
   27 Jun 2011; Kent Fredric <kentfredric@gmail.com>
   CGI-Application-Plugin-JSON-1.20.0.ebuild:

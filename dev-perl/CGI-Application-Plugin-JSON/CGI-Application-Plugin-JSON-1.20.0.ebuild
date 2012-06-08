@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/JSON-Any-1.14 $(comment 1.140.0)
 "
 DEPEND="${RDEPEND}
-	>=dev-perl/JSON-2.02 $(comment 2.20.0)
+	>=dev-perl/JSON-2.20.0
 	virtual/perl-Module-Build
 	test? (
 			virtual/perl-Test-Simple
