@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=JSWARTZ
-MODULE_VERSION=0.52
+MODULE_VERSION=0.54
 inherit perl-module
 
 DESCRIPTION='Unified cache handling interface'
@@ -38,12 +38,16 @@ perl_meta_runtime() {
 	echo \>=dev-perl/Moose-0.660
 	# Storable
 	echo virtual/perl-Storable
+	# String::RewritePrefix
+	echo dev-perl/String-RewritePrefix
 	# Task::Weaken
 	echo dev-perl/Task-Weaken
 	# Time::Duration 1.06 ( 1.60.0 )
 	echo \>=dev-perl/Time-Duration-1.60.0
 	# Time::Duration::Parse 0.03 ( 0.30.0 )
 	echo \>=dev-perl/Time-Duration-Parse-0.30.0
+	# Time::HiRes 1.30 ( 1.300.0 )
+	echo \>=virtual/perl-Time-HiRes-1.30.00
 	# Try::Tiny 0.05 ( 0.50.0 )
 	echo \>=dev-perl/Try-Tiny-0.50.0
 }
