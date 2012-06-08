@@ -16,7 +16,7 @@ PATCHES=(
 	"${FILESDIR}/${MODULE_VERSION}/use_test_cpan_meta_yaml_version.patch"
 )
 COMMON_DEPEND="
-	>=dev-perl/Class-Accessor-0.19
+	>=dev-perl/Class-Accessor-0.190.0
 	>=dev-perl/Archive-Any-0.60.0
 	>=virtual/perl-Archive-Tar-1.30
 	>=dev-perl/CPAN-DistnameInfo-0.60.0
