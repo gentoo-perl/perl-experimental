@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Mouse-0.04
+	>=dev-perl/Mouse-0.40.0
 	dev-perl/Sub-Exporter
 	dev-perl/Data-GUID
 	dev-perl/namespace-clean

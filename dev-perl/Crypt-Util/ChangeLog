@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Crypt-Util
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com> Crypt-Util-0.09.ebuild:
+  Normalize dep on Mouse
 
 *Crypt-Util-0.11 (06 Jun 2010)
 
