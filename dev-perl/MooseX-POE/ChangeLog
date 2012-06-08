@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com> MooseX-POE-0.213.0.ebuild,
+  MooseX-POE-0.214.0.ebuild, MooseX-POE-0.215.0.ebuild:
+  Normalize dep on Test-Fatal
+
 *MooseX-POE-0.215.0 (28 Apr 2012)
 
   28 Apr 2012; Kent Fredric <kentfredric@gmail.com> +MooseX-POE-0.215.0.ebuild:

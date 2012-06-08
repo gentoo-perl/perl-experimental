@@ -23,7 +23,7 @@ perl_meta_runtime() {
 }
 perl_meta_test() {
 	# Test::Fatal 0.003 ( 0.3.0 )
-	echo \>=dev-perl/Test-Fatal-0.003
+	echo \>=dev-perl/Test-Fatal-0.3.0
 	# Test::More 0.90 ( 0.900.0 )
 	echo \>=virtual/perl-Test-Simple-0.90
 }
