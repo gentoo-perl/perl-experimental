@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Config-JSON
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com> Config-JSON-1.510.0.ebuild:
+  Normalize dep on JSON
 
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com> -Config-JSON-1.4.0.ebuild,
   -Config-JSON-1.500.0.ebuild:
