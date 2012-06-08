@@ -2,6 +2,15 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Test-WWW-Mechanize-Catalyst-0.510.0.ebuild,
+  Test-WWW-Mechanize-Catalyst-0.520.0.ebuild,
+  Test-WWW-Mechanize-Catalyst-0.530.0.ebuild,
+  Test-WWW-Mechanize-Catalyst-0.540.0.ebuild,
+  Test-WWW-Mechanize-Catalyst-0.560.0.ebuild,
+  Test-WWW-Mechanize-Catalyst-0.570.0.ebuild:
+  Normalize dep on WWW-Mechanize
+
 *Test-WWW-Mechanize-Catalyst-0.570.0 (06 Apr 2012)
 
   06 Apr 2012; Kent Fredric <kentfredric@gmail.com>

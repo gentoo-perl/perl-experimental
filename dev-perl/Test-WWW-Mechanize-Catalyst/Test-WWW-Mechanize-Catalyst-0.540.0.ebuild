@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.0.0
 	>=dev-perl/libwww-perl-5.816 $(comment 5.816.0)
 	>=dev-perl/Test-WWW-Mechanize-1.14 $(comment 1.140.0)
-	>=dev-perl/WWW-Mechanize-1.54 $(comment 1.540.0)
+	>=dev-perl/WWW-Mechanize-1.540.0
 	>=dev-perl/Moose-0.67 $(comment 0.670.0)
 	>=dev-perl/namespace-clean-0.90 $(comment 0.90.0)
 "
