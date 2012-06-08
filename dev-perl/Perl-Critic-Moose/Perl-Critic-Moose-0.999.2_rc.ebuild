@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -15,7 +15,7 @@ IUSE=""
 comment() { echo ''; }
 COMMON_DEPEND="
 	$(comment virtual/perl-base)
-	>=dev-perl/Perl-Critic-1.98 $(comment 1.98.0)
+	>=dev-perl/Perl-Critic-1.98.0
 	$(comment ^^ Perl::Critic::Policy)
 	$(comment ^^ Perl::Critic::Utils)
 	$(comment ^^ Perl::Critic::Utils::PPI)
@@ -28,7 +28,7 @@ DEPEND="
 
 	$(comment virtual/perl-Carp)
 	$(comment virtual/perl-English)
-	>=dev-perl/Perl-Critic-1.98 $(comment 1.98.0)
+	>=dev-perl/Perl-Critic-1.98.0
 	$(comment ^^ Perl::Critic::TestUtils)
 	$(comment ^^ Perl::Critic::Utils)
 	$(comment ^^ Perl::Critic::Violation)
