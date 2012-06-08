@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-PluginBundle-Author-KENTNL-1.1.1.ebuild,
+  -Dist-Zilla-PluginBundle-Author-KENTNL-1.2.0.ebuild:
+  Gone on CPAN
+
 *Dist-Zilla-PluginBundle-Author-KENTNL-1.4.1 (14 Apr 2012)
 
   14 Apr 2012; Kent Fredric <kentfredric@gmail.com>
