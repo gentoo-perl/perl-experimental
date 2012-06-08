@@ -2,6 +2,16 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Action-REST-0.800.0.ebuild, Catalyst-Action-REST-0.810.0.ebuild,
+  Catalyst-Action-REST-0.830.0.ebuild, Catalyst-Action-REST-0.850.0.ebuild,
+  Catalyst-Action-REST-0.870.0.ebuild, Catalyst-Action-REST-0.880.0.ebuild,
+  Catalyst-Action-REST-0.890.0.ebuild, Catalyst-Action-REST-0.900.0.ebuild,
+  Catalyst-Action-REST-0.910.0.ebuild, Catalyst-Action-REST-0.930.0.ebuild,
+  Catalyst-Action-REST-0.960.0.ebuild, Catalyst-Action-REST-0.980.0.ebuild,
+  Catalyst-Action-REST-0.990.0.ebuild, Catalyst-Action-REST-1.0.0.ebuild:
+  Normalize dep on JSON
+
 *Catalyst-Action-REST-1.0.0 (14 Apr 2012)
 
   14 Apr 2012; Kent Fredric <kentfredric@gmail.com>

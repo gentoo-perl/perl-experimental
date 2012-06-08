@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# FreezeThaw
 	echo dev-perl/FreezeThaw
 	# JSON 2.12 ( 2.120.0 )
-	echo \>=dev-perl/JSON-2.12
+	echo \>=dev-perl/JSON-2.120.0
 	# JSON::XS 2.2222 ( 2.222.200 )
 	echo \>=dev-perl/JSON-XS-2.222.200
 	# LWP::UserAgent 2.033 ( 2.33.0 )

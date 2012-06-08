@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# HTML::Parser
 	echo dev-perl/HTML-Parser
 	# JSON 2.12 ( 2.120.0 )
-	echo \>=dev-perl/JSON-2.12
+	echo \>=dev-perl/JSON-2.120.0
 	# JSON::XS 2.2222 ( 2.222.200 )
 	echo \>=dev-perl/JSON-XS-2.222.200
 	# LWP::UserAgent 2.033 ( 2.33.0 )

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	dev-perl/URI-Find
 	>=dev-perl/MRO-Compat-0.10 $(comment 0.100.0)
 	json? (
-		>=dev-perl/JSON-2.12 $(comment 2.120.0)
+		>=dev-perl/JSON-2.120.0
 		>=dev-perl/JSON-XS-2.2.2
 	)
 	data-taxi? (
