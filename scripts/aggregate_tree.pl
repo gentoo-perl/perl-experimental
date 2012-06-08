@@ -83,38 +83,35 @@ $overlay->iterate(
       # warn "<pkgmetadata>/<upstream>/<remote-id> missing in $xmlfile\n";
       return;
     }
-    if ( not exists $XML->{pkgmetadata}->{upstream}->{'remote-id'}->{type} ) {
+    for my $remote ( @{ $XML->{pkgmetadata}->{upstream}->{'remote-id'} } ) {
 
-      #        warn "remote type not specified for $CP";
-      return;
-    }
-    if ( not $XML->{pkgmetadata}->{upstream}->{'remote-id'}->{type} eq 'cpan' ) {
+      next if not exists $remote->{type};
+      next unless $remote->{type} eq 'cpan';
 
-      #        warn "$CP: Not a CPAN remote: " .    $XML->{pkgmetadata}->{upstream}->{'remote-id'}->{type}    ;
-      return;
-    }
-    my $upstream = $XML->{pkgmetadata}->{upstream}->{'remote-id'}->content();
-    if ( not defined $packages->{$upstream} ) {
-      $packages->{$upstream} = [];
-    }
-    my $versions = [];
-    my $record = {
-      category => $c->{category_name},
-      package  => $c->{package_name},
-      repository => $overlay_name,
-      versions_gentoo => $versions,
-    };
-    $c->{package}->iterate( ebuilds => sub {
-      my ( $self, $d ) = @_;
-      my $version = $d->{ebuild_name};
-      my $p = $c->{package_name};
-      $version =~ s/\.ebuild$//;
-      $version =~ s/^\Q${p}\E-//;
-      push @{$versions}, $version;
-    });
-    push @{ $packages->{$upstream} }, $record;
+      my $upstream = $remote->content();
 
-    *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
+      if ( not defined $packages->{$upstream} ) {
+        $packages->{$upstream} = [];
+      }
+      my $versions = [];
+      my $record = {
+        category => $c->{category_name},
+        package  => $c->{package_name},
+        repository => $overlay_name,
+        versions_gentoo => $versions,
+      };
+      $c->{package}->iterate( ebuilds => sub {
+        my ( $self, $d ) = @_;
+        my $version = $d->{ebuild_name};
+        my $p = $c->{package_name};
+        $version =~ s/\.ebuild$//;
+        $version =~ s/^\Q${p}\E-//;
+        push @{$versions}, $version;
+      });
+      push @{ $packages->{$upstream} }, $record;
+
+      *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
+    }
   }
 );
 
