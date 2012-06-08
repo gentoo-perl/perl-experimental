@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ RDEPEND="dev-perl/File-Find-Rule
 	dev-perl/File-Find-Rule-Perl
 	dev-perl/Module-Manifest
 	dev-perl/Module-Math-Depends
-	>=dev-perl/PPI-1.118
+	>=dev-perl/PPI-1.118.0
 	dev-perl/Module-Extract
 	dev-perl/YAML-Tiny"
 DEPEND="${RDEPEND}"
