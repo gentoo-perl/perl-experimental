@@ -45,7 +45,7 @@ perl_meta_runtime() {
 	# Mouse 0.64 ( 0.640.0 )
 	echo \>=dev-perl/Mouse-0.640.0
 	# PPI 1.203 ( 1.203.0 )
-	echo \>=dev-perl/PPI-1.203
+	echo \>=dev-perl/PPI-1.203.0
 	# Sub::Name 0.03 ( 0.30.0 )
 	echo \>=dev-perl/Sub-Name-0.30.0
 	# perl v5.8.1 ( 5.8.1 )
