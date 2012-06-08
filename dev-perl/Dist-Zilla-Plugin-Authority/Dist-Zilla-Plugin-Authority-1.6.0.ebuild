@@ -39,7 +39,7 @@ perl_meta_runtime() {
 	# Moose::Util::TypeConstraints 1.01 ( 1.10.0 )
 	echo \>=dev-perl/Moose-1.010
 	# PPI 1.206 ( 1.206.0 )
-	echo \>=dev-perl/PPI-1.206
+	echo \>=dev-perl/PPI-1.206.0
 	# perl 5.006 ( 5.6.0 )
 	echo \>=dev-lang/perl-5.6.0
 	# strict

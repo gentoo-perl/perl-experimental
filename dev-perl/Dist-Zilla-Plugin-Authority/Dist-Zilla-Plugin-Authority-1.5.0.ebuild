@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI="4"
@@ -43,8 +43,8 @@ perl_mb_requires() {
 	echo \>=dev-perl/Moose-1.30.0
 	# Moose::Util::TypeConstraints 1.01
 	echo \>=dev-perl/Moose-1.10.0
-	# PPI 1.206
-	echo \>=dev-perl/PPI-1.206
+	# PPI 1.206.0
+	echo \>=dev-perl/PPI-1.206.0
 	# perl 5.006
 }
 DEPEND="$(perl_mb_configure)
