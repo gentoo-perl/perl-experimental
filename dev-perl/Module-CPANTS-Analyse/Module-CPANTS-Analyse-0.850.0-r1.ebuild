@@ -23,8 +23,8 @@ COMMON_DEPEND="
 	>=virtual/perl-Pod-Simple-2.02
 	>=dev-perl/YAML-Syck-0.95
 	>=dev-perl/Module-ExtractUse-0.180.0
-	>=virtual/perl-Module-Pluggable-2.96
-	>=dev-perl/IO-Capture-0.05
+	>=virtual/perl-Module-Pluggable-2.960.0
+	>=dev-perl/IO-Capture-0.50.0
 	>=dev-perl/Array-Diff-0.40.0
 	dev-perl/Test-CPAN-Meta-YAML
 	>=virtual/perl-version-0.73
@@ -33,7 +33,7 @@ COMMON_DEPEND="
 	dev-perl/Readonly
 	>=dev-perl/Software-License-0.3.0
 	dev-perl/File-Slurp
-	>=dev-perl/Text-CSV_XS-0.45
+	>=dev-perl/Text-CSV_XS-0.450.0
 	dev-perl/libwww-perl
 "
 DEPEND="
