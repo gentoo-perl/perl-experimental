@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RSRCHBOY
-MODULE_VERSION=0.14
+MODULE_VERSION=0.15
 inherit perl-module
 
 DESCRIPTION='Mark overload code symbols as methods'
