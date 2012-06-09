@@ -2,6 +2,14 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-HTTP-Tiny-0.22.0 (09 Jun 2012)
+*perl-HTTP-Tiny-0.17.0-r1 (09 Jun 2012)
+
+  09 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  -perl-HTTP-Tiny-0.17.0.ebuild, +perl-HTTP-Tiny-0.17.0-r1.ebuild,
+  +perl-HTTP-Tiny-0.22.0.ebuild:
+  Version Bump
+
 *perl-HTTP-Tiny-0.21.0 (27 May 2012)
 
   27 May 2012; Kent Fredric <kentfredric@gmail.com>
