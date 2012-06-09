@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/MooseX-Daemonize
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Daemonize-0.150.0.ebuild:
+  Version Bump
+
+*MooseX-Daemonize-0.150.0 (09 Jun 2012)
+
+  09 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-Daemonize-0.150.0.ebuild:
+  Version Bump
 
   16 Jul 2011; Kent Fredric <kentfredric@gmail.com>
   -MooseX-Daemonize-0.90.0.ebuild:
