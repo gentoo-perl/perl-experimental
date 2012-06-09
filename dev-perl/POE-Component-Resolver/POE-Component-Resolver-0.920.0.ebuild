@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RCAPUTO
-MODULE_VERSION=0.918
+MODULE_VERSION=0.920
 inherit perl-module
 
 DESCRIPTION='A non-blocking getaddrinfo() resolver'
@@ -20,10 +20,10 @@ perl_meta_runtime() {
 	echo \>=dev-perl/POE-1.311.0
 	# Scalar::Util 1.23 ( 1.230.0 )
 	echo \>=virtual/perl-Scalar-List-Utils-1.230.0
-	# Socket::GetAddrInfo 0.19 ( 0.190.0 )
-	echo \>=dev-perl/Socket-GetAddrInfo-0.190.0
+	# Socket 2.001 ( 2.1.0 )
+	echo \>=virtual/perl-Socket-2.1.0
 	# Storable 2.18 ( 2.180.0 )
-	echo \>=virtual/perl-Storable-2.18
+	echo \>=virtual/perl-Storable-2.180.0
 	# Test::More 0.96 ( 0.960.0 )
 	echo \>=virtual/perl-Test-Simple-0.96
 	# Time::HiRes 1.9711 ( 1.971.100 )
