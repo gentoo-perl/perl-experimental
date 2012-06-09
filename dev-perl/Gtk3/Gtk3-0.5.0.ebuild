@@ -30,4 +30,3 @@ SRC_TEST=do
 src_test() {
 	Xemake -j1 test || die
 }
-
