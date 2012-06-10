@@ -2,6 +2,16 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Socket-2.2.0 (10 Jun 2012)
+*perl-Socket-2.1.0-r1 (10 Jun 2012)
+*perl-Socket-1.940.0-r1 (10 Jun 2012)
+
+  10 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  -perl-Socket-1.940.0.ebuild, +perl-Socket-1.940.0-r1.ebuild,
+  -perl-Socket-2.1.0.ebuild, +perl-Socket-2.1.0-r1.ebuild,
+  +perl-Socket-2.2.0.ebuild:
+  Version Bump
+
 *perl-Socket-2.1.0 (06 Apr 2012)
 
   06 Apr 2012; Kent Fredric <kentfredric@gmail.com> +perl-Socket-2.1.0.ebuild:
