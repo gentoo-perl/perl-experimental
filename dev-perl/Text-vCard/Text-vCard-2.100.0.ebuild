@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Text-vFile-asData-0.07
+	>=dev-perl/Text-vFile-asData-0.70.0
 	>=dev-perl/File-Slurp-9999.04
 	>=virtual/perl-MIME-Base64-3.07"
 DEPEND="${RDEPEND}
