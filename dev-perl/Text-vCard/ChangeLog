@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Text-vCard
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Text-vCard-2.100.0 (10 Jun 2012)
+*Text-vCard-2.90.0 (10 Jun 2012)
+*Text-vCard-2.70.0 (10 Jun 2012)
+
+  10 Jun 2012; Kent Fredric <kentfredric@gmail.com> -Text-vCard-2.07.ebuild,
+  -Text-vCard-2.09.ebuild, +Text-vCard-2.70.0.ebuild,
+  +Text-vCard-2.90.0.ebuild, -Text-vCard-2.100.ebuild,
+  +Text-vCard-2.100.0.ebuild:
+  Migrate to x.y.z
 
 *Text-vCard-2.100 (18 Jan 2011)
 
