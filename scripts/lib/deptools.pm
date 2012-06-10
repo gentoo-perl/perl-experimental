@@ -70,6 +70,8 @@ sub _vmap_perl_strange {
     'BioPerl-Run'     => 'sci-biology/bioperl-run',
     'Snapback2'       => 'app-backup/snapback2',
     'SVK'             => 'dev-vcs/svk',
+    'Glib'            => perl 'glib-perl',
+    'Set-Scalar'      => perl 'set-scalar',
   );
 }
 
