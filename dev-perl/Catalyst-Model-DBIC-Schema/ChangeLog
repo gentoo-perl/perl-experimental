@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Catalyst-Model-DBIC-Schema
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Model-DBIC-Schema-0.600.0 (22 Jun 2012)
+
+  22 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Model-DBIC-Schema-0.590.0.ebuild,
+  +Catalyst-Model-DBIC-Schema-0.600.0.ebuild:
+  Version Bump
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Model-DBIC-Schema-0.410.0.ebuild,

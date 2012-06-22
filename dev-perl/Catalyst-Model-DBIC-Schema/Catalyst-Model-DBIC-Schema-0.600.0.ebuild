@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=RKITOVER
-MODULE_VERSION=0.59
+MODULE_VERSION=0.60
 inherit perl-module
 
 DESCRIPTION='DBIx::Class::Schema Model Class'
@@ -12,14 +12,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
 	# DBD::SQLite
 	echo dev-perl/DBD-SQLite
-	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# Storable
 	echo virtual/perl-Storable
 	# Test::Exception
