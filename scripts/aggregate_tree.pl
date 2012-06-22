@@ -21,116 +21,139 @@ use Gentoo::Overlay;
 
 use XML::Smart;
 
-my $env  = env::gentoo::perl_experimental->new();
-my $opts = optparse->new(
-  argv => \@ARGV,
-  help => sub { print <DATA>; return },
-);
-my $root = $env->root;
-use Path::Class::Dir;
+my ( $env, $packages, $cat );
+main();
 
-if ( defined $opts->long_opts->{root} ) {
-  $root = Path::Class::Dir->new( $opts->long_opts->{root} );
+sub main {
+  $env = env::gentoo::perl_experimental->new();
+  my $opts = optparse->new(
+    argv => \@ARGV,
+    help => sub { print <DATA>; return },
+  );
+  my $tree;
+
+  if ( $opts->long_opts->{'from-ini'} ) {
+    require Gentoo::Overlay::Group::INI;
+    $tree = Gentoo::Overlay::Group::INI->load_named('aggregate_tree')->overlay_group;
+  }
+  else {
+    require Gentoo::Overlay::Group;
+    $tree = Gentoo::Overlay::Group->new();
+    $tree->add_overlay( set_root( $opts->long_opts->{root} ));
+  }
+
+  $packages = {};
+
+  my $dest = open_output( $opts->long_opts->{output} );
+
+  $|++;
+  $tree->iterate(
+    'packages' => \&handle_package
+  );
+
+  $dest->print( make_format( $opts->long_opts->{format} ) );
+
 }
-my $overlay = Gentoo::Overlay->new( path => $root );
 
-my $overlay_name = $overlay->name;
-use JSON;
-
-my $data;
-
-my $packages = $data->{ $overlay_name } = {};
-
-my $encoder = JSON->new()->pretty->utf8->canonical;
-
-my $dest = \*STDOUT;
-if ( not $opts->long_opts->{output} or $opts->long_opts->{output} eq '-' ) {
-  $dest = \*STDOUT;
-}
-else {
-  use Path::Class::File;
-  my $file = Path::Class::File->new( $opts->long_opts->{output} )->absolute();
-  $dest = $file->openw( iomode => ':utf8' );
+sub set_root {
+  my ($root) = @_;
+  return $env->root unless defined $root;
+  require Path::Class::Dir;
+  return Path::Class::Dir->new($root);
 }
 
-my $cat;
-$|++;
-$overlay->iterate(
-  'packages' => sub {
-    my ( $self, $c ) = @_;
-    my $CP = $c->{category_name} . '/' . $c->{package_name};
-    my $xmlfile = $root->subdir( $c->{category_name}, $c->{package_name} )->file('metadata.xml');
-    if ( not -e $xmlfile ) {
-      warn "\e[31mNo metadata.xml for $CP\e[0m\n";
-      return;
-    }
-    if( not $cat or $c->{category_name} ne $cat ) {
-      *STDERR->print("\nProcessing " . $c->{category_name}  . " :");
-      $cat = $c->{category_name};
-    }
-    *STDERR->print(".");
-    my $XML = XML::Smart->new( $xmlfile->absolute()->stringify() );
-    if ( not exists $XML->{pkgmetadata} ) {
-      warn "\e[31m<pkgmetadata> missing in $xmlfile\e[0m\n";
-      return;
-    }
-    if ( not exists $XML->{pkgmetadata}->{upstream} ) {
-      # warn "<pkgmetadata>/<upstream> missing in $xmlfile\n";
-      return;
-    }
-    if ( not exists $XML->{pkgmetadata}->{upstream}->{'remote-id'} ) {
+sub open_output {
+  my ($output) = @_;
+  return \*STDOUT if not defined $output;
+  return \*STDOUT if $output eq '-';
+  require Path::Class::File;
+  my $file = Path::Class::File->new($output)->absolute();
+  return $file->openw( iomode => ':utf8' );
+}
 
-      # warn "<pkgmetadata>/<upstream>/<remote-id> missing in $xmlfile\n";
-      return;
+sub make_format {
+  my ($format) = @_;
+  $format ||= 'JSON';
+  if ( $format eq 'JSON' ) {
+    goto &make_format_json;
+  }
+  if ( $format eq 'distlist' ) {
+    goto &make_format_distlist;
+  }
+  die "Unknown format type " . $format;
+}
+
+sub make_format_json {
+  require JSON;
+  my $encoder = JSON->new()->pretty->utf8->canonical;
+  return $encoder->encode($packages);
+}
+
+sub make_format_distlist {
+  return join qq{\n}, keys %{$packages};
+}
+
+sub handle_package {
+  my ( $self, $c ) = @_;
+  my $CP      = $c->{category_name} . '/' . $c->{package_name};
+  my $xmlfile = $c->{package}->path->file('metadata.xml');
+  if ( not -e $xmlfile ) {
+    warn "\e[31mNo metadata.xml for $CP\e[0m\n";
+    return;
+  }
+  if ( not $cat or $c->{category_name} ne $cat ) {
+    *STDERR->print( "\nProcessing " . $c->{category_name} . " :" );
+    $cat = $c->{category_name};
+  }
+  *STDERR->print(".");
+  my $XML = XML::Smart->new( $xmlfile->absolute()->stringify() );
+  if ( not exists $XML->{pkgmetadata} ) {
+    warn "\e[31m<pkgmetadata> missing in $xmlfile\e[0m\n";
+    return;
+  }
+  if ( not exists $XML->{pkgmetadata}->{upstream} ) {
+
+    # warn "<pkgmetadata>/<upstream> missing in $xmlfile\n";
+    return;
+  }
+  if ( not exists $XML->{pkgmetadata}->{upstream}->{'remote-id'} ) {
+
+    # warn "<pkgmetadata>/<upstream>/<remote-id> missing in $xmlfile\n";
+    return;
+  }
+  for my $remote ( @{ $XML->{pkgmetadata}->{upstream}->{'remote-id'} } ) {
+
+    next if not exists $remote->{type};
+    next unless $remote->{type} eq 'cpan';
+
+    my $upstream = $remote->content();
+
+    if ( not defined $packages->{$upstream} ) {
+      $packages->{$upstream} = [];
     }
-    for my $remote ( @{ $XML->{pkgmetadata}->{upstream}->{'remote-id'} } ) {
-
-      next if not exists $remote->{type};
-      next unless $remote->{type} eq 'cpan';
-
-      my $upstream = $remote->content();
-
-      if ( not defined $packages->{$upstream} ) {
-        $packages->{$upstream} = [];
-      }
-      my $versions = [];
-      my $record = {
-        category => $c->{category_name},
-        package  => $c->{package_name},
-        repository => $overlay_name,
-        versions_gentoo => $versions,
-      };
-      $c->{package}->iterate( ebuilds => sub {
+    my $versions = [];
+    my $record   = {
+      category        => $c->{category_name},
+      package         => $c->{package_name},
+      repository      => $c->{overlay_name},
+      versions_gentoo => $versions,
+    };
+    $c->{package}->iterate(
+      ebuilds => sub {
         my ( $self, $d ) = @_;
         my $version = $d->{ebuild_name};
-        my $p = $c->{package_name};
+        my $p       = $c->{package_name};
         $version =~ s/\.ebuild$//;
         $version =~ s/^\Q${p}\E-//;
         push @{$versions}, $version;
-      });
-      push @{ $packages->{$upstream} }, $record;
+      }
+    );
+    push @{ $packages->{$upstream} }, $record;
 
-      *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
-    }
+    *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
   }
-);
 
-my $out;
-if ( not $opts->long_opts->{format} ) {
-  $opts->long_opts->{format} = "JSON";
 }
-if ( $opts->long_opts->{format} eq "JSON" ) {
-  $out = $encoder->encode($packages);
-}
-elsif ( $opts->long_opts->{format} eq 'distlist' ) {
-  $out = join "\n", keys %{$packages};
-}
-else {
-  die "Unknown format type " . $opts->long_opts->{format};
-}
-
-$dest->print($out);
-
 0;
 
 __DATA__
