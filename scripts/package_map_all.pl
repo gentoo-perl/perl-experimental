@@ -32,9 +32,10 @@ my $size = 500;
 my $scroll_time = '20m';
 
 my $metadata = $root->subdir( 'metadata', 'perl' );
-my $distmap = $metadata->subdir('distmap');
+#my $distmap = $metadata->subdir('distmap');
 
-my (@json_files) = grep { not $_->is_dir and $_->basename =~ /\.json$/ } $distmap->children();
+#my (@json_files) = grep { not $_->is_dir and $_->basename =~ /\.json$/ } $distmap->children();
+my (@json_files) = ($metadata->file('distmap.json'));
 
 use JSON;
 my $decoder = JSON->new()->utf8->relaxed;
@@ -42,7 +43,7 @@ my $encoder = JSON->new()->pretty->utf8->canonical;
 
 my %lookup;
 my %g_repos;
-
+say "Init-ed";
 {
   for my $file (@json_files) {
     my %repos;
