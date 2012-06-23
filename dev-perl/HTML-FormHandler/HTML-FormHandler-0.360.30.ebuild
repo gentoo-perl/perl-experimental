@@ -51,7 +51,7 @@ perl_meta_runtime() {
 	# aliased
 	echo dev-perl/aliased
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.090
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 }
 perl_meta_test() {
 	# HTML::TreeBuilder 3.23 ( 3.230.0 )

@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  HTML-FormHandler-0.330.10.ebuild, HTML-FormHandler-0.330.20.ebuild,
+  HTML-FormHandler-0.360.30.ebuild:
+  Normalise dep on namespace-autoclean
+
 *HTML-FormHandler-0.400.110 (09 Jun 2012)
 
   09 Jun 2012; Kent Fredric <kentfredric@gmail.com>
