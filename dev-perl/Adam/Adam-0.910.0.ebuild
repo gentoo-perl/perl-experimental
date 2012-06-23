@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# aliased 0.30 ( 0.300.0 )
 	echo \>=dev-perl/aliased-0.300.0
 	# namespace::autoclean 0.12 ( 0.120.0 )
-	echo \>=dev-perl/namespace-autoclean-0.120
+	echo \>=dev-perl/namespace-autoclean-0.120.0
 }
 perl_meta_test() {
 	# Test::Deep 0.103 ( 0.103.0 )
