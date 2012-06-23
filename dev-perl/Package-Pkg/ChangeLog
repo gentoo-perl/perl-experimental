@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Package-Pkg-0.2.0 (23 Jun 2012)
+
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com> +Package-Pkg-0.2.0.ebuild:
+  Version Bump
+
 *Package-Pkg-0.1.900 (23 Jun 2012)
 
   23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
