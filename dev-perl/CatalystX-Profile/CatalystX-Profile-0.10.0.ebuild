@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Devel-NYTProf-3.01
-	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/namespace-autoclean-0.90.0
 	>=virtual/perl-ExtUtils-MakeMaker-6.11
 	>=dev-perl/Catalyst-Runtime-5.800.200
 	>=dev-perl/CatalystX-InjectComponent-0.024
