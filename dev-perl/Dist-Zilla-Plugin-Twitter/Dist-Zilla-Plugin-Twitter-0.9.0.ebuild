@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -17,7 +17,7 @@ COMMON_DEPEND="
 	virtual/perl-libnet
 	>=dev-perl/Net-Twitter-3
 	>=dev-perl/WWW-Shorten-1
-	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/namespace-autoclean-0.90.0
 "
 DEPEND="
 	${COMMON_DEPEND}

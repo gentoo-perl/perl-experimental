@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -39,7 +39,7 @@ perl_meta_runtime() {
 	# WWW::Shorten::TinyURL
 	echo dev-perl/WWW-Shorten
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.90
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# perl 5.008 ( 5.8.0 )
 	echo \>=dev-lang/perl-5.8.0
 	# strict

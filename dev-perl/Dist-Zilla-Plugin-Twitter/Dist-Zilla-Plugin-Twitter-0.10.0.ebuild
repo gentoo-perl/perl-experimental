@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -37,7 +37,7 @@ depend Net-Twitter 3
 depend WWW-Shorten 3.20
 depend WWW-Shorten-Simple
 #depend WWW-Shorten # WWW-Shorten-TinyURL 
-depend namespace-autoclean 0.09
+depend namespace-autoclean 0.90.0
 #depend-virtual utf8 # CORE
 
 ddep_setup
