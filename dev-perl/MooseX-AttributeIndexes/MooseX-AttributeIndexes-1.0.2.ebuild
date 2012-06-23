@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# namespace::autoclean 0.08 ( 0.80.0 )
-	echo \>=dev-perl/namespace-autoclean-0.080
+	echo \>=dev-perl/namespace-autoclean-0.80.0
 	# perl v5.10.0 ( 5.10.0 )
 	echo \>=dev-lang/perl-5.10.0
 	# strict
