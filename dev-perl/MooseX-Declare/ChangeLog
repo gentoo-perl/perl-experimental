@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/MooseX-Declare
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Declare-0.320.0.ebuild, MooseX-Declare-0.330.0.ebuild,
+  MooseX-Declare-0.340.0.ebuild, MooseX-Declare-0.350.0.ebuild:
+  Normalise dep on namespace-autoclean
 
 *MooseX-Declare-0.350.0 (26 Aug 2011)
 
