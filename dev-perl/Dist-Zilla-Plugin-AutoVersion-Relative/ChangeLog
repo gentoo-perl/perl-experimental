@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-AutoVersion-Relative-0.30.0.10.ebuild:
+  Normalise dep on namespace-autoclean
+
   08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
   -Dist-Zilla-Plugin-AutoVersion-Relative-0.10.603.90.ebuild:
   Gone on CPAN
