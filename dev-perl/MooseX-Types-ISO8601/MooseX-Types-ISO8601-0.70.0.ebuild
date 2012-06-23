@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	>=dev-perl/namespace-autoclean-0.05
+	>=dev-perl/namespace-autoclean-0.50.0
 	>=dev-perl/DateTime-0.41
 	dev-perl/List-MoreUtils
 	dev-perl/Try-Tiny
