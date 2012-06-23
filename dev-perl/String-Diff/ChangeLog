@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/String-Diff
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*String-Diff-0.40.0 (23 Jun 2012)
+
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com> -String-Diff-0.04.ebuild,
+  +String-Diff-0.40.0.ebuild:
+  Migrate to x.y.z
+

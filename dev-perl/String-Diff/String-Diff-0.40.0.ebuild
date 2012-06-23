@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 MODULE_AUTHOR=YAPPO
+MODULE_VERSION="0.04"
 inherit perl-module
 
 DESCRIPTION="Simple diff to String"
