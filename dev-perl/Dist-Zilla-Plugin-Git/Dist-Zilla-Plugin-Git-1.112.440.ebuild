@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -69,7 +69,7 @@ COMMON_DEPEND="
 	dev-perl/Version-Next
 
 	$(comment namespace::autoclean 0.09)
-	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/namespace-autoclean-0.90.0
 
 	$(comment perl 5.010)
 	>=dev-lang/perl-5.10.0

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/String-Formatter
 	dev-perl/Version-Next
-	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/namespace-autoclean-0.90.0
 	>=dev-lang/perl-5.10.0
 	dev-perl/Path-Class
 	>=virtual/perl-version-0.80
