@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -115,7 +115,7 @@ perl_meta_runtime() {
 	# URI 1.35 ( 1.350.0 )
 	echo \>=dev-perl/URI-1.35
 	# namespace::autoclean 0.09 ( 0.90.0 )
-	echo \>=dev-perl/namespace-autoclean-0.090
+	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# namespace::clean 0.13 ( 0.130.0 )
 	echo \>=dev-perl/namespace-clean-0.130
 	# perl v5.8.4 ( 5.8.4 )

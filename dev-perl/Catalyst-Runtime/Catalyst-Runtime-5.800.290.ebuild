@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	dev-perl/List-MoreUtils
-	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/namespace-autoclean-0.90.0
 	>=dev-perl/namespace-clean-0.13
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.9.30
