@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/CatalystX-Component-Traits-0.140.0
 	>=dev-perl/Moose-1.12
 	dev-perl/MooseX-Types
-	>=dev-perl/namespace-autoclean-0.09
+	>=dev-perl/namespace-autoclean-0.90.0
 	dev-perl/Carp-Clan
 	dev-perl/List-MoreUtils
 	dev-perl/Tie-IxHash
