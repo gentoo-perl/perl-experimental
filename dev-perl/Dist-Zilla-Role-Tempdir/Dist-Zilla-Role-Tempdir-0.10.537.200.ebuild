@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -26,7 +26,7 @@ COMMON_DEPEND="
 	$(comment Moose::Role)
 	>=dev-perl/Path-Class-0.17 $(comment 0.170.0)
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)
-	>=dev-perl/namespace-autoclean-0.09 $(comment 0.90.0)
+	>=dev-perl/namespace-autoclean-0.90.0
 "
 DEPEND="
 	${COMMON_DEPEND}

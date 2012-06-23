@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Role-Tempdir-0.10.537.200.ebuild,
+  Dist-Zilla-Role-Tempdir-0.10.537.210.ebuild:
+  Normalise dep on namespace-autoclean
+
 *Dist-Zilla-Role-Tempdir-0.10.537.210 (23 Feb 2012)
 
   23 Feb 2012; Kent Fredric <kentfredric@gmail.com>
