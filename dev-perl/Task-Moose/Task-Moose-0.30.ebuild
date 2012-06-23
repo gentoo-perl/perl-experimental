@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -68,7 +68,7 @@ COMMON_DEPEND="
 		dev-perl/Moose-Autobox
 		dev-perl/MooseX-ClassAttribute
 		dev-perl/MooseX-SemiAffordanceAccessor
-		>=dev-perl/namespace-autoclean-0.09
+		>=dev-perl/namespace-autoclean-0.90.0
 	)
 	utils? (
 		dev-perl/Pod-Coverage-Moose
