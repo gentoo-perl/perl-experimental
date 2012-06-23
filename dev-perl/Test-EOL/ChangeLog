@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Test-EOL-1.300.0 (23 Jun 2012)
+
+  23 Jun 2012; Kent Fredric <kentfredric@gmail.com> +Test-EOL-1.300.0.ebuild:
+  Version Bump
+
 *Test-EOL-1.100.0 (29 Feb 2012)
 
   29 Feb 2012; Kent Fredric <kentfredric@gmail.com> +Test-EOL-1.100.0.ebuild:
