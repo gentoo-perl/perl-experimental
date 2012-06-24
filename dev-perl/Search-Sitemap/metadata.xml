@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Search-Sitemap</remote-id>
         <remote-id type="cpan-module">Search::Sitemap</remote-id>
         <remote-id type="cpan-module">Search::Sitemap::Index</remote-id>
         <remote-id type="cpan-module">Search::Sitemap::Ping</remote-id>
@@ -19,6 +20,5 @@
         <remote-id type="cpan-module">Search::Sitemap::URL</remote-id>
         <remote-id type="cpan-module">Search::Sitemap::URLStore</remote-id>
         <remote-id type="cpan-module">Search::Sitemap::URLStore::Memory</remote-id>
-        <remote-id type="cpan">Search-Sitemap</remote-id>
     </upstream>
 </pkgmetadata>

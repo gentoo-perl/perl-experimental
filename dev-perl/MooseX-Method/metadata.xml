@@ -7,6 +7,7 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Method</remote-id>
         <remote-id type="cpan-module">Foo1</remote-id>
         <remote-id type="cpan-module">Foo2</remote-id>
         <remote-id type="cpan-module">Foo3</remote-id>
@@ -33,6 +34,5 @@
         <remote-id type="cpan-module">MooseX::Test::Signature::Combined</remote-id>
         <remote-id type="cpan-module">MooseX::Test::Signature::Named</remote-id>
         <remote-id type="cpan-module">MooseX::Test::Signature::Positional</remote-id>
-        <remote-id type="cpan">MooseX-Method</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">B::Hooks::OP::Check::EntersubForCV</remote-id>
         <remote-id type="cpan">B-Hooks-OP-Check-EntersubForCV</remote-id>
+        <remote-id type="cpan-module">B::Hooks::OP::Check::EntersubForCV</remote-id>
     </upstream>
 </pkgmetadata>

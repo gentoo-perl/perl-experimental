@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTML-FormFu</remote-id>
         <remote-id type="cpan-module">HTML::FormFu</remote-id>
         <remote-id type="cpan-module">HTML::FormFu::Attribute</remote-id>
         <remote-id type="cpan-module">HTML::FormFu::Constants</remote-id>
@@ -170,6 +171,5 @@
         <remote-id type="cpan-module">HTML::FormFu::Util</remote-id>
         <remote-id type="cpan-module">HTML::FormFu::Validator</remote-id>
         <remote-id type="cpan-module">HTML::FormFu::Validator::Callback</remote-id>
-        <remote-id type="cpan">HTML-FormFu</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,10 +7,10 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Test-Reporter</remote-id>
         <remote-id type="cpan-module">Test::Reporter</remote-id>
         <remote-id type="cpan-module">Test::Reporter::Transport</remote-id>
         <remote-id type="cpan-module">Test::Reporter::Transport::File</remote-id>
         <remote-id type="cpan-module">Test::Reporter::Transport::Null</remote-id>
-        <remote-id type="cpan">Test-Reporter</remote-id>
     </upstream>
 </pkgmetadata>

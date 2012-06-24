@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Data-Serializer</remote-id>
         <remote-id type="cpan-module">Data::Serializer</remote-id>
         <remote-id type="cpan-module">Data::Serializer::Bencode</remote-id>
         <remote-id type="cpan-module">Data::Serializer::Config::General</remote-id>
@@ -27,6 +28,5 @@
         <remote-id type="cpan-module">Data::Serializer::XML::Simple</remote-id>
         <remote-id type="cpan-module">Data::Serializer::YAML</remote-id>
         <remote-id type="cpan-module">Data::Serializer::YAML::Syck</remote-id>
-        <remote-id type="cpan">Data-Serializer</remote-id>
     </upstream>
 </pkgmetadata>

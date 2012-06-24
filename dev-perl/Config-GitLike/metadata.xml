@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Config-GitLike</remote-id>
         <remote-id type="cpan-module">Config::GitLike</remote-id>
         <remote-id type="cpan-module">Config::GitLike::Cascaded</remote-id>
         <remote-id type="cpan-module">Config::GitLike::Git</remote-id>
-        <remote-id type="cpan">Config-GitLike</remote-id>
     </upstream>
 </pkgmetadata>

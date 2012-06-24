@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Getopt-Lucid</remote-id>
         <remote-id type="cpan-module">Getopt::Lucid</remote-id>
         <remote-id type="cpan-module">Getopt::Lucid::Exception</remote-id>
         <remote-id type="cpan-module">Getopt::Lucid::Spec</remote-id>
-        <remote-id type="cpan">Getopt-Lucid</remote-id>
     </upstream>
 </pkgmetadata>

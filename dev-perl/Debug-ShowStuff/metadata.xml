@@ -7,12 +7,12 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Debug-ShowStuff</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff::CloseGlobalHandle</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff::Indent</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff::ShowStdErr</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff::ShowStdErr::HandleOb</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff::Timer</remote-id>
-        <remote-id type="cpan">Debug-ShowStuff</remote-id>
     </upstream>
 </pkgmetadata>

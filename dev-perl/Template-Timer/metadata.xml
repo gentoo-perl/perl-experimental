@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Template::Timer</remote-id>
         <remote-id type="cpan">Template-Timer</remote-id>
+        <remote-id type="cpan-module">Template::Timer</remote-id>
     </upstream>
 </pkgmetadata>

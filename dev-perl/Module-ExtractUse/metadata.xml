@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Module-ExtractUse</remote-id>
         <remote-id type="cpan-module">Module::ExtractUse</remote-id>
         <remote-id type="cpan-module">Module::ExtractUse::Grammar</remote-id>
         <remote-id type="cpan-module">Parse::RecDescent::Module::ExtractUse::Grammar</remote-id>
-        <remote-id type="cpan">Module-ExtractUse</remote-id>
     </upstream>
 </pkgmetadata>

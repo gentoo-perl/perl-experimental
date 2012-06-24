@@ -7,9 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-View-TT</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::View::TT</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::View::TTSite</remote-id>
         <remote-id type="cpan-module">Catalyst::View::TT</remote-id>
-        <remote-id type="cpan">Catalyst-View-TT</remote-id>
     </upstream>
 </pkgmetadata>

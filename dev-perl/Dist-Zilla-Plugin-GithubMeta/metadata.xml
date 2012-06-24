@@ -8,5 +8,6 @@
     </maintainer>
     <upstream>
         <remote-id type="cpan">Dist-Zilla-Plugin-GithubMeta</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::GithubMeta</remote-id>
     </upstream>
 </pkgmetadata>

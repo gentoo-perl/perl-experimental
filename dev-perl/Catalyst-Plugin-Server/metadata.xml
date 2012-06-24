@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Plugin-Server</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Server</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Server::Backend</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Server::Request</remote-id>
@@ -16,6 +17,5 @@
         <remote-id type="cpan-module">Catalyst::Plugin::Server::XMLRPC::DispatchType::XMLRPCPath</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Server::XMLRPC::DispatchType::XMLRPCRegex</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Server::XMLRPC::Request</remote-id>
-        <remote-id type="cpan">Catalyst-Plugin-Server</remote-id>
     </upstream>
 </pkgmetadata>

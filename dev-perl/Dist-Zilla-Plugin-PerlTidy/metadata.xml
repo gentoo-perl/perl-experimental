@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Dist-Zilla-Plugin-PerlTidy</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::App::Command::perltidy</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Plugin::PerlTidy</remote-id>
-        <remote-id type="cpan">Dist-Zilla-Plugin-PerlTidy</remote-id>
     </upstream>
 </pkgmetadata>

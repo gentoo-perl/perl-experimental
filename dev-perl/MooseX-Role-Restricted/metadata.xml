@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">MooseX::Role::Restricted</remote-id>
         <remote-id type="cpan">MooseX-Role-Restricted</remote-id>
+        <remote-id type="cpan-module">MooseX::Role::Restricted</remote-id>
     </upstream>
 </pkgmetadata>

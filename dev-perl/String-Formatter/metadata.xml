@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">String-Formatter</remote-id>
         <remote-id type="cpan-module">String::Formatter</remote-id>
         <remote-id type="cpan-module">String::Formatter::Cookbook</remote-id>
-        <remote-id type="cpan">String-Formatter</remote-id>
     </upstream>
 </pkgmetadata>

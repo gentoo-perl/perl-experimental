@@ -7,7 +7,7 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::DBI</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-Session-Store-DBI</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::DBI</remote-id>
     </upstream>
 </pkgmetadata>

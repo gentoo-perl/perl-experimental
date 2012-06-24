@@ -7,10 +7,10 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-View-Email</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::View::Email</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::View::Email::Template</remote-id>
         <remote-id type="cpan-module">Catalyst::View::Email</remote-id>
         <remote-id type="cpan-module">Catalyst::View::Email::Template</remote-id>
-        <remote-id type="cpan">Catalyst-View-Email</remote-id>
     </upstream>
 </pkgmetadata>

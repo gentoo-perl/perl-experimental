@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Git-PurePerl</remote-id>
         <remote-id type="cpan-module">Git::PurePerl</remote-id>
         <remote-id type="cpan-module">Git::PurePerl::Actor</remote-id>
         <remote-id type="cpan-module">Git::PurePerl::Config</remote-id>
@@ -33,6 +34,5 @@
         <remote-id type="cpan-module">Git::PurePerl::Protocol::File</remote-id>
         <remote-id type="cpan-module">Git::PurePerl::Protocol::Git</remote-id>
         <remote-id type="cpan-module">Git::PurePerl::Protocol::SSH</remote-id>
-        <remote-id type="cpan">Git-PurePerl</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-View-Mason</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::View::Mason</remote-id>
         <remote-id type="cpan-module">Catalyst::View::Mason</remote-id>
-        <remote-id type="cpan">Catalyst-View-Mason</remote-id>
     </upstream>
 </pkgmetadata>

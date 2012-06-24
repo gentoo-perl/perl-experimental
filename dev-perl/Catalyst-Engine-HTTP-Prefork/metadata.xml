@@ -7,9 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Engine-HTTP-Prefork</remote-id>
         <remote-id type="cpan-module">Catalyst::Engine::HTTP::Prefork</remote-id>
         <remote-id type="cpan-module">Catalyst::Engine::HTTP::Prefork::Handler</remote-id>
         <remote-id type="cpan-module">Catalyst::Engine::HTTP::Prefork::Restarter</remote-id>
-        <remote-id type="cpan">Catalyst-Engine-HTTP-Prefork</remote-id>
     </upstream>
 </pkgmetadata>

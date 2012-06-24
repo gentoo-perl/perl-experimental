@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Traits</remote-id>
         <remote-id type="cpan-module">MooseX::Traits</remote-id>
         <remote-id type="cpan-module">MooseX::Traits::Util</remote-id>
-        <remote-id type="cpan">MooseX-Traits</remote-id>
     </upstream>
 </pkgmetadata>

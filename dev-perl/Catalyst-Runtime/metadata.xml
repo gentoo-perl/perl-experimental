@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Runtime</remote-id>
         <remote-id type="cpan-module">Catalyst</remote-id>
         <remote-id type="cpan-module">Catalyst::Action</remote-id>
         <remote-id type="cpan-module">Catalyst::ActionChain</remote-id>
@@ -49,6 +50,5 @@
         <remote-id type="cpan-module">Catalyst::Test</remote-id>
         <remote-id type="cpan-module">Catalyst::Utils</remote-id>
         <remote-id type="cpan-module">Catalyst::View</remote-id>
-        <remote-id type="cpan">Catalyst-Runtime</remote-id>
     </upstream>
 </pkgmetadata>

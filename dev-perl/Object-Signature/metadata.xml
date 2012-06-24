@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Object-Signature</remote-id>
         <remote-id type="cpan-module">Object::Signature</remote-id>
         <remote-id type="cpan-module">Object::Signature::File</remote-id>
-        <remote-id type="cpan">Object-Signature</remote-id>
     </upstream>
 </pkgmetadata>

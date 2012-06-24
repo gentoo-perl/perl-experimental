@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Plugin-Authorization-ACL</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Authorization::ACL</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Authorization::ACL::Engine</remote-id>
-        <remote-id type="cpan">Catalyst-Plugin-Authorization-ACL</remote-id>
     </upstream>
 </pkgmetadata>

@@ -5,18 +5,17 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-	</maintainer>
-	<use>
-		<flag name="inotify">Pull in <pkg>dev-perl/Linux-Inotify2</pkg>
+    </maintainer>
+    <use><flag name="inotify">Pull in <pkg>dev-perl/Linux-Inotify2</pkg>
 			for linux Inotify Support</flag>
-	</use>
+    </use>
     <upstream>
+        <remote-id type="cpan">File-ChangeNotify</remote-id>
         <remote-id type="cpan-module">File::ChangeNotify</remote-id>
         <remote-id type="cpan-module">File::ChangeNotify::Event</remote-id>
         <remote-id type="cpan-module">File::ChangeNotify::Watcher</remote-id>
         <remote-id type="cpan-module">File::ChangeNotify::Watcher::Default</remote-id>
         <remote-id type="cpan-module">File::ChangeNotify::Watcher::Inotify</remote-id>
         <remote-id type="cpan-module">File::ChangeNotify::Watcher::KQueue</remote-id>
-        <remote-id type="cpan">File-ChangeNotify</remote-id>
     </upstream>
 </pkgmetadata>

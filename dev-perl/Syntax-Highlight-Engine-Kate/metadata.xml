@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Syntax-Highlight-Engine-Kate</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::ABC</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::AHDL</remote-id>
@@ -143,6 +144,5 @@
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Xslt</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Yacas</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Yacc_Bison</remote-id>
-        <remote-id type="cpan">Syntax-Highlight-Engine-Kate</remote-id>
     </upstream>
 </pkgmetadata>

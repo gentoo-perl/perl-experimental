@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
+	<herd>perl</herd>
+	<maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
 	</maintainer>
 	<use>
-		<flag name='system'>Support for autodying system() via
-			<pkg>dev-perl/IPC-System-Simple</pkg>
-		</flag>
+        <flag name="system">Support for autodying system() via
+			<pkg>dev-perl/IPC-System-Simple</pkg></flag>
 	</use>
 	<upstream>
-		<remote-id type="cpan-module">Fatal</remote-id>
-		<remote-id type="cpan-module">autodie</remote-id>
-		<remote-id type="cpan-module">autodie::Scope::Guard</remote-id>
-		<remote-id type="cpan-module">autodie::exception</remote-id>
-		<remote-id type="cpan-module">autodie::exception::system</remote-id>
-		<remote-id type="cpan-module">autodie::hints</remote-id>
-		<changelog>http://search.cpan.org/dist/autodie/Changes</changelog>
-		<remote-id type="cpan">autodie</remote-id>
+        <changelog>http://search.cpan.org/dist/autodie/Changes</changelog>
+        <remote-id type="cpan">autodie</remote-id>
+        <remote-id type="cpan-module">Fatal</remote-id>
+        <remote-id type="cpan-module">autodie</remote-id>
+        <remote-id type="cpan-module">autodie::Scope::Guard</remote-id>
+        <remote-id type="cpan-module">autodie::exception</remote-id>
+        <remote-id type="cpan-module">autodie::exception::system</remote-id>
+        <remote-id type="cpan-module">autodie::hints</remote-id>
 	</upstream>
 </pkgmetadata>

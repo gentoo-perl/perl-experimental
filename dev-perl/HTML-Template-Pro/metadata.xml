@@ -7,8 +7,8 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTML-Template-Pro</remote-id>
         <remote-id type="cpan-module">HTML::Template::Pro</remote-id>
         <remote-id type="cpan-module">HTML::Template::Pro::WrapAssociate</remote-id>
-        <remote-id type="cpan">HTML-Template-Pro</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTML-Zoom</remote-id>
         <remote-id type="cpan-module">HTML::Zoom</remote-id>
         <remote-id type="cpan-module">HTML::Zoom::ArrayStream</remote-id>
         <remote-id type="cpan-module">HTML::Zoom::CodeStream</remote-id>
@@ -26,6 +27,5 @@
         <remote-id type="cpan-module">HTML::Zoom::TransformBuilder</remote-id>
         <remote-id type="cpan-module">HTML::Zoom::TransformedStream</remote-id>
         <remote-id type="cpan-module">HTML::Zoom::ZConfig</remote-id>
-        <remote-id type="cpan">HTML-Zoom</remote-id>
     </upstream>
 </pkgmetadata>

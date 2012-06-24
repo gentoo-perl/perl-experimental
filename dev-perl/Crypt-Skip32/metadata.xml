@@ -5,12 +5,12 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-	</maintainer>
-	<use>
-		<flag name="recommended">Install dependencies recommended by upstream that may add functionality</flag>
-	</use>
+    </maintainer>
+    <use>
+        <flag name="recommended">Install dependencies recommended by upstream that may add functionality</flag>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Crypt::Skip32</remote-id>
         <remote-id type="cpan">Crypt-Skip32</remote-id>
+        <remote-id type="cpan-module">Crypt::Skip32</remote-id>
     </upstream>
 </pkgmetadata>

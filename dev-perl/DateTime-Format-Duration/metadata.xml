@@ -7,7 +7,7 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">DateTime::Format::Duration</remote-id>
         <remote-id type="cpan">DateTime-Format-Duration</remote-id>
+        <remote-id type="cpan-module">DateTime::Format::Duration</remote-id>
     </upstream>
 </pkgmetadata>

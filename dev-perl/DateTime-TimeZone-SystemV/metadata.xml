@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">DateTime::TimeZone::SystemV</remote-id>
         <remote-id type="cpan">DateTime-TimeZone-SystemV</remote-id>
+        <remote-id type="cpan-module">DateTime::TimeZone::SystemV</remote-id>
     </upstream>
 </pkgmetadata>

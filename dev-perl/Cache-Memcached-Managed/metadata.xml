@@ -7,9 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Cache-Memcached-Managed</remote-id>
         <remote-id type="cpan-module">Cache::Memcached::Managed</remote-id>
         <remote-id type="cpan-module">Cache::Memcached::Managed::Inactive</remote-id>
         <remote-id type="cpan-module">Cache::Memcached::Managed::Multi</remote-id>
-        <remote-id type="cpan">Cache-Memcached-Managed</remote-id>
     </upstream>
 </pkgmetadata>

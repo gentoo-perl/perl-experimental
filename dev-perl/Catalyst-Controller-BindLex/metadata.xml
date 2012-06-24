@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Catalyst::Controller::BindLex</remote-id>
         <remote-id type="cpan">Catalyst-Controller-BindLex</remote-id>
+        <remote-id type="cpan-module">Catalyst::Controller::BindLex</remote-id>
     </upstream>
 </pkgmetadata>

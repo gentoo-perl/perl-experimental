@@ -7,10 +7,10 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Role-HasPayload</remote-id>
         <remote-id type="cpan-module">Role::HasPayload</remote-id>
         <remote-id type="cpan-module">Role::HasPayload::Auto</remote-id>
         <remote-id type="cpan-module">Role::HasPayload::Merged</remote-id>
         <remote-id type="cpan-module">Role::HasPayload::Meta::Attribute::Payload</remote-id>
-        <remote-id type="cpan">Role-HasPayload</remote-id>
     </upstream>
 </pkgmetadata>

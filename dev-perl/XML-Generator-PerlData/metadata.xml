@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">XML::Generator::PerlData</remote-id>
         <remote-id type="cpan">XML-Generator-PerlData</remote-id>
+        <remote-id type="cpan-module">XML::Generator::PerlData</remote-id>
     </upstream>
 </pkgmetadata>

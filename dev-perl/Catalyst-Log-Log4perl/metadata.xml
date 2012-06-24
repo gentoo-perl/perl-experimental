@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Catalyst::Log::Log4perl</remote-id>
         <remote-id type="cpan">Catalyst-Log-Log4perl</remote-id>
+        <remote-id type="cpan-module">Catalyst::Log::Log4perl</remote-id>
     </upstream>
 </pkgmetadata>

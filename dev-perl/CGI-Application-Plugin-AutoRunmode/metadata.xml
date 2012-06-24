@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">CGI-Application-Plugin-AutoRunmode</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::AutoRunmode</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::AutoRunmode::FileDelegate</remote-id>
-        <remote-id type="cpan">CGI-Application-Plugin-AutoRunmode</remote-id>
     </upstream>
 </pkgmetadata>

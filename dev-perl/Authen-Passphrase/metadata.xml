@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Authen-Passphrase</remote-id>
         <remote-id type="cpan-module">Authen::Passphrase</remote-id>
         <remote-id type="cpan-module">Authen::Passphrase::AcceptAll</remote-id>
         <remote-id type="cpan-module">Authen::Passphrase::BigCrypt</remote-id>
@@ -26,6 +27,5 @@
         <remote-id type="cpan-module">Authen::Passphrase::RejectAll</remote-id>
         <remote-id type="cpan-module">Authen::Passphrase::SaltedDigest</remote-id>
         <remote-id type="cpan-module">Authen::Passphrase::VMSPurdy</remote-id>
-        <remote-id type="cpan">Authen-Passphrase</remote-id>
     </upstream>
 </pkgmetadata>

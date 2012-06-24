@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Padre-Plugin-Vi</remote-id>
                 <remote-id type="cpan-module">Padre::Plugin::Vi</remote-id>
                 <remote-id type="cpan-module">Padre::Plugin::Vi::CommandLine</remote-id>
                 <remote-id type="cpan-module">Padre::Plugin::Vi::Editor</remote-id>
                 <remote-id type="cpan-module">Padre::Plugin::Vi::TabCompletition</remote-id>
-                <remote-id type="cpan">Padre-Plugin-Vi</remote-id>
         </upstream>
 </pkgmetadata>

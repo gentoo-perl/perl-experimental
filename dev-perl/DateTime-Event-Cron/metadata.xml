@@ -7,9 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">DateTime-Event-Cron</remote-id>
         <remote-id type="cpan-module">DateTime::Event::Cron</remote-id>
         <remote-id type="cpan-module">DateTime::Event::Cron::IntegratedSet</remote-id>
         <remote-id type="cpan-module">DateTime::Event::Cron::OrderedSet</remote-id>
-        <remote-id type="cpan">DateTime-Event-Cron</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,11 +7,11 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Number-Tolerant</remote-id>
         <remote-id type="cpan-module">Number::Tolerant</remote-id>
         <remote-id type="cpan-module">Number::Tolerant::Constant</remote-id>
         <remote-id type="cpan-module">Number::Tolerant::Type</remote-id>
         <remote-id type="cpan-module">Number::Tolerant::Union</remote-id>
         <remote-id type="cpan-module">Test::Tolerant</remote-id>
-        <remote-id type="cpan">Number-Tolerant</remote-id>
     </upstream>
 </pkgmetadata>

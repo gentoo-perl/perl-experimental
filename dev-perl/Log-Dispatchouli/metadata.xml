@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Log-Dispatchouli</remote-id>
                 <remote-id type="cpan-module">Log::Dispatchouli</remote-id>
                 <remote-id type="cpan-module">Log::Dispatchouli::Global</remote-id>
                 <remote-id type="cpan-module">Log::Dispatchouli::Proxy</remote-id>
-                <remote-id type="cpan">Log-Dispatchouli</remote-id>
         </upstream>
 </pkgmetadata>

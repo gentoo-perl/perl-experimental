@@ -7,11 +7,11 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">pip</remote-id>
         <remote-id type="cpan-module">Module::P5Z</remote-id>
         <remote-id type="cpan-module">Module::Plan::Archive</remote-id>
         <remote-id type="cpan-module">Module::Plan::Base</remote-id>
         <remote-id type="cpan-module">Module::Plan::Lite</remote-id>
         <remote-id type="cpan-module">pip</remote-id>
-        <remote-id type="cpan">pip</remote-id>
     </upstream>
 </pkgmetadata>

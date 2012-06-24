@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Dist-Metadata</remote-id>
                 <remote-id type="cpan-module">Dist::Metadata</remote-id>
                 <remote-id type="cpan-module">Dist::Metadata::Archive</remote-id>
                 <remote-id type="cpan-module">Dist::Metadata::Dir</remote-id>
@@ -10,6 +11,5 @@
                 <remote-id type="cpan-module">Dist::Metadata::Struct</remote-id>
                 <remote-id type="cpan-module">Dist::Metadata::Tar</remote-id>
                 <remote-id type="cpan-module">Dist::Metadata::Zip</remote-id>
-                <remote-id type="cpan">Dist-Metadata</remote-id>
         </upstream>
 </pkgmetadata>

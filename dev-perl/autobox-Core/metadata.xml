@@ -7,11 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">autobox-Core</remote-id>
         <remote-id type="cpan-module">autobox::Core</remote-id>
         <remote-id type="cpan-module">autobox::Core::ARRAY</remote-id>
         <remote-id type="cpan-module">autobox::Core::CODE</remote-id>
         <remote-id type="cpan-module">autobox::Core::HASH</remote-id>
         <remote-id type="cpan-module">autobox::Core::SCALAR</remote-id>
-        <remote-id type="cpan">autobox-Core</remote-id>
     </upstream>
 </pkgmetadata>

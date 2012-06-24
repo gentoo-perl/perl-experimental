@@ -5,13 +5,14 @@
     <maintainer>
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
-	</maintainer>
-	<use>
-		<flag name="bazaar"> Add support of the Bazaar VCS</flag>
-		<flag name="git"> Add support for the Git VCS</flag>
-		<flag name="mercurial"> Add support for the Mercurial VCS</flag>
-	</use>
+    </maintainer>
+    <use>
+        <flag name="bazaar"> Add support of the Bazaar VCS</flag>
+        <flag name="git"> Add support for the Git VCS</flag>
+        <flag name="mercurial"> Add support for the Mercurial VCS</flag>
+    </use>
     <upstream>
+        <remote-id type="cpan">VCI</remote-id>
         <remote-id type="cpan-module">VCI</remote-id>
         <remote-id type="cpan-module">VCI::Abstract::Commit</remote-id>
         <remote-id type="cpan-module">VCI::Abstract::Committable</remote-id>
@@ -68,6 +69,5 @@
         <remote-id type="cpan-module">VCI::VCS::Svn::History</remote-id>
         <remote-id type="cpan-module">VCI::VCS::Svn::Project</remote-id>
         <remote-id type="cpan-module">VCI::VCS::Svn::Repository</remote-id>
-        <remote-id type="cpan">VCI</remote-id>
     </upstream>
 </pkgmetadata>

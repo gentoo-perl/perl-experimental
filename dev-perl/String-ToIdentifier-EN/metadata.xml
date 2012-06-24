@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">String-ToIdentifier-EN</remote-id>
         <remote-id type="cpan-module">String::ToIdentifier::EN</remote-id>
         <remote-id type="cpan-module">String::ToIdentifier::EN::Unicode</remote-id>
-        <remote-id type="cpan">String-ToIdentifier-EN</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,10 +7,10 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Controller-RequestToken</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::RequestToken</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::RequestToken::Action::CreateToken</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::RequestToken::Action::RemoveToken</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::RequestToken::Action::ValidateToken</remote-id>
-        <remote-id type="cpan">Catalyst-Controller-RequestToken</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Text::Context::EitherSide</remote-id>
         <remote-id type="cpan">Text-Context-EitherSide</remote-id>
+        <remote-id type="cpan-module">Text::Context::EitherSide</remote-id>
     </upstream>
 </pkgmetadata>

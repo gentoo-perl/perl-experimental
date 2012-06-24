@@ -5,16 +5,16 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="smartcomments">Install
+    </maintainer>
+    <use>
+        <flag name="smartcomments">Install
 			<pkg>dev-perl/Smart-Comments</pkg></flag>
-		<flag name="progressbarsimple">Install
+        <flag name="progressbarsimple">Install
 			<pkg>dev-perl/Term-ProgressBar-Simple</pkg></flag>
-		<flag name="ioall">Install <pkg>dev-perl/IO-All</pkg></flag>
-	</use>
+        <flag name="ioall">Install <pkg>dev-perl/IO-All</pkg></flag>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::Hackery</remote-id>
         <remote-id type="cpan">Task-Kensho-Hackery</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::Hackery</remote-id>
     </upstream>
 </pkgmetadata>

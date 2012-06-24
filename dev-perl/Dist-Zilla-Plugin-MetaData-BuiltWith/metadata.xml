@@ -8,5 +8,7 @@
     </maintainer>
     <upstream>
         <remote-id type="cpan">Dist-Zilla-Plugin-MetaData-BuiltWith</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaData::BuiltWith</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaData::BuiltWith::All</remote-id>
     </upstream>
 </pkgmetadata>

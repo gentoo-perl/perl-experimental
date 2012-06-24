@@ -7,9 +7,9 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Path-Abstract</remote-id>
         <remote-id type="cpan-module">Path::Abstract</remote-id>
         <remote-id type="cpan-module">Path::Abstract::Fast</remote-id>
         <remote-id type="cpan-module">Path::Abstract::Underload</remote-id>
-        <remote-id type="cpan">Path-Abstract</remote-id>
     </upstream>
 </pkgmetadata>

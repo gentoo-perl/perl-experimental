@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Getopt::Euclid</remote-id>
         <remote-id type="cpan">Getopt-Euclid</remote-id>
+        <remote-id type="cpan-module">Getopt::Euclid</remote-id>
     </upstream>
 </pkgmetadata>

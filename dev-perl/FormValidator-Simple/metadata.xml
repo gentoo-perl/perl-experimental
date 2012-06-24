@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">FormValidator-Simple</remote-id>
         <remote-id type="cpan-module">FormValidator::Simple</remote-id>
         <remote-id type="cpan-module">FormValidator::Simple::ArrayList</remote-id>
         <remote-id type="cpan-module">FormValidator::Simple::Constants</remote-id>
@@ -23,6 +24,5 @@
         <remote-id type="cpan-module">FormValidator::Simple::Result</remote-id>
         <remote-id type="cpan-module">FormValidator::Simple::Results</remote-id>
         <remote-id type="cpan-module">FormValidator::Simple::Validator</remote-id>
-        <remote-id type="cpan">FormValidator-Simple</remote-id>
     </upstream>
 </pkgmetadata>

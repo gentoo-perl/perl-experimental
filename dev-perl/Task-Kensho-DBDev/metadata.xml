@@ -5,17 +5,17 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="perl-dbi">Install <pkg>dev-perl/DBI</pkg></flag>
-		<flag name="sqlite">Install <pkg>dev-perl/DBI-SQLite</pkg></flag>
-		<flag name="dbixclass">Install <pkg>dev-perl/DBIx-Class</pkg></flag>
-		<flag name="schemaloader">Install
+    </maintainer>
+    <use>
+        <flag name="perl-dbi">Install <pkg>dev-perl/DBI</pkg></flag>
+        <flag name="sqlite">Install <pkg>dev-perl/DBI-SQLite</pkg></flag>
+        <flag name="dbixclass">Install <pkg>dev-perl/DBIx-Class</pkg></flag>
+        <flag name="schemaloader">Install
 			<pkg>dev-perl/DBIx-Class-Schema-Loader</pkg></flag>
-		<flag name="sqlt">Install <pkg>dev-perl/SQL-Translator</pkg></flag>
-	</use>
+        <flag name="sqlt">Install <pkg>dev-perl/SQL-Translator</pkg></flag>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::DBDev</remote-id>
         <remote-id type="cpan">Task-Kensho-DBDev</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::DBDev</remote-id>
     </upstream>
 </pkgmetadata>

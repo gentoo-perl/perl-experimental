@@ -7,6 +7,7 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="cpan">DBIx-Connector</remote-id>
 		<remote-id type="cpan-module">DBIx::Connector</remote-id>
 		<remote-id type="cpan-module">DBIx::Connector::Driver</remote-id>
 		<remote-id type="cpan-module">DBIx::Connector::Driver::MSSQL</remote-id>
@@ -17,6 +18,5 @@
 		<remote-id type="cpan-module">DBIx::Connector::RollbackError</remote-id>
 		<remote-id type="cpan-module">DBIx::Connector::SvpRollbackError</remote-id>
 		<remote-id type="cpan-module">DBIx::Connector::TxnRollbackError</remote-id>
-		<remote-id type="cpan">DBIx-Connector</remote-id>
 	</upstream>
 </pkgmetadata>

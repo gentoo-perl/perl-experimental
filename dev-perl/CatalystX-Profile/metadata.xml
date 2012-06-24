@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">CatalystX-Profile</remote-id>
         <remote-id type="cpan-module">CatalystX::Profile</remote-id>
         <remote-id type="cpan-module">CatalystX::Profile::Controller::ControlProfiling</remote-id>
-        <remote-id type="cpan">CatalystX-Profile</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTTP-Exception</remote-id>
         <remote-id type="cpan-module">HTTP::Exception</remote-id>
         <remote-id type="cpan-module">HTTP::Exception::1XX</remote-id>
         <remote-id type="cpan-module">HTTP::Exception::2XX</remote-id>
@@ -15,6 +16,5 @@
         <remote-id type="cpan-module">HTTP::Exception::5XX</remote-id>
         <remote-id type="cpan-module">HTTP::Exception::Base</remote-id>
         <remote-id type="cpan-module">HTTP::Exception::Loader</remote-id>
-        <remote-id type="cpan">HTTP-Exception</remote-id>
     </upstream>
 </pkgmetadata>

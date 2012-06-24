@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">KinoSearch1</remote-id>
         <remote-id type="cpan-module">KinoSearch1</remote-id>
         <remote-id type="cpan-module">KinoSearch1::Analysis::Analyzer</remote-id>
         <remote-id type="cpan-module">KinoSearch1::Analysis::LCNormalizer</remote-id>
@@ -103,6 +104,5 @@
         <remote-id type="cpan-module">KinoSearch1::Util::ToStringUtils</remote-id>
         <remote-id type="cpan-module">KinoSearch1::Util::ToolSet</remote-id>
         <remote-id type="cpan-module">KinoSearch1::Util::VerifyArgs</remote-id>
-        <remote-id type="cpan">KinoSearch1</remote-id>
     </upstream>
 </pkgmetadata>

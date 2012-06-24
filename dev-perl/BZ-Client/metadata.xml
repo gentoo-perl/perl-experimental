@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">BZ-Client</remote-id>
                 <remote-id type="cpan-module">BZ::Client</remote-id>
                 <remote-id type="cpan-module">BZ::Client::API</remote-id>
                 <remote-id type="cpan-module">BZ::Client::Bug</remote-id>
@@ -20,6 +21,5 @@
                 <remote-id type="cpan-module">BZ::Client::XMLRPC::boolean</remote-id>
                 <remote-id type="cpan-module">BZ::Client::XMLRPC::double</remote-id>
                 <remote-id type="cpan-module">BZ::Client::XMLRPC::int</remote-id>
-                <remote-id type="cpan">BZ-Client</remote-id>
         </upstream>
 </pkgmetadata>

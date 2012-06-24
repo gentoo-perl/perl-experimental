@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Pod-ProjectDocs</remote-id>
         <remote-id type="cpan-module">Pod::ProjectDocs</remote-id>
         <remote-id type="cpan-module">Pod::ProjectDocs::ArrowImage</remote-id>
         <remote-id type="cpan-module">Pod::ProjectDocs::CSS</remote-id>
@@ -20,6 +21,5 @@
         <remote-id type="cpan-module">Pod::ProjectDocs::Parser::JavaScriptPod</remote-id>
         <remote-id type="cpan-module">Pod::ProjectDocs::Parser::PerlPod</remote-id>
         <remote-id type="cpan-module">Pod::ProjectDocs::Template</remote-id>
-        <remote-id type="cpan">Pod-ProjectDocs</remote-id>
     </upstream>
 </pkgmetadata>

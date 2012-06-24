@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Meta-Builder</remote-id>
         <remote-id type="cpan-module">Meta::Builder</remote-id>
         <remote-id type="cpan-module">Meta::Builder::Base</remote-id>
         <remote-id type="cpan-module">Meta::Builder::Util</remote-id>
-        <remote-id type="cpan">Meta-Builder</remote-id>
     </upstream>
 </pkgmetadata>

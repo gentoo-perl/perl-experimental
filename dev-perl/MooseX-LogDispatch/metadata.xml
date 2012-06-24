@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-LogDispatch</remote-id>
         <remote-id type="cpan-module">MooseX::LogDispatch</remote-id>
         <remote-id type="cpan-module">MooseX::LogDispatch::Levels</remote-id>
-        <remote-id type="cpan">MooseX-LogDispatch</remote-id>
     </upstream>
 </pkgmetadata>

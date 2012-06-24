@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">DateTime-Format-Epoch</remote-id>
         <remote-id type="cpan-module">DateTime::Format::Epoch</remote-id>
         <remote-id type="cpan-module">DateTime::Format::Epoch::ActiveDirectory</remote-id>
         <remote-id type="cpan-module">DateTime::Format::Epoch::DotNet</remote-id>
@@ -19,6 +20,5 @@
         <remote-id type="cpan-module">DateTime::Format::Epoch::TAI64</remote-id>
         <remote-id type="cpan-module">DateTime::Format::Epoch::TJD</remote-id>
         <remote-id type="cpan-module">DateTime::Format::Epoch::Unix</remote-id>
-        <remote-id type="cpan">DateTime-Format-Epoch</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">KinoSearch</remote-id>
         <remote-id type="cpan-module">KSx::Index::ByteBufDocReader</remote-id>
         <remote-id type="cpan-module">KSx::Index::ByteBufDocWriter</remote-id>
         <remote-id type="cpan-module">KSx::Index::LongFieldSim</remote-id>
@@ -21,6 +22,5 @@
         <remote-id type="cpan-module">KSx::Simple</remote-id>
         <remote-id type="cpan-module">KinoSearch::Analysis::Token</remote-id>
         <remote-id type="cpan-module">KinoSearch::Analysis::TokenBatch</remote-id>
-        <remote-id type="cpan">KinoSearch</remote-id>
     </upstream>
 </pkgmetadata>

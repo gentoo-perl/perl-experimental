@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">XML-Smart</remote-id>
                 <remote-id type="cpan-module">XML::Smart</remote-id>
                 <remote-id type="cpan-module">XML::Smart::Base64</remote-id>
                 <remote-id type="cpan-module">XML::Smart::DTD</remote-id>
@@ -16,6 +17,5 @@
                 <remote-id type="cpan-module">XML::Smart::TieScalar</remote-id>
                 <remote-id type="cpan-module">XML::Smart::Tree</remote-id>
                 <remote-id type="cpan-module">XML::Smart::XPath</remote-id>
-                <remote-id type="cpan">XML-Smart</remote-id>
         </upstream>
 </pkgmetadata>

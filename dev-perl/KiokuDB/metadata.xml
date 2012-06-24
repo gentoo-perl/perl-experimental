@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">KiokuDB</remote-id>
         <remote-id type="cpan-module">KiokuDB</remote-id>
         <remote-id type="cpan-module">KiokuDB::Backend</remote-id>
         <remote-id type="cpan-module">KiokuDB::Backend::Hash</remote-id>
@@ -159,6 +160,5 @@
         <remote-id type="cpan-module">Some::Other::Role</remote-id>
         <remote-id type="cpan-module">Some::Role</remote-id>
         <remote-id type="cpan-module">Some::Third::Role</remote-id>
-        <remote-id type="cpan">KiokuDB</remote-id>
     </upstream>
 </pkgmetadata>

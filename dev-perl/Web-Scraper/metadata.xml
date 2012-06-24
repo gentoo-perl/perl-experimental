@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Web-Scraper</remote-id>
                 <remote-id type="cpan-module">Web::Scraper</remote-id>
                 <remote-id type="cpan-module">Web::Scraper::Filter</remote-id>
                 <remote-id type="cpan-module">Web::Scraper::LibXML</remote-id>
-                <remote-id type="cpan">Web-Scraper</remote-id>
         </upstream>
 </pkgmetadata>

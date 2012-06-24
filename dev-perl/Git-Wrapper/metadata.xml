@@ -7,11 +7,11 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Git-Wrapper</remote-id>
         <remote-id type="cpan-module">Git::Wrapper</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Exception</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Log</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Status</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Statuses</remote-id>
-        <remote-id type="cpan">Git-Wrapper</remote-id>
     </upstream>
 </pkgmetadata>

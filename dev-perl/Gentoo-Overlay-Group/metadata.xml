@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Gentoo-Overlay-Group</remote-id>
+		<remote-id type="cpan-module">Gentoo::Overlay::Group</remote-id>
 	</upstream>
 </pkgmetadata>

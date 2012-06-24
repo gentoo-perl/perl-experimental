@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Devel</remote-id>
         <remote-id type="cpan-module">Catalyst::Devel</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper</remote-id>
         <remote-id type="cpan-module">Catalyst::Module::Install</remote-id>
@@ -14,6 +15,5 @@
         <remote-id type="cpan-module">Catalyst::Restarter::Forking</remote-id>
         <remote-id type="cpan-module">Catalyst::Restarter::Win32</remote-id>
         <remote-id type="cpan-module">Module::Install::Catalyst</remote-id>
-        <remote-id type="cpan">Catalyst-Devel</remote-id>
     </upstream>
 </pkgmetadata>

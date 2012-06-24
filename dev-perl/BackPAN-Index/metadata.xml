@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">BackPAN-Index</remote-id>
         <remote-id type="cpan-module">BackPAN::Index</remote-id>
         <remote-id type="cpan-module">BackPAN::Index::Dist</remote-id>
         <remote-id type="cpan-module">BackPAN::Index::File</remote-id>
@@ -14,6 +15,5 @@
         <remote-id type="cpan-module">BackPAN::Index::Role::AsHash</remote-id>
         <remote-id type="cpan-module">BackPAN::Index::Schema</remote-id>
         <remote-id type="cpan-module">Parse::BACKPAN::Packages</remote-id>
-        <remote-id type="cpan">BackPAN-Index</remote-id>
     </upstream>
 </pkgmetadata>

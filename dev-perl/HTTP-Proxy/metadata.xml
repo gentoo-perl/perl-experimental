@@ -3,6 +3,7 @@
 <pkgmetadata>
     <herd>perl</herd>
     <upstream>
+        <remote-id type="cpan">HTTP-Proxy</remote-id>
         <remote-id type="cpan-module">HTTP::Proxy</remote-id>
         <remote-id type="cpan-module">HTTP::Proxy::BodyFilter</remote-id>
         <remote-id type="cpan-module">HTTP::Proxy::BodyFilter::complete</remote-id>
@@ -21,6 +22,5 @@
         <remote-id type="cpan-module">HTTP::Proxy::HeaderFilter</remote-id>
         <remote-id type="cpan-module">HTTP::Proxy::HeaderFilter::simple</remote-id>
         <remote-id type="cpan-module">HTTP::Proxy::HeaderFilter::standard</remote-id>
-        <remote-id type="cpan">HTTP-Proxy</remote-id>
     </upstream>
 </pkgmetadata>

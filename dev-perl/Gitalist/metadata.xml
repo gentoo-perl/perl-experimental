@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Gitalist</remote-id>
                 <remote-id type="cpan-module">Gitalist</remote-id>
                 <remote-id type="cpan-module">Gitalist::ActionRole::FilenameArgs</remote-id>
                 <remote-id type="cpan-module">Gitalist::ContentMangler::Resolver</remote-id>
@@ -49,6 +50,5 @@
                 <remote-id type="cpan-module">Gitalist::Utils</remote-id>
                 <remote-id type="cpan-module">Gitalist::View::Default</remote-id>
                 <remote-id type="cpan-module">Gitalist::View::SyntaxHighlight</remote-id>
-                <remote-id type="cpan">Gitalist</remote-id>
         </upstream>
 </pkgmetadata>

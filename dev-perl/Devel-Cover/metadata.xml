@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
-	<use>
-		<flag name="recommended">Install packages recommended by Upstream for maximum utility</flag></use>
+        <herd>perl</herd>
+        <use>
+                <flag name="recommended">Install packages recommended by Upstream for maximum utility</flag>
+        </use>
         <upstream>
+                <remote-id type="cpan">Devel-Cover</remote-id>
                 <remote-id type="cpan-module">Devel::Cover</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Annotation::Git</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Annotation::Random</remote-id>
@@ -26,6 +28,7 @@
                 <remote-id type="cpan-module">Devel::Cover::DB::IO::Storable</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::DB::Run</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::DB::Structure</remote-id>
+                <remote-id type="cpan-module">Devel::Cover::Html_Common</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Op</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Pod</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Report::Compilation</remote-id>
@@ -47,6 +50,5 @@
                 <remote-id type="cpan-module">Devel::Cover::Truth_Table</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Truth_Table::Row</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Web</remote-id>
-                <remote-id type="cpan">Devel-Cover</remote-id>
         </upstream>
 </pkgmetadata>

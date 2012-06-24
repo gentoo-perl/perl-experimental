@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Email-MIME-Kit</remote-id>
         <remote-id type="cpan-module">Email::MIME::Kit</remote-id>
         <remote-id type="cpan-module">Email::MIME::Kit::Assembler::Standard</remote-id>
         <remote-id type="cpan-module">Email::MIME::Kit::KitReader::Dir</remote-id>
@@ -20,6 +21,5 @@
         <remote-id type="cpan-module">Email::MIME::Kit::Role::ManifestReader</remote-id>
         <remote-id type="cpan-module">Email::MIME::Kit::Role::Renderer</remote-id>
         <remote-id type="cpan-module">Email::MIME::Kit::Role::Validator</remote-id>
-        <remote-id type="cpan">Email-MIME-Kit</remote-id>
     </upstream>
 </pkgmetadata>

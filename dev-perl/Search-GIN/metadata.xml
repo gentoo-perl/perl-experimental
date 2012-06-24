@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Search-GIN</remote-id>
         <remote-id type="cpan-module">Search::GIN</remote-id>
         <remote-id type="cpan-module">Search::GIN::Callbacks</remote-id>
         <remote-id type="cpan-module">Search::GIN::Core</remote-id>
@@ -37,6 +38,5 @@
         <remote-id type="cpan-module">Search::GIN::Query::Manual</remote-id>
         <remote-id type="cpan-module">Search::GIN::Query::Set</remote-id>
         <remote-id type="cpan-module">Search::GIN::SelfIDs</remote-id>
-        <remote-id type="cpan">Search-GIN</remote-id>
     </upstream>
 </pkgmetadata>

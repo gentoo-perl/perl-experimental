@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Tree::Trie</remote-id>
         <remote-id type="cpan">Tree-Trie</remote-id>
+        <remote-id type="cpan-module">Tree::Trie</remote-id>
     </upstream>
 </pkgmetadata>

@@ -5,18 +5,17 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="datetime">Install <pkg>dev-perl/DateTime</pkg></flag>
-		<flag name="datetiny">Install <pkg>dev-perl/Date-Tiny</pkg></flag>
-		<flag name="timetiny">Install <pkg>dev-perl/Time-Tiny</pkg></flag>
-		<flag name="datetimetiny">Install
-			<pkg>dev-perl/DateTime-Tiny</pkg></flag>
-		<flag name="timeparsedate">Install <pkg>dev-perl/Time-modules</pkg>
+    </maintainer>
+    <use>
+        <flag name="datetime">Install <pkg>dev-perl/DateTime</pkg></flag>
+        <flag name="datetiny">Install <pkg>dev-perl/Date-Tiny</pkg></flag>
+        <flag name="timetiny">Install <pkg>dev-perl/Time-Tiny</pkg></flag>
+        <flag name="datetimetiny">Install
+			<pkg>dev-perl/DateTime-Tiny</pkg></flag><flag name="timeparsedate">Install <pkg>dev-perl/Time-modules</pkg>
 			which provides Time::ParseDate</flag>
-	</use>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::Dates</remote-id>
         <remote-id type="cpan">Task-Kensho-Dates</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::Dates</remote-id>
     </upstream>
 </pkgmetadata>

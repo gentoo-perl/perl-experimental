@@ -7,10 +7,10 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Dist-Zilla-PluginBundle-Author-KENTNL</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::MintingProfile::Author::KENTNL</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Plugin::Author::KENTNL::DistINI</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Plugin::Author::KENTNL::MinimumPerl</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::PluginBundle::Author::KENTNL</remote-id>
-        <remote-id type="cpan">Dist-Zilla-PluginBundle-Author-KENTNL</remote-id>
     </upstream>
 </pkgmetadata>

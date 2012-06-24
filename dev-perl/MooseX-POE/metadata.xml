@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-POE</remote-id>
         <remote-id type="cpan-module">MooseX::POE</remote-id>
         <remote-id type="cpan-module">MooseX::POE::Aliased</remote-id>
         <remote-id type="cpan-module">MooseX::POE::Meta::Method::State</remote-id>
@@ -18,6 +19,5 @@
         <remote-id type="cpan-module">MooseX::POE::Meta::Trait::SweetArgs</remote-id>
         <remote-id type="cpan-module">MooseX::POE::Role</remote-id>
         <remote-id type="cpan-module">MooseX::POE::SweetArgs</remote-id>
-        <remote-id type="cpan">MooseX-POE</remote-id>
     </upstream>
 </pkgmetadata>

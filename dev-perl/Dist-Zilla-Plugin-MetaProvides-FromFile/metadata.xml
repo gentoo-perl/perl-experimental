@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaProvides::FromFile</remote-id>
         <remote-id type="cpan">Dist-Zilla-Plugin-MetaProvides-FromFile</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaProvides::FromFile</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Dancer</remote-id>
         <remote-id type="cpan-module">Dancer</remote-id>
         <remote-id type="cpan-module">Dancer::App</remote-id>
         <remote-id type="cpan-module">Dancer::Config</remote-id>
@@ -76,6 +77,5 @@
         <remote-id type="cpan-module">Dancer::Template::TemplateToolkit</remote-id>
         <remote-id type="cpan-module">Dancer::Test</remote-id>
         <remote-id type="cpan-module">Dancer::Timer</remote-id>
-        <remote-id type="cpan">Dancer</remote-id>
     </upstream>
 </pkgmetadata>

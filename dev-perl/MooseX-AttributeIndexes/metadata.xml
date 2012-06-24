@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-AttributeIndexes</remote-id>
         <remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::Indexed</remote-id>
         <remote-id type="cpan-module">MooseX::AttributeIndexes</remote-id>
         <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Attribute::Trait::Indexed</remote-id>
@@ -16,6 +17,5 @@
         <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::Composite</remote-id>
         <remote-id type="cpan-module">MooseX::AttributeIndexes::Provider</remote-id>
         <remote-id type="cpan-module">MooseX::AttributeIndexes::Provider::FromAttributes</remote-id>
-        <remote-id type="cpan">MooseX-AttributeIndexes</remote-id>
     </upstream>
 </pkgmetadata>

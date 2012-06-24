@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">HTML::LinkList</remote-id>
         <remote-id type="cpan">HTML-LinkList</remote-id>
+        <remote-id type="cpan-module">HTML::LinkList</remote-id>
     </upstream>
 </pkgmetadata>

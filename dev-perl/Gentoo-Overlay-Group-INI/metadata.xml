@@ -8,5 +8,9 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Gentoo-Overlay-Group-INI</remote-id>
+		<remote-id type="cpan-module">Gentoo::Overlay::Group::INI</remote-id>
+		<remote-id type="cpan-module">Gentoo::Overlay::Group::INI::Assembler</remote-id>
+		<remote-id type="cpan-module">Gentoo::Overlay::Group::INI::Section</remote-id>
+		<remote-id type="cpan-module">Gentoo::Overlay::Group::INI::Section::Overlays</remote-id>
 	</upstream>
 </pkgmetadata>

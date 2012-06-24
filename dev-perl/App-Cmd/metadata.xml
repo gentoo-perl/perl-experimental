@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">App-Cmd</remote-id>
         <remote-id type="cpan-module">App::Cmd</remote-id>
         <remote-id type="cpan-module">App::Cmd::ArgProcessor</remote-id>
         <remote-id type="cpan-module">App::Cmd::Command</remote-id>
@@ -21,6 +22,5 @@
         <remote-id type="cpan-module">App::Cmd::Tester::CaptureExternal</remote-id>
         <remote-id type="cpan-module">App::Cmd::Tester::Exited</remote-id>
         <remote-id type="cpan-module">App::Cmd::Tester::Result</remote-id>
-        <remote-id type="cpan">App-Cmd</remote-id>
     </upstream>
 </pkgmetadata>

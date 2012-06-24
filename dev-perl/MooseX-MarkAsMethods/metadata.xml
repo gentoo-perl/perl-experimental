@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-MarkAsMethods</remote-id>
         <remote-id type="cpan-module">MooseX::MarkAsMethods</remote-id>
         <remote-id type="cpan-module">MooseX::MarkAsMethods::MetaRole::MethodMarker</remote-id>
-        <remote-id type="cpan">MooseX-MarkAsMethods</remote-id>
     </upstream>
 </pkgmetadata>

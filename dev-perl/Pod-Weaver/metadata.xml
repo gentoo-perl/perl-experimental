@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Pod-Weaver</remote-id>
         <remote-id type="cpan-module">Pod::Weaver</remote-id>
         <remote-id type="cpan-module">Pod::Weaver::Config</remote-id>
         <remote-id type="cpan-module">Pod::Weaver::Config::Assembler</remote-id>
@@ -31,6 +32,5 @@
         <remote-id type="cpan-module">Pod::Weaver::Section::Name</remote-id>
         <remote-id type="cpan-module">Pod::Weaver::Section::Region</remote-id>
         <remote-id type="cpan-module">Pod::Weaver::Section::Version</remote-id>
-        <remote-id type="cpan">Pod-Weaver</remote-id>
     </upstream>
 </pkgmetadata>

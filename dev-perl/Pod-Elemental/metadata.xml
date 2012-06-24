@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Pod-Elemental</remote-id>
         <remote-id type="cpan-module">Pod::Elemental</remote-id>
         <remote-id type="cpan-module">Pod::Elemental::Autoblank</remote-id>
         <remote-id type="cpan-module">Pod::Elemental::Autochomp</remote-id>
@@ -33,6 +34,5 @@
         <remote-id type="cpan-module">Pod::Elemental::Transformer::Nester</remote-id>
         <remote-id type="cpan-module">Pod::Elemental::Transformer::Pod5</remote-id>
         <remote-id type="cpan-module">Pod::Elemental::Types</remote-id>
-        <remote-id type="cpan">Pod-Elemental</remote-id>
     </upstream>
 </pkgmetadata>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Pod-PseudoPod</remote-id>
                 <remote-id type="cpan-module">Pod::PseudoPod</remote-id>
                 <remote-id type="cpan-module">Pod::PseudoPod::Checker</remote-id>
                 <remote-id type="cpan-module">Pod::PseudoPod::DocBook</remote-id>
                 <remote-id type="cpan-module">Pod::PseudoPod::HTML</remote-id>
                 <remote-id type="cpan-module">Pod::PseudoPod::Index</remote-id>
                 <remote-id type="cpan-module">Pod::PseudoPod::Text</remote-id>
-                <remote-id type="cpan">Pod-PseudoPod</remote-id>
         </upstream>
 </pkgmetadata>

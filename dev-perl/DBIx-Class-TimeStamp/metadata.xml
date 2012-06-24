@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">DBIx::Class::TimeStamp</remote-id>
         <remote-id type="cpan">DBIx-Class-TimeStamp</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::TimeStamp</remote-id>
     </upstream>
 </pkgmetadata>

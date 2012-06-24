@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Dist-Zilla-Role-Tempdir</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::Tempdir</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Tempdir::Item</remote-id>
-        <remote-id type="cpan">Dist-Zilla-Role-Tempdir</remote-id>
     </upstream>
 </pkgmetadata>

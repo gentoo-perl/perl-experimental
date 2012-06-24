@@ -6,13 +6,14 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
-	<use>
-		<flag name="json">JSON (application/json) support</flag>
-		<flag name="data-taxi">Data::Taxi (text/x-data-taxi) support</flag>
-		<flag name="config-general">Config::General (text/x-config-general)	support</flag>
-		<flag name="freezethaw">FreezeThaw (application/x-freezethaw) support</flag>
-	</use>
+    <use>
+        <flag name="json">JSON (application/json) support</flag>
+        <flag name="data-taxi">Data::Taxi (text/x-data-taxi) support</flag>
+        <flag name="config-general">Config::General (text/x-config-general)	support</flag>
+        <flag name="freezethaw">FreezeThaw (application/x-freezethaw) support</flag>
+    </use>
     <upstream>
+        <remote-id type="cpan">Catalyst-Action-REST</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize::Callback</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize::Data::Serializer</remote-id>
@@ -40,6 +41,5 @@
         <remote-id type="cpan-module">Catalyst::Request::REST::ForBrowsers</remote-id>
         <remote-id type="cpan-module">Catalyst::TraitFor::Request::REST</remote-id>
         <remote-id type="cpan-module">Catalyst::TraitFor::Request::REST::ForBrowsers</remote-id>
-        <remote-id type="cpan">Catalyst-Action-REST</remote-id>
     </upstream>
 </pkgmetadata>

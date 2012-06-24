@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Plugin-Session-Store-DBIC</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::DBIC</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::DBIC::Delegate</remote-id>
-        <remote-id type="cpan">Catalyst-Plugin-Session-Store-DBIC</remote-id>
     </upstream>
 </pkgmetadata>

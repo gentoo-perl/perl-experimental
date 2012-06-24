@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">LWP::Online</remote-id>
         <remote-id type="cpan">LWP-Online</remote-id>
+        <remote-id type="cpan-module">LWP::Online</remote-id>
     </upstream>
 </pkgmetadata>

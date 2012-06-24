@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">MooseX-HasDefaults</remote-id>
                 <remote-id type="cpan-module">MooseX::HasDefaults</remote-id>
                 <remote-id type="cpan-module">MooseX::HasDefaults::Meta::IsRO</remote-id>
                 <remote-id type="cpan-module">MooseX::HasDefaults::Meta::IsRW</remote-id>
                 <remote-id type="cpan-module">MooseX::HasDefaults::RO</remote-id>
                 <remote-id type="cpan-module">MooseX::HasDefaults::RW</remote-id>
-                <remote-id type="cpan">MooseX-HasDefaults</remote-id>
         </upstream>
 </pkgmetadata>

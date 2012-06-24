@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::BerkeleyDB</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-Session-Store-BerkeleyDB</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::BerkeleyDB</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,8 +7,8 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Text-Diff-Parser</remote-id>
         <remote-id type="cpan-module">Text::Diff::Parser</remote-id>
         <remote-id type="cpan-module">Text::Diff::Parser::Change</remote-id>
-        <remote-id type="cpan">Text-Diff-Parser</remote-id>
     </upstream>
 </pkgmetadata>

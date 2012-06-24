@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Locale::Currency::Format</remote-id>
         <remote-id type="cpan">Locale-Currency-Format</remote-id>
+        <remote-id type="cpan-module">Locale::Currency::Format</remote-id>
     </upstream>
 </pkgmetadata>

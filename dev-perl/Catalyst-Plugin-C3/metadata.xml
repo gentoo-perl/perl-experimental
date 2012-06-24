@@ -7,7 +7,7 @@
         <name>Daniel Westermann-Clark</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Catalyst::Plugin::C3</remote-id>
         <remote-id type="cpan">Catalyst-Plugin-C3</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::C3</remote-id>
     </upstream>
 </pkgmetadata>

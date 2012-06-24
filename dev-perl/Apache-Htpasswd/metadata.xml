@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Apache::Htpasswd</remote-id>
         <remote-id type="cpan">Apache-Htpasswd</remote-id>
+        <remote-id type="cpan-module">Apache::Htpasswd</remote-id>
     </upstream>
 </pkgmetadata>

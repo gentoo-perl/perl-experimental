@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Dist-Zilla-Plugin-TaskWeaver</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Plugin::TaskWeaver</remote-id>
         <remote-id type="cpan-module">Pod::Weaver::Plugin::TaskWeaver</remote-id>
-        <remote-id type="cpan">Dist-Zilla-Plugin-TaskWeaver</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Language-Functional</remote-id>
         <remote-id type="cpan-module">InfiniteList</remote-id>
         <remote-id type="cpan-module">Language::Functional</remote-id>
-        <remote-id type="cpan">Language-Functional</remote-id>
     </upstream>
 </pkgmetadata>

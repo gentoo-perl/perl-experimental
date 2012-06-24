@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MKDoc-XML</remote-id>
         <remote-id type="cpan-module">MKDoc::XML</remote-id>
         <remote-id type="cpan-module">MKDoc::XML::Decode</remote-id>
         <remote-id type="cpan-module">MKDoc::XML::Decode::Numeric</remote-id>
@@ -21,6 +22,5 @@
         <remote-id type="cpan-module">MKDoc::XML::Tokenizer</remote-id>
         <remote-id type="cpan-module">MKDoc::XML::TreeBuilder</remote-id>
         <remote-id type="cpan-module">MKDoc::XML::TreePrinter</remote-id>
-        <remote-id type="cpan">MKDoc-XML</remote-id>
     </upstream>
 </pkgmetadata>

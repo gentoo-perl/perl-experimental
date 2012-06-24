@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">List-Compare</remote-id>
         <remote-id type="cpan-module">List::Compare</remote-id>
         <remote-id type="cpan-module">List::Compare::Accelerated</remote-id>
         <remote-id type="cpan-module">List::Compare::Base::_Auxiliary</remote-id>
@@ -14,6 +15,5 @@
         <remote-id type="cpan-module">List::Compare::Functional</remote-id>
         <remote-id type="cpan-module">List::Compare::Multiple</remote-id>
         <remote-id type="cpan-module">List::Compare::Multiple::Accelerated</remote-id>
-        <remote-id type="cpan">List-Compare</remote-id>
     </upstream>
 </pkgmetadata>

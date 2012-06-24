@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Parse-Method-Signatures</remote-id>
         <remote-id type="cpan-module">Parse::Method::Signatures</remote-id>
         <remote-id type="cpan-module">Parse::Method::Signatures::Param</remote-id>
         <remote-id type="cpan-module">Parse::Method::Signatures::Param::Bindable</remote-id>
@@ -20,6 +21,5 @@
         <remote-id type="cpan-module">Parse::Method::Signatures::Sig</remote-id>
         <remote-id type="cpan-module">Parse::Method::Signatures::TypeConstraint</remote-id>
         <remote-id type="cpan-module">Parse::Method::Signatures::Types</remote-id>
-        <remote-id type="cpan">Parse-Method-Signatures</remote-id>
     </upstream>
 </pkgmetadata>

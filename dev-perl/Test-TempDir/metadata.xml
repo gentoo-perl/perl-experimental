@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Test-TempDir</remote-id>
         <remote-id type="cpan-module">Test::TempDir</remote-id>
         <remote-id type="cpan-module">Test::TempDir::Factory</remote-id>
         <remote-id type="cpan-module">Test::TempDir::Handle</remote-id>
-        <remote-id type="cpan">Test-TempDir</remote-id>
     </upstream>
 </pkgmetadata>

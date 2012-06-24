@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-AuthorizedMethods</remote-id>
         <remote-id type="cpan-module">MooseX::AuthorizedMethods</remote-id>
         <remote-id type="cpan-module">MooseX::Meta::Method::Authorized</remote-id>
         <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToClass</remote-id>
@@ -14,6 +15,5 @@
         <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToInstance</remote-id>
         <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::CheckRoles</remote-id>
         <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Meta::Role</remote-id>
-        <remote-id type="cpan">MooseX-AuthorizedMethods</remote-id>
     </upstream>
 </pkgmetadata>

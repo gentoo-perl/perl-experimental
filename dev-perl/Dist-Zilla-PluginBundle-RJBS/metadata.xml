@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Dist-Zilla-PluginBundle-RJBS</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::PluginBundle::RJBS</remote-id>
         <remote-id type="cpan-module">Pod::Weaver::PluginBundle::RJBS</remote-id>
-        <remote-id type="cpan">Dist-Zilla-PluginBundle-RJBS</remote-id>
     </upstream>
 </pkgmetadata>

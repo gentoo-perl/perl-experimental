@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Types-VariantTable</remote-id>
         <remote-id type="cpan-module">Moose::Meta::Method::VariantTable</remote-id>
         <remote-id type="cpan-module">MooseX::Types::VariantTable</remote-id>
         <remote-id type="cpan-module">MooseX::Types::VariantTable::Declare</remote-id>
-        <remote-id type="cpan">MooseX-Types-VariantTable</remote-id>
     </upstream>
 </pkgmetadata>

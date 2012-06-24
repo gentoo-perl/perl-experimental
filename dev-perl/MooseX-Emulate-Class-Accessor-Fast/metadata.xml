@@ -11,10 +11,10 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Emulate-Class-Accessor-Fast</remote-id>
         <remote-id type="cpan-module">MooseX::Adopt::Class::Accessor::Fast</remote-id>
         <remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast</remote-id>
         <remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast::Meta::Accessor</remote-id>
         <remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast::Meta::Role::Attribute</remote-id>
-        <remote-id type="cpan">MooseX-Emulate-Class-Accessor-Fast</remote-id>
     </upstream>
 </pkgmetadata>

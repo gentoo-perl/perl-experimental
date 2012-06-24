@@ -5,13 +5,13 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="moose">Install Moose and friends via
+    </maintainer>
+    <use>
+        <flag name="moose">Install Moose and friends via
 			<pkg>dev-perl/Task-Moose</pkg></flag>
-	</use>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::OOP</remote-id>
         <remote-id type="cpan">Task-Kensho-OOP</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::OOP</remote-id>
     </upstream>
 </pkgmetadata>

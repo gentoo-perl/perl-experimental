@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Business-PayPal-API</remote-id>
         <remote-id type="cpan-module">Business::PayPal::API</remote-id>
         <remote-id type="cpan-module">Business::PayPal::API::AuthorizationRequest</remote-id>
         <remote-id type="cpan-module">Business::PayPal::API::CaptureRequest</remote-id>
@@ -19,6 +20,5 @@
         <remote-id type="cpan-module">Business::PayPal::API::RefundTransaction</remote-id>
         <remote-id type="cpan-module">Business::PayPal::API::TransactionSearch</remote-id>
         <remote-id type="cpan-module">Business::PayPal::API::VoidRequest</remote-id>
-        <remote-id type="cpan">Business-PayPal-API</remote-id>
     </upstream>
 </pkgmetadata>

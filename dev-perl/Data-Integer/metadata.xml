@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Data::Integer</remote-id>
         <remote-id type="cpan">Data-Integer</remote-id>
+        <remote-id type="cpan-module">Data::Integer</remote-id>
     </upstream>
 </pkgmetadata>

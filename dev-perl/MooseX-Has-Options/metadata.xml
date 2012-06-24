@@ -7,7 +7,7 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan-module">MooseX::Has::Options</remote-id>
 		<remote-id type="cpan">MooseX-Has-Options</remote-id>
+		<remote-id type="cpan-module">MooseX::Has::Options</remote-id>
 	</upstream>
 </pkgmetadata>

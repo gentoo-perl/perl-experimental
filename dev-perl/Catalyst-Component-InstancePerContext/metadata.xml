@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Catalyst::Component::InstancePerContext</remote-id>
         <remote-id type="cpan">Catalyst-Component-InstancePerContext</remote-id>
+        <remote-id type="cpan-module">Catalyst::Component::InstancePerContext</remote-id>
     </upstream>
 </pkgmetadata>

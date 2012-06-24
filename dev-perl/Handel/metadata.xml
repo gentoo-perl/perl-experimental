@@ -6,10 +6,11 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
-	<use>
-		<flag name="catalystframework">Catalyst Support</flag>
-	</use>
+    <use>
+        <flag name="catalystframework">Catalyst Support</flag>
+    </use>
     <upstream>
+        <remote-id type="cpan">Handel</remote-id>
         <remote-id type="cpan-module">AxKit::XSP::Handel::Cart</remote-id>
         <remote-id type="cpan-module">AxKit::XSP::Handel::Checkout</remote-id>
         <remote-id type="cpan-module">AxKit::XSP::Handel::Order</remote-id>
@@ -84,6 +85,5 @@
         <remote-id type="cpan-module">Template::Plugin::Handel::Constants</remote-id>
         <remote-id type="cpan-module">Template::Plugin::Handel::Order</remote-id>
         <remote-id type="cpan-module">Template::Plugin::Handel::Order::Proxy</remote-id>
-        <remote-id type="cpan">Handel</remote-id>
     </upstream>
 </pkgmetadata>

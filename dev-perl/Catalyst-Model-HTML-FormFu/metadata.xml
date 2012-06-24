@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Model-HTML-FormFu</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::Model::HTML::FormFu</remote-id>
         <remote-id type="cpan-module">Catalyst::Model::HTML::FormFu</remote-id>
-        <remote-id type="cpan">Catalyst-Model-HTML-FormFu</remote-id>
     </upstream>
 </pkgmetadata>

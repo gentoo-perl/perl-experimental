@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Test-CPAN-Meta-YAML</remote-id>
         <remote-id type="cpan-module">Test::CPAN::Meta::YAML</remote-id>
         <remote-id type="cpan-module">Test::CPAN::Meta::YAML::Version</remote-id>
-        <remote-id type="cpan">Test-CPAN-Meta-YAML</remote-id>
     </upstream>
 </pkgmetadata>

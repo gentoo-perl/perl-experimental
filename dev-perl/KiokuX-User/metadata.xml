@@ -7,10 +7,10 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">KiokuX-User</remote-id>
         <remote-id type="cpan-module">KiokuX::User</remote-id>
         <remote-id type="cpan-module">KiokuX::User::ID</remote-id>
         <remote-id type="cpan-module">KiokuX::User::Password</remote-id>
         <remote-id type="cpan-module">KiokuX::User::Util</remote-id>
-        <remote-id type="cpan">KiokuX-User</remote-id>
     </upstream>
 </pkgmetadata>

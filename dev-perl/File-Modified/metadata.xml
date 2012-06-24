@@ -7,11 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">File-Modified</remote-id>
         <remote-id type="cpan-module">File::Modified</remote-id>
         <remote-id type="cpan-module">File::Modified::Signature</remote-id>
         <remote-id type="cpan-module">File::Modified::Signature::Checksum</remote-id>
         <remote-id type="cpan-module">File::Modified::Signature::Digest</remote-id>
         <remote-id type="cpan-module">File::Modified::Signature::mtime</remote-id>
-        <remote-id type="cpan">File-Modified</remote-id>
     </upstream>
 </pkgmetadata>

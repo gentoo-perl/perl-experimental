@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">CatalystX-Declare</remote-id>
         <remote-id type="cpan-module">CatalystX::Declare</remote-id>
         <remote-id type="cpan-module">CatalystX::Declare::Action::CatchValidationError</remote-id>
         <remote-id type="cpan-module">CatalystX::Declare::Context::AppSetup</remote-id>
@@ -24,6 +25,5 @@
         <remote-id type="cpan-module">CatalystX::Declare::Keyword::Model</remote-id>
         <remote-id type="cpan-module">CatalystX::Declare::Keyword::Role</remote-id>
         <remote-id type="cpan-module">CatalystX::Declare::Keyword::View</remote-id>
-        <remote-id type="cpan">CatalystX-Declare</remote-id>
     </upstream>
 </pkgmetadata>

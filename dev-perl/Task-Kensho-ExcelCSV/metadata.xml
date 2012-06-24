@@ -5,16 +5,16 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="csv-xs">Install <pkg>dev-perl/Text-CSV_XS</pkg></flag>
-		<flag name="parseexcelsimple">Install
+    </maintainer>
+    <use>
+        <flag name="csv-xs">Install <pkg>dev-perl/Text-CSV_XS</pkg></flag>
+        <flag name="parseexcelsimple">Install
 			<pkg>dev-perl/Spreadsheet-ParseExcel-Simple</pkg></flag>
-		<flag name="writeexcelsimple">Install
+        <flag name="writeexcelsimple">Install
 			<pkg>dev-perl/Spreadsheet-WriteExcel-Simple</pkg></flag>
-	</use>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::ExcelCSV</remote-id>
         <remote-id type="cpan">Task-Kensho-ExcelCSV</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::ExcelCSV</remote-id>
     </upstream>
 </pkgmetadata>

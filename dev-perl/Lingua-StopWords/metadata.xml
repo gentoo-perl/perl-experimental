@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Lingua-StopWords</remote-id>
         <remote-id type="cpan-module">Lingua::StopWords</remote-id>
         <remote-id type="cpan-module">Lingua::StopWords::DA</remote-id>
         <remote-id type="cpan-module">Lingua::StopWords::DE</remote-id>
@@ -21,6 +22,5 @@
         <remote-id type="cpan-module">Lingua::StopWords::PT</remote-id>
         <remote-id type="cpan-module">Lingua::StopWords::RU</remote-id>
         <remote-id type="cpan-module">Lingua::StopWords::SV</remote-id>
-        <remote-id type="cpan">Lingua-StopWords</remote-id>
     </upstream>
 </pkgmetadata>

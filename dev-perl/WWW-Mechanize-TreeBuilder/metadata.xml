@@ -7,7 +7,7 @@
     <name>Michele Beltrame</name>
   </maintainer>
   <upstream>
-    <remote-id type="cpan-module">WWW::Mechanize::TreeBuilder</remote-id>
     <remote-id type="cpan">WWW-Mechanize-TreeBuilder</remote-id>
+    <remote-id type="cpan-module">WWW::Mechanize::TreeBuilder</remote-id>
   </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Declare</remote-id>
         <remote-id type="cpan-module">MooseX::Declare</remote-id>
         <remote-id type="cpan-module">MooseX::Declare::Context</remote-id>
         <remote-id type="cpan-module">MooseX::Declare::Context::Namespaced</remote-id>
@@ -31,6 +32,5 @@
         <remote-id type="cpan-module">MooseX::Declare::Syntax::OptionHandling</remote-id>
         <remote-id type="cpan-module">MooseX::Declare::Syntax::RoleApplication</remote-id>
         <remote-id type="cpan-module">MooseX::Declare::Util</remote-id>
-        <remote-id type="cpan">MooseX-Declare</remote-id>
     </upstream>
 </pkgmetadata>

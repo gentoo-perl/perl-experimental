@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">CPAN::Perl::Releases</remote-id>
         <remote-id type="cpan">CPAN-Perl-Releases</remote-id>
+        <remote-id type="cpan-module">CPAN::Perl::Releases</remote-id>
     </upstream>
 </pkgmetadata>

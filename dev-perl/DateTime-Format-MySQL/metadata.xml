@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">DateTime::Format::MySQL</remote-id>
         <remote-id type="cpan">DateTime-Format-MySQL</remote-id>
+        <remote-id type="cpan-module">DateTime::Format::MySQL</remote-id>
     </upstream>
 </pkgmetadata>

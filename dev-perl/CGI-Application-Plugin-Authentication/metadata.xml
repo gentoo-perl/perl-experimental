@@ -5,11 +5,12 @@
     <maintainer>
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
-	</maintainer>
-	<use>
-		<flag name="recommended">Install recommended extras</flag>
-	</use>
+    </maintainer>
+    <use>
+        <flag name="recommended">Install recommended extras</flag>
+    </use>
     <upstream>
+        <remote-id type="cpan">CGI-Application-Plugin-Authentication</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::Authentication</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display::Basic</remote-id>
@@ -29,6 +30,5 @@
         <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store::Cookie</remote-id>
         <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store::Session</remote-id>
-        <remote-id type="cpan">CGI-Application-Plugin-Authentication</remote-id>
     </upstream>
 </pkgmetadata>

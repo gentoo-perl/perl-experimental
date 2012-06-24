@@ -5,22 +5,22 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="testsimple">Install Test::Simple/Test::More via
+    </maintainer>
+    <use>
+        <flag name="testsimple">Install Test::Simple/Test::More via
 			<pkg>virtual/perl-Test-Simple</pkg></flag>
-		<flag name="testmost">Install <pkg>dev-perl/Test-Most</pkg></flag>
-		<flag name="testexception">Install
+        <flag name="testmost">Install <pkg>dev-perl/Test-Most</pkg></flag>
+        <flag name="testexception">Install
 			<pkg>dev-perl/Test-Exception</pkg></flag>
-		<flag name="testpod">Install <pkg>dev-perl/Test-Pod</pkg></flag>
-		<flag name="testpodcoverage">Install
+        <flag name="testpod">Install <pkg>dev-perl/Test-Pod</pkg></flag>
+        <flag name="testpodcoverage">Install
 			<pkg>dev-perl/Test-Pod-Coverage</pkg></flag>
-		<flag name="testmemorycycle">Install
+        <flag name="testmemorycycle">Install
 			<pkg>dev-perl/Test-Memory-Cycle</pkg></flag>
-		<flag name="develcover">Install <pkg>dev-perl/Devel-Cover</pkg></flag>
-	</use>
+        <flag name="develcover">Install <pkg>dev-perl/Devel-Cover</pkg></flag>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::Testing</remote-id>
         <remote-id type="cpan">Task-Kensho-Testing</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::Testing</remote-id>
     </upstream>
 </pkgmetadata>

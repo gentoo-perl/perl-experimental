@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Controller-HTML-FormFu</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::Form</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::HTML::FormFu::Action::FormConfig</remote-id>
@@ -19,6 +20,5 @@
         <remote-id type="cpan-module">HTML::FormFu::Constraint::RequestToken</remote-id>
         <remote-id type="cpan-module">HTML::FormFu::Element::RequestToken</remote-id>
         <remote-id type="cpan-module">HTML::FormFu::Plugin::RequestToken</remote-id>
-        <remote-id type="cpan">Catalyst-Controller-HTML-FormFu</remote-id>
     </upstream>
 </pkgmetadata>

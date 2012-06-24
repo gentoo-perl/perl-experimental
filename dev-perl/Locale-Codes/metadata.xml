@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Locale-Codes</remote-id>
         <remote-id type="cpan-module">Locale::Codes</remote-id>
         <remote-id type="cpan-module">Locale::Codes::Constants</remote-id>
         <remote-id type="cpan-module">Locale::Codes::Country</remote-id>
@@ -34,6 +35,5 @@
         <remote-id type="cpan-module">Locale::Currency</remote-id>
         <remote-id type="cpan-module">Locale::Language</remote-id>
         <remote-id type="cpan-module">Locale::Script</remote-id>
-        <remote-id type="cpan">Locale-Codes</remote-id>
     </upstream>
 </pkgmetadata>

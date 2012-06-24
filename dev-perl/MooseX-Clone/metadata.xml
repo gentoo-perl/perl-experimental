@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Clone</remote-id>
         <remote-id type="cpan-module">MooseX::Clone</remote-id>
         <remote-id type="cpan-module">MooseX::Clone::Meta::Attribute::Trait::Clone</remote-id>
         <remote-id type="cpan-module">MooseX::Clone::Meta::Attribute::Trait::Clone::Base</remote-id>
@@ -14,6 +15,5 @@
         <remote-id type="cpan-module">MooseX::Clone::Meta::Attribute::Trait::Copy</remote-id>
         <remote-id type="cpan-module">MooseX::Clone::Meta::Attribute::Trait::NoClone</remote-id>
         <remote-id type="cpan-module">MooseX::Clone::Meta::Attribute::Trait::StrableClone</remote-id>
-        <remote-id type="cpan">MooseX-Clone</remote-id>
     </upstream>
 </pkgmetadata>

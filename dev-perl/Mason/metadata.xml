@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
+        <herd>perl</herd>
         <upstream>
+                <remote-id type="cpan">Mason</remote-id>
                 <remote-id type="cpan-module">Mason</remote-id>
                 <remote-id type="cpan-module">Mason::App</remote-id>
                 <remote-id type="cpan-module">Mason::CodeCache</remote-id>
@@ -30,6 +31,5 @@
                 <remote-id type="cpan-module">Mason::Result</remote-id>
                 <remote-id type="cpan-module">Mason::TieHandle</remote-id>
                 <remote-id type="cpan-module">Mason::Types</remote-id>
-                <remote-id type="cpan">Mason</remote-id>
         </upstream>
 </pkgmetadata>

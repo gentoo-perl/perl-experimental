@@ -7,9 +7,9 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Types-Common</remote-id>
         <remote-id type="cpan-module">MooseX::Types::Common</remote-id>
         <remote-id type="cpan-module">MooseX::Types::Common::Numeric</remote-id>
         <remote-id type="cpan-module">MooseX::Types::Common::String</remote-id>
-        <remote-id type="cpan">MooseX-Types-Common</remote-id>
     </upstream>
 </pkgmetadata>

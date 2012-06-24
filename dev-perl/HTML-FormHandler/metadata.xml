@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTML-FormHandler</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Base</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Blocks</remote-id>
@@ -50,6 +51,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::Field::Result</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Second</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Select</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::Field::SelectCSV</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Submit</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Text</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::TextArea</remote-id>
@@ -59,6 +61,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::Fields</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Foo</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::I18N::bg_bg</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::de_de</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::en_us</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::hu_hu</remote-id>
@@ -125,6 +128,5 @@
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Table</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::TableInline</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Wizard</remote-id>
-        <remote-id type="cpan">HTML-FormHandler</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Number::Bytes::Human</remote-id>
         <remote-id type="cpan">Number-Bytes-Human</remote-id>
+        <remote-id type="cpan-module">Number::Bytes::Human</remote-id>
     </upstream>
 </pkgmetadata>

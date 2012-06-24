@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">HTML::Tiny</remote-id>
         <remote-id type="cpan">HTML-Tiny</remote-id>
+        <remote-id type="cpan-module">HTML::Tiny</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,12 +7,12 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Jemplate</remote-id>
         <remote-id type="cpan-module">Jemplate</remote-id>
         <remote-id type="cpan-module">Jemplate::Directive</remote-id>
         <remote-id type="cpan-module">Jemplate::Grammar</remote-id>
         <remote-id type="cpan-module">Jemplate::Parser</remote-id>
         <remote-id type="cpan-module">Jemplate::Runtime</remote-id>
         <remote-id type="cpan-module">Jemplate::Runtime::Compact</remote-id>
-        <remote-id type="cpan">Jemplate</remote-id>
     </upstream>
 </pkgmetadata>

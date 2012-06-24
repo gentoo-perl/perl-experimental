@@ -7,12 +7,12 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-Iterator</remote-id>
         <remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Iterable</remote-id>
         <remote-id type="cpan-module">MooseX::Iterator</remote-id>
         <remote-id type="cpan-module">MooseX::Iterator::Array</remote-id>
         <remote-id type="cpan-module">MooseX::Iterator::Hash</remote-id>
         <remote-id type="cpan-module">MooseX::Iterator::Meta::Iterable</remote-id>
         <remote-id type="cpan-module">MooseX::Iterator::Role</remote-id>
-        <remote-id type="cpan">MooseX-Iterator</remote-id>
     </upstream>
 </pkgmetadata>

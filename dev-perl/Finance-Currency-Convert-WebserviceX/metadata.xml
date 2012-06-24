@@ -7,7 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Finance::Currency::Convert::WebserviceX</remote-id>
         <remote-id type="cpan">Finance-Currency-Convert-WebserviceX</remote-id>
+        <remote-id type="cpan-module">Finance::Currency::Convert::WebserviceX</remote-id>
     </upstream>
 </pkgmetadata>

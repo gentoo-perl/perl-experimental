@@ -7,9 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Authentication-Store-DBIx-Class</remote-id>
         <remote-id type="cpan-module">Catalyst::Authentication::Realm::SimpleDB</remote-id>
         <remote-id type="cpan-module">Catalyst::Authentication::Store::DBIx::Class</remote-id>
         <remote-id type="cpan-module">Catalyst::Authentication::Store::DBIx::Class::User</remote-id>
-        <remote-id type="cpan">Catalyst-Authentication-Store-DBIx-Class</remote-id>
     </upstream>
 </pkgmetadata>

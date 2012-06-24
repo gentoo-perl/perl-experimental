@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">DBIx::Class::IntrospectableM2M</remote-id>
         <remote-id type="cpan">DBIx-Class-IntrospectableM2M</remote-id>
+        <remote-id type="cpan-module">DBIx::Class::IntrospectableM2M</remote-id>
     </upstream>
 </pkgmetadata>

@@ -11,11 +11,11 @@
         <pkg>dev-perl/Catalyst-View-TT</pkg></flag>
     </use>
     <upstream>
+        <remote-id type="cpan">Catalyst-Controller-FormBuilder</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::FormBuilder</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::HTML::Template</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::Mason</remote-id>
         <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::TT</remote-id>
-        <remote-id type="cpan">Catalyst-Controller-FormBuilder</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,11 +7,11 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Tenjin</remote-id>
         <remote-id type="cpan-module">Tenjin</remote-id>
         <remote-id type="cpan-module">Tenjin::Context</remote-id>
         <remote-id type="cpan-module">Tenjin::Preprocessor</remote-id>
         <remote-id type="cpan-module">Tenjin::Template</remote-id>
         <remote-id type="cpan-module">Tenjin::Util</remote-id>
-        <remote-id type="cpan">Tenjin</remote-id>
     </upstream>
 </pkgmetadata>

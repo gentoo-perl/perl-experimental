@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">DBIx-Class-UUIDColumns</remote-id>
         <remote-id type="cpan-module">DBIx::Class::UUIDColumns</remote-id>
         <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker</remote-id>
         <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::APR::UUID</remote-id>
@@ -17,6 +18,5 @@
         <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::UUID::Random</remote-id>
         <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Win32::Guidgen</remote-id>
         <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Win32API::GUID</remote-id>
-        <remote-id type="cpan">DBIx-Class-UUIDColumns</remote-id>
     </upstream>
 </pkgmetadata>

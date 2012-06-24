@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Pod::Coverage::Moose</remote-id>
         <remote-id type="cpan">Pod-Coverage-Moose</remote-id>
+        <remote-id type="cpan-module">Pod::Coverage::Moose</remote-id>
     </upstream>
 </pkgmetadata>

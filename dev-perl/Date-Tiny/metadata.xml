@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Date::Tiny</remote-id>
         <remote-id type="cpan">Date-Tiny</remote-id>
+        <remote-id type="cpan-module">Date::Tiny</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-SemiAffordanceAccessor</remote-id>
         <remote-id type="cpan-module">MooseX::SemiAffordanceAccessor</remote-id>
         <remote-id type="cpan-module">MooseX::SemiAffordanceAccessor::Role::Attribute</remote-id>
-        <remote-id type="cpan">MooseX-SemiAffordanceAccessor</remote-id>
     </upstream>
 </pkgmetadata>

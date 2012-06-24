@@ -8,5 +8,42 @@
     </maintainer>
     <upstream>
         <remote-id type="cpan">perl5i</remote-id>
+        <remote-id type="cpan-module">perl5i</remote-id>
+        <remote-id type="cpan-module">perl5i::0</remote-id>
+        <remote-id type="cpan-module">perl5i::1</remote-id>
+        <remote-id type="cpan-module">perl5i::1::ARRAY</remote-id>
+        <remote-id type="cpan-module">perl5i::1::CODE</remote-id>
+        <remote-id type="cpan-module">perl5i::1::DateTime</remote-id>
+        <remote-id type="cpan-module">perl5i::1::HASH</remote-id>
+        <remote-id type="cpan-module">perl5i::1::Meta</remote-id>
+        <remote-id type="cpan-module">perl5i::1::Meta::Class</remote-id>
+        <remote-id type="cpan-module">perl5i::1::Meta::Instance</remote-id>
+        <remote-id type="cpan-module">perl5i::1::SCALAR</remote-id>
+        <remote-id type="cpan-module">perl5i::1::UNIVERSAL</remote-id>
+        <remote-id type="cpan-module">perl5i::1::autobox</remote-id>
+        <remote-id type="cpan-module">perl5i::2</remote-id>
+        <remote-id type="cpan-module">perl5i::2::ARRAY</remote-id>
+        <remote-id type="cpan-module">perl5i::2::CODE</remote-id>
+        <remote-id type="cpan-module">perl5i::2::DateTime</remote-id>
+        <remote-id type="cpan-module">perl5i::2::DateTime::Format::CTime</remote-id>
+        <remote-id type="cpan-module">perl5i::2::DateTime::time</remote-id>
+        <remote-id type="cpan-module">perl5i::2::DateTime::y2038</remote-id>
+        <remote-id type="cpan-module">perl5i::2::HASH</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Meta</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Meta::Class</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Meta::Instance</remote-id>
+        <remote-id type="cpan-module">perl5i::2::RequireMessage</remote-id>
+        <remote-id type="cpan-module">perl5i::2::SCALAR</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Signature</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Signature::Function::None</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Signature::Method::None</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Signature::None</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Signature::Real</remote-id>
+        <remote-id type="cpan-module">perl5i::2::Signatures</remote-id>
+        <remote-id type="cpan-module">perl5i::2::UNIVERSAL</remote-id>
+        <remote-id type="cpan-module">perl5i::2::autobox</remote-id>
+        <remote-id type="cpan-module">perl5i::2::equal</remote-id>
+        <remote-id type="cpan-module">perl5i::cmd</remote-id>
+        <remote-id type="cpan-module">perl5i::latest</remote-id>
     </upstream>
 </pkgmetadata>

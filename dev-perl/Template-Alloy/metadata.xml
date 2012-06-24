@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Template-Alloy</remote-id>
         <remote-id type="cpan-module">Template::Alloy</remote-id>
         <remote-id type="cpan-module">Template::Alloy::Compile</remote-id>
         <remote-id type="cpan-module">Template::Alloy::Context</remote-id>
@@ -24,6 +25,5 @@
         <remote-id type="cpan-module">Template::Alloy::VMethod</remote-id>
         <remote-id type="cpan-module">Template::Alloy::Velocity</remote-id>
         <remote-id type="cpan-module">Template::Alloy::_ContextStash</remote-id>
-        <remote-id type="cpan">Template-Alloy</remote-id>
     </upstream>
 </pkgmetadata>

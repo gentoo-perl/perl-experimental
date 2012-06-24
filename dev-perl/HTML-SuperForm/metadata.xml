@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTML-SuperForm</remote-id>
         <remote-id type="cpan-module">HTML::SuperForm</remote-id>
         <remote-id type="cpan-module">HTML::SuperForm::Field</remote-id>
         <remote-id type="cpan-module">HTML::SuperForm::Field::Checkbox</remote-id>
@@ -19,6 +20,5 @@
         <remote-id type="cpan-module">HTML::SuperForm::Field::Submit</remote-id>
         <remote-id type="cpan-module">HTML::SuperForm::Field::Text</remote-id>
         <remote-id type="cpan-module">HTML::SuperForm::Field::Textarea</remote-id>
-        <remote-id type="cpan">HTML-SuperForm</remote-id>
     </upstream>
 </pkgmetadata>

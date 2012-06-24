@@ -7,11 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-Plugin-Session</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session::State</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session::Store</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session::Store::Dummy</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::Session::Test::Store</remote-id>
-        <remote-id type="cpan">Catalyst-Plugin-Session</remote-id>
     </upstream>
 </pkgmetadata>

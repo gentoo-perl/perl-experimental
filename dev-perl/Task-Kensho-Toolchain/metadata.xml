@@ -5,15 +5,15 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="cpanm">Install <pkg>dev-perl/App-cpanminus</pkg></flag>
-		<flag name="locallib">Install <pkg>dev-perl/local-lib</pkg></flag>
-		<flag name="version">Install version.pm via
+    </maintainer>
+    <use>
+        <flag name="cpanm">Install <pkg>dev-perl/App-cpanminus</pkg></flag>
+        <flag name="locallib">Install <pkg>dev-perl/local-lib</pkg></flag>
+        <flag name="version">Install version.pm via
 			<pkg>virutal/perl-version</pkg></flag>
-	</use>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Task::Kensho::Toolchain</remote-id>
         <remote-id type="cpan">Task-Kensho-Toolchain</remote-id>
+        <remote-id type="cpan-module">Task::Kensho::Toolchain</remote-id>
     </upstream>
 </pkgmetadata>

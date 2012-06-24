@@ -19,6 +19,7 @@
     <flag name="recaptcha">reCAPTCHA for anonymous edits</flag>
   </use>
   <upstream>
+    <remote-id type="cpan">MojoMojo</remote-id>
     <remote-id type="cpan-module">MojoMojo</remote-id>
     <remote-id type="cpan-module">MojoMojo::Controller::Admin</remote-id>
     <remote-id type="cpan-module">MojoMojo::Controller::Attachment</remote-id>
@@ -106,6 +107,5 @@
     <remote-id type="cpan-module">MojoMojo::WordDiff</remote-id>
     <remote-id type="cpan-module">Text::SmartyPants</remote-id>
     <remote-id type="cpan-module">Text::Wikispaces2Markdown</remote-id>
-    <remote-id type="cpan">MojoMojo</remote-id>
   </upstream>
 </pkgmetadata>

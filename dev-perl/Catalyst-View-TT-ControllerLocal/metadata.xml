@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Catalyst-View-TT-ControllerLocal</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::View::TTControllerLocal</remote-id>
         <remote-id type="cpan-module">Catalyst::View::TT::ControllerLocal</remote-id>
-        <remote-id type="cpan">Catalyst-View-TT-ControllerLocal</remote-id>
     </upstream>
 </pkgmetadata>

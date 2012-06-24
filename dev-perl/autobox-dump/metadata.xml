@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">autobox-dump</remote-id>
         <remote-id type="cpan-module">autobox::dump</remote-id>
         <remote-id type="cpan-module">autobox::dump::inner</remote-id>
-        <remote-id type="cpan">autobox-dump</remote-id>
     </upstream>
 </pkgmetadata>

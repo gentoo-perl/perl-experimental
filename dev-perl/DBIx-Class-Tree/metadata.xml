@@ -7,9 +7,9 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">DBIx-Class-Tree</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Tree</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Tree::AdjacencyList</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Tree::AdjacencyList::Ordered</remote-id>
-        <remote-id type="cpan">DBIx-Class-Tree</remote-id>
     </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Excel-Template</remote-id>
         <remote-id type="cpan-module">Excel::Template</remote-id>
         <remote-id type="cpan-module">Excel::Template::Base</remote-id>
         <remote-id type="cpan-module">Excel::Template::Container</remote-id>
@@ -39,6 +40,5 @@
         <remote-id type="cpan-module">Excel::Template::Format</remote-id>
         <remote-id type="cpan-module">Excel::Template::Iterator</remote-id>
         <remote-id type="cpan-module">Excel::Template::TextObject</remote-id>
-        <remote-id type="cpan">Excel-Template</remote-id>
     </upstream>
 </pkgmetadata>

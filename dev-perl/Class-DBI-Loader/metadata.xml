@@ -7,11 +7,11 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Class-DBI-Loader</remote-id>
         <remote-id type="cpan-module">Class::DBI::Loader</remote-id>
         <remote-id type="cpan-module">Class::DBI::Loader::Generic</remote-id>
         <remote-id type="cpan-module">Class::DBI::Loader::Pg</remote-id>
         <remote-id type="cpan-module">Class::DBI::Loader::SQLite</remote-id>
         <remote-id type="cpan-module">Class::DBI::Loader::mysql</remote-id>
-        <remote-id type="cpan">Class-DBI-Loader</remote-id>
     </upstream>
 </pkgmetadata>

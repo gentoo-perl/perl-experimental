@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Pod::WikiDoc</remote-id>
         <remote-id type="cpan">Pod-WikiDoc</remote-id>
+        <remote-id type="cpan-module">Pod::WikiDoc</remote-id>
     </upstream>
 </pkgmetadata>

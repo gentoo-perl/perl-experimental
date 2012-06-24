@@ -7,8 +7,8 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTTP-Parser-XS</remote-id>
         <remote-id type="cpan-module">HTTP::Parser::XS</remote-id>
         <remote-id type="cpan-module">HTTP::Parser::XS::PP</remote-id>
-        <remote-id type="cpan">HTTP-Parser-XS</remote-id>
     </upstream>
 </pkgmetadata>

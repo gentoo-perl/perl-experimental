@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">MooseX-MethodAttributes</remote-id>
         <remote-id type="cpan-module">MooseX::MethodAttributes</remote-id>
         <remote-id type="cpan-module">MooseX::MethodAttributes::Inheritable</remote-id>
         <remote-id type="cpan-module">MooseX::MethodAttributes::Role</remote-id>
@@ -20,6 +21,5 @@
         <remote-id type="cpan-module">MooseX::MethodAttributes::Role::Meta::Role</remote-id>
         <remote-id type="cpan-module">MooseX::MethodAttributes::Role::Meta::Role::Application</remote-id>
         <remote-id type="cpan-module">MooseX::MethodAttributes::Role::Meta::Role::Application::Summation</remote-id>
-        <remote-id type="cpan">MooseX-MethodAttributes</remote-id>
     </upstream>
 </pkgmetadata>

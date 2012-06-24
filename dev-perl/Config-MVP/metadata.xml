@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Config-MVP</remote-id>
         <remote-id type="cpan-module">Config::MVP</remote-id>
         <remote-id type="cpan-module">Config::MVP::Assembler</remote-id>
         <remote-id type="cpan-module">Config::MVP::Assembler::WithBundles</remote-id>
@@ -18,6 +19,5 @@
         <remote-id type="cpan-module">Config::MVP::Reader::Hash</remote-id>
         <remote-id type="cpan-module">Config::MVP::Section</remote-id>
         <remote-id type="cpan-module">Config::MVP::Sequence</remote-id>
-        <remote-id type="cpan">Config-MVP</remote-id>
     </upstream>
 </pkgmetadata>

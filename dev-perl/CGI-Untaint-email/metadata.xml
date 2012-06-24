@@ -7,8 +7,8 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">CGI-Untaint-email</remote-id>
         <remote-id type="cpan-module">CGI::Untaint::email</remote-id>
         <remote-id type="cpan-module">Mail::Address::overload</remote-id>
-        <remote-id type="cpan">CGI-Untaint-email</remote-id>
     </upstream>
 </pkgmetadata>

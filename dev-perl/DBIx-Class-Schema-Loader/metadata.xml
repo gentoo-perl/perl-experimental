@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">DBIx-Class-Schema-Loader</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Schema::Loader</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Base</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Schema::Loader::DBI</remote-id>
@@ -45,6 +46,5 @@
         <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Table</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Table::Informix</remote-id>
         <remote-id type="cpan-module">DBIx::Class::Schema::Loader::Table::Sybase</remote-id>
-        <remote-id type="cpan">DBIx-Class-Schema-Loader</remote-id>
     </upstream>
 </pkgmetadata>

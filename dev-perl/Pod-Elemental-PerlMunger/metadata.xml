@@ -7,7 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
-        <remote-id type="cpan-module">Pod::Elemental::PerlMunger</remote-id>
         <remote-id type="cpan">Pod-Elemental-PerlMunger</remote-id>
+        <remote-id type="cpan-module">Pod::Elemental::PerlMunger</remote-id>
     </upstream>
 </pkgmetadata>

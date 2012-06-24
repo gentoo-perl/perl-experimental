@@ -7,6 +7,7 @@
         <name>Michele Beltrame</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">HTML-Widget</remote-id>
         <remote-id type="cpan-module">HTML::Widget</remote-id>
         <remote-id type="cpan-module">HTML::Widget::Accessor</remote-id>
         <remote-id type="cpan-module">HTML::Widget::BlockContainer</remote-id>
@@ -64,6 +65,5 @@
         <remote-id type="cpan-module">HTML::Widget::Filter::Whitespace</remote-id>
         <remote-id type="cpan-module">HTML::Widget::NullContainer</remote-id>
         <remote-id type="cpan-module">HTML::Widget::Result</remote-id>
-        <remote-id type="cpan">HTML-Widget</remote-id>
     </upstream>
 </pkgmetadata>

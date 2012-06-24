@@ -7,6 +7,7 @@
         <name>Kent Fredric</name>
     </maintainer>
     <upstream>
+        <remote-id type="cpan">Software-License</remote-id>
         <remote-id type="cpan-module">Software::License</remote-id>
         <remote-id type="cpan-module">Software::License::AGPL_3</remote-id>
         <remote-id type="cpan-module">Software::License::Apache_1_1</remote-id>
@@ -36,6 +37,5 @@
         <remote-id type="cpan-module">Software::License::Sun</remote-id>
         <remote-id type="cpan-module">Software::License::Zlib</remote-id>
         <remote-id type="cpan-module">Software::LicenseUtils</remote-id>
-        <remote-id type="cpan">Software-License</remote-id>
     </upstream>
 </pkgmetadata>

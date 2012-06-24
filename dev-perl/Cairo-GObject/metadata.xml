@@ -3,7 +3,7 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
-    <remote-id type="cpan-module">Cairo::GObject</remote-id>
     <remote-id type="cpan">Cairo-GObject</remote-id>
+    <remote-id type="cpan-module">Cairo::GObject</remote-id>
   </upstream>
 </pkgmetadata>

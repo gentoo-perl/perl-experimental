@@ -5,13 +5,13 @@
     <maintainer>
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
-	</maintainer>
-	<use>
-		<flag name="recommended">Pull in recommended dependencies to ensure XS
+    </maintainer>
+    <use>
+        <flag name="recommended">Pull in recommended dependencies to ensure XS
 			Modules are built</flag>
-	</use>
+    </use>
     <upstream>
-        <remote-id type="cpan-module">Authen::DecHpwd</remote-id>
         <remote-id type="cpan">Authen-DecHpwd</remote-id>
+        <remote-id type="cpan-module">Authen::DecHpwd</remote-id>
     </upstream>
 </pkgmetadata>

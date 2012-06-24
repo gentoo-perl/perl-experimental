@@ -7,9 +7,9 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="cpan">Method-Signatures</remote-id>
 		<remote-id type="cpan-module">Method::Signatures</remote-id>
 		<remote-id type="cpan-module">Method::Signatures::Modifiers</remote-id>
 		<remote-id type="cpan-module">Method::Signatures::Parser</remote-id>
-		<remote-id type="cpan">Method-Signatures</remote-id>
 	</upstream>
 </pkgmetadata>
