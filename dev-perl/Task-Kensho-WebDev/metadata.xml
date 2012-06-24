@@ -9,12 +9,13 @@
     <use>
         <flag name="catalyst">Install Catalyst and friends via
 			<pkg>dev-perl/Task-Catalyst</pkg></flag><flag name="tt">Install Template Toolkit (
-			<pkg>dev-perl/Template-Toolkit</pkg>)</flag>
+			<pkg>dev-perl/Template-Toolkit</pkg> )</flag>
         <flag name="cgi-formbuilder-perlconfig">Install
 			<pkg>dev-perl/CGI-FormBuilder-Source-Perl</pkg></flag>
         <flag name="xmlrss">Install <pkg>dev-perl/XML-RSS</pkg></flag>
         <flag name="xmlatom">Install <pkg>dev-perl/XML-Atom</pkg></flag>
-        <flag name="mimetypes">Install <pkg>dev-perl/MIME-Types</pkg></flag>
+		<flag name="mimetypes">Install <pkg>dev-perl/MIME-Types</pkg></flag>
+		<flag name="plack">Install <pkg>dev-perl/Plack</pkg></flag>
     </use>
     <upstream>
         <remote-id type="cpan">Task-Kensho-WebDev</remote-id>
