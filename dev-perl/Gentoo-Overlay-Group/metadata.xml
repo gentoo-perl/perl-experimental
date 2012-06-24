@@ -7,6 +7,6 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">Gentoo-Overlay-GroupK</remote-id>
+		<remote-id type="cpan">Gentoo-Overlay-Group</remote-id>
 	</upstream>
 </pkgmetadata>
