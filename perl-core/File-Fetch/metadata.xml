@@ -3,7 +3,7 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
-    <remote-id type="cpan-module">File::Fetch</remote-id>
     <remote-id type="cpan">File-Fetch</remote-id>
+    <remote-id type="cpan-module">File::Fetch</remote-id>
   </upstream>
 </pkgmetadata>

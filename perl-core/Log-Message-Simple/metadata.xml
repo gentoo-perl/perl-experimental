@@ -3,8 +3,8 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
+    <remote-id type="cpan">Log-Message-Simple</remote-id>
     <remote-id type="cpan-module">Log::Message::Handlers</remote-id>
     <remote-id type="cpan-module">Log::Message::Simple</remote-id>
-    <remote-id type="cpan">Log-Message-Simple</remote-id>
   </upstream>
 </pkgmetadata>

@@ -7,6 +7,7 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan">Filter-Simple</remote-id>
     <remote-id type="cpan-module">Demo1</remote-id>
     <remote-id type="cpan-module">Demo2a</remote-id>
     <remote-id type="cpan-module">Demo2b</remote-id>
@@ -20,6 +21,5 @@
     <remote-id type="cpan-module">Demo_REM</remote-id>
     <remote-id type="cpan-module">DotsForArrows</remote-id>
     <remote-id type="cpan-module">Filter::Simple</remote-id>
-    <remote-id type="cpan">Filter-Simple</remote-id>
   </upstream>
 </pkgmetadata>

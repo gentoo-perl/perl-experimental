@@ -3,8 +3,8 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
+    <remote-id type="cpan">Term-UI</remote-id>
     <remote-id type="cpan-module">Term::UI</remote-id>
     <remote-id type="cpan-module">Term::UI::History</remote-id>
-    <remote-id type="cpan">Term-UI</remote-id>
   </upstream>
 </pkgmetadata>

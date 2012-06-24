@@ -7,8 +7,8 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan">Exporter</remote-id>
     <remote-id type="cpan-module">Exporter</remote-id>
     <remote-id type="cpan-module">Exporter::Heavy</remote-id>
-    <remote-id type="cpan">Exporter</remote-id>
   </upstream>
 </pkgmetadata>

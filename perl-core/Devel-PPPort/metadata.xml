@@ -3,7 +3,7 @@
 <pkgmetadata>
   <herd>perl</herd>
   <upstream>
-    <remote-id type="cpan-module">Devel::PPPort</remote-id>
     <remote-id type="cpan">Devel-PPPort</remote-id>
+    <remote-id type="cpan-module">Devel::PPPort</remote-id>
   </upstream>
 </pkgmetadata>

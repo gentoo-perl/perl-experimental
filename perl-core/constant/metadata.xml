@@ -7,7 +7,7 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
-    <remote-id type="cpan-module">constant</remote-id>
     <remote-id type="cpan">constant</remote-id>
+    <remote-id type="cpan-module">constant</remote-id>
   </upstream>
 </pkgmetadata>

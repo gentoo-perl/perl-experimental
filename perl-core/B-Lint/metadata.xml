@@ -7,12 +7,12 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
+    <remote-id type="cpan">B-Lint</remote-id>
     <remote-id type="cpan-module">B::Lint</remote-id>
     <remote-id type="cpan-module">B::Lint::Debug</remote-id>
     <remote-id type="cpan-module">B::OP</remote-id>
     <remote-id type="cpan-module">B::SPECIAL</remote-id>
     <remote-id type="cpan-module">B::SVOP</remote-id>
     <remote-id type="cpan-module">DB</remote-id>
-    <remote-id type="cpan">B-Lint</remote-id>
   </upstream>
 </pkgmetadata>

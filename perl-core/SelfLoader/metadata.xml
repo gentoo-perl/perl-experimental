@@ -7,7 +7,7 @@
     <name>Kent Fredric</name>
   </maintainer>
   <upstream>
-    <remote-id type="cpan-module">SelfLoader</remote-id>
     <remote-id type="cpan">SelfLoader</remote-id>
+    <remote-id type="cpan-module">SelfLoader</remote-id>
   </upstream>
 </pkgmetadata>
