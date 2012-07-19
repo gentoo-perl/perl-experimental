@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	>=dev-perl/namespace-autoclean-0.90.0
 	>=virtual/perl-ExtUtils-MakeMaker-6.11
 	>=dev-perl/Catalyst-Runtime-5.800.200
-	>=dev-perl/CatalystX-InjectComponent-0.024
+	>=dev-perl/CatalystX-InjectComponent-0.24.0
 	>=dev-perl/Moose-0.93
 "
 DEPEND="
