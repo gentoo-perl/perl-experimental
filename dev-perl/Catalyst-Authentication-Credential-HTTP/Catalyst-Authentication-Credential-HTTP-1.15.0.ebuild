@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=1.014
+MODULE_VERSION=1.015
 inherit perl-module
 
 DESCRIPTION='HTTP Basic and Digest authentication'
@@ -12,12 +12,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
+	# ExtUtils::MakeMaker 6.36 ( 6.360.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.36
 }
 perl_meta_build() {
-	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
+	# ExtUtils::MakeMaker 6.36 ( 6.360.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.36
 	# Test::Exception
 	echo dev-perl/Test-Exception
 	# Test::MockObject
