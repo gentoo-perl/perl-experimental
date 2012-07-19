@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=RKRIMEN
+MODULE_VERSION="0.024"
 inherit perl-module
 
 DESCRIPTION="Inject components into your Catalyst application"
