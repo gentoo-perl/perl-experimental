@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-ActionRole-ACL
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-ActionRole-ACL-0.70.0 (19 Jul 2012)
+
+  19 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-ActionRole-ACL-0.70.0.ebuild:
+  Version Bump
 
 *Catalyst-ActionRole-ACL-0.60.0 (26 Aug 2011)
 
