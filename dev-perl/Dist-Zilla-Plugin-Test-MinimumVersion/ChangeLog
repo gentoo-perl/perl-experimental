@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-Test-MinimumVersion-2.0.1.ebuild:
+  Gone on CPAN
+
 *Dist-Zilla-Plugin-Test-MinimumVersion-2.0.2 (23 Jun 2012)
 
   23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
