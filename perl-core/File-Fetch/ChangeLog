@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*File-Fetch-0.360.0 (25 Jul 2012)
+
+  25 Jul 2012; Kent Fredric <kentfredric@gmail.com> +File-Fetch-0.360.0.ebuild:
+  Version Bump
+
 *File-Fetch-0.340.0 (27 May 2012)
 
   27 May 2012; Kent Fredric <kentfredric@gmail.com> +File-Fetch-0.340.0.ebuild:
