@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
 	>=dev-perl/aliased-0.300.0
-	>=dev-perl/Moose-0.94
+	>=dev-perl/Moose-0.940
 "
 DEPEND="${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.31
