@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*String-Diff-0.60.0 (25 Jul 2012)
+
+  25 Jul 2012; Kent Fredric <kentfredric@gmail.com> +String-Diff-0.60.0.ebuild:
+  Version Bump
+
 *String-Diff-0.50.0 (23 Jun 2012)
 
   23 Jun 2012; Kent Fredric <kentfredric@gmail.com> +String-Diff-0.50.0.ebuild:
