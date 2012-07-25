@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-FormHandler-0.400.130 (25 Jul 2012)
+
+  25 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.400.130.ebuild:
+  Version Bump
+
 *HTML-FormHandler-0.400.120 (23 Jun 2012)
 
   23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
