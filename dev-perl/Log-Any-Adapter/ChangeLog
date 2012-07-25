@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Log-Any-Adapter-0.80.0 (25 Jul 2012)
+
+  25 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  +Log-Any-Adapter-0.80.0.ebuild:
+  Version Bump
+
 *Log-Any-Adapter-0.70.0 (27 Feb 2012)
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
