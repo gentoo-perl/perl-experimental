@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=TSCH
-MODULE_VERSION=0.006
+MODULE_VERSION=0.007
 inherit perl-module
 inherit virtualx
 
