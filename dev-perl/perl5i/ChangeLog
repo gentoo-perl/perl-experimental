@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl5i-2.10.0 (25 Jul 2012)
+
+  25 Jul 2012; Kent Fredric <kentfredric@gmail.com> +perl5i-2.10.0.ebuild:
+  Version Bump
+
   08 Jun 2012; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
   perl5i-2.6.1.ebuild, perl5i-2.9.1.ebuild:
   Normalize dep on JSON and Capture-Tiny
