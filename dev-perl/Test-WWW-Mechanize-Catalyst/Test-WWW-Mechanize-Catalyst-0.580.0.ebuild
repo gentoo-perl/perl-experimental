@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=EDENC
-MODULE_VERSION=0.57
+MODULE_AUTHOR=BOBTFISH
+MODULE_VERSION=0.58
 inherit perl-module
 
 DESCRIPTION='Test::WWW::Mechanize for Catalyst'
@@ -12,24 +12,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
 	# Catalyst::Plugin::Session::State::Cookie
 	echo dev-perl/Catalyst-Plugin-Session-State-Cookie
 	# Catalyst::Plugin::Session::Store::Dummy
 	echo dev-perl/Catalyst-Plugin-Session
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# Test::Exception
 	echo dev-perl/Test-Exception
-	# Test::More
-	echo virtual/perl-Test-Simple
+	# Test::More 0.88 ( 0.880.0 )
+	echo \>=virtual/perl-Test-Simple-0.88
+	# Test::utf8
+	echo dev-perl/Test-utf8
 }
 perl_meta_runtime() {
-	# Catalyst 5.00 ( 5.0.0 )
-	echo \>=dev-perl/Catalyst-Runtime-5.0.0
+	# Catalyst 5.90 ( 5.900.0 )
+	echo \>=dev-perl/Catalyst-Runtime-5.900.0
 	# LWP 5.816 ( 5.816.0 )
 	echo \>=dev-perl/libwww-perl-5.816.0
 	# Moose 0.67 ( 0.670.0 )
