@@ -37,7 +37,7 @@ COMMON_DEPEND="
 	$(comment MooseX::Types)
 	dev-perl/MooseX-Types
 	$(comment MooseX::RelatedClassRoles 0.004)
-	>=dev-perl/MooseX-RelatedClassRoles-0.004
+	>=dev-perl/MooseX-RelatedClassRoles-0.4.0
 	$(comment Moose::Autobox)
 	dev-perl/Moose-Autobox
 	$(comment HTML::FormHandler 0.28001)

@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-Autobox-0.90.0
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types
-	>=dev-perl/MooseX-RelatedClassRoles-0.004 $(comment 0.4.0)
+	>=dev-perl/MooseX-RelatedClassRoles-0.4.0
 	dev-perl/Moose-Autobox
 	>=dev-perl/HTML-FormHandler-0.280.10
 	dev-perl/namespace-autoclean

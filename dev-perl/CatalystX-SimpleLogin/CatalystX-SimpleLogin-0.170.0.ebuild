@@ -65,7 +65,7 @@ perl_meta_runtime() {
 	# MooseX::MethodAttributes 0.18 ( 0.180.0 )
 	echo \>=dev-perl/MooseX-MethodAttributes-0.180.0
 	# MooseX::RelatedClassRoles 0.004 ( 0.4.0 )
-	echo \>=dev-perl/MooseX-RelatedClassRoles-0.004
+	echo \>=dev-perl/MooseX-RelatedClassRoles-0.4.0
 	# MooseX::Types
 	echo dev-perl/MooseX-Types
 	# MooseX::Types::Common
