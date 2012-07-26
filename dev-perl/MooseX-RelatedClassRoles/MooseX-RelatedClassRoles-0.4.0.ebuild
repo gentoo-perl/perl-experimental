@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=HDP
+MODULE_VERSION="0.004"
 inherit perl-module
 
 DESCRIPTION="Apply roles to a class related to yours"
