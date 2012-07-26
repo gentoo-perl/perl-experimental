@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	>=dev-perl/Data-Float-0.8.0
 	$(comment virtual/perl-Errno 1.0.0)
 	$(comment virtual/perl-Exporter)
-	>=dev-perl/HTTP-Lite-2.2 $(comment 2.200.0)
+	>=dev-perl/HTTP-Lite-2.200.0
 	>=virtual/perl-IO-1.03 $(comment 1.30.0 IO::File)
 	dev-perl/Params-Classify
 	$(comment virtual/perl-constant)
