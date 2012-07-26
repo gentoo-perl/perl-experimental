@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/HTTP-Lite
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTTP-Lite-2.300.0 (26 Jul 2012)
+*HTTP-Lite-2.200.0 (26 Jul 2012)
+
+  26 Jul 2012; Kent Fredric <kentfredric@gmail.com> -HTTP-Lite-2.2.ebuild,
+  +HTTP-Lite-2.200.0.ebuild, -HTTP-Lite-2.300.ebuild,
+  +HTTP-Lite-2.300.0.ebuild:
+  Migrate to x.y.z
 
 *HTTP-Lite-2.300 (08 Jan 2011)
 
