@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTTP-Lite-2.400.0 (26 Jul 2012)
+
+  26 Jul 2012; Kent Fredric <kentfredric@gmail.com> +HTTP-Lite-2.400.0.ebuild:
+  Version Bump
+
 *HTTP-Lite-2.300.0 (26 Jul 2012)
 *HTTP-Lite-2.200.0 (26 Jul 2012)
 
