@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  -Locale-Codes-3.210.0.ebuild:
+  Gone on CPAN
+
 *Locale-Codes-3.220.0 (09 Jun 2012)
 
   09 Jun 2012; Kent Fredric <kentfredric@gmail.com>
