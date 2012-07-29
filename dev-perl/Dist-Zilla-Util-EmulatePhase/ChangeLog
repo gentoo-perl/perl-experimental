@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-Util-EmulatePhase-0.10.258.20 (29 Jul 2012)
+
+  29 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Util-EmulatePhase-0.10.258.20.ebuild:
+  Version Bump
+
   08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Util-EmulatePhase-0.10.165.130.ebuild,
   Dist-Zilla-Util-EmulatePhase-0.10.258.0.ebuild,
