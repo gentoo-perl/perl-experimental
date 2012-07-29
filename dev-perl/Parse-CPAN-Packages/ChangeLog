@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Parse-CPAN-Packages-2.370.0 (29 Jul 2012)
+
+  29 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  +Parse-CPAN-Packages-2.370.0.ebuild:
+  Version Bump
+
 *Parse-CPAN-Packages-2.360.0 (25 Jul 2012)
 
   25 Jul 2012; Kent Fredric <kentfredric@gmail.com>
