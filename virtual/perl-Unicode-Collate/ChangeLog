@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Unicode-Collate-0.890.0-r1 (30 Jul 2012)
+
+  30 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  -perl-Unicode-Collate-0.890.0.ebuild,
+  +perl-Unicode-Collate-0.890.0-r1.ebuild:
+  Add Perl-5.16* to Unicode-Collate alternatives
+
   08 Apr 2012; Kent Fredric <kentfredric@gmail.com>
   -perl-Unicode-Collate-0.870.0.ebuild:
   Gone on CPAN
