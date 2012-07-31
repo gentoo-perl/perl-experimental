@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Object-Accessor-0.420.0-r1 (31 Jul 2012)
+
+  31 Jul 2012; Kent Fredric <kentfredric@gmail.com>
+  -perl-Object-Accessor-0.420.0.ebuild,
+  +perl-Object-Accessor-0.420.0-r1.ebuild:
+  fix for 5.16
+
 *perl-Object-Accessor-0.440.0 (28 Apr 2012)
 
   28 Apr 2012; Kent Fredric <kentfredric@gmail.com>
