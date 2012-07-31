@@ -22,15 +22,7 @@ package coloriterator;
 
 use Sub::Exporter -setup => { exports => [ coloriser => \&build_coloriser ], };
 
-use Term::ANSIColor qw( :constants );
-
-BEGIN {
-  $Term::ANSIColor::ATTRIBUTES{italic} = 3;
-}
-
-sub ITALIC() {
-  Term::ANSIColor::ITALIC(@_);
-}
+use Term::ANSIColor 3.020 qw( :constants );
 
 sub build_coloriser {
   my ( $class, $name, $args ) = @_;
