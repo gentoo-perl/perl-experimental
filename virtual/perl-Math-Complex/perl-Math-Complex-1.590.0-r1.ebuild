@@ -12,4 +12,4 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="~perl-core/Math-Complex-${PV}"
+RDEPEND="|| ( =dev-lang/perl-5.16* ~perl-core/Math-Complex-${PV} )"
