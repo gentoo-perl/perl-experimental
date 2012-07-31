@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=DOHERTY
-MODULE_VERSION=0.004
+MODULE_VERSION=0.006
 inherit perl-module
 
 DESCRIPTION='turn on Unicode - all of it'
@@ -12,8 +12,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.300.0
+	# Dist::CheckConflicts 0.02 ( 0.20.0 )
+	echo \>=dev-perl/Dist-CheckConflicts-0.20.0
 	# Module::Build 0.3601 ( 0.360.100 )
 	echo \>=virtual/perl-Module-Build-0.36.01
 }
@@ -22,8 +22,12 @@ perl_meta_build() {
 	echo \>=virtual/perl-Module-Build-0.36.01
 }
 perl_meta_runtime() {
+	# Dist::CheckConflicts 0.02 ( 0.20.0 )
+	echo \>=dev-perl/Dist-CheckConflicts-0.20.0
 	# Encode
 	echo virtual/perl-Encode
+	# Import::Into
+	echo dev-perl/Import-Into
 	# charnames
 	echo dev-lang/perl
 	# open
@@ -40,6 +44,8 @@ perl_meta_runtime() {
 	echo dev-lang/perl
 }
 perl_meta_test() {
+	# Capture::Tiny
+	echo dev-perl/Capture-Tiny
 	# File::Find
 	echo dev-lang/perl
 	# File::Temp
@@ -48,6 +54,8 @@ perl_meta_test() {
 	echo dev-lang/perl
 	# Test::More
 	echo virtual/perl-Test-Simple
+	# autodie
+	echo dev-perl/autodie
 }
 DEPEND="
 	$(perl_meta_configure)
