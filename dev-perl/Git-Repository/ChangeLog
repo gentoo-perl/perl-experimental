@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Git-Repository-1.260.0 (01 Aug 2012)
+
+  01 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  +Git-Repository-1.260.0.ebuild:
+  Version Bump
+
 *Git-Repository-1.250.0 (27 Feb 2012)
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com>
