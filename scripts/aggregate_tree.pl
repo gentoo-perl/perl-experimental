@@ -14,14 +14,17 @@ use optparse;
 use utf8;
 use Data::Dump qw( pp );
 use Gentoo::Overlay;
-
+use Gentoo::Perl::Distmap;
+use Gentoo::Perl::Distmap::RecordSet;
 # FILENAME: aggregate_tree.pl
 # CREATED: 29/02/12 07:37:54 by Kent Fredric (kentnl) <kentfredric@gmail.com>
 # ABSTRACT: Connect all the cpan id's from the metadata.xml
 
 use XML::Smart;
 
-my ( $env, $packages, $cat );
+my ( $env, $cat );
+my $dm = Gentoo::Perl::Distmap->new();
+
 main();
 
 sub main {
@@ -41,8 +44,6 @@ sub main {
     $tree = Gentoo::Overlay::Group->new();
     $tree->add_overlay( set_root( $opts->long_opts->{root} ));
   }
-
-  $packages = {};
 
   my $dest = open_output( $opts->long_opts->{output} );
 
@@ -84,13 +85,11 @@ sub make_format {
 }
 
 sub make_format_json {
-  require JSON;
-  my $encoder = JSON->new()->pretty->utf8->canonical;
-  return $encoder->encode($packages);
+  return $dm->save( string =>, );
 }
 
 sub make_format_distlist {
-  return join qq{\n}, keys %{$packages};
+  return join qq{\n}, $dm->mapped_dists;
 }
 
 sub handle_package {
@@ -128,15 +127,11 @@ sub handle_package {
 
     my $upstream = $remote->content();
 
-    if ( not defined $packages->{$upstream} ) {
-      $packages->{$upstream} = [];
-    }
-    my $versions = [];
     my $record   = {
       category        => $c->{category_name},
       package         => $c->{package_name},
       repository      => $c->{overlay_name},
-      versions_gentoo => $versions,
+      distribution    => $upstream,
     };
     $c->{package}->iterate(
       ebuilds => sub {
@@ -145,10 +140,12 @@ sub handle_package {
         my $p       = $c->{package_name};
         $version =~ s/\.ebuild$//;
         $version =~ s/^\Q${p}\E-//;
-        push @{$versions}, $version;
+        $dm->add_version(
+            %{$record},
+            version => $version,
+        );
       }
     );
-    push @{ $packages->{$upstream} }, $record;
 
     *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
   }
