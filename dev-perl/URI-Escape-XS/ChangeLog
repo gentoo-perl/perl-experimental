@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/URI-Escape-XS
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*URI-Escape-XS-0.80.0 (02 Aug 2012)
+
+  02 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  +URI-Escape-XS-0.80.0.ebuild, +metadata.xml:
+  Added for Any-URI-Escape
+
