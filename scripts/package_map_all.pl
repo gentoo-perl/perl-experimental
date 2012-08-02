@@ -16,6 +16,8 @@ use Try::Tiny;
 use utf8;
 use optparse;
 use Path::Class::Dir;
+use Gentoo::Perl::Distmap;
+use Gentoo::Perl::Distmap::RecordSet;
 my $optparse = optparse->new(
   argv => \@ARGV,
   help => sub { print help(); },
@@ -42,33 +44,15 @@ my $decoder = JSON->new()->utf8->relaxed;
 my $encoder = JSON->new()->pretty->utf8->canonical;
 
 my %lookup;
-my %g_repos;
+
 say "Init-ed";
 {
   for my $file (@json_files) {
-    my %repos;
     say "* Reading " . $file->relative;
-    my $nodes = $decoder->decode( scalar $file->slurp );
+    my $dm = Gentoo::Perl::Distmap->load( file => $file );
 
-    say "   Found " . ( scalar keys %{$nodes} ) . " distributions";
-    for ( keys %{$nodes} ) {
-      my $records = $nodes->{$_};
-      $lookup{$_}++;
-      for my $rec ( @{$records} ) {
-        my $repo = $rec->{repository};
-        $repos{$repo}++;
-      }
-    }
-    say "   $_ : " . $repos{$_} for keys %repos;
-    for ( keys %repos ) {
-      $g_repos{$_} += $repos{$_};
-    }
-  }
-  say "* Found: " . ( scalar keys %lookup ) . " unique distributions";
-  my (@dup) = grep { $lookup{$_} > 1 } keys %lookup;
-  if ( @dup > 0 ) {
-    say "   " . ( scalar @dup ) . " items listed more than once";
-    say "    > $_" for @dup;
+    say "   Found " . ( scalar $dm->mapped_dists ) . " distributions";
+    %lookup = ( %lookup, map { $_ => 1 } $dm->mapped_dists );
   }
 }
 
