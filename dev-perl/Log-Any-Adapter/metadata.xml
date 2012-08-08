@@ -10,6 +10,9 @@
         <remote-id type="cpan">Log-Any-Adapter</remote-id>
         <remote-id type="cpan-module">Log::Any::Adapter</remote-id>
         <remote-id type="cpan-module">Log::Any::Adapter::Base</remote-id>
+        <remote-id type="cpan-module">Log::Any::Adapter::File</remote-id>
+        <remote-id type="cpan-module">Log::Any::Adapter::Stderr</remote-id>
+        <remote-id type="cpan-module">Log::Any::Adapter::Stdout</remote-id>
         <remote-id type="cpan-module">Log::Any::Manager</remote-id>
     </upstream>
 </pkgmetadata>

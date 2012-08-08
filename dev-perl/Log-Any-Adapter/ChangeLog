@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Aug 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
+  Update metadata.xml ( +Log::Any::Adapter::{File,Stderr,Stdout} )
+
 *Log-Any-Adapter-0.80.0 (25 Jul 2012)
 
   25 Jul 2012; Kent Fredric <kentfredric@gmail.com>
