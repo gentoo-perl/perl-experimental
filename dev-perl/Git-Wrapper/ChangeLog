@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Aug 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
+  Update metadata.xml ( + Git::Wrapper::File::RawModification )
+
 *Git-Wrapper-0.25.0 (20 Jul 2012)
 
   20 Jul 2012; Kent Fredric <kentfredric@gmail.com> +Git-Wrapper-0.25.0.ebuild:

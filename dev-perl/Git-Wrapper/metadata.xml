@@ -10,6 +10,7 @@
         <remote-id type="cpan">Git-Wrapper</remote-id>
         <remote-id type="cpan-module">Git::Wrapper</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Exception</remote-id>
+        <remote-id type="cpan-module">Git::Wrapper::File::RawModification</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Log</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Status</remote-id>
         <remote-id type="cpan-module">Git::Wrapper::Statuses</remote-id>
