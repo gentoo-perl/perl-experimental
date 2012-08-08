@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Captcha-reCAPTCHA
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  08 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  Captcha-reCAPTCHA-0.920.0.ebuild, Captcha-reCAPTCHA-0.940.0.ebuild:
+  Fixdep on HTML-Tiny
 
   13 Apr 2011; Kent Fredric <kentfredric@gmail.com>
   Captcha-reCAPTCHA-0.920.0.ebuild, Captcha-reCAPTCHA-0.940.0.ebuild:
