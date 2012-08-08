@@ -17,11 +17,11 @@
 			<pkg>dev-perl/Test-Pod-Coverage</pkg></flag>
         <flag name="testmemorycycle">Install
 			<pkg>dev-perl/Test-Memory-Cycle</pkg></flag>
-		<flag name="develcover">Install <pkg>dev-perl/Devel-Cover</pkg></flag>
-		<flag name="testfatal">Install <pkg>dev-perl/Test-Fatal</pkg></flag>
-		<flag name="testdeep">Install <pkg>dev-perl/Test-Deep</pkg></flag>
-		<flag name="testrequires">Install <pkg>dev-perl/Test-Requires</pkg></flag>
-		<flag name="testnowarnings">Install <pkg>dev-perl/Test-NoWarnings</pkg></flag>
+        <flag name="develcover">Install <pkg>dev-perl/Devel-Cover</pkg></flag>
+        <flag name="testfatal">Install <pkg>dev-perl/Test-Fatal</pkg></flag>
+        <flag name="testdeep">Install <pkg>dev-perl/Test-Deep</pkg></flag>
+        <flag name="testrequires">Install <pkg>dev-perl/Test-Requires</pkg></flag>
+        <flag name="testnowarnings">Install <pkg>dev-perl/Test-NoWarnings</pkg></flag>
     </use>
     <upstream>
         <remote-id type="cpan">Task-Kensho-Testing</remote-id>
