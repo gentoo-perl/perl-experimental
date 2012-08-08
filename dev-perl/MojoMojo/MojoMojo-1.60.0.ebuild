@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=MRAMBERG
-MODULE_VERSION=1.05
+MODULE_VERSION=1.06
 inherit perl-module
 
 DESCRIPTION='A Wiki with a tree'
@@ -12,16 +12,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# File::Copy::Recursive
 	echo dev-perl/File-Copy-Recursive
 }
 perl_meta_build() {
 	# Email::Sender::Simple 0.102370 ( 0.102.370 )
 	echo \>=dev-perl/Email-Sender-0.102.370
-	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# SQL::Translator 0.09006 ( 0.90.60 )
 	echo \>=dev-perl/SQL-Translator-0.90.60
 	# Test::Differences
@@ -44,8 +44,8 @@ perl_meta_runtime() {
 	echo \>=dev-perl/Archive-Zip-1.140.0
 	# Cache::FastMmap 1.31 ( 1.310.0 )
 	echo \>=dev-perl/Cache-FastMmap-1.310.0
-	# Catalyst 5.71001 ( 5.710.10 )
-	echo \>=dev-perl/Catalyst-Runtime-5.710.10
+	# Catalyst 5.90015 ( 5.900.150 )
+	echo \>=dev-perl/Catalyst-Runtime-5.900.150
 	# Catalyst::Action::RenderView 0.07 ( 0.70.0 )
 	echo \>=dev-perl/Catalyst-Action-RenderView-0.70.0
 	# Catalyst::Authentication::Store::DBIx::Class 0.101 ( 0.101.0 )
@@ -72,8 +72,8 @@ perl_meta_runtime() {
 	echo dev-perl/Catalyst-Plugin-Setenv
 	# Catalyst::Plugin::Static::Simple 0.07 ( 0.70.0 )
 	echo \>=dev-perl/Catalyst-Plugin-Static-Simple-0.70.0
-	# Catalyst::Plugin::SubRequest 0.15 ( 0.150.0 )
-	echo \>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
+	# Catalyst::Plugin::SubRequest 0.19 ( 0.190.0 )
+	echo \>=dev-perl/Catalyst-Plugin-SubRequest-0.190.0
 	# Catalyst::Plugin::Unicode 0.8 ( 0.800.0 )
 	echo \>=dev-perl/Catalyst-Plugin-Unicode-0.800.0
 	# Catalyst::View::Email 0.14 ( 0.140.0 )
@@ -201,4 +201,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="broken"
