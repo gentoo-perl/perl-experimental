@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Test-Compile-0.200.0 (08 Aug 2012)
+
+  08 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  +Test-Compile-0.200.0.ebuild, metadata.xml:
+  Version Bump
+
 *Test-Compile-0.180.0 (25 Jul 2012)
 
   25 Jul 2012; Kent Fredric <kentfredric@gmail.com>
