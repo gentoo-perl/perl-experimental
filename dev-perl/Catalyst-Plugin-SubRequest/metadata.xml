@@ -9,5 +9,6 @@
     <upstream>
         <remote-id type="cpan">Catalyst-Plugin-SubRequest</remote-id>
         <remote-id type="cpan-module">Catalyst::Plugin::SubRequest</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::SubRequest::Writer</remote-id>
     </upstream>
 </pkgmetadata>
