@@ -16,14 +16,12 @@
         <remote-id type="cpan-module">Mojo::ByteStream</remote-id>
         <remote-id type="cpan-module">Mojo::Cache</remote-id>
         <remote-id type="cpan-module">Mojo::Collection</remote-id>
-        <remote-id type="cpan-module">Mojo::Command</remote-id>
         <remote-id type="cpan-module">Mojo::Content</remote-id>
         <remote-id type="cpan-module">Mojo::Content::MultiPart</remote-id>
         <remote-id type="cpan-module">Mojo::Content::Single</remote-id>
         <remote-id type="cpan-module">Mojo::Cookie</remote-id>
         <remote-id type="cpan-module">Mojo::Cookie::Request</remote-id>
         <remote-id type="cpan-module">Mojo::Cookie::Response</remote-id>
-        <remote-id type="cpan-module">Mojo::CookieJar</remote-id>
         <remote-id type="cpan-module">Mojo::DOM</remote-id>
         <remote-id type="cpan-module">Mojo::DOM::CSS</remote-id>
         <remote-id type="cpan-module">Mojo::DOM::HTML</remote-id>
@@ -65,9 +63,11 @@
         <remote-id type="cpan-module">Mojo::URL</remote-id>
         <remote-id type="cpan-module">Mojo::Upload</remote-id>
         <remote-id type="cpan-module">Mojo::UserAgent</remote-id>
+        <remote-id type="cpan-module">Mojo::UserAgent::CookieJar</remote-id>
         <remote-id type="cpan-module">Mojo::UserAgent::Transactor</remote-id>
         <remote-id type="cpan-module">Mojo::Util</remote-id>
         <remote-id type="cpan-module">Mojolicious</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Command</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::cgi</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::cpanify</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::daemon</remote-id>
@@ -93,8 +93,6 @@
         <remote-id type="cpan-module">Mojolicious::Plugin::EPLRenderer</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::EPRenderer</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::HeaderCondition</remote-id>
-        <remote-id type="cpan-module">Mojolicious::Plugin::I18N</remote-id>
-        <remote-id type="cpan-module">Mojolicious::Plugin::I18N::_Handler</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::JSONConfig</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::Mount</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::PODRenderer</remote-id>
