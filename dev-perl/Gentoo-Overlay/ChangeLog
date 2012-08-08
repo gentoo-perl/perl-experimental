@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  -Gentoo-Overlay-0.30.0.ebuild:
+  Gone on CPAN
+
 *Gentoo-Overlay-1.0.2 (23 Jun 2012)
 
   23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
