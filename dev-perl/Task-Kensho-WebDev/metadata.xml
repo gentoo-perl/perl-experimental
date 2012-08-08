@@ -14,8 +14,8 @@
 			<pkg>dev-perl/CGI-FormBuilder-Source-Perl</pkg></flag>
         <flag name="xmlrss">Install <pkg>dev-perl/XML-RSS</pkg></flag>
         <flag name="xmlatom">Install <pkg>dev-perl/XML-Atom</pkg></flag>
-		<flag name="mimetypes">Install <pkg>dev-perl/MIME-Types</pkg></flag>
-		<flag name="plack">Install <pkg>dev-perl/Plack</pkg></flag>
+        <flag name="mimetypes">Install <pkg>dev-perl/MIME-Types</pkg></flag>
+        <flag name="plack">Install <pkg>dev-perl/Plack</pkg></flag>
     </use>
     <upstream>
         <remote-id type="cpan">Task-Kensho-WebDev</remote-id>
