@@ -1,32 +1,24 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+
 MODULE_AUTHOR=HIDE
+MODULE_VERSION="0.04"
 inherit perl-module
 
 DESCRIPTION="Handling transaction token across forms"
 
-IUSE="test"
+IUSE=""
 
 SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="
-	virtual/perl-digest-base
-	virtual/perl-Scalar-List-Utils
-	dev-perl/MRO-Compat
-	>=dev-perl/Catalyst-Runtime-5.700.0
+DEPEND="
+	dev-perl/Class-C3
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Action-RenderView
 "
-DEPEND="
-	${RDEPEND}
-	test? (
-		virtual/perl-Test-Simple
-		dev-perl/Test-use-ok
-	)
-"
-SRC_TEST="do"
+RDEPEND="${DEPEND}"
