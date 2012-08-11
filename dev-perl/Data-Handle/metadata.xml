@@ -6,4 +6,10 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Data-Handle</remote-id>
+        <remote-id type="cpan-module">Data::Handle</remote-id>
+        <remote-id type="cpan-module">Data::Handle::Exception</remote-id>
+        <remote-id type="cpan-module">Data::Handle::IO</remote-id>
+    </upstream>
 </pkgmetadata>
