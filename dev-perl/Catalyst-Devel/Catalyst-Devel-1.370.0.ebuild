@@ -47,7 +47,7 @@ perl_meta_runtime() {
 	# MooseX::Emulate::Class::Accessor::Fast
 	echo dev-perl/MooseX-Emulate-Class-Accessor-Fast
 	# Path::Class 0.09 ( 0.90.0 )
-	echo \>=dev-perl/Path-Class-0.09
+	echo \>=dev-perl/Path-Class-0.90.0
 	# Template 2.14 ( 2.140.0 )
 	echo \>=dev-perl/Template-Toolkit-2.14
 	# namespace::autoclean

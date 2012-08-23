@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -31,7 +31,7 @@ RDEPEND="
 	>=dev-perl/File-ChangeNotify-0.70.0
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Module-Install-0.91
-	>=dev-perl/Path-Class-0.09
+	>=dev-perl/Path-Class-0.90.0
 	>=dev-perl/Template-Toolkit-2.14
 "
 DEPEND="${DEPEND}

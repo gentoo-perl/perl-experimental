@@ -34,7 +34,7 @@ RDEPEND="
 	>=dev-perl/File-ChangeNotify-0.70.0
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Module-Install-0.910.0
-	>=dev-perl/Path-Class-0.09 $(comment 0.90.0)
+	>=dev-perl/Path-Class-0.90.0
 	>=dev-perl/Template-Toolkit-2.14 $(comment 2.140.0)
 	dev-perl/MooseX-Daemonize
 	dev-perl/Starman
