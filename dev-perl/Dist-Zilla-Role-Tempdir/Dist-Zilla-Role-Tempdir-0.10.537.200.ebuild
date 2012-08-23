@@ -24,7 +24,7 @@ COMMON_DEPEND="
 	>=dev-perl/File-chdir-0.100.200
 	>=dev-perl/Moose-0.92 $(comment 0.920.0)
 	$(comment Moose::Role)
-	>=dev-perl/Path-Class-0.17 $(comment 0.170.0)
+	>=dev-perl/Path-Class-0.170.0
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)
 	>=dev-perl/namespace-autoclean-0.90.0
 "

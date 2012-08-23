@@ -41,7 +41,7 @@ perl_meta_runtime() {
 	# Moose::Role
 	echo dev-perl/Moose
 	# Path::Class 0.17 ( 0.170.0 )
-	echo \>=dev-perl/Path-Class-0.17
+	echo \>=dev-perl/Path-Class-0.170.0
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# namespace::autoclean 0.09 ( 0.90.0 )
