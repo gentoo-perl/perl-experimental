@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
-MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=5.90015
+MODULE_AUTHOR=JJNAPIORK
+MODULE_VERSION=5.90016
 inherit perl-module
 
 DESCRIPTION='The Catalyst Framework Runtime'
@@ -84,12 +84,14 @@ perl_meta_runtime() {
 	echo \>=dev-perl/MooseX-Types-LoadableClass-0.3.0
 	# Path::Class 0.09 ( 0.90.0 )
 	echo \>=dev-perl/Path-Class-0.90.0
-	# Plack 0.9974 ( 0.997.400 )
-	echo \>=dev-perl/Plack-0.997.400
+	# Plack 0.9991 ( 0.999.100 )
+	echo \>=dev-perl/Plack-0.999.100
 	# Plack::Middleware::ReverseProxy 0.04 ( 0.40.0 )
 	echo \>=dev-perl/Plack-Middleware-ReverseProxy-0.40.0
 	# Plack::Test::ExternalServer
 	echo dev-perl/Plack-Test-ExternalServer
+	# Safe::Isa
+	echo dev-perl/Safe-Isa
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# String::RewritePrefix 0.004 ( 0.4.0 )
