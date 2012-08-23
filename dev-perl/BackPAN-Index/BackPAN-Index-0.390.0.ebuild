@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -20,7 +20,7 @@ COMMON_DEPEND="
 	>=dev-perl/DBIx-Class-0.08109
 	>=dev-perl/DBD-SQLite-1.25
 	>=dev-perl/DBIx-Class-Schema-Loader-0.50.30
-	>=dev-perl/Path-Class-0.17
+	>=dev-perl/Path-Class-0.170.0
 	dev-perl/autodie
 	virtual/perl-parent
 "
