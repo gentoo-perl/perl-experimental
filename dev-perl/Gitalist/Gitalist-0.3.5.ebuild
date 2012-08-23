@@ -59,7 +59,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/JSON-XS
 	dev-perl/List-MoreUtils
-	>=dev-perl/Path-Class-0.17 $(comment 0.170.0)
+	>=dev-perl/Path-Class-0.170.0
 	dev-perl/Syntax-Highlight-Engine-Kate
 	$(comment virtual/perl-Sys-Hostname)
 

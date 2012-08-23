@@ -48,7 +48,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types-Path-Class
-	>=dev-perl/Path-Class-0.17 $(comment 0.170.0)
+	>=dev-perl/Path-Class-0.170.0
 	dev-perl/Sub-Exporter
 	dev-perl/Syntax-Highlight-Engine-Kate
 	dev-perl/Template-Toolkit
