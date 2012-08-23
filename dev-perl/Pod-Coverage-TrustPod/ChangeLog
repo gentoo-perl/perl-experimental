@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Coverage-TrustPod-0.92.832.ebuild:
+  Gone on CPAN
+
 *Pod-Coverage-TrustPod-0.100.2 (22 Apr 2012)
 
   22 Apr 2012; Kent Fredric <kentfredric@gmail.com>
