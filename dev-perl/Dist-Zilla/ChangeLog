@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Aug 2012; Kent Fredric <kentfredric@gmail.com> -Dist-Zilla-4.300.7.ebuild,
+  -Dist-Zilla-4.300.9.ebuild, -Dist-Zilla-4.300.10.ebuild,
+  -Dist-Zilla-4.300.14.ebuild, -Dist-Zilla-4.300.15.ebuild,
+  -Dist-Zilla-4.300.16.ebuild, -Dist-Zilla-4.300.18.ebuild:
+  Gone on CPAN
+
 *Dist-Zilla-4.300.21 (01 Aug 2012)
 
   01 Aug 2012; Kent Fredric <kentfredric@gmail.com>
