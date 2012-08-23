@@ -38,7 +38,7 @@ COMMON_DEPEND="
 	>=dev-perl/HTTP-Request-AsCGI-1.0.0
 
 	>=virtual/perl-Module-Pluggable-3.9
-	>=dev-perl/Path-Class-0.09
+	>=dev-perl/Path-Class-0.90.0
 	virtual/perl-Scalar-List-Utils
 	dev-perl/Sub-Exporter
 	>=dev-perl/Text-SimpleTable-0.30.0

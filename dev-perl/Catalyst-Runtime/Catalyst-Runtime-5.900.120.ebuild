@@ -83,7 +83,7 @@ perl_meta_runtime() {
 	# MooseX::Types::LoadableClass 0.003 ( 0.3.0 )
 	echo \>=dev-perl/MooseX-Types-LoadableClass-0.3.0
 	# Path::Class 0.09 ( 0.90.0 )
-	echo \>=dev-perl/Path-Class-0.09
+	echo \>=dev-perl/Path-Class-0.90.0
 	# Plack 0.9974 ( 0.997.400 )
 	echo \>=dev-perl/Plack-0.997.400
 	# Plack::Middleware::ReverseProxy 0.04 ( 0.40.0 )
