@@ -6,6 +6,13 @@
  Catalyst-Plugin-ErrorCatcher-0.0.8.9:
  Tweak deps ( rebased versionbump )
 
+  23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-ErrorCatcher-0.0.7.ebuild,
+  Catalyst-Plugin-ErrorCatcher-0.0.8.4.ebuild,
+  Catalyst-Plugin-ErrorCatcher-0.0.8.5.ebuild,
+  Catalyst-Plugin-ErrorCatcher-0.0.8.7.ebuild:
+  Fixdep on Path::Class ( version normalisation )
+
 *Catalyst-Plugin-ErrorCatcher-0.0.8.12 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com>

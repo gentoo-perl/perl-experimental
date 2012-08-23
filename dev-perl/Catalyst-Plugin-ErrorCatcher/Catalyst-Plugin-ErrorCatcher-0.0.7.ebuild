@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/DateTime-0.42
 	>=dev-perl/File-Slurp-9999.12
 	>=dev-perl/MIME-Lite-3.023
-	>=dev-perl/Path-Class-0.16"
+	>=dev-perl/Path-Class-0.160.0"
 DEPEND="${RDEPEND}
 	test? (
 		>=virtual/perl-Test-Simple-0.92

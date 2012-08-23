@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -22,7 +22,7 @@ RDEPEND="
 	virtual/perl-IO
 	dev-perl/MIME-Lite
 	dev-perl/MRO-Compat
-	>=dev-perl/Path-Class-0.16
+	>=dev-perl/Path-Class-0.160.0
 "
 DEPEND="${RDEPEND}
 	dev-perl/Catalyst-Runtime
