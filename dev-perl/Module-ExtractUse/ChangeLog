@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Module-ExtractUse-0.280.0 (23 Aug 2012)
+
+  23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  +Module-ExtractUse-0.280.0.ebuild:
+  Version Bump
+
 *Module-ExtractUse-0.270.0 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com>
