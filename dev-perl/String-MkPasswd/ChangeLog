@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*String-MkPasswd-0.40.0 (23 Aug 2012)
+
+  23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
+  +String-MkPasswd-0.40.0.ebuild:
+  Version Bump
+
 *String-MkPasswd-0.30.0 (23 Aug 2012)
 
   23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
