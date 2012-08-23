@@ -12,5 +12,6 @@
 		<remote-id type="cpan-module">Gentoo::Perl::Distmap::Map</remote-id>
 		<remote-id type="cpan-module">Gentoo::Perl::Distmap::Record</remote-id>
 		<remote-id type="cpan-module">Gentoo::Perl::Distmap::RecordSet</remote-id>
+		<remote-id type="cpan-module">Gentoo::Perl::Distmap::Role::Serialize</remote-id>
 	</upstream>
 </pkgmetadata>
