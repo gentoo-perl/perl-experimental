@@ -21,4 +21,4 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-Session-0.270.0
 	>=dev-perl/MRO-Compat-0.10
 "
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}"
