@@ -1,6 +1,16 @@
 # ChangeLog for dev-perl/Catalyst-Controller-HTML-FormFu
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  10 Sep 2012; Torsten Veller <tove@gentoo.org>
+  -Catalyst-Controller-HTML-FormFu-0.90.30.ebuild:
+  Cleanup
+
+*Catalyst-Controller-HTML-FormFu-0.90.30-r1 (08 Sep 2012)
+
+  08 Sep 2012; Brad Macpherson <brad@cpan.org>
+  +Catalyst-Controller-HTML-FormFu-0.90.30-r1.ebuild:
+  Remove dependency on deprecated package dev-perl/MooseX-ChainedAccessors
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Controller-HTML-FormFu-0.80.20.ebuild,
