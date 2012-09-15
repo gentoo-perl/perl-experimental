@@ -1,6 +1,8 @@
 # Kent Fredric <kentfredric@gmail.com> (16 Sep 2011)
 # Requires things presently not available and thus I haven't tested yet.
+# Will unmask sometime after =dev-perl/glib-perl-1.270.0 hits tree.
 =dev-perl/Glib-Object-Introspection-0.12.0
+=dev-perl/Gtk3-0.8.0
 
 # Kent Fredric <kentfredric@gmail.com> (14 Nov 2011)
 # Old virtuals only for 5.10.x 5.8.x
