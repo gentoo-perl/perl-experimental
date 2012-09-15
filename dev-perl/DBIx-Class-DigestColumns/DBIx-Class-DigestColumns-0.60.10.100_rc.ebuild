@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/DBD-SQLite-1.25 $(comment 1.250.0)
+	>=dev-perl/DBD-SQLite-1.250.0
 	virtual/perl-Module-Build
 "
 SRC_TEST="do"

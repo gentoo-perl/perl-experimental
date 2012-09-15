@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/DBIx-Class-DigestColumns
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-DigestColumns-0.60.10.100_rc.ebuild:
+  Fixdep on DBD-SQLite ( normalise )
 
 *DBIx-Class-DigestColumns-0.60.10.100_rc (05 Apr 2011)
 
