@@ -91,7 +91,7 @@ perl_meta_runtime() {
 	# Crypt::CBC 2.12 ( 2.120.0 )
 	echo \>=dev-perl/crypt-cbc-2.120.0
 	# DBD::SQLite 1.27 ( 1.270.0 )
-	echo \>=dev-perl/DBD-SQLite-1.27
+	echo \>=dev-perl/DBD-SQLite-1.270.0
 	# DBIx::Class 0.08 ( 0.80.0 )
 	echo \>=dev-perl/DBIx-Class-0.80.0
 	# DBIx::Class::DateTime::Epoch 0.04 ( 0.40.0 )

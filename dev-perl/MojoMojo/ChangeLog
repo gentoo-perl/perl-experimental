@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
+  MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild, MojoMojo-1.50.0.ebuild,
+  MojoMojo-1.60.0.ebuild:
+  Fixdep on DBD-SQLite ( normalise )
+
 *MojoMojo-1.60.0 (08 Aug 2012)
 
   08 Aug 2012; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.50.0.ebuild,
