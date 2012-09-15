@@ -32,7 +32,7 @@ DEPEND="
 	>=dev-perl/FormValidator-Simple-0.280.0
 	>=dev-perl/Finance-Currency-Convert-WebserviceX-0.70.10
 	>=dev-perl/SQL-Translator-0.110.60
-	>=dev-perl/DBD-SQLite-1.29
+	>=dev-perl/DBD-SQLite-1.290.0
 	>=dev-perl/Data-Currency-0.40.20
 	catalystframework? (
 		>=dev-perl/Catalyst-Runtime-5.800.250

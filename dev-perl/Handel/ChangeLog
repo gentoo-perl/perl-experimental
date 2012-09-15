@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com> Handel-1.0.130.ebuild,
+  Handel-1.0.140.ebuild:
+  Fixdep on DBD-SQLite ( normalise )
+
 *Handel-1.0.140 (27 Feb 2012)
 
   27 Feb 2012; Kent Fredric <kentfredric@gmail.com> +Handel-1.0.140.ebuild:

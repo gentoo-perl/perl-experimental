@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Clone 0.31 ( 0.310.0 )
 	echo \>=dev-perl/Clone-0.310.0
 	# DBD::SQLite 1.29 ( 1.290.0 )
-	echo \>=dev-perl/DBD-SQLite-1.29
+	echo \>=dev-perl/DBD-SQLite-1.290.0
 	# DBIx::Class 0.08123 ( 0.81.230 )
 	echo \>=dev-perl/DBIx-Class-0.81.230
 	# DBIx::Class::UUIDColumns 0.02005 ( 0.20.50 )
