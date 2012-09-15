@@ -28,7 +28,7 @@ my @subs = (
   
   ( sprintf 's/%s-%s\s*$/%s-%s/' , $pkg, $oldversion,$pkg,$newversion ),
   ( sprintf 's/%s-%s\s*"/%s-%s"/' , $pkg, $oldversion,$pkg,$newversion ),
-
+  ( sprintf 's/%s-%s\s*(\).*$)/%s-%s \1/' , $pkg, $oldversion,$pkg,$newversion ),
   ( sprintf 's/%s\s*%s\s*$/%s %s/', $pkg, $oldversion, $pkg, $newversion ),
   ( sprintf 's/%s\s*%s\s*#\s*%s\s*$/%s %s/', 
       $pkg, $oldversion, $newversion, $pkg, $newversion ),
