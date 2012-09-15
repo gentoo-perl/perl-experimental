@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,4 +15,4 @@ IUSE=""
 DEPEND="
 	>=dev-perl/Class-DBI-0.85
 	>=dev-perl/Ima-DBI-0.27
-	>=dev-perl/DBD-SQLite-0.07"
+	>=dev-perl/DBD-SQLite-0.70.0"
