@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-UUIDColumns-0.20.60.ebuild:
+  Fixdep on DBD-SQLite ( normalise )
+
 *DBIx-Class-UUIDColumns-0.20.60 (16 Feb 2012)
 
   16 Feb 2012; Kent Fredric <kentfredric@gmail.com>

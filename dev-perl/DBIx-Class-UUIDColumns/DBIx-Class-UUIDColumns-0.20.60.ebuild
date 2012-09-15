@@ -17,7 +17,7 @@ perl_meta_configure() {
 }
 perl_meta_build() {
 	# DBD::SQLite 1.11 ( 1.110.0 )
-	echo \>=dev-perl/DBD-SQLite-1.11
+	echo \>=dev-perl/DBD-SQLite-1.110.0
 	# ExtUtils::MakeMaker 6.42 ( 6.420.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.42
 }
