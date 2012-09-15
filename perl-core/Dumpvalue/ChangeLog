@@ -1,6 +1,11 @@
 # ChangeLog for perl-core/Dumpvalue
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dumpvalue-1.170.0 (15 Sep 2012)
+
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com> +Dumpvalue-1.170.0.ebuild:
+  Version Bump
 
 *Dumpvalue-1.160.0 (16 Jul 2011)
 
