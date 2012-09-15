@@ -1,15 +1,19 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+
+EAPI=3
+
 MODULE_AUTHOR=ADAMK
+MODULE_VERSION="1.18"
 inherit perl-module
 
 DESCRIPTION="The Perl Installation Program, for scripted and third-party distribution installation."
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
+
 COMMON_DEPEND="
 	>=virtual/perl-File-Spec-0.80
 	>=virtual/perl-File-Temp-0.14
@@ -18,7 +22,8 @@ COMMON_DEPEND="
 	virtual/perl-Getopt-Long
 	>=virtual/perl-CPAN-1.760
 	>=dev-perl/CPAN-Inject-0.70.0
-	>=dev-perl/Params-Util-0.21
+	>=dev-perl/Params-Util-1.00
+	dev-perl/PAR-Dist
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-IO-Zlib
