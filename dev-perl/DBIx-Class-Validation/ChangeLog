@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-Validation-0.20.40.ebuild, DBIx-Class-Validation-0.20.50.ebuild:
+  Fixdep on DBD-SQLite ( normalise )
+
 *DBIx-Class-Validation-0.20.50 (25 Feb 2012)
 *DBIx-Class-Validation-0.20.40 (25 Feb 2012)
 *DBIx-Class-Validation-0.20.30 (25 Feb 2012)

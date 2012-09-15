@@ -16,7 +16,7 @@ IUSE="+recommended"
 DEPEND="
 	>=dev-perl/DBIx-Class-0.07005
 	>=dev-perl/FormValidator-Simple-0.170.0
-	>=dev-perl/DBD-SQLite-1.11
+	>=dev-perl/DBD-SQLite-1.110.0
 	dev-perl/DateTime-Format-SQLite
 	recommended? (
 		dev-perl/Data-FormValidator
