@@ -30,14 +30,14 @@ RDEPEND="
 	>=dev-perl/Data-Dumper-Concise-1.200
 	dev-perl/Scope-Guard
 	>=dev-perl/DBI-1.56
-	sqlite? ( >=dev-perl/DBD-SQLite-1.29 )
+	sqlite? ( >=dev-perl/DBD-SQLite-1.290.0 )
 	mysql? ( >=dev-perl/DBD-mysql-4.00.4 )
 	postgres? ( >=dev-perl/DBD-Pg-1.49 )
 "
 DEPEND="${RDEPEND}
 	test? ( dev-perl/Test-Exception
 		>=dev-perl/Test-Warn-0.21
-		>=dev-perl/DBD-SQLite-1.29 )"
+		>=dev-perl/DBD-SQLite-1.290.0 )"
 
 # These have to be packaged if someone wants them::
 # db2? ( >=dev-perl/DBD-DB2-1.0 )

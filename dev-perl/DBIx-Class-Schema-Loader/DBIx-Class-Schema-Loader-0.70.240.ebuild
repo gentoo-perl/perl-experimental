@@ -21,7 +21,7 @@ perl_meta_build() {
 	# Config::General
 	echo dev-perl/config-general
 	# DBD::SQLite 1.29 ( 1.290.0 )
-	echo \>=dev-perl/DBD-SQLite-1.29
+	echo \>=dev-perl/DBD-SQLite-1.290.0
 	# DBI 1.56 ( 1.560.0 )
 	echo \>=dev-perl/DBI-1.560.0
 	# DBIx::Class::IntrospectableM2M
