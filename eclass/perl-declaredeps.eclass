@@ -33,8 +33,6 @@
 # *perl* dependencies and *module* names instead of package names, 
 # and have it just magically work somehow.
 
-DESCRIPTION="Based on the ${ECLASS} eclass";
-
 # At present, its EAPI=4 only, because without EAPI4, theres
 # implicit DEPEND=RDEPEND :(
 
