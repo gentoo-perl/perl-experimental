@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/File-pushd-0.32
 	virtual/perl-Getopt-Long
 	>=virtual/perl-CPAN-1.760
-	>=dev-perl/CPAN-Inject-0.70
+	>=dev-perl/CPAN-Inject-0.70.0
 	>=dev-perl/Params-Util-1.00
 	dev-perl/PAR-Dist
 	dev-perl/URI

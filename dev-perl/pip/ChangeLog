@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/pip
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Sep 2012; Kent Fredric <kentfredric@gmail.com> pip-1.16.ebuild,
+  pip-1.18.ebuild, pip-1.190.ebuild:
+  [fixdep] pip -> CPAN-Inject ( add zero )
 
   16 Jul 2011; Kent Fredric <kentfredric@gmail.com> pip-1.16.ebuild,
   pip-1.18.ebuild, pip-1.190.ebuild:
