@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> (16 Sep 2011)
+# Requires things presently not available and thus I haven't tested yet.
+=dev-perl/Glib-Object-Introspection-0.12.0
+
 # Kent Fredric <kentfredric@gmail.com> (14 Nov 2011)
 # Old virtuals only for 5.10.x 5.8.x
 =virtual/perl-Exporter-5.580.0
