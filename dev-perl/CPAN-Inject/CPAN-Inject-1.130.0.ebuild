@@ -26,7 +26,7 @@ depend-virtual CPAN 1.360
 depend CPAN-Checksums 1.05
 
 test-depend-virtual Test-Simple 0.42 # Test::More
-test-depend Test-Script 1.02
+test-depend Test-Script 1.20.0
 test-depend File-Remove 0.340.0
 
 ddep_setup
