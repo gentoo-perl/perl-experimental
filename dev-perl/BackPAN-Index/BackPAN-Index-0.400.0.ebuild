@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Archive-Extract
 	>=dev-perl/DBIx-Class-0.08109
-	>=dev-perl/DBD-SQLite-1.25
+	>=dev-perl/DBD-SQLite-1.250.0
 	>=dev-perl/DBIx-Class-Schema-Loader-0.50.30
 	>=dev-perl/Path-Class-0.170.0
 	dev-perl/autodie
