@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-perl/Lingua-EN-Inflect-1.89.1
+RDEPEND=">=dev-perl/Lingua-EN-Inflect-1.891.0
 	>=dev-perl/Lingua-EN-Inflect-Number-1.100.0
 	>=dev-perl/Lingua-EN-Tagger-0.150.0"
 DEPEND="${RDEPEND}"

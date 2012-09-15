@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# Exporter 5.63 ( 5.630.0 )
 	echo \>=virtual/perl-Exporter-5.630.0
 	# Lingua::EN::Inflect 1.891 ( 1.891.0 )
-	echo \>=dev-perl/Lingua-EN-Inflect-1.89.1
+	echo \>=dev-perl/Lingua-EN-Inflect-1.891.0
 	# Lingua::EN::Inflect::Number 1.1 ( 1.100.0 )
 	echo \>=dev-perl/Lingua-EN-Inflect-Number-1.100.0
 	# Lingua::EN::Tagger 0.15 ( 0.150.0 )
