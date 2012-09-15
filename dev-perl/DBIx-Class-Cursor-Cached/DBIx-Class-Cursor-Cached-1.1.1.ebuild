@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ depend DBIx-Class 0.81.240
 depend Digest-SHA1
 depend Carp-Clan 6.0
 
-bdepend DBD-SQLite 1.25
+bdepend DBD-SQLite 1.250.0
 bdepend-virtual Test-Simple # Test::More
 bdepend Cache-Cache # Cache::FileCache
 
