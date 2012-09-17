@@ -17,7 +17,7 @@ perl_meta_configure() {
 }
 perl_meta_runtime() {
 	# Test::Class 0.33 ( 0.330.0 )
-	echo \>=dev-perl/Test-Class-0.33
+	echo \>=dev-perl/Test-Class-0.330.0
 	# Test::Most 0.21 ( 0.210.0 )
 	echo \>=dev-perl/Test-Most-0.210.0
 }

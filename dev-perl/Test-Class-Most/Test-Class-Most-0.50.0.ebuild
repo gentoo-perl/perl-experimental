@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ IUSE=""
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=dev-perl/Test-Class-0.33
+	>=dev-perl/Test-Class-0.330.0
 	>=dev-perl/Test-Most-0.21
 "
 DEPEND="${RDEPEND}
