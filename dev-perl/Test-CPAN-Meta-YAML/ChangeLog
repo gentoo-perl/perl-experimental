@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Sep 2012; Kent Fredric <kentfredric@gmail.com>
+  -Test-CPAN-Meta-YAML-0.170.0.ebuild, -Test-CPAN-Meta-YAML-0.180.0.ebuild,
+  -Test-CPAN-Meta-YAML-0.190.0.ebuild:
+  Gone on CPAN
+
 *Test-CPAN-Meta-YAML-0.210.0 (12 Aug 2012)
 
   12 Aug 2012; Kent Fredric <kentfredric@gmail.com>
