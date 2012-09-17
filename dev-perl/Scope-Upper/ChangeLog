@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Scope-Upper-0.190.0 (17 Sep 2012)
+
+  17 Sep 2012; Kent Fredric <kentfredric@gmail.com>
+  +Scope-Upper-0.190.0.ebuild:
+  Version Bump
+
   28 Feb 2012; Kent Fredric <kentfredric@gmail.com>
   -Scope-Upper-0.140.0.ebuild, -Scope-Upper-0.150.0.ebuild,
   -Scope-Upper-0.160.0.ebuild:
