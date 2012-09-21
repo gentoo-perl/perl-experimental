@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-StatusMessage
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-StatusMessage-1.2.0 (21 Sep 2012)
+
+  21 Sep 2012; Michele Beltrame <m@cattlegrid.info>
+  +Catalyst-Plugin-StatusMessage-1.2.0.ebuild:
+  C::P::StatusMessage
+
