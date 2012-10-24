@@ -144,7 +144,7 @@ say "Writing $file";
 $fh->say("# Copyright 1999-$year Gentoo Foundation");
 $fh->say("# Distributed under the terms of the GNU General Public License v2");
 $fh->say("# \$Header: \$");
-$fh->say("EAPI=4");
+$fh->say("EAPI=5");
 $fh->say( "MODULE_AUTHOR=" . $release_info->{author} );
 $fh->say( "MODULE_VERSION=" . $release_info->{version} );
 $fh->say('inherit perl-module');
