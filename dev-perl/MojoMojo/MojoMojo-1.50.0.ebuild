@@ -175,7 +175,7 @@ perl_meta_runtime() {
 	# Text::Textile
 	echo dev-perl/Text-Textile
 	# URI 1.37 ( 1.370.0 )
-	echo \>=dev-perl/URI-1.37
+	echo \>=dev-perl/URI-1.370.0
 	# URI::Fetch
 	echo dev-perl/URI-Fetch
 	# URI::Find

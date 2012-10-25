@@ -76,7 +76,7 @@ RDEPEND="
 	dev-perl/Template-Plugin-JavaScript
 	>=dev-perl/Text-Context-3.500.0
 	dev-perl/Text-Password-Pronounceable
-	>=dev-perl/URI-1.37
+	>=dev-perl/URI-1.370.0
 	dev-perl/URI-Find
 	>=dev-perl/yaml-0.36
 	dev-perl/Text-Textile
