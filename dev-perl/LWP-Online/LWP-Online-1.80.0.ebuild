@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -14,7 +14,7 @@ IUSE="test"
 comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-perl/libwww-perl-5.805 $(comment LWP::Simple 5.805.0)
-	>=dev-perl/URI-1.35 $(comment 1.350.0)
+	>=dev-perl/URI-1.350.0
 	>=dev-lang/perl-5.5.0
 "
 DEPEND="

@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/LWP-Online
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  25 Oct 2012; Kent Fredric <kentfredric@gmail.com> LWP-Online-1.80.0.ebuild:
+  Fix dependency on URI ( normalize )
 
 *LWP-Online-1.80.0 (16 Jul 2011)
 
