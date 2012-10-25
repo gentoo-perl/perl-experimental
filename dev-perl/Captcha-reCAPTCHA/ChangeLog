@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Captcha-reCAPTCHA-0.970.0 (25 Oct 2012)
+
+  25 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  +Captcha-reCAPTCHA-0.970.0.ebuild:
+  Version Bump
+
 *Captcha-reCAPTCHA-0.950.0 (08 Aug 2012)
 
   08 Aug 2012; Kent Fredric <kentfredric@gmail.com>
