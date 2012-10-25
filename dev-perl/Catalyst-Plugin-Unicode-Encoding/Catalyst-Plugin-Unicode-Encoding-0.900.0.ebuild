@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.0
 	>=virtual/perl-Encode-2.21
 	>=dev-perl/libwww-perl-5.828
-	>=dev-perl/URI-1.36
+	>=dev-perl/URI-1.360.0
 "
 DEPEND="
 	${RDEPEND}

@@ -22,7 +22,7 @@ RDEPEND="
 	$(comment LWP 5.828)
 	>=dev-perl/libwww-perl-5.828
 	$(comment URI 1.36)
-	>=dev-perl/URI-1.36
+	>=dev-perl/URI-1.360.0
 	$(comment Try::Tiny)
 	dev-perl/Try-Tiny
 "

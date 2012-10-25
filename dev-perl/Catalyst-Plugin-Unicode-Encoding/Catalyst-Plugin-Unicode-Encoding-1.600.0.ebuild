@@ -37,7 +37,7 @@ perl_meta_runtime() {
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
 	# URI 1.36 ( 1.360.0 )
-	echo \>=dev-perl/URI-1.36
+	echo \>=dev-perl/URI-1.360.0
 }
 DEPEND="
 	$(perl_meta_configure)

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -37,7 +37,7 @@ perl_meta_runtime() {
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
 	# URI 1.36 ( 1.360.0 )
-	echo \>=dev-perl/URI-1.36
+	echo \>=dev-perl/URI-1.360.0
 }
 DEPEND="
 	$(perl_meta_configure)

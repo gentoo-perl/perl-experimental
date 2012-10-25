@@ -2,6 +2,17 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Unicode-Encoding-0.900.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.100.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.200.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.300.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.500.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.600.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.700.0.ebuild,
+  Catalyst-Plugin-Unicode-Encoding-1.800.0.ebuild:
+  Fix dependency on URI ( normalize )
+
 *Catalyst-Plugin-Unicode-Encoding-1.800.0 (19 Jul 2012)
 
   19 Jul 2012; Kent Fredric <kentfredric@gmail.com>
