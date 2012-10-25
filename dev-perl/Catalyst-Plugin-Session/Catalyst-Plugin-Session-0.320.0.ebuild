@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10
 	>=dev-perl/Moose-0.76
-	>=dev-perl/Tie-RefHash-1.34
+	>=dev-perl/Tie-RefHash-1.340.0
 	>=virtual/perl-Test-Simple-0.88
 
 "

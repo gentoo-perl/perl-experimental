@@ -2,6 +2,15 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Session-0.300.0.ebuild,
+  Catalyst-Plugin-Session-0.310.0.ebuild,
+  Catalyst-Plugin-Session-0.320.0.ebuild,
+  Catalyst-Plugin-Session-0.330.0.ebuild,
+  Catalyst-Plugin-Session-0.340.0.ebuild,
+  Catalyst-Plugin-Session-0.350.0.ebuild:
+  Fix dependency on Tie-RefHash ( normalize )
+
 *Catalyst-Plugin-Session-0.350.0 (27 May 2012)
 
   27 May 2012; Kent Fredric <kentfredric@gmail.com>
