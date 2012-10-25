@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*App-cpanminus-1.501.800 (25 Oct 2012)
+
+  25 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  +App-cpanminus-1.501.800.ebuild:
+  Version Bump
+
 *App-cpanminus-1.501.700 (19 Jul 2012)
 
   19 Jul 2012; Kent Fredric <kentfredric@gmail.com>
