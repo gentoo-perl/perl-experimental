@@ -51,7 +51,7 @@ depend-virtual Time-HiRes
 depend Tree-Simple 1.15 # 1.150.0
 depend Tree-Simple-VisitorFactory # Tree-Simple-Visitor-FindByPath
 depend Try-Tiny
-depend URI 1.35 # 1.350.0
+depend URI 1.350.0
 depend Task-Weaken
 depend-virtual Text-Balanced
 depend MRO-Compat

@@ -113,7 +113,7 @@ perl_meta_runtime() {
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
 	# URI 1.35 ( 1.350.0 )
-	echo \>=dev-perl/URI-1.35
+	echo \>=dev-perl/URI-1.350.0
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# namespace::clean 0.13 ( 0.130.0 )

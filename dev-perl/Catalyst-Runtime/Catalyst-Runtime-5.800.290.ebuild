@@ -45,7 +45,7 @@ COMMON_DEPEND="
 	virtual/perl-Time-HiRes
 	>=dev-perl/Tree-Simple-1.15
 	dev-perl/Tree-Simple-VisitorFactory
-	>=dev-perl/URI-1.35
+	>=dev-perl/URI-1.350.0
 	virtual/perl-Text-Balanced
 	dev-perl/MRO-Compat
 	>=dev-perl/MooseX-Getopt-0.30
