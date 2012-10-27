@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE=""
 
 cdepend-virtual ExtUtils-MakeMaker 6.42
 
-depend DBIx-Class 0.08100
+depend DBIx-Class 0.81.0
 
 test-depend Test-Exception
 
