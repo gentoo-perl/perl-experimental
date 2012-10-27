@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Class-Accessor-Grouped-0.09002
 	>=dev-perl/Class-C3-0.18
 	>=dev-perl/Class-C3-Componentised-1.0.500
-	>=dev-perl/DBIx-Class-0.08114
+	>=dev-perl/DBIx-Class-0.81.140
 	dev-perl/Class-Inspector
 	dev-perl/Class-Unload
 	dev-perl/namespace-autoclean
