@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -18,7 +18,7 @@ COMMONDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.0
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.80
 	>=dev-perl/Catalyst-Model-DBIC-Schema-0.180.0
-	>=dev-perl/DBIx-Class-0.08
+	>=dev-perl/DBIx-Class-0.80.0
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 	dev-perl/List-MoreUtils

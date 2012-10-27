@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Catalyst::Runtime 5.8 ( 5.800.0 )
 	echo \>=dev-perl/Catalyst-Runtime-5.800.0
 	# DBIx::Class 0.08 ( 0.80.0 )
-	echo \>=dev-perl/DBIx-Class-0.08
+	echo \>=dev-perl/DBIx-Class-0.80.0
 	# List::MoreUtils
 	echo dev-perl/List-MoreUtils
 	# Moose
