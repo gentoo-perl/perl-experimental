@@ -1,6 +1,15 @@
 # ChangeLog for dev-perl/DBIx-Class-EncodedColumn
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-EncodedColumn-0.0.20.ebuild,
+  DBIx-Class-EncodedColumn-0.0.40.ebuild,
+  DBIx-Class-EncodedColumn-0.0.60.ebuild,
+  DBIx-Class-EncodedColumn-0.0.90.ebuild,
+  DBIx-Class-EncodedColumn-0.0.100.ebuild,
+  DBIx-Class-EncodedColumn-0.0.110.ebuild:
+  Fix dependency on DBIx-Class ( normalize )
 
 *DBIx-Class-EncodedColumn-0.0.110 (13 Apr 2011)
 
