@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Accessor
-	>=dev-perl/DBIx-Class-0.07000
+	>=dev-perl/DBIx-Class-0.70.0
 	dev-perl/Moose
 	dev-perl/MooseX-AttributeHelpers
 	virtual/perl-Time-HiRes

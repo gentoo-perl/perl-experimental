@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Class::Accessor
 	echo dev-perl/Class-Accessor
 	# DBIx::Class 0.07000 ( 0.70.0 )
-	echo \>=dev-perl/DBIx-Class-0.07000
+	echo \>=dev-perl/DBIx-Class-0.70.0
 	# Moose 0.90 ( 0.900.0 )
 	echo \>=dev-perl/Moose-0.900
 	# Test::More

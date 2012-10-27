@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-QueryLog-1.2.3.ebuild, DBIx-Class-QueryLog-1.3.0.ebuild,
+  DBIx-Class-QueryLog-1.3.1.ebuild, DBIx-Class-QueryLog-1.3.2.ebuild:
+  Fix dependency on DBIx-Class ( normalize )
+
 *DBIx-Class-QueryLog-1.3.3 (26 Oct 2012)
 
   26 Oct 2012; Kent Fredric <kentfredric@gmail.com>
