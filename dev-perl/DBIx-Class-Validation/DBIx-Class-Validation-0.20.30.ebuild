@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/DBIx-Class-0.07005
+	>=dev-perl/DBIx-Class-0.70.50
 	>=dev-perl/FormValidator-Simple-0.170.0
 "
 RDEPEND="${DEPEND}"
