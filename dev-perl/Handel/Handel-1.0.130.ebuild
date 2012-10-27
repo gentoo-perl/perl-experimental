@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="catalystframework"
 
 DEPEND="
-	>=dev-perl/DBIx-Class-0.08123
+	>=dev-perl/DBIx-Class-0.81.230
 	>=dev-perl/DBIx-Class-UUIDColumns-0.20.50
 	>=dev-perl/DBIx-Class-Validation-0.20.50
 	>=dev-perl/Data-Currency-0.40.20
