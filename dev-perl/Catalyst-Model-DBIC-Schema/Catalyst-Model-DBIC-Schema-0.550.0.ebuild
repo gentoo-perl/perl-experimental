@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -15,7 +15,7 @@ comment() { true;}
 IUSE="catalyst_helper caching replication test"
 RDEPEND="
 	$(comment DBIX::Class 0.08114)
-	>=dev-perl/DBIx-Class-0.08114
+	>=dev-perl/DBIx-Class-0.81.140
 	$(comment Catalyst::Runtime 5.80005)
 	>=dev-perl/Catalyst-Runtime-5.800.50
 	$(comment CatalystX::Component::Traits 0.14)
