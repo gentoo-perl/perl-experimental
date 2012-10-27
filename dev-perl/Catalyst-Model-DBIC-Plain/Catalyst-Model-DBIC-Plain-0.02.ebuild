@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,5 +14,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	dev-perl/Catalyst-Runtime
-	>=dev-perl/DBIx-Class-0.01
+	>=dev-perl/DBIx-Class-0.10.0
 "
