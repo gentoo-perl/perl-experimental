@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-DigestColumns-0.60.0.ebuild:
+  Fix dependency on DBIx-Class ( normalize )
+
   15 Sep 2012; Kent Fredric <kentfredric@gmail.com>
   DBIx-Class-DigestColumns-0.60.10.100_rc.ebuild:
   Fixdep on DBD-SQLite ( normalise )
