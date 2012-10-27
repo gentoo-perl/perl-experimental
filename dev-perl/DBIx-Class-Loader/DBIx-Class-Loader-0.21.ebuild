@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/DBIx-Class-0.04001
+	>=dev-perl/DBIx-Class-0.40.10
 	>=dev-perl/DBI-1.30
 	dev-perl/Lingua-EN-Inflect
 	>=dev-perl/UNIVERSAL-require-0.10"

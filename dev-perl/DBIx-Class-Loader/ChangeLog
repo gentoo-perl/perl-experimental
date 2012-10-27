@@ -1,0 +1,8 @@
+# ChangeLog for dev-perl/DBIx-Class-Loader
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-Loader-0.21.ebuild:
+  Fix dependency on DBIx-Class ( normalize )
+
