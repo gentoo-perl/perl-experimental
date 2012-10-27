@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ElasticSearch-SearchBuilder-0.150.0 (27 Oct 2012)
+
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  +ElasticSearch-SearchBuilder-0.150.0.ebuild:
+  Version Bump
+
 *ElasticSearch-SearchBuilder-0.140.0 (02 Aug 2012)
 
   02 Aug 2012; Kent Fredric <kentfredric@gmail.com>
