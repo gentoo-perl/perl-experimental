@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ PATCHES=(
 );
 COMMON_DEPEND="
 	>=dev-perl/DateTime-0.55
-	>=dev-perl/DBIx-Class-0.08009
+	>=dev-perl/DBIx-Class-0.80.90
 	>=dev-perl/DBIx-Class-DynamicDefault-0.03
 "
 DEPEND="

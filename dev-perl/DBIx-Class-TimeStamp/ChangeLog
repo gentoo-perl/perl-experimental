@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/DBIx-Class-TimeStamp
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-TimeStamp-0.140.0.ebuild:
+  Fix dependency on DBIx-Class ( normalize )
 
 *DBIx-Class-TimeStamp-0.140.0 (08 Dec 2011)
 *DBIx-Class-TimeStamp-0.130.0 (08 Dec 2011)
