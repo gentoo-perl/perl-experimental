@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/DBIx-Class-0.07005
+	>=dev-perl/DBIx-Class-0.70.50
 	dev-perl/Data-UUID
 "
 DEPEND="${RDEPEND}"

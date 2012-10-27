@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# Class::Accessor::Grouped
 	echo dev-perl/Class-Accessor-Grouped
 	# DBIx::Class 0.07005 ( 0.70.50 )
-	echo \>=dev-perl/DBIx-Class-0.07005
+	echo \>=dev-perl/DBIx-Class-0.70.50
 	# perl v5.8.1 ( 5.8.1 )
 	echo \>=dev-lang/perl-5.8.1
 }
