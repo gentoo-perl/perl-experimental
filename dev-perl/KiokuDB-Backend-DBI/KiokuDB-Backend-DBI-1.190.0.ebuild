@@ -47,7 +47,7 @@ COMMON_DEPEND="
 # CONFIGURE_REQUIRES
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/DBIx-Class-0.08119
+	>=dev-perl/DBIx-Class-0.81.190
 	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "
 # BUILD_REQUIRES

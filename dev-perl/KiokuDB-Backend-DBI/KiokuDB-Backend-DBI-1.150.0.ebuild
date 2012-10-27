@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -22,7 +22,7 @@ DBI_OPTIONAL_DEPENDS="
 "
 COMMON_DEPEND="
 	>=dev-perl/DBI-1.607
-	>=dev-perl/DBIx-Class-0.08123
+	>=dev-perl/DBIx-Class-0.81.230
 	>=dev-perl/Data-Stream-Bulk-0.07
 	>=dev-perl/KiokuDB-0.460.0
 	>=dev-perl/MooseX-Types-0.08
@@ -46,7 +46,7 @@ COMMON_DEPEND="
 
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-perl/DBIx-Class-0.08119
+	>=dev-perl/DBIx-Class-0.81.190
 	>=virtual/perl-ExtUtils-MakeMaker-6.56
 	dev-perl/DBD-SQLite
 	dev-perl/Test-Exception
