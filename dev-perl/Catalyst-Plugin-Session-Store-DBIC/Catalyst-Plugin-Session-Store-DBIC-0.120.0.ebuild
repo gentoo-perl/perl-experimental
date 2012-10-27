@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ RDEPEND="
 	$(comment Catalyst::Exception)
 	>=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.05 $(comment 0.50.0)
 	dev-perl/Class-Accessor $(comment Class::Accessor::Fast)
-	>=dev-perl/DBIx-Class-0.07000 $(comment 0.70.0)
+	>=dev-perl/DBIx-Class-0.70.0
 	virtual/perl-MIME-Base64
 	dev-perl/MRO-Compat
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)

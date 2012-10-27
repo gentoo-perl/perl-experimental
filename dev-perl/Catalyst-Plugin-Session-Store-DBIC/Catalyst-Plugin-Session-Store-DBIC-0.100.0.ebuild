@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.650.0
 	>=dev-perl/Catalyst-Plugin-Session-Store-Delegate-0.02
 	dev-perl/Class-Accessor
-	>=dev-perl/DBIx-Class-0.07000
+	>=dev-perl/DBIx-Class-0.70.0
 	virtual/perl-MIME-Base64
 	dev-perl/MRO-Compat
 	virtual/perl-Scalar-List-Utils
