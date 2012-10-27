@@ -50,7 +50,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-Mail
 	>=dev-perl/Directory-Scratch-0.140.0
 	>=dev-perl/DBD-SQLite-1.270.0
-	>=dev-perl/DBIx-Class-0.08
+	>=dev-perl/DBIx-Class-0.80.0
 	dev-perl/DBIx-Class-DateTime-Epoch
 	dev-perl/DBIx-Class-EncodedColumn
 	>=virtual/perl-Encode-2.31
