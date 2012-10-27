@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  DBIx-Class-Cursor-Cached-1.1.0.ebuild:
+  Fix dependency on DBIx-Class ( normalize )
+
   15 Sep 2012; Kent Fredric <kentfredric@gmail.com>
   DBIx-Class-Cursor-Cached-1.1.0.ebuild, DBIx-Class-Cursor-Cached-1.1.1.ebuild,
   DBIx-Class-Cursor-Cached-1.1.2.ebuild:

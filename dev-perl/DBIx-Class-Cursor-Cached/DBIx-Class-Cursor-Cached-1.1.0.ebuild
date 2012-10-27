@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 
-depend DBIx-Class 0.08100
+depend DBIx-Class 0.81.0
 depend Digest-SHA1
 depend Carp-Clan 6.0
 
