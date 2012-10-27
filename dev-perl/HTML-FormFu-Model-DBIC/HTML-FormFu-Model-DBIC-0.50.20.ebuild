@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RDEPEND="
 	dev-perl/DBD-SQLite
-	>=dev-perl/DBIx-Class-0.08106
+	>=dev-perl/DBIx-Class-0.81.60
 	>=dev-perl/HTML-FormFu-0.50.0
 "
 DEPEND="
