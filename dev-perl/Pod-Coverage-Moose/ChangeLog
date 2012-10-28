@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  Pod-Coverage-Moose-0.20.0.ebuild, Pod-Coverage-Moose-0.30.0.ebuild,
+  Pod-Coverage-Moose-0.40.0.ebuild:
+  Fix dependency on namespace-clean ( normalize )
+
 *Pod-Coverage-Moose-0.40.0 (27 Mar 2012)
 
   27 Mar 2012; Kent Fredric <kentfredric@gmail.com>

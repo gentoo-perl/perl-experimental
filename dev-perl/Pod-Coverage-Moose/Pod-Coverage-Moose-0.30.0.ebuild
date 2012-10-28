@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Pod::Coverage
 	echo dev-perl/Pod-Coverage
 	# namespace::clean 0.05 ( 0.50.0 )
-	echo \>=dev-perl/namespace-clean-0.050
+	echo \>=dev-perl/namespace-clean-0.50.0
 }
 DEPEND="
 	$(perl_meta_build)

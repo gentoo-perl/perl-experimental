@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Moose-0.24
-	>=dev-perl/namespace-clean-0.05
+	>=dev-perl/namespace-clean-0.50.0
 	dev-perl/Pod-Coverage
 	dev-perl/Perl6-Junction
 	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
