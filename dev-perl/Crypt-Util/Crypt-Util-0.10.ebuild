@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.92
 	dev-perl/Sub-Exporter
 	dev-perl/Data-GUID
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	dev-perl/crypt-cbc
 	dev-perl/Crypt-Rijndael
 	virtual/perl-Digest-SHA
