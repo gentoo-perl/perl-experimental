@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Moose-1.12
 	>=dev-perl/MooseX-NonMoose-0.150.0
 	>=dev-perl/namespace-autoclean-0.90.0
-	>=dev-perl/namespace-clean-0.200
+	>=dev-perl/namespace-clean-0.200.0
 	>=dev-perl/Data-Dumper-Concise-1.200
 	dev-perl/Scope-Guard
 	>=dev-perl/DBI-1.56
