@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com> Web-Scraper-0.360.0.ebuild:
+  Fix dependency on HTML-Tree ( normalize )
+
 *Web-Scraper-0.370.0 (28 Oct 2012)
 
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com>

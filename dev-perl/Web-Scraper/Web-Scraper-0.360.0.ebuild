@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# HTML::Tagset
 	echo dev-perl/HTML-Tagset
 	# HTML::TreeBuilder 3.23 ( 3.230.0 )
-	echo \>=dev-perl/HTML-Tree-3.23
+	echo \>=dev-perl/HTML-Tree-3.230.0
 	# HTML::TreeBuilder::XPath 0.08 ( 0.80.0 )
 	echo \>=dev-perl/HTML-TreeBuilder-XPath-0.80.0
 	# LWP 5.827 ( 5.827.0 )
