@@ -21,7 +21,7 @@ RDEPEND="
 	virtual/perl-File-Temp
 	>=dev-perl/Moose-0.87
 	dev-perl/MooseX-Types-Path-Class
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	dev-perl/Path-Class
 	dev-perl/Sub-Exporter
 "
