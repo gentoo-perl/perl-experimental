@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-0.89
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/MooseX-Types-Set-Object
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	>=dev-perl/Data-Stream-Bulk-0.03
 	dev-perl/Scope-Guard
 	dev-perl/Set-Object

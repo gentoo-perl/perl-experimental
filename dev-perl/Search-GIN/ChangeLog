@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com> Search-GIN-0.30.0.ebuild,
+  Search-GIN-0.70.0.ebuild, Search-GIN-0.80.0.ebuild:
+  Fix dependency on namespace-clean ( normalize )
+
 *Search-GIN-0.80.0 (27 Feb 2012)
 *Search-GIN-0.70.0 (27 Feb 2012)
 *Search-GIN-0.30.0 (27 Feb 2012)
