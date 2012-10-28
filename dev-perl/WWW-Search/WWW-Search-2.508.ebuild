@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ RDEPEND="dev-perl/Bit-Vector
 	dev-perl/DateManip
 	dev-perl/File-Slurp
 	dev-perl/HTML-Parser
-	>=dev-perl/HTML-Tree-0.51
+	>=dev-perl/HTML-Tree-0.510.0
 	dev-perl/libwww-perl
 	dev-perl/URI
 	dev-perl/User"

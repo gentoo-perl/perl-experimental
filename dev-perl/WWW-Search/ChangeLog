@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/WWW-Search
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com> WWW-Search-2.508.ebuild:
+  Fix dependency on HTML-Tree ( normalize )
 
   19 Jun 2010; Kent Fredric <kentfredric@gmail.com>
   -WWW-Search-2.507.ebuild:
