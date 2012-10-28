@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	>=dev-perl/Test-TempDir-0.40.0
 	dev-perl/Test-Exception
 	dev-perl/Moose
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	>=dev-perl/BerkeleyDB-0.36
 	>=dev-perl/Data-Stream-Bulk-0.03
 	dev-perl/Path-Class
