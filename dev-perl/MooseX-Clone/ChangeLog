@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-Clone
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com> MooseX-Clone-0.04.ebuild,
+  MooseX-Clone-0.05.ebuild:
+  Fix dependency on namespace-clean ( normalize )
 
 *MooseX-Clone-0.05 (22 Jan 2010)
 
