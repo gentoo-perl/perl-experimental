@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# URI::FromHash
 	echo dev-perl/URI-FromHash
 	# namespace::clean 0.08 ( 0.80.0 )
-	echo \>=dev-perl/namespace-clean-0.080
+	echo \>=dev-perl/namespace-clean-0.80.0
 }
 DEPEND="
 	$(perl_meta_configure)
