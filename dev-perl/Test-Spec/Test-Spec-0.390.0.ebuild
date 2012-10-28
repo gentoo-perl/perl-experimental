@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -23,7 +23,7 @@ RDEPEND="
 	virtual/perl-Scalar-List-Utils
 
 	$(comment Package::Stash 0.23)
-	>=dev-perl/Package-Stash-0.230 $(comment 0.230.0)
+	>=dev-perl/Package-Stash-0.230.0
 
 	$(comment Scalar::Util)
 	virtual/perl-Scalar-List-Utils

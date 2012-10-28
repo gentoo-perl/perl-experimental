@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Package::Stash 0.23 ( 0.230.0 )
-	echo \>=dev-perl/Package-Stash-0.230
+	echo \>=dev-perl/Package-Stash-0.230.0
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# TAP::Parser

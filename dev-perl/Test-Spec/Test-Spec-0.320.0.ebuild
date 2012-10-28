@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ IUSE=""
 RDEPEND="
 	dev-perl/Test-Trap
 	>=dev-perl/Test-Deep-0.103
-	>=dev-perl/Package-Stash-0.23
+	>=dev-perl/Package-Stash-0.230.0
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	dev-perl/Tie-IxHash
