@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.710.10
-	>=dev-perl/namespace-clean-0.10
+	>=dev-perl/namespace-clean-0.100.0
 	virtual/perl-digest-base
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
