@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ IUSE=""
 DEPEND="
 	>=dev-lang/perl-5.8.1
 	dev-perl/Module-Install
-	>=dev-perl/HTML-Tree-3.23
+	>=dev-perl/HTML-Tree-3.230.0
 	dev-perl/Class-Accessor
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Class-Data-Accessor
