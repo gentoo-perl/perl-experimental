@@ -29,7 +29,7 @@ COMMON_DEPEND="
 	>=dev-perl/Search-GIN-0.30.0
 	>=dev-perl/Set-Object-1.26
 	>=dev-perl/YAML-LibYAML-0.300.0
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	>=virtual/perl-IO-1.23
 	>=dev-perl/Data-UUID-1.203
 	dev-perl/Hash-Util-FieldHash-Compat

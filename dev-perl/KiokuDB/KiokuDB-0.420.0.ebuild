@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/MooseX-YAML-0.04
 	dev-perl/Try-Tiny
 	virtual/perl-Scalar-List-Utils
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	dev-perl/Data-UUID
 	>=dev-perl/Data-Visitor-0.24
 	dev-perl/Tie-ToObject
