@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -17,7 +17,7 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	dev-perl/Moose
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)
-	>=dev-perl/namespace-clean-0.200
+	>=dev-perl/namespace-clean-0.200.0
 	dev-perl/Sub-Exporter
 "
 RDEPEND="${COMMON_DEPEND}"

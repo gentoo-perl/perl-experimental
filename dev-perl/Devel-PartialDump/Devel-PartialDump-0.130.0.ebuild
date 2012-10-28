@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	dev-perl/Moose
-	>=dev-perl/namespace-clean-0.08
+	>=dev-perl/namespace-clean-0.80.0
 	dev-perl/Sub-Exporter
 "
 RDEPEND="${COMMON_DEPEND}"
