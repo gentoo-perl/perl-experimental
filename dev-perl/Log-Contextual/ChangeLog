@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Log-Contextual-0.4.300 (28 Oct 2012)
+
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  +Log-Contextual-0.4.300.ebuild:
+  Version Bump
+
 *Log-Contextual-0.4.202 (08 Aug 2012)
 
   08 Aug 2012; Kent Fredric <kentfredric@gmail.com>
