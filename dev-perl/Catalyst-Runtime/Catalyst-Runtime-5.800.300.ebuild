@@ -17,7 +17,7 @@ IUSE="test"
 COMMON_DEPEND="
 	dev-perl/List-MoreUtils
 	>=dev-perl/namespace-autoclean-0.90.0
-	>=dev-perl/namespace-clean-0.13
+	>=dev-perl/namespace-clean-0.130.0
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.9.30
 	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.95 )

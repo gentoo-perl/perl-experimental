@@ -2,6 +2,14 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Runtime-5.800.240.ebuild, Catalyst-Runtime-5.800.250.ebuild,
+  Catalyst-Runtime-5.800.290.ebuild, Catalyst-Runtime-5.800.300.ebuild,
+  Catalyst-Runtime-5.800.320.ebuild, Catalyst-Runtime-5.800.330.ebuild,
+  Catalyst-Runtime-5.900.60.ebuild, Catalyst-Runtime-5.900.70.ebuild,
+  Catalyst-Runtime-5.900.100.ebuild:
+  Fix dependency on namespace-clean ( normalize )
+
 *Catalyst-Runtime-5.900.180 (25 Oct 2012)
 
   25 Oct 2012; Kent Fredric <kentfredric@gmail.com>

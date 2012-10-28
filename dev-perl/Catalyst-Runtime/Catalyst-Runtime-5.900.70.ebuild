@@ -117,7 +117,7 @@ perl_meta_runtime() {
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# namespace::clean 0.13 ( 0.130.0 )
-	echo \>=dev-perl/namespace-clean-0.130
+	echo \>=dev-perl/namespace-clean-0.130.0
 	# perl v5.8.4 ( 5.8.4 )
 	echo \>=dev-lang/perl-5.8.4
 }
