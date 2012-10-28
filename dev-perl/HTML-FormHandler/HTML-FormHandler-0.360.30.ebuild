@@ -55,7 +55,7 @@ perl_meta_runtime() {
 }
 perl_meta_test() {
 	# HTML::TreeBuilder 3.23 ( 3.230.0 )
-	echo \>=dev-perl/HTML-Tree-3.23
+	echo \>=dev-perl/HTML-Tree-3.230.0
 	# Test::Differences
 	echo dev-perl/Test-Differences
 	# Test::Exception
