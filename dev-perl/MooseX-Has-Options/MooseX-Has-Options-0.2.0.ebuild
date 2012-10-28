@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Carp
 	# echo virtual/perl-Carp
 	# Package::Stash 0.18 ( 0.180.0 )
-	echo \>=dev-perl/Package-Stash-0.180
+	echo \>=dev-perl/Package-Stash-0.180.0
 }
 DEPEND="
 	$(perl_meta_configure)
