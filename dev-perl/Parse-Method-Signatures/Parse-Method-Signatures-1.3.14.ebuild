@@ -33,7 +33,7 @@ perl_mi_requires() {
 	# MooseX::Types::Structured
 	echo dev-perl/MooseX-Types-Structured
 	# namespace::clean 0.10
-	echo \>=dev-perl/namespace-clean-0.100
+	echo \>=dev-perl/namespace-clean-0.100.0
 	# PPI 1.203.0
 	echo \>=dev-perl/PPI-1.203.0
 }

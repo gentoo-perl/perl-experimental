@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Traits-0.06
 	>=dev-perl/MooseX-Types-0.17
 	dev-perl/MooseX-Types-Structured
-	>=dev-perl/namespace-clean-0.10
+	>=dev-perl/namespace-clean-0.100.0
 	>=dev-perl/PPI-1.203.0
 "
 DEPEND="
