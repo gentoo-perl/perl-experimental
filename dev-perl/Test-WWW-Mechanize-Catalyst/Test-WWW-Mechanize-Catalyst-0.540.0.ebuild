@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Test-WWW-Mechanize-1.14 $(comment 1.140.0)
 	>=dev-perl/WWW-Mechanize-1.540.0
 	>=dev-perl/Moose-0.67 $(comment 0.670.0)
-	>=dev-perl/namespace-clean-0.90 $(comment 0.90.0)
+	>=dev-perl/namespace-clean-0.90.0
 "
 DEPEND="
 	${RDEPEND}
