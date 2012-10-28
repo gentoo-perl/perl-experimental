@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moose-0.98
-	>=dev-perl/namespace-clean-0.10
+	>=dev-perl/namespace-clean-0.100.0
 	>=dev-perl/MooseX-Types-0.21
 "
 DEPEND="${RDEPEND}

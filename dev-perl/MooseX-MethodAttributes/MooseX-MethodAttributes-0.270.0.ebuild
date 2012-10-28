@@ -21,7 +21,7 @@ perl_meta_runtime() {
 	# MooseX::Types::Moose 0.21 ( 0.210.0 )
 	echo \>=dev-perl/MooseX-Types-0.210.0
 	# namespace::clean 0.10 ( 0.100.0 )
-	echo \>=dev-perl/namespace-clean-0.100
+	echo \>=dev-perl/namespace-clean-0.100.0
 }
 perl_meta_test() {
 	# Test::Exception
