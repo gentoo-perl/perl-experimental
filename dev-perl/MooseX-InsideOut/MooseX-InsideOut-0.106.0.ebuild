@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.80 )
 	>=dev-perl/Moose-0.94
 	dev-perl/Hash-Util-FieldHash-Compat
-	>=dev-perl/namespace-clean-0.11
+	>=dev-perl/namespace-clean-0.110.0
 "
 DEPEND="
 	${COMMON_DEPEND}
