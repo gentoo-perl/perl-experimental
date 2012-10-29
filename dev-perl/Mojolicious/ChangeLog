@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Mojolicious-3.520.0 (29 Oct 2012)
+
+  29 Oct 2012; Kent Fredric <kentfredric@gmail.com>
+  +Mojolicious-3.520.0.ebuild:
+  Version Bump
+
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com>
   -Mojolicious-3.420.0.ebuild:
   Gone on CPAN
