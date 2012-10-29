@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*utf8-all-0.9.0 (29 Oct 2012)
+
+  29 Oct 2012; Kent Fredric <kentfredric@gmail.com> +utf8-all-0.9.0.ebuild:
+  Version Bump
+
 *utf8-all-0.8.0 (28 Oct 2012)
 
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com> +utf8-all-0.8.0.ebuild:
