@@ -6,7 +6,7 @@ MODULE_AUTHOR=MSTROUT
 MODULE_VERSION=0.06
 inherit perl-module
 
-DESCRIPTION="Zlib Compression for Catalyst"
+DESCRIPTION="DEPRECATED: Zlib Compression for Catalyst"
 
 IUSE=""
 
