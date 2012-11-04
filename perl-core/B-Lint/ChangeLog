@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Nov 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
+  Update metadata.xml remotes
+
 *B-Lint-1.140.0 (15 Sep 2012)
 
   15 Sep 2012; Kent Fredric <kentfredric@gmail.com> +B-Lint-1.140.0.ebuild:
