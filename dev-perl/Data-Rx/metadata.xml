@@ -9,6 +9,8 @@
     <upstream>
         <remote-id type="cpan">Data-Rx</remote-id>
         <remote-id type="cpan-module">Data::Rx</remote-id>
+        <remote-id type="cpan-module">Data::Rx::CommonType</remote-id>
+        <remote-id type="cpan-module">Data::Rx::CommonType::EasyNew</remote-id>
         <remote-id type="cpan-module">Data::Rx::CoreType</remote-id>
         <remote-id type="cpan-module">Data::Rx::CoreType::all</remote-id>
         <remote-id type="cpan-module">Data::Rx::CoreType::any</remote-id>
@@ -24,6 +26,8 @@
         <remote-id type="cpan-module">Data::Rx::CoreType::rec</remote-id>
         <remote-id type="cpan-module">Data::Rx::CoreType::seq</remote-id>
         <remote-id type="cpan-module">Data::Rx::CoreType::str</remote-id>
+        <remote-id type="cpan-module">Data::Rx::Failure</remote-id>
+        <remote-id type="cpan-module">Data::Rx::FailureSet</remote-id>
         <remote-id type="cpan-module">Data::Rx::TypeBundle</remote-id>
         <remote-id type="cpan-module">Data::Rx::TypeBundle::Core</remote-id>
         <remote-id type="cpan-module">Data::Rx::Util</remote-id>
