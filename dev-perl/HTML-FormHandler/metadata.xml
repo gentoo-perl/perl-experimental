@@ -119,6 +119,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Form::Simple</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Form::Table</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Theme::Bootstrap</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::Widget::Theme::BootstrapFormMessages</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Base</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Bootstrap</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Fieldset</remote-id>
