@@ -37,6 +37,8 @@
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::ColdFusion</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Common_Lisp</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::ComponentminusPascal</remote-id>
+        <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Convert::ToolKit</remote-id>
+        <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Convert::XMLData</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Cplusplus</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::D</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::De_DE</remote-id>
@@ -98,6 +100,7 @@
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::POVminusRay</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Pascal</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Perl</remote-id>
+        <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Perl6</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::PicAsm</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Pike</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::PostScript</remote-id>
@@ -127,7 +130,6 @@
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::TaskJuggler</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Tcl_Tk</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Template</remote-id>
-        <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::ToolKit</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Txt2tags</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::UnrealScript</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::VHDL</remote-id>
@@ -138,7 +140,6 @@
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Wikimedia</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::XHarbour</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::XML</remote-id>
-        <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::XMLData</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::XML_Debug</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Xorg_Configuration</remote-id>
         <remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Xslt</remote-id>
