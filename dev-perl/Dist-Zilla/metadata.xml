@@ -112,10 +112,12 @@
         <remote-id type="cpan-module">Dist::Zilla::Role::FileMunger</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::FilePruner</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::InstallTool</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Role::LicenseProvider</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::MetaProvider</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::MintingProfile</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::MintingProfile::ShareDir</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::ModuleMaker</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::Role::NameProvider</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::PPI</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::Plugin</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Role::PluginBundle</remote-id>
