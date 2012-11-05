@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
+	<herd>perl</herd>
+	<maintainer>
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
 	</maintainer>
+	<maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+	</maintainer>
 	<use>
-		<flag name="nettest">Enable network-only tests</flag>
+        <flag name="nettest">Enable network-only tests</flag>
 	</use>
+	<upstream>
+        <remote-id type="cpan">Acme-LAUTER-DEUTSCHER</remote-id>
+        <remote-id type="cpan-module">Acme::LAUTER::DEUTSCHER</remote-id>
+        <remote-id type="cpan-module">PerlIO::via::LAUTER_DEUTSCHER</remote-id>
+	</upstream>
 </pkgmetadata>
