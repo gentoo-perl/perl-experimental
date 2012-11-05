@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Nov 2012; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-AutoRestart-0.940.0.ebuild,
+  Catalyst-Plugin-AutoRestart-0.960.0.ebuild:
+  Rehash from scratch
+
 *Catalyst-Plugin-AutoRestart-0.960.0 (05 Nov 2012)
 *Catalyst-Plugin-AutoRestart-0.940.0 (05 Nov 2012)
 
