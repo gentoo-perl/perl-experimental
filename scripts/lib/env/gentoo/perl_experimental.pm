@@ -23,7 +23,7 @@ has 'root' => (
 
 sub _build__filename {
   require Path::Class::File;
-  return Path::Class::File->new(__FILE__)->absolute;
+  return Path::Class::File->new(__FILE__)->resolve->absolute;
 }
 
 sub _build_root {
