@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Pod-Constants
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-Constants-0.160.0 (05 Nov 2012)
+
+  05 Nov 2012; Kent Fredric <kentfredric@gmail.com> -Pod-Constants-0.16.ebuild,
+  +Pod-Constants-0.160.0.ebuild:
+  Migrate DWC's version to x.y.z post-import, and regenerate content
 
   09 Jul 2009; Daniel Westermann-Clark <dwc@pobox.com>
   Pod-Constants-0.16.ebuild, +metadata.xml:
