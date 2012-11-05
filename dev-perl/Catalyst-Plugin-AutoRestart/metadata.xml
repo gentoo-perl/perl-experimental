@@ -6,4 +6,12 @@
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
     </maintainer>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="cpan">Catalyst-Plugin-AutoRestart</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::AutoRestart</remote-id>
+    </upstream>
 </pkgmetadata>
