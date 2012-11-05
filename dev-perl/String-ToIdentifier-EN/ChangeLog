@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*String-ToIdentifier-EN-0.90.0 (05 Nov 2012)
+
+  05 Nov 2012; Kent Fredric <kentfredric@gmail.com>
+  +String-ToIdentifier-EN-0.90.0.ebuild:
+  Version Bump
+
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com>
   String-ToIdentifier-EN-0.50.0.ebuild, String-ToIdentifier-EN-0.70.0.ebuild:
   Fix dependency on namespace-clean ( normalize )
