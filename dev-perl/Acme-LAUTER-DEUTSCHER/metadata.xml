@@ -5,5 +5,8 @@
     <maintainer>
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="nettest">Enable network-only tests</flag>
+	</use>
 </pkgmetadata>

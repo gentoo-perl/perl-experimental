@@ -1,0 +1,23 @@
+--- Makefile.PL
++++ Makefile.PL
+@@ -18,20 +18,6 @@
+ 
+ my @patterns = qw( t/*.t );
+ 
+-my $answer = prompt(
+-    "Some tests require a network connection.\n"
+-        . "Would you like to run these tests?",
+-    'y'
+-);
+-
+-if ( $answer =~ m/^y/i ) {
+-    print "I'm going to run the network tests.\n";
+-    push @patterns, 't/NETZ/*.t';
+-}
+-else {
+-    print "Skipping network tests.\n";
+-}
+-
+ $config{test} = { TESTS => join ' ', map {glob} @patterns };
+ 
+ WriteMakefile(%config);

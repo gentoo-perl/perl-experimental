@@ -1,0 +1,11 @@
+--- Makefile.PL
++++ Makefile.PL
+@@ -16,7 +16,7 @@
+     clean => { FILES    => 'Acme-LAUTER-DEUTSCHER-*' },
+ );
+ 
+-my @patterns = qw( t/*.t );
++my @patterns = qw( t/*.t t/NETZ/*.t );
+ 
+ $config{test} = { TESTS => join ' ', map {glob} @patterns };
+ 
