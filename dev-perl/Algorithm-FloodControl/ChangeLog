@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Algorithm-FloodControl
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header$
+
+  05 Nov 2012; Kent Fredric <kentfredric@gmail.com>
+  Algorithm-FloodControl-2.1.0.ebuild, metadata.xml:
+  Rehash from scratch
 
 *Algorithm-FloodControl-2.1.0 (29 Apr 2011)
 
