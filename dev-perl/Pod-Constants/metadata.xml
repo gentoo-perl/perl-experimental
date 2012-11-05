@@ -5,5 +5,13 @@
     <maintainer>
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
+	</maintainer>
+    <maintainer>
+        <email>kentfredric@gmail.com</email>
+        <name>Kent Fredric</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Pod-Constants</remote-id>
+        <remote-id type="cpan-module">Pod::Constants</remote-id>
+    </upstream>
 </pkgmetadata>
