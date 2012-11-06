@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Data-ICal-DateTime
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Data-ICal-DateTime-0.700.0 (06 Nov 2012)
+
+  06 Nov 2012; Kent Fredric <kentfredric@gmail.com>
+  -Data-ICal-DateTime-0.7.ebuild, +Data-ICal-DateTime-0.700.0.ebuild,
+  metadata.xml:
+  rehash from scratch, move to x.y.z
 
 *Data-ICal-DateTime-0.7 (26 Aug 2011)
 
