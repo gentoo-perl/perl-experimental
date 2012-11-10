@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Starman-0.300.400 (10 Nov 2012)
+
+  10 Nov 2012; Kent Fredric <kentfredric@gmail.com> +Starman-0.300.400.ebuild:
+  Version Bump
+
 *Starman-0.300.300 (28 Oct 2012)
 
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com> +Starman-0.300.300.ebuild:
