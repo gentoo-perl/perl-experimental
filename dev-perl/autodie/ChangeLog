@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*autodie-2.130.0 (10 Nov 2012)
+
+  10 Nov 2012; Kent Fredric <kentfredric@gmail.com> +autodie-2.130.0.ebuild:
+  Version Bump
+
 *autodie-2.120.0 (25 Jul 2012)
 
   25 Jul 2012; Kent Fredric <kentfredric@gmail.com> +autodie-2.120.0.ebuild:
