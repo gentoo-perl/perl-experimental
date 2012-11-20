@@ -41,7 +41,7 @@ DEPEND="
 		>=dev-perl/Catalyst-Plugin-Session-0.300.0
 		>=dev-perl/Catalyst-Plugin-Session-Store-File-0.180.0
 		>=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.170.0
-		>=dev-perl/yaml-0.71
+		>=dev-perl/yaml-0.710.0
 		>=dev-perl/HTML-FillInForm-2.00
 	)
 "
