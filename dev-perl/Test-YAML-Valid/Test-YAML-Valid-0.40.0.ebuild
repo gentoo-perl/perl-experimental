@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="yaml-syck yaml-xs yaml-tiny"
 RDEPEND="
 	virtual/perl-File-Spec
-	>=dev-perl/yaml-0.60
+	>=dev-perl/yaml-0.600.0
 	yaml-syck? ( >=dev-perl/YAML-Syck-0.60 )
 	yaml-xs? ( dev-perl/YAML-LibYAML )
 	yaml-tiny? ( dev-perl/YAML-Tiny )
