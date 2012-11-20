@@ -23,7 +23,7 @@ DEPEND="
 	>=dev-perl/Email-Valid-Loose-0.40.0
 	>=dev-perl/Date-Calc-5.4
 	>=dev-perl/Tie-IxHash-1.21
-	>=dev-perl/yaml-0.39
+	>=dev-perl/yaml-0.390.0
 	>=dev-perl/List-MoreUtils-0.16
 	>=dev-perl/DateTime-Format-Strptime-1.70.0
 "
