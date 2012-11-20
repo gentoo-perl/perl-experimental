@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Nov 2012; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
+  perl5i-2.6.1.ebuild, perl5i-2.9.1.ebuild, perl5i-2.10.0.ebuild:
+  Fixdep on dev-perl/yaml ( normalize )
+
 *perl5i-2.10.0 (25 Jul 2012)
 
   25 Jul 2012; Kent Fredric <kentfredric@gmail.com> +perl5i-2.10.0.ebuild:

@@ -75,7 +75,7 @@ perl_meta_runtime() {
 	# Want 0.18 ( 0.180.0 )
 	echo \>=dev-perl/Want-0.180.0
 	# YAML::Any 0.70 ( 0.700.0 )
-	echo \>=dev-perl/yaml-0.70
+	echo \>=dev-perl/yaml-0.700.0
 	# autobox 2.70 ( 2.700.0 )
 	echo \>=dev-perl/autobox-2.700.0
 	# autobox::Core 1.0 ( 1.0.0 )
