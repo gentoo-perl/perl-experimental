@@ -78,7 +78,7 @@ RDEPEND="
 	dev-perl/Text-Password-Pronounceable
 	>=dev-perl/URI-1.370.0
 	dev-perl/URI-Find
-	>=dev-perl/yaml-0.36
+	>=dev-perl/yaml-0.360.0
 	dev-perl/Text-Textile
 	dev-perl/Term-Prompt
 	>=dev-perl/Text-MultiMarkdown-1.0.32

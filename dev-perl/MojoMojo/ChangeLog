@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Nov 2012; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
+  MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild, MojoMojo-1.50.0.ebuild,
+  MojoMojo-1.60.0.ebuild:
+  Fixdep on dev-perl/yaml ( normalize )
+
 *MojoMojo-1.70.0 (20 Nov 2012)
 
   20 Nov 2012; Kent Fredric <kentfredric@gmail.com> +MojoMojo-1.70.0.ebuild:

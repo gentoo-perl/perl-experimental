@@ -187,7 +187,7 @@ perl_meta_runtime() {
 	# XML::LibXSLT 1.66 ( 1.660.0 )
 	echo \>=dev-perl/XML-LibXSLT-1.660.0
 	# YAML 0.36 ( 0.360.0 )
-	echo \>=dev-perl/yaml-0.36
+	echo \>=dev-perl/yaml-0.360.0
 	# parent
 	echo virtual/perl-parent
 	# perl v5.8.4 ( 5.8.4 )
