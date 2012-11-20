@@ -9,5 +9,8 @@
 	<upstream>
 		<remote-id type="cpan">MooseX-Has-Options</remote-id>
 		<remote-id type="cpan-module">MooseX::Has::Options</remote-id>
+		<remote-id type="cpan-module">MooseX::Has::Options::Handler::Accessors</remote-id>
+		<remote-id type="cpan-module">MooseX::Has::Options::Handler::NativeTypes</remote-id>
+		<remote-id type="cpan-module">MooseX::Has::Options::Handler::NoInit</remote-id>
 	</upstream>
 </pkgmetadata>
