@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Nov 2012; Kent Fredric <kentfredric@gmail.com>
+  Business-PayPal-API-0.690.0.ebuild:
+  Normalise dep on SOAP-Lite
+
 *Business-PayPal-API-0.700.0 (20 Nov 2012)
 
   20 Nov 2012; Kent Fredric <kentfredric@gmail.com>
