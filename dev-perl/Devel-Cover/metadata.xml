@@ -49,6 +49,7 @@
                 <remote-id type="cpan-module">Devel::Cover::Time</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Truth_Table</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Truth_Table::Row</remote-id>
+                <remote-id type="cpan-module">Devel::Cover::Util</remote-id>
                 <remote-id type="cpan-module">Devel::Cover::Web</remote-id>
         </upstream>
 </pkgmetadata>
