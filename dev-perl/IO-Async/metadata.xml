@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">IO-Async</remote-id>
+		<remote-id type="cpan-module">IO::Async</remote-id>
+		<remote-id type="cpan-module">IO::Async::Channel</remote-id>
+		<remote-id type="cpan-module">IO::Async::ChildManager</remote-id>
+		<remote-id type="cpan-module">IO::Async::Connector</remote-id>
+		<remote-id type="cpan-module">IO::Async::File</remote-id>
+		<remote-id type="cpan-module">IO::Async::FileStream</remote-id>
+		<remote-id type="cpan-module">IO::Async::Function</remote-id>
+		<remote-id type="cpan-module">IO::Async::Handle</remote-id>
+		<remote-id type="cpan-module">IO::Async::Listener</remote-id>
+		<remote-id type="cpan-module">IO::Async::Loop</remote-id>
+		<remote-id type="cpan-module">IO::Async::Loop::Poll</remote-id>
+		<remote-id type="cpan-module">IO::Async::Loop::Select</remote-id>
+		<remote-id type="cpan-module">IO::Async::LoopTests</remote-id>
+		<remote-id type="cpan-module">IO::Async::MergePoint</remote-id>
+		<remote-id type="cpan-module">IO::Async::Notifier</remote-id>
+		<remote-id type="cpan-module">IO::Async::OS</remote-id>
+		<remote-id type="cpan-module">IO::Async::OS::MSWin32</remote-id>
+		<remote-id type="cpan-module">IO::Async::PID</remote-id>
+		<remote-id type="cpan-module">IO::Async::Process</remote-id>
+		<remote-id type="cpan-module">IO::Async::Protocol</remote-id>
+		<remote-id type="cpan-module">IO::Async::Protocol::LineStream</remote-id>
+		<remote-id type="cpan-module">IO::Async::Protocol::Stream</remote-id>
+		<remote-id type="cpan-module">IO::Async::Resolver</remote-id>
+		<remote-id type="cpan-module">IO::Async::Routine</remote-id>
+		<remote-id type="cpan-module">IO::Async::Sequencer</remote-id>
+		<remote-id type="cpan-module">IO::Async::Signal</remote-id>
+		<remote-id type="cpan-module">IO::Async::Socket</remote-id>
+		<remote-id type="cpan-module">IO::Async::Stream</remote-id>
+		<remote-id type="cpan-module">IO::Async::Test</remote-id>
+		<remote-id type="cpan-module">IO::Async::Timer</remote-id>
+		<remote-id type="cpan-module">IO::Async::Timer::Absolute</remote-id>
+		<remote-id type="cpan-module">IO::Async::Timer::Countdown</remote-id>
+		<remote-id type="cpan-module">IO::Async::Timer::Periodic</remote-id>
+	</upstream>
+</pkgmetadata>
