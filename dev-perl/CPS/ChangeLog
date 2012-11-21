@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CPS
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CPS-0.180.0 (21 Nov 2012)
+
+  21 Nov 2012; Kent Fredric <kentfredric@gmail.com> +CPS-0.180.0.ebuild,
+  +metadata.xml:
+  Added for IO::Async
+

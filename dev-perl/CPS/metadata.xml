@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">CPS</remote-id>
+		<remote-id type="cpan-module">CPS</remote-id>
+		<remote-id type="cpan-module">CPS::Functional</remote-id>
+		<remote-id type="cpan-module">CPS::Future</remote-id>
+		<remote-id type="cpan-module">CPS::Governor</remote-id>
+		<remote-id type="cpan-module">CPS::Governor::Deferred</remote-id>
+		<remote-id type="cpan-module">CPS::Governor::Simple</remote-id>
+	</upstream>
+</pkgmetadata>
