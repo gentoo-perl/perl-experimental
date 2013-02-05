@@ -140,7 +140,7 @@ sub find_dist_all {
     my $nest = {
       path  => 'module',
       query => { constant_score => { filter => { bool => { must => $module_rules, } } } },
-      size  => 5,
+      #size  => 5,
     };
     $q->{query} = {
       constant_score => {
