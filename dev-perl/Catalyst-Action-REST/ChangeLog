@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-Action-REST
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Action-REST-1.60.0 (05 Feb 2013)
+
+  05 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Action-REST-1.60.0.ebuild:
+  Version Bump
 
 *Catalyst-Action-REST-1.50.0 (19 Jul 2012)
 
