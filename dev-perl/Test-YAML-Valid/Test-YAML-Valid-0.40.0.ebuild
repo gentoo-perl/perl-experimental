@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE="yaml-syck yaml-xs yaml-tiny"
 RDEPEND="
 	virtual/perl-File-Spec
 	>=dev-perl/yaml-0.600.0
-	yaml-syck? ( >=dev-perl/YAML-Syck-0.60 )
+	yaml-syck? ( >=dev-perl/YAML-Syck-0.600.0 )
 	yaml-xs? ( dev-perl/YAML-LibYAML )
 	yaml-tiny? ( dev-perl/YAML-Tiny )
 "
