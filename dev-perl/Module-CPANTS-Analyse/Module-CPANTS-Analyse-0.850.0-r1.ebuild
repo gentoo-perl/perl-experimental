@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=virtual/perl-Archive-Tar-1.30
 	>=dev-perl/CPAN-DistnameInfo-0.60.0
 	>=virtual/perl-Pod-Simple-2.02
-	>=dev-perl/YAML-Syck-0.95
+	>=dev-perl/YAML-Syck-0.950.0
 	>=dev-perl/Module-ExtractUse-0.180.0
 	>=virtual/perl-Module-Pluggable-2.960.0
 	>=dev-perl/IO-Capture-0.50.0
