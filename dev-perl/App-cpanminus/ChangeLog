@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/App-cpanminus
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-cpanminus-1.502.100 (05 Feb 2013)
+
+  05 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +App-cpanminus-1.502.100.ebuild:
+  Version Bump
 
 *App-cpanminus-1.501.800 (25 Oct 2012)
 
