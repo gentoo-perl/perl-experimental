@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -53,7 +53,7 @@ perl_meta_runtime() {
 	# XML::Simple
 	echo dev-perl/XML-Simple
 	# YAML::Syck 0.67 ( 0.670.0 )
-	echo \>=dev-perl/YAML-Syck-0.67
+	echo \>=dev-perl/YAML-Syck-0.670.0
 	# namespace::autoclean
 	echo dev-perl/namespace-autoclean
 	# perl v5.8.1 ( 5.8.1 )

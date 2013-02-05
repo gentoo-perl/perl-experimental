@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	dev-perl/namespace-autoclean
 	>=dev-perl/Catalyst-Runtime-5.800.0
 	>=dev-perl/Params-Validate-0.76 $(comment 0.760.0)
-	>=dev-perl/YAML-Syck-0.67 $(comment 0.670.0)
+	>=dev-perl/YAML-Syck-0.670.0
 	virtual/perl-Module-Pluggable
 	>=dev-perl/libwww-perl-2.33.0
 	>=dev-perl/Data-Serializer-0.360.0
