@@ -1,6 +1,11 @@
 # ChangeLog for perl-core/B-Lint
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*B-Lint-1.170.0 (05 Feb 2013)
+
+  05 Feb 2013; Kent Fredric <kentfredric@gmail.com> +B-Lint-1.170.0.ebuild:
+  Version Bump
 
   04 Nov 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
   Update metadata.xml remotes
