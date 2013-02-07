@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/MooseX-SetOnce
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-SetOnce-0.100.473.ebuild, MooseX-SetOnce-0.200.0.ebuild,
+  MooseX-SetOnce-0.200.1.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *MooseX-SetOnce-0.200.1 (28 Feb 2012)
 
