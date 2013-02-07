@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -13,7 +13,7 @@ IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Data-Visitor-0.24
 	dev-perl/Hash-Util-FieldHash-Compat
-	>=dev-perl/Moose-0.74
+	>=dev-perl/Moose-0.740.0
 	>=dev-perl/namespace-clean-0.80.0
 "
 DEPEND="
