@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,12 +14,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Cache-Ref-0.20.0
-	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.94 )
+	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.940.0 )
 	>=dev-perl/Data-Stream-Bulk-0.07
 	>=dev-perl/Data-Visitor-0.24
 	>=dev-perl/JSON-2.120.0
 	>=dev-perl/JSON-XS-2.2.3.1
-	>=dev-perl/Moose-0.92
+	>=dev-perl/Moose-0.920.0
 	>=dev-perl/MooseX-Clone-0.04
 	>=dev-perl/MooseX-Role-Parameterized-0.100.0
 	>=dev-perl/MooseX-YAML-0.04
