@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -24,7 +24,7 @@ RDEPEND="
 	virtual/perl-Test-Simple $(comment Test::More)
 	$(comment virtual/perl-File-Find)
 	virtual/perl-File-Temp
-	>=dev-perl/Moose-0.92 $(comment 0.920.0)
+	>=dev-perl/Moose-0.920.0
 "
 DEPEND="
 	${RDEPEND}

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -15,7 +15,7 @@ IUSE=""
 comment() { echo ''; }
 RDEPEND="
 	$(comment requires)
-	>=dev-perl/Moose-0.92 $(comment 0.920.0)
+	>=dev-perl/Moose-0.920.0
 	$(comment Moose::Util::TypeConstraints is Moose v0.05)
 	dev-perl/MooseX-Has-Sugar
 	dev-perl/MooseX-Types $(comment MooseX::Types::Moose)
