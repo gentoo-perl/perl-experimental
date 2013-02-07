@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-Role-Cmd
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Role-Cmd-0.60.0.ebuild, MooseX-Role-Cmd-0.100.0.ebuild:
+  Fix dependency on MooseX-Role-Cmd ( normalize )
 
   23 Jun 2012; Kent Fredric <kentfredric@gmail.com>
   -MooseX-Role-Cmd-0.90.0.ebuild:
