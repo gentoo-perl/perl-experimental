@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPEND="
-	>=dev-perl/Moose-0.35
+	>=dev-perl/Moose-0.350.0
 	>=dev-perl/MooseX-Types-Path-Class-0.04
 "
 # >=Test-More-0.47
