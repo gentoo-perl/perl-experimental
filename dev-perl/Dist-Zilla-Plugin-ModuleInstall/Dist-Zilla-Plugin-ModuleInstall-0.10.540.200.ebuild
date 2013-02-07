@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -20,7 +20,7 @@ COMMON_DEPEND="
 	$(comment Dist::Zilla::Role::TestRunner is dzil 1.93.140)
 	$(comment Dist::Zilla::Role::TextTemplate is dzil 1.0.0)
 	>=dev-perl/Module-Install-0.90 $(comment 0.900.0)
-	>=dev-perl/Moose-0.92 $(comment 0.920.0)
+	>=dev-perl/Moose-0.920.0
 	>=dev-perl/Moose-Autobox-0.10 $(comment 0.100.0)
 	dev-perl/namespace-autoclean
 "
