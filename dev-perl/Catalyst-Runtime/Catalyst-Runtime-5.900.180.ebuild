@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -39,7 +39,7 @@ perl_meta_runtime() {
 	# Class::Load 0.12 ( 0.120.0 )
 	echo \>=dev-perl/Class-Load-0.120.0
 	# Class::MOP 0.95 ( 0.950.0 )
-	echo \>=dev-perl/Moose-0.950
+	echo \>=dev-perl/Moose-0.950.0
 	# Data::Dump
 	echo dev-perl/Data-Dump
 	# Data::OptList
@@ -67,7 +67,7 @@ perl_meta_runtime() {
 	# Module::Pluggable 3.9 ( 3.900.0 )
 	echo \>=virtual/perl-Module-Pluggable-3.900.0
 	# Moose 1.03 ( 1.30.0 )
-	echo \>=dev-perl/Moose-1.030
+	echo \>=dev-perl/Moose-1.30.0
 	# MooseX::Emulate::Class::Accessor::Fast 0.00903 ( 0.9.30 )
 	echo \>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.9.30
 	# MooseX::Getopt 0.30 ( 0.300.0 )

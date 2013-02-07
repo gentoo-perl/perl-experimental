@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,8 +21,8 @@ COMMON_DEPEND="
 	>=dev-perl/namespace-clean-0.130.0
 	>=dev-perl/B-Hooks-EndOfScope-0.08
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.9.30
-	|| ( >=dev-perl/Moose-1.990 >=dev-perl/Class-MOP-0.95 )
-	>=dev-perl/Moose-1.03
+	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.950.0 )
+	>=dev-perl/Moose-1.30.0
 	>=dev-perl/MooseX-MethodAttributes-0.190.0
 	>=dev-perl/MooseX-Role-WithOverloading-0.50.0
 
