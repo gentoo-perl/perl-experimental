@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Log::Log4perl 1.13 ( 1.130.0 )
 	echo \>=dev-perl/Log-Log4perl-1.13
 	# Moose 0.65 ( 0.650.0 )
-	echo \>=dev-perl/Moose-0.650
+	echo \>=dev-perl/Moose-0.650.0
 	# Test::More
 	echo virtual/perl-Test-Simple
 }
