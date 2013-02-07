@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="json data-taxi config-general php freezethaw xml test"
 comment() { echo ''; }
 COMMON_DEPEND="
-	>=dev-perl/Moose-1.03 $(comment 1.30.0)
+	>=dev-perl/Moose-1.30.0
 	dev-perl/namespace-autoclean
 	>=dev-perl/Catalyst-Runtime-5.800.300
 	>=dev-perl/Params-Validate-0.76 $(comment 0.760.0)
