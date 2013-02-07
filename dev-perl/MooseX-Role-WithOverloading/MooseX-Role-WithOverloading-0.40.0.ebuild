@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -16,7 +16,7 @@ COMMON_DEPEND="
 	>=dev-perl/namespace-autoclean-0.90.0
 	dev-perl/MooseX-Types
 	dev-perl/aliased
-	>=dev-perl/Moose-0.90
+	>=dev-perl/Moose-0.900.0
 
 "
 DEPEND="

@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -17,9 +17,9 @@ perl_meta_configure() {
 }
 perl_meta_runtime() {
 	# Moose 0.94 ( 0.940.0 )
-	echo \>=dev-perl/Moose-0.940
+	echo \>=dev-perl/Moose-0.940.0
 	# Moose::Role 1.15 ( 1.150.0 )
-	echo \>=dev-perl/Moose-1.150
+	echo \>=dev-perl/Moose-1.150.0
 	# aliased
 	echo dev-perl/aliased
 	# namespace::autoclean
