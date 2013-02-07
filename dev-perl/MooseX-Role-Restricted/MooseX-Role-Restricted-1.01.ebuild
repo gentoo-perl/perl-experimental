@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
-	>=dev-perl/Moose-0.72
+	>=dev-perl/Moose-0.720.0
 "
 RDEPEND="${DEPEND}"
 SRC_TEST="do"
