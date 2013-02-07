@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -17,7 +17,7 @@ perl_meta_configure() {
 }
 perl_meta_runtime() {
 	# Moose 0.98 ( 0.980.0 )
-	echo \>=dev-perl/Moose-0.980
+	echo \>=dev-perl/Moose-0.980.0
 	# MooseX::Types::Moose 0.21 ( 0.210.0 )
 	echo \>=dev-perl/MooseX-Types-0.210.0
 	# namespace::clean 0.10 ( 0.100.0 )
