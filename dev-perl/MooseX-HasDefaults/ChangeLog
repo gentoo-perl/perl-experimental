@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-HasDefaults
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-HasDefaults-0.30.0.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *MooseX-HasDefaults-0.30.0 (29 Mar 2011)
 
