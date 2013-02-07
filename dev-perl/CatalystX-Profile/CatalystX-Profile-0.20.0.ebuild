@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.200
 	>=dev-perl/CatalystX-InjectComponent-0.24.0
 	>=dev-perl/Devel-NYTProf-3.01 $(comment 3.10.0)
-	>=dev-perl/Moose-0.93 $(comment 0.930.0)
+	>=dev-perl/Moose-0.930.0
 	>=dev-perl/Sub-Identify-0.04 $(comment 0.40.0)
 	>=dev-perl/namespace-autoclean-0.90.0
 "

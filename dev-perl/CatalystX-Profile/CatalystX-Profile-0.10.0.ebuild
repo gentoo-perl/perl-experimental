@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.11
 	>=dev-perl/Catalyst-Runtime-5.800.200
 	>=dev-perl/CatalystX-InjectComponent-0.24.0
-	>=dev-perl/Moose-0.93
+	>=dev-perl/Moose-0.930.0
 "
 DEPEND="
 	${COMMON_DEPEND}
