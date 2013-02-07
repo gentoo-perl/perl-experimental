@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -17,7 +17,7 @@ RDEPEND="
 	dev-perl/Excel-Template
 	dev-perl/Template-Toolkit
 	dev-perl/IO-String
-	>=dev-perl/Moose-0.18
+	>=dev-perl/Moose-0.180.0
 	>=dev-perl/MooseX-Param-0.10
 	dev-perl/Test-Deep
 	dev-perl/Spreadsheet-ParseExcel
