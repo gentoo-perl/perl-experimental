@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# B::Hooks::EndOfScope
 	echo dev-perl/B-Hooks-EndOfScope
 	# Moose 0.94 ( 0.940.0 )
-	echo \>=dev-perl/Moose-0.940
+	echo \>=dev-perl/Moose-0.940.0
 	# Moose::Exporter
 	echo dev-perl/Moose
 	# Moose::Role
