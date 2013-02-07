@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DateTime-0.10
 	>=dev-perl/DateTime-Format-Builder-0.72
-	>=dev-perl/DateTime-TimeZone-0.05
+	>=dev-perl/DateTime-TimeZone-0.50.0
 "
 DEPEND="${RDEPEND}
 	test? (

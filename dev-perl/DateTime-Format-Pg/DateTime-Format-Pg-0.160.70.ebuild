@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# DateTime::Format::Builder 0.72 ( 0.720.0 )
 	echo \>=dev-perl/DateTime-Format-Builder-0.720.0
 	# DateTime::TimeZone 0.05 ( 0.50.0 )
-	echo \>=dev-perl/DateTime-TimeZone-0.05
+	echo \>=dev-perl/DateTime-TimeZone-0.50.0
 }
 DEPEND="
 	$(perl_meta_configure)
