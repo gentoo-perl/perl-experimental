@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_build() {
 }
 perl_meta_runtime() {
 	# Moose 0.42 ( 0.420.0 )
-	echo \>=dev-perl/Moose-0.420
+	echo \>=dev-perl/Moose-0.420.0
 	# Perl6::Junction 1.40000 ( 1.400.0 )
 	echo \>=dev-perl/Perl6-Junction-1.400.0
 	# autobox 2.23 ( 2.230.0 )
