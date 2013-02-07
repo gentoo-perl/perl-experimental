@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,11 +12,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.24
+	>=dev-perl/Moose-0.240.0
 	>=dev-perl/namespace-clean-0.50.0
 	dev-perl/Pod-Coverage
 	dev-perl/Perl6-Junction
-	|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
+	|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
 "
 DEPEND="
 	${COMMON_DEPEND}
