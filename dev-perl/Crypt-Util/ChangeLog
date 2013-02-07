@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Crypt-Util
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com> Crypt-Util-0.10.ebuild,
+  Crypt-Util-0.11.ebuild:
+  Fix dependency on Moose ( normalize )
 
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com> Crypt-Util-0.10.ebuild,
   Crypt-Util-0.11.ebuild:

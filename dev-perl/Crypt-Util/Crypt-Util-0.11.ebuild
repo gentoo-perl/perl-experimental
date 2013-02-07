@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Moose-0.92
+	>=dev-perl/Moose-0.920.0
 	dev-perl/Sub-Exporter
 	dev-perl/Data-GUID
 	>=dev-perl/namespace-clean-0.80.0
