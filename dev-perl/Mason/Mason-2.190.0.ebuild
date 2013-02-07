@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -41,7 +41,7 @@ perl_meta_runtime() {
 	# Method::Signatures::Simple
 	echo dev-perl/Method-Signatures-Simple
 	# Moose 1.15 ( 1.150.0 )
-	echo \>=dev-perl/Moose-1.150
+	echo \>=dev-perl/Moose-1.150.0
 	# MooseX::HasDefaults 0.03 ( 0.30.0 )
 	echo \>=dev-perl/MooseX-HasDefaults-0.30.0
 	# MooseX::StrictConstructor 0.13 ( 0.130.0 )
