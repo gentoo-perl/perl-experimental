@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/File-Slurp-9999.13
 	dev-perl/Class-Inspector
 	dev-perl/Class-Unload
-	>=dev-perl/Moose-1.12
+	>=dev-perl/Moose-1.120.0
 	>=dev-perl/MooseX-NonMoose-0.150.0
 	>=dev-perl/namespace-autoclean-0.90.0
 	>=dev-perl/Data-Dumper-Concise-1.200
