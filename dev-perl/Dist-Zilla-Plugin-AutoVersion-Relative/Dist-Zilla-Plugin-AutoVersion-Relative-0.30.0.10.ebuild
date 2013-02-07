@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Dist::Zilla::Role::VersionProvider
 	echo dev-perl/Dist-Zilla
 	# Moose 1.09 ( 1.90.0 )
-	echo \>=dev-perl/Moose-1.090
+	echo \>=dev-perl/Moose-1.90.0
 	# MooseX::StrictConstructor 0.10 ( 0.100.0 )
 	echo \>=dev-perl/MooseX-StrictConstructor-0.100.0
 	# MooseX::Types::DateTime 0.05 ( 0.50.0 )
