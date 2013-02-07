@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/MooseX-SimpleConfig
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-SimpleConfig-0.50.0.ebuild, MooseX-SimpleConfig-0.60.0.ebuild,
+  MooseX-SimpleConfig-0.70.0.ebuild, MooseX-SimpleConfig-0.90.0.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *MooseX-SimpleConfig-0.90.0 (01 Mar 2012)
 *MooseX-SimpleConfig-0.70.0 (01 Mar 2012)
