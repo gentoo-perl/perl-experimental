@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND="
-	>=dev-perl/Moose-0.32
+	>=dev-perl/Moose-0.320.0
 "
 DEPEND="
 	virtual/perl-Module-Build
