@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-RelatedClassRoles
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-RelatedClassRoles-0.4.0.ebuild:
+  Fix dependency on Moose & Class-MOP ( normalize )
 
 *MooseX-RelatedClassRoles-0.4.0 (26 Jul 2012)
 
