@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test +json +yaml +storable +file"
 RDEPEND="
-	>=dev-perl/Moose-0.87
+	>=dev-perl/Moose-0.870.0
 	dev-perl/String-RewritePrefix
 	json? (
 		>=dev-perl/JSON-Any-1.15
