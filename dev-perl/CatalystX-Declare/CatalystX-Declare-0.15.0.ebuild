@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.250
 	>=dev-perl/CLASS-1.0 $(comment 1.0.0)
 	>=dev-perl/Devel-Declare-0.006000 $(comment 0.6.0)
-	>=dev-perl/Moose-1.14 $(comment 1.140.0)
+	>=dev-perl/Moose-1.140.0
 	>=dev-perl/MooseX-Declare-0.340.0
 	>=dev-perl/MooseX-MethodAttributes-0.240.0
 	>=dev-perl/MooseX-Role-Parameterized-0.190.0
