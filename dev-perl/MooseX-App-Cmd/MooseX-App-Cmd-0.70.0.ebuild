@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -26,7 +26,7 @@ perl_meta_runtime() {
 	# Getopt::Long::Descriptive
 	echo dev-perl/Getopt-Long-Descriptive
 	# Moose 0.86 ( 0.860.0 )
-	echo \>=dev-perl/Moose-0.860
+	echo \>=dev-perl/Moose-0.860.0
 	# MooseX::Getopt 0.18 ( 0.180.0 )
 	echo \>=dev-perl/MooseX-Getopt-0.180.0
 	# Test::use::ok

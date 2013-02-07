@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -14,7 +14,7 @@ IUSE=""
 COMMON_DEPEND="
 	dev-perl/Test-use-ok
 	>=dev-perl/App-Cmd-0.300.0
-	>=dev-perl/Moose-0.86
+	>=dev-perl/Moose-0.860.0
 	>=dev-perl/MooseX-Getopt-0.18
 	dev-perl/Getopt-Long-Descriptive
 "

@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/MooseX-App-Cmd
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-App-Cmd-0.60.0.ebuild, MooseX-App-Cmd-0.70.0.ebuild,
+  MooseX-App-Cmd-0.90.0.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *MooseX-App-Cmd-0.90.0 (27 Mar 2012)
 
