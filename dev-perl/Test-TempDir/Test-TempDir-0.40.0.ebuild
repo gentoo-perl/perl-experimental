@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/File-NFSLock
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	>=dev-perl/Moose-0.50
+	>=dev-perl/Moose-0.500.0
 	dev-perl/MooseX-Types-Path-Class
 	>=dev-perl/namespace-clean-0.80.0
 	dev-perl/Path-Class
