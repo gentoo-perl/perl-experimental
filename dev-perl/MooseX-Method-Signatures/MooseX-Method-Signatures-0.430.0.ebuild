@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -31,7 +31,7 @@ perl_meta_runtime() {
 	# Module::Runtime 0.012 ( 0.12.0 )
 	echo \>=dev-perl/Module-Runtime-0.12.0
 	# Moose 0.89 ( 0.890.0 )
-	echo \>=dev-perl/Moose-0.890
+	echo \>=dev-perl/Moose-0.890.0
 	# Moose::Meta::Class
 	echo dev-perl/Moose
 	# Moose::Meta::Method

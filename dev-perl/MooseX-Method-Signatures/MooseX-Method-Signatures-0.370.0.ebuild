@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ perl_eumm_build() {
 	#FindBin
 
 	#Moose::Role
-	echo \>=dev-perl/Moose-0.02
+	echo \>=dev-perl/Moose-0.20.0
 	#MooseX::Meta::Method::Authorized
 	echo dev-perl/MooseX-AuthorizedMethods
 	#MooseX::Meta::Method::Transactional
@@ -25,7 +25,7 @@ perl_eumm_build() {
 	#Test::Exception
 	echo dev-perl/Test-Exception
 	#Test::Moose
-	echo \>=dev-perl/Moose-0.25
+	echo \>=dev-perl/Moose-0.250.0
 	#Test::More 0.89
 	echo virtual/perl-Test-Simple
 	#Test::Pod
@@ -59,16 +59,16 @@ perl_eumm_prereq_pm() {
 	echo \>=dev-perl/Devel-Declare-0.5.11
 	# Devel::Declare::Context::Simple
 	echo \>=dev-perl/Devel-Declare-0.3.0
-	# Moose 0.89
-	echo \>=dev-perl/Moose-0.89
+	# Moose 0.890.0
+	echo \>=dev-perl/Moose-0.890.0
 	# Moose::Meta::Class
-	echo \>=dev-perl/Moose-0.01
+	echo \>=dev-perl/Moose-0.10.0
 	# Moose::Meta::Method
-	echo \>=dev-perl/Moose-0.16
+	echo \>=dev-perl/Moose-0.160.0
 	# Moose::Util
-	echo \>=dev-perl/Moose-0.25
+	echo \>=dev-perl/Moose-0.250.0
 	# Moose::Util::TypeConstraints
-	echo \>=dev-perl/Moose-0.01
+	echo \>=dev-perl/Moose-0.10.0
 	# MooseX::LazyRequire 0.06
 	echo \>=dev-perl/MooseX-LazyRequire-0.60.0
 	# MooseX::Meta::TypeConstraint::ForceCoercion

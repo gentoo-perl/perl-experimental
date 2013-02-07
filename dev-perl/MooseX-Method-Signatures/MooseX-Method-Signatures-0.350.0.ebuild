@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Context-Preserve
 	>=dev-perl/Parse-Method-Signatures-1.003011
 	>=dev-perl/Devel-Declare-0.5.11
-	>=dev-perl/Moose-0.89
+	>=dev-perl/Moose-0.890.0
 	>=dev-perl/MooseX-LazyRequire-0.40.0
 	dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion
 	>=dev-perl/MooseX-Types-0.190.0
