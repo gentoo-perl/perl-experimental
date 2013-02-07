@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -32,7 +32,7 @@ perl_eumm_prereq_pm() {
 	# Moose
 	echo dev-perl/Moose
 	# Moose::Role
-	echo \>=dev-perl/Moose-0.02
+	echo \>=dev-perl/Moose-0.20.0
 	# Pod::Elemental 0.092941
 	echo \>=dev-perl/Pod-Elemental-0.92.941
 	# namespace::autoclean

@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Pod-Elemental-PerlMunger
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  Pod-Elemental-PerlMunger-0.93.331.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *Pod-Elemental-PerlMunger-0.93.332 (25 Aug 2012)
 
