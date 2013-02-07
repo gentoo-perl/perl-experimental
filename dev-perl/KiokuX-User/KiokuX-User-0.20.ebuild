@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/KiokuDB-0.90.0
-	>=dev-perl/Moose-0.63
+	>=dev-perl/Moose-0.630.0
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-Types-Authen-Passphrase
 	dev-perl/Sub-Exporter
