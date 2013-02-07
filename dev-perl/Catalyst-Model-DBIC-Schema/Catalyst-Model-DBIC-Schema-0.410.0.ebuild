@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -17,7 +17,7 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.81.140
 	>=dev-perl/Catalyst-Runtime-5.800.50
 	>=dev-perl/CatalystX-Component-Traits-0.140.0
-	>=dev-perl/Moose-0.90
+	>=dev-perl/Moose-0.900.0
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
 	dev-perl/Carp-Clan
