@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MooseX-Types-Common
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Types-Common-0.1.2.ebuild, MooseX-Types-Common-0.1.3.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *MooseX-Types-Common-0.1.8 (23 Jun 2012)
 
