@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_build() {
 }
 perl_meta_runtime() {
 	# Moose 0.33 ( 0.330.0 )
-	echo \>=dev-perl/Moose-0.330
+	echo \>=dev-perl/Moose-0.330.0
 	# MooseX::Getopt 0.07 ( 0.70.0 )
 	echo \>=dev-perl/MooseX-Getopt-0.70.0
 	# MooseX::Types::Path::Class
