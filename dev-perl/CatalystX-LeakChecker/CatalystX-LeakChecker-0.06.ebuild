@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -20,7 +20,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 	>=dev-perl/Catalyst-Runtime-5.800.0
 	dev-perl/Task-Weaken
-	>=dev-perl/Moose-0.90
+	>=dev-perl/Moose-0.900.0
 "
 DEPEND="
 	${COMMON_DEPEND}
