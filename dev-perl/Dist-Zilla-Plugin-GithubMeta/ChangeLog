@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Dist-Zilla-Plugin-GithubMeta
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-GithubMeta-0.200.0.ebuild,
+  Dist-Zilla-Plugin-GithubMeta-0.280.0.ebuild:
+  Fix dependency on Moose ( normalize )
 
 *Dist-Zilla-Plugin-GithubMeta-0.280.0 (23 Feb 2012)
 

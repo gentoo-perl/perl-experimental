@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# IPC::Cmd
 	echo virtual/perl-IPC-Cmd
 	# Moose 1.07 ( 1.70.0 )
-	echo \>=dev-perl/Moose-1.070
+	echo \>=dev-perl/Moose-1.70.0
 	# MooseX::Types::URI 0.03 ( 0.30.0 )
 	echo \>=dev-perl/MooseX-Types-URI-0.30.0
 	# perl 5.008005 ( 5.8.5 )
