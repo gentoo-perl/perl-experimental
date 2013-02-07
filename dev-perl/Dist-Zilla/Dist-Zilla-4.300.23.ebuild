@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -97,7 +97,7 @@ perl_meta_runtime() {
 	# Log::Dispatchouli 1.102220 ( 1.102.220 )
 	echo \>=dev-perl/Log-Dispatchouli-1.102.220
 	# Moose 0.92 ( 0.920.0 )
-	echo \>=dev-perl/Moose-0.920
+	echo \>=dev-perl/Moose-0.920.0
 	# Moose::Autobox 0.10 ( 0.100.0 )
 	echo \>=dev-perl/Moose-Autobox-0.100.0
 	# Moose::Role
