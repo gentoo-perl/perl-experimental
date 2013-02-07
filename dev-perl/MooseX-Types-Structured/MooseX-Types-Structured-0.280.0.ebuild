@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# Devel::PartialDump 0.13 ( 0.130.0 )
 	echo \>=dev-perl/Devel-PartialDump-0.130.0
 	# Moose 1.08 ( 1.80.0 )
-	echo \>=dev-perl/Moose-1.080
+	echo \>=dev-perl/Moose-1.80.0
 	# Moose::Meta::TypeCoercion
 	echo dev-perl/Moose
 	# Moose::Meta::TypeConstraint
@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Moose::Meta::TypeConstraint::Parameterizable
 	echo dev-perl/Moose
 	# Moose::Util::TypeConstraints 1.06 ( 1.60.0 )
-	echo \>=dev-perl/Moose-1.060
+	echo \>=dev-perl/Moose-1.60.0
 	# MooseX::Types 0.22 ( 0.220.0 )
 	echo \>=dev-perl/MooseX-Types-0.220.0
 	# Scalar::Util

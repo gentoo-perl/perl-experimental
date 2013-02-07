@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE="test"
 comment() { echo ''; }
 RDEPEND="
 	>=dev-perl/Devel-PartialDump-0.130.0
-	>=dev-perl/Moose-1.08 $(comment 1.80.0)
+	>=dev-perl/Moose-1.80.0
 	$(comment Moose::Meta::TypeCoercion since v0.05)
 	$(comment Moose::Meta::TypeConstraint since v0.05)
 	$(comment Moose::Meta::TypeConstraint::Parameterizable since v0.34)
