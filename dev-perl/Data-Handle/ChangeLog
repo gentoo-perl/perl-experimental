@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Data-Handle
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  -Data-Handle-0.10.117.30.ebuild:
+  Gone on CPAN
 
 *Data-Handle-0.20.10.20 (11 Aug 2012)
 
