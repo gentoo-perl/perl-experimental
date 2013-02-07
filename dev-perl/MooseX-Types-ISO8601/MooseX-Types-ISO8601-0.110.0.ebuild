@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -31,7 +31,7 @@ perl_meta_runtime() {
 	# List::MoreUtils
 	echo dev-perl/List-MoreUtils
 	# Moose 0.79 ( 0.790.0 )
-	echo \>=dev-perl/Moose-0.790
+	echo \>=dev-perl/Moose-0.790.0
 	# MooseX::Types 0.10 ( 0.100.0 )
 	echo \>=dev-perl/MooseX-Types-0.100.0
 	# MooseX::Types::DateTime 0.03 ( 0.30.0 )

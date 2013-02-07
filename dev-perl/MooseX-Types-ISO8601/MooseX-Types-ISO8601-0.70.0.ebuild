@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	>=dev-perl/MooseX-Types-DateTime-0.03
 	>=dev-perl/DateTime-Format-Duration-1.30.0
-	>=dev-perl/Moose-0.79
+	>=dev-perl/Moose-0.790.0
 	>=dev-perl/MooseX-Types-0.10
 "
 DEPEND="${RDEPEND}
