@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ DEPEND="
 	>=dev-perl/libwww-perl-5.816
 	>=dev-perl/Test-WWW-Mechanize-1.14
 	>=dev-perl/WWW-Mechanize-1.540.0
-	>=dev-perl/Moose-0.67
+	>=dev-perl/Moose-0.670.0
 	>=dev-perl/namespace-clean-0.90.0
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session

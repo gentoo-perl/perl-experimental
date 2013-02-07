@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# LWP 5.816 ( 5.816.0 )
 	echo \>=dev-perl/libwww-perl-5.816.0
 	# Moose 0.67 ( 0.670.0 )
-	echo \>=dev-perl/Moose-0.670
+	echo \>=dev-perl/Moose-0.670.0
 	# Test::WWW::Mechanize 1.14 ( 1.140.0 )
 	echo \>=dev-perl/Test-WWW-Mechanize-1.14
 	# WWW::Mechanize 1.54 ( 1.540.0 )
