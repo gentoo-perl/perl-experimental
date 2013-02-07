@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ bdepend-virtual Test-Simple 0.88 # Test-More
 
 # depend-virtual Carp # CORE
 depend Devel-Caller
-depend Moose 0.58
+depend Moose 0.580.0
 depend Params-Validate 0.88
 depend-virtual Scalar-List-Utils # Scalar-Util
 depend Sub-Exporter
