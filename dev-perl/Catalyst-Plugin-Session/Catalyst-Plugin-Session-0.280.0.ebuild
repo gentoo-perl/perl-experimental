@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Object-Signature
 	dev-perl/MRO-Compat
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10
-	>=dev-perl/Moose-0.76
+	>=dev-perl/Moose-0.760.0
 "
 DEPEND="${RDEPEND}
 	test? (

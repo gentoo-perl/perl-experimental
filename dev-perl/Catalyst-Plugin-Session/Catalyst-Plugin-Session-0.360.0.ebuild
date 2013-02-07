@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -37,7 +37,7 @@ perl_meta_runtime() {
 	# MRO::Compat
 	echo dev-perl/MRO-Compat
 	# Moose 0.76 ( 0.760.0 )
-	echo \>=dev-perl/Moose-0.760
+	echo \>=dev-perl/Moose-0.760.0
 	# MooseX::Emulate::Class::Accessor::Fast 0.00801 ( 0.8.10 )
 	echo \>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.8.10
 	# Object::Signature
