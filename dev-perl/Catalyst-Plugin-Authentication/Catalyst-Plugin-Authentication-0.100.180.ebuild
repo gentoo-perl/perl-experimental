@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -26,7 +26,7 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.88 $(comment Test::More 0.880.0)
 			dev-perl/Test-Exception
 			$(comment Class::MOP)
-			|| ( >=dev-perl/Moose-1.990 dev-perl/Class-MOP )
+			|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
 			dev-perl/Moose
 	)
 "
