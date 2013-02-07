@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -22,7 +22,7 @@ COMMON_DEPEND="
 	>=dev-perl/File-Slurp-9999.13 $(comment 9999.130.0)
 	>=dev-perl/File-Tempdir-0.02 $(comment 0.20.0)
 	>=dev-perl/File-chdir-0.100.200
-	>=dev-perl/Moose-0.92 $(comment 0.920.0)
+	>=dev-perl/Moose-0.920.0
 	$(comment Moose::Role)
 	>=dev-perl/Path-Class-0.170.0
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)

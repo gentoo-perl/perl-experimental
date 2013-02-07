@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -37,7 +37,7 @@ perl_meta_runtime() {
 	# File::chdir 0.1002 ( 0.100.200 )
 	echo \>=dev-perl/File-chdir-0.100.200
 	# Moose 0.92 ( 0.920.0 )
-	echo \>=dev-perl/Moose-0.920
+	echo \>=dev-perl/Moose-0.920.0
 	# Moose::Role
 	echo dev-perl/Moose
 	# Path::Class 0.17 ( 0.170.0 )
