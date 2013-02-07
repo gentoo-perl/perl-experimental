@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="strict traits instancetype declare types cli logging async utilroles other utils"
 COMMON_DEPEND="
-	>=dev-perl/Moose-0.92
+	>=dev-perl/Moose-0.920.0
 	strict? (
 		>=dev-perl/MooseX-StrictConstructor-0.08
 		>=dev-perl/MooseX-Params-Validate-0.60
