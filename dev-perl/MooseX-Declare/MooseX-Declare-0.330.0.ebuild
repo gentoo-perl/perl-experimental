@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -17,7 +17,7 @@ RDEPEND="
 	>=dev-perl/Devel-Declare-0.005011
 	>=dev-perl/namespace-clean-0.110.0
 	>=dev-perl/namespace-autoclean-0.90.0
-	>=dev-perl/Moose-0.90
+	>=dev-perl/Moose-0.900.0
 	>=dev-perl/MooseX-Method-Signatures-0.300
 	>=dev-perl/MooseX-Role-Parameterized-0.120.0
 	>=dev-perl/MooseX-Types-0.20
