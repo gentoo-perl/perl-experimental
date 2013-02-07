@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ COMMON_DEPEND="
 	virtual/perl-Encode
 	virtual/perl-File-Spec
 	>=dev-perl/JSON-2.0.0
-	>=dev-perl/Moose-0.65
+	>=dev-perl/Moose-0.650.0
 	dev-perl/String-RewritePrefix
 	dev-perl/Test-Deep
 	dev-perl/YAML-LibYAML
