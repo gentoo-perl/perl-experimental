@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 comment() { echo ''; }
 RDEPEND="
-	>=dev-perl/Moose-0.90 $(comment 0.900.0)
+	>=dev-perl/Moose-0.900.0
 	>=dev-perl/POE-1.004 $(comment 1.4.0)
 "
 DEPEND="${RDEPEND}
