@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -31,7 +31,7 @@ depend Dist-Zilla 4
 # depend Dist-Zilla 4 # Dist-Zilla-Role-AfterRelease
 # depend Dist-Zilla 4 # Dist-Zilla-Role-TextTemplate
 # depend Math-BigFloat # CORE
-depend Moose 0.99
+depend Moose 0.990.0
 depend-virtual libnet # Net-Netrc
 depend Net-Twitter 3
 depend WWW-Shorten 3.20
