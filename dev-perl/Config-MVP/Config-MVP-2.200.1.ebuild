@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	>=dev-perl/Class-Load-0.06
 	virtual/perl-File-Spec
 	virtual/perl-Module-Pluggable
-	>=dev-perl/Moose-0.91
+	>=dev-perl/Moose-0.910.0
 	dev-perl/MooseX-OneArgNew
 	dev-perl/Params-Util
 	dev-perl/Role-HasMessage

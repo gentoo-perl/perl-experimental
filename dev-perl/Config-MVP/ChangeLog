@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Config-MVP
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Feb 2013; Kent Fredric <kentfredric@gmail.com> Config-MVP-2.200.ebuild,
+  Config-MVP-2.200.1.ebuild, Config-MVP-2.200.2.ebuild:
+  Fix dependency on Moose ( normalize )
 
   23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
   -Config-MVP-2.101.650.ebuild:

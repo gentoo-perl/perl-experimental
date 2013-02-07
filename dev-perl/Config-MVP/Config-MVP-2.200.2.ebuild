@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Module::Pluggable::Object
 	echo virtual/perl-Module-Pluggable
 	# Moose 0.91 ( 0.910.0 )
-	echo \>=dev-perl/Moose-0.910
+	echo \>=dev-perl/Moose-0.910.0
 	# Moose::Role
 	echo dev-perl/Moose
 	# Moose::Util::TypeConstraints
