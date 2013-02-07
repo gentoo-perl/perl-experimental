@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -35,9 +35,9 @@ perl_meta_runtime() {
 	# File::Spec
 	echo virtual/perl-File-Spec
 	# Moose 1.03 ( 1.30.0 )
-	echo \>=dev-perl/Moose-1.030
+	echo \>=dev-perl/Moose-1.30.0
 	# Moose::Util::TypeConstraints 1.01 ( 1.10.0 )
-	echo \>=dev-perl/Moose-1.010
+	echo \>=dev-perl/Moose-1.10.0
 	# PPI 1.206 ( 1.206.0 )
 	echo \>=dev-perl/PPI-1.206.0
 	# perl 5.006 ( 5.6.0 )
