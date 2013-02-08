@@ -6,7 +6,6 @@
     <remote-id type="cpan">Pod-Parser</remote-id>
     <remote-id type="cpan-module">Pod::Cache</remote-id>
     <remote-id type="cpan-module">Pod::Cache::Item</remote-id>
-    <remote-id type="cpan-module">Pod::Checker</remote-id>
     <remote-id type="cpan-module">Pod::Find</remote-id>
     <remote-id type="cpan-module">Pod::Hyperlink</remote-id>
     <remote-id type="cpan-module">Pod::InputObjects</remote-id>
@@ -19,6 +18,5 @@
     <remote-id type="cpan-module">Pod::Parser</remote-id>
     <remote-id type="cpan-module">Pod::PlainText</remote-id>
     <remote-id type="cpan-module">Pod::Select</remote-id>
-    <remote-id type="cpan-module">Pod::Usage</remote-id>
   </upstream>
 </pkgmetadata>
