@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dist-Zilla-Plugin-ReadmeAnyFromPod-0.120.120 (08 Feb 2013)
+
+  08 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-Plugin-ReadmeAnyFromPod-0.120.120.ebuild, +metadata.xml:
+  Added for Dist::Zilla::PluginBundle::Author::KENTNL
+
