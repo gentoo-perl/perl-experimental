@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/ElasticSearch-SearchBuilder
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*ElasticSearch-SearchBuilder-0.180.0 (08 Feb 2013)
+
+  08 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +ElasticSearch-SearchBuilder-0.180.0.ebuild:
+  Version Bump
 
 *ElasticSearch-SearchBuilder-0.170.0 (10 Nov 2012)
 
