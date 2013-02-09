@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -161,7 +161,7 @@ perl_meta_runtime() {
 	# Syntax::Highlight::Engine::Kate
 	echo dev-perl/Syntax-Highlight-Engine-Kate
 	# Template 2.20 ( 2.200.0 )
-	echo \>=dev-perl/Template-Toolkit-2.20
+	echo \>=dev-perl/Template-Toolkit-2.200.0
 	# Template::Plugin::JavaScript
 	echo dev-perl/Template-Plugin-JavaScript
 	# Term::Prompt

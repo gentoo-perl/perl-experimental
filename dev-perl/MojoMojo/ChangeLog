@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/MojoMojo
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Feb 2013; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.50.0.ebuild,
+  MojoMojo-1.60.0.ebuild, MojoMojo-1.70.0.ebuild:
+  Fix dependency on Template-Toolkit ( normalize )
 
   20 Nov 2012; Kent Fredric <kentfredric@gmail.com> MojoMojo-1.20.0.ebuild,
   MojoMojo-1.30.0.ebuild, MojoMojo-1.40.0.ebuild, MojoMojo-1.50.0.ebuild,
