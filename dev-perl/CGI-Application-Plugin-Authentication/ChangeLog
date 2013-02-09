@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/CGI-Application-Plugin-Authentication
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  CGI-Application-Plugin-Authentication-0.170.0.ebuild,
+  CGI-Application-Plugin-Authentication-0.180.0.ebuild,
+  CGI-Application-Plugin-Authentication-0.190.0.ebuild,
+  CGI-Application-Plugin-Authentication-0.200.0.ebuild:
+  Fix dependency on Test-Warn ( normalize )
 
   27 Jun 2011; Kent Fredric <kentfredric@gmail.com>
   CGI-Application-Plugin-Authentication-0.170.0.ebuild,
