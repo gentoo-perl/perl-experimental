@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">MooseX-App</remote-id>
+		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppEnv</remote-id>
+		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppOption</remote-id>
+		<remote-id type="cpan-module">MooseX::App</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Command</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Exporter</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Message::Block</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Message::BlockColor</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Message::Envelope</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Meta::Role::Attribute::Option</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Base</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Command</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Simple</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Null</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::BashCompletion</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::BashCompletion::Command</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::BashCompletion::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Color</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Color::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Config</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Config::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::ConfigHome</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::ConfigHome::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Env</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Env::Meta::Attribute</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Env::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Fuzzy</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Typo</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Typo::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Version</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Version::Command</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Version::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Role</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Role::Base</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Role::Common</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Simple</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Utils</remote-id>
+	</upstream>
+</pkgmetadata>
