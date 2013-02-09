@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Template-Plugin-UTF8Decode
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  Template-Plugin-UTF8Decode-0.10.0.ebuild:
+  Fix dependency on Template-Toolkit ( normalize )
 
 *Template-Plugin-UTF8Decode-0.10.0 (10 Mar 2011)
 
