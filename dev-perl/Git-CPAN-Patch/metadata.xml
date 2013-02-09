@@ -9,7 +9,18 @@
     <upstream>
         <remote-id type="cpan">Git-CPAN-Patch</remote-id>
         <remote-id type="cpan-module">Git::CPAN::Patch</remote-id>
-        <remote-id type="cpan-module">Git::CPAN::Patch::Command::sources</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::Clone</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::FormatPatch</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::Import</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::SendEmail</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::SendPatch</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::Sources</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::Squash</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::Update</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Command::Which</remote-id>
         <remote-id type="cpan-module">Git::CPAN::Patch::Import</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Release</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Role::Git</remote-id>
+        <remote-id type="cpan-module">Git::CPAN::Patch::Role::Patch</remote-id>
     </upstream>
 </pkgmetadata>
