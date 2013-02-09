@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -28,7 +28,7 @@ RDEPEND="
 	virtual/perl-Storable
 	$(comment virtual/perl-FindBin)
 	virtual/perl-Test-Simple $(comment Test::More)
-	>=dev-perl/Test-Warn-0.20 $(comment 0.200.0)
+	>=dev-perl/Test-Warn-0.200.0
 "
 DEPEND="
 	${RDEPEND}
