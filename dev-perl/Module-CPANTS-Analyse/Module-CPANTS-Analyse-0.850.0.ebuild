@@ -36,7 +36,7 @@ DEPEND="
 	${COMMON_DEPEND}
 	virtual/perl-Test-Simple
 	dev-perl/Test-Deep
-	>=dev-perl/Test-Warn-0.11
+	>=dev-perl/Test-Warn-0.110.0
 	dev-perl/Test-NoWarnings
 	virtual/perl-Module-Build
 "

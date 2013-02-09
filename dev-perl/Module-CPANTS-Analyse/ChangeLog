@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  Module-CPANTS-Analyse-0.850.0.ebuild,
+  Module-CPANTS-Analyse-0.850.0-r1.ebuild,
+  Module-CPANTS-Analyse-0.860.0.ebuild:
+  Fix dependency on Test-Warn ( normalize )
+
   05 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   Module-CPANTS-Analyse-0.850.0.ebuild,
   Module-CPANTS-Analyse-0.850.0-r1.ebuild:

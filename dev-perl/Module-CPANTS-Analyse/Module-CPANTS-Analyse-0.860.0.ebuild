@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_build() {
 	# Test::NoWarnings
 	echo dev-perl/Test-NoWarnings
 	# Test::Warn 0.11 ( 0.110.0 )
-	echo \>=dev-perl/Test-Warn-0.11
+	echo \>=dev-perl/Test-Warn-0.110.0
 }
 perl_meta_runtime() {
 	# Archive::Any 0.06 ( 0.60.0 )
