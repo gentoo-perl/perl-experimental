@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Time-y2038
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Feb 2013; Kent Fredric <kentfredric@gmail.com> Time-y2038-20100225.ebuild,
+  Time-y2038-20100403.ebuild:
+  Fix dependency on Test-Warn ( normalize )
 
 *Time-y2038-20100403 (29 Apr 2010)
 

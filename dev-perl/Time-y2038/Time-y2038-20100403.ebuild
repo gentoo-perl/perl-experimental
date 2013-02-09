@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.24
 	dev-perl/JSON
 	test? (
-		>=dev-perl/Test-Warn-0.11
+		>=dev-perl/Test-Warn-0.110.0
 		>=dev-perl/Test-Exception-0.27
 		>=virtual/perl-Test-Simple-0.82
 	)
