@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Module-Install-0.91
 	>=dev-perl/Path-Class-0.90.0
-	>=dev-perl/Template-Toolkit-2.14
+	>=dev-perl/Template-Toolkit-2.140.0
 "
 DEPEND="${DEPEND}
 	test? (

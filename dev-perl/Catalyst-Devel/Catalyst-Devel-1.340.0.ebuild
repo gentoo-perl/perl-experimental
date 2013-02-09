@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -35,7 +35,7 @@ RDEPEND="
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Module-Install-0.910.0
 	>=dev-perl/Path-Class-0.90.0
-	>=dev-perl/Template-Toolkit-2.14 $(comment 2.140.0)
+	>=dev-perl/Template-Toolkit-2.140.0
 	dev-perl/MooseX-Daemonize
 	dev-perl/Starman
 "

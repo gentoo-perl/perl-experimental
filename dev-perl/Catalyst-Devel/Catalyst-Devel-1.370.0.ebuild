@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -49,7 +49,7 @@ perl_meta_runtime() {
 	# Path::Class 0.09 ( 0.90.0 )
 	echo \>=dev-perl/Path-Class-0.90.0
 	# Template 2.14 ( 2.140.0 )
-	echo \>=dev-perl/Template-Toolkit-2.14
+	echo \>=dev-perl/Template-Toolkit-2.140.0
 	# namespace::autoclean
 	echo dev-perl/namespace-autoclean
 	# namespace::clean

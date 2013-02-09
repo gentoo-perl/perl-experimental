@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Catalyst-Devel
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  09 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Devel-1.270.0.ebuild, Catalyst-Devel-1.280.0.ebuild,
+  Catalyst-Devel-1.300.0.ebuild, Catalyst-Devel-1.310.0.ebuild,
+  Catalyst-Devel-1.320.0.ebuild, Catalyst-Devel-1.330.0.ebuild,
+  Catalyst-Devel-1.340.0.ebuild, Catalyst-Devel-1.360.0.ebuild,
+  Catalyst-Devel-1.370.0.ebuild:
+  Fix dependency on Template-Toolkit ( normalize )
 
   23 Aug 2012; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Devel-1.270.0.ebuild, Catalyst-Devel-1.280.0.ebuild,
