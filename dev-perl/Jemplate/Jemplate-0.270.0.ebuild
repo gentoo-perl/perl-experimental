@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# Filter::Util::Call
 	echo virtual/perl-Filter
 	# Template 2.14 ( 2.140.0 )
-	echo \>=dev-perl/Template-Toolkit-2.14
+	echo \>=dev-perl/Template-Toolkit-2.140.0
 	# perl v5.6.1 ( 5.6.1 )
 	echo \>=dev-lang/perl-5.6.1
 }

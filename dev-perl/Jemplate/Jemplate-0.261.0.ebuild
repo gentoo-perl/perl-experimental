@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-perl/Template-Toolkit-2.19
+RDEPEND=">=dev-perl/Template-Toolkit-2.190.0
 	>=dev-perl/File-Find-Rule-0.30"
 DEPEND="${RDEPEND}"
 
