@@ -51,7 +51,7 @@ perl_meta_build() {
 	# Test::Pod 1.14 ( 1.140.0 )
 	echo \>=dev-perl/Test-Pod-1.14
 	# Test::Warn 0.21 ( 0.210.0 )
-	echo \>=dev-perl/Test-Warn-0.21
+	echo \>=dev-perl/Test-Warn-0.210.0
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
 }

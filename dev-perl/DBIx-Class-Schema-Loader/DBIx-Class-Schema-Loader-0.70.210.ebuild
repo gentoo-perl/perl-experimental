@@ -47,7 +47,7 @@ perl_meta_build() {
 	# Test::More 0.94 ( 0.940.0 )
 	echo \>=virtual/perl-Test-Simple-0.94
 	# Test::Warn 0.21 ( 0.210.0 )
-	echo \>=dev-perl/Test-Warn-0.21
+	echo \>=dev-perl/Test-Warn-0.210.0
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
 }

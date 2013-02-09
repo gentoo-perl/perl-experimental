@@ -38,7 +38,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}
 	test? ( dev-perl/Test-Exception
-		>=dev-perl/Test-Warn-0.21
+		>=dev-perl/Test-Warn-0.210.0
 		>=dev-perl/DBD-SQLite-1.290.0 )"
 
 # These have to be packaged if someone wants them::
