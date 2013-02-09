@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ DEPEND="
 	${COMMON_DEPEND}
 	test? (
 		dev-perl/Test-use-ok
-		>=dev-perl/Test-Warn-0.21 $(comment 0.210.0)
+		>=dev-perl/Test-Warn-0.210.0
 	)
 "
 SRC_TEST="do"
