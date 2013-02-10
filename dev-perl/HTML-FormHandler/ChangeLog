@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/HTML-FormHandler
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-FormHandler-0.400.170 (10 Feb 2013)
+
+  10 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +HTML-FormHandler-0.400.170.ebuild, metadata.xml:
+  Version Bump
 
   04 Nov 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
   Update metadata.xml remotes

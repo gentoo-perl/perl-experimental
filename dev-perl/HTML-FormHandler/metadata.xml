@@ -14,6 +14,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::BuildFields</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::BuildPages</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::Field::AddElement</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::BoolSelect</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Boolean</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Button</remote-id>
@@ -79,6 +80,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::Page</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Page::Simple</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Pages</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::Render::RepeatableJs</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Render::Simple</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Render::Table</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Render::Util</remote-id>
