@@ -56,6 +56,7 @@
         <remote-id type="cpan-module">Mojo::Server::Morbo</remote-id>
         <remote-id type="cpan-module">Mojo::Server::PSGI</remote-id>
         <remote-id type="cpan-module">Mojo::Server::PSGI::_IO</remote-id>
+        <remote-id type="cpan-module">Mojo::Server::Prefork</remote-id>
         <remote-id type="cpan-module">Mojo::Template</remote-id>
         <remote-id type="cpan-module">Mojo::Transaction</remote-id>
         <remote-id type="cpan-module">Mojo::Transaction::HTTP</remote-id>
@@ -79,6 +80,7 @@
         <remote-id type="cpan-module">Mojolicious::Command::generate::plugin</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::get</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::inflate</remote-id>
+        <remote-id type="cpan-module">Mojolicious::Command::prefork</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::psgi</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::routes</remote-id>
         <remote-id type="cpan-module">Mojolicious::Command::test</remote-id>
