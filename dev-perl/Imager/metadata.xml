@@ -30,6 +30,7 @@
         <remote-id type="cpan-module">Imager::Font::BBox</remote-id>
         <remote-id type="cpan-module">Imager::Font::FreeType2</remote-id>
         <remote-id type="cpan-module">Imager::Font::Image</remote-id>
+        <remote-id type="cpan-module">Imager::Font::Test</remote-id>
         <remote-id type="cpan-module">Imager::Font::Truetype</remote-id>
         <remote-id type="cpan-module">Imager::Font::Type1</remote-id>
         <remote-id type="cpan-module">Imager::Font::Wrap</remote-id>
