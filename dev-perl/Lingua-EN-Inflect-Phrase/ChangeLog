@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Lingua-EN-Inflect-Phrase
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Lingua-EN-Inflect-Phrase-0.180.0 (10 Feb 2013)
+
+  10 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Lingua-EN-Inflect-Phrase-0.180.0.ebuild:
+  Version Bump
 
 *Lingua-EN-Inflect-Phrase-0.160.0 (05 Nov 2012)
 
