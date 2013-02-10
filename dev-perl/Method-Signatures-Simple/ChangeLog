@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Method-Signatures-Simple
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Method-Signatures-Simple-1.70.0 (10 Feb 2013)
+
+  10 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Method-Signatures-Simple-1.70.0.ebuild:
+  Version Bump
 
 *Method-Signatures-Simple-1.20.0 (02 Sep 2011)
 
