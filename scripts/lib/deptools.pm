@@ -94,7 +94,10 @@ sub _vmap_overlay_native {
 }
 
 sub _vmap_overlay_strange {
-  return ( 'ExtUtils-Depends' => perl 'extutils-depends', );
+  return (
+    'ExtUtils-Depends'   => perl 'extutils-depends',
+    'ExtUtils-PkgConfig' => perl 'extutils-pkgconfig',
+  );
 }
 
 sub _vmap {
