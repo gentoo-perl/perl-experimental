@@ -2,6 +2,11 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  -Glib-Object-Introspection-0.8.0.ebuild,
+  -Glib-Object-Introspection-0.9.0.ebuild:
+  Gone on CPAN
+
 *Glib-Object-Introspection-0.14.0 (10 Feb 2013)
 
   10 Feb 2013; Kent Fredric <kentfredric@gmail.com>
