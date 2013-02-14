@@ -97,6 +97,25 @@ sub mcpan {
 #
 # Essentially returning exactly what CPAN does.
 #
+sub _find_dist_all_apply_nest {
+  my ( $class, $q, $module, $latest ) = @_;
+  my $module_rules =
+    [ { term => { 'module.authorized' => 1 } }, { term => { 'module.indexed' => 1 } },
+    { term => { 'module.name' => $module } }, ];
+  my $nest = {
+    path  => 'module',
+    query => { constant_score => { filter => { bool => { must => $module_rules, } } } },
+
+    #size  => 5,
+  };
+  my $must = [ { nested => $nest } ];
+  if ($latest) {
+    unshift @{$must}, { term => { 'status' => 'latest' } };
+  }
+  $q->{query} = { constant_score => { query => { bool => { must => $must } } } };
+
+}
+
 sub find_dist_all {
   my ( $class, $module, $opts ) = @_;
 
@@ -108,46 +127,29 @@ sub find_dist_all {
   ];
 
   my $q = {
-
-    script_fields => { 'latest' => { script => q{ doc[ 'status' ].value == 'latest' } } },
-    sort          => [
-      (
-        $opts->{'sort-latest'}
-        ? (
-          {
-            '_script' => {
-              script => q{ doc['status'].value == 'latest' ? 1 : 0 },
-              type   => 'number',
-              order  => 'desc',
-            }
-          }
-          )
-        : ()
-      ),
-      { 'file.date' => 'desc' },
-    ],
+    sort => [ { 'file.date' => 'desc' }, ],
     size => 5000,
   };
 
-  if ( not defined $opts->{method}
-    or $opts->{method} eq 'nested' )
-  {
-    my $module_rules = [
-      { term => { 'module.authorized' => 1 } },
-      { term => { 'module.indexed'    => 1 } },
-      { term => { 'module.name'       => $module } },
-    ];
-    my $nest = {
-      path  => 'module',
-      query => { constant_score => { filter => { bool => { must => $module_rules, } } } },
-      #size  => 5,
-    };
-    $q->{query} = {
-      constant_score => {
-        query =>
-          { bool => { must => [ ( $opts->{latest} ? { term => { 'status' => 'latest' } } : () ), { nested => $nest }, ], } }
+  $q->{script_fields} = { 'latest' => { 'metacpan_script' => 'status_is_latest' } };
+
+  #$q->{script_fields} =  { 'latest' => { script => q{ doc[ 'status' ].value == 'latest' } } }
+
+  if ( $opts->{'sort-latest'} ) {
+
+    #$q->{script_fields} = { 'latest' => { script => q{ doc[ 'status' ].value == 'latest' } } };
+    unshift @{ $q->{sort} },
+      {
+      '_script' => {
+        script => q{ doc['status'].value == 'latest' ? 1 : 0 },
+        type   => 'number',
+        order  => 'desc',
       }
-    };
+      };
+  }
+
+  if ( not defined $opts->{method} or $opts->{method} eq 'nested' ) {
+    $class->_find_dist_all_apply_nest( $q, $module, $opts->{latest} );
   }
   else {
 
@@ -217,7 +219,7 @@ sub _skip_result {
   for my $package ( @{ $result->{fields}->{'_source.module'} } ) {
     return
       if $package->{name} eq $module
-        and ( ( not $package->{authorized} ) or ( not $package->{indexed} ) );
+      and ( ( not $package->{authorized} ) or ( not $package->{indexed} ) );
   }
   return 1;
 }
