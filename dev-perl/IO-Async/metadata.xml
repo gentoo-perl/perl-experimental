@@ -15,6 +15,7 @@
 		<remote-id type="cpan-module">IO::Async::File</remote-id>
 		<remote-id type="cpan-module">IO::Async::FileStream</remote-id>
 		<remote-id type="cpan-module">IO::Async::Function</remote-id>
+		<remote-id type="cpan-module">IO::Async::Future</remote-id>
 		<remote-id type="cpan-module">IO::Async::Handle</remote-id>
 		<remote-id type="cpan-module">IO::Async::Listener</remote-id>
 		<remote-id type="cpan-module">IO::Async::Loop</remote-id>
