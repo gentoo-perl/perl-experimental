@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/System-Command
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*System-Command-1.90.0 (23 Feb 2013)
+
+  23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +System-Command-1.90.0.ebuild:
+  Version Bump
 
 *System-Command-1.70.0 (18 Apr 2012)
 
