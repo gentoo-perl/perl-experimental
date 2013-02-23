@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Dist-Metadata
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dist-Metadata-0.925.0 (23 Feb 2013)
+
+  23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Metadata-0.925.0.ebuild:
+  Version Bump
 
 *Dist-Metadata-0.924.0 (20 Nov 2012)
 
