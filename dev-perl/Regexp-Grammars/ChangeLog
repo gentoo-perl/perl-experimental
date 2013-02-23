@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Regexp-Grammars
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Regexp-Grammars-1.26.0 (23 Feb 2013)
+
+  23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Regexp-Grammars-1.26.0.ebuild:
+  Version Bump
 
 *Regexp-Grammars-1.21.0 (23 Aug 2012)
 
