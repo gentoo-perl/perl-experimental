@@ -8,6 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Path-Iterator-Rule</remote-id>
+		<remote-id type="cpan-module">PIR</remote-id>
 		<remote-id type="cpan-module">Path::Iterator::Rule</remote-id>
 	</upstream>
 </pkgmetadata>
