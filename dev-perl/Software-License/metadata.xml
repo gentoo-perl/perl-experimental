@@ -28,6 +28,7 @@
         <remote-id type="cpan-module">Software::License::MIT</remote-id>
         <remote-id type="cpan-module">Software::License::Mozilla_1_0</remote-id>
         <remote-id type="cpan-module">Software::License::Mozilla_1_1</remote-id>
+        <remote-id type="cpan-module">Software::License::Mozilla_2_0</remote-id>
         <remote-id type="cpan-module">Software::License::None</remote-id>
         <remote-id type="cpan-module">Software::License::OpenSSL</remote-id>
         <remote-id type="cpan-module">Software::License::Perl_5</remote-id>
