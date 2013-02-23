@@ -50,6 +50,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::Field::Repeatable</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Reset</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Result</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::Field::RmElement</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Second</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Select</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::SelectCSV</remote-id>
