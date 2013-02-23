@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Method-Signatures-20130222.0.0 (23 Feb 2013)
+
+  23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Method-Signatures-20130222.0.0.ebuild:
+  Version Bump
+
   09 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   Method-Signatures-20111125.0.0.ebuild, Method-Signatures-20120523.0.0.ebuild:
   Fix dependency on Test-Warn ( normalize )
