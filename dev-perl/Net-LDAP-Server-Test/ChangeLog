@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Net-LDAP-Server-Test
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Net-LDAP-Server-Test-0.170.0 (23 Feb 2013)
+
+  23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Net-LDAP-Server-Test-0.170.0.ebuild:
+  Version Bump
 
 *Net-LDAP-Server-Test-0.160.0 (28 Oct 2012)
 
