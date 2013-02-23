@@ -12,6 +12,7 @@
         <remote-id type="cpan-module">Catalyst::Action</remote-id>
         <remote-id type="cpan-module">Catalyst::ActionChain</remote-id>
         <remote-id type="cpan-module">Catalyst::ActionContainer</remote-id>
+        <remote-id type="cpan-module">Catalyst::ActionRole::HTTPMethods</remote-id>
         <remote-id type="cpan-module">Catalyst::Base</remote-id>
         <remote-id type="cpan-module">Catalyst::ClassData</remote-id>
         <remote-id type="cpan-module">Catalyst::Component</remote-id>
