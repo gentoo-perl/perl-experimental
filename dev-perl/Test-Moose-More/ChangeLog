@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Test-Moose-More
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Test-Moose-More-0.19.0 (23 Feb 2013)
+
+  23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Test-Moose-More-0.19.0.ebuild:
+  Version Bump
 
 *Test-Moose-More-0.17.0 (29 Oct 2012)
 
