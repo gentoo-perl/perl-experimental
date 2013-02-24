@@ -1,6 +1,12 @@
 # ChangeLog for perl-core/Archive-Extract
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Archive-Extract-0.680.0 (24 Feb 2013)
+
+  24 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  +Archive-Extract-0.680.0.ebuild:
+  Version Bump
 
 *Archive-Extract-0.600.0 (23 Feb 2012)
 
