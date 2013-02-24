@@ -1,0 +1,70 @@
+diff -Naur a/Makefile.PL b/Makefile.PL
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -6,7 +6,7 @@
+ use Config;
+ 
+ # Solaris (and possibly other Unices) have a tar in /usr/bin that, among
+-# other things, does not understand @LongLink. This can cause 
++# other things, does not understand @LongLink. This can cause
+ # extraction to look like it succeeded, but it actually failed (because
+ # the error message for the @LongLink failure scrolled offscreen).
+ # Therefore, given the fact that GNU tar is the most widespread tar available,
+@@ -37,6 +37,8 @@
+ DEATH
+ 
+ my $cwd;
++{ # GENTOO
++    last;
+ BEGIN {
+   $cwd = Cwd::cwd();
+   # watch out for fancy dashes. these can wind up in our @ARGV if the user is
+@@ -106,7 +108,7 @@
+          }
+          return $orig->(@_);
+        };
+-       # not yet -- apeiron, 2010-03-10 
++       # not yet -- apeiron, 2010-03-10
+        #$CPAN::Config->{urllist} = ["http://cpan.shadowcatprojects.net"];
+        # <mst> all bootstrapped fine on one DH account
+        # <mst> on another, it tries to install man stuff into /usr/local
+@@ -158,10 +160,10 @@
+       system($^X, '-MCPAN', '-e', $cpan_config_command)
+         unless $did_cpan_config;
+       system($^X, '-MCPAN',
+-        '-e', 
++        '-e',
+         q[CPAN::HandleConfig->load;],
+-        '-e', 
+-        q[$CPAN::Config->{makepl_arg}  = ] . 
++        '-e',
++        q[$CPAN::Config->{makepl_arg}  = ] .
+           q['INSTALLMAN1DIR=none INSTALLMAN3DIR=none';],
+         '-e',
+         q[$CPAN::Config->{buildpl_arg} = ] .
+@@ -175,6 +177,7 @@
+   }
+ }
+ 
++}
+ use inc::Module::Install;
+ 
+ name 'local-lib';
+@@ -185,7 +188,8 @@
+ requires 'Module::Build' => '0.36'; # PERL_MB_OPT
+ my $required_CPAN = '1.82';
+ requires 'CPAN' => $required_CPAN; # sudo support + CPAN::HandleConfig
+-
++{ # GENTOO
++    last;
+ # No, really. See
+ # https://rt.cpan.org/Public/Bug/Display.html?id=23735
+ # for why CPAN now sets the CPANPLUS env var.
+@@ -256,6 +260,7 @@
+   auto_install;
+ }
+ chdir($cwd);
++}
+ resources(
+   repository => 'git://git.shadowcat.co.uk/p5sagit/local-lib.git',
+   homepage => 'http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=p5sagit/local-lib.git',
