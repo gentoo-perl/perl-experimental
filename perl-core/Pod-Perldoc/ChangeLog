@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Feb 2013; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Perldoc-3.170.0.ebuild:
+  Gone on CPAN
+
 *Pod-Perldoc-3.190.0 (24 Feb 2013)
 
   24 Feb 2013; Kent Fredric <kentfredric@gmail.com>
