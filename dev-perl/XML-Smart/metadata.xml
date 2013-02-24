@@ -11,6 +11,7 @@
                 <remote-id type="cpan-module">XML::Smart::Entity</remote-id>
                 <remote-id type="cpan-module">XML::Smart::HTMLParser</remote-id>
                 <remote-id type="cpan-module">XML::Smart::Parser</remote-id>
+                <remote-id type="cpan-module">XML::Smart::Shared</remote-id>
                 <remote-id type="cpan-module">XML::Smart::Tie</remote-id>
                 <remote-id type="cpan-module">XML::Smart::Tie::Array</remote-id>
                 <remote-id type="cpan-module">XML::Smart::Tie::Hash</remote-id>
