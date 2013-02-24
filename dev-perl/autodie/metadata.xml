@@ -19,5 +19,6 @@
         <remote-id type="cpan-module">autodie::exception</remote-id>
         <remote-id type="cpan-module">autodie::exception::system</remote-id>
         <remote-id type="cpan-module">autodie::hints</remote-id>
+        <remote-id type="cpan-module">autodie::skip</remote-id>
 	</upstream>
 </pkgmetadata>

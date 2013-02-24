@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/autodie
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*autodie-2.160.0 (24 Feb 2013)
+
+  24 Feb 2013; Kent Fredric <kentfredric@gmail.com> +autodie-2.160.0.ebuild,
+  metadata.xml:
+  Version Bump
 
 *autodie-2.130.0 (10 Nov 2012)
 
