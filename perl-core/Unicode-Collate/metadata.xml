@@ -15,6 +15,7 @@
     <remote-id type="cpan-module">Unicode::Collate::CJK::Korean</remote-id>
     <remote-id type="cpan-module">Unicode::Collate::CJK::Pinyin</remote-id>
     <remote-id type="cpan-module">Unicode::Collate::CJK::Stroke</remote-id>
+    <remote-id type="cpan-module">Unicode::Collate::CJK::Zhuyin</remote-id>
     <remote-id type="cpan-module">Unicode::Collate::Locale</remote-id>
   </upstream>
 </pkgmetadata>
