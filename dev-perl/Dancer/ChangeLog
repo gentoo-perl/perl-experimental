@@ -2,6 +2,11 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dancer-1.311.100 (25 Feb 2013)
+
+  25 Feb 2013; Kent Fredric <kentfredric@gmail.com> +Dancer-1.311.100.ebuild:
+  Version Bump
+
   25 Feb 2013; Kent Fredric <kentfredric@gmail.com> Dancer-2.0.1.ebuild:
   Make Dancer v2 a dedicated slot, because upstream have created a confusion,
   and Dancer >2.0 uses 'Dancer2' as a namespace, and is incompatible with
