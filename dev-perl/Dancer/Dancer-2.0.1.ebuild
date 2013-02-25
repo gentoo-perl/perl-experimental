@@ -8,7 +8,7 @@ inherit perl-module
 
 DESCRIPTION='Lightweight yet powerful web application framework'
 LICENSE=" || ( Artistic GPL-2 )"
-SLOT="0"
+SLOT="2"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 perl_meta_configure() {
