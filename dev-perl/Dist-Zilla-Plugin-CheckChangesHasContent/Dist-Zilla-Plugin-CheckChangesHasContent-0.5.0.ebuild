@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Moose 0.99 ( 0.990.0 )
 	echo \>=dev-perl/Moose-0.990.0
 	# autodie 2.00 ( 2.0.0 )
-	echo \>=dev-perl/autodie-2.0.0
+	echo \>=virtual/perl-autodie-2.0.0
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# perl 5.006 ( 5.6.0 )

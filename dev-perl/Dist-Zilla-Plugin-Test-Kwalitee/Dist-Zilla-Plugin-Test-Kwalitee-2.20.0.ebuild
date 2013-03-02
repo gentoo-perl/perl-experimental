@@ -67,7 +67,7 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.96
 
 	$(comment autodie)
-	dev-perl/autodie
+	virtual/perl-autodie
 
 	$(comment configure)
 	$(comment ExtUtils::MakeMaker 6.56)

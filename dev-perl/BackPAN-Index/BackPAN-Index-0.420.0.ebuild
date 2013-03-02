@@ -43,7 +43,7 @@ perl_meta_runtime() {
 	# URI 1.54 ( 1.540.0 )
 	echo \>=dev-perl/URI-1.540.0
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# parent
 	echo virtual/perl-parent
 	# perl 5.008001 ( 5.8.1 )

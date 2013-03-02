@@ -85,7 +85,7 @@ perl_meta_runtime() {
 	# autobox::dump 20090426 ( 20090426.0.0 )
 	echo \>=dev-perl/autobox-dump-20090426.0.0
 	# autodie 2.12 ( 2.120.0 )
-	echo \>=dev-perl/autodie-2.120.0
+	echo \>=virtual/perl-autodie-2.120.0
 	# autovivification 0.06 ( 0.60.0 )
 	echo \>=dev-perl/autovivification-0.60.0
 	# indirect 0.24 ( 0.240.0 )

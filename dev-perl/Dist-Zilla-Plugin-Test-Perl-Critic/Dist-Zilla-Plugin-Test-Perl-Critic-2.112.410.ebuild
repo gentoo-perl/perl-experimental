@@ -60,7 +60,7 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.94
 
 	$(comment autodie)
-	dev-perl/autodie
+	virtual/perl-autodie
 
 	$(comment configure)
 	$(comment Module::Build 0.3601)

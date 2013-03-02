@@ -22,7 +22,7 @@ depend Number-Tolerant 1.701;
 # depend-virtual Carp # CORE
 depend-virtual Scalar-List-Utils # List-Util
 depend-virtual Test-Simple # Test::More
-depend autodie
+depend-virtual autodie
 depend JSON 2;
 depend-virtual Module-Pluggable # Module::Pluggable::Object
 

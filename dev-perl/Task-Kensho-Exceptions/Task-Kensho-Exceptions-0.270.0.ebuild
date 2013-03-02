@@ -14,7 +14,7 @@ IUSE="+trytiny +trycatch +autodie"
 COMMON_DEPEND="
 	trytiny? ( dev-perl/Try-Tiny )
 	trycatch? ( dev-perl/TryCatch )
-	autodie? ( dev-perl/autodie )
+	autodie? ( virtual/perl-autodie )
 "
 DEPEND="
 	${COMMON_DEPEND}

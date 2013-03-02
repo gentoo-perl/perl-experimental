@@ -15,7 +15,7 @@ IUSE=""
 bdepend TimeDate # Date::Format
 bdepend JSON
 bdepend-virtual Test-Simple 0.96 # Test-More
-bdepend autodie
+bdepend-virtual autodie
 
 cdepend-virtual ExtUtils-MakeMaker 6.56;
 

@@ -35,7 +35,7 @@ perl_meta_build() {
 	# Test::Most
 	echo dev-perl/Test-Most
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# perl 5.004 ( 5.4.0 )
 	echo \>=dev-lang/perl-5.4.0
 	# utf8

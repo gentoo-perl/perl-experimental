@@ -24,7 +24,7 @@ COMMON_DEPEND="
 	exceptions? (
 		dev-perl/Try-Tiny
 		dev-perl/TryCatch
-		dev-perl/autodie
+		virtual/perl-autodie
 	)
 	testing? (
 		dev-perl/Devel-Cover

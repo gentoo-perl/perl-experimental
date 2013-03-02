@@ -69,7 +69,7 @@ perl_meta_runtime() {
 	# Exporter 5.57 ( 5.570.0 )
 	echo \>=virtual/perl-Exporter-5.570.0
 	# Fatal
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# File::Copy
 	echo dev-lang/perl
 	# File::Find

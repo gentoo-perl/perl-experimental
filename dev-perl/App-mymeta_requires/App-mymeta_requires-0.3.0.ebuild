@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# Pod::Usage
 	echo virtual/perl-PodParser
 	# autodie 2.00 ( 2.0.0 )
-	echo \>=dev-perl/autodie-2.0.0
+	echo \>=virtual/perl-autodie-2.0.0
 	# perl 5.010 ( 5.10.0 )
 	echo \>=dev-lang/perl-5.10.0
 	# strict

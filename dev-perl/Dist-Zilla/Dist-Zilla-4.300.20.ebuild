@@ -166,7 +166,7 @@ perl_meta_runtime() {
 	# autobox 2.53 ( 2.530.0 )
 	echo \>=dev-perl/autobox-2.530.0
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# base
 	# echo virtual/perl-base
 	# namespace::autoclean

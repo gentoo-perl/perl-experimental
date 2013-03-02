@@ -59,7 +59,7 @@ perl_meta_test() {
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.920.0
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 }
 DEPEND="
 	$(perl_meta_configure)

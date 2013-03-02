@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/DBD-SQLite-1.250.0
 	>=dev-perl/DBIx-Class-Schema-Loader-0.50.30
 	>=dev-perl/Path-Class-0.170.0
-	dev-perl/autodie
+	virtual/perl-autodie
 	virtual/perl-parent
 "
 DEPEND="

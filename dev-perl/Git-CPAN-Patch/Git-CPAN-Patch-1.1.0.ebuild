@@ -81,7 +81,7 @@ perl_meta_runtime() {
 	# Pod::Usage
 	echo virtual/perl-Pod-Usage
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# perl v5.10.0 ( 5.10.0 )
 	echo \>=dev-lang/perl-5.10.0
 	# strict

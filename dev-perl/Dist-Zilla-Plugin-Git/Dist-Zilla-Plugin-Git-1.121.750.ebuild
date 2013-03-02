@@ -85,7 +85,7 @@ perl_meta_runtime() {
 	# Version::Next
 	echo dev-perl/Version-Next
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# namespace::autoclean 0.09 ( 0.90.0 )
 	echo \>=dev-perl/namespace-autoclean-0.90.0
 	# perl 5.010 ( 5.10.0 )

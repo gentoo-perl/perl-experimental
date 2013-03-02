@@ -28,7 +28,7 @@ DEPEND="
 	dev-perl/CPAN-Changes $(comment Test::CPAN::Changes)
 	>=dev-perl/Dist-Zilla-4.200.2 $(comment Test::DZil)
 	>=virtual/perl-Test-Simple-0.94 $(comment Test::More 0.940.0)
-	dev-perl/autodie
+	virtual/perl-autodie
 	$(comment CONFIGURE REQUIRES)
 	>=virtual/perl-ExtUtils-MakeMaker-6.56 $(comment 6.560.0)
 "

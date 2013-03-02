@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# Test::More
 	echo virtual/perl-Test-Simple
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# overload
 	echo dev-lang/perl
 	# parent
@@ -61,7 +61,7 @@ perl_meta_test() {
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 }
 DEPEND="
 	$(perl_meta_configure)

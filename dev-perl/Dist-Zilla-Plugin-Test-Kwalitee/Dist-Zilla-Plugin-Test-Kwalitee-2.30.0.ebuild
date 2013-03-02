@@ -65,7 +65,7 @@ perl_meta_test() {
 	# Test::Output
 	echo dev-perl/Test-Output
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 }
 DEPEND="
 	$(perl_meta_configure)

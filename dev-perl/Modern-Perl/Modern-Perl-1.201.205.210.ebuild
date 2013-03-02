@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# IO::Handle
 	echo virtual/perl-IO
 	# autodie 2.10 ( 2.100.0 )
-	echo \>=dev-perl/autodie-2.100.0
+	echo \>=virtual/perl-autodie-2.100.0
 	# feature
 	echo dev-lang/perl
 	# mro

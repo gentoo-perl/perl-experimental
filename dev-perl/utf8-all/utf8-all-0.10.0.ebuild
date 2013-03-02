@@ -59,7 +59,7 @@ perl_meta_test() {
 	# Test::Warn
 	echo dev-perl/Test-Warn
 	# autodie
-	echo dev-perl/autodie
+	echo virtual/perl-autodie
 	# version 0.77 ( 0.770.0 )
 	echo \>=virtual/perl-version-0.770.0
 }
