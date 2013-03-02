@@ -21,7 +21,7 @@ perl_meta_build() {
 }
 perl_meta_runtime() {
 	# Devel::Cover 0.43 ( 0.430.0 )
-	echo \>=dev-perl/Devel-Cover-0.43
+	echo \>=dev-perl/Devel-Cover-0.430.0
 	# File::Find 0.01 ( 0.10.0 )
 	# echo \>=dev-lang/perl-0.10.0
 	# File::Spec 0.01 ( 0.10.0 )
