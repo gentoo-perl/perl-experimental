@@ -21,6 +21,8 @@
 		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Command</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Simple</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Null</remote-id>
+		<remote-id type="cpan-module">MooseX::App::ParsedArgv</remote-id>
+		<remote-id type="cpan-module">MooseX::App::ParsedArgv::Option</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::BashCompletion</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::BashCompletion::Command</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::BashCompletion::Meta::Class</remote-id>
