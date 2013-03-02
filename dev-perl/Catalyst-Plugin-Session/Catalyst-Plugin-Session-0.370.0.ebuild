@@ -45,7 +45,7 @@ perl_meta_runtime() {
 	# Test::More 0.88 ( 0.880.0 )
 	echo \>=virtual/perl-Test-Simple-0.88
 	# Tie::RefHash 1.34 ( 1.340.0 )
-	echo \>=dev-perl/Tie-RefHash-1.340.0
+	echo \>=virtual/perl-Tie-RefHash-1.340.0
 	# namespace::clean 0.10 ( 0.100.0 )
 	echo \>=dev-perl/namespace-clean-0.100.0
 	# perl v5.8.0 ( 5.8.0 )

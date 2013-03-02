@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,9 +16,9 @@ IUSE="test"
 #COMMON_DEPEND="
 #	|| (
 #		>=dev-lang/perl-5.12.0 
-#		( dev-perl/Tie-RefHash dev-perl/Tie-RefHash-Weak )
+#		( virtual/perl-Tie-RefHash dev-perl/Tie-RefHash-Weak )
 #	)"
-COMMON_DEPEND="dev-perl/Tie-RefHash dev-perl/Tie-RefHash-Weak"
+COMMON_DEPEND="virtual/perl-Tie-RefHash dev-perl/Tie-RefHash-Weak"
 DEPEND="
 	${COMMON_DEPEND}
 	test? (
