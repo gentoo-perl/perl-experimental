@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Test-Strict-0.210.0 (02 Mar 2013)
+
+  02 Mar 2013; Kent Fredric <kentfredric@gmail.com>
+  +Test-Strict-0.210.0.ebuild:
+  Version Bump
+
 *Test-Strict-0.200.0 (23 Feb 2013)
 
   23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
