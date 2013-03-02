@@ -1,8 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=ADAMK
+MODULE_VERSION="0.901"
 inherit perl-module
 
 DESCRIPTION="(Minor) XS acceleration for PPI"
