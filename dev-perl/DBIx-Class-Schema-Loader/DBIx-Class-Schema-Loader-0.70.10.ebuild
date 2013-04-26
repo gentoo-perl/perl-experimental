@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	>=dev-perl/Data-Dumper-Concise-1.200
 	dev-perl/Scope-Guard
-	>=dev-perl/DBI-1.56
+	>=dev-perl/DBI-1.560.0
 	sqlite? ( >=dev-perl/DBD-SQLite-1.290.0 )
 	mysql? ( >=dev-perl/DBD-mysql-4.00.4 )
 	postgres? ( >=dev-perl/DBD-Pg-1.49 )
