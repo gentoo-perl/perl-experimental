@@ -24,7 +24,6 @@
         <remote-id type="cpan-module">Catalyst::DispatchType::Default</remote-id>
         <remote-id type="cpan-module">Catalyst::DispatchType::Index</remote-id>
         <remote-id type="cpan-module">Catalyst::DispatchType::Path</remote-id>
-        <remote-id type="cpan-module">Catalyst::DispatchType::Regex</remote-id>
         <remote-id type="cpan-module">Catalyst::Dispatcher</remote-id>
         <remote-id type="cpan-module">Catalyst::Engine</remote-id>
         <remote-id type="cpan-module">Catalyst::EngineLoader</remote-id>
