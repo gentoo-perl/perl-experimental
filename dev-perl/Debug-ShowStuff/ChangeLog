@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  -Debug-ShowStuff-1.130.0.ebuild, -Debug-ShowStuff-1.140.0.ebuild:
+  Gone on CPAN
+
 *Debug-ShowStuff-1.160.0 (26 Apr 2013)
 
   26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
