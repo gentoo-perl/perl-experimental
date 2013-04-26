@@ -9,5 +9,6 @@
 	<upstream>
 		<remote-id type="cpan">Future</remote-id>
 		<remote-id type="cpan-module">Future</remote-id>
+		<remote-id type="cpan-module">Future::Utils</remote-id>
 	</upstream>
 </pkgmetadata>
