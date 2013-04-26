@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -21,7 +21,7 @@ DBI_OPTIONAL_DEPENDS="
 	>=dev-perl/SQL-Translator-0.110.60
 "
 COMMON_DEPEND="
-	>=dev-perl/DBI-1.607
+	>=dev-perl/DBI-1.607.0
 	>=dev-perl/DBIx-Class-0.81.270
 	>=dev-perl/Data-Stream-Bulk-0.07
 	>=dev-perl/KiokuDB-0.460.0

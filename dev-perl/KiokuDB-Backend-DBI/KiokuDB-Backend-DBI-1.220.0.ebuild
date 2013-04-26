@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Class::Accessor::Grouped
 	echo dev-perl/Class-Accessor-Grouped
 	# DBI 1.607 ( 1.607.0 )
-	echo \>=dev-perl/DBI-1.607
+	echo \>=dev-perl/DBI-1.607.0
 	# DBIx::Class 0.08127 ( 0.81.270 )
 	echo \>=dev-perl/DBIx-Class-0.81.270
 	# DBIx::Class::Core
