@@ -9,5 +9,6 @@
     <upstream>
         <remote-id type="cpan">Debug-ShowStuff</remote-id>
         <remote-id type="cpan-module">Debug::ShowStuff</remote-id>
+        <remote-id type="cpan-module">Debug::ShowStuff::ShowVar</remote-id>
     </upstream>
 </pkgmetadata>
