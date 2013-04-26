@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="
 	>=dev-perl/Class-DBI-0.94
-	>=dev-perl/DBI-1.21
+	>=dev-perl/DBI-1.210.0
 	dev-perl/HTML-Tree
 	dev-perl/Class-DBI-Plugin-Type
 "
