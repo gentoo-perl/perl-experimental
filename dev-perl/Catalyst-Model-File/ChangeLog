@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Model-File
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Model-File-0.70.0.ebuild, -Catalyst-Model-File-0.80.0.ebuild:
+  Gone on CPAN
 
 *Catalyst-Model-File-0.80.0 (12 Feb 2012)
 *Catalyst-Model-File-0.70.0 (12 Feb 2012)
