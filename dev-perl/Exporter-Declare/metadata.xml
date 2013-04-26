@@ -14,9 +14,6 @@
         <remote-id type="cpan-module">Exporter::Declare::Export::Generator</remote-id>
         <remote-id type="cpan-module">Exporter::Declare::Export::Sub</remote-id>
         <remote-id type="cpan-module">Exporter::Declare::Export::Variable</remote-id>
-        <remote-id type="cpan-module">Exporter::Declare::Magic</remote-id>
-        <remote-id type="cpan-module">Exporter::Declare::Magic::Parser</remote-id>
-        <remote-id type="cpan-module">Exporter::Declare::Magic::Sub</remote-id>
         <remote-id type="cpan-module">Exporter::Declare::Meta</remote-id>
         <remote-id type="cpan-module">Exporter::Declare::Specs</remote-id>
     </upstream>
