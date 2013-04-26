@@ -16,7 +16,6 @@
         <remote-id type="cpan">Catalyst-Action-REST</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize::Callback</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::Data::Serializer</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON::XS</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Deserialize::View</remote-id>
@@ -27,7 +26,6 @@
         <remote-id type="cpan-module">Catalyst::Action::REST::ForBrowsers</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Serialize</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Serialize::Callback</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::Data::Serializer</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Serialize::JSON</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Serialize::JSON::XS</remote-id>
         <remote-id type="cpan-module">Catalyst::Action::Serialize::JSONP</remote-id>
