@@ -8,6 +8,7 @@
     </maintainer>
     <upstream>
         <remote-id type="cpan">Catalyst-Plugin-Authentication</remote-id>
+        <remote-id type="cpan-module">Catalyst::Authentication::Credential::NoPassword</remote-id>
         <remote-id type="cpan-module">Catalyst::Authentication::Credential::Password</remote-id>
         <remote-id type="cpan-module">Catalyst::Authentication::Credential::Remote</remote-id>
         <remote-id type="cpan-module">Catalyst::Authentication::Realm</remote-id>
