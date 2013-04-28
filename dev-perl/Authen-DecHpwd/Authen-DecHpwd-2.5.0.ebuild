@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	dev-perl/Scalar-String
-	>=dev-perl/Data-Integer-0.003
+	>=dev-perl/Data-Integer-0.3.0
 "
 DEPEND="
 	${COMMON_DEPEND}
