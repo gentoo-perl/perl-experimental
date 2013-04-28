@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	media-sound/sox
-	>=dev-perl/IO-CaptureOutput-1.10
+	>=dev-perl/IO-CaptureOutput-1.100.0
 	virtual/perl-version
 "
 DEPEND="
