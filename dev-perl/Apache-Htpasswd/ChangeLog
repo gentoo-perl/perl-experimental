@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Apache-Htpasswd
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Apache-Htpasswd-1.800.0.ebuild:
+  Fix dependency on Digest-SHA1 ( normalize )
 
 *Apache-Htpasswd-1.900.0 (20 Nov 2012)
 

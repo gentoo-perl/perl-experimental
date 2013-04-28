@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 COMMON_DEPEND="
-	>=dev-perl/Digest-SHA1-2.0
+	>=dev-perl/Digest-SHA1-2.0.0
 	virtual/perl-MIME-Base64
 	dev-perl/Crypt-PasswdMD5
 "
