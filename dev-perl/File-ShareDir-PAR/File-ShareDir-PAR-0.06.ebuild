@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE=""
 RDEPEND="
 	dev-perl/File-ShareDir
 	dev-perl/Params-Util
-	>=dev-perl/Class-Inspector-1.12
+	>=dev-perl/Class-Inspector-1.120.0
 	virtual/perl-File-Spec
 "
 DEPEND="${RDEPEND}"
