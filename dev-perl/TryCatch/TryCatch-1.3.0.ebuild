@@ -25,7 +25,7 @@ COMMON_DEPEND="
 	virtual/perl-XSLoader
 "
 DEPEND="
-	>=dev-perl/extutils-depends-0.302
+	>=dev-perl/extutils-depends-0.302.0
 	${COMMON_DEPEND}
 	test? (
 		>=virtual/perl-Test-Simple-0.88
