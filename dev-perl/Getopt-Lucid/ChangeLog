@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Getopt-Lucid
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Getopt-Lucid-1.50.0 (28 Apr 2013)
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  +Getopt-Lucid-1.50.0.ebuild:
+  Version Bump
 
 *Getopt-Lucid-1.10.0 (27 Feb 2012)
 
