@@ -3,6 +3,9 @@
 # $Header: $
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com> true-0.180.0.ebuild:
+  Fix dependency on extutils-depends ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com> true-0.180.0.ebuild:
   Fix dependency on B-Hooks-OP-Check ( normalize )
 
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com> -true-0.160.0.ebuild:

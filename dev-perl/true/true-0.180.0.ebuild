@@ -21,7 +21,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	$(comment CONFIGURE REQUIRES)
-	>=dev-perl/extutils-depends-0.304 $(comment 0.304.0)
+	>=dev-perl/extutils-depends-0.304.0
 	virtual/perl-ExtUtils-MakeMaker
 "
 RDEPEND="
