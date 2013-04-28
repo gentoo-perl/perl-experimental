@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	virtual/perl-parent
 	virtual/perl-Scalar-List-Utils
 	dev-perl/B-Utils
-	>=dev-perl/B-Hooks-OP-Check-0.11
+	>=dev-perl/B-Hooks-OP-Check-0.110.0
 "
 DEPEND="
 	${COMMON_DEPEND}
