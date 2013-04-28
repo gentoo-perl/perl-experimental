@@ -3,6 +3,10 @@
 # $Header: $
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Log-Dispatchouli-2.6.0.ebuild:
+  Fix dependency on Sub-Exporter-GlobExporter ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Log-Dispatchouli-2.4.0.ebuild, Log-Dispatchouli-2.5.0.ebuild:
   Fix dependency on perl-Sys-Syslog ( normalize )
 

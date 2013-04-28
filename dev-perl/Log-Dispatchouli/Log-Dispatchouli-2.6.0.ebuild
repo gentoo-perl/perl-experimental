@@ -39,7 +39,7 @@ perl_meta_runtime() {
 	# Sub::Exporter
 	echo dev-perl/Sub-Exporter
 	# Sub::Exporter::GlobExporter 0.002 ( 0.2.0 )
-	echo \>=dev-perl/Sub-Exporter-GlobExporter-0.002
+	echo \>=dev-perl/Sub-Exporter-GlobExporter-0.2.0
 	# Sys::Syslog 0.16 ( 0.160.0 )
 	echo \>=virtual/perl-Sys-Syslog-0.160.0
 	# Try::Tiny 0.04 ( 0.40.0 )
