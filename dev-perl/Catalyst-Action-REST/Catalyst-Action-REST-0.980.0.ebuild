@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# Catalyst::Runtime 5.80030 ( 5.800.300 )
 	echo \>=dev-perl/Catalyst-Runtime-5.800.300
 	# Class::Inspector 1.13 ( 1.130.0 )
-	echo \>=dev-perl/Class-Inspector-1.13
+	echo \>=dev-perl/Class-Inspector-1.130.0
 	# Config::General
 	echo dev-perl/config-general
 	# Data::Serializer 0.36 ( 0.360.0 )

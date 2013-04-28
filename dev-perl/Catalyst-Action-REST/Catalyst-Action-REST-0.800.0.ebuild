@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	virtual/perl-Module-Pluggable
 	>=dev-perl/libwww-perl-2.33.0
 	>=dev-perl/Data-Serializer-0.360.0
-	>=dev-perl/Class-Inspector-1.13 $(comment 1.130.0)
+	>=dev-perl/Class-Inspector-1.130.0
 	dev-perl/URI-Find
 	>=dev-perl/MRO-Compat-0.100.0
 	json? (
