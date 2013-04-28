@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ DEPEND="
 	dev-perl/Carp-Clan-Share
 	dev-perl/Config-Any
 	dev-perl/Clone
-	>=dev-perl/Data-Visitor-0.24
+	>=dev-perl/Data-Visitor-0.240.0
 	dev-perl/Hash-Merge-Simple
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
