@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Data-GUID
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com> Data-GUID-0.43.ebuild,
+  Data-GUID-0.45.ebuild:
+  Fix dependency on Sub-Exporter ( normalize )
 
 *Data-GUID-0.46 (30 Jan 2011)
 
