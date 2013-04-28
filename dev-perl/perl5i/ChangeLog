@@ -4,6 +4,10 @@
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
   perl5i-2.6.1.ebuild:
+  Fix dependency on Digest-SHA1 ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
+  perl5i-2.6.1.ebuild:
   Fix dependency on Devel-Declare ( normalize )
 
   09 Feb 2013; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
