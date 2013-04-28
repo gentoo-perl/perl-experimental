@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/Devel-Declare-0.005011
+	>=dev-perl/Devel-Declare-0.5.11
 	>=dev-perl/namespace-clean-0.110.0
 	>=dev-perl/namespace-autoclean-0.90.0
 	>=dev-perl/Moose-0.900.0
