@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/aliased
-	>=dev-perl/B-Hooks-EndOfScope-0.07
+	>=dev-perl/B-Hooks-EndOfScope-0.70.0
 	dev-perl/Context-Preserve
 	>=dev-perl/Parse-Method-Signatures-1.003011
 	>=dev-perl/Devel-Declare-0.5.11
