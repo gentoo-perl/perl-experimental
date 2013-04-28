@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,5 +16,5 @@ IUSE=""
 DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.0
 	dev-perl/Devel-StackTrace
-	>=dev-perl/MRO-Compat-0.10
+	>=dev-perl/MRO-Compat-0.100.0
 "
