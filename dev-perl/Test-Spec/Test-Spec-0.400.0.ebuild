@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# TAP::Parser
 	echo virtual/perl-Test-Harness
 	# Test::Deep 0.103 ( 0.103.0 )
-	echo \>=dev-perl/Test-Deep-0.103
+	echo \>=dev-perl/Test-Deep-0.103.0
 	# Test::More
 	echo virtual/perl-Test-Simple
 	# Test::Trap

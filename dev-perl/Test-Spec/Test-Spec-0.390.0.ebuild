@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -32,7 +32,7 @@ RDEPEND="
 	virtual/perl-Test-Harness $(comment TAP::Parser)
 
 	$(comment Test::Deep 0.103)
-	>=dev-perl/Test-Deep-0.103 $(comment 0.103.0)
+	>=dev-perl/Test-Deep-0.103.0
 
 	$(comment Test::More)
 	virtual/perl-Test-Simple

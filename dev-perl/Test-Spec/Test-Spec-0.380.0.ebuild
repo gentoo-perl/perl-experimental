@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Package-Stash-0.230.0
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)
 	virtual/perl-Test-Harness $(comment TAP::Parser)
-	>=dev-perl/Test-Deep-0.103 $(comment 0.103.0)
+	>=dev-perl/Test-Deep-0.103.0
 	virtual/perl-Test-Simple $(comment Test::More)
 	dev-perl/Test-Trap
 	dev-perl/Tie-IxHash
