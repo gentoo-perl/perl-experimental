@@ -3,6 +3,9 @@
 # $Header: $
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com> TryCatch-1.3.0.ebuild:
+  Fix dependency on Devel-Declare ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com> TryCatch-1.3.0.ebuild:
   Fix dependency on B-Hooks-OP-Check ( normalize )
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com> TryCatch-1.3.0.ebuild:
