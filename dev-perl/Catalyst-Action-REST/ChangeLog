@@ -2,6 +2,14 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Action-REST-0.800.0.ebuild, Catalyst-Action-REST-0.810.0.ebuild,
+  Catalyst-Action-REST-0.830.0.ebuild, Catalyst-Action-REST-0.850.0.ebuild,
+  Catalyst-Action-REST-0.870.0.ebuild, Catalyst-Action-REST-0.880.0.ebuild,
+  Catalyst-Action-REST-0.890.0.ebuild, Catalyst-Action-REST-0.900.0.ebuild,
+  Catalyst-Action-REST-0.910.0.ebuild:
+  Fix dependency on MRO-Compat ( normalize )
+
 *Catalyst-Action-REST-1.100.0 (26 Apr 2013)
 
   26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
