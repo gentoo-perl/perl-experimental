@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/File-pushd-0.32
 	>=virtual/perl-File-Spec-3.19
 	>=virtual/perl-File-Temp-0.16
-	>=dev-perl/IO-CaptureOutput-1.03
+	>=dev-perl/IO-CaptureOutput-1.30.0
 	virtual/perl-Parse-CPAN-Meta
 	dev-perl/Probe-Perl
 	>=dev-perl/Tee-0.13

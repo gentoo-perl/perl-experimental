@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/File-Copy-Recursive-0.35
 	>=dev-perl/File-HomeDir-0.58
 	>=dev-perl/File-pushd-0.32
-	>=dev-perl/IO-CaptureOutput-1.03
+	>=dev-perl/IO-CaptureOutput-1.30.0
 	dev-perl/Probe-Perl
 	>=dev-perl/Tee-0.13
 "
