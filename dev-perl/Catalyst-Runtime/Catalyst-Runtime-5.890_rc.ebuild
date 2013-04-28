@@ -22,7 +22,7 @@ PATCHES=(
 depend List-MoreUtils
 depend namespace-autoclean 0.90.0
 depend namespace-clean 0.130.0
-depend B-Hooks-EndOfScope 0.08 # 0.80.0
+depend B-Hooks-EndOfScope 0.80.0
 depend MooseX-Emulate-Class-Accessor-Fast 0.9.30
 depend Data-OptList
 depend Moose 1.30.0
