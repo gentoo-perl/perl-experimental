@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI="4"
@@ -16,7 +16,7 @@ COMMON_DEPEND="
 	>=virtual/perl-parent-0.221 $(comment 0.221.0)
 	|| (
 		>=dev-lang/perl-5.010
-		>=dev-perl/MRO-Compat-0.10 $(comment 0.100.0)
+		>=dev-perl/MRO-Compat-0.100.0
 	)
 "
 DEPEND="
