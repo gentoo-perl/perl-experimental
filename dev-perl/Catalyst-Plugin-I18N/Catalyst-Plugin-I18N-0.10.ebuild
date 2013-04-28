@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,6 +17,6 @@ DEPEND="
 	>=virtual/perl-Locale-Maketext-Simple-0.19
 	>=virtual/perl-i18n-langtags-0.35
 	dev-perl/locale-maketext-lexicon
-	>=dev-perl/MRO-Compat-0.10
+	>=dev-perl/MRO-Compat-0.100.0
 "
 RDEPEND=${DEPEND}

@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-I18N
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-I18N-0.10.ebuild:
+  Fix dependency on MRO-Compat ( normalize )
 
 *Catalyst-Plugin-I18N-0.10 (10 Aug 2010)
 
