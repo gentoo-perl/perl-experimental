@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Data-Integer
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Data-Integer-0.4.0 (28 Apr 2013)
+*Data-Integer-0.3.0 (28 Apr 2013)
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com> -Data-Integer-0.003.ebuild,
+  +Data-Integer-0.3.0.ebuild, -Data-Integer-0.004.ebuild,
+  +Data-Integer-0.4.0.ebuild:
+  Migrate to x.y.z
 
 *Data-Integer-0.004 (10 Aug 2010)
 
