@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Hash-FieldHash
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Hash-FieldHash-0.130.0 (28 Apr 2013)
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  +Hash-FieldHash-0.130.0.ebuild:
+  Version Bump
 
 *Hash-FieldHash-0.120.0 (27 Feb 2012)
 
