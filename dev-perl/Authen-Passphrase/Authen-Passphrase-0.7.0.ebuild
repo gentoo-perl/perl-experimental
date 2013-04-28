@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	>=dev-perl/Crypt-UnixCrypt_XS-0.80.0
 	dev-perl/Data-Entropy
 	>=virtual/perl-digest-base-1.0.0
-	>=dev-perl/Digest-MD4-1.2
+	>=dev-perl/Digest-MD4-1.200.0
 	>=virtual/perl-Digest-MD5-1.9953
 	dev-perl/Digest-SHA1
 	>=virtual/perl-MIME-Base64-2.210.0
