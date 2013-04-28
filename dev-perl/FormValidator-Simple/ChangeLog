@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/FormValidator-Simple
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  FormValidator-Simple-0.210.0.ebuild, FormValidator-Simple-0.220.0.ebuild,
+  FormValidator-Simple-0.230.0.ebuild, FormValidator-Simple-0.280.0.ebuild,
+  FormValidator-Simple-0.290.0.ebuild:
+  Fix dependency on Tie-IxHash ( normalize )
 
   20 Nov 2012; Kent Fredric <kentfredric@gmail.com>
   FormValidator-Simple-0.210.0.ebuild, FormValidator-Simple-0.220.0.ebuild,

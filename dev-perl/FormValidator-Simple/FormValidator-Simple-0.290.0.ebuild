@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -43,7 +43,7 @@ perl_meta_runtime() {
 	# Scalar::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Tie::IxHash 1.21 ( 1.210.0 )
-	echo \>=dev-perl/Tie-IxHash-1.21
+	echo \>=dev-perl/Tie-IxHash-1.210.0
 	# UNIVERSAL::require 0.1 ( 0.100.0 )
 	echo \>=dev-perl/UNIVERSAL-require-0.100.0
 	# YAML 0.39 ( 0.390.0 )

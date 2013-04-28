@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -22,7 +22,7 @@ DEPEND="
 	>=dev-perl/Email-Valid-0.15
 	>=dev-perl/Email-Valid-Loose-0.40.0
 	>=dev-perl/Date-Calc-5.4
-	>=dev-perl/Tie-IxHash-1.21
+	>=dev-perl/Tie-IxHash-1.210.0
 	>=dev-perl/yaml-0.390.0
 	>=dev-perl/List-MoreUtils-0.16
 	>=dev-perl/DateTime-Format-Strptime-1.70.0
