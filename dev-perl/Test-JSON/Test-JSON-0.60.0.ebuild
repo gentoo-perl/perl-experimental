@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	>=dev-perl/JSON-Any-1.14
+	>=dev-perl/JSON-Any-1.140.0
 	>=dev-perl/Test-Differences-0.47
 "
 DEPEND="${RDEPEND}
