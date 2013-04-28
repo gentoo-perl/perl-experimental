@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Config-Any
 	>=dev-perl/HTML-FormFu-0.40.10
-	>=dev-perl/MRO-Compat-0.10
+	>=dev-perl/MRO-Compat-0.100.0
 	dev-perl/Moose
 	dev-perl/Regexp-Assemble
 	dev-perl/namespace-autoclean
