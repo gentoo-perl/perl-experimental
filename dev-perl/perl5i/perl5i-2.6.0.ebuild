@@ -44,7 +44,7 @@ COMMON_DEPEND="
 	>=dev-perl/Digest-SHA1-2.09 $(comment 2.90.0)
 	>=virtual/perl-Digest-MD5-2.36 $(comment 2.360.0)
 	>=dev-perl/Object-ID-0.1.0
-	>=dev-perl/Devel-Declare-0.006000 $(comment 0.6.0)
+	>=dev-perl/Devel-Declare-0.6.0
 	>=dev-perl/true-0.16.0 $(comment true::VERSION)
 	>=dev-perl/Capture-Tiny-0.60.0
 "
