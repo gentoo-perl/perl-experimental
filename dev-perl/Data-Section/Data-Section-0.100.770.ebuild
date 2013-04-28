@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE=""
 
 COMMON_DEPEND="
 	dev-perl/MRO-Compat
-	>=dev-perl/Sub-Exporter-0.979
+	>=dev-perl/Sub-Exporter-0.979.0
 "
 DEPEND="
 	${COMMON_DEPEND}
