@@ -15,7 +15,7 @@ IUSE="test"
 
 COMMON_DEPEND="
 	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.930.0 )
-	>=dev-perl/Data-Visitor-0.21
+	>=dev-perl/Data-Visitor-0.210.0
 	>=dev-perl/Moose-1.50.0
 	dev-perl/namespace-clean
 "
