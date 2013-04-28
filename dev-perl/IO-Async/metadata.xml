@@ -33,7 +33,6 @@
 		<remote-id type="cpan-module">IO::Async::Protocol::Stream</remote-id>
 		<remote-id type="cpan-module">IO::Async::Resolver</remote-id>
 		<remote-id type="cpan-module">IO::Async::Routine</remote-id>
-		<remote-id type="cpan-module">IO::Async::Sequencer</remote-id>
 		<remote-id type="cpan-module">IO::Async::Signal</remote-id>
 		<remote-id type="cpan-module">IO::Async::Socket</remote-id>
 		<remote-id type="cpan-module">IO::Async::Stream</remote-id>
