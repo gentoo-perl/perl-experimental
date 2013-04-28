@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ DEPEND="
 	>=dev-perl/DBIx-Class-Validation-0.20.50
 	>=dev-perl/Data-Currency-0.40.20
 	>=dev-perl/Class-Accessor-Grouped-0.09003
-	>=dev-perl/Class-Inspector-1.24
+	>=dev-perl/Class-Inspector-1.240.0
 	>=dev-perl/Clone-0.31
 	>=dev-perl/Error-0.17.016
 	>=virtual/perl-Module-Pluggable-3.9

@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Class::ISA 0.36 ( 0.360.0 )
 	echo \>=virtual/perl-Class-ISA-0.36
 	# Class::Inspector 1.24 ( 1.240.0 )
-	echo \>=dev-perl/Class-Inspector-1.24
+	echo \>=dev-perl/Class-Inspector-1.240.0
 	# Clone 0.31 ( 0.310.0 )
 	echo \>=dev-perl/Clone-0.310.0
 	# DBD::SQLite 1.29 ( 1.290.0 )
