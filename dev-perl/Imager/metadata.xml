@@ -35,11 +35,13 @@
         <remote-id type="cpan-module">Imager::Font::Type1</remote-id>
         <remote-id type="cpan-module">Imager::Font::Wrap</remote-id>
         <remote-id type="cpan-module">Imager::Fountain</remote-id>
+        <remote-id type="cpan-module">Imager::IO</remote-id>
         <remote-id type="cpan-module">Imager::Matrix2d</remote-id>
         <remote-id type="cpan-module">Imager::Preprocess</remote-id>
         <remote-id type="cpan-module">Imager::Probe</remote-id>
         <remote-id type="cpan-module">Imager::Regops</remote-id>
         <remote-id type="cpan-module">Imager::Test</remote-id>
+        <remote-id type="cpan-module">Imager::Test::OverUtf8</remote-id>
         <remote-id type="cpan-module">Imager::Transform</remote-id>
     </upstream>
 </pkgmetadata>
