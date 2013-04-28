@@ -3,6 +3,11 @@
 # $Header: $
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  CatalystX-Declare-0.11.0.ebuild, CatalystX-Declare-0.12.0.ebuild,
+  CatalystX-Declare-0.13.0.ebuild, CatalystX-Declare-0.15.0.ebuild:
+  Fix dependency on Class-Inspector ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   CatalystX-Declare-0.15.0.ebuild:
   Fix dependency on Devel-Declare ( normalize )
 

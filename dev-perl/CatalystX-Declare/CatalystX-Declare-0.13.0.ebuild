@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 comment() { true;}
 COMMON_DEPEND="
-	>=dev-perl/Class-Inspector-1.24 $(comment 1.240.0)
+	>=dev-perl/Class-Inspector-1.240.0
 	>=dev-perl/Perl6-Junction-1.400.0
 	>=dev-perl/aliased-0.300.0
 	>=virtual/perl-parent-0.221 $(comment 0.221.0)
