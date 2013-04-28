@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.870.0
 	dev-perl/String-RewritePrefix
 	json? (
-		>=dev-perl/JSON-Any-1.15
+		>=dev-perl/JSON-Any-1.150.0
 	)
 	yaml? (
 		dev-perl/yaml
