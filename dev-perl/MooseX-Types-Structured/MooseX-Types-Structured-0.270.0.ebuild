@@ -23,7 +23,7 @@ RDEPEND="
 	$(comment Moose::Util::TypeConstraints since v0.01)
 	>=dev-perl/MooseX-Types-0.220.0
 	virtual/perl-Scalar-List-Utils $(comment Scalar::Util)
-	>=dev-perl/Sub-Exporter-0.982
+	>=dev-perl/Sub-Exporter-0.982.0
 	$(comment virtual/perl-overload)
 "
 DEPEND="${RDEPEND}

@@ -2,6 +2,15 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-Types-Structured-0.190.0.ebuild,
+  MooseX-Types-Structured-0.210.0.ebuild,
+  MooseX-Types-Structured-0.220.0.ebuild,
+  MooseX-Types-Structured-0.230.0.ebuild,
+  MooseX-Types-Structured-0.260.0.ebuild,
+  MooseX-Types-Structured-0.270.0.ebuild:
+  Fix dependency on Sub-Exporter ( normalize )
+
   07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   MooseX-Types-Structured-0.190.0.ebuild,
   MooseX-Types-Structured-0.210.0.ebuild,

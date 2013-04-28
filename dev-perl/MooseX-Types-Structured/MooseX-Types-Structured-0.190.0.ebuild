@@ -17,7 +17,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.630.0
 	>=dev-perl/MooseX-Types-0.08
 	>=dev-perl/Devel-PartialDump-0.100.0
-	>=dev-perl/Sub-Exporter-0.982
+	>=dev-perl/Sub-Exporter-0.982.0
 "
 DEPEND="
 	${RDEPEND}
