@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -16,7 +16,7 @@ IUSE="test"
 comment() { echo ''; }
 RDEPEND="
 	>=dev-perl/CGI-Application-4.0.0
-	>=dev-perl/JSON-Any-1.14 $(comment 1.140.0)
+	>=dev-perl/JSON-Any-1.140.0
 "
 DEPEND="${RDEPEND}
 	>=dev-perl/JSON-2.20.0
