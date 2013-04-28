@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test +xs"
 COMMON_DEPEND="
-	>=dev-perl/Algorithm-Diff-1.19
+	>=dev-perl/Algorithm-Diff-1.190.0
 	dev-perl/Class-Accessor
 	xs? (
 		dev-perl/Algorithm-Diff-XS
