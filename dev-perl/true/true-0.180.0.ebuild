@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI="4"
@@ -15,7 +15,7 @@ IUSE=""
 comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-perl/B-Hooks-OP-Annotation-0.430.0
-	>=dev-perl/B-Hooks-OP-Check-0.18 $(comment 0.180.0)
+	>=dev-perl/B-Hooks-OP-Check-0.180.0
 	>=dev-perl/Devel-StackTrace-1.270 $(comment 1.270.0)
 "
 DEPEND="

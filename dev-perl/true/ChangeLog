@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/true
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com> true-0.180.0.ebuild:
+  Fix dependency on B-Hooks-OP-Check ( normalize )
 
   23 Apr 2011; Kent Fredric <kentfredric@gmail.com> -true-0.160.0.ebuild:
   Gone on CPAN
