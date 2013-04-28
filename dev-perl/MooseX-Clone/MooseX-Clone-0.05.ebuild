@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	>=dev-perl/Data-Visitor-0.24
+	>=dev-perl/Data-Visitor-0.240.0
 	dev-perl/Hash-Util-FieldHash-Compat
 	>=dev-perl/Moose-0.740.0
 	>=dev-perl/namespace-clean-0.80.0
