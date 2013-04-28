@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=dev-perl/namespace-clean-0.80.0
 	dev-perl/Data-UUID
-	>=dev-perl/Data-Visitor-0.24
+	>=dev-perl/Data-Visitor-0.240.0
 	dev-perl/Tie-ToObject
 	dev-perl/Task-Weaken
 	>=dev-perl/Data-Stream-Bulk-0.07
