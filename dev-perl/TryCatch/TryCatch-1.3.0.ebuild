@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Parse-Method-Signatures-1.3.12
-	>=dev-perl/B-Hooks-EndOfScope-0.08
+	>=dev-perl/B-Hooks-EndOfScope-0.80.0
 	>=dev-perl/B-Hooks-OP-Check-0.18
 	>=dev-perl/B-Hooks-OP-PPAddr-0.30.0
 	>=dev-perl/Devel-Declare-0.005007
