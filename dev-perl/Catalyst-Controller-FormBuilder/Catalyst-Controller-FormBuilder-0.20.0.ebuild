@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,6 +18,6 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.0
 	>=dev-perl/Class-Accessor-0.250.0
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370.0
-	>=dev-perl/Tie-IxHash-1.21
+	>=dev-perl/Tie-IxHash-1.210.0
 "
 RDEPEND="${DEPEND}"
