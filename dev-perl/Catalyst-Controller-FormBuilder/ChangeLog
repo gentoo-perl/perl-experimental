@@ -3,6 +3,13 @@
 # $Header: $
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Controller-FormBuilder-0.30.0.ebuild,
+  Catalyst-Controller-FormBuilder-0.40.0.ebuild,
+  Catalyst-Controller-FormBuilder-0.50.0.ebuild,
+  Catalyst-Controller-FormBuilder-0.60.ebuild:
+  Fix dependency on Class-Inspector ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Controller-FormBuilder-0.20.0.ebuild,
   Catalyst-Controller-FormBuilder-0.30.0.ebuild,
   Catalyst-Controller-FormBuilder-0.40.0.ebuild,
