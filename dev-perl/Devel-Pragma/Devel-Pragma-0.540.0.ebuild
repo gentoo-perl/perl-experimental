@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -17,7 +17,7 @@ perl_meta_configure() {
 	# B::Hooks::OP::Check 0.18 ( 0.180.0 )
 	echo \>=dev-perl/B-Hooks-OP-Check-0.180.0
 	# ExtUtils::Depends 0.302 ( 0.302.0 )
-	echo \>=dev-perl/extutils-depends-0.302
+	echo \>=dev-perl/extutils-depends-0.302.0
 	# ExtUtils::MakeMaker
 	echo virtual/perl-ExtUtils-MakeMaker
 }

@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Devel-Pragma
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Devel-Pragma-0.540.0.ebuild:
+  Fix dependency on extutils-depends ( normalize )
 
 *Devel-Pragma-0.540.0 (27 Feb 2012)
 
