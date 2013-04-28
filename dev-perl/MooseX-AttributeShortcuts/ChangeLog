@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/MooseX-AttributeShortcuts
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*MooseX-AttributeShortcuts-0.19.0 (28 Apr 2013)
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  +MooseX-AttributeShortcuts-0.19.0.ebuild:
+  Version Bump
 
 *MooseX-AttributeShortcuts-0.17.0 (29 Oct 2012)
 
