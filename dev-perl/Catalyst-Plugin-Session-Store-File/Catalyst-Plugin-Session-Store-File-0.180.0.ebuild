@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,6 +19,6 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.0
 	>=dev-perl/Cache-Cache-1.02
 	>=dev-perl/Catalyst-Plugin-Session-0.270.0
-	>=dev-perl/MRO-Compat-0.10
+	>=dev-perl/MRO-Compat-0.100.0
 "
 DEPEND="${RDEPEND}"
