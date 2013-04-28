@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Module-Compile
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Module-Compile-0.210.0.ebuild, Module-Compile-0.220.0.ebuild,
+  Module-Compile-0.230.0.ebuild:
+  Fix dependency on Digest-SHA1 ( normalize )
 
 *Module-Compile-0.230.0 (16 Jul 2011)
 
