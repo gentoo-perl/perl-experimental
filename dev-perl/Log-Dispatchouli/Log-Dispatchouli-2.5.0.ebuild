@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -31,8 +31,7 @@ depend-virtual Scalar-List-Utils # Scalar::Util
 depend String-Flogger
 depend Sub-Exporter
 depend Sub-Exporter-GlobExporter 0.2 # 0.002
-# depend Sys-Syslog 0.160   # 0.16
-depend-virtual Sys-Syslog 0.16 #OLD VERSION
+depend-virtual Sys-Syslog 0.160.0
 depend Try-Tiny 0.40 # 0.04
 # depend overload # CORE
 
