@@ -3,6 +3,10 @@
 # $Header: $
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Data-Section-0.101.621.ebuild:
+  Fix dependency on MRO-Compat ( normalize )
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Data-Section-0.100.770.ebuild, Data-Section-0.101.620.ebuild,
   Data-Section-0.101.621.ebuild:
   Fix dependency on Sub-Exporter ( normalize )

@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 comment() { echo '';}
 COMMON_DEPEND="
-	>=dev-perl/MRO-Compat-0.09 $(comment 0.90.0)
+	>=dev-perl/MRO-Compat-0.90.0
 	>=dev-perl/Sub-Exporter-0.979.0
 "
 DEPEND="
