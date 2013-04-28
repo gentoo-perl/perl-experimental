@@ -14,7 +14,7 @@ IUSE="test"
 COMMON_DEPEND="
 	>=dev-perl/Parse-Method-Signatures-1.3.12
 	>=dev-perl/B-Hooks-EndOfScope-0.80.0
-	>=dev-perl/B-Hooks-OP-Check-0.18
+	>=dev-perl/B-Hooks-OP-Check-0.180.0
 	>=dev-perl/B-Hooks-OP-PPAddr-0.30.0
 	>=dev-perl/Devel-Declare-0.005007
 	dev-perl/Moose
