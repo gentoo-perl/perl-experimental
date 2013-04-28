@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI="4"
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 comment() { echo ''; }
 COMMON_DEPEND="
-	>=dev-perl/extutils-depends-0.304 $(comment 0.304.0)
+	>=dev-perl/extutils-depends-0.304.0
 "
 DEPEND="
 	${COMMON_DEPEND}
