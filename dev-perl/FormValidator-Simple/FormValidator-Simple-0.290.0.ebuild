@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# Class::Data::Inheritable 0.04 ( 0.40.0 )
 	echo \>=dev-perl/Class-Data-Inheritable-0.40.0
 	# Class::Inspector 1.13 ( 1.130.0 )
-	echo \>=dev-perl/Class-Inspector-1.13
+	echo \>=dev-perl/Class-Inspector-1.130.0
 	# Date::Calc 5.4 ( 5.400.0 )
 	echo \>=dev-perl/Date-Calc-5.400.0
 	# DateTime::Format::Strptime 1.07 ( 1.70.0 )
