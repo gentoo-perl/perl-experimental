@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	>=dev-perl/Devel-Declare-0.004000
+	>=dev-perl/Devel-Declare-0.4.0
 	dev-perl/Devel-PartialDump
 	dev-perl/Moose
 	>=dev-perl/MooseX-Method-Signatures-0.240

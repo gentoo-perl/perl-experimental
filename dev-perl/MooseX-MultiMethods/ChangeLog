@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/MooseX-MultiMethods
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  MooseX-MultiMethods-0.20.ebuild, MooseX-MultiMethods-0.30.ebuild,
+  MooseX-MultiMethods-0.40.ebuild, MooseX-MultiMethods-0.50.ebuild,
+  MooseX-MultiMethods-0.60.ebuild, MooseX-MultiMethods-0.70.ebuild,
+  MooseX-MultiMethods-0.80.ebuild, MooseX-MultiMethods-0.90.ebuild,
+  MooseX-MultiMethods-0.100.ebuild:
+  Fix dependency on Devel-Declare ( normalize )
 
 *MooseX-MultiMethods-0.100 (22 Jan 2011)
 *MooseX-MultiMethods-0.90 (22 Jan 2011)
