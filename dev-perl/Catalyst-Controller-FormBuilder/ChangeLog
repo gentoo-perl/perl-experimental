@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Catalyst-Controller-FormBuilder
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Controller-FormBuilder-0.50.0.ebuild,
+  Catalyst-Controller-FormBuilder-0.60.ebuild:
+  Fix dependency on MRO-Compat ( normalize )
 
   08 Jun 2012; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Controller-FormBuilder-0.20.0.ebuild,
