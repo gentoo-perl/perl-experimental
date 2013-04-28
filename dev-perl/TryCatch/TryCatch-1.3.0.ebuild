@@ -21,7 +21,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types
 	>=dev-perl/Scope-Upper-0.60.0
 	>=dev-perl/Variable-Magic-0.280.0
-	>=dev-perl/Sub-Exporter-0.979
+	>=dev-perl/Sub-Exporter-0.979.0
 	virtual/perl-XSLoader
 "
 DEPEND="
