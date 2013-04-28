@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.0
-	>=dev-perl/Data-Visitor-0.24
+	>=dev-perl/Data-Visitor-0.240.0
 	dev-perl/MRO-Compat
 "
 DEPEND="
