@@ -68,7 +68,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}
 	test? (
-		>=dev-perl/Test-Deep-0.108 $(comment 0.108.0)
+		>=dev-perl/Test-Deep-0.108.0
 		>=virtual/perl-Test-Simple-0.88 $(comment 0.880.0)
 		>=dev-perl/Test-utf8-0.20.0
 		>=dev-perl/Test-Exception-0.31 $(comment 0.310.0)
