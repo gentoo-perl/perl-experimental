@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Algorithm-Diff-1.190.100
 	dev-perl/Algorithm-Merge
 	>=dev-perl/Archive-Zip-1.14
-	>=dev-perl/MRO-Compat-0.10
+	>=dev-perl/MRO-Compat-0.100.0
 	>=dev-perl/Cache-FastMmap-1.290.0
 	>=dev-perl/Catalyst-Runtime-5.700.100
 	>=dev-perl/Catalyst-Action-RenderView-0.70.0
