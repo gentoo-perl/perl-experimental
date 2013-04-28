@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Audio-Musepack
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  Audio-Musepack-1.0.1.ebuild:
+  Fix dependency on Audio-Scan ( normalize )
 
 *Audio-Musepack-0.700.0 (12 Apr 2011)
 
