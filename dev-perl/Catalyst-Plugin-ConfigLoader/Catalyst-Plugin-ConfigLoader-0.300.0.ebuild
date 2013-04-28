@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.800
 	>=dev-perl/Data-Visitor-0.240.0
 	>=dev-perl/Config-Any-0.20
-	>=dev-perl/MRO-Compat-0.09
+	>=dev-perl/MRO-Compat-0.90.0
 "
 DEPEND="${RDEPEND}
 	test? ( virtual/perl-Test-Simple )
