@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Apr 2013; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Util-Test-KENTNL-0.10.5.100.ebuild:
+  Gone on CPAN
+
 *Dist-Zilla-Util-Test-KENTNL-0.10.158.230 (26 Apr 2013)
 
   26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
