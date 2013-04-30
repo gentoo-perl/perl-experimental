@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl5i-2.11.2 (30 Apr 2013)
+
+  30 Apr 2013; Kent Fredric <kentfredric@gmail.com> +perl5i-2.11.2.ebuild,
+  metadata.xml:
+  Version Bump
+
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com> perl5i-2.6.0.ebuild,
   perl5i-2.6.1.ebuild:
   Fix dependency on Digest-SHA1 ( normalize )

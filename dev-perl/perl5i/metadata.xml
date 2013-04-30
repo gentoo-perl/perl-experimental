@@ -14,6 +14,9 @@
         <remote-id type="cpan-module">perl5i::1::ARRAY</remote-id>
         <remote-id type="cpan-module">perl5i::1::CODE</remote-id>
         <remote-id type="cpan-module">perl5i::1::DateTime</remote-id>
+        <remote-id type="cpan-module">perl5i::1::DateTime::Format::CTime</remote-id>
+        <remote-id type="cpan-module">perl5i::1::DateTime::time</remote-id>
+        <remote-id type="cpan-module">perl5i::1::DateTime::y2038</remote-id>
         <remote-id type="cpan-module">perl5i::1::HASH</remote-id>
         <remote-id type="cpan-module">perl5i::1::Meta</remote-id>
         <remote-id type="cpan-module">perl5i::1::Meta::Class</remote-id>
