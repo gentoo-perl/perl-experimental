@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Mock-Quick</remote-id>
+		<remote-id type="cpan-module">Mock::Quick</remote-id>
+		<remote-id type="cpan-module">Mock::Quick::Class</remote-id>
+		<remote-id type="cpan-module">Mock::Quick::Method</remote-id>
+		<remote-id type="cpan-module">Mock::Quick::Object</remote-id>
+		<remote-id type="cpan-module">Mock::Quick::Object::Control</remote-id>
+		<remote-id type="cpan-module">Mock::Quick::Util</remote-id>
+		<remote-id type="cpan-module">Object::Quick</remote-id>
+	</upstream>
+</pkgmetadata>

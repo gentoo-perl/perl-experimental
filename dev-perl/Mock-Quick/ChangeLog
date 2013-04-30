@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Mock-Quick
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Mock-Quick-1.105.0 (30 Apr 2013)
+
+  30 Apr 2013; Kent Fredric <kentfredric@gmail.com> +Mock-Quick-1.105.0.ebuild,
+  +metadata.xml:
+  Added for Fennec
+
