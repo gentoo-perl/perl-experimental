@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/XML-Tidy
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*XML-Tidy-1.12 (30 Apr 2013)
+
+  30 Apr 2013; Kent Fredric <kentfredric@gmail.com> +XML-Tidy-1.12.ebuild:
+  Version Bump
 
 *XML-Tidy-1.8 (12 Feb 2011)
 
