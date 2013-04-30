@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="3"
 
 MODULE_AUTHOR=PIP
-MODULE_VERSION="1.6.A7RJKwl"
+MODULE_VERSION="1.8.B2AMvdl"
 MODULE_A_EXT="tgz"
 inherit perl-module
 
@@ -14,10 +14,10 @@ DESCRIPTION="tidy indenting of XML documents"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
 PATCHES=(
-	"${FILESDIR}/BuildPL-MathBaseCnv-${PV}.patch"
+	"${FILESDIR}/BuildPL-MathBaseCnv-1.6.patch"
 )
 
 COMMON_DEPEND="
@@ -27,6 +27,7 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	virtual/perl-Module-Build
+	test? ( dev-perl/Test-Pod-Coverage )
 "
 RDEPEND="
 	${COMMON_DEPEND}
