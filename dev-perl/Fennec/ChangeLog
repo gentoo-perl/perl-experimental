@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Fennec
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Fennec-1.12.0 (30 Apr 2013)
+
+  30 Apr 2013; Kent Fredric <kentfredric@gmail.com> +Fennec-1.12.0.ebuild,
+  +metadata.xml:
+  Added for Hash-StoredIterator
+
