@@ -126,6 +126,17 @@ Usage:
       --root="/path/to/some/root"
 
       Specifiy another root to scan ( ie: /usr/portage )
+
+      --from-ini
+
+      Get the overlays to scan from a configuration named 'aggregate_tree' in a config
+      loaded by Gentoo::Overlay::Group::INI
+
+      ie:  ~/.config/Perl/Gentoo-Overlay-Group-INI/config.ini
+
+        [Overlays / aggregate_tree]
+        directory = /var/paludis/repositories/perl-git/
+        directory = /usr/portage/ 
   
       --format=JSON     # Emit JSON  ( Default )
       --format=distlist # Emit a list of CPAN Dist Names
