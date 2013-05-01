@@ -16,14 +16,15 @@ use Data::Dump qw( pp );
 use Gentoo::Overlay;
 use Gentoo::Perl::Distmap;
 use Gentoo::Perl::Distmap::RecordSet;
+use Gentoo::Perl::Distmap::FromOverlay;
+
 # FILENAME: aggregate_tree.pl
 # CREATED: 29/02/12 07:37:54 by Kent Fredric (kentnl) <kentfredric@gmail.com>
 # ABSTRACT: Connect all the cpan id's from the metadata.xml
 
 use XML::Smart;
 
-my ( $env, $cat );
-my $dm = Gentoo::Perl::Distmap->new();
+my ( $env, $cat , $dm );
 
 main();
 
@@ -46,11 +47,26 @@ sub main {
   }
 
   my $dest = open_output( $opts->long_opts->{output} );
+  my $mapper = Gentoo::Perl::Distmap::FromOverlay->new( overlay => $tree );
 
   $|++;
-  $tree->iterate(
-    'packages' => \&handle_package
-  );
+  local *Gentoo::Perl::Distmap::FromOverlay::_on_enter_category = sub {
+    print "\r" . $_[1] . '     ';
+    print "\r" . $_[1] . ' ';
+  };
+  my @symbols = ( '/' , '-', '\\', '|' );
+  local *Gentoo::Perl::Distmap::FromOverlay::_on_enter_package = sub {
+    my $next_symbol = shift @symbols;
+    push @symbols, $next_symbol;
+    print $next_symbol . "\b";
+  };
+
+  local *Gentoo::Perl::Distmap::FromOverlay::_on_enter_ebuild = sub {
+    print ".> \b\b" ;
+  };
+
+
+  $dm = $mapper->distmap;
 
   $dest->print( make_format( $opts->long_opts->{format} ) );
 
@@ -92,65 +108,6 @@ sub make_format_distlist {
   return join qq{\n}, $dm->mapped_dists;
 }
 
-sub handle_package {
-  my ( $self, $c ) = @_;
-  my $CP      = $c->{category_name} . '/' . $c->{package_name};
-  my $xmlfile = $c->{package}->path->file('metadata.xml');
-  if ( not -e $xmlfile ) {
-    warn "\e[31mNo metadata.xml for $CP\e[0m\n";
-    return;
-  }
-  if ( not $cat or $c->{category_name} ne $cat ) {
-    *STDERR->print( "\nProcessing " . $c->{category_name} . " :" );
-    $cat = $c->{category_name};
-  }
-  *STDERR->print(".");
-  my $XML = XML::Smart->new( $xmlfile->absolute()->stringify() );
-  if ( not exists $XML->{pkgmetadata} ) {
-    warn "\e[31m<pkgmetadata> missing in $xmlfile\e[0m\n";
-    return;
-  }
-  if ( not exists $XML->{pkgmetadata}->{upstream} ) {
-
-    # warn "<pkgmetadata>/<upstream> missing in $xmlfile\n";
-    return;
-  }
-  if ( not exists $XML->{pkgmetadata}->{upstream}->{'remote-id'} ) {
-
-    # warn "<pkgmetadata>/<upstream>/<remote-id> missing in $xmlfile\n";
-    return;
-  }
-  for my $remote ( @{ $XML->{pkgmetadata}->{upstream}->{'remote-id'} } ) {
-
-    next if not exists $remote->{type};
-    next unless $remote->{type} eq 'cpan';
-
-    my $upstream = $remote->content();
-
-    my $record   = {
-      category        => $c->{category_name},
-      package         => $c->{package_name},
-      repository      => $c->{overlay_name},
-      distribution    => $upstream,
-    };
-    $c->{package}->iterate(
-      ebuilds => sub {
-        my ( $self, $d ) = @_;
-        my $version = $d->{ebuild_name};
-        my $p       = $c->{package_name};
-        $version =~ s/\.ebuild$//;
-        $version =~ s/^\Q${p}\E-//;
-        $dm->add_version(
-            %{$record},
-            version => $version,
-        );
-      }
-    );
-
-    *STDERR->print("\e[32m $CP -> $upstream\e[0m ");
-  }
-
-}
 0;
 
 __DATA__
