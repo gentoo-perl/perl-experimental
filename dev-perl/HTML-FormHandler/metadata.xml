@@ -57,6 +57,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::Field::Submit</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Text</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::TextArea</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::Field::TextCSV</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Upload</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Weekday</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Year</remote-id>
@@ -68,6 +69,7 @@
         <remote-id type="cpan-module">HTML::FormHandler::I18N::en_us</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::hu_hu</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::ja_jp</remote-id>
+        <remote-id type="cpan-module">HTML::FormHandler::I18N::pt_br</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::ru_ru</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::sv_se</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::I18N::tr_tr</remote-id>
