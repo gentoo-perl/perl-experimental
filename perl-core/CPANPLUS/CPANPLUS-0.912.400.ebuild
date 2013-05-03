@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -24,7 +24,7 @@ REQUIRED_USE="
 
 perl_feature_cpantest() {
 	# Test::Reporter 1.34
-	echo \>=dev-perl/Test-Reporter-1.34
+	echo \>=dev-perl/Test-Reporter-1.340.0
 	# Parse::CPAN::Meta 1.4200
 	echo \>=virtual/perl-Parse-CPAN-Meta-1.420
 }

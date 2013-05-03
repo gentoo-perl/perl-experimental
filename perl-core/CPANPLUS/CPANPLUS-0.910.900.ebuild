@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -44,7 +44,7 @@ RDEPEND="
 	$(comment ">=virtual/perl-CPANPLUS-Dist-Build-0.240.0")
 
 	cpantest? (
-		>=dev-perl/Test-Reporter-1.34 $(comment 1.340.0)
+		>=dev-perl/Test-Reporter-1.340.0
 		>=virtual/perl-Parse-CPAN-Meta-1.420 $(comment 1.420.0)
 	)
 	md5? (
