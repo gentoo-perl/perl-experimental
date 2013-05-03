@@ -3,6 +3,10 @@
 # $Header: $
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  Net-Delicious-1.140.0.ebuild, metadata.xml:
+  Modernize latest
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
   Net-Delicious-1.140.0.ebuild:
   Fix dependency on (perl-File-Spec,TimeDate,Config-Simple) ( normalize )
 

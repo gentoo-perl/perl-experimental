@@ -6,4 +6,22 @@
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Net-Delicious</remote-id>
+        <remote-id type="cpan-module">Net::Delicious</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Bundle</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Config</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Constants</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Constants::Config</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Constants::Pause</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Constants::Response</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Constants::Uri</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Date</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Iterator</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Object</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Post</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Subscription</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::Tag</remote-id>
+        <remote-id type="cpan-module">Net::Delicious::User</remote-id>
+    </upstream>
 </pkgmetadata>
