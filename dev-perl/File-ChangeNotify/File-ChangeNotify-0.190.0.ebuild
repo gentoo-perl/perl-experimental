@@ -17,7 +17,7 @@ IUSE="test inotify"
 # TODO: Add KQueue auto_feature and deps.
 
 RDEPEND="
-	|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
+	>=dev-perl/Moose-1.990.0
 	virtual/perl-Module-Pluggable
 	dev-perl/Moose
 	>=dev-perl/MooseX-Params-Validate-0.80
