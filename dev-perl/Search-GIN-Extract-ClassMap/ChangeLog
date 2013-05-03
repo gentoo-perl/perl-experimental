@@ -3,6 +3,10 @@
 # $Header: $
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  -Search-GIN-Extract-ClassMap-0.10.23.120.ebuild:
+  Gone on CPAN
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
   Search-GIN-Extract-ClassMap-0.10.23.120.ebuild,
   Search-GIN-Extract-ClassMap-0.10.608.150.ebuild:
   Fix dependency on (Moose,MooseX-Types,Search-GIN,namespace-autoclean,aliased)
