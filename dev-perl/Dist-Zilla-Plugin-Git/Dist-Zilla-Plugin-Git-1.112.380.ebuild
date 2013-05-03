@@ -15,7 +15,7 @@ comment() { true;}
 COMMON_DEPEND="
 	$(comment REQUIRES)
 	$(comment Class::MOP)
-	|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
+	>=dev-perl/Moose-1.990.0
 
 	$(comment Cwd)
 	virtual/perl-File-Spec
