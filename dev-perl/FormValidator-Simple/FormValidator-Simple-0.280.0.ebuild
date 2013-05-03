@@ -16,7 +16,7 @@ IUSE=""
 DEPEND="
 	>=dev-perl/Class-Accessor-0.220.0
 	>=dev-perl/Class-Inspector-1.130.0
-	>=dev-perl/Class-Data-Inheritable-0.04
+	>=dev-perl/Class-Data-Inheritable-0.40.0
 	>=dev-perl/UNIVERSAL-require-0.10
 	dev-perl/MailTools
 	>=dev-perl/Email-Valid-0.15
