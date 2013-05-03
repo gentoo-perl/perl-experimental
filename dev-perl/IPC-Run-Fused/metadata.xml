@@ -6,4 +6,10 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">IPC-Run-Fused</remote-id>
+        <remote-id type="cpan-module">IPC::Run::Fused</remote-id>
+        <remote-id type="cpan-module">IPC::Run::Fused::POSIX</remote-id>
+        <remote-id type="cpan-module">IPC::Run::Fused::Win32</remote-id>
+    </upstream>
 </pkgmetadata>
