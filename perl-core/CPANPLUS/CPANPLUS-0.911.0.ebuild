@@ -52,7 +52,7 @@ RDEPEND="
 	)
 	signature? (
 		app-crypt/gnupg
-		>=dev-perl/Module-Signature-0.06 $(comment 0.60.0)
+		>=dev-perl/Module-Signature-0.60.0
 	)
 	storable? (
 		virtual/perl-Storable

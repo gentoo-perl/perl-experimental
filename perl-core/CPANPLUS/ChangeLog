@@ -10,6 +10,16 @@
   CPANPLUS-0.912.800.ebuild, CPANPLUS-0.913.0.ebuild,
   CPANPLUS-0.913.300.ebuild, CPANPLUS-0.913.400.ebuild,
   CPANPLUS-0.913.600.ebuild:
+  Fix dependency on Module-Signature ( normalize )
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com> CPANPLUS-0.910.400.ebuild,
+  CPANPLUS-0.910.500.ebuild, CPANPLUS-0.910.800.ebuild,
+  CPANPLUS-0.910.900.ebuild, CPANPLUS-0.911.0.ebuild,
+  CPANPLUS-0.911.900.ebuild, CPANPLUS-0.912.300.ebuild,
+  CPANPLUS-0.912.400.ebuild, CPANPLUS-0.912.600.ebuild,
+  CPANPLUS-0.912.800.ebuild, CPANPLUS-0.913.0.ebuild,
+  CPANPLUS-0.913.300.ebuild, CPANPLUS-0.913.400.ebuild,
+  CPANPLUS-0.913.600.ebuild:
   Fix dependency on Test-Reporter ( normalize )
 
 *CPANPLUS-0.913.600 (30 Apr 2013)

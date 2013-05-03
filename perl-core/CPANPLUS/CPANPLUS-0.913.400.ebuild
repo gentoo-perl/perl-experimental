@@ -36,7 +36,7 @@ perl_feature_signature() {
 	# gpg
 	echo app-crypt/gnupg
 	# Module::Signature 0.06
-	echo \>=dev-perl/Module-Signature-0.06
+	echo \>=dev-perl/Module-Signature-0.60.0
 }
 perl_feature_storable() {
 	# Storable
