@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	>=dev-perl/Class-Data-Inheritable-0.02
+	>=dev-perl/Class-Data-Inheritable-0.20.0
 "
 DEPEND="${RDEPEND}
 "
