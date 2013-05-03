@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  Pod-Coverage-Moose-0.20.0.ebuild:
+  Remove Class-MOP dep
+
   07 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   Pod-Coverage-Moose-0.20.0.ebuild, Pod-Coverage-Moose-0.30.0.ebuild,
   Pod-Coverage-Moose-0.40.0.ebuild:

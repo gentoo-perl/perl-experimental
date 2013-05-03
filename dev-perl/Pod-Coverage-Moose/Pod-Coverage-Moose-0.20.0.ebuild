@@ -16,7 +16,7 @@ COMMON_DEPEND="
 	>=dev-perl/namespace-clean-0.50.0
 	dev-perl/Pod-Coverage
 	dev-perl/Perl6-Junction
-	|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
+	>=dev-perl/Moose-1.990.0
 "
 DEPEND="
 	${COMMON_DEPEND}
