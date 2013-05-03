@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Moose-0.920.0
-	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.940.0 )
+	>=dev-perl/Moose-1.990.0
 	>=dev-perl/MooseX-Role-Parameterized-0.100.0
 	>=dev-perl/MooseX-Clone-0.04
 	dev-perl/Path-Class
