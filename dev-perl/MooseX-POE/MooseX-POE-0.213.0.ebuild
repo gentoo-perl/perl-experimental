@@ -16,7 +16,7 @@ IUSE="test"
 comment() { echo ''; }
 RDEPEND="
 	>=dev-perl/Moose-0.900.0
-	>=dev-perl/POE-1.004 $(comment 1.4.0)
+	>=dev-perl/POE-1.4.0
 "
 DEPEND="${RDEPEND}
 >=virtual/perl-ExtUtils-MakeMaker-6.31 $(comment 6.310.0)
