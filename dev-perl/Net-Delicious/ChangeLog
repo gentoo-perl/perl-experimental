@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Net-Delicious
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Net-Delicious-1.140.0 (03 May 2013)
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com> -Net-Delicious-1.14.ebuild,
+  +Net-Delicious-1.140.0.ebuild:
+  Migrate to x.y.z
 
 *Net-Delicious-1.14 (21 Dec 2010)
 
