@@ -95,8 +95,8 @@ conflict CatalystX-CRUD 0.42 # 0.420.0
 conflict CatalystX-CRUD-Model-RDBO 0.20 # 0.200.0
 conflict Catalyst-View-Mason 0.17 # 0.170.0
 
-RDEPEND="|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.950.0 )"
-DEPEND="|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.950.0 )"
+RDEPEND=" >=dev-perl/Moose-1.990.0"
+DEPEND=" >=dev-perl/Moose-1.990.0"
 
 ddep_setup
 

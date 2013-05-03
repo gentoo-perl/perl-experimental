@@ -25,8 +25,8 @@ depend namespace-clean 0.130.0
 depend B-Hooks-EndOfScope 0.80.0
 depend MooseX-Emulate-Class-Accessor-Fast 0.9.30
 # Class::MOP 0.95
-RDEPEND+=" || ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.950.0 )"
-DEPEND+=" || ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.950.0 )"
+RDEPEND+=" >=dev-perl/Moose-1.990.0"
+DEPEND+=" >=dev-perl/Moose-1.990.0"
 depend Data-OptList
 depend Moose 1.30.0
 depend MooseX-MethodAttributes 0.240.0 # MooseX::MethodAttributes::Inheritable 0.240.0

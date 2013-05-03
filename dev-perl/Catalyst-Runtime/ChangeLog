@@ -2,6 +2,14 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Runtime-5.800.240.ebuild, Catalyst-Runtime-5.800.250.ebuild,
+  Catalyst-Runtime-5.800.290.ebuild, Catalyst-Runtime-5.800.300.ebuild,
+  Catalyst-Runtime-5.800.320.ebuild, Catalyst-Runtime-5.800.330.ebuild,
+  Catalyst-Runtime-5.890_rc.ebuild, Catalyst-Runtime-5.890.20_rc.ebuild,
+  Catalyst-Runtime-5.890.30_rc.ebuild, Catalyst-Runtime-5.900.20.ebuild:
+  Remove Class-MOP dep
+
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Runtime-5.800.240.ebuild, Catalyst-Runtime-5.800.250.ebuild,
   Catalyst-Runtime-5.800.290.ebuild, Catalyst-Runtime-5.800.300.ebuild,
