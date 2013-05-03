@@ -33,10 +33,7 @@ perl_eumm_build() {
 	#attributes
 
 	#metaclass
-	echo '|| (
-		>=dev-perl/Moose-1.990.0
-		( <dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.60.0 )
-	)'
+	echo \>=dev-perl/Moose-1.990.0
 	#namespace::clean
 	echo dev-perl/namespace-clean
 }
