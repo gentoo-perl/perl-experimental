@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 RDEPEND="
-	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.840.0 )
+	>=dev-perl/Moose-1.990.0
 	>=dev-perl/Moose-0.840.0
 	dev-perl/Sub-Exporter
 	dev-perl/namespace-autoclean
