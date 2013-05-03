@@ -15,7 +15,7 @@ IUSE=""
 DEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
-	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.800.0 )
+	>=dev-perl/Moose-1.990.0
 	>=dev-perl/String-RewritePrefix-0.4.0
 	>=dev-perl/Catalyst-Runtime-5.710.10
 	>=dev-perl/Moose-0.900.0

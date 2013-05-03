@@ -15,7 +15,7 @@ IUSE=""
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.250
 	>=dev-perl/String-RewritePrefix-0.4.0
-	|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
+	>=dev-perl/Moose-1.990.0
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
