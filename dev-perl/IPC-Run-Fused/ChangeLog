@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  IPC-Run-Fused-0.10.288.60.ebuild:
+  Fix dependency on (Sub-Exporter, perl) ( normalize )
+
 *IPC-Run-Fused-0.40.1.0 (03 May 2013)
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com>

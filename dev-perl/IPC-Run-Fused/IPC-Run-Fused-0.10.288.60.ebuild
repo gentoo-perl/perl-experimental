@@ -13,8 +13,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
 	virtual/perl-IO
-	>=dev-perl/Sub-Exporter-0.982
-	>=dev-lang/perl-5.008.000
+	>=dev-perl/Sub-Exporter-0.982.0
+	>=dev-lang/perl-5.8.0
 "
 DEPEND="
 	${COMMON_DEPEND}
