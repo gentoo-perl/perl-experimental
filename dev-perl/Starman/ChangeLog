@@ -2,6 +2,14 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com> -Starman-0.200.700.ebuild,
+  -Starman-0.200.800.ebuild, -Starman-0.201.0.ebuild,
+  -Starman-0.201.100.ebuild, -Starman-0.201.300.ebuild,
+  -Starman-0.300.0.ebuild, -Starman-0.300.100.ebuild,
+  -Starman-0.300.300.ebuild, -Starman-0.300.400.ebuild,
+  -Starman-0.300.500.ebuild:
+  trim old
+
 *Starman-0.301.100 (28 Apr 2013)
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com> +Starman-0.301.100.ebuild:
