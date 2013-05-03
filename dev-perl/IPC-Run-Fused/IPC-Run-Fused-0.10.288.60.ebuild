@@ -1,8 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=KENTNL
+MODULE_VERSION="0.01028806"
 inherit perl-module
 
 DESCRIPTION="Capture Stdout/Stderr simultaneously as if it were one stream, painlessly"
