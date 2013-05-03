@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,12 +17,12 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="virtual/perl-IO
-	>=dev-perl/Net-SSLeay-1.36
+	>=dev-perl/Net-SSLeay-1.360.0
 	virtual/perl-Scalar-List-Utils
-	>=dev-perl/Task-Weaken-1.03
+	>=dev-perl/Task-Weaken-1.30.0
 	virtual/perl-parent
-	>=dev-lang/perl-5.6"
+	>=dev-lang/perl-5.6.0"
 DEPEND=">=virtual/perl-Module-Build-0.36.01
 	${RDEPEND}
-	>=dev-perl/POE-1.267
+	>=dev-perl/POE-1.267.0
 	test? ( >=virtual/perl-Test-Simple-0.88 )"

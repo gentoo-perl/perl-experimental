@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/POE-Component-SSLify
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  POE-Component-SSLify-1.6.0.ebuild:
+  Normalise deps
 
 *POE-Component-SSLify-1.6.0 (29 Apr 2011)
 
