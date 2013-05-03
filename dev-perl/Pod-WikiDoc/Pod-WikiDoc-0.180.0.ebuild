@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -24,7 +24,7 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.45
 	>=dev-perl/IPC-Run3-0.033
 	>=dev-perl/Probe-Perl-0.01
-	>=dev-perl/File-pushd-0.30
+	>=dev-perl/File-pushd-0.300.0
 	>=virtual/perl-File-Spec-3
 	>=virtual/perl-File-Temp-0.14
 "
