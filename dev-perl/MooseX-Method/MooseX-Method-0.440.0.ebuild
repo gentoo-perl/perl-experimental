@@ -17,7 +17,7 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND=">=dev-perl/Moose-0.220.0
-	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.370.0 )
+	>=dev-perl/Moose-1.990.0
 	>=dev-perl/HTML-Template-Pro-0.650.0
 	>=virtual/perl-Scalar-List-Utils-1.14
 	>=dev-perl/Sub-Name-0.02"
