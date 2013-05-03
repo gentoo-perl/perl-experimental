@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Graphics::ColorNames::WWW 0.01 ( 0.10.0 )
 	echo \>=dev-perl/Graphics-ColorNames-WWW-0.10.0
 	# Params::Validate 0.75 ( 0.750.0 )
-	echo \>=dev-perl/Params-Validate-0.75
+	echo \>=dev-perl/Params-Validate-0.750.0
 }
 DEPEND="
 	$(perl_meta_configure)
