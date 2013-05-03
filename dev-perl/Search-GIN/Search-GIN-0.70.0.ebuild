@@ -19,7 +19,7 @@ COMMON_DEPEND="
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/MooseX-Types-Set-Object
 	>=dev-perl/namespace-clean-0.80.0
-	>=dev-perl/Data-Stream-Bulk-0.03
+	>=dev-perl/Data-Stream-Bulk-0.30.0
 	dev-perl/Scope-Guard
 	dev-perl/Set-Object
 	dev-perl/MRO-Compat
