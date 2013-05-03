@@ -23,7 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	test? (
-			|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
+			>=dev-perl/Moose-1.990.0
 			dev-perl/Moose
 			>=virtual/perl-Test-Simple-0.88
 			dev-perl/Test-Exception

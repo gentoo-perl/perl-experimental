@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Authentication-0.100.160.ebuild,
+  Catalyst-Plugin-Authentication-0.100.170.ebuild,
+  Catalyst-Plugin-Authentication-0.100.180.ebuild:
+  Remove Class-MOP dep
+
 *Catalyst-Plugin-Authentication-0.100.230 (26 Apr 2013)
 
   26 Apr 2013; Kent Fredric <kentfredric@gmail.com>

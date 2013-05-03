@@ -26,7 +26,7 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.88 $(comment Test::More 0.880.0)
 			dev-perl/Test-Exception
 			$(comment Class::MOP)
-			|| ( >=dev-perl/Moose-1.990.0 dev-perl/Class-MOP )
+			>=dev-perl/Moose-1.990.0
 			dev-perl/Moose
 	)
 "
