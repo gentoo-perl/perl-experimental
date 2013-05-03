@@ -16,7 +16,7 @@ IUSE="json data-taxi config-general php freezethaw xml"
 comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.0
-	>=dev-perl/Params-Validate-0.76 $(comment 0.760.0)
+	>=dev-perl/Params-Validate-0.760.0
 	>=dev-perl/YAML-Syck-0.670.0
 	virtual/perl-Module-Pluggable
 	>=dev-perl/libwww-perl-2.33.0

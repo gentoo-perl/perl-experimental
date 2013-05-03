@@ -47,7 +47,7 @@ perl_meta_runtime() {
 	# PHP::Serialization
 	echo dev-perl/PHP-Serialization
 	# Params::Validate 0.76 ( 0.760.0 )
-	echo \>=dev-perl/Params-Validate-0.76
+	echo \>=dev-perl/Params-Validate-0.760.0
 	# URI::Find
 	echo dev-perl/URI-Find
 	# XML::Simple

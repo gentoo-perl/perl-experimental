@@ -18,7 +18,7 @@ COMMON_DEPEND="
 	>=dev-perl/Moose-1.30.0
 	dev-perl/namespace-autoclean
 	>=dev-perl/Catalyst-Runtime-5.800.300
-	>=dev-perl/Params-Validate-0.76 $(comment 0.760.0)
+	>=dev-perl/Params-Validate-0.760.0
 	>=dev-perl/YAML-Syck-0.670.0
 	virtual/perl-Module-Pluggable
 	>=dev-perl/libwww-perl-2.33.0
