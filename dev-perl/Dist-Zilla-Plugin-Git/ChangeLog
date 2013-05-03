@@ -3,6 +3,16 @@
 # $Header: $
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Zilla-Plugin-Git-1.112.70.ebuild,
+  -Dist-Zilla-Plugin-Git-1.112.380.ebuild,
+  -Dist-Zilla-Plugin-Git-1.112.440.ebuild,
+  -Dist-Zilla-Plugin-Git-1.120.370.ebuild,
+  -Dist-Zilla-Plugin-Git-1.120.860.ebuild,
+  -Dist-Zilla-Plugin-Git-1.121.10.ebuild,
+  -Dist-Zilla-Plugin-Git-1.121.750.ebuild:
+  trim old
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
   Dist-Zilla-Plugin-Git-1.112.70.ebuild,
   Dist-Zilla-Plugin-Git-1.112.380.ebuild,
   Dist-Zilla-Plugin-Git-1.112.440.ebuild,
