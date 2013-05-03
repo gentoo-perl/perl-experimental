@@ -17,7 +17,7 @@ COMMON_DEPEND="
 	>=dev-perl/KiokuDB-0.240.0
 	>=dev-perl/DBIx-Class-0.81.20
 	>=dev-perl/DBI-1.607.0
-	>=dev-perl/Data-Stream-Bulk-0.07
+	>=dev-perl/Data-Stream-Bulk-0.70.0
 	dev-perl/SQL-Abstract
 	dev-perl/Search-GIN
 "
