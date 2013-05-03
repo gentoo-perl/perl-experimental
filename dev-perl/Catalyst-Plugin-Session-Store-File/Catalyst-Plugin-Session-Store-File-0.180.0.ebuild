@@ -15,7 +15,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=dev-perl/Class-Data-Inheritable-0.04
+	>=dev-perl/Class-Data-Inheritable-0.40.0
 	>=dev-perl/Catalyst-Runtime-5.700.0
 	>=dev-perl/Cache-Cache-1.02
 	>=dev-perl/Catalyst-Plugin-Session-0.270.0
