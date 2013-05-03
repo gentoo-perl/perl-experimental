@@ -4,6 +4,11 @@
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com>
   CPAN-Reporter-1.170.800.ebuild, CPAN-Reporter-1.171.100.ebuild,
+  CPAN-Reporter-1.180.0.ebuild, CPAN-Reporter-1.180.300.ebuild:
+  Fix dependency on File-pushd ( normalize )
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  CPAN-Reporter-1.170.800.ebuild, CPAN-Reporter-1.171.100.ebuild,
   CPAN-Reporter-1.180.0.ebuild, CPAN-Reporter-1.180.300.ebuild,
   CPAN-Reporter-1.190.200.ebuild, CPAN-Reporter-1.200.0.ebuild,
   CPAN-Reporter-1.200.100.ebuild, CPAN-Reporter-1.200.200.ebuild:
