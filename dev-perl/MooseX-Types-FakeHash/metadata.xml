@@ -6,4 +6,8 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">MooseX-Types-FakeHash</remote-id>
+        <remote-id type="cpan-module">MooseX::Types::FakeHash</remote-id>
+    </upstream>
 </pkgmetadata>
