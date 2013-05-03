@@ -17,9 +17,9 @@ KEYWORDS="~amd64 ~x86"
 SRC_TEST="do"
 
 IUSE="test"
-RDEPEND=">=dev-perl/DBI-1.611
-	>=dev-perl/Text-CSV_XS-0.71
-	>=dev-perl/SQL-Statement-1.25"
+RDEPEND=">=dev-perl/DBI-1.611.0
+	>=dev-perl/Text-CSV_XS-0.710.0
+	>=dev-perl/SQL-Statement-1.250.0"
 DEPEND="${RDEPEND}
 	test? (
 		virtual/perl-Test-Simple

@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com> DBD-CSV-0.300.0.ebuild,
+  DBD-CSV-0.330.0.ebuild:
+  Fix dependency on (DBI,Text-CSV_XS,SQL-Statement) ( normalize )
+
 *DBD-CSV-0.330.0 (03 May 2013)
 *DBD-CSV-0.300.0 (03 May 2013)
 
