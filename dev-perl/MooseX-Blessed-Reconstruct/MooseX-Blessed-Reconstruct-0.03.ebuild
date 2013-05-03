@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 COMMON_DEPEND="
-	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.930.0 )
+	>=dev-perl/Moose-1.990.0
 	>=dev-perl/Data-Visitor-0.210.0
 	>=dev-perl/Moose-0.900.0
 	dev-perl/namespace-clean
