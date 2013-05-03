@@ -17,15 +17,15 @@ SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="dev-perl/libwww-perl
-	>=dev-perl/yaml-0.35
+	>=dev-perl/yaml-0.350.0
 	dev-perl/URI
 	>=dev-perl/log-dispatch-2
 	>=dev-perl/XML-Simple-2
 	>=virtual/perl-Time-HiRes-1.65
 	>=dev-perl/IO-stringy-2.1
-	>=virtual/perl-File-Spec-0.8
-	>=dev-perl/TimeDate-1.16
-	>=dev-perl/Config-Simple-2
+	>=virtual/perl-File-Spec-0.80
+	>=dev-perl/TimeDate-1.160.0
+	>=dev-perl/Config-Simple-2.0.0
 	dev-perl/Crypt-SSLeay"
 DEPEND="virtual/perl-Module-Build
 	${RDEPEND}
