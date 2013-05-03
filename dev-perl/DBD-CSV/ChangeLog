@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/DBD-CSV
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*DBD-CSV-0.330.0 (03 May 2013)
+*DBD-CSV-0.300.0 (03 May 2013)
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com> -DBD-CSV-0.30.ebuild,
+  -DBD-CSV-0.33.ebuild, +DBD-CSV-0.300.0.ebuild, +DBD-CSV-0.330.0.ebuild:
+  Migrate to x.y.z
 
 *DBD-CSV-0.33 (13 Feb 2012)
 

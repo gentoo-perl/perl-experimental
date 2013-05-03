@@ -1,11 +1,12 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=2
 
 MODULE_AUTHOR=HMBRAND
-MODULE_A="${P}.tgz"
+MODULE_A_EXT="tgz"
+MODULE_VERSION="0.30"
 inherit perl-module
 
 DESCRIPTION="SQL engine and DBI driver for CSV files"
