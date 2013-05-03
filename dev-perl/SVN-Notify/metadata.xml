@@ -6,4 +6,13 @@
         <email>dwc@pobox.com</email>
         <name>Daniel Westermann-Clark</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">SVN-Notify</remote-id>
+        <remote-id type="cpan-module">SVN::Notify</remote-id>
+        <remote-id type="cpan-module">SVN::Notify::Alternative</remote-id>
+        <remote-id type="cpan-module">SVN::Notify::Filter::Trac</remote-id>
+        <remote-id type="cpan-module">SVN::Notify::HTML</remote-id>
+        <remote-id type="cpan-module">SVN::Notify::HTML::ColorDiff</remote-id>
+        <remote-id type="cpan-module">SVN::Notify::SMTP</remote-id>
+    </upstream>
 </pkgmetadata>
