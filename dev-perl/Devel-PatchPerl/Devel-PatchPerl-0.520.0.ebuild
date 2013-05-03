@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 comment() { echo ''; }
 COMMON_DEPEND="
-	>=dev-perl/File-pushd-1.00 $(comment 1.0.0)
+	>=dev-perl/File-pushd-1.0.0
 	virtual/perl-IO $(comment IO::File)
 	>=virtual/perl-IPC-Cmd-0.400 $(comment 0.400.0)
 	virtual/perl-MIME-Base64
