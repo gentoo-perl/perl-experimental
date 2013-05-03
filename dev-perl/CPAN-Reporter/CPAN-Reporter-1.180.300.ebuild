@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/Probe-Perl
 	>=dev-perl/Tee-0.13
 	>=virtual/perl-Test-Simple-0.62
-	>=dev-perl/Test-Reporter-1.54
+	>=dev-perl/Test-Reporter-1.540.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build

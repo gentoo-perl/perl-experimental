@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -42,7 +42,7 @@ depend-virtual IO # IO-File
 depend-virtual Parse-CPAN-Meta
 depend Probe-Perl
 depend Tee 0.140
-depend Test-Reporter 1.54
+depend Test-Reporter 1.540.0
 # depend constant # CORE
 # depend vars # CORE
 

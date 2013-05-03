@@ -29,6 +29,6 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
 	test? ( >=virtual/perl-Test-Simple-0.62
-		>=dev-perl/Test-Reporter-1.54 )"
+		>=dev-perl/Test-Reporter-1.540.0 )"
 
 SRC_TEST="do"
