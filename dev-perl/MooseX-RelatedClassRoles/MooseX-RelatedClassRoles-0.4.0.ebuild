@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
-	|| ( >=dev-perl/Moose-1.990.0 >=dev-perl/Class-MOP-0.800.0 )
+	>=dev-perl/Moose-1.990.0
 	>=dev-perl/MooseX-Role-Parameterized-0.40.0
 	>=dev-perl/Moose-0.630.0
 "
