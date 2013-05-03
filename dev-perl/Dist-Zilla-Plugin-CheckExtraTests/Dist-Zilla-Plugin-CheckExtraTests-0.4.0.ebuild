@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -38,7 +38,7 @@ COMMON_DEPEND="
 	>=dev-perl/Dist-Zilla-2.0.0
 
 	$(comment File::pushd 1)
-	>=dev-perl/File-pushd-1.00 $(comment 1.0.0)
+	>=dev-perl/File-pushd-1.0.0
 
 	$(comment Dist::Zilla::App::Tester 2)
 	>=dev-perl/Dist-Zilla-2.0.0
