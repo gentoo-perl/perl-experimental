@@ -2,6 +2,14 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  -Git-Repository-1.170.0.ebuild, -Git-Repository-1.200.0.ebuild,
+  -Git-Repository-1.210.0.ebuild, -Git-Repository-1.220.0.ebuild,
+  -Git-Repository-1.250.0.ebuild, -Git-Repository-1.260.0.ebuild,
+  -Git-Repository-1.270.0.ebuild, -Git-Repository-1.301.0.ebuild,
+  -Git-Repository-1.302.0.ebuild:
+  trim old
+
 *Git-Repository-1.303.0 (30 Apr 2013)
 
   30 Apr 2013; Kent Fredric <kentfredric@gmail.com>
