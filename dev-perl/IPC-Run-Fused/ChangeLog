@@ -3,6 +3,10 @@
 # $Header: $
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  -IPC-Run-Fused-0.10.16.70.ebuild, -IPC-Run-Fused-0.10.288.60.ebuild:
+  Gone on CPAN
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
   IPC-Run-Fused-0.10.288.60.ebuild:
   Fix dependency on (Sub-Exporter, perl) ( normalize )
 
