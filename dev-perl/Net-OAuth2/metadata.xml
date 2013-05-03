@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Net-OAuth2</remote-id>
+		<remote-id type="cpan-module">Net::OAuth2</remote-id>
+		<remote-id type="cpan-module">Net::OAuth2::AccessToken</remote-id>
+		<remote-id type="cpan-module">Net::OAuth2::Client</remote-id>
+		<remote-id type="cpan-module">Net::OAuth2::Profile</remote-id>
+		<remote-id type="cpan-module">Net::OAuth2::Profile::Password</remote-id>
+		<remote-id type="cpan-module">Net::OAuth2::Profile::WebServer</remote-id>
+	</upstream>
+</pkgmetadata>
