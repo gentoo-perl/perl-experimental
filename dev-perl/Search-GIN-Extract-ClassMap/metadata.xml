@@ -6,4 +6,13 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
+    <upstream>
+        <remote-id type="cpan">Search-GIN-Extract-ClassMap</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::ClassMap</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::ClassMap::Does</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::ClassMap::Isa</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::ClassMap::Like</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::ClassMap::Role</remote-id>
+        <remote-id type="cpan-module">Search::GIN::Extract::ClassMap::Types</remote-id>
+    </upstream>
 </pkgmetadata>

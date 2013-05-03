@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Search-GIN-Extract-ClassMap
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Search-GIN-Extract-ClassMap-0.10.608.170 (03 May 2013)
+
+  03 May 2013; Kent Fredric <kentfredric@gmail.com>
+  +Search-GIN-Extract-ClassMap-0.10.608.170.ebuild, metadata.xml:
+  Version Bump
 
 *Search-GIN-Extract-ClassMap-0.10.608.150 (15 Apr 2011)
 
