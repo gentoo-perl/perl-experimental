@@ -17,7 +17,7 @@ IUSE=""
 COMMON_DEPEND="
 	dev-perl/DateTime
 	>=dev-perl/Moose-0.900.0
-	>=dev-perl/POE-1.004
+	>=dev-perl/POE-1.4.0
 "
 DEPEND="
 	${COMMON_DEPEND}

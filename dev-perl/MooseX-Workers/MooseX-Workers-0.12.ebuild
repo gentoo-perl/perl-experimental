@@ -12,7 +12,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 COMMON_DEPEND="
 	>=dev-perl/Moose-0.900.0
-	>=dev-perl/POE-1.004
+	>=dev-perl/POE-1.4.0
 "
 DEPEND="
 	${COMMON_DEPEND}
