@@ -55,4 +55,4 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
