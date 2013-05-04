@@ -2,6 +2,16 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 May 2013; Kent Fredric <kentfredric@gmail.com>
+  Dist-Zilla-Plugin-Git-1.112.510.ebuild,
+  Dist-Zilla-Plugin-Git-1.120.970.ebuild,
+  Dist-Zilla-Plugin-Git-1.121.820.ebuild,
+  Dist-Zilla-Plugin-Git-1.122.530.ebuild, Dist-Zilla-Plugin-Git-2.1.0.ebuild,
+  Dist-Zilla-Plugin-Git-2.2.0.ebuild, Dist-Zilla-Plugin-Git-2.3.0.ebuild,
+  Dist-Zilla-Plugin-Git-2.8.0.ebuild, Dist-Zilla-Plugin-Git-2.9.0.ebuild,
+  Dist-Zilla-Plugin-Git-2.13.0.ebuild:
+  Parallelize
+
   03 May 2013; Kent Fredric <kentfredric@gmail.com>
   -Dist-Zilla-Plugin-Git-1.112.70.ebuild,
   -Dist-Zilla-Plugin-Git-1.112.380.ebuild,
