@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-Model-DBI
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Model-DBI-0.320.0 (04 May 2013)
+
+  04 May 2013; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-Model-DBI-0.320.0.ebuild:
+  Version Bump
 
 *Catalyst-Model-DBI-0.300.0 (28 Apr 2012)
 
