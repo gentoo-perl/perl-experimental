@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ElasticSearch-0.650.0 (09 May 2013)
+
+  09 May 2013; Kent Fredric <kentfredric@gmail.com>
+  +ElasticSearch-0.650.0.ebuild:
+  Version Bump
+
   26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   -ElasticSearch-0.580.0.ebuild, -ElasticSearch-0.590.0.ebuild,
   -ElasticSearch-0.610.0.ebuild, -ElasticSearch-0.620.0.ebuild,
