@@ -31,7 +31,6 @@
         <remote-id type="cpan-module">HTML::FormHandler::Field::Float</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Hidden</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Hour</remote-id>
-        <remote-id type="cpan-module">HTML::FormHandler::Field::HtmlArea</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::IntRange</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Integer</remote-id>
         <remote-id type="cpan-module">HTML::FormHandler::Field::Minute</remote-id>
