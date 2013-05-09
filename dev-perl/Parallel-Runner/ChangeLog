@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Parallel-Runner-0.13.0 (09 May 2013)
+
+  09 May 2013; Kent Fredric <kentfredric@gmail.com>
+  +Parallel-Runner-0.13.0.ebuild:
+  Version Bump
+
 *Parallel-Runner-0.12.0 (30 Apr 2013)
 
   30 Apr 2013; Kent Fredric <kentfredric@gmail.com>
