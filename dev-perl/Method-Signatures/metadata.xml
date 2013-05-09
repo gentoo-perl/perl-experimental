@@ -10,6 +10,7 @@
 		<remote-id type="cpan">Method-Signatures</remote-id>
 		<remote-id type="cpan-module">Method::Signatures</remote-id>
 		<remote-id type="cpan-module">Method::Signatures::Modifiers</remote-id>
+		<remote-id type="cpan-module">Method::Signatures::Parameter</remote-id>
 		<remote-id type="cpan-module">Method::Signatures::Parser</remote-id>
 	</upstream>
 </pkgmetadata>

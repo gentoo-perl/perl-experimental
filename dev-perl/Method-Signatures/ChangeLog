@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Method-Signatures-20130505.0.0 (09 May 2013)
+
+  09 May 2013; Kent Fredric <kentfredric@gmail.com>
+  +Method-Signatures-20130505.0.0.ebuild, metadata.xml:
+  Version Bump
+
 *Method-Signatures-20130222.0.0 (23 Feb 2013)
 
   23 Feb 2013; Kent Fredric <kentfredric@gmail.com>
