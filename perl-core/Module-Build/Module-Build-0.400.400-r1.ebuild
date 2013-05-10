@@ -5,7 +5,7 @@
 EAPI=4
 
 MODULE_AUTHOR=LEONT
-MODULE_VERSION=0.4003
+MODULE_VERSION=0.4004
 inherit perl-module
 
 DESCRIPTION="Build and install Perl modules"

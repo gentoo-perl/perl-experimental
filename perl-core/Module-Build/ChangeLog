@@ -2,6 +2,15 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/perl-core/Module-Build/ChangeLog,v 1.77 2013/03/02 16:19:20 ago Exp $
 
+*Module-Build-0.400.400-r1 (10 May 2013)
+
+  10 May 2013; Kent Fredric <kentfredric@gmail.com>
+  -Module-Build-0.400.400.ebuild, +Module-Build-0.400.400-r1.ebuild:
+  Make 0.400.400 really 0.400.400 not 0.400.300. Seems I teste and installed
+  this locally as 0.400.400, and all things I installed since worked fine, but
+  somewhere between the time I installed it myself and it getting commited, it
+  seems my nightly cron job hit the tree and reverted it -_-
+
 *Module-Build-0.400.400 (28 Apr 2013)
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
