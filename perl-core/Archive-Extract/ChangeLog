@@ -2,6 +2,13 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 May 2013; Kent Fredric <kentfredric@gmail.com>
+  -Archive-Extract-0.420.0.ebuild, -Archive-Extract-0.440.0.ebuild,
+  -Archive-Extract-0.460.0.ebuild, -Archive-Extract-0.500.0.ebuild,
+  -Archive-Extract-0.520.0.ebuild, -Archive-Extract-0.560.0.ebuild,
+  -Archive-Extract-0.600.0.ebuild:
+  Gone on CPAN
+
 *Archive-Extract-0.680.0 (24 Feb 2013)
 
   24 Feb 2013; Kent Fredric <kentfredric@gmail.com>
