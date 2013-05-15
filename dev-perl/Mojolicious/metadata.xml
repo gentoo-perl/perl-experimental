@@ -98,8 +98,6 @@
         <remote-id type="cpan-module">Mojolicious::Plugin::JSONConfig</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::Mount</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::PODRenderer</remote-id>
-        <remote-id type="cpan-module">Mojolicious::Plugin::PoweredBy</remote-id>
-        <remote-id type="cpan-module">Mojolicious::Plugin::RequestTimer</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugin::TagHelpers</remote-id>
         <remote-id type="cpan-module">Mojolicious::Plugins</remote-id>
         <remote-id type="cpan-module">Mojolicious::Renderer</remote-id>
