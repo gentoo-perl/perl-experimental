@@ -1,0 +1,10 @@
+--- Makefile.PL	2010-03-05 17:17:06.000000000 +0000
++++ Makefile.PL	2013-06-16 00:46:15.602996033 +0000
+@@ -12,7 +12,6 @@
+ test_requires 'Moose';
+ 
+ auto_provides;
+-auto_provides_class;
+ auto_install;
+ 
+ WriteAll;
