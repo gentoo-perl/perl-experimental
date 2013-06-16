@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Test-TinyMocker
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  16 Jun 2013; Kent Fredric <kentfredric@gmail.com>
+  Test-TinyMocker-0.30.0.ebuild:
+  EAPI5ify, parallel tests, patch broken POD test
 
 *Test-TinyMocker-0.30.0 (17 Oct 2011)
 

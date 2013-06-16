@@ -1,8 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=SUKRIA
 MODULE_VERSION=0.03
@@ -20,5 +20,9 @@ DEPEND="
 		dev-perl/Test-Pod-Coverage
 	)
 "
+src_prepare() {
+	rm "${S}"/t/pod.t
+	perl-module_src_prepare
+}
 
-SRC_TEST=do
+SRC_TEST="do parallel"
