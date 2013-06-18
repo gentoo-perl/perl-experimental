@@ -1,8 +1,9 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
 MODULE_AUTHOR=SARTAK
+MODULE_VERSION="0.15"
 inherit perl-module
 
 DESCRIPTION="Warns and dies noisily with stack backtraces"
