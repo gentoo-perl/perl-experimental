@@ -45,7 +45,10 @@ perl_meta_runtime() {
 	# Catalyst::Plugin::SubRequest 0.15 ( 0.150.0 )
 	echo \>=dev-perl/Catalyst-Plugin-SubRequest-0.150.0
 	# Catalyst::Plugin::Unicode::Encoding
-	echo dev-perl/Catalyst-Plugin-Unicode-Encoding
+	echo '|| ('
+	echo ' >=dev-perl/Catalyst-Runtime-5.900.420'
+	echo ' dev-perl/Catalyst-Plugin-Unicode-Encoding'
+	echo ')'
 	# Catalyst::Runtime 5.90013 ( 5.900.130 )
 	echo \>=dev-perl/Catalyst-Runtime-5.900.130
 	# Catalyst::View::Component::SubInclude 0.07 ( 0.70.0 )
