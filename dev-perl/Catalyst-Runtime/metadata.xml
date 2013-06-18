@@ -35,6 +35,7 @@
         <remote-id type="cpan-module">Catalyst::Exception::Interface</remote-id>
         <remote-id type="cpan-module">Catalyst::Log</remote-id>
         <remote-id type="cpan-module">Catalyst::Model</remote-id>
+        <remote-id type="cpan-module">Catalyst::Plugin::Unicode::Encoding</remote-id>
         <remote-id type="cpan-module">Catalyst::Request</remote-id>
         <remote-id type="cpan-module">Catalyst::Request::Upload</remote-id>
         <remote-id type="cpan-module">Catalyst::Response</remote-id>
