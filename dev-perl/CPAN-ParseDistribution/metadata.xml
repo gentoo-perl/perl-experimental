@@ -9,5 +9,6 @@
 	<upstream>
 		<remote-id type="cpan">CPAN-ParseDistribution</remote-id>
 		<remote-id type="cpan-module">CPAN::ParseDistribution</remote-id>
+		<remote-id type="cpan-module">CPAN::ParseDistribution::Unix</remote-id>
 	</upstream>
 </pkgmetadata>
