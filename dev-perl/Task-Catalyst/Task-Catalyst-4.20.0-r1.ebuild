@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -76,7 +76,10 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Static-Simple
 
 	$(comment Catalyst::Plugin::Unicode::Encoding)
-	dev-perl/Catalyst-Plugin-Unicode-Encoding
+	|| (
+		>=dev-perl/Catalyst-Runtime-5.900.420
+		dev-perl/Catalyst-Plugin-Unicode-Encoding
+	)
 
 	$(comment Catalyst::View::Email)
 	dev-perl/Catalyst-View-Email
