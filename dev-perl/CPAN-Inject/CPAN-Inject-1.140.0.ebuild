@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -9,7 +9,7 @@ inherit perl-module
 DESCRIPTION='Base class for injecting distributions into CPAN sources'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
@@ -47,6 +47,10 @@ perl_meta_runtime() {
 	# perl v5.6.0 ( 5.6.0 )
 	echo \>=dev-lang/perl-5.6.0
 }
+src_test() {
+	echo o conf init | cpan
+	perl-module_src_test
+}
 DEPEND="
 	$(perl_meta_configure)
 	$(perl_meta_build)
@@ -55,4 +59,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="broken"
+SRC_TEST="do"
