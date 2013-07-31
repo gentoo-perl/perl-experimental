@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2013; Kent Fredric <kentfredric@gmail.com>
+  -Authen-Passphrase-0.6.0.ebuild, -Authen-Passphrase-0.7.0.ebuild:
+  [trim] Old versions of Authen-Passphrase
+
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Authen-Passphrase-0.6.0.ebuild, Authen-Passphrase-0.7.0.ebuild:
   Fix dependency on Digest-MD4 ( normalize )
@@ -45,4 +49,3 @@
   14 Aug 2009; Kent Fredric <kentfredric@gmail.com>
   +Authen-Passphrase-0.006.ebuild, +metadata.xml:
   Added
-
