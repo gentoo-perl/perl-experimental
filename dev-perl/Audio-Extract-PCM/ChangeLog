@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2013; Kent Fredric <kentfredric@gmail.com>
+  Audio-Extract-PCM-0.40.0.ebuild:
+  [fixup] Audio-Extract-PCM EAPI=5, SRC_TEST=parallel
+
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Audio-Extract-PCM-0.40.0.ebuild, Audio-Extract-PCM-0.45.900_rc.ebuild:
   Fix dependency on IO-CaptureOutput ( normalize )
@@ -29,4 +33,3 @@
   15 Oct 2009; Kent Fredric <kentfredric@gmail.com>
   +Audio-Extract-PCM-0.04.ebuild, +metadata.xml:
   Added
-
