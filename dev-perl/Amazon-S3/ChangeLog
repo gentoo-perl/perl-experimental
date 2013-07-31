@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Amazon-S3
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  31 Jul 2013; Kent Fredric <kentfredric@gmail.com> Amazon-S3-0.450.0.ebuild:
+  EAPI=5, SRC_TEST=parallel
 
 *Amazon-S3-0.450.0 (12 Apr 2011)
 
