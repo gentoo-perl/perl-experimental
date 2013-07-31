@@ -1,8 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=CMOORE
 MODULE_VERSION=0.0932
@@ -26,4 +26,4 @@ DEPEND="${RDEPEND}
 		dev-perl/Test-Pod
 		dev-perl/Test-Pod-Coverage )"
 
-SRC_TEST=do
+SRC_TEST="do parallel"
