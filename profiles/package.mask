@@ -1,4 +1,4 @@
-# Kent Fredric <kentfredric@gmail.com> (16 Sep 2011)
+# Kent Fredric <kentfredric@gmail.com> (16 Sep 2012)
 # Requires things presently not available and thus I haven't tested yet.
 # Will unmask sometime after =dev-perl/glib-perl-1.270.0 hits tree.
 =dev-perl/Glib-Object-Introspection-0.12.0
