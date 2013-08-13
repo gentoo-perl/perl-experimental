@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> (12 August 2012)
+# Early versions of Perl 5.18 which need testing.
+>=dev-lang/perl-5.18.0
+
 # Kent Fredric <kentfredric@gmail.com> (16 Sep 2012)
 # Requires things presently not available and thus I haven't tested yet.
 # Will unmask sometime after =dev-perl/glib-perl-1.270.0 hits tree.
