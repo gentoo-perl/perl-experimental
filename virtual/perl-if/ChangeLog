@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-if-0.60.100-r3 (13 Aug 2013)
+
+  13 Aug 2013; Kent Fredric <kentfredric@gmail.com>
+  +perl-if-0.60.100-r3.ebuild:
+  fixup perl-if-0.60.100{-r3} as it never was in perl-5.16*
+
 *perl-if-0.60.200 (13 Aug 2013)
 
   13 Aug 2013; Kent Fredric <kentfredric@gmail.com> +perl-if-0.60.200.ebuild:
