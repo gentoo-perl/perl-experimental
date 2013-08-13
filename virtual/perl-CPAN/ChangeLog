@@ -1,6 +1,11 @@
 # ChangeLog for virtual/perl-CPAN
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*perl-CPAN-2.0.0 (13 Aug 2013)
+
+  13 Aug 2013; Kent Fredric <kentfredric@gmail.com> +perl-CPAN-2.0.0.ebuild:
+  [virtual] +perl-CPAN-2.0.0 for v5.18*
 
 *perl-CPAN-1.980.0-r1 (31 Jul 2012)
 
@@ -73,4 +78,3 @@
 
   24 May 2009; Kent Fredric <kentfredric@gmail.com> +perl-CPAN-1.94.ebuild:
   Bumped
-
