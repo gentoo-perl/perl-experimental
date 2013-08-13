@@ -1,6 +1,11 @@
 # ChangeLog for virtual/perl-Carp
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*perl-Carp-1.290.0 (13 Aug 2013)
+
+  13 Aug 2013; Kent Fredric <kentfredric@gmail.com> +perl-Carp-1.290.0.ebuild:
+  [virtual] +perl-Carp-1.290.0 for v5.18*
 
 *perl-Carp-1.260.0 (11 Aug 2012)
 *perl-Carp-1.200.0 (11 Aug 2012)
@@ -12,4 +17,3 @@
   +perl-Carp-1.110.0.ebuild, +perl-Carp-1.170.0.ebuild,
   +perl-Carp-1.200.0.ebuild, +perl-Carp-1.260.0.ebuild, +metadata.xml:
   Added, Data-Handle (projects/kentnl/master) needs Carp >=1.220.0
-
