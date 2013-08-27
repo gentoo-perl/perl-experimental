@@ -2,6 +2,10 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-perl/Capture-Tiny/ChangeLog,v 1.32 2013/01/08 18:35:03 tove Exp $
 
+  27 Aug 2013; Kent Fredric <kentfredric@gmail.com>
+  -Capture-Tiny-0.170.0.ebuild, -Capture-Tiny-0.210.0.ebuild:
+  Removing version now in ::gentoo
+
 *Capture-Tiny-0.220.0 (18 Jun 2013)
 
   18 Jun 2013; Kent Fredric <kentfredric@gmail.com>
