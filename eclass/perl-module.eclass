@@ -28,7 +28,7 @@ case "${EAPI:-0}" in
 
 		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
 			yes)
-				DEPEND="dev-lang/perl[-build]"
+				DEPEND="( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )"
 				RDEPEND="${DEPEND}"
 				;;
 		esac
