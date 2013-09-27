@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/HTTP-Tiny-Mech
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*HTTP-Tiny-Mech-0.1.3 (27 Sep 2013)
+
+  27 Sep 2013; Pavel Denisov <pavel.a.denisov@gmail.com>
+  +HTTP-Tiny-Mech-0.1.3.ebuild, +metadata.xml:
+  Added for scripts/gen_ebuild.pl
+
