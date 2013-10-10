@@ -8,6 +8,7 @@
     </maintainer>
     <upstream>
         <remote-id type="cpan">Catalyst-View-Download</remote-id>
+        <remote-id type="cpan-module">Catalyst::Helper::View::Download</remote-id>
         <remote-id type="cpan-module">Catalyst::View::Download</remote-id>
         <remote-id type="cpan-module">Catalyst::View::Download::CSV</remote-id>
         <remote-id type="cpan-module">Catalyst::View::Download::HTML</remote-id>

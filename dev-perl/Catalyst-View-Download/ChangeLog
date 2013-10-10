@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-View-Download
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-View-Download-0.90.0 (10 Oct 2013)
+
+  10 Oct 2013; Kent Fredric <kentfredric@gmail.com>
+  +Catalyst-View-Download-0.90.0.ebuild, metadata.xml:
+  Version Bump
 
 *Catalyst-View-Download-0.70.0 (11 Nov 2011)
 
