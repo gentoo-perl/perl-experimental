@@ -2,6 +2,9 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Oct 2013; Kent Fredric <kentfredric@gmail.com> -Data-Rx-0.100.110.ebuild:
+  Gone on CPAN
+
 *Data-Rx-0.200.4 (10 Oct 2013)
 
   10 Oct 2013; Kent Fredric <kentfredric@gmail.com> +Data-Rx-0.200.4.ebuild:
