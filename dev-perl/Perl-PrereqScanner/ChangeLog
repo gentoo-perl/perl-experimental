@@ -3,6 +3,10 @@
 # $Header: $
 
   11 Oct 2013; Kent Fredric <kentfredric@gmail.com>
+  -Perl-PrereqScanner-0.101.890.ebuild:
+  Removing versions with deprecated EAPIs
+
+  11 Oct 2013; Kent Fredric <kentfredric@gmail.com>
   -Perl-PrereqScanner-1.13.0.ebuild:
   Gone on CPAN
 
