@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Module-Path
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Path-0.90.0 (11 Oct 2013)
+
+  11 Oct 2013; Kent Fredric <kentfredric@gmail.com> +Module-Path-0.90.0.ebuild,
+  +metadata.xml:
+  Added for Perl::PrereqScanner
+
