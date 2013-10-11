@@ -3,6 +3,10 @@
 # $Header: $
 
   11 Oct 2013; Kent Fredric <kentfredric@gmail.com>
+  -Data-Section-0.101.620.ebuild:
+  Remove old EAPI versions
+
+  11 Oct 2013; Kent Fredric <kentfredric@gmail.com>
   -Data-Section-0.100.770.ebuild:
   Gone on CPAN
 
