@@ -2,6 +2,12 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Dist-Zilla-App-Command-dumpphases-0.3.4 (11 Oct 2013)
+
+  11 Oct 2013; Kent Fredric <kentfredric@gmail.com>
+  +Dist-Zilla-App-Command-dumpphases-0.3.4.ebuild, metadata.xml:
+  Version Bump
+
   08 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   -Dist-Zilla-App-Command-dumpphases-0.1.0.ebuild:
   Gone on CPAN

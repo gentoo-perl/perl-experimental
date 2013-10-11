@@ -9,5 +9,11 @@
     <upstream>
         <remote-id type="cpan">Dist-Zilla-App-Command-dumpphases</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::App::Command::dumpphases</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::dumpphases::Role::Theme</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::dumpphases::Role::Theme::SimpleColor</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::dumpphases::Theme::basic::blue</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::dumpphases::Theme::basic::green</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::dumpphases::Theme::basic::plain</remote-id>
+        <remote-id type="cpan-module">Dist::Zilla::dumpphases::Theme::basic::red</remote-id>
     </upstream>
 </pkgmetadata>
