@@ -14,6 +14,7 @@
         <remote-id type="cpan-module">Perl::PrereqScanner::Scanner::Moose</remote-id>
         <remote-id type="cpan-module">Perl::PrereqScanner::Scanner::POE</remote-id>
         <remote-id type="cpan-module">Perl::PrereqScanner::Scanner::Perl5</remote-id>
+        <remote-id type="cpan-module">Perl::PrereqScanner::Scanner::Superclass</remote-id>
         <remote-id type="cpan-module">Perl::PrereqScanner::Scanner::TestMore</remote-id>
     </upstream>
 </pkgmetadata>
