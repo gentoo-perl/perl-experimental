@@ -2,6 +2,11 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Future-0.190.0 (14 Oct 2013)
+
+  14 Oct 2013; Kent Fredric <kentfredric@gmail.com> +Future-0.190.0.ebuild:
+  Version Bump
+
   15 May 2013; Kent Fredric <kentfredric@gmail.com> +Future-0.130.0.ebuild:
   Version Bump
 
