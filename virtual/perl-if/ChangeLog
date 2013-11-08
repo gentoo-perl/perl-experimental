@@ -2,6 +2,9 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Nov 2013; Kent Fredric <kentfredric@gmail.com> -perl-if-0.60.200.ebuild:
+  In gentoo
+
 *perl-if-0.60.100-r3 (13 Aug 2013)
 
   13 Aug 2013; Kent Fredric <kentfredric@gmail.com>
