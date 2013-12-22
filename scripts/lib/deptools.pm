@@ -151,8 +151,10 @@ sub provider_map {
       $specialvs->set_newest_mod( $provider->distribution, $mod );
       $specialvs->set_oldest_mod( $provider->distribution, $mod );
 
-      if ( $wanted->no_version_dep or $mod->version >= $wanted->version ) {
-        $specialvs->set_closest_mod( $provider->distribution, $mod );
+      if ( $wanted->version_string !~ /[<=>!]/ ) {
+        if ( $wanted->no_version_dep or $mod->version >= $wanted->version ) {
+          $specialvs->set_closest_mod( $provider->distribution, $mod );
+        }
       }
 
       push @provided_matching_mods, $mod->debug_string
@@ -191,11 +193,19 @@ sub get_dep_phases {
     $phases{$phase}   //= [];
     $modules{$module} //= [];
 
-    require Gentoo::PerlMod::Version;
-    my $v = Gentoo::PerlMod::Version::gentooize_version( $dep->{version}, { lax => 1 } );
+    if ( $dep->{version} !~ /[<=>!]/ ) {
+      require Gentoo::PerlMod::Version;
+      my $v = Gentoo::PerlMod::Version::gentooize_version( $dep->{version}, { lax => 1 } );
 
-    push @{ $phases{$phase} }, [ $dep->{module}, $dep->{version}, $v, $dep->{relationship} ];
-    push @{ $modules{$module} }, [ $dep->{version}, $v, $dep->{phase}, $dep->{relationship} ];
+      push @{ $phases{$phase} }, [ $dep->{module}, $dep->{version}, $v, $dep->{relationship} ];
+      push @{ $modules{$module} }, [ $dep->{version}, $v, $dep->{phase}, $dep->{relationship} ];
+    }
+    else {
+      push @{ $phases{$phase} }, [ $dep->{module}, $dep->{version}, "??? " . $dep->{version}, $dep->{relationship} ];
+      push @{ $modules{$module} }, [ $dep->{version}, "??? " . $dep->{version}, $dep->{phase}, $dep->{relationship} ];
+
+    }
+
   }
   return { phases => \%phases, modules => \%modules };
 }
