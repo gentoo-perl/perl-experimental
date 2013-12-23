@@ -178,6 +178,9 @@ my $oddlic = {
   },
 };
 
+if ( not ref $release_info->{license} ) {
+    $release_info->{license} = [ $release_info->{license} ];
+}
 for my $lic ( @{ $release_info->{license} } ) {
   if ( exists $licmap->{$lic} ) {
     push @$lics, @{ $licmap->{$lic} };
