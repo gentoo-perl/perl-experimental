@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <herd>perl</herd>
+    <maintainer>
+        <email>pavel.a.denisov@gmail.com</email>
+        <name>Pavel Denisov</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="cpan">URL-Encode</remote-id>
+        <remote-id type="cpan-module">URL::Encode</remote-id>
+        <remote-id type="cpan-module">URL::Encode::PP</remote-id>
+    </upstream>
+</pkgmetadata>
