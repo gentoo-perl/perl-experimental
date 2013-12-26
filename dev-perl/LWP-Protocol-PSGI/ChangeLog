@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/LWP-Protocol-PSGI
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*LWP-Protocol-PSGI-0.60.0 (26 Dec 2013)
+
+  26 Dec 2013; Pavel Denisov <pavel.a.denisov@gmail.com>
+  +LWP-Protocol-PSGI-0.60.0.ebuild, +metadata.xml:
+  Added for Dancer2
+
