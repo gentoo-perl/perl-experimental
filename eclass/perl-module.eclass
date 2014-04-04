@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.134 2012/09/15 16:16:53 zmedico Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.139 2014/03/30 19:25:14 zlogene Exp $
 
 # @ECLASS: perl-module.eclass
 # @MAINTAINER:
@@ -12,7 +12,7 @@
 # The perl-module eclass is designed to allow easier installation of perl
 # modules, and their incorporation into the Gentoo Linux system.
 
-inherit eutils base multiprocessing
+inherit eutils multiprocessing unpacker
 [[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
 PERL_EXPF="src_unpack src_compile src_test src_install"
@@ -27,10 +27,24 @@ case "${EAPI:-0}" in
 			PERL_EXPF+=" pkg_postinst pkg_postrm"
 
 		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
-			yes)
-				DEPEND="|| ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )"
-				RDEPEND="${DEPEND}"
+		yes)
+			case "${EAPI:-0}" in
+			5)
+				case "${GENTOO_DEPEND_ON_PERL_SUBSLOT:-yes}" in
+				yes)
+					DEPEND="dev-lang/perl:=[-build(-)]"
+					;;
+				*)
+					DEPEND="dev-lang/perl[-build(-)]"
+					;;
+				esac
 				;;
+			*)
+				DEPEND="|| ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )"
+				;;
+			esac
+			RDEPEND="${DEPEND}"
+			;;
 		esac
 		;;
 	*)
@@ -75,13 +89,16 @@ perlinfo_done=false
 
 perl-module_src_unpack() {
 	debug-print-function $FUNCNAME "$@"
-	base_src_unpack
+	unpacker_src_unpack
 	has src_prepare ${PERL_EXPF} || perl-module_src_prepare
 }
 
 perl-module_src_prepare() {
 	debug-print-function $FUNCNAME "$@"
-	has src_prepare ${PERL_EXPF} && base_src_prepare
+	has src_prepare ${PERL_EXPF} && \
+	[[ ${PATCHES[@]} ]] && epatch "${PATCHES[@]}"
+	debug-print "$FUNCNAME: applying user patches"
+	epatch_user
 	perl_fix_osx_extra
 	esvn_clean
 }
@@ -162,7 +179,7 @@ perl-module_src_compile() {
 		local mymake_local=("${mymake[@]}")
 	fi
 
-	if [[ ( ${PREFER_BUILDPL} == yes || ! -f Makefile ) && -f Build ]] ; then
+	if [[ -f Build ]] ; then
 		./Build build \
 			|| die "Compilation failed"
 	elif [[ -f Makefile ]] ; then
