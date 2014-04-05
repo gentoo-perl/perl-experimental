@@ -13,6 +13,7 @@
         <remote-id type="cpan-module">App::Cmd::Command</remote-id>
         <remote-id type="cpan-module">App::Cmd::Command::commands</remote-id>
         <remote-id type="cpan-module">App::Cmd::Command::help</remote-id>
+        <remote-id type="cpan-module">App::Cmd::Command::version</remote-id>
         <remote-id type="cpan-module">App::Cmd::Plugin</remote-id>
         <remote-id type="cpan-module">App::Cmd::Setup</remote-id>
         <remote-id type="cpan-module">App::Cmd::Simple</remote-id>
