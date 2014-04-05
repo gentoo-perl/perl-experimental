@@ -30,12 +30,14 @@ EXPORT_FUNCTIONS ${PERLMB_EXPF};
 
 perl-mb-tiny_src_unpack() {
 	debug-print-function $FUNCNAME "$@"
-	base_src_unpack
+	unpacker_src_unpack
 }
 
 perl-mb-tiny_src_prepare() {
 	debug-print-function $FUNCNAME "$@"
-	base_src_prepare
+	[[ ${PATCHES[@]} ]] && epatch "${PATCHES[@]}"
+	debug-print "$FUNCNAME: applying user patches"
+	epatch_user
 	perl_fix_osx_extra
 	esvn_clean
 }
