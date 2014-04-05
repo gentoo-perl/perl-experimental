@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/FindBin-libs
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  05 Apr 2014; Kent Fredric <kentfredric@gmail.com>
+  -FindBin-libs-1.700.0.ebuild:
+  Gone on CPAN
 
 *FindBin-libs-1.800.0 (14 Oct 2013)
 
