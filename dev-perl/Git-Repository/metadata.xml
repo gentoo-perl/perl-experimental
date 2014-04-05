@@ -6,10 +6,7 @@
                 <remote-id type="cpan">Git-Repository</remote-id>
                 <remote-id type="cpan-module">Git::Repository</remote-id>
                 <remote-id type="cpan-module">Git::Repository::Command</remote-id>
-                <remote-id type="cpan-module">Git::Repository::Log</remote-id>
-                <remote-id type="cpan-module">Git::Repository::Log::Iterator</remote-id>
                 <remote-id type="cpan-module">Git::Repository::Plugin</remote-id>
-                <remote-id type="cpan-module">Git::Repository::Plugin::Log</remote-id>
                 <remote-id type="cpan-module">Test::Git</remote-id>
         </upstream>
 </pkgmetadata>
