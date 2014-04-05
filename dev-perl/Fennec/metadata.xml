@@ -9,16 +9,14 @@
 	<upstream>
 		<remote-id type="cpan">Fennec</remote-id>
 		<remote-id type="cpan-module">Fennec</remote-id>
+		<remote-id type="cpan-module">Fennec::Collector</remote-id>
+		<remote-id type="cpan-module">Fennec::Collector::TB</remote-id>
+		<remote-id type="cpan-module">Fennec::Collector::TB::TempFiles</remote-id>
+		<remote-id type="cpan-module">Fennec::EndRunner</remote-id>
 		<remote-id type="cpan-module">Fennec::Finder</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener::TB</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener::TB2</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener::TB::Collector</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener::TB::Handle</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener::TB::Result</remote-id>
-		<remote-id type="cpan-module">Fennec::Listener::TBWin32</remote-id>
 		<remote-id type="cpan-module">Fennec::Meta</remote-id>
 		<remote-id type="cpan-module">Fennec::Runner</remote-id>
+		<remote-id type="cpan-module">Fennec::Test</remote-id>
 		<remote-id type="cpan-module">Fennec::Util</remote-id>
 		<remote-id type="cpan-module">Test::Workflow</remote-id>
 		<remote-id type="cpan-module">Test::Workflow::Block</remote-id>
