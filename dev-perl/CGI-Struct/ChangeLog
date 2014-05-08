@@ -1,0 +1,16 @@
+# ChangeLog for dev-perl/CGI-Struct
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Struct-1.210.0 (08 May 2014)
+
+  08 May 2014; Michele Beltrame <m@cattlegrid.info> +CGI-Struct-1.210.0.ebuild,
+  +metadata.xml:
+  Add CGI-Struct
+
+*JSON-MaybeXS-1.2.2 (08 May 2014)
+
+  08 May 2014; Michele Beltrame <m@cattlegrid.info> +JSON-MaybeXS-1.2.2.ebuild,
+  +metadata.xml:
+  Add JSON-MaybeXS:x
+
