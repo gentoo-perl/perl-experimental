@@ -11,7 +11,6 @@ LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-#extra_conflicts() { }
 perl_meta_configure() {
 	# ExtUtils::MakeMaker
 	echo virtual/perl-ExtUtils-MakeMaker
@@ -29,7 +28,6 @@ perl_meta_runtime() {
 	echo \>=dev-lang/perl-5.6.0
 }
 DEPEND="
-	$(extra_conflicts)
 	$(perl_meta_configure)
 	$(perl_meta_build)
 	$(perl_meta_runtime)
