@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Dancer2-Session-Cookie
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Dancer2-Session-Cookie-0.5.0 (21 Jun 2014)
+
+  21 Jun 2014; Pavel Denisov <pavel.a.denisov@gmail.com>
+  +Dancer2-Session-Cookie-0.5.0.ebuild, +metadata.xml:
+  Added
+
