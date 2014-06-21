@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Paginator-Lite
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Paginator-Lite-2.0.7 (21 Jun 2014)
+
+  21 Jun 2014; Pavel Denisov <pavel.a.denisov@gmail.com>
+  +Paginator-Lite-2.0.7.ebuild, +metadata.xml:
+  Added for Dancer2::Plugin::Paginator
+
