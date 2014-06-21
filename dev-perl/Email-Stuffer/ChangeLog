@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Email-Stuffer
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Email-Stuffer-0.9.0 (21 Jun 2014)
+
+  21 Jun 2014; Pavel Denisov <pavel.a.denisov@gmail.com>
+  +Email-Stuffer-0.9.0.ebuild, +metadata.xml:
+  Added for Dancer2::Plugin::Emailesque
+
