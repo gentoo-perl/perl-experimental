@@ -1,3 +1,12 @@
+# Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
+# Depends on old version of Date-Manip which is no longer available in portage since
+# 11 Jun 2014, and upstream are unresponsive.
+# Presently unresolvable as lots of things need the newer version, which has a new ABI
+# Unmask if upstream fixes Time-Format.
+# Trim these modules from tree if this problem exists after Jul 2015
+<=dev-perl/Time-Format-0.80.0
+<=dev-perl/Weather-Com-2.0.0
+
 # Kent Fredric <kentfredric@gmail.com> (12 August 2012)
 # Early versions of Perl 5.18 which need testing.
 >=dev-lang/perl-5.18.0
