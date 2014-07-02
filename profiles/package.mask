@@ -7,36 +7,6 @@
 <=dev-perl/Time-Format-0.80.0
 <=dev-perl/Weather-Com-2.0.0
 
-# Kent Fredric <kentfredric@gmail.com> (12 August 2012)
-# Early versions of Perl 5.18 which need testing.
->=dev-lang/perl-5.18.0
-=virtual/perl-Attribute-Handlers-0.940.0
-=virtual/perl-CPAN-2.0.0
-=virtual/perl-Devel-PPPort-3.200.0-r2
-=virtual/perl-Dumpvalue-1.170.0-r1
-=virtual/perl-ExtUtils-Constant-0.230.0-r3
-=virtual/perl-File-Temp-0.230.0
-=virtual/perl-Filter-Simple-0.890.0
-=virtual/perl-IO-Zlib-1.100.0-r3
-=virtual/perl-Locale-Maketext-Simple-0.210.0-r3
-=virtual/perl-MIME-Base64-3.130.0-r3
-=virtual/perl-Math-BigInt-FastCalc-0.300.0-r2
-=virtual/perl-Math-Complex-1.590.0-r2
-=virtual/perl-Module-Loaded-0.80.0-r2
-=virtual/perl-Package-Constants-0.20.0-r3
-=virtual/perl-Perl-OSType-1.3.0
-=virtual/perl-Pod-Escapes-1.40.0-r3
-=virtual/perl-Test-Simple-0.980.0-r3
-=virtual/perl-Text-Balanced-2.20.0-r3
-=virtual/perl-Text-ParserWords-3.280.0-r1
-=virtual/perl-Tie-RefHash-1.390.0-r1
-=virtual/perl-Time-HiRes-1.972.500-r2
-=virtual/perl-digest-base-1.170.0-r2
-=virtual/perl-if-0.60.200
-=virtual/perl-libnet-1.220.0-r2
-=virtual/perl-parent-0.225.0-r4
-=virtual/perl-threads-1.860.0-r2
-
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
@@ -49,14 +19,8 @@ perl-core/Devel-DProf
 virtual/perl-Devel-DProf
 perl-core/SelfLoader
 virtual/perl-SelfLoader
-perl-core/Dumpvalue
-virtual/perl-Dumpvalue
-perl-core/Filter-Simple
-virtual/perl-Filter-Simple
 perl-core/Devel-SelfStubber
 virtual/perl-Devel-SelfStubber
-perl-core/if
-virtual/perl-if
 perl-core/IPC-SysV
 virtual/perl-IPC-SysV
 perl-core/NEXT
@@ -69,5 +33,3 @@ perl-core/Unicode-Collate
 virtual/perl-Unicode-Collate
 perl-core/Unicode-Normalize
 virtual/perl-Unicode-Normalize
-perl-core/Math-Complex
-virtual/perl-Math-Complex
