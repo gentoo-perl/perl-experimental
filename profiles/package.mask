@@ -72,10 +72,6 @@
 # Packages only available in 5.14.0 and 5.14.1
 =virtual/perl-Data-Dumper-2.130.20_rc
 
-# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
-# Packages only available in 5.14.1
-=virtual/perl-Module-CoreList-2.490.100_rc
-
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
