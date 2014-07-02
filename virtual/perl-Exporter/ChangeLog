@@ -1,6 +1,10 @@
 # ChangeLog for virtual/perl-Exporter
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Exporter-5.640.300_rc.ebuild:
+  Clean old 5.14 virtuals
 
   08 Nov 2013; Kent Fredric <kentfredric@gmail.com>
   -perl-Exporter-5.680.0.ebuild:
