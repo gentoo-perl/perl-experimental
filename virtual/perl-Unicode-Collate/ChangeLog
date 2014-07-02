@@ -1,6 +1,10 @@
 # ChangeLog for virtual/perl-Unicode-Collate
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Unicode-Collate-0.520.0.ebuild:
+  Remove old 5.10-only virtuals
 
   24 Feb 2013; Kent Fredric <kentfredric@gmail.com>
   -perl-Unicode-Collate-0.930.0.ebuild:
