@@ -1,6 +1,10 @@
 # ChangeLog for virtual/perl-Pod-Plainer
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Pod-Plainer-1.10.0.ebuild:
+  Remove old 5.10-only virtuals
 
 *perl-Pod-Plainer-1.30.0 (03 Apr 2011)
 *perl-Pod-Plainer-1.20.0 (03 Apr 2011)
