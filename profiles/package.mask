@@ -55,19 +55,6 @@
 =virtual/perl-Unicode-Collate-0.520.0
 =virtual/perl-Socket-1.820.0
 
-# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
-# Packages only available in 5.14.x
-=virtual/perl-i18n-langtags-0.350.100_rc
-=virtual/perl-i18n-langtags-0.350.100_rc-r1
-=virtual/perl-ExtUtils-MakeMaker-6.570.500_rc
-# =virtual/perl-File-Path-2.80.100_rc # 5.12.{0-4} also
-# =virtual/perl-IO-1.250.400_rc # 5.12.{0-4} also
-# =virtual/perl-Test-1.250.200_rc # 5.12.{0-4} also
-=virtual/perl-Time-HiRes-1.972.101_rc
-=virtual/perl-Time-Piece-1.200.100_rc
-=virtual/perl-Exporter-5.640.300_rc
-=virtual/perl-Socket-1.940.0
-
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
