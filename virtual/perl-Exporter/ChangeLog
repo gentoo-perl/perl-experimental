@@ -3,6 +3,10 @@
 # $Header: $
 
   02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Exporter-5.580.0.ebuild:
+  Remove old 5.8-only virtuals
+
+  02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
   -perl-Exporter-5.640.300_rc.ebuild:
   Clean old 5.14 virtuals
 
