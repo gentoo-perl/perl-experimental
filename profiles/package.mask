@@ -76,12 +76,6 @@
 # Packages only available in 5.14.1
 =virtual/perl-Module-CoreList-2.490.100_rc
 
-# Kent Fredric <kentfredric@gmail.com> (01 Nov 2011)
-# Packages only available in 5.14.2
-=virtual/perl-Encode-2.420.100_rc
-=virtual/perl-CPAN-1.960.1_rc
-=virtual/perl-Module-CoreList-2.490.200_rc
-
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
