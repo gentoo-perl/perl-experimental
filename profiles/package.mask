@@ -37,12 +37,6 @@
 =virtual/perl-parent-0.225.0-r4
 =virtual/perl-threads-1.860.0-r2
 
-# Kent Fredric <kentfredric@gmail.com> (16 Sep 2012)
-# Requires things presently not available and thus I haven't tested yet.
-# Will unmask sometime after =dev-perl/glib-perl-1.270.0 hits tree.
-=dev-perl/Glib-Object-Introspection-0.12.0
-=dev-perl/Gtk3-0.8.0
-
 # Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
