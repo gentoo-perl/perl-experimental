@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -12,6 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND=">=perl-core/Test-Simple-0.47
+DEPEND="
+	>=virtual/perl-Test-Simple-0.47
 	>=dev-perl/Test-Exception-0.15
 	>=dev-perl/Tree-Simple-1.12"
