@@ -1,0 +1,9 @@
+# ChangeLog for dev-perl/Daemon-Control
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Daemon-Control-0.1.6 (21 Jun 2014)
+
+  21 Jul 2014; mudler <mudler@dark-lab.net>
+  +Daemon-Control-0.1.6.ebuild, +metadata.xml:
+  [added] Daemon::Control
