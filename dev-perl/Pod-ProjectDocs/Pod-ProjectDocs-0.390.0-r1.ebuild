@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -14,7 +14,7 @@ IUSE=""
 # https://rt.cpan.org/Ticket/Display.html?id=60373
 #IUSE="+highlight"
 COMMON_DEPEND="
-	>=virtual/perl-PodParser-1.32
+	>=virtual/perl-Pod-Parser-1.32
 	dev-perl/Class-Accessor
 	dev-perl/Class-Data-Inheritable
 	virtual/perl-File-Spec
