@@ -1,9 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
 MODULE_AUTHOR=FANGLY
-MODULE_VERSION=0.3.6
+MODULE_VERSION=0.3.7
 inherit perl-module
 
 DESCRIPTION='Executable Uniform Command-Line Interface Descriptions'
@@ -19,7 +19,7 @@ perl_meta_build() {
 	# ExtUtils::MakeMaker 6.36 ( 6.360.0 )
 	echo " || ( virtual/perl-Module-Build >=virtual/perl-ExtUtils-MakeMaker-6.36 )"
 	# Pod::Checker
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# Test::More
 	echo virtual/perl-Test-Simple
 }
@@ -31,9 +31,9 @@ perl_meta_runtime() {
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Pod::PlainText
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# Pod::Select
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# Text::Balanced
 	echo virtual/perl-Text-Balanced
 	# perl 5.005 ( 5.5.0 )
