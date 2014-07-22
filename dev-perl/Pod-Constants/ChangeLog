@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Pod-Constants
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Pod-Constants-0.160.0-r1 (22 Jul 2014)
+
+  22 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Pod-Constants-0.160.0.ebuild, +Pod-Constants-0.160.0-r1.ebuild:
+  PodParser -> Pod-Parser
 
   05 Nov 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
   Update metadata
