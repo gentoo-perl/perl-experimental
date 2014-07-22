@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	dev-perl/Pod-Coverage $(comment Pod::Coverage::COuntParents)
 	dev-perl/Pod-Eventual $(comment Pod::Eventual::Simple)
-	virtual/perl-PodParser $(comment Pod::Find)
+	virtual/perl-Pod-Parser $(comment Pod::Find)
 "
 DEPEND="
 	${COMMON_DEPEND}
