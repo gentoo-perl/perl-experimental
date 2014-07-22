@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -28,7 +28,7 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-Test-Simple-0.60
 }
 DEPEND="
-	!<perl-core/PodParser-1.600.0
+	!<perl-core/Pod-Parser-1.600.0
 	$(perl_meta_configure)
 	$(perl_meta_build)
 	$(perl_meta_runtime)
