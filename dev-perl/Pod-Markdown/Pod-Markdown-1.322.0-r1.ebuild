@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# Pod::ParseLink 1.10 ( 1.100.0 )
 	echo \>=virtual/perl-podlators-1.100.0
 	# Pod::Parser
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# parent
 	echo virtual/perl-parent
 	# perl 5.008 ( 5.8.0 )
