@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -31,7 +31,7 @@ perl_meta_runtime() {
 	# Object::Tiny
 	echo dev-perl/Object-Tiny
 	# Pod::Usage
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# autodie 2.00 ( 2.0.0 )
 	echo \>=virtual/perl-autodie-2.0.0
 	# perl 5.010 ( 5.10.0 )

@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/App-mymeta_requires
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*App-mymeta_requires-0.3.0-r1 (22 Jul 2014)
+*App-mymeta_requires-0.2.0-r1 (22 Jul 2014)
+
+  22 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -App-mymeta_requires-0.2.0.ebuild, +App-mymeta_requires-0.2.0-r1.ebuild,
+  -App-mymeta_requires-0.3.0.ebuild, +App-mymeta_requires-0.3.0-r1.ebuild:
+  PodParser -> Pod-Parser
 
 *App-mymeta_requires-0.5.0 (26 Apr 2013)
 
