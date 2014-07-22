@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/PDF-API2
 	virtual/perl-Pod-Escapes
 	virtual/perl-podlators
-	virtual/perl-PodParser
+	virtual/perl-Pod-Parser
 	dev-perl/File-Type
 	dev-perl/ImageSize
 "

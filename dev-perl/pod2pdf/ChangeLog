@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/pod2pdf
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*pod2pdf-0.42-r1 (22 Jul 2014)
+
+  22 Jul 2014; Kent Fredric <kentfredric@gmail.com> -pod2pdf-0.42.ebuild,
+  +pod2pdf-0.42-r1.ebuild:
+  PodParser -> Pod-Parser
 
 *pod2pdf-0.42 (06 Nov 2010)
 
