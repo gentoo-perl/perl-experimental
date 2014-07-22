@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# Parse::RecDescent 1.967006 ( 1.967.6 )
 	echo \>=dev-perl/Parse-RecDescent-1.967.6
 	# Pod::Usage 1 ( 1.0.0 )
-	echo \>=virtual/perl-PodParser-1.0.0
+	echo \>=virtual/perl-Pod-Parser-1.0.0
 	# Scalar::Util 1.02 ( 1.20.0 )
 	echo \>=virtual/perl-Scalar-List-Utils-1.20.0
 	# perl 5.006 ( 5.6.0 )
