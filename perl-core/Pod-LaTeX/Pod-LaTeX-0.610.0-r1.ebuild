@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -21,13 +21,13 @@ perl_meta_build() {
 }
 perl_meta_runtime() {
 	# Pod::Find
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# Pod::ParseUtils 0.3 ( 0.300.0 )
-	echo \>=virtual/perl-PodParser-0.300.0
+	echo \>=virtual/perl-Pod-Parser-0.300.0
 	# Pod::Parser
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# Pod::Select
-	echo virtual/perl-PodParser
+	echo virtual/perl-Pod-Parser
 	# if
 	# echo virtual/perl-if
 }
