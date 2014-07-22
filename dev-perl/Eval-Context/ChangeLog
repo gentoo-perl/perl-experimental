@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Eval-Context
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Eval-Context-0.9.11 (22 Jul 2014)
+
+  22 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Eval-Context-0.09.11.ebuild, +Eval-Context-0.9.11.ebuild:
+  Update EAPI and deps, mark tests as presently broken till upstream fixes a
+  bug
 
 *Eval-Context-0.09.11 (19 Jun 2010)
 

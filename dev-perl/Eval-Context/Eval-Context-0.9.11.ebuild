@@ -1,10 +1,10 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
-
+EAPI=5
 MODULE_AUTHOR=NKH
+MODULE_VERSION=0.09.11
 inherit perl-module
 
 DESCRIPTION="Evalute perl code in context wrapper"
@@ -20,8 +20,8 @@ RDEPEND="dev-perl/Readonly
 	dev-perl/Data-TreeDumper
 	dev-perl/File-Slurp
 	dev-perl/Sub-Install
-	>=virtual/perl-Safe-2.16
-	>=virtual/perl-version-0.50
+	>=virtual/perl-Safe-2.160.0
+	>=virtual/perl-version-0.500.0
 	dev-perl/Data-TreeDumper
 "
 DEPEND="
@@ -35,5 +35,5 @@ DEPEND="
 	dev-perl/Directory-Scratch-Structured
 	dev-perl/Test-Output
 "
-
-SRC_TEST=do
+# https://rt.cpan.org/Ticket/Display.html?id=86017
+SRC_TEST=broken
