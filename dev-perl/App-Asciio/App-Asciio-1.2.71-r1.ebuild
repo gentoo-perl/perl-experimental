@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -33,7 +33,7 @@ RDEPEND="dev-perl/gtk2-perl
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
 	virtual/perl-Test-Simple
-	virtual/perl-PodParser
+	virtual/perl-Pod-Parser
 	test? (
 		dev-perl/Test-NoWarnings
 		dev-perl/Test-Warn
