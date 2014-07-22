@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -17,7 +17,7 @@ perl_meta_configure() {
 }
 perl_meta_build() {
 	# Pod::Parser 1.36 ( 1.360.0 )
-	echo \>=virtual/perl-PodParser-1.360.0
+	echo \>=virtual/perl-Pod-Parser-1.360.0
 	# Test::More
 	echo virtual/perl-Test-Simple
 }
