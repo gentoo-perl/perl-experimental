@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -73,7 +73,7 @@ perl_meta_runtime() {
 	# NEXT 0.64 ( 0.640.0 )
 	echo \>=virtual/perl-NEXT-0.640.0
 	# Pod::Usage 1.36 ( 1.360.0 )
-	echo \>=virtual/perl-PodParser-1.360.0
+	echo \>=virtual/perl-Pod-Parser-1.360.0
 	# SQL::Translator 0.11006 ( 0.110.60 )
 	echo \>=dev-perl/SQL-Translator-0.110.60
 	# Scalar::Util 1.22 ( 1.220.0 )
