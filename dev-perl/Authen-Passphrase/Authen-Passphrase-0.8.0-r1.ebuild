@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -55,7 +55,7 @@ perl_meta_runtime() {
 	# Data::Entropy::Algorithms
 	echo dev-perl/Data-Entropy
 	# Digest 1.00 ( 1.0.0 )
-	echo \>=virtual/perl-digest-base-1.0.0
+	echo \>=virtual/perl-Digest-1.0.0
 	# Digest::MD4 1.2 ( 1.200.0 )
 	echo \>=dev-perl/Digest-MD4-1.200.0
 	# Digest::MD5 1.9953 ( 1.995.300 )
