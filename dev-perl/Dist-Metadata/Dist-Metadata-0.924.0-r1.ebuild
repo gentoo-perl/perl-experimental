@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=RWSTAUNER
-MODULE_VERSION=0.925
+MODULE_VERSION=0.924
 inherit perl-module
 
 DESCRIPTION='Information about a perl module distribution'
@@ -26,12 +26,12 @@ perl_meta_runtime() {
 	echo \>=virtual/perl-CPAN-Meta-2.100.0
 	# Carp
 	echo dev-lang/perl
-	# Digest 1.03 ( 1.30.0 )
-	echo \>=virtual/perl-digest-base-1.30.0
+	# Digest 1 ( 1.0.0 )
+	echo \>=virtual/perl-Digest-1.0.0
 	# Digest::MD5 2 ( 2.0.0 )
 	echo \>=virtual/perl-Digest-MD5-2.00
 	# Digest::SHA 5 ( 5.0.0 )
-	echo \>=virtual/perl-Digest-SHA-5.0.0
+	echo \>=virtual/perl-Digest-SHA-5.00
 	# File::Basename
 	echo dev-lang/perl
 	# File::Find

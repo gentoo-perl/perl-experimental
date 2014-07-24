@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Dist-Metadata
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Dist-Metadata-0.925.0-r1 (24 Jul 2014)
+*Dist-Metadata-0.924.0-r1 (24 Jul 2014)
+
+  24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Dist-Metadata-0.924.0.ebuild, +Dist-Metadata-0.924.0-r1.ebuild,
+  -Dist-Metadata-0.925.0.ebuild, +Dist-Metadata-0.925.0-r1.ebuild:
+  Fix dep on digest-base -> Digest
 
 *Dist-Metadata-0.925.0 (23 Feb 2013)
 
