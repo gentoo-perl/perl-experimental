@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -15,7 +15,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	virtual/perl-digest-base
+	virtual/perl-Digest
 	virtual/perl-Scalar-List-Utils
 	dev-perl/MRO-Compat
 	>=dev-perl/Catalyst-Runtime-5.700.0
