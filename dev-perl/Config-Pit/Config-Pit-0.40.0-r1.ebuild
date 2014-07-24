@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# File::Temp 0.2 ( 0.200.0 )
 	echo \>=virtual/perl-File-Temp-0.200.0
 	# Filter::Util::Call
-	echo virtual/perl-Filter
+	echo dev-perl/Filter
 	# List::MoreUtils
 	echo dev-perl/List-MoreUtils
 	# Path::Class
