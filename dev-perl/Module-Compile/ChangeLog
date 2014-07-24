@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Module-Compile
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Module-Compile-0.230.0-r1 (24 Jul 2014)
+
+  24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Module-Compile-0.230.0.ebuild, +Module-Compile-0.230.0-r1.ebuild:
+  Fix dep on Filter
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Module-Compile-0.210.0.ebuild, Module-Compile-0.220.0.ebuild,
