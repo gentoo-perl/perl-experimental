@@ -1,3 +1,10 @@
+# Kent Fredric <kentfredric@gmail.com> (24 Jul 2014)
+# Virtuals for ex-core perl modules that are now only dev-perl/ depenends.
+# Remove any time after August 24.
+virtual/perl-Devel-DProf
+virtual/perl-Pod-Plainer
+
+
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
@@ -15,8 +22,6 @@ perl-core/B-Lint
 virtual/perl-B-Lint
 perl-core/CPANPLUS-Dist-Build
 virtual/perl-CPANPLUS-Dist-Build
-perl-core/Devel-DProf
-virtual/perl-Devel-DProf
 perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Devel-SelfStubber
@@ -27,8 +32,6 @@ perl-core/NEXT
 virtual/perl-NEXT
 perl-core/Pod-LaTeX
 virtual/perl-Pod-LaTeX
-perl-core/Pod-Plainer
-virtual/perl-Pod-Plainer
 perl-core/Unicode-Collate
 virtual/perl-Unicode-Collate
 perl-core/Unicode-Normalize
