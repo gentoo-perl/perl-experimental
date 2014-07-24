@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -17,7 +17,7 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.81.210
 	virtual/perl-Digest-SHA
 	virtual/perl-Digest-MD5
-	>=virtual/perl-digest-base-1.11 $(comment 1.110.0) $(comment Digest)
+	>=virtual/perl-Digest-1.11 $(comment 1.110.0) $(comment Digest)
 "
 DEPEND="
 	${RDEPEND}
