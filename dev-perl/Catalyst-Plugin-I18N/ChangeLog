@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-I18N
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Plugin-I18N-0.10-r1 (24 Jul 2014)
+
+  24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-I18N-0.10.ebuild, +Catalyst-Plugin-I18N-0.10-r1.ebuild:
+  Fix dep on I18N-LangTags
 
   28 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Plugin-I18N-0.10.ebuild:
