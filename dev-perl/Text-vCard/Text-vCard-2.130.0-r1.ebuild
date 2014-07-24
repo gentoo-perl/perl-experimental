@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=LLAP
-MODULE_VERSION=2.12
+MODULE_VERSION=2.13
 inherit perl-module
 
 DESCRIPTION='a package to edit and create a single vCard (RFC 2426)'
@@ -17,7 +17,7 @@ perl_meta_configure() {
 }
 perl_meta_runtime() {
 	# Carp
-	# echo virtual/perl-Carp
+	# echo dev-lang/perl
 	# Encode
 	echo virtual/perl-Encode
 	# File::Slurp 9999.04 ( 9999.40.0 )
@@ -43,7 +43,7 @@ perl_meta_test() {
 	# Data::Dumper
 	echo virtual/perl-Data-Dumper
 	# Digest
-	echo virtual/perl-digest-base
+	echo virtual/perl-Digest
 	# Test::More
 	echo virtual/perl-Test-Simple
 }

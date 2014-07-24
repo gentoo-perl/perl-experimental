@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Text-vCard
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Text-vCard-2.130.0-r1 (24 Jul 2014)
+*Text-vCard-2.120.0-r1 (24 Jul 2014)
+
+  24 Jul 2014; Kent Fredric <kentfredric@gmail.com> -Text-vCard-2.120.0.ebuild,
+  +Text-vCard-2.120.0-r1.ebuild, -Text-vCard-2.130.0.ebuild,
+  +Text-vCard-2.130.0-r1.ebuild:
+  Fix dep on digest-base -> Digest
 
 *Text-vCard-2.130.0 (23 Feb 2013)
 
