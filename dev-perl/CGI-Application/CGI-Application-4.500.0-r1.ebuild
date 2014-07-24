@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -18,7 +18,7 @@ RDEPEND="
 	virtual/perl-CGI
 	dev-perl/HTML-Template
 	$(comment virtual/perl-Carp)
-	virtual/perl-Class-ISA
+	dev-perl/Class-ISA
 	recommended? (
 		dev-perl/CGI-PSGI
 	)

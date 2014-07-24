@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/CGI-Application
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*CGI-Application-4.500.0-r1 (24 Jul 2014)
+*CGI-Application-4.310.0-r1 (24 Jul 2014)
+
+  24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -CGI-Application-4.310.0.ebuild, +CGI-Application-4.310.0-r1.ebuild,
+  -CGI-Application-4.500.0.ebuild, +CGI-Application-4.500.0-r1.ebuild:
+  Fix dep on Class-ISA
 
 *CGI-Application-4.310.0 (27 Jun 2011)
 *CGI-Application-4.210.0 (27 Jun 2011)
