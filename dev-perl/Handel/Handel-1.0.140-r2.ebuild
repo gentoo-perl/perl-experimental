@@ -27,7 +27,7 @@ perl_meta_runtime() {
 	# Class::Accessor::Grouped 0.10006 ( 0.100.60 )
 	echo \>=dev-perl/Class-Accessor-Grouped-0.100.60
 	# Class::ISA 0.36 ( 0.360.0 )
-	echo \>=virtual/perl-Class-ISA-0.36
+	echo \>=dev-perl/Class-ISA-0.36
 	# Class::Inspector 1.24 ( 1.240.0 )
 	echo \>=dev-perl/Class-Inspector-1.240.0
 	# Clone 0.31 ( 0.310.0 )
