@@ -1,25 +1,23 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=0.34
+MODULE_VERSION=0.37
 inherit perl-module
 
-DESCRIPTION='Session plugin ties together server side storage and client side state required to maintain session'
+DESCRIPTION='Generic Session plugin - connect server side storage and client side state to maintain session data'
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 }
 perl_meta_build() {
-	# ExtUtils::MakeMaker 6.62 ( 6.620.0 )
-	echo \>=virtual/perl-ExtUtils-MakeMaker-6.620.0
-	# Plack::Middleware::ForceEnv
-	echo dev-perl/Plack-Middleware-ForceEnv
+	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
+	echo \>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	# Test::Deep
 	echo dev-perl/Test-Deep
 	# Test::Exception
@@ -31,7 +29,7 @@ perl_meta_runtime() {
 	# Catalyst::Runtime 5.71001 ( 5.710.10 )
 	echo \>=dev-perl/Catalyst-Runtime-5.710.10
 	# Digest
-	echo virtual/perl-digest-base
+	echo virtual/perl-Digest
 	# File::Spec
 	echo virtual/perl-File-Spec
 	# File::Temp

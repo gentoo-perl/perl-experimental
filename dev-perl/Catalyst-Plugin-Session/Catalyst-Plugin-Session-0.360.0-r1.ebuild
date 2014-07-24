@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION=0.37
+MODULE_VERSION=0.36
 inherit perl-module
 
 DESCRIPTION='Generic Session plugin - connect server side storage and client side state to maintain session data'
@@ -29,7 +29,7 @@ perl_meta_runtime() {
 	# Catalyst::Runtime 5.71001 ( 5.710.10 )
 	echo \>=dev-perl/Catalyst-Runtime-5.710.10
 	# Digest
-	echo virtual/perl-digest-base
+	echo virtual/perl-Digest
 	# File::Spec
 	echo virtual/perl-File-Spec
 	# File::Temp
