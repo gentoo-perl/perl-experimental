@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=2
@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Template-Toolkit-2.0.0
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-File-Spec
-	virtual/perl-Class-ISA
+	dev-perl/Class-ISA
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build
