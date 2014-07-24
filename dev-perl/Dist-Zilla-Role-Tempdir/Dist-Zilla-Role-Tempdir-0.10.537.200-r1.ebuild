@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -15,7 +15,7 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	$(comment virtual/perl-Carp)
 	>=virtual/perl-Digest-SHA-5.47 $(comment 5.470.0)
-	>=virtual/perl-digest-base-1.16 $(comment 1.160.0)
+	>=virtual/perl-Digest-1.16 $(comment 1.160.0)
 	>=dev-perl/Dist-Zilla-2.0.0
 	$(comment Dist::Zilla::File::InMemory ">=" dzil 1.0.0)
 	>=dev-perl/File-Find-Rule-0.30 $(comment 0.300.0)
