@@ -1,6 +1,14 @@
 # ChangeLog for dev-perl/Data-TreeDumper
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Data-TreeDumper-0.400.0-r1 (24 Jul 2014)
+*Data-TreeDumper-0.370.0-r1 (24 Jul 2014)
+
+  24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Data-TreeDumper-0.370.0.ebuild, +Data-TreeDumper-0.370.0-r1.ebuild,
+  -Data-TreeDumper-0.400.0.ebuild, +Data-TreeDumper-0.400.0-r1.ebuild:
+  Fix dep on Class-ISA
 
 *Data-TreeDumper-0.400.0 (21 May 2011)
 

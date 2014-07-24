@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ IUSE=""
 DEPEND="virtual/perl-Text-Tabs+Wrap
 	dev-perl/Devel-Size
 	dev-perl/Check-ISA
-	virtual/perl-Class-ISA
+	dev-perl/Class-ISA
 	dev-perl/Sort-Naturally
 	dev-perl/Term-Size"
 RDEPEND="${DEPEND}"

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ comment() { echo ''; }
 DEPEND="
 	>=virtual/perl-Text-Tabs+Wrap-2001.92.900
 	>=dev-perl/Devel-Size-0.58 $(comment 0.580.0)
-	virtual/perl-Class-ISA
+	dev-perl/Class-ISA
 	dev-perl/Sort-Naturally
 	dev-perl/Check-ISA
 	>=dev-perl/Term-Size-0.200.0
