@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
 MODULE_AUTHOR=SILASMONK
-MODULE_VERSION="0.19"
+MODULE_VERSION="0.18"
 inherit perl-module
 
 DESCRIPTION="Authentication framework for CGI::Application"
@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Digest-SHA1
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Attribute-Handlers
-	virtual/perl-Class-ISA
+	dev-perl/Class-ISA
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 	recommended? (
@@ -34,16 +34,13 @@ RDEPEND="
 DEPEND="
 	>=dev-perl/Test-Warn-0.110.0
 	>=virtual/perl-Module-Build-0.36 $(comment 0.360.0)
-"
-#	dev-perl/Task-Weaken
-DEPEND="${DEPEND}
+	dev-perl/Task-Weaken
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
-	dev-perl/Test-NoWarnings
 	dev-perl/Test-Regression
 	dev-perl/Test-Taint
 	dev-perl/Test-Without-Module
-	>=virtual/perl-Test-Simple-0.93 $(comment 0.930.0)
+	virtual/perl-Test-Simple
 	${RDEPEND}
 "
 SRC_TEST=do
