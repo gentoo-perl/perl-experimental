@@ -81,13 +81,13 @@ sub _vmap_perl_strange {
 sub _vmap_overlay_native {
   return (
     (
-      'Archive-Extract', 'base',                'B-Lint',             'constant',
-      'CPANPLUS',        'CPANPLUS-Dist-Build', 'Devel-DProf',        'Devel-SelfStubber',
-      'Env',             'File-Fetch',          'i18n-langtags',      'IPC-SysV',
-      'lib',             'Log-Message',         'Log-Message-Simple', 'NEXT',
-      'Object-Accessor', 'Pod-Checker',         'Pod-LaTeX',          'Pod-Perldoc',
-      'Pod-Plainer',     'Pod-Usage',           'SelfLoader',         'Term-UI',
-      'Unicode-Collate', 'Unicode-Normalize',
+      'Archive-Extract', 'base',                'B-Lint',            'constant',
+      'CPANPLUS',        'CPANPLUS-Dist-Build', 'Devel-SelfStubber', 'Env',
+      'File-Fetch',      'i18n-langtags',       'IPC-SysV',          'lib',
+      'Log-Message',     'Log-Message-Simple',  'NEXT',              'Object-Accessor',
+      'Pod-Checker',     'Pod-LaTeX',           'Pod-Perldoc',       'Pod-Plainer',
+      'Pod-Usage',       'SelfLoader',          'Term-UI',           'Unicode-Collate',
+      'Unicode-Normalize',
     ),
   );
 }
