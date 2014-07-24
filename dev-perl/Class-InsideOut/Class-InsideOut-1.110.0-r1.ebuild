@@ -1,9 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=DAGOLDEN
-MODULE_VERSION=1.13
+MODULE_VERSION=1.11
 inherit perl-module
 
 DESCRIPTION='a safe, simple inside-out object construction kit'
@@ -19,15 +19,13 @@ perl_meta_runtime() {
 	# Carp
 	echo dev-lang/perl
 	# Class::ISA
-	echo virtual/perl-Class-ISA
+	echo dev-perl/Class-ISA
 	# Exporter
 	echo virtual/perl-Exporter
 	# Scalar::Util 1.09 ( 1.90.0 )
 	echo \>=virtual/perl-Scalar-List-Utils-1.90.0
 	# Storable
 	echo virtual/perl-Storable
-	# overload
-	# echo dev-lang/perl
 	# perl 5.008 ( 5.8.0 )
 	echo \>=dev-lang/perl-5.8.0
 	# strict
@@ -40,20 +38,14 @@ perl_meta_test() {
 	#echo unresolved
 	# DynaLoader
 	echo dev-lang/perl
-	# ExtUtils::MakeMaker
-	echo virtual/perl-ExtUtils-MakeMaker
 	# File::Find
 	echo dev-lang/perl
 	# File::Spec
-	echo virtual/perl-File-Spec
-	# File::Spec::Functions
 	echo virtual/perl-File-Spec
 	# File::Temp
 	echo virtual/perl-File-Temp
 	# IO::File
 	echo virtual/perl-IO
-	# List::Util
-	echo virtual/perl-Scalar-List-Utils
 	# Test::More 0.45 ( 0.450.0 )
 	echo \>=virtual/perl-Test-Simple-0.45
 	# XSLoader
