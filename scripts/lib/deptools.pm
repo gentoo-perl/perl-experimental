@@ -85,9 +85,8 @@ sub _vmap_overlay_native {
       'CPANPLUS',        'CPANPLUS-Dist-Build', 'Devel-SelfStubber', 'Env',
       'File-Fetch',      'i18n-langtags',       'IPC-SysV',          'lib',
       'Log-Message',     'Log-Message-Simple',  'NEXT',              'Object-Accessor',
-      'Pod-Checker',     'Pod-LaTeX',           'Pod-Perldoc',       'Pod-Plainer',
-      'Pod-Usage',       'SelfLoader',          'Term-UI',           'Unicode-Collate',
-      'Unicode-Normalize',
+      'Pod-Checker',     'Pod-LaTeX',           'Pod-Perldoc',       'Pod-Usage',
+      'SelfLoader',      'Term-UI',             'Unicode-Collate',   'Unicode-Normalize',
     ),
   );
 }
