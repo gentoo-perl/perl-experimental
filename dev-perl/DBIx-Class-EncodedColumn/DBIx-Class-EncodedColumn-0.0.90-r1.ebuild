@@ -1,11 +1,11 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=3
 
-MODULE_AUTHOR=WREIS
-MODULE_VERSION="0.00011"
+MODULE_AUTHOR=GRODITI
+MODULE_VERSION="0.00009"
 inherit perl-module
 
 DESCRIPTION="Automatic digest columns"
@@ -13,16 +13,16 @@ DESCRIPTION="Automatic digest columns"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+md5 +sha +blowfish +gpg"
-comment() { echo ''; }
+
 RDEPEND="
 	>=dev-perl/DBIx-Class-0.60.20
-	>=dev-perl/Sub-Name-0.04 $(comment 0.40.0)
+	>=dev-perl/Sub-Name-0.04
 	md5? (
-		virtual/perl-digest-base
+		virtual/perl-Digest
 		virtual/perl-Digest-MD5
 	)
 	sha? (
-		virtual/perl-digest-base
+		virtual/perl-Digest
 		virtual/perl-Digest-SHA
 	)
 	blowfish? (
@@ -34,9 +34,10 @@ RDEPEND="
 	)
 "
 DEPEND="${RDEPEND}
-	virtual/perl-Test-Simple $(comment Test::More)
+	virtual/perl-Test-Simple
 	dev-perl/DBD-SQLite
 	dev-perl/Dir-Self
+	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec
 "
 SRC_TEST="do"

@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -12,11 +12,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+md5 +sha +blowfish +gpg"
 perl_feature_md5() {
-	echo virtual/perl-digest-base
+	echo virtual/perl-Digest
 	echo virtual/perl-Digest-MD5
 }
 perl_feature_sha(){
-	echo virtual/perl-digest-base
+	echo virtual/perl-Digest
 	echo virtual/perl-Digest-SHA
 }
 perl_feature_blowfish(){

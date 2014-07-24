@@ -1,11 +1,11 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 
-MODULE_AUTHOR=GRODITI
-MODULE_VERSION="0.00009"
+MODULE_AUTHOR=WREIS
+MODULE_VERSION="0.00010"
 inherit perl-module
 
 DESCRIPTION="Automatic digest columns"
@@ -18,11 +18,11 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.60.20
 	>=dev-perl/Sub-Name-0.04
 	md5? (
-		virtual/perl-digest-base
+		virtual/perl-Digest
 		virtual/perl-Digest-MD5
 	)
 	sha? (
-		virtual/perl-digest-base
+		virtual/perl-Digest
 		virtual/perl-Digest-SHA
 	)
 	blowfish? (
