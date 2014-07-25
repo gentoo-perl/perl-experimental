@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Number-Tolerant
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Number-Tolerant-1.701-r1 (25 Jul 2014)
+
+  25 Jul 2014; Kent Fredric <kentfredric@gmail.com>
+  -Number-Tolerant-1.701.ebuild, +Number-Tolerant-1.701-r1.ebuild:
+  Stop depending on perl-core
 
 *Number-Tolerant-1.701 (04 Feb 2011)
 
