@@ -23,11 +23,11 @@ perl_meta_runtime() {
 	# Scalar::Util 1 ( 1.0.0 )
 	echo \>=virtual/perl-Scalar-List-Utils-1.0.0
 	# Test::More 0.47 ( 0.470.0 )
-	echo \>=virtual/perl-Test-Simple-0.47
+	echo \>=virtual/perl-Test-Simple-0.470.0
 	# XSLoader
 	echo virtual/perl-XSLoader
 }
-perl_meta_test(){
+perl_meta_test() {
 	# Test::More
 	echo virtual/perl-Test-Simple
 }
@@ -40,4 +40,4 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"

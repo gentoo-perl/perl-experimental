@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Aug 2014; Kent Fredric <kentfredric@gmail.com> Imager-1.0.0.ebuild:
+  parallelize tests, minor bash syn, manifests
+
 *Imager-1.0.0 (31 Jul 2014)
 
   31 Jul 2014; mudler <mudler@dark-lab.net> +Imager-1.0.0.ebuild:
