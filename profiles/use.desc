@@ -1,0 +1,4 @@
+perl_5_16 - Prefer Perl 5.16 as a virtual provider
+perl_5_18 - Prefer Perl 5.18 as a virtual provider
+perl_5_20 - Prefer Perl 5.20 as a virtual provider
+
