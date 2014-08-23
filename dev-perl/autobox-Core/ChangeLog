@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/autobox-Core
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  23 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -autobox-Core-0.600.0.ebuild, -autobox-Core-1.200.0.ebuild:
+  Drop old EAPI 0 versions
 
 *autobox-Core-1.240.0 (25 Jul 2012)
 
