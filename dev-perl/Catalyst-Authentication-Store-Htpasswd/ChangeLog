@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Catalyst-Authentication-Store-Htpasswd
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Authentication-Store-Htpasswd-1.3.0 (23 Aug 2014)
+
+  23 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Authentication-Store-Htpasswd-1.003.ebuild,
+  +Catalyst-Authentication-Store-Htpasswd-1.3.0.ebuild:
+  Migrate to EAPI5 and misc packaging fixups
 
   09 Feb 2011; Torsten Veller <tove@gentoo.org>
   Catalyst-Authentication-Store-Htpasswd-1.003.ebuild:
