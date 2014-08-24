@@ -25,12 +25,7 @@ DEPEND="$RDEPEND
 
 src_prepare() {
 	# These tests are useless
-	rm ${S}"/t/pod.t";
-	rm ${S}"/t/kwalitee.t";
-	rm ${S}"/t/pod-coverage.t";
-	sed -i '/^t\/pod\.t/d' MANIFEST;
-	sed -i '/^t\/kwalitee\.t/d' MANIFEST;
-	sed -i '/^t\/pod-coverage\.t/d' MANIFEST;
+	perl_rm_files "t/pod.t" "t/kwalitee.t" "t/pod-coverage.t";
 	perl-module_src_prepare;
 }
 
