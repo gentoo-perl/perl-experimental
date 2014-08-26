@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-Images
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Catalyst-Plugin-Images-0.20.0 (26 Aug 2014)
+
+  26 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Images-0.02.ebuild, +Catalyst-Plugin-Images-0.20.0.ebuild:
+  EAPI, Normalise, Misc test and dep fixups
 
   11 Nov 2011; Kent Fredric <kentfredric@gmail.com>
   Catalyst-Plugin-Images-0.02.ebuild:
