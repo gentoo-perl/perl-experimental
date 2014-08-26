@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=RDROUSIES
+MODULE_VERSION=0.03
 inherit perl-module
 
 DESCRIPTION="Authenticate a user using a CHAP login system."
@@ -13,9 +14,18 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="
-	virtual/perl-Module-Build
-	dev-perl/Catalyst-Runtime
+RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.650.0
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Authentication
+	virtual/perl-Digest
+	virtual/perl-Test-Simple
 "
+DEPEND="$RDEPEND
+	virtual/perl-Module-Build"
+
+PERL_RM_FILES=(
+	t/pod-coverage.t
+	t/pod.t
+)
+SRC_TEST=do
