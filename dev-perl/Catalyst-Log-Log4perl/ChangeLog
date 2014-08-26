@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Catalyst-Log-Log4perl
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  26 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Log-Log4perl-1.30.0.ebuild, -Catalyst-Log-Log4perl-1.40.0.ebuild:
+  Remove old EAPI versions
 
 *Catalyst-Log-Log4perl-1.60.0 (22 Jun 2012)
 
