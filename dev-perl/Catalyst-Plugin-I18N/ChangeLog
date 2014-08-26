@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-I18N-0.09.ebuild:
+  Remove old
+
 *Catalyst-Plugin-I18N-0.10-r1 (24 Jul 2014)
 
   24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
