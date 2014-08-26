@@ -99,6 +99,10 @@ perl-module_src_prepare() {
 	[[ ${PATCHES[@]} ]] && epatch "${PATCHES[@]}"
 	debug-print "$FUNCNAME: applying user patches"
 	epatch_user
+	if [[ ${PERL_RM_FILES[@]} ]]; then
+		debug-print "$FUNCNAME: stripping unneeded files"
+		perl_rm_files "${PERL_RM_FILES[@]}"
+	fi
 	perl_fix_osx_extra
 	esvn_clean
 }
@@ -442,18 +446,24 @@ perl_remove_temppath() {
 # users about files "missing from their kit".
 perl_rm_files() {
 	debug-print-function $FUNCNAME "$@"
-	local skipfile=${S}/.gentoo_makefile_skip
-	local manifile=${S}/MANIFEST
-	local manitemp=${S}/.gentoo_manifest_temp
+	local skipfile="${T}/.gentoo_makefile_skip"
+	local manifile="${S}/MANIFEST"
+	local manitemp="${T}/.gentoo_manifest_temp"
+	oldifs="$IFS"
+	IFS="\n"
 	for filename in "$@"; do
 		einfo "Removing un-needed ${filename}";
 		# Remove the file
-		rm ${S}/$filename
-		echo ${filename} >> ${skipfile}
+		rm -f "${S}/${filename}"
+		[[ -e "${manifile}" ]] && echo "${filename}" >> "${skipfile}"
 	done
-	grep -v -F -f $skipfile $manifile > $manitemp
-	mv $manitemp $manifile
-	rm $skipfile;
+	if [[ -e "${manifile}" && -e "${skipfile}" ]]; then
+		einfo "Fixing Manifest"
+		grep -v -F -f "${skipfile}" "${manifile}" > "${manitemp}"
+		mv -f -- "${manitemp}" "${manifile}"
+		rm -- "${skipfile}";
+	fi
+	IFS="$oldifs"
 }
 
 perl_link_duallife_scripts() {
