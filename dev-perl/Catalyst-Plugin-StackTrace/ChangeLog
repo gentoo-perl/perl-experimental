@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-StackTrace-0.120.0-r1 (27 Aug 2014)
+
+  27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-StackTrace-0.120.0.ebuild,
+  +Catalyst-Plugin-StackTrace-0.120.0-r1.ebuild:
+  EAPI5, dependency cleanup, test cleanup
+
   27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
   -Catalyst-Plugin-StackTrace-0.100.0.ebuild,
   -Catalyst-Plugin-StackTrace-0.110.0.ebuild:
