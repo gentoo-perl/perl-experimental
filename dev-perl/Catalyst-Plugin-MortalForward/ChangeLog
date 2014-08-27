@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Catalyst-Plugin-MortalForward
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Catalyst-Plugin-MortalForward-0.10.0 (27 Aug 2014)
+
+  27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-MortalForward-0.01.ebuild,
+  +Catalyst-Plugin-MortalForward-0.10.0.ebuild:
+  EAPI5, Normalise version, test fixups
+

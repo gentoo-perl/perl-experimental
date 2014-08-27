@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=YANNK
+MODULE_VERSION=0.01
 inherit perl-module
 
 DESCRIPTION="Make forward() to throw exception"
@@ -13,12 +14,9 @@ SLOT="0"
 LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="
-	dev-perl/Module-Install
+RDEPEND="
 	dev-perl/Catalyst-Runtime
 "
+DEPEND="$RDEPEND"
 
-src_compile() {
-	export PERL_EXTUTILS_AUTOINSTALL="--skipdeps"
-	perl-module_src_compile
-}
+SRC_TEST=do
