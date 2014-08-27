@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-Plugin-Scheduler-0.100.0 (27 Aug 2014)
+
+  27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-Scheduler-0.10.ebuild,
+  +Catalyst-Plugin-Scheduler-0.100.0.ebuild:
+  EAPI5, Normalise version, fixup tests
+
   27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
   -Catalyst-Plugin-Scheduler-0.09.ebuild:
   remove old EAPIS
