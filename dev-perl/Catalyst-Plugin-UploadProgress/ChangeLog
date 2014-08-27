@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Catalyst-Plugin-UploadProgress
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-Plugin-UploadProgress-0.40.0.ebuild,
+  -Catalyst-Plugin-UploadProgress-0.50.0.ebuild:
+  Remove old EAPIS
 
   04 Nov 2012; Kent Fredric <kentfredric@gmail.com> metadata.xml:
   Update metadata.xml remotes
