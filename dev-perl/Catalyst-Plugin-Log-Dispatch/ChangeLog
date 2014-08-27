@@ -3,6 +3,10 @@
 # $Header: $
 
   27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  Catalyst-Plugin-Log-Dispatch-0.121.0.ebuild:
+  EAPI5, misc test and dep fixes
+
+  27 Aug 2014; Kent Fredric <kentfredric@gmail.com>
   -Catalyst-Plugin-Log-Dispatch-0.10.ebuild,
   -Catalyst-Plugin-Log-Dispatch-0.11.ebuild,
   -Catalyst-Plugin-Log-Dispatch-0.12.ebuild:
