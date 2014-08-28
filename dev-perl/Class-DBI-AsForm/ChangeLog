@@ -1,6 +1,17 @@
 # ChangeLog for dev-perl/Class-DBI-AsForm
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Class-DBI-AsForm-2.42.ebuild, +Class-DBI-AsForm-2.420.0.ebuild,
+  +files/2.42/rt-63623.patch:
+  EAPI5, Normalise, fixup deps and test, fix rt#63623
+
+*Class-DBI-AsForm-2.420.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Class-DBI-AsForm-2.42.ebuild, +Class-DBI-AsForm-2.420.0.ebuild:
+  EAPI5, Normalise, fixup deps and tests
 
   26 Apr 2013; Kent Fredric <kentfredric@gmail.com>
   Class-DBI-AsForm-2.42.ebuild:

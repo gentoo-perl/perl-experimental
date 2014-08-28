@@ -1,0 +1,36 @@
+From ca3bb3bb3004396afa52ea9b3c99e9b5dd363576 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Petr=20P=C3=ADsa=C5=99?= <ppisar@redhat.com>
+Date: Fri, 24 Jun 2011 12:12:50 +0200
+Subject: [PATCH] Adapt to formating changes in HTML-Tree 4.0 (RT#63623)
+
+---
+ t/01.t |   11 ++++-------
+ 1 files changed, 4 insertions(+), 7 deletions(-)
+
+diff --git a/t/01.t b/t/01.t
+index 96133ba..e26e83e 100644
+--- a/t/01.t
++++ b/t/01.t
+@@ -40,15 +40,12 @@ like(Foo->to_field("baz"), qr/<input .*name="baz"/,
+     "Ordinary text field OK");
+ 
+ Foo->has_a(bar => Bar);
+-is(Foo->to_field("bar"), "<select name=\"bar\"><option value=1>Hi</option></select>\n",
++is(Foo->to_field("bar"), "<select name=\"bar\"><option value=\"1\">Hi</option></select>",
+     "Select OK");
+ 
+ my $x = bless({id => 1, bar => Bar->retrieve_all(), baz => "Hello there"}, "Foo");
+-my %cgi = ( id => '<input name="id" type="text" value=1>
+-',
+-    bar => '<select name="bar"><option selected value=1>Hi</option></select>
+-',
+-            baz => '<input name="baz" type="text" value="Hello there">
+-'
++my %cgi = ( id => '<input name="id" type="text" value="1" />',
++    bar => '<select name="bar"><option selected value="1">Hi</option></select>',
++            baz => '<input name="baz" type="text" value="Hello there" />'
+           );
+ is_deeply({$x->to_cgi}, \%cgi, "All correct as an object method");
+-- 
+1.7.5.4
+
