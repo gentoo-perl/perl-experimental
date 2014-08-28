@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/DateTime-Event-Cron
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -DateTime-Event-Cron-0.07.ebuild:
+  remove old EAPIs
 
 *DateTime-Event-Cron-0.08 (23 Jul 2010)
 
