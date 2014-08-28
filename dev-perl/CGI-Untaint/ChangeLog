@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/CGI-Untaint
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Untaint-1.260.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com> -CGI-Untaint-1.26.ebuild,
+  +CGI-Untaint-1.260.0.ebuild:
+  EAPI5, Normalise, Fixup tests and deps
+
