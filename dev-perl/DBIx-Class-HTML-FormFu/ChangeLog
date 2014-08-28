@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/DBIx-Class-HTML-FormFu
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*DBIx-Class-HTML-FormFu-0.10.50 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  +DBIx-Class-HTML-FormFu-0.10.50.ebuild,
+  -DBIx-Class-HTML-FormFu-0.01005.ebuild:
+  EAPI5, Dep fixup, test fixup
+
