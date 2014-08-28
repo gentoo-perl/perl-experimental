@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Catalyst-View-Excel-Template-Plus-0.30.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Catalyst-View-Excel-Template-Plus-0.30.ebuild,
+  +Catalyst-View-Excel-Template-Plus-0.30.0.ebuild:
+  EAPI5, Normalise version, test and dep cleanup
+
   28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
   -Catalyst-View-Excel-Template-Plus-0.10.ebuild:
   Remove old EAPIs

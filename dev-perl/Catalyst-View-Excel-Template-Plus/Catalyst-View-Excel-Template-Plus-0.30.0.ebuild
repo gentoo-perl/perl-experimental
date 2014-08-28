@@ -1,7 +1,7 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=5
 MODULE_AUTHOR=RBO
 MODULE_VERSION="0.03"
 inherit perl-module
@@ -18,7 +18,14 @@ RDEPEND="
 	>=dev-perl/Excel-Template-Plus-0.50
 "
 DEPEND="
+	${RDEPEND}
 	virtual/perl-Module-Build
-	dev-perl/Test-Exception
+	>=dev-perl/Test-Exception-0.210.0
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "
+PERL_RM_FILES=(
+	t/pod.t
+	t/pod_coverage.t
+)
 SRC_TEST="do"
