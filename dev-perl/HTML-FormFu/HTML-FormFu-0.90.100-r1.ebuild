@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -95,7 +95,7 @@ perl_meta_runtime() {
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 	# Locale::Maketext
-	echo virtual/perl-locale-maketext
+	echo virtual/perl-Locale-Maketext
 	# Module::Pluggable
 	echo virtual/perl-Module-Pluggable
 	# Moose 1.00 ( 1.0.0 )
