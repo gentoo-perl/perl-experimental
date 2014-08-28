@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Data-FormValidator-Constraints-DateTime-1.110.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Data-FormValidator-Constraints-DateTime-1.11.ebuild,
+  +Data-FormValidator-Constraints-DateTime-1.110.0.ebuild:
+  EAPI5, normalise, fix deps
+
   28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
   -Data-FormValidator-Constraints-DateTime-1.09.ebuild,
   -Data-FormValidator-Constraints-DateTime-1.10.ebuild:
