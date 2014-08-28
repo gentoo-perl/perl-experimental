@@ -1,7 +1,7 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=CEESHEK
 MODULE_VERSION="1.03"
 inherit perl-module
@@ -11,6 +11,7 @@ LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+RESTRICT=test
 
 IUSE=""
 RDEPEND="
@@ -24,4 +25,8 @@ DEPEND="${RDEPEND}
 	virtual/perl-Test-Simple
 	dev-perl/Test-Exception
 "
+PERL_RM_FILES=(
+	t/98_pod.t
+	t/99_pod_coverage.t
+)
 SRC_TEST="do"
