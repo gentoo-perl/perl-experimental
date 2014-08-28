@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Crypt-Util
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com> -Crypt-Util-0.09.ebuild,
+  -Crypt-Util-0.10.ebuild:
+  Cleanup old eapis
 
   07 Feb 2013; Kent Fredric <kentfredric@gmail.com> Crypt-Util-0.10.ebuild,
   Crypt-Util-0.11.ebuild:
