@@ -1,6 +1,11 @@
 # ChangeLog for dev-perl/Data-FormValidator-Constraints-DateTime
-# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Data-FormValidator-Constraints-DateTime-1.09.ebuild,
+  -Data-FormValidator-Constraints-DateTime-1.10.ebuild:
+  Remove old EAPIs
 
 *Data-FormValidator-Constraints-DateTime-1.11 (23 Jul 2010)
 
