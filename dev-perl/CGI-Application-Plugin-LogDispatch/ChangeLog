@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/CGI-Application-Plugin-LogDispatch
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*CGI-Application-Plugin-LogDispatch-1.20.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -CGI-Application-Plugin-LogDispatch-1.02.ebuild,
+  +CGI-Application-Plugin-LogDispatch-1.20.0.ebuild:
+  EAPI5, Normalise, fix tests and deps
+
