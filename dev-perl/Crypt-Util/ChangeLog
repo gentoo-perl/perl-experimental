@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Crypt-Util-0.110.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com> -Crypt-Util-0.11.ebuild,
+  +Crypt-Util-0.110.0.ebuild:
+  EAPI5, Normalise, fix deps
+
   28 Aug 2014; Kent Fredric <kentfredric@gmail.com> -Crypt-Util-0.09.ebuild,
   -Crypt-Util-0.10.ebuild:
   Cleanup old eapis
