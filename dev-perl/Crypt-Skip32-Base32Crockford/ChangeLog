@@ -1,0 +1,11 @@
+# ChangeLog for dev-perl/Crypt-Skip32-Base32Crockford
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Crypt-Skip32-Base32Crockford-0.330.0 (28 Aug 2014)
+
+  28 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Crypt-Skip32-Base32Crockford-0.33.ebuild,
+  +Crypt-Skip32-Base32Crockford-0.330.0.ebuild:
+  EAPI5, Normalise, fix deps and tests
+
