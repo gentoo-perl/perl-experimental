@@ -1,7 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=DROLSKY
 MODULE_VERSION="0.04"
 inherit perl-module
@@ -15,7 +15,7 @@ IUSE=""
 
 RDEPEND="
 	dev-perl/DateTime
-	>=dev-perl/DateTime-Format-Builder-0.60
+	>=dev-perl/DateTime-Format-Builder-0.600.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-Module-Build"
