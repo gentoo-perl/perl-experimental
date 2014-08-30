@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Finance-Currency-Convert-WebserviceX
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Finance-Currency-Convert-WebserviceX-0.70.10-r1 (30 Aug 2014)
+
+  30 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Finance-Currency-Convert-WebserviceX-0.70.10.ebuild,
+  +Finance-Currency-Convert-WebserviceX-0.70.10-r1.ebuild:
+  EAPI, cleanup deps and tests
 
 *Finance-Currency-Convert-WebserviceX-0.70.10 (27 Feb 2012)
 
