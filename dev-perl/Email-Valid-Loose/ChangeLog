@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Email-Valid-Loose-0.50.0-r1 (30 Aug 2014)
+
+  30 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Email-Valid-Loose-0.50.0.ebuild, +Email-Valid-Loose-0.50.0-r1.ebuild:
+  EAPI5, fix deps
+
   30 Aug 2014; Kent Fredric <kentfredric@gmail.com>
   -Email-Valid-Loose-0.40.0.ebuild:
   remove old EAPIs

@@ -1,7 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=MIYAGAWA
 MODULE_VERSION="0.05"
 inherit perl-module
@@ -13,8 +13,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
-	>=dev-perl/Email-Valid-0.13
+RDEPEND="
+	>=virtual/perl-Test-Simple-0.320.0
+	>=dev-perl/Email-Valid-0.170.0
 "
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}"
 SRC_TEST=do
