@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Email-Valid-Loose
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  30 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Email-Valid-Loose-0.40.0.ebuild:
+  remove old EAPIs
 
 *Email-Valid-Loose-0.50.0 (26 Feb 2012)
 *Email-Valid-Loose-0.40.0 (26 Feb 2012)
