@@ -13,5 +13,8 @@
         <remote-id type="cpan-module">File::Modified::Signature::Checksum</remote-id>
         <remote-id type="cpan-module">File::Modified::Signature::Digest</remote-id>
         <remote-id type="cpan-module">File::Modified::Signature::mtime</remote-id>
-    </upstream>
+	</upstream>
+	<use>
+		<flag name="digest">Ensure Digest and Digest::MD5 are installed for Digest functions</flag>
+	</use>
 </pkgmetadata>
