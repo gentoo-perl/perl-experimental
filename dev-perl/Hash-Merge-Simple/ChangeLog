@@ -1,6 +1,10 @@
 # ChangeLog for dev-perl/Hash-Merge-Simple
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  30 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -Hash-Merge-Simple-0.40.0.ebuild, -Hash-Merge-Simple-0.50.0.ebuild:
+  Old EAPIs
 
 *Hash-Merge-Simple-0.51.0 (29 Feb 2012)
 *Hash-Merge-Simple-0.50.0 (29 Feb 2012)
