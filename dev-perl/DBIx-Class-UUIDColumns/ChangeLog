@@ -1,6 +1,12 @@
 # ChangeLog for dev-perl/DBIx-Class-UUIDColumns
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  30 Aug 2014; Kent Fredric <kentfredric@gmail.com>
+  -DBIx-Class-UUIDColumns-0.20.30.ebuild,
+  -DBIx-Class-UUIDColumns-0.20.40.ebuild,
+  -DBIx-Class-UUIDColumns-0.20.50.ebuild:
+  remove old EAPIs
 
   27 Oct 2012; Kent Fredric <kentfredric@gmail.com>
   DBIx-Class-UUIDColumns-0.20.30.ebuild, DBIx-Class-UUIDColumns-0.20.40.ebuild,
