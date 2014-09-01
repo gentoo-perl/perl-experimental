@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/MKDoc-XML
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*MKDoc-XML-0.750.0 (01 Sep 2014)
+
+  01 Sep 2014; Kent Fredric <kentfredric@gmail.com> -MKDoc-XML-0.75.ebuild,
+  +MKDoc-XML-0.750.0.ebuild:
+  EAPI5, Normalise, fixup deps and tests
+
