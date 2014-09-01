@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Lingua-EN-Inflect-Number
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Lingua-EN-Inflect-Number-1.110.0 (01 Sep 2014)
+
+  01 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Lingua-EN-Inflect-Number-1.100.0.ebuild,
+  +Lingua-EN-Inflect-Number-1.110.0.ebuild:
+  to version 1.110.0, w/EAPI5 and things, remove old
 
 *Lingua-EN-Inflect-Number-1.100.0 (14 Nov 2011)
 
