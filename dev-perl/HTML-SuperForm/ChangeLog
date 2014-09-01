@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*HTML-SuperForm-1.90.0 (01 Sep 2014)
+
+  01 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -HTML-SuperForm-1.09.ebuild, +HTML-SuperForm-1.90.0.ebuild:
+  EAPI5, Normalise, fixup tests
+
   01 Sep 2014; Kent Fredric <kentfredric@gmail.com>
   -HTML-SuperForm-1.04.ebuild, -HTML-SuperForm-1.04-r1.ebuild,
   -HTML-SuperForm-1.05.ebuild:
