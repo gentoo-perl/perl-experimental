@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Jemplate-0.300.0 (01 Sep 2014)
+
+  01 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Jemplate-0.270.0-r1.ebuild, +Jemplate-0.300.0.ebuild:
+  version 0.300.0, remove old
+
   01 Sep 2014; Kent Fredric <kentfredric@gmail.com> -Jemplate-0.220.0.ebuild,
   -Jemplate-0.230.0.ebuild, -Jemplate-0.261.0.ebuild,
   -Jemplate-0.262.0-r1.ebuild:
