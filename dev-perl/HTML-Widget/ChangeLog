@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/HTML-Widget
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*HTML-Widget-1.110.0 (01 Sep 2014)
+
+  01 Sep 2014; Kent Fredric <kentfredric@gmail.com> -HTML-Widget-1.11.ebuild,
+  +HTML-Widget-1.110.0.ebuild, +files/1.11/HTML-Tree-4-rt-63853.patch,
+  +files/1.11/5.17-hash-random-rt-85970.patch:
+  EAPI5, Normalise, Fixup deps and tests
 
   28 Oct 2012; Kent Fredric <kentfredric@gmail.com> HTML-Widget-1.11.ebuild:
   Fix dependency on HTML-Tree ( normalize )

@@ -1,0 +1,34 @@
+diff -Naur t/04basic.t t/04basic.t
+--- t/04basic.t	2007-03-01 15:42:26.000000000 +0000
++++ t/04basic.t	2014-09-01 16:31:49.592374273 +0000
+@@ -82,7 +82,7 @@
+     is( $c->error_xml, <<EOF, 'Error XML output is ok' );
+ <span class="error_messages" id="widget_age_errors"><span class="regex_errors" id="widget_age_error_regex">Contains digit characters.</span></span>
+ EOF
+-    is( $c->javascript_xml, <<EOF, 'JavScript XML output is ok' );
++    is( $c->javascript_xml, ( substr <<EOF, 0, -1 ), 'JavScript XML output is ok' );
+ <script type="text/javascript">
+ <!--
+ 
+diff -Naur t/06bugs_xml_escape.t t/06bugs_xml_escape.t
+--- t/06bugs_xml_escape.t	2007-03-01 16:05:40.000000000 +0000
++++ t/06bugs_xml_escape.t	2014-09-01 16:32:15.889098013 +0000
+@@ -23,5 +23,5 @@
+ 
+     like( "$f", qr'value="é"', 'utf-8 character ok' );
+ 
+-    like( "$f", qr'value="&#34; foo &#62;"', '' );
++    like( "$f", qr'value="&quot; foo &gt;"', '' );
+ }
+diff -Naur t/07custom_render.t t/07custom_render.t
+--- t/07custom_render.t	2007-03-01 15:42:26.000000000 +0000
++++ t/07custom_render.t	2014-09-01 16:32:45.904641305 +0000
+@@ -119,7 +119,7 @@
+     is( $c->error_xml, <<EOF, 'Error XML output is ok' );
+ <span class="error_messages" id="widget_age_errors"><span class="regex_errors" id="widget_age_error_regex">Contains digit characters.</span></span>
+ EOF
+-    is( $c->javascript_xml, <<EOF, 'JavScript XML output is ok' );
++    is( $c->javascript_xml, ( substr <<EOF, 0, -1 ), 'JavScript XML output is ok' );
+ <script type="text/javascript">
+ <!--
+ 
