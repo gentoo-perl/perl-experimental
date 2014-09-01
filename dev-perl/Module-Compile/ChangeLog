@@ -2,6 +2,11 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Module-Compile-0.200.0.ebuild, -Module-Compile-0.210.0.ebuild,
+  -Module-Compile-0.220.0.ebuild:
+  Remove old EAPIs
+
 *Module-Compile-0.230.0-r1 (24 Jul 2014)
 
   24 Jul 2014; Kent Fredric <kentfredric@gmail.com>
