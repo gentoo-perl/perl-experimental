@@ -1,7 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=APEIRON
 MODULE_VERSION="1.5"
 inherit perl-module
@@ -13,7 +13,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
-	>=virtual/perl-Module-Pluggable-1.9
+RDEPEND="
+	>=virtual/perl-Module-Pluggable-1.900.0
 	dev-perl/UNIVERSAL-require
 "
+DEPEND="$RDEPEND"
+SRC_TEST=do

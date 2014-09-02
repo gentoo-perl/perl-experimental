@@ -1,6 +1,13 @@
 # ChangeLog for dev-perl/Module-Pluggable-Ordered
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*Module-Pluggable-Ordered-1.500.0-r1 (02 Sep 2014)
+
+  02 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Module-Pluggable-Ordered-1.500.0.ebuild,
+  +Module-Pluggable-Ordered-1.500.0-r1.ebuild:
+  EAPI5, Fix deps and tests
 
 *Module-Pluggable-Ordered-1.500.0 (27 Feb 2012)
 
