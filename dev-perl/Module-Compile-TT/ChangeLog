@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Module-Compile-TT
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Module-Compile-TT-0.20.0 (02 Sep 2014)
+
+  02 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Module-Compile-TT-0.02.ebuild, +Module-Compile-TT-0.20.0.ebuild:
+  EAPI5, Normalise, fix deps and tests
+
