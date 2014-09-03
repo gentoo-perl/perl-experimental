@@ -1,3 +1,9 @@
+# Kent Fredric <kentfredric@gmail.com> (03 Sep 2014)
+# Fails tests, no activity upstream for 4 years.
+# No new releases for 11 years.
+# Removing after October 03, 2014
+dev-perl/Regexp-Copy
+
 # Kent Fredric <kentfredric@gmail.com> (24 Jul 2014)
 # Virtuals for ex-core perl modules that are now only dev-perl/ depenends.
 # Remove any time after August 24.
