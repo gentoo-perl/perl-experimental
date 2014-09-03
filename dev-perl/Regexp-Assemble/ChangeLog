@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Regexp-Assemble-0.350.0-r1 (03 Sep 2014)
+
+  03 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Regexp-Assemble-0.350.0.ebuild, +Regexp-Assemble-0.350.0-r1.ebuild,
+  +files/0.35/no-pod-tests.patch:
+  EAPI5, patched tests
+
   02 Sep 2014; Kent Fredric <kentfredric@gmail.com>
   -Regexp-Assemble-0.34.ebuild:
   remove old EAPIs
