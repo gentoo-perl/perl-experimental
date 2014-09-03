@@ -2,6 +2,12 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*String-Diff-0.60.0-r1 (03 Sep 2014)
+
+  03 Sep 2014; Kent Fredric <kentfredric@gmail.com> -String-Diff-0.60.0.ebuild,
+  +String-Diff-0.60.0-r1.ebuild:
+  EAPI5, cleanup deps
+
   03 Sep 2014; Kent Fredric <kentfredric@gmail.com> -String-Diff-0.40.0.ebuild,
   -String-Diff-0.50.0.ebuild:
   Remove old EAPIs
