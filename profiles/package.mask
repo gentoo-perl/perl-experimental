@@ -1,3 +1,30 @@
+# Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
+# Deprecations due to Text-Block being deprecated upstream.
+# Will be treecleaned on, or after, 05 Oct 2014
+dev-perl/App-Asciio
+dev-perl/Directory-Scratch-Structured
+dev-perl/Eval-Context
+dev-perl/Test-Block
+
+# Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
+# Cookie-XS is deprecated, and CEHTTP-Prefork has been broken since 2011 and is
+# effectively deprecated due to being superceded by PSGI Features.
+# Will be treecleaned on, or after, 05 Oct 2014
+dev-perl/Catalyst-Engine-HTTP-Prefork
+dev-perl/Cookie-XS
+
+# Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
+# All have been marked deprecated upstream for a long time.
+# Will be treecleaned on, or after, 05 Oct 2014
+dev-perl/Catalyst-Log-Log4perl
+dev-perl/Catalyst-Model-CDBI
+dev-perl/Catalyst-Plugin-Compress-Zlib
+dev-perl/Catalyst-Plugin-Singleton
+dev-perl/Catalyst-Plugin-XMLRPC
+dev-perl/DBIx-Class-HTML-FormFu
+dev-perl/Devel-DProf
+dev-perl/ElasticSearch
+
 # Kent Fredric <kentfredric@gmail.com> (03 Sep 2014)
 # Fails tests, no activity upstream for 4 years.
 # No new releases for 11 years.
