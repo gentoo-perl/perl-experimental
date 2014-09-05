@@ -4,13 +4,6 @@
 # Removing after October 03, 2014
 dev-perl/Regexp-Copy
 
-# Kent Fredric <kentfredric@gmail.com> (24 Jul 2014)
-# Virtuals for ex-core perl modules that are now only dev-perl/ depenends.
-# Remove any time after August 24.
-virtual/perl-Devel-DProf
-virtual/perl-Pod-Plainer
-
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
