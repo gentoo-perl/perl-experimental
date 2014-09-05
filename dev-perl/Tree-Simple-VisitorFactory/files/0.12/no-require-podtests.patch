@@ -1,0 +1,30 @@
+diff -Naur t/70_Tree_Simple_Visitor_LoadDirectoryTree_test.t t/70_Tree_Simple_Visitor_LoadDirectoryTree_test.t
+--- t/70_Tree_Simple_Visitor_LoadDirectoryTree_test.t	2013-10-31 22:29:53.000000000 +0000
++++ t/70_Tree_Simple_Visitor_LoadDirectoryTree_test.t	2014-09-05 22:47:11.126521673 +0000
+@@ -62,8 +62,6 @@
+         93_Tree_Simple_Visitor_ToNestedArray_test.t  
+         95_Tree_Simple_Visitor_LoadClassHierarchy_test.t 
+         96_Tree_Simple_Visitor_VariableDepthClone_test.t       
+-    	pod.t
+-    	pod_coverage.t
+ );
+ my %normal = map { $_ => undef } @normal;
+ 
+@@ -163,8 +163,6 @@
+             93_Tree_Simple_Visitor_ToNestedArray_test.t  
+             95_Tree_Simple_Visitor_LoadClassHierarchy_test.t        
+             96_Tree_Simple_Visitor_VariableDepthClone_test.t 
+-        	pod.t
+-        	pod_coverage.t
+     );    
+ 
+     my $visitor_check = Tree::Simple::Visitor::GetAllDescendents->new();
+@@ -239,8 +237,6 @@
+             93_Tree_Simple_Visitor_ToNestedArray_test.t   
+             95_Tree_Simple_Visitor_LoadClassHierarchy_test.t     
+             96_Tree_Simple_Visitor_VariableDepthClone_test.t               
+-        	pod.t
+-        	pod_coverage.t  
+         Changes
+         Makefile.PL
+         MANIFEST
