@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*Test-WWW-Mechanize-Catalyst-0.590.0 (05 Sep 2014)
+
+  05 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Test-WWW-Mechanize-Catalyst-0.580.0.ebuild,
+  +Test-WWW-Mechanize-Catalyst-0.590.0.ebuild:
+  bumped to 0.590.0. ( EAP5, deps fixed, tests fixed ). Removed older versions
+
   05 Sep 2014; Kent Fredric <kentfredric@gmail.com>
   -Test-WWW-Mechanize-Catalyst-0.510.0.ebuild,
   -Test-WWW-Mechanize-Catalyst-0.520.0.ebuild,
