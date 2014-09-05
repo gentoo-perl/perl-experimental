@@ -1,8 +1,9 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-
+EAPI=5
 MODULE_AUTHOR=ARTHAS
+MODULE_VERSION=1.21
 inherit perl-module
 
 DESCRIPTION="Use Textile formatting with Template Toolkit"
@@ -12,8 +13,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPEND="
+RDEPEND="
 	virtual/perl-Module-Build
 	>=dev-perl/Template-Toolkit-2.150.0
 	>=dev-perl/Text-Textile-2.03
 "
+DEPEND="$RDEPEND"
+
+SRC_TEST=do
