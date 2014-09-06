@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Devel-SelfStubber-1.50.0-r3 (06 Sep 2014)
+
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Devel-SelfStubber-1.50.0-r2.ebuild,
+  +perl-Devel-SelfStubber-1.50.0-r3.ebuild:
+  EAPI5
+
   06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
   -perl-Devel-SelfStubber-1.30.0.ebuild:
   remove redundant
