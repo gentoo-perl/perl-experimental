@@ -2,6 +2,11 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-B-Lint-1.110.100_rc.ebuild, -perl-B-Lint-1.120.0.ebuild,
+  -perl-B-Lint-1.130.0-r3.ebuild, -perl-B-Lint-1.140.0.ebuild:
+  Remove redundant entries
+
   02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
   -perl-B-Lint-1.110.0.ebuild:
   Remove old 5.10-only virtuals
