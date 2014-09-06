@@ -1,6 +1,10 @@
 # ChangeLog for perl-core/Archive-Extract
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -Archive-Extract-0.480.0.ebuild:
+  remove redundant perl-core entry
 
   15 May 2013; Kent Fredric <kentfredric@gmail.com>
   -Archive-Extract-0.420.0.ebuild, -Archive-Extract-0.440.0.ebuild,
