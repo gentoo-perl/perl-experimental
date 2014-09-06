@@ -2,6 +2,16 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Archive-Extract-0.680.0-r1 (06 Sep 2014)
+*perl-Archive-Extract-0.580.0-r1 (06 Sep 2014)
+
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Archive-Extract-0.580.0.ebuild,
+  +perl-Archive-Extract-0.580.0-r1.ebuild,
+  -perl-Archive-Extract-0.680.0.ebuild,
+  +perl-Archive-Extract-0.680.0-r1.ebuild:
+  EAPI5
+
   06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
   -perl-Archive-Extract-0.480.0-r1.ebuild:
   5.14 virtual
