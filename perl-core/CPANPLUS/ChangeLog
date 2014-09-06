@@ -1,6 +1,17 @@
 # ChangeLog for perl-core/CPANPLUS
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com> -CPANPLUS-0.880.0.ebuild,
+  -CPANPLUS-0.900.0.ebuild, -CPANPLUS-0.900.100.ebuild,
+  -CPANPLUS-0.900.300.ebuild, -CPANPLUS-0.900.400.ebuild,
+  -CPANPLUS-0.900.500.ebuild, -CPANPLUS-0.900.700.ebuild,
+  -CPANPLUS-0.901.0.ebuild, -CPANPLUS-0.901.100.ebuild,
+  -CPANPLUS-0.910.200.ebuild, -CPANPLUS-0.910.300.ebuild,
+  -CPANPLUS-0.910.400.ebuild, -CPANPLUS-0.910.500.ebuild,
+  -CPANPLUS-0.910.800.ebuild, -CPANPLUS-0.910.900.ebuild,
+  -CPANPLUS-0.911.0.ebuild, -CPANPLUS-0.911.900.ebuild:
+  Remove ancient versions
 
   03 May 2013; Kent Fredric <kentfredric@gmail.com> CPANPLUS-0.910.400.ebuild,
   CPANPLUS-0.910.500.ebuild, CPANPLUS-0.910.800.ebuild,
