@@ -3,6 +3,13 @@
 # $Header: $
 
   06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-CPANPLUS-0.912.300.ebuild, -perl-CPANPLUS-0.912.400.ebuild,
+  -perl-CPANPLUS-0.912.600.ebuild, -perl-CPANPLUS-0.912.800.ebuild,
+  -perl-CPANPLUS-0.913.0.ebuild, -perl-CPANPLUS-0.913.300.ebuild,
+  -perl-CPANPLUS-0.913.400.ebuild:
+  prune virtuals down to minimum useful set
+
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
   -perl-CPANPLUS-0.880.0.ebuild, -perl-CPANPLUS-0.900.0.ebuild,
   -perl-CPANPLUS-0.900.100.ebuild, -perl-CPANPLUS-0.900.300.ebuild,
   -perl-CPANPLUS-0.900.400.ebuild, -perl-CPANPLUS-0.900.500.ebuild,
