@@ -2,6 +2,13 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-CPANPLUS-Dist-Build-0.460.0.ebuild,
+  -perl-CPANPLUS-Dist-Build-0.540.0-r1.ebuild,
+  -perl-CPANPLUS-Dist-Build-0.560.0.ebuild,
+  -perl-CPANPLUS-Dist-Build-0.640.0.ebuild:
+  reduce to minimum useful set
+
   02 Jul 2014; Kent Fredric <kentfredric@gmail.com>
   -perl-CPANPLUS-Dist-Build-0.360.0.ebuild:
   Remove old 5.10-only virtuals
