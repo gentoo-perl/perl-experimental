@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/System-Sub
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*System-Sub-0.142.280 (08 Sep 2014)
+
+  08 Sep 2014; mudler <mudler@dark-lab.net> +System-Sub-0.142.280.ebuild,
+  +metadata.xml:
+  Adding System::Sub
+
