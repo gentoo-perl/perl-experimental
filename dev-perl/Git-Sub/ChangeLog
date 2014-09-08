@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Git-Sub
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Git-Sub-0.130.270 (08 Sep 2014)
+
+  08 Sep 2014; mudler <mudler@dark-lab.net> +Git-Sub-0.130.270.ebuild,
+  +metadata.xml:
+  Adding Git::Sub
+
