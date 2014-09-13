@@ -41,4 +41,7 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
+PERL_RM_FILES=(
+	t/author-test-eol.t
+)
 SRC_TEST="do"
