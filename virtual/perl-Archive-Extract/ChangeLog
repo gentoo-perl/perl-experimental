@@ -2,6 +2,14 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-Archive-Extract-0.720.0 (30 Sep 2014)
+
+  30 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-Archive-Extract-0.580.0-r1.ebuild,
+  -perl-Archive-Extract-0.680.0-r1.ebuild,
+  +perl-Archive-Extract-0.720.0.ebuild:
+  Leave only a stub for dev-perl/Archive-Extract
+
 *perl-Archive-Extract-0.680.0-r1 (06 Sep 2014)
 *perl-Archive-Extract-0.580.0-r1 (06 Sep 2014)
 
