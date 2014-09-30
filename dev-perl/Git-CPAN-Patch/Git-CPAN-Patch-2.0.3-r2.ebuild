@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# CPAN::ParseDistribution
 	echo dev-perl/CPAN-ParseDistribution
 	# CPANPLUS
-	echo virtual/perl-CPANPLUS
+	echo dev-perl/CPANPLUS
 	# Cwd
 	echo virtual/perl-File-Spec
 	# DateTime
