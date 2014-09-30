@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Archive::Any
 	echo dev-perl/Archive-Any
 	# Archive::Extract
-	echo virtual/perl-Archive-Extract
+	echo dev-perl/Archive-Extract
 	# BackPAN::Index
 	echo dev-perl/BackPAN-Index
 	# CLASS
