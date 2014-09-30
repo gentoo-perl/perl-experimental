@@ -1,7 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=BROQ
 MODULE_VERSION=0.48
 inherit perl-module
@@ -10,10 +10,10 @@ DESCRIPTION="A Pure Perl interface to Git repositories"
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 comment() { echo ''; }
 COMMON_DEPEND="
-	virtual/perl-Archive-Extract
+	dev-perl/Archive-Extract
 	virtual/perl-Compress-Raw-Zlib
 	virtual/perl-IO-Compress $(comment Compress::Zlib)
 	dev-perl/Config-GitLike
