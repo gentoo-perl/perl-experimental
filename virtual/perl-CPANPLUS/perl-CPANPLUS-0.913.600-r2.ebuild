@@ -11,4 +11,4 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="|| ( =dev-lang/perl-5.16* ~perl-core/CPANPLUS-${PV} )"
+RDEPEND="~dev-perl/CPANPLUS-${PV}"
