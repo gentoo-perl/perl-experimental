@@ -1,3 +1,12 @@
+# Kent Fredric <kentfredric@gmail.com> (01 Oct 2014)
+# Virtuals deprecated, use dev-perl/ Alternatives directly
+# as these are no longer shipped with Perl. Virtuals
+# to be removed on November 01.
+virtual/perl-Archive-Extract
+virtual/perl-CPANPLUS-Dist-Build
+virtual/perl-CPANPLUS
+virtual/perl-Log-Message
+
 # Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
 # Deprecations due to Text-Block being deprecated upstream.
 # Will be treecleaned on, or after, 05 Oct 2014
@@ -46,8 +55,6 @@ perl-core/B-Debug
 virtual/perl-B-Debug
 perl-core/B-Lint
 virtual/perl-B-Lint
-perl-core/CPANPLUS-Dist-Build
-virtual/perl-CPANPLUS-Dist-Build
 perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Devel-SelfStubber
