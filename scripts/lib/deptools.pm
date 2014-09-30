@@ -81,12 +81,10 @@ sub _vmap_perl_strange {
 sub _vmap_overlay_native {
   return (
     (
-      'base',              'B-Lint',      'constant',           'CPANPLUS-Dist-Build',
-      'Devel-SelfStubber', 'Env',         'File-Fetch',         'i18n-langtags',
-      'IPC-SysV',          'lib',         'Log-Message-Simple', 'NEXT',
-      'Object-Accessor',   'Pod-Checker', 'Pod-LaTeX',          'Pod-Perldoc',
-      'Pod-Usage',         'SelfLoader',  'Term-UI',            'Unicode-Collate',
-      'Unicode-Normalize',
+      'base',            'B-Lint',    'constant',    'Devel-SelfStubber',  'Env',        'File-Fetch',
+      'i18n-langtags',   'IPC-SysV',  'lib',         'Log-Message-Simple', 'NEXT',       'Object-Accessor',
+      'Pod-Checker',     'Pod-LaTeX', 'Pod-Perldoc', 'Pod-Usage',          'SelfLoader', 'Term-UI',
+      'Unicode-Collate', 'Unicode-Normalize',
     ),
   );
 }
