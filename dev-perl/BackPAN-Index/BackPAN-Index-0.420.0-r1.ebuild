@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -25,7 +25,7 @@ perl_meta_runtime() {
 	# App::Cache 0.37 ( 0.370.0 )
 	echo \>=dev-perl/App-Cache-0.370.0
 	# Archive::Extract
-	echo virtual/perl-Archive-Extract
+	echo dev-perl/Archive-Extract
 	# CLASS 1.00 ( 1.0.0 )
 	echo \>=dev-perl/CLASS-1.0.0
 	# CPAN::DistnameInfo 0.09 ( 0.90.0 )
