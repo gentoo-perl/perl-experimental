@@ -82,7 +82,7 @@ perl_feature_selfupgrade() {
 	# Test::Simple 0.47
 	echo \>=virtual/perl-Test-Simple-0.47
 	# Archive::Extract 0.16
-	echo \>=virtual/perl-Archive-Extract-0.160.0
+	echo \>=dev-perl/Archive-Extract-0.160.0
 	# Archive::Tar 1.23
 	echo \>=virtual/perl-Archive-Tar-1.23
 	# IO::Zlib 1.04
