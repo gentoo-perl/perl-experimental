@@ -2,6 +2,16 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*perl-CPANPLUS-Dist-Build-0.700.0-r2 (30 Sep 2014)
+*perl-CPANPLUS-Dist-Build-0.620.0-r3 (30 Sep 2014)
+
+  30 Sep 2014; Kent Fredric <kentfredric@gmail.com>
+  -perl-CPANPLUS-Dist-Build-0.620.0-r2.ebuild,
+  +perl-CPANPLUS-Dist-Build-0.620.0-r3.ebuild,
+  -perl-CPANPLUS-Dist-Build-0.700.0-r1.ebuild,
+  +perl-CPANPLUS-Dist-Build-0.700.0-r2.ebuild:
+  Migrate deps to dev-perl/
+
 *perl-CPANPLUS-Dist-Build-0.700.0-r1 (06 Sep 2014)
 *perl-CPANPLUS-Dist-Build-0.620.0-r2 (06 Sep 2014)
 
