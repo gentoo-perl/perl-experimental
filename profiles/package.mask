@@ -9,6 +9,7 @@ virtual/perl-CPANPLUS
 virtual/perl-Log-Message
 virtual/perl-Log-Message-Simple
 virtual/perl-Object-Accessor
+virtual/perl-Pod-LaTeX
 virtual/perl-Term-UI
 
 # Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
