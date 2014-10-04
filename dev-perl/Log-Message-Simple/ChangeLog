@@ -3,6 +3,10 @@
 # $Header: $
 
   04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
+  -Log-Message-Simple-0.06.ebuild, -Log-Message-Simple-0.80.0.ebuild:
+  remove old
+
+  04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
   +Log-Message-Simple-0.06.ebuild, +Log-Message-Simple-0.80.0.ebuild,
   +Log-Message-Simple-0.100.0.ebuild, +metadata.xml:
   move Log-Message-Simple to dev-perl

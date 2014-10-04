@@ -5,3 +5,4 @@ move perl-core/B-Lint dev-perl/B-Lint
 move perl-core/CPANPLUS-Dist-Build dev-perl/CPANPLUS-Dist-Build
 move perl-core/CPANPLUS dev-perl/CPANPLUS
 move perl-core/Log-Message dev-perl/Log-Message
+move perl-core/Log-Message-Simple dev-perl/Log-Message-Simple
