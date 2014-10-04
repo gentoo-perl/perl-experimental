@@ -3,6 +3,7 @@
 # as these are no longer shipped with Perl. Virtuals
 # to be removed on November 01.
 virtual/perl-Archive-Extract
+virtual/perl-B-Lint
 virtual/perl-CPANPLUS-Dist-Build
 virtual/perl-CPANPLUS
 virtual/perl-Log-Message
