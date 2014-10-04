@@ -1,9 +1,0 @@
-# ChangeLog for dev-perl/Algorithm-ClusterPoints
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*Algorithm-ClusterPoints-0.80.0 (21 Jul 2014)
-
-  21 Jul 2014; mudler <mudler@dark-lab.net>
-  +Algorithm-ClusterPoints-0.80.0.ebuild, +metadata.xml:
-  [added] Algorithm::ClusterPoints

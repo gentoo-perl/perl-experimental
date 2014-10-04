@@ -1,9 +1,0 @@
-# ChangeLog for dev-perl/File-Pid
-# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
-# $Header: $
-
-*File-Pid-1.10.0 (21 Jul 2014)
-
-  21 Jul 2014; mudler <mudler@dark-lab.net>
-  +File-Pid-1.10.0.ebuild, +metadata.xml:
-  [added] File::Pid
