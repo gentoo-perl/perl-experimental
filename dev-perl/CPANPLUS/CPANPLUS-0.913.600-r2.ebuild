@@ -76,7 +76,7 @@ perl_feature_selfupgrade() {
 	# Package::Constants 0.01
 	echo \>=virtual/perl-Package-Constants-0.10.0
 	# Term::UI 0.18
-	echo \>=virtual/perl-Term-UI-0.18
+	echo \>=dev-perl/Term-UI-0.180.0
 	# Test::Harness 2.62
 	echo \>=virtual/perl-Test-Harness-2.62
 	# Test::Simple 0.47

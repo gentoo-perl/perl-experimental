@@ -2,6 +2,10 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
+  CPANPLUS-0.913.600-r2.ebuild:
+  Fixdep on Term-UI
+
 *CPANPLUS-0.913.600-r2 (04 Oct 2014)
 
   04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
