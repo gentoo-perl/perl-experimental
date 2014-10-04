@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Locale::Maketext::Simple
 	echo virtual/perl-Locale-Maketext-Simple
 	# Log::Message::Simple
-	echo virtual/perl-Log-Message-Simple
+	echo dev-perl/Log-Message-Simple
 	# Params::Check
 	echo virtual/perl-Params-Check
 	# Term::ReadLine
