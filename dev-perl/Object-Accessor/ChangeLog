@@ -1,6 +1,10 @@
-# ChangeLog for perl-core/Object-Accessor
+# ChangeLog for dev-perl/Object-Accessor
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
+  +Object-Accessor-0.460.0.ebuild, +metadata.xml:
+  move to dev-perl
 
   04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
   -Object-Accessor-0.380.0.ebuild, -Object-Accessor-0.420.0.ebuild:
