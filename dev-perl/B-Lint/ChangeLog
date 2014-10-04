@@ -1,6 +1,10 @@
-# ChangeLog for perl-core/B-Lint
+# ChangeLog for dev-perl/B-Lint
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  04 Oct 2014; Kent Fredric <kentfredric@gmail.com> +B-Lint-1.170.0.ebuild,
+  +metadata.xml:
+  move B-Lint to dev-perl/
 
   06 Sep 2014; Kent Fredric <kentfredric@gmail.com> -B-Lint-1.120.0.ebuild,
   -B-Lint-1.130.0.ebuild, -B-Lint-1.140.0.ebuild:

@@ -12,4 +12,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="=perl-core/B-Lint-${PV}*"
+RDEPEND="=dev-perl/B-Lint-${PV}*"
