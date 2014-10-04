@@ -19,29 +19,28 @@ sub _vmap_langs {
 # ::gentoo virtual/core things
 sub _vmap_perl_native {
   return (
-    'Archive-Tar',             'Attribute-Handlers',   'AutoLoader',         'autodie',
-    'B-Debug',                 'Carp',                 'CGI',                'Compress-Raw-Bzip2',
-    'Compress-Raw-Zlib',       'CPAN',                 'CPAN-Meta',          'CPAN-Meta-Requirements',
-    'CPAN-Meta-YAML',          'Data-Dumper',          'DB_File',            'Digest',
-    'Digest-MD5',              'Digest-SHA',           'Devel-PPPort',       'Dumpvalue',
-    'Encode',                  'Exporter',             'ExtUtils-CBuilder',  'ExtUtils-Command',
-    'ExtUtils-Constant',       'ExtUtils-Install',     'ExtUtils-MakeMaker', 'ExtUtils-Manifest',
-    'ExtUtils-ParseXS',        'I18N-LangTags',        'IO',                 'File-Path',
-    'File-Temp',               'Filter-Simple',        'Getopt-Long',        'HTTP-Tiny',
-    'if',                      'IO-Compress',          'IO-Zlib',            'IPC-Cmd',
-    'JSON-PP',                 'libnet',               'Locale-Maketext',    'Locale-MakeText-Simple',
-    'Math-BigInt',             'Math-BigInt-FastCalc', 'Math-Complex',       'Memoize',
-    'MIME-Base64',             'Module-Build',         'Module-CoreList',    'Module-Load',
-    'Module-Load-Conditional', 'Module-Loaded',        'Module-Metadata',    'Module-Pluggable',
-    'Net-Ping',                'Package-Constants',    'Params-Check',       'parent',
-    'Parse-CPAN-Meta',         'Perl-OSType',          'Pod-Escapes',        'podlators',
-    'Pod-Parser',              'Pod-Simple',           'Safe',               'Scalar-List-Utils',
-    'Socket',                  'Storable',             'Switch',             'Sys-Syslog',
-    'Term-ANSIColor',          'Test',                 'Test-Harness',       'Test-Simple',
-    'Text-Balanced',           'Text-ParseWords',      'Text-Tabs+Wrap',     'Thread-Queue',
-    'threads',                 'Thread-Semaphore',     'threads-shared',     'Time-HiRes',
-    'Time-Local',              'Time-Piece',           'version',            'Version-Requirements',
-    'XSLoader',
+    'Archive-Tar',             'Attribute-Handlers',   'AutoLoader',           'autodie',
+    'B-Debug',                 'Carp',                 'CGI',                  'Compress-Raw-Bzip2',
+    'Compress-Raw-Zlib',       'CPAN',                 'CPAN-Meta',            'CPAN-Meta-Requirements',
+    'CPAN-Meta-YAML',          'Data-Dumper',          'DB_File',              'Digest',
+    'Digest-MD5',              'Digest-SHA',           'Devel-PPPort',         'Dumpvalue',
+    'Encode',                  'Exporter',             'ExtUtils-CBuilder',    'ExtUtils-Command',
+    'ExtUtils-Constant',       'ExtUtils-Install',     'ExtUtils-MakeMaker',   'ExtUtils-Manifest',
+    'ExtUtils-ParseXS',        'I18N-LangTags',        'IO',                   'File-Path',
+    'File-Temp',               'Filter-Simple',        'Getopt-Long',          'HTTP-Tiny',
+    'if',                      'IO-Compress',          'IO-Zlib',              'IPC-Cmd',
+    'JSON-PP',                 'libnet',               'Locale-Maketext',      'Locale-MakeText-Simple',
+    'Math-BigInt',             'Math-BigInt-FastCalc', 'Math-Complex',         'Memoize',
+    'MIME-Base64',             'Module-Build',         'Module-CoreList',      'Module-Load',
+    'Module-Load-Conditional', 'Module-Loaded',        'Module-Metadata',      'Module-Pluggable',
+    'Net-Ping',                'Package-Constants',    'Params-Check',         'parent',
+    'Parse-CPAN-Meta',         'Perl-OSType',          'Pod-Escapes',          'podlators',
+    'Pod-Parser',              'Pod-Simple',           'Safe',                 'Scalar-List-Utils',
+    'Socket',                  'Storable',             'Sys-Syslog',           'Term-ANSIColor',
+    'Test',                    'Test-Harness',         'Test-Simple',          'Text-Balanced',
+    'Text-ParseWords',         'Text-Tabs+Wrap',       'Thread-Queue',         'threads',
+    'Thread-Semaphore',        'threads-shared',       'Time-HiRes',           'Time-Local',
+    'Time-Piece',              'version',              'Version-Requirements', 'XSLoader',
   );
 }
 
@@ -81,9 +80,10 @@ sub _vmap_perl_strange {
 sub _vmap_overlay_native {
   return (
     (
-      'base',       'constant',        'Devel-SelfStubber', 'Env',         'File-Fetch',  'i18n-langtags',
-      'IPC-SysV',   'lib',             'NEXT',              'Pod-Checker', 'Pod-Perldoc', 'Pod-Usage',
-      'SelfLoader', 'Unicode-Collate', 'Unicode-Normalize',
+      'base',            'constant',    'Devel-SelfStubber', 'Env',
+      'File-Fetch',      'IPC-SysV',    'lib',               'NEXT',
+      'Pod-Checker',     'Pod-Perldoc', 'Pod-Usage',         'SelfLoader',
+      'Unicode-Collate', 'Unicode-Normalize',
     ),
   );
 }
