@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Carp
 	# echo dev-lang/perl
 	# Log::Message
-	echo virtual/perl-Log-Message
+	echo dev-perl/Log-Message
 	# Test::More
 	echo virtual/perl-Test-Simple
 	# if

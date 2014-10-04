@@ -1,6 +1,11 @@
-# ChangeLog for perl-core/Log-Message-Simple
-# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# ChangeLog for dev-perl/Log-Message-Simple
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
+  +Log-Message-Simple-0.06.ebuild, +Log-Message-Simple-0.80.0.ebuild,
+  +Log-Message-Simple-0.100.0.ebuild, +metadata.xml:
+  move Log-Message-Simple to dev-perl
 
 *Log-Message-Simple-0.100.0 (24 Feb 2013)
 
