@@ -165,7 +165,7 @@ perl_meta_runtime() {
 	# Term::ReadLine
 	# echo dev-perl/Term-ReadLine
 	# Term::UI
-	echo virtual/perl-Term-UI
+	echo dev-perl/Term-UI
 	# Test::Deep
 	echo dev-perl/Test-Deep
 	# Text::Glob 0.08 ( 0.80.0 )
