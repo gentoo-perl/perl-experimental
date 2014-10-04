@@ -64,7 +64,7 @@ perl_feature_selfupgrade() {
 	# Locale::Maketext::Simple 0.01
 	echo \>=virtual/perl-Locale-Maketext-Simple-0.10.0
 	# Log::Message 0.01
-	echo \>=virtual/perl-Log-Message-0.01
+	echo \>=dev-perl/Log-Message-0.10.0
 	# Module::Load 0.10 
 	echo \>=virtual/perl-Module-Load-0.100.0
 	# Module::Load::Conditional 0.38 / 0.380.0
