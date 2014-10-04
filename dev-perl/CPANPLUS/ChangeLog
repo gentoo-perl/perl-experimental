@@ -4,6 +4,10 @@
 
   04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
   CPANPLUS-0.913.600-r2.ebuild:
+  fix dep on Object Accessor
+
+  04 Oct 2014; Kent Fredric <kentfredric@gmail.com>
+  CPANPLUS-0.913.600-r2.ebuild:
   Fixdep on Term-UI
 
 *CPANPLUS-0.913.600-r2 (04 Oct 2014)

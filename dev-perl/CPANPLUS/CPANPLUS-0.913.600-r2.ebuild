@@ -88,7 +88,7 @@ perl_feature_selfupgrade() {
 	# IO::Zlib 1.04
 	echo \>=virtual/perl-IO-Zlib-1.40.0
 	# Object::Accessor 0.34
-	echo \>=virtual/perl-Object-Accessor-0.34
+	echo \>=dev-perl/Object-Accessor-0.340.0
 	# Module::CoreList 2.22
 	echo \>=virtual/perl-Module-CoreList-2.22
 	# Module::Pluggable 2.4
