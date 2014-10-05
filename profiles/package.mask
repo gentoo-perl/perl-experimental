@@ -20,12 +20,6 @@ dev-perl/Directory-Scratch-Structured
 dev-perl/Eval-Context
 dev-perl/Test-Block
 
-# Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
-# Cookie-XS is deprecated, and CEHTTP-Prefork has been broken since 2011 and is
-# effectively deprecated due to being superceded by PSGI Features.
-# Will be treecleaned on, or after, 05 Oct 2014
-dev-perl/Cookie-XS
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
