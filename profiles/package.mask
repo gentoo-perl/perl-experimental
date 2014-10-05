@@ -30,7 +30,6 @@ dev-perl/Cookie-XS
 # Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
 # All have been marked deprecated upstream for a long time.
 # Will be treecleaned on, or after, 05 Oct 2014
-dev-perl/Devel-DProf
 dev-perl/ElasticSearch
 
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
