@@ -15,7 +15,6 @@ virtual/perl-Term-UI
 # Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
 # Deprecations due to Text-Block being deprecated upstream.
 # Will be treecleaned on, or after, 05 Oct 2014
-dev-perl/Eval-Context
 dev-perl/Test-Block
 
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
