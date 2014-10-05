@@ -12,11 +12,6 @@ virtual/perl-Object-Accessor
 virtual/perl-Pod-LaTeX
 virtual/perl-Term-UI
 
-# Kent Fredric <kentfredric@gmail.com> (05 Sep 2014)
-# Deprecations due to Text-Block being deprecated upstream.
-# Will be treecleaned on, or after, 05 Oct 2014
-dev-perl/Test-Block
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
