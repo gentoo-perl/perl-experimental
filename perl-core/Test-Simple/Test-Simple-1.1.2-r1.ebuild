@@ -14,11 +14,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPENDS="
+RDEPEND="
 	>=virtual/perl-Test-Harness-2.30.0
 	>=virtual/perl-Scalar-List-Utils-1.130.0
 "
-DEPENDS="$RDEPENDS"
+DEPEND="$RDEPENDS"
 PERL_RM_FILES=(
 	t/pod-coverage.t
 	t/pod.t
