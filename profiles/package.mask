@@ -39,12 +39,6 @@ dev-perl/DBIx-Class-HTML-FormFu
 dev-perl/Devel-DProf
 dev-perl/ElasticSearch
 
-# Kent Fredric <kentfredric@gmail.com> (03 Sep 2014)
-# Fails tests, no activity upstream for 4 years.
-# No new releases for 11 years.
-# Removing after October 03, 2014
-dev-perl/Regexp-Copy
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
