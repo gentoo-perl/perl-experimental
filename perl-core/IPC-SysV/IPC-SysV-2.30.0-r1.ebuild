@@ -1,9 +1,9 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="3"
+EAPI=5
 MODULE_AUTHOR=MHX
-MODULE_VERSION="2.03"
+MODULE_VERSION=2.03
 inherit perl-module
 
 DESCRIPTION="System V IPC constants and system calls"
