@@ -65,7 +65,7 @@ perl_meta_runtime() {
 	# Locale::Currency::Format 1.28 ( 1.280.0 )
 	echo \>=dev-perl/Locale-Currency-Format-1.280.0
 	# Locale::Maketext 1.13 ( 1.130.0 )
-	echo \>=virtual/perl-locale-maketext-1.13
+	echo \>=virtual/perl-Locale-Maketext-1.130.0
 	# Module::Pluggable 3.9 ( 3.900.0 )
 	echo \>=virtual/perl-Module-Pluggable-3.900.0
 	# Module::Starter 1.54 ( 1.540.0 )
