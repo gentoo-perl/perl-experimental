@@ -198,40 +198,79 @@ perl-module_src_compile() {
 	fi
 }
 
-# For testers:
-#  This code attempts to work out your threadingness from MAKEOPTS
-#  and apply them to Test::Harness.
+# Starting 2014-10-12:
 #
-#  If you want more verbose testing, set TEST_VERBOSE=1
-#  in your bashrc | /etc/make.conf | ENV
+# AUTHORS:
 #
-# For ebuild writers:
-#  If you wish to enable default tests w/ 'make test' ,
+# - src_test is enabled by default
+# - if tests dont work or should not be run, modify your ebuild to use RESTRICT=test
+# - parallel testing is enabled by default
+# - if parallel testing breaks an ebuild, turn it off with PERL_RESTRICT=parallel-test
+# - if your ebuild calls out to network, set PERL_RESTRICT=network-test and it will normally do nothing different.
 #
-#   SRC_TEST="do"
+# USERS:
 #
-#  If you wish to have threads run in parallel ( using the users makeopts )
-#  all of the following have been tested to work.
+# If you get sick of parallel tests, set USER_PERL_RESTRICT=parallel-test, and it will go away.
+# If your environment means you can't run tests that require the network, set USER_PERL_RESTRICT=network-test and they'll stop being run
+#  if an author is nice enough to set PERL_RESTRICT=network-test.
 #
-#   SRC_TEST="do parallel"
-#   SRC_TEST="parallel"
-#   SRC_TEST="parallel do"
-#   SRC_TEST=parallel
 #
+# VARIABLES:
+#
+# PERL_RESTRICT:
+#        parallel-test - parallel testing is unsupported
+#        network-test  - a test requires network access ( File Bugs upstream to use NO_NETWORK_TESTING )
+# USER_PERL_RESTRICT:
+#        parallel-test - never do parallel testing
+#        network-test  - never run tests that require network access
+# SRC_TEST:
+#        No longer used and completely ignored
 
 perl-module_src_test() {
 	debug-print-function $FUNCNAME "$@"
-	if has 'do' ${SRC_TEST} || has 'parallel' ${SRC_TEST} ; then
-		if has "${TEST_VERBOSE:-0}" 0 && has 'parallel' ${SRC_TEST} ; then
-			export HARNESS_OPTIONS=j$(makeopts_jobs)
-			einfo "Test::Harness Jobs=$(makeopts_jobs)"
-		fi
-		${perlinfo_done} || perl_set_version
-		if [[ -f Build ]] ; then
-			./Build test verbose=${TEST_VERBOSE:-0} || die "test failed"
-		elif [[ -f Makefile ]] ; then
-			emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
-		fi
+
+	# Turn it off globally per user choice.
+	if has 'parallel-test' ${USER_PERL_RESTRICT}; then
+		einfo "Disabling Parallel Testing: USER_PERL_RESTRICT=parallel-test";
+		export HARNESS_OPTIONS="";
+
+	# If user has TEST_VERBOSE globally, disable parallelism because verboseness
+	# can break parallel testing.
+	elif ! has "${TEST_VERBOSE:-0}" 0; then
+		einfo "Disabling Parallel Testing: TEST_VERBOSE=${TEST_VERBOSE}";
+		export HARNESS_OPTIONS="";
+
+	# If ebuild says parallel tests dont work, turn them off.
+	elif has 'parallel-test' ${PERL_RESTRICT}; then
+		einfo "Disabling Parallel Testing: PERL_RESTRICT=parallel-test";
+		export HARNESS_OPTIONS="";
+	else
+		# Default is on.
+		einfo "Test::Harness Jobs=$(makeopts_jobs)"
+		export HARNESS_OPTIONS=j$(makeopts_jobs)
+	fi
+
+	# If a user says "USER_PERL_RESTRICT=network-test",
+	# then assume many CPAN dists will respect NO_NETWORK_TESTING and friends
+	# even if Gentoo haven't made the entire dist "no network testing"
+	if has 'network-test' ${USER_PERL_RESTRICT}; then
+		export NO_NETWORK_TESTING=1
+	fi
+
+	# However, if CPAN don't auto trigger on the above, Gentoo
+	# Can still disable them package wide with PERL_RESTRICT=network-test
+	# But they'll run by default unless USER_PERL_RESTRICT=network-test
+	if has 'network-test' ${USER_PERL_RESTRICT} && has 'network-test' ${PERL_RESTRICT}; then
+		einfo "Skipping Tests: USER_PERL_RESTRICT=network-test && PERL_RESTRICT=network-test";
+		return true;
+	fi
+
+	${perlinfo_done} || perl_set_version
+
+	if [[ -f Build ]] ; then
+		./Build test verbose=${TEST_VERBOSE:-0} || die "test failed"
+	elif [[ -f Makefile ]] ; then
+		emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
 	fi
 }
 
