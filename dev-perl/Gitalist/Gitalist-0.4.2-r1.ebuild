@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -8,8 +8,9 @@ inherit perl-module
 
 DESCRIPTION='A modern git web viewer'
 LICENSE="GPL-2"
+RESTRICT=test
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE=""
 perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.36 ( 6.360.0 )
@@ -124,4 +125,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="broken"
