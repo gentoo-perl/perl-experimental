@@ -25,8 +25,6 @@ virtual/perl-Term-UI
 # Experimental Ebuilds for Perl-Core stuff
 perl-core/B-Debug
 virtual/perl-B-Debug
-perl-core/B-Lint
-virtual/perl-B-Lint
 perl-core/SelfLoader
 virtual/perl-SelfLoader
 perl-core/Devel-SelfStubber
@@ -35,8 +33,6 @@ perl-core/IPC-SysV
 virtual/perl-IPC-SysV
 perl-core/NEXT
 virtual/perl-NEXT
-perl-core/Pod-LaTeX
-virtual/perl-Pod-LaTeX
 perl-core/Unicode-Collate
 virtual/perl-Unicode-Collate
 perl-core/Unicode-Normalize
