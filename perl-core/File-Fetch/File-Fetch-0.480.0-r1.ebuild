@@ -7,6 +7,7 @@ MODULE_VERSION=0.48
 inherit perl-module
 
 DESCRIPTION='Generic file fetching code'
+PERL_RESTRICT=network-test
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -26,4 +27,3 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	${RDEPEND}
 "
-SRC_TEST="network parallel"
