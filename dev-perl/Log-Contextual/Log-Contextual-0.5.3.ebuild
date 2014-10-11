@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -7,9 +7,9 @@ MODULE_VERSION=0.005003
 inherit perl-module
 
 DESCRIPTION='Simple logging interface with a contextual log'
-LICENSE=" || ( Artistic GPL-2 )"
+RESTRICT=test
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
@@ -43,4 +43,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="broken"
