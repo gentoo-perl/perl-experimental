@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -7,9 +7,9 @@ MODULE_VERSION=2.001000
 inherit perl-module
 
 DESCRIPTION='Limit event processing to count/time ratio.'
-LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+RESTRICT="test"
 IUSE=""
 perl_meta_build() {
 	# Cache::FastMmap
@@ -40,4 +40,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="broken"
