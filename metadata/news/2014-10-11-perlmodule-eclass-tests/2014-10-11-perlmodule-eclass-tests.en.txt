@@ -1,0 +1,70 @@
+Title: Important Testing Changes for perl-module.eclass
+Author: Kent Fredric <kentfredric@gmai.com>
+Content-Type: text/plain
+Posted: 2014-10-11
+Revision: 1
+News-Item-Format: 1.0
+
+If you don't use FEATURES=test, you can ignore this message.
+
+Previously, the default behaviour for consumers of perl-module.eclass was to
+not perform tests, even under the application of FEATURES=test, except when
+specifically enabled in each and every ebuild with SRC_TEST=do
+
+Gentoo are looking to change this default in the main tree some time around
+EAPI6, and so, this behavior is being tested for all EAPIs in the
+perl-experimental overlay.
+
+This however means things that previously simply skipped tests due to either
+being broken, or due to developer forgetfulness, will now run.
+
+If you experience problems with tests failing as a result, please file a
+bug[1] and we'll either
+
+  - version bump the release to one that doesn't fail tests
+  - disable tests explicitly with RESTRICT=test
+
+Additionally, Parallel testing is also now enabled by default, which is far
+more likely to cause breakage than testing alone.
+
+If you find tests failing due to parallel testing, please file a bug[1] and
+we'll either
+
+  - version bump the release to one where parallel testing works
+  - disable parallel testing explicitly with PERL_RESTRICT=parallel-test
+
+If you find parallel testing too much of a problem for you in general, you can
+disable it by either
+
+  - setting USER_PERL_RESTRICT=parallel-test in your make.conf
+  - setting USER_PERL_RESTRICT=parallel-test using /etc/portage/package.env
+  and similar.
+
+Additionally, there is a final additional control word that you may wish to
+use if you want to disable only tests that require internet access.
+
+Set:
+
+  USER_PERL_RESTRICT=network-test
+
+And two things will happen:
+
+  - NO_NETWORK_TESTING will be declared during test phase, and CPAN Modules
+  that respect that will stop firing tests ( without failing )
+
+  - Any packages Gentoo identify as needing network access for tests will
+  be marked as such with PERL_RESTRICT=network-test and that will cause the
+  whole test-suite to be skipped.
+
+If you find packages tests requiring network access and not respecting the
+above control word, please file a bug[1], and we'll likely:
+
+  - file bugs with upstream requesting they utilize NO_NETWORK_TESTING where
+  possible.
+
+  - disable tests on the distribution with PERL_RESTRICT=network-test until
+  upstream introduce the ENV controls.
+
+Links:
+
+1: Perl Overlay Bug Tracker: https://github.com/gentoo-perl/perl-experimental/issues
