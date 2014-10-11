@@ -19,6 +19,7 @@ PERL_EXPF="src_unpack src_compile src_test src_install"
 
 case "${EAPI:-0}" in
 	0|1)
+		eqawarn "$P: EAPI 0 and 1 are deprecated both in ::gentoo and ::perl-experimental"
 		PERL_EXPF+=" pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
 		;;
 	2|3|4|5)
