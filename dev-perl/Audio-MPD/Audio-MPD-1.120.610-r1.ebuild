@@ -1,13 +1,13 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=JQUELIN
 MODULE_VERSION=1.120610
 inherit perl-module
 
 DESCRIPTION='class to talk to MPD (Music Player Daemon) servers'
-LICENSE=" || ( Artistic GPL-2 )"
+RESTRICT=test
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# Getopt::Euclid
 	echo dev-perl/Getopt-Euclid
 	# IO::Socket::IP
-	echo dev-perl/IO-Socket-IP
+	echo virtual/perl-IO-Socket-IP
 	# Moose
 	echo dev-perl/Moose
 	# Moose::Util::TypeConstraints
@@ -74,4 +74,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="broken"
