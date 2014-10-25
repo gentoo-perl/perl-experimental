@@ -94,8 +94,6 @@ perl_meta_runtime() {
 	echo dev-perl/Template-Toolkit
 	# Template::Tiny
 	echo dev-perl/Template-Tiny
-	# Test::Builder
-	echo virtual/perl-Test-Simple
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.920.0
 	# URI
