@@ -145,11 +145,20 @@ perl-module_src_configure() {
 	fi
 
 	if [[ ( ${PREFER_BUILDPL} == yes || ! -f Makefile.PL ) && -f Build.PL ]] ; then
-		einfo "Using Module::Build"
-		if [[ ${DEPEND} != *virtual/perl-Module-Build* && ${PN} != Module-Build ]] ; then
-			eqawarn "QA Notice: The ebuild uses Module::Build but doesn't depend on it."
-			eqawarn "           Add virtual/perl-Module-Build to DEPEND!"
-			perl_qafatal "modulebuild"
+		if grep -q '\(use\|require\)\s*Module::Build::Tiny' Build.PL ; then
+			einfo "Using Module::Build::Tiny"
+			if [[ ${DEPEND} != *dev-perl/Module-Build-Tiny* && ${PN} != Module-Build-Tiny ]]; then
+				eqawarn "QA Notice: The ebuild uses Module::Build::Tiny but doesn't depend on it."
+				eqawarn "           Add dev-perl/Module-Build-Tiny to DEPEND!"
+				perl_qafatal "modulebuildtiny"
+			fi
+		else
+			einfo "Using Module::Build"
+			if [[ ${DEPEND} != *virtual/perl-Module-Build* && ${PN} != Module-Build ]] ; then
+				eqawarn "QA Notice: The ebuild uses Module::Build but doesn't depend on it."
+				eqawarn "           Add virtual/perl-Module-Build to DEPEND!"
+				perl_qafatal "modulebuild"
+			fi
 		fi
 		set -- \
 			--installdirs=vendor \
@@ -317,23 +326,22 @@ perl-module_src_install() {
 
 	local f
 
-	if [[ -z ${mytargets} ]] ; then
+	if [[ -f Build ]]; then
+		mytargets="${mytargets:-install}"
+		mbparams="${mbparams:---pure}"
+		einfo "./Build ${mytargets} ${mbparams}"
+		./Build ${mytargets} ${mbparams} \
+			|| die "./Build ${mytargets} ${mbparams} failed"
+	elif [[ -f Makefile ]]; then
 		case "${CATEGORY}" in
 			dev-perl|perl-core) mytargets="pure_install" ;;
 			*)                  mytargets="install" ;;
 		esac
-	fi
-
-	if [[ $(declare -p myinst 2>&-) != "declare -a myinst="* ]]; then
-		local myinst_local=(${myinst})
-	else
-		local myinst_local=("${myinst[@]}")
-	fi
-
-	if [[ -f Build ]] ; then
-		./Build ${mytargets} \
-			|| die "./Build ${mytargets} failed"
-	elif [[ -f Makefile ]] ; then
+		if [[ $(declare -p myinst 2>&-) != "declare -a myinst="* ]]; then
+			local myinst_local=(${myinst})
+		else
+			local myinst_local=("${myinst[@]}")
+		fi
 		emake "${myinst_local[@]}" ${mytargets} \
 			|| die "emake ${myinst_local[@]} ${mytargets} failed"
 	fi
