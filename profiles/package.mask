@@ -1,17 +1,3 @@
-# Kent Fredric <kentfredric@gmail.com> (01 Oct 2014)
-# Virtuals deprecated, use dev-perl/ Alternatives directly
-# as these are no longer shipped with Perl. Virtuals
-# to be removed on November 01.
-virtual/perl-Archive-Extract
-virtual/perl-B-Lint
-virtual/perl-CPANPLUS-Dist-Build
-virtual/perl-CPANPLUS
-virtual/perl-Log-Message
-virtual/perl-Log-Message-Simple
-virtual/perl-Object-Accessor
-virtual/perl-Pod-LaTeX
-virtual/perl-Term-UI
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
