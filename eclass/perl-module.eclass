@@ -20,6 +20,7 @@ PERL_EXPF="src_unpack src_compile src_test src_install"
 case "${EAPI:-0}" in
 	0|1)
 		eqawarn "$P: EAPI 0 and 1 are deprecated both in ::gentoo and ::perl-experimental"
+		perl_qafatal "eapi";
 		PERL_EXPF+=" pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
 		;;
 	2|3|4|5)
@@ -148,10 +149,7 @@ perl-module_src_configure() {
 		if [[ ${DEPEND} != *virtual/perl-Module-Build* && ${PN} != Module-Build ]] ; then
 			eqawarn "QA Notice: The ebuild uses Module::Build but doesn't depend on it."
 			eqawarn "           Add virtual/perl-Module-Build to DEPEND!"
-			if [[ -n ${PERLQAFATAL} ]]; then
-				eerror "Bailing out due to PERLQAFATAL=1";
-				die;
-			fi
+			perl_qafatal "modulebuild"
 		fi
 		set -- \
 			--installdirs=vendor \
@@ -386,6 +384,7 @@ perl-module_pkg_postinst() {
 	if [[ ${CATEGORY} != perl-core ]] ; then
 		eqawarn "perl-module.eclass: You are calling perl-module_pkg_postinst outside the perl-core category."
 		eqawarn "   This does not do anything; the call can be safely removed."
+		perl_qafatal "function"
 		return 0
 	fi
 	perl_link_duallife_scripts
@@ -413,6 +412,7 @@ perl-module_pkg_postrm() {
 	if [[ ${CATEGORY} != perl-core ]] ; then
 		eqawarn "perl-module.eclass: You are calling perl-module_pkg_postrm outside the perl-core category."
 		eqawarn "   This does not do anything; the call can be safely removed."
+		perl_qafatal "function"
 		return 0
 	fi
 	perl_link_duallife_scripts
@@ -460,6 +460,7 @@ perl_check_module_version() {
 	if [[ -n ${REAL_PV} && ${REAL_PV} != ${PV} ]] ; then
 		eqawarn "QA Notice: Based on MODULE_VERSION=${MODULE_VERSION} the ebuild version ${PV} is wrong!"
 		eqawarn "           The ebuild version should be ${REAL_PV}"
+		perl_qafatal "version"
 	fi
 }
 
@@ -669,6 +670,39 @@ perl_link_duallife_scripts() {
 			DUALLIFEMAN[${#DUALLIFEMAN[*]}]=${i}
 		done
 		popd > /dev/null
+	fi
+}
+
+# @FUNCTION: perl_qafatal
+# @USAGE: perl_qafatal TYPE
+# @DESCRIPTION:
+# Invoking this method after eqawarn's allows an entry point for the eclass to trigger
+# a fatal exit if the user has PERL_QAFATAL set.
+#
+# The value TYPE will be used to optionally allow the user to filter certain QA Types.
+# TYPE = eapi 		 	 : Legacy EAPI warnings
+# TYPE = modulebuild 	 : Failure to include Module-Build as a dependency.
+# TYPE = modulebuildtiny : Failure to include Module-Build-Tiny as a dependency
+# TYPE = function    	 : Use of a deprecated function
+# TYPE = version     	 : version and expected version missmatch
+#
+# PERL_QAFATAL:
+#  == "1" 		- Fatal for all types
+#  has "all" 	- Fatal for all types
+#  has "$type" 	- Fatal for "$type"
+perl_qafatal() {
+	local failtype=$1
+	if [[ "${PERLQAFATAL:-0}" == 1 ]]; then
+		eerror "Bailing out due to PERLQAFATAL including $failtype (==1)";
+		die;
+	fi
+	if has 'all' ${PERLQAFATAL}; then
+		eerror "Bailing out due to PERLQAFATAL including $failtype (all)";
+		die;
+	fi
+	if has $failtype ${PERLQAFATAL}; then
+		eerror "Bailing out due to PERLQAFATAL including $1";
+		die;
 	fi
 }
 
