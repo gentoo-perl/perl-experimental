@@ -54,7 +54,6 @@
         <remote-id type="cpan-module">Dancer2::Logger::Note</remote-id>
         <remote-id type="cpan-module">Dancer2::Logger::Null</remote-id>
         <remote-id type="cpan-module">Dancer2::Plugin</remote-id>
-        <remote-id type="cpan-module">Dancer2::Plugin::Ajax</remote-id>
         <remote-id type="cpan-module">Dancer2::Serializer::Dumper</remote-id>
         <remote-id type="cpan-module">Dancer2::Serializer::JSON</remote-id>
         <remote-id type="cpan-module">Dancer2::Serializer::Mutable</remote-id>
