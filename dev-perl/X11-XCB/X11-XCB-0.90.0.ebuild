@@ -29,6 +29,6 @@ DEPEND="dev-perl/extutils-depends
 		dev-perl/Test-Exception
 	)"
 
-SRC_TEST="skip" # FIXME: portage/virtualx messes up
+RESTRICT="test" # FIXME: portage/virtualx messes up
 
 MAKEOPTS+=" -j1"
