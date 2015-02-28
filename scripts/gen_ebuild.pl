@@ -284,7 +284,6 @@ if ( $handler2->has_tdeps ) {
 
 $fh->say( "DEPEND=\"\n" .  ( join qq{\n}, map { "\t$_" } @{$depends} ) . "\n\"" );
 $fh->say( "RDEPEND=\"\n" . ( join qq{\n}, map { "\t$_" } @{$rdepends} ) . "\n\"" );
-$fh->say("SRC_TEST=\"do\"");
 
 #say pp( \%modules,);# { pretty => 1 } );
 exit 1;
