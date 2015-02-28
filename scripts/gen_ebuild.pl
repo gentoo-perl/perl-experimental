@@ -197,7 +197,9 @@ if ( scalar @$lics == 1 ) {
   $fh->say( 'LICENSE=" ' . $lics->[0] . '"' );
 }
 elsif ( scalar @$lics > 1 ) {
-  $fh->say( 'LICENSE=" || ( ' . ( join q{ }, @$lics ) . ' )"' );
+  if ( not ( $lics->[0] eq 'Artistic' && $lics->[1] eq 'GPL-2' ) ) {
+    $fh->say( 'LICENSE=" || ( ' . ( join q{ }, @$lics ) . ' )"' );
+  }
 }
 else {
   $fh->say('LICENSE=""');
