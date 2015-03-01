@@ -25,6 +25,7 @@
         <remote-id type="cpan-module">Dancer2::Core::Request</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Request::Upload</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Response</remote-id>
+        <remote-id type="cpan-module">Dancer2::Core::Response::Delayed</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::ConfigReader</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::DSL</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::Engine</remote-id>
@@ -33,6 +34,7 @@
         <remote-id type="cpan-module">Dancer2::Core::Role::Headers</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::Hookable</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::Logger</remote-id>
+        <remote-id type="cpan-module">Dancer2::Core::Role::Response</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::Serializer</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::SessionFactory</remote-id>
         <remote-id type="cpan-module">Dancer2::Core::Role::SessionFactory::File</remote-id>
