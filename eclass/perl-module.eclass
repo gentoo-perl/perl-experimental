@@ -131,6 +131,8 @@ perl-module_src_configure() {
 	[[ ${SRC_PREP} = yes ]] && return 0
 	SRC_PREP="yes"
 
+	perl_check_env
+
 	perl_set_version
 	perl_set_eprefix
 
@@ -725,4 +727,47 @@ perl_set_eprefix() {
 			fi
 			;;
 	esac
+}
+
+# @FUNCTION: perl_check_env
+# @USAGE: perl_check_env
+# @DESCRIPTION:
+# Checks a blacklist of known-suspect ENV values that can be accidentally set by users
+# doing personal perl work, which may accidentally leak into portage and break the
+# system perl installaton.
+# Dies if any of the suspect fields are found, and tells users the circumvention options
+# for the problem, whether it be unsetting the bad fields, or setting
+# I_KNOW_WHAT_IM_DOING=1
+
+perl_check_env() {
+	local errored value;
+
+	for i in PERL_MM_OPT PERL5LIB PERL5OPT PERL_MB_OPT PERL_CORE PERLPREFIX; do
+		# Next unless match
+		[ -v $i ] || continue;
+
+		# Warn only once, and warn only when one of the bad values are set.
+		# record failure here.
+		[ ${errored:-0} == 0 ] && \
+			ewarn "perl-module.eclass: Suspect ENV values found.";
+
+		errored=1
+
+		# Read ENV Value
+		eval "value=\$$i";
+
+		# Print ENV name/value pair
+		ewarn "    $i=\"$value\"";
+	done
+
+	# Return if there were no failures
+	[ ${errored:-0} == 0 ] && return;
+
+	# Return if user knows what they're doing
+	if [ ${I_KNOW_WHAT_IM_DOING:-0} == 1 ]; then
+		ewarn "Continuing due to I_KNOW_WHAT_IM_DOING=1"
+		return
+	fi
+
+	die "Please unset from ENV ( ~/.bashrc, package.env, etc ) or set I_KNOW_WHAT_IM_DOING=1"
 }
