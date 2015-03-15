@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.161 2014/12/17 16:40:53 dilfridge Exp $
+# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.163 2015/03/14 14:32:10 dilfridge Exp $
 
 # @ECLASS: perl-module.eclass
 # @MAINTAINER:
@@ -752,10 +752,8 @@ perl_set_eprefix() {
 # Checks a blacklist of known-suspect ENV values that can be accidentally set by users
 # doing personal perl work, which may accidentally leak into portage and break the
 # system perl installaton.
-# Dies if any of the suspect fields are found, and tells users the circumvention options
-# for the problem, whether it be unsetting the bad fields, or setting
-# I_KNOW_WHAT_IM_DOING=1
-
+# Dies if any of the suspect fields are found, and tell the user what needs to be unset.
+# There's a workaround, but you'll have to read the code for it.
 perl_check_env() {
 	local errored value;
 
@@ -765,26 +763,35 @@ perl_check_env() {
 
 		# Warn only once, and warn only when one of the bad values are set.
 		# record failure here.
-		[ ${errored:-0} == 0 ] && \
-			ewarn "perl-module.eclass: Suspect ENV values found.";
-
+		if [ ${errored:-0} == 0 ]; then
+			if [ -n "${I_KNOW_WHAT_I_AM_DOING}" ]; then
+				elog "perl-module.eclass: Suspicious environment values found.";
+			else
+				eerror "perl-module.eclass: Suspicious environment values found.";
+			fi
+		fi
 		errored=1
 
 		# Read ENV Value
 		eval "value=\$$i";
 
 		# Print ENV name/value pair
-		ewarn "    $i=\"$value\"";
+		if [ -n "${I_KNOW_WHAT_I_AM_DOING}" ]; then
+			elog "    $i=\"$value\"";
+		else
+			eerror "    $i=\"$value\"";
+		fi
 	done
 
 	# Return if there were no failures
 	[ ${errored:-0} == 0 ] && return;
 
 	# Return if user knows what they're doing
-	if [ ${I_KNOW_WHAT_IM_DOING:-0} == 1 ]; then
-		ewarn "Continuing due to I_KNOW_WHAT_IM_DOING=1"
+	if [ -n "${I_KNOW_WHAT_I_AM_DOING}" ]; then
+		elog "Continuing anyway, seems you know what you're doing."
 		return
 	fi
 
-	die "Please unset from ENV ( ~/.bashrc, package.env, etc ) or set I_KNOW_WHAT_IM_DOING=1"
+	eerror "Your environment settings may lead to undefined behavior and/or build failures."
+	die "Please fix your environment ( ~/.bashrc, package.env, ... ), see above for details."
 }
