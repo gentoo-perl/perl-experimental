@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=GBARR
 MODULE_VERSION=1.03
@@ -15,9 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	>=virtual/perl-Attribute-Handlers-0.88
+	>=virtual/perl-Attribute-Handlers-0.880.0
 	>=dev-perl/Moose-0.900.0
+	virtual/perl-Test-Simple
 "
 DEPEND="${RDEPEND}"
-
-SRC_TEST="do"
