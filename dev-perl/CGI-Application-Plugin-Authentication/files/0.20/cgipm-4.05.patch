@@ -1,0 +1,21 @@
+Description: Adjust for CGI.pm >= 4.05
+ CGI.pm now warns if parameters are imported in list context, as this is a potential security hole.
+ Explicitly require scalar context.
+Origin: vendor
+Bug: https://rt.cpan.org/Ticket/Display.html?id=99460
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=99460
+Bug-Debian: https://bugs.debian.org/765051
+Author: gregor herrmann <gregoa@debian.org>
+Last-Update: 2014-10-13
+
+--- a/lib/CGI/Application/Plugin/Authentication.pm
++++ b/lib/CGI/Application/Plugin/Authentication.pm
+@@ -1205,7 +1205,7 @@
+     my $field_names = $config->{CREDENTIALS} || [qw(authen_username authen_password)];
+ 
+     my $query = $self->_cgiapp->query;
+-    my @credentials = map { $query->param($_) } @$field_names;
++    my @credentials = map { scalar $query->param($_) } @$field_names;
+     if ($credentials[0]) {
+         # The user is trying to login
+         # make sure if they are already logged in, that we log them out first
