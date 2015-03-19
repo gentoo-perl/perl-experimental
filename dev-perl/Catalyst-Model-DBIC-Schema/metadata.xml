@@ -6,11 +6,6 @@
         <email>mb@cattlegrid.info</email>
         <name>Michele Beltrame</name>
     </maintainer>
-    <use>
-        <flag name="catalyst_helper">Catalyst::Helper support</flag>
-        <flag name="caching">Caching support</flag>
-        <flag name="replication">Replication support</flag>
-    </use>
     <upstream>
         <remote-id type="cpan">Catalyst-Model-DBIC-Schema</remote-id>
         <remote-id type="cpan-module">Catalyst::Helper::Model::DBIC::Schema</remote-id>
