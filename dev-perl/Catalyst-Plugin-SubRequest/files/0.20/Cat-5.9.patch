@@ -1,0 +1,40 @@
+Description: compatibility with Catalyst 5.9
+ Taken from https://gist.github.com/jjn1056/9947765
+Author: John Napiorkowski
+Bug: https://rt.cpan.org/Public/Bug/Display.html?id=94392
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=747502
+
+--- a/lib/Catalyst/Plugin/SubRequest.pm
++++ b/lib/Catalyst/Plugin/SubRequest.pm
+@@ -102,18 +102,29 @@ sub sub_request_response {
+ 
+   # need this so that
+   my $writer = Catalyst::Plugin::SubRequest::Writer->new;
+-  my $response_cb = sub { $writer };
++  my $response_cb = sub {
++    my $response = shift;
++    my ($status, $headers, $body) = @$response;
++    if($body) {
++      return;
++    } else {
++      return $writer;
++    }
++  };
++
+   my $i_ctx = $class->prepare( env => $env, response_cb => $response_cb );
+   $i_ctx->stash($stash);
+   $i_ctx->dispatch;
+   $i_ctx->finalize;
+   $c->stats->profile( end => 'subrequest: ' . $path ) if $c->debug;
+ 
+-  $i_ctx->response->body($writer->body);
++  if($writer->body) {
++    $i_ctx->response->body($writer->body);
++  }
+ 
+   return $i_ctx->response;
+ }
+ 
+ package Catalyst::Plugin::SubRequest::Writer;
+ use Moose;
+ has body => (
