@@ -1,0 +1,259 @@
+diff -Naur META.json META.json
+--- META.json	2015-01-16 06:43:04.000000000 +1300
++++ META.json	2015-03-24 23:02:56.004805137 +1300
+@@ -4,7 +4,7 @@
+       "unknown"
+    ],
+    "dynamic_config" : 1,
+-   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240",
++   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.150001",
+    "license" : [
+       "unknown"
+    ],
+@@ -34,6 +34,7 @@
+          "requires" : {
+             "Carp" : "0",
+             "Cwd" : "0",
++            "File::Basename" : "0",
+             "File::Spec" : "0",
+             "File::Temp" : "0",
+             "FindBin" : "0",
+diff -Naur META.yml META.yml
+--- META.yml	2015-01-16 06:43:04.000000000 +1300
++++ META.yml	2015-03-24 23:02:53.529810608 +1300
+@@ -7,7 +7,7 @@
+ configure_requires:
+   ExtUtils::MakeMaker: '0'
+ dynamic_config: 1
+-generated_by: 'ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240'
++generated_by: 'ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.150001'
+ license: unknown
+ meta-spec:
+   url: http://module-build.sourceforge.net/META-spec-v1.4.html
+@@ -20,6 +20,7 @@
+ requires:
+   Carp: '0'
+   Cwd: '0'
++  File::Basename: '0'
+   File::Spec: '0'
+   File::Temp: '0'
+   FindBin: '0'
+diff -Naur Makefile.PL Makefile.PL
+--- Makefile.PL	2015-01-16 06:42:22.000000000 +1300
++++ Makefile.PL	2015-03-24 23:01:45.809960001 +1300
+@@ -44,6 +44,7 @@
+             Cwd             0
+             FindBin         0
+             Symbol          0
++            File::Basename  0
+             File::Spec      0
+             File::Temp      0
+             List::Util      0
+diff -Naur t/02-export-base.t t/02-export-base.t
+--- t/02-export-base.t	2014-07-28 19:38:56.000000000 +1200
++++ t/02-export-base.t	2015-03-24 22:45:51.952000767 +1300
+@@ -8,6 +8,8 @@
+ 
+ use Symbol;
+ use Test::More;
++use File::Temp qw( tempfile );
++use File::Basename qw( basename );
+ 
+ $\ = "\n";
+ $, = "\n\t";
+@@ -19,20 +21,21 @@
+ #
+ # eval necessary for crippled O/S w/ missing/broken symlinks.
+ 
+-BEGIN
+-{
+-    eval { symlink qw( /nonexistant/path/to/foobar ./foobar ) }
+-}
++my ( $fh, $file, $basename );
+ 
+-END
+-{
+-    unlink './foobar';
++BEGIN {
++    ( $fh, $file ) = tempfile( '02-export-XXXXXX', DIR => './', OPEN => 0 );
++    $basename = basename($file);
++    eval { symlink '/nonexistant/path/to/foobar', './' . $basename };
+ }
+ 
++END {
++    unlink $file;    # Autocleanup doesn't work here.
++}
+ use FindBin::libs qw( export                            );
+ use FindBin::libs qw( export=found base=blib            );
+ use FindBin::libs qw( export=junk  base=frobnicatorium  );
+-use FindBin::libs qw( export       base=foobar          );
++use FindBin::libs 'export',       'base=' . $basename;
+ 
+ my %testz
+ = qw
+@@ -40,13 +43,14 @@
+     lib     1
+     found   1
+     junk    0
+-    foobar  0
+ );
++$testz{$basename}  = 0;
+ 
+ plan tests => 1 * keys %testz;
+ 
+-while( my ($name, $true) = each %testz )
++for my $name ( sort keys %testz )
+ {
++    my $true = $testz{$name};
+     my $dest    = qualify        $name;
+     my $ref     = qualify_to_ref $dest;
+ 
+diff -Naur t/05-export-subdir.t t/05-export-subdir.t
+--- t/05-export-subdir.t	2014-07-28 02:29:58.000000000 +1200
++++ t/05-export-subdir.t	2015-03-24 22:51:15.953321024 +1300
+@@ -3,17 +3,21 @@
+ use v5.8;
+ 
+ use Test::More tests => 1;
+-
++use File::Temp qw( tempdir );
++use File::Basename qw( basename );
+ $\ = "\n";
+ $, = "\n\t";
+ 
+-BEGIN { -d './lib/foo' || mkdir './lib/foo', 0555  or die $! }
+-END   { -d './lib/foo' && rmdir './lib/foo'        or die $! }
++my ($dir,$basename);
++BEGIN {
++  $dir = tempdir( '05-export-subdir-XXXXXX', DIR => './lib/', CLEANUP => 1 );
++  $basename = basename( $dir );
++}
+ 
+-use FindBin::libs qw( export subdir=foo );
++use FindBin::libs 'export', 'subdir=' . $basename;
+ 
+-my $found   = grep m{\bfoo\b}, @lib;
++my $found   = grep m{\b\Q$basename\E\b}, @lib;
+ 
+-ok $found, 'Found foo subdir';
++ok $found, "Found $basename subdir";
+ 
+ __END__
+diff -Naur t/07-export-subdir-subonly.t t/07-export-subdir-subonly.t
+--- t/07-export-subdir-subonly.t	2014-07-26 20:14:19.000000000 +1200
++++ t/07-export-subdir-subonly.t	2015-03-24 22:53:38.147018466 +1300
+@@ -1,17 +1,18 @@
+ package Testophile;
+ 
+ use v5.8;
++use File::Temp qw( tempdir );
++use File::Basename qw( basename );
++my ($dir,$basename);
++BEGIN {
++  $dir = tempdir( '07-export-subdir-XXXXXX', DIR => './lib/', CLEANUP => 1 );
++  $basename = basename( $dir );
++}
+ 
+-$\ = "\n";
+-$, = "\n\t";
+-
+-BEGIN   { mkdir './lib/foo', 0555   }
+-END     { rmdir './lib/foo'         }
+-
+-use FindBin::libs qw( export subdir=foo subonly );
++use FindBin::libs 'export', 'subdir=' . $basename, 'subonly';
+ 
+ use Test::More tests => 1;
+ 
+-ok @lib == 1, 'Found only foo subdir';
++ok @lib == 1, "Found only $basename subdir";
+ 
+ __END__
+diff -Naur t/08-base-subdir-subonly.t t/08-base-subdir-subonly.t
+--- t/08-base-subdir-subonly.t	2014-07-28 02:29:58.000000000 +1200
++++ t/08-base-subdir-subonly.t	2015-03-24 22:56:44.697617268 +1300
+@@ -5,17 +5,22 @@
+ use File::Spec::Functions  qw( catpath );
+ 
+ use Test::More tests => 2;
++use File::Temp qw( tempdir );
++use File::Basename qw( basename );
+ 
+-BEGIN   { mkdir './blib/foo', 0555  }
+-END     { rmdir './blib/foo'        }
++my ( $dir, $basename );
++BEGIN {
++  $dir = tempdir( '08-base-subdir-subonly-XXXXXX', DIR => './blib/', CLEANUP => 1 );
++  $basename = basename($dir);
++}
+ 
+ require FindBin::libs;
+ 
+-FindBin::libs->import( qw( base=blib subdir=foo subonly ) );
++FindBin::libs->import( 'base=blib', 'subdir=' . $basename, 'subonly' );
+ 
+-my $expect  = catpath '' => qw( blib foo );
++my $expect  = catpath '' => ('blib',$basename );
+ 
+-like $INC[0], qr{\Q$expect\E $}x, 'Found only foo subdir';
++like $INC[0], qr{\Q$expect\E $}x, "Found only $basename subdir";
+ 
+ FindBin::libs->import;
+ 
+diff -Naur t/09-base-subdir-scalar.t t/09-base-subdir-scalar.t
+--- t/09-base-subdir-scalar.t	2015-01-16 06:39:03.000000000 +1300
++++ t/09-base-subdir-scalar.t	2015-03-24 23:00:11.357167420 +1300
+@@ -4,11 +4,17 @@
+ 
+ use File::Spec::Functions   qw( catpath         );
+ use Symbol                  qw( qualify_to_ref  );
++use File::Temp              qw( tempdir );
++use File::Basename          qw( basename );
+ 
+ use Test::More tests => 2;
+ 
+-BEGIN   { mkdir './blib/blort', 0555  }
+-END     { rmdir './blib/blort'        }
++my ($dir,$basename);
++
++BEGIN {
++  $dir = tempdir('09-base-subdir-scalar-XXXXXX', DIR => './blib/', CLEANUP => 1 );
++  $basename = basename($dir);
++}
+ 
+ require FindBin::libs;
+ 
+@@ -17,25 +23,21 @@
+     2.0 < FindBin::libs->VERSION
+     or skip "Test for new version", 2;
+ 
+-    FindBin::libs->import
+-    (
+-        qw
+-        (
+-            base=blib
+-            subdir=blort
+-            subonly
+-            export=snark
+-            scalar
+-        )
++    FindBin::libs->import(
++            'base=blib',
++            'subdir=' . $basename,
++            'subonly',
++            'export=snark',
++            'scalar',
+     );
+ 
+     my $ref     = qualify_to_ref 'snark';
+-    my $expect  = catpath '' => qw( blib blort );
++    my $expect  = catpath '' => 'blib', $basename;
+ 
+     my $value   = ${ *$ref };
+ 
+     ok $value, "Exported scalar '\$snark'";
+-    like $value, qr{\Q$expect\E $}x, "Found 'blib/blort' ($value)";
++    like $value, qr{\Q$expect\E $}x, "Found 'blib/$basename' ($value)";
+ 
+ }
+ 
