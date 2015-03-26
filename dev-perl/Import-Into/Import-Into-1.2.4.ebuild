@@ -5,7 +5,7 @@
 EAPI=5
 
 MODULE_AUTHOR=ETHER
-MODULE_VERSION=1.002003
+MODULE_VERSION=1.002004
 inherit perl-module
 
 DESCRIPTION="Import packages into other packages"
