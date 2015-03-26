@@ -1,21 +1,23 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=DOY
-MODULE_VERSION="0.03"
+MODULE_VERSION=0.03
 inherit perl-module
 
 DESCRIPTION="Moose in a box"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="strict traits instancetype declare types cli logging async utilroles other utils"
-COMMON_DEPEND="
+PERL_RM_FILES=(
+	t/pod.t
+)
+RDEPEND="
 	>=dev-perl/Moose-0.920.0
 	strict? (
-		>=dev-perl/MooseX-StrictConstructor-0.08
-		>=dev-perl/MooseX-Params-Validate-0.60
+		>=dev-perl/MooseX-StrictConstructor-0.80.0
+		>=dev-perl/MooseX-Params-Validate-0.60.0
 	)
 	traits? (
 		dev-perl/MooseX-Role-TraitConstructor
@@ -26,7 +28,7 @@ COMMON_DEPEND="
 	instancetype? (
 		dev-perl/MooseX-GlobRef
 		dev-perl/MooseX-InsideOut
-		>=dev-perl/MooseX-Singleton-0.200
+		>=dev-perl/MooseX-Singleton-0.200.0
 		>=dev-perl/MooseX-NonMoose-0.60.0
 	)
 	declare? (
@@ -35,7 +37,7 @@ COMMON_DEPEND="
 		dev-perl/TryCatch
 	)
 	types? (
-		>=dev-perl/MooseX-Types-0.20
+		>=dev-perl/MooseX-Types-0.200.0
 		dev-perl/MooseX-Types-Structured
 		dev-perl/MooseX-Types-Path-Class
 		dev-perl/MooseX-Types-Set-Object
@@ -75,9 +77,6 @@ COMMON_DEPEND="
 	)
 "
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-6.420.0
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
