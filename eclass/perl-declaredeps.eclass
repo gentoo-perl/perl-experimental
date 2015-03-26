@@ -38,6 +38,9 @@
 
 case "${EAPI:-0}" in
 	4)
+		eerror "perl-declaredeps:THIS ECLASS IS FULLY DEPRECATED and will begin fataling after April 10, 2015."
+		eerror "If you need it to work after that point, replicate it to your overlay"
+		eerror " -- in ${CATEGORY}/${PF}"
 		;;
 	*)
 		die "perl-declaredeps needs EAPI4";
