@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Class-Inspector-1.130.0
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/MRO-Compat-0.100.0
-	virtual/perl-Module-Pluggable
+	dev-perl/Module-Pluggable
 	>=dev-perl/Moose-1.30.0
 	>=dev-perl/Params-Validate-0.760.0
 	dev-perl/URI-Find
