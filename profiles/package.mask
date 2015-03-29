@@ -1,3 +1,9 @@
+# Kent Fredric <kentfredric@gmail.com> (30 Mar 2015)
+# Virtual deprecated as perl-core version of B::Lint is marked deprecated since 5.17.9
+# And removed from perl-core in 5.19.0. Depend on dev-perl/B-Lint instead.
+# Masked package will be pruned on, or after, 30 April 2015
+virtual/perl-B-Lint
+
 # Kent Fredric <kentfredric@gmail.com> (15 Mar 2015)
 # Depercated upstream since 2011, dev-perl/namespace-autoclean recommended instead.
 # Tree clean will occur any time after 15 April 2015
