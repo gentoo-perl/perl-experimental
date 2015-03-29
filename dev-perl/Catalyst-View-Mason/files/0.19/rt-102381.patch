@@ -1,0 +1,35 @@
+--- t/debug.t	2014-12-29 20:50:47.000000000 +0000
++++ t/debug.t	2015-03-29 16:47:27.450513977 +0000
+@@ -4,8 +4,8 @@
+ use warnings;
+ use Test::More;
+ 
+-eval "use IO::Capture::Stderr";
+-plan skip_all => "IO::Capture::Stderr required for debug testing" if $@;
++eval "use Capture::Tiny";
++plan skip_all => "Capture::Tiny required for debug testing" if $@;
+ 
+ plan tests => 3;
+ 
+@@ -14,15 +14,15 @@
+ 
+ $ENV{CATALYST_DEBUG} = 1;
+ 
+-my $capture = IO::Capture::Stderr->new;
+-$capture->start;
++my $response;
++my $capture = Capture::Tiny::capture_stderr(sub{
+ 
+-use_ok('Catalyst::Test', 'TestApp');
++	use_ok('Catalyst::Test', 'TestApp');
+ 
+-my $response = request('/test');
++	$response = request('/test');
+ 
+-$capture->stop;
++});
+ 
+ ok($response->is_success, 'request ok');
+ 
+-like(join('', $capture->read), qr{\[debug\] Rendering component "/test"}, 'debug message ok');
++like($capture, qr{\[debug\] Rendering component "/test"}, 'debug message ok');
