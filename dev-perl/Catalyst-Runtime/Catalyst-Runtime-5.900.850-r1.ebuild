@@ -68,7 +68,7 @@ RDEPEND="
 	>=dev-perl/JSON-MaybeXS-1.0.0
 	dev-perl/List-MoreUtils
 	dev-perl/MRO-Compat
-	>=virtual/perl-Module-Pluggable-4.700.0
+	>=dev-perl/Module-Pluggable-4.700.0
 	>=dev-perl/Moose-0.950.0
 	>=dev-perl/Moose-1.30.0
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.9.30
