@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/File-Type
 	virtual/perl-IO
 	dev-perl/MIME-Lite
-	virtual/perl-Module-Pluggable
+	dev-perl/Module-Pluggable
 	dev-perl/Moose
 	dev-perl/Path-Class
 "
