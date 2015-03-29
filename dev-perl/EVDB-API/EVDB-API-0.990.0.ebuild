@@ -1,26 +1,26 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=RADCLIFF
+MODULE_VERSION=0.99
 inherit perl-module
 
 DESCRIPTION="Perl interface to EVDB public API"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
-SRC_TEST="do"
 
 IUSE="test"
 RDEPEND="
-	>=virtual/perl-Digest-MD5-0.1
+	virtual/perl-Carp
+	>=virtual/perl-Digest-MD5-0.100.0
 	dev-perl/libwww-perl
-	>=virtual/perl-Module-Pluggable-3.0
+	>=dev-perl/Module-Pluggable-3.0.0
 	|| (
-		>=dev-perl/XML-Simple-0.1
+		>=dev-perl/XML-Simple-0.100.0
 		dev-perl/XML-Twig
 	)
 	|| (
