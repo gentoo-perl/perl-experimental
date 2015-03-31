@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Software-License-CCpack</remote-id>
+		<remote-id type="cpan-module">Software::License::CCpack</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_2_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_3_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_4_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_2_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_3_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_4_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_ND_2_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_ND_3_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_ND_4_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_SA_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_SA_2_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_SA_3_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_NC_SA_4_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_ND_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_ND_2_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_ND_3_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_ND_4_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_ND_NC_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_SA_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_SA_2_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_SA_3_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_BY_SA_4_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CC_PDM_1_0</remote-id>
+	</upstream>
+</pkgmetadata>
