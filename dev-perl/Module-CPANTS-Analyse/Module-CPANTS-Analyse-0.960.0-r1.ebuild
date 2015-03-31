@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/IO-Capture-0.50.0
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/Module-ExtractUse-0.330.0
-	>=virtual/perl-Module-Pluggable-2.960.0
+	>=dev-perl/Module-Pluggable-2.960.0
 	dev-perl/set-scalar
 	>=dev-perl/Software-License-0.103.8
 	dev-perl/Software-License-CCpack
