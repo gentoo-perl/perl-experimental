@@ -56,7 +56,7 @@ RDEPEND="
 	virtual/perl-IO
 	>=dev-perl/JSON-2.120.0
 	>=dev-perl/JSON-XS-2.231.0
-	virtual/perl-Module-Pluggable
+	dev-perl/Module-Pluggable
 	>=dev-perl/Moose-2.0.0
 	>=dev-perl/MooseX-Clone-0.40.0
 	>=dev-perl/MooseX-Role-Parameterized-0.100.0
