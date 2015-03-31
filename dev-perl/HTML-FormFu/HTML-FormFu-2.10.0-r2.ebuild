@@ -52,7 +52,7 @@ RDEPEND="
 	virtual/perl-IO
 	dev-perl/List-MoreUtils
 	virtual/perl-Locale-Maketext
-	virtual/perl-Module-Pluggable
+	dev-perl/Module-Pluggable
 	>=dev-perl/Moose-1.0.0
 	dev-perl/MooseX-Aliases
 	dev-perl/Number-Format
