@@ -1,10 +1,11 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=5
 
 MODULE_AUTHOR=NUFFIN
+MODULE_VERSION=0.04
 inherit perl-module
 
 DESCRIPTION="DWIM loading of Moose objects from YAML "
@@ -13,17 +14,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-COMMON_DEPEND="
-	>=dev-perl/MooseX-Blessed-Reconstruct-0.03
-	dev-perl/Sub-Exporter
+# YAML -> yaml
+RDEPEND="
+	>=dev-perl/MooseX-Blessed-Reconstruct-0.30.0
+	>=dev-perl/Sub-Exporter-0.982.0
 	dev-perl/namespace-clean
 	dev-perl/yaml
 "
 DEPEND="
-	${COMMON_DEPEND}
-	test? ( dev-perl/Test-use-ok )
+	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+	test? (
+		dev-perl/Test-use-ok
+	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
