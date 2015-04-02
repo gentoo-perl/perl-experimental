@@ -1,3 +1,14 @@
+# Kent Fredric <kentfredric@gmail.com> (03 Apr 2015)
+# Distribution merged into dev-perl/Catalyst-Runtime since 5.90042.
+# Please use that instead. Tree clean >= 03 May 2015.
+dev-perl/Catalyst-Plugin-Unicode-Encoding
+
+# Kent Fredric <kentfredric@gmail.com> (03 Apr 2015)
+# Distribution strongly deprecated in favour of Catalyst::Plugin::Unicode::Encoding
+# that now ships with catalyst.
+# Please use that instead. Tree clean >= 03 May 2015.
+dev-perl/Catalyst-Plugin-Unicode
+
 # Kent Fredric <kentfredric@gmail.com> (30 Mar 2015)
 # Virtual deprecated as perl-core version of B::Lint is marked deprecated since 5.17.9
 # And removed from perl-core in 5.19.0. Depend on dev-perl/B-Lint instead.
