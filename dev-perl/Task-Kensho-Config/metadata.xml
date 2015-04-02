@@ -6,10 +6,6 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
-    <use>
-        <flag name="config_any">Install <pkg>dev-perl/Config-Any</pkg></flag>
-        <flag name="config_general">Install <pkg>dev-perl/config-general</pkg></flag>
-    </use>
     <upstream>
         <remote-id type="cpan">Task-Kensho-Config</remote-id>
         <remote-id type="cpan-module">Task::Kensho::Config</remote-id>
