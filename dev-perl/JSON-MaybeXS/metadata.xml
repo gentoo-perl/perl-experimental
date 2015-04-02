@@ -5,7 +5,10 @@
     <maintainer>
         <email>mb@cattlegrid.info</email>
         <name>Michele Beltrame</name>
-    </maintainer>
+	</maintainer>
+	<use>
+		<flag name="recommended">Install Cpanel::JSON::XS to maximise JSON decoding speed</flag>
+	</use>
     <upstream>
         <remote-id type="cpan">JSON::MaybeXS</remote-id>
         <remote-id type="cpan-module">JSON::MaybeXS</remote-id>
