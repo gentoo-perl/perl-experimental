@@ -8,15 +8,14 @@
   </maintainer>
   <use>
     <flag name="createdb">Create new Database automatically</flag>
-    <flag name="markdown">Markdown formatter</flag>
     <flag name="docbook">DocBook formatter</flag>
     <flag name="podformatter">POD formatterr</flag>
     <flag name="syntaxhighlight">Syntax Highlightert</flag>
     <flag name="transclusion">Transclusion support</flag>
     <flag name="amazonboxes">Amazon boxes</flag>
     <flag name="rssformatter">RSS Formatter</flag>
-    <flag name="emoticons">Emoticons</flag>
-    <flag name="recaptcha">reCAPTCHA for anonymous edits</flag>
+	<flag name="recaptcha">reCAPTCHA for anonymous edits</flag>
+	<flag name="fastcgi">Install FCGI::ProcManager for FastCGI support</flag>
   </use>
   <upstream>
     <remote-id type="cpan">MojoMojo</remote-id>
