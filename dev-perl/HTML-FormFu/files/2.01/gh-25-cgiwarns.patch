@@ -1,0 +1,58 @@
+From ee79cf689f075f8a64d96a5e467875242caa9078 Mon Sep 17 00:00:00 2001
+From: Dean Hamstead <dean@fragfest.com.au>
+Date: Tue, 17 Mar 2015 09:42:08 +1100
+Subject: [PATCH] Changes to shut up CGI warnings. See also
+ http://search.cpan.org/~leejo/CGI-4.13/lib/CGI.pm#Fetching_the_names_of_all_the_parameters_passed_to_your_script:
+
+---
+ lib/HTML/FormFu.pm               | 46 ++++
+ lib/HTML/FormFu/FakeQuery.pm     |  2 ++
+ lib/HTML/FormFu/QueryType/CGI.pm |  4 ++++
+ 3 files changed, 31 insertions(+), 21 deletions(-)
+
+diff --git a/lib/HTML/FormFu.pm b/lib/HTML/FormFu.pm
+index d19f4a3..271f234 100644
+--- a/lib/HTML/FormFu.pm
++++ b/lib/HTML/FormFu.pm
+@@ -301,6 +301,10 @@ sub process {
+             next if !defined $name;
+             next if none { $name eq $_ } @params;
+ 
++            ## CGI wants you to use $query->multi_param($foo).
++            ## doing so breaks CGI::Simple. So shoosh it up for now.
++            local $CGI::LIST_CONTEXT_WARN = 0;
++
+             if ( $field->nested ) {
+ 
+                 # call in list context so we know if there's more than 1 value
+diff --git a/lib/HTML/FormFu/FakeQuery.pm b/lib/HTML/FormFu/FakeQuery.pm
+index 0e481f7..77ad514 100644
+--- a/lib/HTML/FormFu/FakeQuery.pm
++++ b/lib/HTML/FormFu/FakeQuery.pm
+@@ -29,6 +29,8 @@ sub new {
+     return bless $self, $class;
+ }
+ 
++sub multi_param { goto &param }
++
+ sub param {
+     my $self = shift;
+ 
+diff --git a/lib/HTML/FormFu/QueryType/CGI.pm b/lib/HTML/FormFu/QueryType/CGI.pm
+index 8dc42c0..8895995 100644
+--- a/lib/HTML/FormFu/QueryType/CGI.pm
++++ b/lib/HTML/FormFu/QueryType/CGI.pm
+@@ -11,6 +11,10 @@ sub parse_uploads {
+     my ( $class, $form, $name ) = @_;
+ 
+     my $query  = $form->query;
++    ## CGI wants you to use $query->multi_param($foo).
++    ## doing so breaks CGI::Simple. So shoosh it up for now.
++    local $CGI::LIST_CONTEXT_WARN = 0; 
++
+     my @params = $query->param($name);
+     my @new;
+ 
+-- 
+2.3.4
+
