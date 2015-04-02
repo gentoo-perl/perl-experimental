@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,15 +15,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Any-Moose
 	dev-perl/Carp-Clan-Share
-	dev-perl/config-general
-	dev-perl/Config-Any
 	dev-perl/Clone
+	dev-perl/Config-Any
+	dev-perl/Config-General
 	>=dev-perl/Data-Visitor-0.240.0
 	dev-perl/Getopt-Usaginator
 	dev-perl/Hash-Merge-Simple
 	dev-perl/List-MoreUtils
-	dev-perl/Any-Moose
 	dev-perl/Path-Class
 	dev-perl/Sub-Install
 "
@@ -33,5 +33,3 @@ DEPEND="${RDEPEND}
 		dev-perl/Test-Most
 	)
 "
-
-SRC_TEST="do parallel"
