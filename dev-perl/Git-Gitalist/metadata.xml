@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Git-Gitalist</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::HasUtils</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Object</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Object::Blob</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Object::Commit</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Object::HasTree</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Object::Tag</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Object::Tree</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Repository</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Util</remote-id>
+	</upstream>
+</pkgmetadata>
