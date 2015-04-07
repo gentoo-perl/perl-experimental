@@ -6,12 +6,6 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
-    <use>
-        <flag name="logdispatch">Install <pkg>dev-perl/log-dispatch</pkg></flag>
-        <flag name="log4perl">Install <pkg>dev-perl/Log-Log4perl</pkg></flag>
-        <flag name="logcontextual">Install
-			<pkg>dev-perl/Log-Contextual</pkg></flag>
-    </use>
     <upstream>
         <remote-id type="cpan">Task-Kensho-Logging</remote-id>
         <remote-id type="cpan-module">Task::Kensho::Logging</remote-id>
