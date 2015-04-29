@@ -11,5 +11,8 @@
         <remote-id type="cpan-module">CGI::Application::Dispatch</remote-id>
         <remote-id type="cpan-module">CGI::Application::Dispatch::PSGI</remote-id>
         <remote-id type="cpan-module">CGI::Application::Dispatch::Regexp</remote-id>
-    </upstream>
+	</upstream>
+	<use>
+		<flag name="apache_test">With FEATURES=test, do tests using Apache</flag>
+	</use>
 </pkgmetadata>
