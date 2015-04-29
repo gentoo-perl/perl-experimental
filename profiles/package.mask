@@ -15,11 +15,6 @@ dev-perl/Catalyst-Plugin-Unicode
 # Masked package will be pruned on, or after, 30 April 2015
 virtual/perl-B-Lint
 
-# Kent Fredric <kentfredric@gmail.com> (15 Mar 2015)
-# Depercated upstream since 2011, dev-perl/namespace-autoclean recommended instead.
-# Tree clean will occur any time after 15 April 2015
-dev-perl/MooseX-Role-Restricted
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
