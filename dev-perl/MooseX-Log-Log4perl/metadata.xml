@@ -10,5 +10,5 @@
         <remote-id type="cpan">MooseX-Log-Log4perl</remote-id>
         <remote-id type="cpan-module">MooseX::Log::Log4perl</remote-id>
         <remote-id type="cpan-module">MooseX::Log::Log4perl::Easy</remote-id>
-    </upstream>
+	</upstream>
 </pkgmetadata>
