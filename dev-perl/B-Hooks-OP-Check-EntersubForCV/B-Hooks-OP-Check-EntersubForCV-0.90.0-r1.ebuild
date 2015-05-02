@@ -20,6 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/extutils-depends
+	dev-perl/ExtUtils-Depends
 	>=virtual/perl-ExtUtils-MakeMaker-6.420.0
 "
