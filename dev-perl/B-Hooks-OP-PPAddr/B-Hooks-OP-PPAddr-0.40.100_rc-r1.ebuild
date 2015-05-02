@@ -1,8 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_VERSION=0.04_01
 MODULE_AUTHOR=FLORA
@@ -14,14 +14,11 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-COMMON_DEPEND="
+RDEPEND="
 	virtual/perl-parent
 "
 DEPEND="
-	${COMMON_DEPEND}
-	dev-perl/extutils-depends
+	${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-6.420.0
+	>=dev-perl/ExtUtils-Depends-0.302.0
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
