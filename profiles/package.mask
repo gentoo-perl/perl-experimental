@@ -9,12 +9,6 @@ dev-perl/Catalyst-Plugin-Unicode-Encoding
 # Please use that instead. Tree clean >= 03 May 2015.
 dev-perl/Catalyst-Plugin-Unicode
 
-# Kent Fredric <kentfredric@gmail.com> (30 Mar 2015)
-# Virtual deprecated as perl-core version of B::Lint is marked deprecated since 5.17.9
-# And removed from perl-core in 5.19.0. Depend on dev-perl/B-Lint instead.
-# Masked package will be pruned on, or after, 30 April 2015
-virtual/perl-B-Lint
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
