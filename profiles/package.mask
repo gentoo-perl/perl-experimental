@@ -3,12 +3,6 @@
 # Please use that instead. Tree clean >= 03 May 2015.
 dev-perl/Catalyst-Plugin-Unicode-Encoding
 
-# Kent Fredric <kentfredric@gmail.com> (03 Apr 2015)
-# Distribution strongly deprecated in favour of Catalyst::Plugin::Unicode::Encoding
-# that now ships with catalyst.
-# Please use that instead. Tree clean >= 03 May 2015.
-dev-perl/Catalyst-Plugin-Unicode
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
