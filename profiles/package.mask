@@ -5,6 +5,7 @@
 =virtual/perl-Pod-Usage-1.640.0*
 =virtual/perl-SelfLoader-1.220.0*
 =virtual/perl-Unicode-Collate-1.120.0*
+=virtual/perl-Unicode-Normalize-1.180.0*
 
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
