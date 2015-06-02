@@ -27,7 +27,5 @@ perl-core/IPC-SysV
 virtual/perl-IPC-SysV
 perl-core/NEXT
 virtual/perl-NEXT
-perl-core/Unicode-Collate
-virtual/perl-Unicode-Collate
 perl-core/Unicode-Normalize
 virtual/perl-Unicode-Normalize
