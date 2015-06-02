@@ -15,6 +15,7 @@ IUSE="test"
 # Scalar::Util -> Scalar-List-Utils
 # Sub::Exporter::Util -> Sub-Exporter
 # Test::Builder -> Test-Simple ( Yes, Runtime, this dist has a test module )
+# Test::Tester -> Test-Simple
 RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Math-BigInt
@@ -29,7 +30,7 @@ DEPEND="
 	test? (
 		virtual/perl-File-Spec
 		>=virtual/perl-Test-Simple-0.960.0
-		dev-perl/Test-Tester
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-Tester )
 		virtual/perl-if
 	)
 "
