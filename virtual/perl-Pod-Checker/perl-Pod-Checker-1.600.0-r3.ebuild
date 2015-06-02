@@ -12,4 +12,4 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="|| ( =dev-lang/perl-5.20* ~perl-core/${PN#perl-}-${PV} )"
+RDEPEND="|| ( =dev-lang/perl-5.22* =dev-lang/perl-5.20* ~perl-core/${PN#perl-}-${PV} )"
