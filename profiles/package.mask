@@ -1,6 +1,7 @@
 # Kent Fredric <kentfredric@gmail.com> (03 Jun 2015)
 # Perl 5.22 only virtuals. Will be unmasked when it actually exists.
 =virtual/perl-constant-1.330.0*
+=virtual/perl-Pod-Perldoc-3.250.0*
 
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
