@@ -43,7 +43,7 @@ perl_meta_test() {
 	# Test::More 0.94 ( 0.940.0 )
 	echo \>=virtual/perl-Test-Simple-0.94
 	# Test::Tester 0.108 ( 0.108.0 )
-	echo \>=dev-perl/Test-Tester-0.108.0
+	echo  '|| ( >=virtual/perl-Test-Simple-1.1.10 >=dev-perl/Test-Tester-0.108.0 )'
 }
 DEPEND="
 	$(perl_meta_configure)
