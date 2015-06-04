@@ -1,8 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=ANDREMAR
 MODULE_VERSION=0.100330
@@ -12,19 +12,26 @@ DESCRIPTION="Dump your loaded module versions to the debug-screen"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
+PERL_RM_FILES=(
+	t/release-pod-syntax.t
+	t/release-pod-coverage.t
+	t/author/pod-coverage.t
+	t/author/pod.t
+)
 RDEPEND="
-	dev-perl/CGI-Application
-	dev-perl/Catalyst-Runtime
 	dev-perl/MRO-Compat
 "
 DEPEND="${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 	test? (
+		dev-perl/Catalyst-Runtime
+		virtual/perl-Getopt-Long
+		virtual/perl-Pod-Usage
 		dev-perl/Test-MockObject
+		virtual/perl-Test-Simple
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 		dev-perl/Test-WWW-Mechanize-Catalyst
-		dev-perl/Test-use-ok
 	)
 "
-
-SRC_TEST=do
