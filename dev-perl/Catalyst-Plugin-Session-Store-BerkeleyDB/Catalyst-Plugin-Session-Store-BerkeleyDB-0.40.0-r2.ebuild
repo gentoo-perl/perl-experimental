@@ -1,17 +1,16 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=FLORA
-MODULE_VERSION="0.04"
+MODULE_VERSION=0.04
 inherit perl-module
 
 DESCRIPTION="store sessions in a berkeleydb"
 
-IUSE=""
+IUSE="test"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
@@ -26,12 +25,14 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/File-Remove
-	dev-perl/Test-WWW-Mechanize-Catalyst
-	virtual/perl-Test-Simple
-	dev-perl/Test-use-ok
+	virtual/perl-ExtUtils-MakeMaker
+	test? (
+		dev-perl/File-Remove
+		dev-perl/Test-WWW-Mechanize-Catalyst
+		virtual/perl-Test-Simple
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+	)
 "
 PERL_RM_FILES=(
 	t/author/pod.t
 )
-SRC_TEST=do
