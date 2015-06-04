@@ -1,3 +1,8 @@
+# Kent Fredric <kentfredric@gmail.com> (04 Jun 2015)
+# Marked unsupported and unmaintained and deprecated by upstream since
+# 2008. Will be killed on/after 04 Jul 2015.
+dev-perl/Catalyst-Controller-BindLex
+
 # Kent Fredric <kentfredric@gmail.com> (03 Jun 2015)
 # Perl 5.22 only virtuals. Will be unmasked when it actually exists.
 =virtual/perl-constant-1.330.0*
