@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="A generic role for user objects stored in KiokuDB"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
 RDEPEND="
 	>=dev-perl/KiokuDB-0.90.0
@@ -18,9 +18,13 @@ RDEPEND="
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-Types-Authen-Passphrase
 	dev-perl/Sub-Exporter
-	dev-perl/Test-use-ok
 	dev-perl/namespace-clean
 "
 DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
-	${RDEPEND}"
+	${RDEPEND}
+	test? (
+		virtual/perl-Test-Simple
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+	)
+"
