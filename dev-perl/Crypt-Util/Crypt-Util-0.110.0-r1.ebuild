@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -12,10 +12,11 @@ DESCRIPTION="A lightweight Crypt/Digest convenience API"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
-IUSE="test"
+KEYWORDS="~amd64"
+IUSE="test minimal"
 
 # URI::Escape -> URI
+
 RDEPEND="
 	>=dev-perl/Moose-0.920.0
 	virtual/perl-Digest
@@ -28,17 +29,28 @@ RDEPEND="
 	dev-perl/crypt-cbc
 	dev-perl/Crypt-Rijndael
 	virtual/perl-Digest-SHA
+	!minimal? (
+		dev-perl/Crypt-Twofish
+		dev-perl/Crypt-Blowfish
+		dev-perl/Crypt-DES
+		dev-perl/Crypt-RIPEMD160
+		dev-perl/Digest-Whirlpool
+		virtual/perl-Digest-MD5
+		dev-perl/Digest-HMAC
+	)
 "
 DEPEND="${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-6.420.0
 	test? (
 		virtual/perl-Test-Simple
-		dev-perl/Test-use-ok
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 		dev-perl/Test-Exception
-	)"
-
-SRC_TEST=do
+	)
+"
 
 pkg_setup() {
-	ewarn "This ebuild installs by default CBC, Rijndael and SHA."
-	ewarn "If you need other crypt libs, install them!"
+	if use minimal; then
+		ewarn "This ebuild installs by default CBC, Rijndael and SHA."
+		ewarn "If you need other crypt libs, install them!"
+	fi
 }
