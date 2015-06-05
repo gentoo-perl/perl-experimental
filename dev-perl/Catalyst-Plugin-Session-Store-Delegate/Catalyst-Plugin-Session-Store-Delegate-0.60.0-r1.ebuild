@@ -1,9 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=BOBTFISH
-MODULE_VERSION="0.06"
+MODULE_VERSION=0.06
 inherit perl-module
 
 DESCRIPTION="Delegate session storage to an application model object."
@@ -11,7 +11,6 @@ DESCRIPTION="Delegate session storage to an application model object."
 IUSE="test"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
@@ -23,9 +22,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-6.420.0
 	test? (
-		dev-perl/Test-use-ok
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 		virtual/perl-Test-Simple
 	)
 "
-SRC_TEST="do"
