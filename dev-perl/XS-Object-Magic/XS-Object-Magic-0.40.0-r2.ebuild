@@ -27,6 +27,6 @@ DEPEND="
 		virtual/perl-Scalar-List-Utils
 		dev-perl/Test-Fatal
 		virtual/perl-Test-Simple
-		dev-perl/Test-use-ok
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 	)
 "
