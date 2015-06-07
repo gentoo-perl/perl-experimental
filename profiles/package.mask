@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> (08 Jun 2015)
+# Needs newer versions in ::gentoo
+=dev-perl/MooseX-Types-URI-0.70.0
+
 # Kent Fredric <kentfredric@gmail.com> (04 Jun 2015)
 # Marked unsupported and unmaintained and deprecated by upstream since
 # 2008. Will be killed on/after 04 Jul 2015.
