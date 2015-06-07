@@ -1,28 +1,24 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=NUFFIN
+MODULE_VERSION=0.01
 inherit perl-module
 
 DESCRIPTION="A wrapper for new that can accept a traits parameter."
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-COMMON_DEPEND="
+RDEPEND="
 	>=dev-perl/Moose-0.400.0
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 	test? (
-		dev-perl/Test-use-ok
+	|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 		dev-perl/Test-Exception
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-# Fails in 0.01 for me, see https://rt.cpan.org/Ticket/Display.html?id=53070
-#SRC_TEST="do"
