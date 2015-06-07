@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-perl/Data-Visitor-0.210.0
 	virtual/perl-Scalar-List-Utils
 	dev-perl/namespace-clean
-	dev-perl/Test-use-ok
+	|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 "
 DEPEND="${RDEPEND}
 	>=virtual/perl-Module-Build-0.280.0
