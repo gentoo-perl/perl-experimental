@@ -9,8 +9,9 @@ dev-perl/Catalyst-Controller-ActionRole
 <=dev-perl/Task-Kensho-0.330.0
 
 # Kent Fredric <kentfredric@gmail.com> (08 Jun 2015)
-# Test::TempDir considered dangerous and deprecated by upstream,
-# Try not to use it. Test-TempDir will be tree cleaned a month after
+# Test::TempDir considered dangerous and deprecated by upstream.
+# Try not to use it, and use Test-TempDir-Tiny instead.
+# Test-TempDir will be tree cleaned a month after
 # the last of these dependencies needs it.
 dev-perl/Test-TempDir
 <=dev-perl/BerkeleyDB-Manager-0.120.0-r1
