@@ -10,7 +10,4 @@
         <remote-id type="cpan">Template-Plugin-JSON</remote-id>
         <remote-id type="cpan-module">Template::Plugin::JSON</remote-id>
 	</upstream>
-	<use>
-		<flag name="recommended">Install JSON::XS for faster performance</flag>
-	</use>
 </pkgmetadata>
