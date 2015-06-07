@@ -25,6 +25,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	test? (
-		dev-perl/Test-use-ok
+		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 	)
 "
