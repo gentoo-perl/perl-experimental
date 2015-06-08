@@ -8,7 +8,7 @@ inherit perl-module
 
 DESCRIPTION="does your code require newer perl than you think?"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="test"
 
 # Test::More -> Test-Simple
