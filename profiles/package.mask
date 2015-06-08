@@ -44,14 +44,3 @@ dev-perl/Catalyst-Controller-BindLex
 # Trim these modules from tree if this problem exists after Jul 2015
 <=dev-perl/Time-Format-0.80.0
 <=dev-perl/Weather-Com-2.0.0
-
-# Kent Fredric <kentfredric@gmail.com> (11 Mar 2011)
-# Experimental Ebuilds for Perl-Core stuff
-perl-core/SelfLoader
-virtual/perl-SelfLoader
-perl-core/Devel-SelfStubber
-virtual/perl-Devel-SelfStubber
-perl-core/IPC-SysV
-virtual/perl-IPC-SysV
-perl-core/NEXT
-virtual/perl-NEXT
