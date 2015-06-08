@@ -7,7 +7,7 @@
 # Catalyst::Controller::ActionRole deprecated by upstream.
 dev-perl/Catalyst-Controller-ActionRole
 <=dev-perl/Catalyst-ActionRole-ACL-0.70.0
-<=dev-perl/CatalystX-Declare-0.15.0
+<=dev-perl/CatalystX-Declare-0.15.0-r1
 <=dev-perl/CatalystX-SimpleLogin-0.180.0
 <=dev-perl/Task-Catalyst-4.20.0-r2
 <=dev-perl/Task-Kesho-WebDev-0.280.0
