@@ -1,27 +1,22 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=IKEBE
-MODULE_VERSION="0.04"
+MODULE_VERSION=0.04
 inherit perl-module
 
 DESCRIPTION="emulate MySQL PASSWORD() function"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-COMMON_DEPEND="
+RDEPEND="
 	dev-perl/Digest-SHA1
 "
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
 	virtual/perl-Module-Build
 	test? (
 		virtual/perl-Test-Simple
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
