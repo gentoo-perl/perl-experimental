@@ -6,10 +6,6 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
-    <use>
-        <flag name="metanoindex">Install support libraries for meta_no_index
-			feature</flag>
-    </use>
     <upstream>
         <remote-id type="cpan">Dist-Zilla-Plugin-MetaProvides-Class</remote-id>
         <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaProvides::Class</remote-id>
