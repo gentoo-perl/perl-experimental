@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Data-DPath</remote-id>
+		<remote-id type="cpan-module">Data::DPath</remote-id>
+		<remote-id type="cpan-module">Data::DPath::Attrs</remote-id>
+		<remote-id type="cpan-module">Data::DPath::Context</remote-id>
+		<remote-id type="cpan-module">Data::DPath::Filters</remote-id>
+		<remote-id type="cpan-module">Data::DPath::Path</remote-id>
+		<remote-id type="cpan-module">Data::DPath::Point</remote-id>
+		<remote-id type="cpan-module">Data::DPath::Step</remote-id>
+	</upstream>
+</pkgmetadata>
