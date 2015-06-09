@@ -1,17 +1,21 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=FLORA
+MODULE_VERSION=0.12
 inherit perl-module
 
 DESCRIPTION="FillInForm for Catalyst"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
+PERL_RM_FILES=(
+	t/02pod.t
+	t/03podcoverage.t
+)
 RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/HTML-FillInForm
@@ -22,4 +26,3 @@ DEPEND="
 		dev-perl/Catalyst-Action-RenderView
 	)
 "
-SRC_TEST=do
