@@ -1,4 +1,10 @@
 # Kent Fredric <kentfredric@gmail.com> (09 Jun 2015)
+# Requires non-existent Clone-Fast which has been invisible on CPAN for 2 years
+# With no sign of hope. Has been keyword masked forever.
+# Tree clean ~ 09 Jul 2015 unless there are complaints
+=dev-perl/Catalyst-Plugin-Server-0.280.0
+
+# Kent Fredric <kentfredric@gmail.com> (09 Jun 2015)
 # Requires the long deprecated and now tree cleaned MooseX::AttributeHelpers
 # Tree clean ~ 09 July 2015
 =dev-perl/MooseX-Async-0.07
