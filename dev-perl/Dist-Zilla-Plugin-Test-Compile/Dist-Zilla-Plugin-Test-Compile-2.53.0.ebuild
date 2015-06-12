@@ -8,7 +8,7 @@ inherit perl-mb-tiny
 
 DESCRIPTION="Common tests to check syntax of your modules, only using core modules"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="

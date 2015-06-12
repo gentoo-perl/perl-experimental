@@ -8,7 +8,7 @@ inherit perl-module
 
 DESCRIPTION="Release tests for minimum required versions"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="

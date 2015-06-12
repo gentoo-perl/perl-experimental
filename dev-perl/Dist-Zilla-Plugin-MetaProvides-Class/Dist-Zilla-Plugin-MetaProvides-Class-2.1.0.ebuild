@@ -8,7 +8,7 @@ inherit perl-module
 
 DESCRIPTION="Scans Dist::Zilla's .pm files and tries to identify classes using Class::Discover."
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="test minimal"
 
 RDEPEND="

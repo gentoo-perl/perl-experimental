@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="An integrated API for inspecting Perl distributions"
 
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 PERL_RM_FILES=(

@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="detect MooseX::Declare's 'class' keyword in files."
 
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
