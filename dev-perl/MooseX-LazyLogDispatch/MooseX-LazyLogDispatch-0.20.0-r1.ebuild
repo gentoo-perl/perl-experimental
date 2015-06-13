@@ -1,28 +1,24 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=BLBLACK
-MODULE_VERSION="0.02"
+MODULE_VERSION=0.02
 inherit perl-module
 
 DESCRIPTION="A Logging Role for Moose"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-COMMON_DEPEND="
+RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Log-Dispatch-Config-0.50.0
 "
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 	test? (
-		>=virtual/perl-Test-Simple-0.42
-		>=dev-perl/IO-stringy-2.110
+		>=virtual/perl-Test-Simple-0.420.0
+		>=dev-perl/IO-stringy-2.110.0
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
