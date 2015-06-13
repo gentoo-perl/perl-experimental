@@ -18,7 +18,7 @@ IUSE="test"
 # Sys::Hostname -> perl
 # HTML::Entities -> HTML-Parser
 RDEPEND="
-	virtual/perl-CGI
+	dev-perl/CGI
 	dev-perl/Catalyst-Action-REST
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Component-InstancePerContext
