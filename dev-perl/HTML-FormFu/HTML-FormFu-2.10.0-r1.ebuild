@@ -70,7 +70,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300.0
 	>=dev-perl/File-ShareDir-Install-0.30.0
 	test? (
-		>=virtual/perl-CGI-3.370.0
+		>=dev-perl/CGI-3.370.0
 		>=dev-perl/Test-Aggregate-0.371.0
 		dev-perl/Test-Exception
 		>=virtual/perl-Test-Simple-0.920.0
