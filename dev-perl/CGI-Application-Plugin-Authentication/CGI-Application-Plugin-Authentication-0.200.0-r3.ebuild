@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/Class-ISA
 	virtual/perl-Attribute-Handlers
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-CGI-3.160.0
+	>=dev-perl/CGI-3.160.0
 	virtual/perl-MIME-Base64
 	virtual/perl-Digest-SHA
 	recommended? (
