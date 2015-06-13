@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=5
 
 MODULE_AUTHOR=FVULTO
+MODULE_VERSION=1.12
 inherit perl-module
 
 DESCRIPTION="Generate, insert and update HTML Table of Content."
@@ -18,9 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 	test? (
 		dev-perl/Test-Differences
 	)
 "
-
-SRC_TEST=do
