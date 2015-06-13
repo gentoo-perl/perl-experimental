@@ -6,9 +6,6 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
-    <use>
-        <flag name="recommended">Install recommended support for PSGI with <pkg>dev-perl/CGI-PSGI</pkg></flag>
-    </use>
     <upstream>
         <remote-id type="cpan">CGI-Application</remote-id>
         <remote-id type="cpan-module">CGI::Application</remote-id>

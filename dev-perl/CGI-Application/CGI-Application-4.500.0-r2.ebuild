@@ -1,25 +1,23 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=MARKSTOS
-MODULE_VERSION="4.50"
+MODULE_VERSION=4.50
 inherit perl-module
 
 DESCRIPTION="Framework for building reusable web-applications"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+recommended test"
-comment() { echo ''; }
+IUSE="minimal test"
 RDEPEND="
-	virtual/perl-CGI
+	dev-perl/CGI
+	virtual/perl-Carp
 	dev-perl/HTML-Template
-	$(comment virtual/perl-Carp)
 	dev-perl/Class-ISA
-	recommended? (
+	!minimal? (
 		dev-perl/CGI-PSGI
 	)
 "
@@ -28,6 +26,5 @@ DEPEND="
 	test? (
 		>=virtual/perl-Test-Simple-0.470.0
 	)
-	virtual/perl-Module-Build
+	>=virtual/perl-Module-Build-0.380.0
 "
-SRC_TEST=do
