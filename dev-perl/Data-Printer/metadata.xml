@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Data-Printer</remote-id>
+		<remote-id type="cpan-module">Data::Printer</remote-id>
+		<remote-id type="cpan-module">DDP</remote-id>
+		<remote-id type="cpan-module">Data::Printer::Filter</remote-id>
+		<remote-id type="cpan-module">Data::Printer::Filter::DB</remote-id>
+		<remote-id type="cpan-module">Data::Printer::Filter::DateTime</remote-id>
+		<remote-id type="cpan-module">Data::Printer::Filter::Digest</remote-id>
+	</upstream>
+</pkgmetadata>
