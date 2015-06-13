@@ -38,6 +38,12 @@ dev-perl/Test-TempDir
 # 2008. Will be killed on/after 04 Jul 2015.
 dev-perl/Catalyst-Controller-BindLex
 
+# Kent Fredric <kentfredric@gmail.com> (14 Jun 2015)
+# Dependent on Perl 5.22 unmasking.
+=dev-perl/Test-File-1.410.0
+=dev-perl/WWW-Search-2.509.0*
+=dev-perl/WWW-Search-PubMed-1.4.0*
+
 # Kent Fredric <kentfredric@gmail.com> (03 Jun 2015)
 # Perl 5.22 only virtuals. Will be unmasked when it actually exists.
 =virtual/perl-constant-1.330.0*
