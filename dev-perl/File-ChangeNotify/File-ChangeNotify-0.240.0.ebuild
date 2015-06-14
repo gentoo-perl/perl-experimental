@@ -45,7 +45,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Module-Build-0.360.100
+	>=dev-perl/Module-Build-0.360.100
 	test? (
 		virtual/perl-Data-Dumper
 		virtual/perl-Exporter
