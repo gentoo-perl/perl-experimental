@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -27,7 +27,7 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	$(comment configure)
 	$(comment Module::Build)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 
 	$(comment build)
 	$(comment Test::More)
