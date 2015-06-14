@@ -17,3 +17,9 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+src_prepare() {
+	perl-module_src_prepare;
+	# http://lists.schmorp.de/pipermail/perl/2015q2/000015.html
+	einfo "Stripping INC statment";
+	sed -i -r -e 's/^\s\s*INC\s*=.*$//' Makefile.PL
+}
