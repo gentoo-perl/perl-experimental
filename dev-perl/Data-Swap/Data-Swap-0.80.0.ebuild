@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	test? (
 		virtual/perl-File-Spec
 		virtual/perl-Test-Simple
