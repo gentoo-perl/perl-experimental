@@ -1,3 +1,8 @@
+# Kent Fredric <kentfredric@gmail.com> (14 Jun 2015)
+# Superceded by dev-perl/BackPAN-Index since 2009
+# Tree clean on 14 Jul 2015
+<=dev-perl/Parse-BACKPAN-Packages-0.360.0
+
 # Kent Fredric <kentfredric@gmail.com> (09 Jun 2015)
 # Requires non-existent Clone-Fast which has been invisible on CPAN for 2 years
 # With no sign of hope. Has been keyword masked forever.
