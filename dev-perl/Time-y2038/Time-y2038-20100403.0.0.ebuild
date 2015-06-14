@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
-
+EAPI=5
 MODULE_AUTHOR=MSCHWERN
+MODULE_VERSION=20100403
 inherit perl-module
 
 DESCRIPTION="Versions of Perl's time functions which work beyond 2038"
@@ -13,19 +13,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-COMMON_DEPEND=""
+RDEPEND=""
 DEPEND="
-	${COMMON_DEPEND}
-	>=dev-perl/Module-Build-0.36
-	>=virtual/perl-ExtUtils-CBuilder-0.24
+	${RDEPEND}
+	>=dev-perl/Module-Build-0.360.0
+	>=virtual/perl-ExtUtils-CBuilder-0.240.0
 	dev-perl/JSON
 	test? (
 		>=dev-perl/Test-Warn-0.110.0
-		>=dev-perl/Test-Exception-0.27
-		>=virtual/perl-Test-Simple-0.82
+		>=dev-perl/Test-Exception-0.270.0
+		>=virtual/perl-Test-Simple-0.820.0
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
