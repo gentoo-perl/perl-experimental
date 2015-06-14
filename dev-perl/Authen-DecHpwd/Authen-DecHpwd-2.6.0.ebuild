@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -28,13 +28,13 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 $(comment config requires)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	$(comment virtual/perl-strict)
 	$(comment virtual/perl-warnings)
 $(comment config recommends)
 	recommended? ( >=virtual/perl-ExtUtils-CBuilder-0.15.0 $(comment 0.150.0)  )
 $(comment build requires)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	dev-perl/Scalar-String
 	virtual/perl-Test-Simple
 	$(comment virtual/perl-strict)
