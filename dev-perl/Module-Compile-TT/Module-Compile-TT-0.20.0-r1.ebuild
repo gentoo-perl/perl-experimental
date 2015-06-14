@@ -19,5 +19,5 @@ RDEPEND="
 	|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
 "
 DEPEND="$RDEPEND
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 "
