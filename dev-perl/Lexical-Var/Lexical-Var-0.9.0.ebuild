@@ -23,7 +23,7 @@ RDEPEND="
 	!<dev-perl/B-Hooks-OP-Check-0.190.0
 "
 DEPEND="${RDEPEND}
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	>=virtual/perl-ExtUtils-CBuilder-0.150.0
 	test? (
 		virtual/perl-Test-Simple
