@@ -42,7 +42,7 @@ RDEPEND="
 
 "
 DEPEND="
-	>=virtual/perl-Module-Build-0.360.0
+	>=dev-perl/Module-Build-0.360.0
 	>=virtual/perl-Test-Simple-0.930.0
 	>=dev-perl/Test-Warn-0.110.0
 	dev-perl/Test-MockObject
