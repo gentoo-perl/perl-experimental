@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,6 +15,6 @@ IUSE=""
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-	virtual/perl-Module-Build"
+	dev-perl/Module-Build"
 
 SRC_TEST=do
