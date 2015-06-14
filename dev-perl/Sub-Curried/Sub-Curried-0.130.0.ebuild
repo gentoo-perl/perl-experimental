@@ -1,16 +1,17 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=OSFAMERON
+MODULE_VERSION=0.13
 inherit perl-module
 
 DESCRIPTION="Automatically curried subroutines"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-COMMON_DEPEND="
+RDEPEND="
+	virtual/perl-Carp
 	>=dev-perl/Devel-Declare-0.2.0
 	dev-perl/Sub-Name
 	dev-perl/Sub-Current
@@ -18,14 +19,11 @@ COMMON_DEPEND="
 	dev-perl/Devel-BeginLift
 "
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-6.360.0
 	test? (
-		>=virtual/perl-Test-Simple-0.42
+		>=virtual/perl-Test-Simple-0.420.0
 		dev-perl/Test-Exception
 		dev-perl/Test-NoWarnings
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
