@@ -33,7 +33,7 @@ RDEPEND="
 
 "
 DEPEND="
-	>=virtual/perl-Module-Build-0.280.0
+	>=dev-perl/Module-Build-0.280.0
 	test? (
 		dev-perl/HTTP-Message
 		virtual/perl-IO
