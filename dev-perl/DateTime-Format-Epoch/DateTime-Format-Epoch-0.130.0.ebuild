@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI="4"
@@ -23,7 +23,7 @@ DEPEND="
 	$(comment BUILD REQUIRES)
 	virtual/perl-Test-Simple
 	$(comment CONFIGURE REQUIRES)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 "
 RDEPEND="
 	${COMMON_DEPEND}
