@@ -18,7 +18,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-IPC-Cmd-0.420.0
 	virtual/perl-Locale-Maketext-Simple
-	>=virtual/perl-Module-Build-0.320.0
+	>=dev-perl/Module-Build-0.320.0
 	>=virtual/perl-Module-Load-0.160.0
 	>=virtual/perl-Module-Load-Conditional-0.300.0
 	>=dev-perl/Module-Pluggable-3.800.0
