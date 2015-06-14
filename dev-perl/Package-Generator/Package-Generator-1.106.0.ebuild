@@ -1,10 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=5
 
 MODULE_AUTHOR=RJBS
+MODULE_VERSION=1.106
 inherit perl-module
 
 DESCRIPTION="generate new packages quickly and easily"
@@ -13,9 +14,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-RDEPEND=""
+RDEPEND="
+	virtual/perl-Carp
+	virtual/perl-Scalar-List-Utils
+"
 DEPEND="${RDEPEND}
-	test? ( dev-perl/Test-Pod
-		dev-perl/Test-Pod-Coverage )"
-
-SRC_TEST=do
+	>=virtual/perl-ExtUtils-MakeMaker-6.300.0
+	test? ( >=virtual/perl-Test-Simple-0.960.0 )
+"
