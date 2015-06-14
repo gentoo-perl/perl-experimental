@@ -4,7 +4,7 @@
 
 EAPI=5
 MODULE_AUTHOR=MLEHMANN
-MODULE_VERSION=1.01
+MODULE_VERSION=1.02
 inherit perl-module
 
 DESCRIPTION="Interface to (some parts of) the Linux DVB API"
@@ -14,12 +14,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=""
+export PERL_CANARY_STABILITY_NOPROMPT=1
 DEPEND="${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-ExtUtils-MakeMaker-6.520.0
+	>=dev-perl/Canary-Stability-2001.0.0
 "
-src_prepare() {
-	perl-module_src_prepare;
-	# http://lists.schmorp.de/pipermail/perl/2015q2/000015.html
-	einfo "Stripping INC statment";
-	sed -i -r -e 's/^\s\s*INC\s*=.*$//' Makefile.PL
-}
