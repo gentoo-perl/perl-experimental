@@ -24,5 +24,5 @@ RDEPEND="
 	>=dev-perl/Template-Toolkit-2.0.0
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.340.201
+	>=dev-perl/Module-Build-0.340.201
 "
