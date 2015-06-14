@@ -51,7 +51,7 @@ RDEPEND="
 	>=virtual/perl-version-0.800.0
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.360.100
+	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-version-0.800.0
 	test? (
 		>=dev-perl/CPAN-Meta-Check-0.7.0
