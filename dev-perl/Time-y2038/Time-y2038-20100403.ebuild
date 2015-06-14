@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE="test"
 COMMON_DEPEND=""
 DEPEND="
 	${COMMON_DEPEND}
-	>=virtual/perl-Module-Build-0.36
+	>=dev-perl/Module-Build-0.36
 	>=virtual/perl-ExtUtils-CBuilder-0.24
 	dev-perl/JSON
 	test? (
