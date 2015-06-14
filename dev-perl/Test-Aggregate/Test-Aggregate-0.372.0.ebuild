@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-NoWarnings
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.420.0
+	>=dev-perl/Module-Build-0.420.0
 	test? (
 		>=dev-perl/Data-Dump-Streamer-1.110.0
 		>=dev-perl/perltidy-20060614.0.0
