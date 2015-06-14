@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,7 +24,7 @@ RDEPEND="
 # bdep DirHandle -> perl
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Module-Build-0.400.0
+	>=dev-perl/Module-Build-0.400.0
 	virtual/perl-File-Spec
 	dev-perl/Test-MockObject
 "
