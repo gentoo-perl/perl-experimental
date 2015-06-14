@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -21,7 +21,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.360.0
+	>=dev-perl/Module-Build-0.360.0
 	test? (
 		dev-perl/Test-Pod
 		dev-perl/Test-Pod-Coverage
