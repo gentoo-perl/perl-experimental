@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -17,7 +17,7 @@ perl_meta_configure() {
 	# CPAN::Meta::Prereqs
 	echo virtual/perl-CPAN-Meta
 	# Module::Build 0.38 ( 0.380.0 )
-	echo \>=virtual/perl-Module-Build-0.380.0
+	echo \>=dev-perl/Module-Build-0.380.0
 }
 perl_meta_build() {
 	# ExtUtils::MakeMaker 6.59 ( 6.590.0 )
