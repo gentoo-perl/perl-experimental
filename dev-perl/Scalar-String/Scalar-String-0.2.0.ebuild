@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,7 @@ IUSE="test"
 
 COMMON_DEPEND="virtual/perl-parent"
 DEPEND="
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	${COMMON_DEPEND}
 	test? (
 		virtual/perl-Test-Simple
