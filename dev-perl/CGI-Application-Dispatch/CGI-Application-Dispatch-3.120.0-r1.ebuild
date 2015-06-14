@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.380.0
+	>=dev-perl/Module-Build-0.380.0
 	test? (
 		apache_test? (
 			${TEST_DEPEND_APACHE}
