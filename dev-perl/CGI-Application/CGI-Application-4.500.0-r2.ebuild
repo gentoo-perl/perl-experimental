@@ -26,5 +26,5 @@ DEPEND="
 	test? (
 		>=virtual/perl-Test-Simple-0.470.0
 	)
-	>=virtual/perl-Module-Build-0.380.0
+	>=dev-perl/Module-Build-0.380.0
 "
