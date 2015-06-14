@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -13,11 +13,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_meta_configure() {
 	# Module::Build 0.30 ( 0.300.0 )
-	echo \>=virtual/perl-Module-Build-0.30.00
+	echo \>=dev-perl/Module-Build-0.30.00
 }
 perl_meta_build() {
 	# Module::Build 0.30 ( 0.300.0 )
-	echo \>=virtual/perl-Module-Build-0.30.00
+	echo \>=dev-perl/Module-Build-0.30.00
 	# Test::MockModule 0.05 ( 0.50.0 )
 	echo \>=dev-perl/Test-MockModule-0.50.0
 	# Test::More 0.88 ( 0.880.0 )
