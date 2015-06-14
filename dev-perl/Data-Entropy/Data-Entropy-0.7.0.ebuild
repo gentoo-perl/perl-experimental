@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -35,14 +35,14 @@ DEPEND="
 	${COMMON_DEPEND}
 
 	$(comment CONFIGURE REQUIRES)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	$(comment perl 5.6 w/ strict and warnings)
 
 	$(comment BUILD REQUIRES)
 	dev-perl/Crypt-Rijndael
 	>=dev-perl/Data-Float-0.8.0
 	>=virtual/perl-IO-1.03 $(comment 1.30.0 IO::File)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple $(comment Test::More)
 	$(comment virtual/perl-constant)
 	$(comment perl 5.6 w/ strict and warnings)
