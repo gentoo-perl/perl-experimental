@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -33,7 +33,7 @@ DEPEND="
 	${COMMON_DEPEND}
 	$(comment configure)
 	$(comment Module::Build 0.3601)
-	>=virtual/perl-Module-Build-0.36.01 $(comment 0.360.100)
+	>=dev-perl/Module-Build-0.36.01 $(comment 0.360.100)
 
 	$(comment build)
 	$(comment File::Find)
@@ -42,7 +42,7 @@ DEPEND="
 	virtual/perl-File-Temp
 
 	$(comment Module::Build 0.3601)
-	>=virtual/perl-Module-Build-0.36.01 $(comment 0.360.100)
+	>=dev-perl/Module-Build-0.36.01 $(comment 0.360.100)
 
 	$(comment Test::More 0.88)
 	>=virtual/perl-Test-Simple-0.88 $(comment Test::More 0.880.0)
