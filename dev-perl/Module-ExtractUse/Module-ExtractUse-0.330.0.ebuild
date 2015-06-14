@@ -18,7 +18,7 @@ RDEPEND="
 	virtual/perl-version
 "
 DEPEND="
-	>=virtual/perl-Module-Build-0.360.100
+	>=dev-perl/Module-Build-0.360.100
 	test? (
 		dev-perl/Test-Deep
 		virtual/perl-Test-Simple
