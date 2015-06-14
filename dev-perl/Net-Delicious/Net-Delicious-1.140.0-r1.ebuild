@@ -33,6 +33,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Module-Build-0.360.0
+	>=dev-perl/Module-Build-0.360.0
 	>=virtual/perl-Test-Simple-0.470.0
 "
