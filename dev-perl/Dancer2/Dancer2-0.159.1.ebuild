@@ -16,11 +16,11 @@ perl_meta_configure() {
 	# File::ShareDir::Install 0.06 ( 0.60.0 )
 	echo \>=dev-perl/File-ShareDir-Install-0.60.0
 	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=virtual/perl-Module-Build-0.36.01
+	echo \>=dev-perl/Module-Build-0.36.01
 }
 perl_meta_build() {
 	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=virtual/perl-Module-Build-0.36.01
+	echo \>=dev-perl/Module-Build-0.36.01
 }
 perl_meta_runtime() {
 	# App::Cmd::Setup
