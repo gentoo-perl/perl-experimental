@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -22,7 +22,7 @@ RDEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.100.0
 	>=dev-perl/Tree-Simple-1.220.0"
 DEPEND="$RDEPEND
-	>=virtual/perl-Module-Build-0.380.0
+	>=dev-perl/Module-Build-0.380.0
 	>=dev-perl/Test-Exception-0.150.0
 	>=virtual/perl-Test-Simple-0.470.0
 "
