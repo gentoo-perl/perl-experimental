@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=3
@@ -17,7 +17,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.320.0
 "
 DEPEND="
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.21
 	${RDEPEND}
 "
