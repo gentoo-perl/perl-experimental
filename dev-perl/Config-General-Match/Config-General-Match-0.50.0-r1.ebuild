@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Hash-Merge
 "
 DEPEND="$RDEPEND
-	virtual/perl-Module-Build"
+	dev-perl/Module-Build"
 
 PERL_RM_FILES=(
 	t/pod-coverage.t
