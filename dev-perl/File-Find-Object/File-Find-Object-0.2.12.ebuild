@@ -26,7 +26,7 @@ RDEPEND="
 	virtual/perl-parent
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.360.0
+	>=dev-perl/Module-Build-0.360.0
 	test? (
 		virtual/perl-Test-Simple
 	)
