@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -15,11 +15,11 @@ perl_meta_configure() {
 	# ExtUtils::MakeMaker 6.30 ( 6.300.0 )
 	echo \>=virtual/perl-ExtUtils-MakeMaker-6.30
 	# Module::Build 0.38 ( 0.380.0 )
-	echo \>=virtual/perl-Module-Build-0.380.0
+	echo \>=dev-perl/Module-Build-0.380.0
 }
 perl_meta_build() {
 	# Module::Build 0.38 ( 0.380.0 )
-	echo \>=virtual/perl-Module-Build-0.380.0
+	echo \>=dev-perl/Module-Build-0.380.0
 }
 perl_meta_runtime() {
 	# Mojo::Base
