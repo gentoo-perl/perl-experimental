@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -48,7 +48,7 @@ DEPEND="
 	virtual/perl-File-Temp
 
 	$(comment Module::Build 0.3601)
-	>=virtual/perl-Module-Build-0.36.01
+	>=dev-perl/Module-Build-0.36.01
 
 	$(comment Moose::Autobox)
 	dev-perl/Moose-Autobox
@@ -64,7 +64,7 @@ DEPEND="
 
 	$(comment configure)
 	$(comment Module::Build 0.3601)
-	>=virtual/perl-Module-Build-0.36.01
+	>=dev-perl/Module-Build-0.36.01
 "
 RDEPEND="
 	${COMMON_DEPEND}
