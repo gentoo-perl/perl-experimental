@@ -22,5 +22,5 @@ RDEPEND="
 "
 DEPEND="
 	$RDEPEND
-	>=virtual/perl-Module-Build-0.400.300
+	>=dev-perl/Module-Build-0.400.300
 "
