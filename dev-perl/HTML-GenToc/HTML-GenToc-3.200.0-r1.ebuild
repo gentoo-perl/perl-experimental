@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=4
@@ -24,7 +24,7 @@ RDEPEND="
 	virtual/perl-Pod-Parser $(comment Pod::Usage)
 "
 DEPEND="${RDEPEND}
-	>=virtual/perl-Module-Build-0.36.01 $(comment 0.360.100)
+	>=dev-perl/Module-Build-0.36.01 $(comment 0.360.100)
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
