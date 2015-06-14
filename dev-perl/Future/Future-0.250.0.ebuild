@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -26,7 +26,7 @@ perl_meta_runtime() {
 	echo \>=dev-lang/perl-5.8.0
 }
 DEPEND="
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	$(perl_meta_build)
 	$(perl_meta_runtime)
 "
