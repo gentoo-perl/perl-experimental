@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI="4"
@@ -21,7 +21,7 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils $(comment List::Util)
 	dev-perl/autobox
 	$(comment CONFIG REQUIRES)
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 "
 RDEPEND="
 	${COMMON_DEPEND}
