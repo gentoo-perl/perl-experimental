@@ -13,7 +13,7 @@ IUSE="test"
 RDEPEND=""
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Module-Build-0.400.0
+	>=dev-perl/Module-Build-0.400.0
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-ExtUtils-ParseXS-3.150.0
 	test? (
