@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Test-Differences-0.470.0
 "
 DEPEND="${RDEPEND}
-	virtual/perl-Module-Build
+	dev-perl/Module-Build
 	test? (
 		|| ( >=virtual/perl-Test-Simple-1.1.10 >=dev-perl/Test-Tester-0.107.0 )
 		>=virtual/perl-Test-Simple-0.620.0
