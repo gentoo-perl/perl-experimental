@@ -1,25 +1,26 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=KTAT
+MODULE_VERSION=0.14
 inherit perl-module
 
 DESCRIPTION="easy print debugging with tie, for watching variable"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-COMMON_DEPEND="
+PERL_RM_FILES=(
+	t/boilerplate.t
+	t/pod.t
+	t/pod-coverage.t
+)
+RDEPEND="
 	dev-perl/PadWalker
 "
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
 	test? (
-		>=virtual/perl-Test-Simple-0.88
+		>=virtual/perl-Test-Simple-0.880.0
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
