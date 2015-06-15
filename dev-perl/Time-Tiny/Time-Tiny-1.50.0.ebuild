@@ -1,23 +1,25 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=ADAMK
+MODULE_VERSION=1.05
 inherit perl-module
 
 DESCRIPTION="A time object with as little code as possible"
-LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
-COMMON_DEPEND=""
+PERL_RM_FILES=(
+	t/97_meta.t
+	t/98_pod.t
+	t/99_pmv.t
+)
+RDEPEND=""
 DEPEND="
-	${COMMON_DEPEND}
+	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 	test? (
-		>=virtual/perl-Test-Simple-0.47
+		>=virtual/perl-Test-Simple-0.470.0
 	)
 "
-RDEPEND="
-	${COMMON_DEPEND}
-"
-SRC_TEST="do"
