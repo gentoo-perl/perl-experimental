@@ -1,18 +1,18 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=DANIELTWC
+MODULE_VERSION=0.08
 inherit perl-module
 
 DESCRIPTION="EVDB model class for Catalyst"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
+
 KEYWORDS="~amd64 ~x86"
-SRC_TEST="do"
 
 IUSE=""
 RDEPEND="
