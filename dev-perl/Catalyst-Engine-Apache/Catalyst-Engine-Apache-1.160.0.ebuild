@@ -1,12 +1,12 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=5
 MODULE_AUTHOR=FLORA
+MODULE_VERSION=1.16
 inherit perl-module
 
 DESCRIPTION="Catalyst Apache Engines"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
@@ -17,4 +17,3 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.56
 "
-SRC_TEST="do"
