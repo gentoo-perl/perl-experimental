@@ -2,9 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=CHORNY
+MODULE_VERSION=0.10
 inherit perl-module
 
 DESCRIPTION="Padre and XML"
@@ -24,4 +25,3 @@ DEPEND="
 	virtual/perl-Test-Simple
 	${RDEPEND}
 "
-SRC_TEST="do"
