@@ -1,7 +1,7 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=ADAMK
 MODULE_VERSION="1.07"
 inherit perl-module
@@ -11,7 +11,7 @@ DESCRIPTION="Generate cryptographic signatures for objects"
 IUSE="test"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
+
 KEYWORDS="~amd64 ~x86"
 
 comment() { echo ''; }
@@ -29,4 +29,3 @@ DEPEND="
 		>=virtual/perl-Test-Simple-0.47 $(comment 0.470.0)
 	)
 "
-SRC_TEST="do"
