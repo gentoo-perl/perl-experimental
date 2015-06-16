@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="3"
+EAPI=5
 
 MODULE_AUTHOR=PIP
 MODULE_VERSION="1.8.B59BrZX"
@@ -22,5 +22,3 @@ DEPEND="dev-perl/Module-Build
 		dev-perl/Test-Pod-Coverage
 	)"
 RDEPEND=""
-
-SRC_TEST=do
