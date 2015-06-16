@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=ANDK
 MODULE_VERSION=1.861
 inherit perl-module
 
 DESCRIPTION='Bundle to optimize the behaviour of CPAN.pm'
-LICENSE=" || ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -52,4 +52,3 @@ DEPEND="
 RDEPEND="
 	$(perl_bundle_contents)
 "
-SRC_TEST="do"
