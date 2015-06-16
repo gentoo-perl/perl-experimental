@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="4"
+EAPI=5
 MODULE_AUTHOR=EXODIST
 MODULE_VERSION=0.003
 inherit perl-module
 
 DESCRIPTION="Tools for creating Meta objects to track custom metrics"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -25,4 +25,3 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
