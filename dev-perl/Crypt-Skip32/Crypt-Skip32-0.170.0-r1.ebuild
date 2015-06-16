@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=ESH
 MODULE_VERSION=0.17
@@ -40,5 +40,3 @@ DEPEND="
 	)
 	${RDEPEND}
 "
-
-SRC_TEST=do
