@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="4"
+EAPI=5
 MODULE_AUTHOR=COWENS
 MODULE_VERSION=20090426.1746
 inherit perl-module
 
 DESCRIPTION="human/perl readable strings from the results of an EXPR"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -24,4 +24,3 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
