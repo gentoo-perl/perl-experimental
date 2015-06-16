@@ -2,9 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=MARKSTOS
+MODULE_VERSION=1.01
 inherit perl-module
 
 DESCRIPTION="Determine web image file types using magic"
@@ -16,5 +17,3 @@ IUSE=""
 RDEPEND=""
 DEPEND="${RDEPEND}
 	dev-perl/Module-Build"
-
-SRC_TEST=do
