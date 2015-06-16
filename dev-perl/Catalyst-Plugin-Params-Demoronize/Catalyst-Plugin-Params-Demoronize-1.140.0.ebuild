@@ -1,9 +1,10 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 MODULE_AUTHOR=DIZ
+MODULE_VERSION=1.14
 inherit perl-module
 
 DESCRIPTION="Convert common UTF-8 and Windows-1252 characters to their ASCII equivalents"
@@ -11,7 +12,7 @@ DESCRIPTION="Convert common UTF-8 and Windows-1252 characters to their ASCII equ
 IUSE=""
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
+
 KEYWORDS="~amd64 ~x86"
 
 COMMON_DEPEND="
@@ -28,5 +29,3 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-
-SRC_TEST=do
