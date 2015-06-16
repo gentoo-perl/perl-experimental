@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=TODDR
 MODULE_VERSION=0.03
@@ -17,5 +17,3 @@ IUSE=""
 RDEPEND=""
 DEPEND="${RDEPEND}
 	>=dev-perl/Module-Build-0.35"
-
-SRC_TEST="do"
