@@ -1,13 +1,12 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=5
 MODULE_AUTHOR=THILO
 MODULE_VERSION=0.18
 inherit perl-module
 
 DESCRIPTION="CGI::App plugin to automatically register runmodes"
-LICENSE="|| ( Artistic GPL-2 )"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
@@ -17,4 +16,3 @@ RDEPEND="
 	>=dev-perl/CGI-Application-3.0.0
 "
 DEPEND="${RDEPEND}"
-SRC_TEST="do"
