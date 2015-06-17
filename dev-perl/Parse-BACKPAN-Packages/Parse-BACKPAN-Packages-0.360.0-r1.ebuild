@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=2
+EAPI=5
 MODULE_AUTHOR=LBROCARD
 MODULE_VERSION="0.36"
 inherit perl-module
 
 DESCRIPTION="Provide an index of BACKPAN"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test -big-net-test"
@@ -39,8 +39,6 @@ src_test() {
 		einfo " ";
 		ebeep 1;
 		epause 4;
-
-		SRC_TEST="do" ;
 		perl-module_src_test
 
 	else
