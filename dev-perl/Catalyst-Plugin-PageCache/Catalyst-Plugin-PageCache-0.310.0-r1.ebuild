@@ -1,7 +1,7 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=3
+EAPI=5
 MODULE_AUTHOR=TIMB
 MODULE_VERSION="0.31"
 inherit perl-module
@@ -11,7 +11,7 @@ DESCRIPTION="Cache the output of entire pages"
 IUSE=""
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
+
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
@@ -25,4 +25,3 @@ DEPEND="${RDEPEND}
 	>=dev-perl/Cache-Cache-1.04
 	>=virtual/perl-File-Path-2.08
 "
-SRC_TEST="do"
