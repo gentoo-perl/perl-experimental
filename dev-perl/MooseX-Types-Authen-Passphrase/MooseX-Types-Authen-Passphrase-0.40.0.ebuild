@@ -8,7 +8,7 @@ inherit perl-module
 
 DESCRIPTION="Authen::Passphrase type constraint and coercions"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="test"
 
 # Authen::Passphrase::RejectAll -> Authen-Passphrase
