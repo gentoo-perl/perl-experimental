@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=CREAMYG
 MODULE_VERSION="1.01"
@@ -30,4 +30,3 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
