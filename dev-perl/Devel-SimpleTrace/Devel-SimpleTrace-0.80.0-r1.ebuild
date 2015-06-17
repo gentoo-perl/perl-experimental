@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=SAPER
 MODULE_VERSION=0.08
@@ -18,5 +18,3 @@ DEPEND="
 	dev-perl/Module-Build
 "
 RDEPEND=""
-
-SRC_TEST="do"
