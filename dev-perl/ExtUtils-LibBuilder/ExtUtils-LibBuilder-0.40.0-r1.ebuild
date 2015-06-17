@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=AMBS
 MODULE_VERSION=0.04
@@ -27,5 +27,3 @@ DEPEND="${RDEPEND}
 		dev-perl/Test-Pod-Coverage
 	)
 "
-
-SRC_TEST=do
