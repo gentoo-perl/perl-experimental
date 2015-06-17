@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=KENTNL
 MODULE_VERSION=0.05070421
 inherit perl-module
 
 DESCRIPTION='Sugar Syntax for moose '\''has'\'' fields'
-LICENSE=" || ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
@@ -56,4 +56,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
