@@ -1,8 +1,8 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=NKH
 MODULE_VERSION=0.40
@@ -23,5 +23,3 @@ DEPEND="
 	>=dev-perl/Term-Size-0.200.0
 "
 RDEPEND="${DEPEND}"
-
-SRC_TEST=do
