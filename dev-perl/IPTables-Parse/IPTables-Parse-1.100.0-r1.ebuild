@@ -1,7 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=MRASH
 MODULE_VERSION=1.1
 inherit perl-module
@@ -26,4 +26,3 @@ DEPEND="
 RDEPEND="
 
 "
-SRC_TEST="do"
