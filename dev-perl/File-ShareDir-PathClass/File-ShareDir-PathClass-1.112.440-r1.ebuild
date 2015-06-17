@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=JQUELIN
 MODULE_VERSION=1.112440
 inherit perl-module
 
 DESCRIPTION="File::ShareDir returning Path::Class objects "
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -50,4 +50,3 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
