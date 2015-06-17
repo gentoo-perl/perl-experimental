@@ -9,7 +9,7 @@ inherit perl-module
 DESCRIPTION='A Wiki with a tree'
 #RESTRICT=test # HTML eq testing is stupid
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="test createdb fastcgi recaptcha syntaxhighlight rssformatter docbook podformatter transclusion amazonboxes"
 PERL_RESTRICT="parallel-test"
 PERL_RM_FILES=(
