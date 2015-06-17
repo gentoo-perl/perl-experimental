@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=FLORA
 MODULE_VERSION="0.16"
@@ -11,9 +11,8 @@ inherit perl-module
 DESCRIPTION="Store your sessions in a database"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
+
 KEYWORDS="~amd64 ~x86"
-SRC_TEST="do"
 
 IUSE="test"
 RDEPEND=">=dev-perl/Catalyst-Runtime-5.490.0
