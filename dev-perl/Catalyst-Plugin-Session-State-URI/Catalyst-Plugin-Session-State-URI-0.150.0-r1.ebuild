@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=BOBTFISH
 MODULE_VERSION="0.15"
@@ -30,4 +30,3 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Class-Data-Inheritable
 "
-SRC_TEST=do
