@@ -1,15 +1,15 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=ETHER
 MODULE_VERSION=0.33
 inherit perl-module
 
 DESCRIPTION='A glimpse at an Enlightened Perl.'
-LICENSE=" || ( Artistic GPL-2 )"
+
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 
 IUSE="+basic-toolchain +testing +oop async webdev db crawl module-devel date
 config cli scripting xml +exceptions spreadsheet email scalability +logging"
@@ -64,4 +64,3 @@ DEPEND="
 RDEPEND="
 	$(perl_meta_runtime)
 "
-SRC_TEST="do"
