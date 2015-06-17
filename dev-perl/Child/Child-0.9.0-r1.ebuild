@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="4"
+EAPI=5
 MODULE_AUTHOR=EXODIST
 MODULE_VERSION=0.009
 inherit perl-module
 
 DESCRIPTION="Object oriented simple interface to fork()"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -28,4 +28,3 @@ DEPEND="
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
