@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=SARTAK
 MODULE_VERSION=0.03
@@ -21,5 +21,3 @@ DEPEND="${RDEPEND}
 	dev-perl/Test-Exception
 	>=virtual/perl-ExtUtils-MakeMaker-6.42
 "
-
-SRC_TEST=do
