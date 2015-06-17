@@ -1,8 +1,8 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 
 MODULE_AUTHOR=BOBTFISH
 MODULE_VERSION=0.16
@@ -23,5 +23,3 @@ DEPEND="
 	test? ( dev-perl/HTTP-Request-AsCGI )
 	${RDEPEND}
 "
-
-SRC_TEST=do
