@@ -1,7 +1,7 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_AUTHOR=CLACO
 MODULE_VERSION=1.00014
 inherit perl-module
@@ -67,7 +67,7 @@ perl_meta_runtime() {
 	# Locale::Maketext 1.13 ( 1.130.0 )
 	echo \>=virtual/perl-Locale-Maketext-1.130.0
 	# Module::Pluggable 3.9 ( 3.900.0 )
-	echo \>=virtual/perl-Module-Pluggable-3.900.0
+	echo \>=dev-perl/Module-Pluggable-3.900.0
 	# Module::Starter 1.54 ( 1.540.0 )
 	echo \>=dev-perl/Module-Starter-1.540.0
 	# NEXT 0.64 ( 0.640.0 )

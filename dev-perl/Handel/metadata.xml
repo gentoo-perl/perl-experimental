@@ -6,9 +6,6 @@
         <email>mb@italpro.net</email>
         <name>Michele Beltrame</name>
     </maintainer>
-    <use>
-        <flag name="catalystframework">Catalyst Support</flag>
-    </use>
     <upstream>
         <remote-id type="cpan">Handel</remote-id>
         <remote-id type="cpan-module">AxKit::XSP::Handel::Cart</remote-id>
