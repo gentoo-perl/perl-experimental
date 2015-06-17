@@ -1,7 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI=4
+EAPI=5
 MODULE_VERSION="1.002000"
 MODULE_AUTHOR=HKCLARK
 
@@ -12,7 +12,7 @@ DESCRIPTION="Handle passing of status (success and error) messages between scree
 IUSE="test"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
+
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
@@ -23,4 +23,3 @@ RDEPEND="
 DEPEND="
 	${DEPEND}
 "
-SRC_TEST=do
