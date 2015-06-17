@@ -1,13 +1,13 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-EAPI="4"
+EAPI=5
 MODULE_AUTHOR=IDOPEREL
 MODULE_VERSION=0.070001
 inherit perl-module
 
 DESCRIPTION="Fast templating engine with support for embedded Perl"
-LICENSE="|| ( Artistic GPL-2 )"
+
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
@@ -38,4 +38,3 @@ perl_eumm_prereq_pm() {
 }
 DEPEND="$(perl_eumm_configure) $(perl_eumm_build) $(perl_eumm_prereq_pm)"
 RDEPEND="$(perl_eumm_prereq_pm)"
-SRC_TEST="do"
