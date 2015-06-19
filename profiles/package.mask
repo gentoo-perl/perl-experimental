@@ -1,3 +1,8 @@
+# Kent Fredric <kentfredric@gmail.com> (19 Jun 2015)
+# Requires a newer PadWalker than available
+# See bug #552530
+=dev-perl/Devel-StackTrace-WithLexicals-2.10.0
+
 # Kent Fredric <kentfredric@gmail.com> (14 Jun 2015)
 # Superceded by dev-perl/BackPAN-Index since 2009
 # Tree clean on 14 Jul 2015
