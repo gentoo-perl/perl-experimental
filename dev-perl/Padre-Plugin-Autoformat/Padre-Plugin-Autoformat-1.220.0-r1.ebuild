@@ -6,7 +6,7 @@ EAPI=5
 
 MODULE_AUTHOR=AZAWAWI
 MODULE_VERSION=1.22
-inherit perl-module
+inherit perl-module virtualx
 
 DESCRIPTION="reformat your text within Padre"
 
@@ -17,3 +17,7 @@ IUSE=""
 DEPEND=">=dev-perl/Module-Build-0.36.01"
 RDEPEND="app-editors/padre
 	dev-perl/text-autoformat"
+
+src_test() {
+	VIRTUALX_COMMAND="perl-module_src_test" virtualmake
+}
