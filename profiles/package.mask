@@ -1,4 +1,11 @@
 # Kent Fredric <kentfredric@gmail.com> (19 Jun 2015)
+# Deprecated by upstream due to being superceded by Lucy
+# Will be broken under perl 5.22
+# https://rt.cpan.org/Ticket/Display.html?id=96759#txn-1380254
+# Tree clean on 19 Jul 2015
+<=dev-perl/KinoSearch-0.315.0-r999
+
+# Kent Fredric <kentfredric@gmail.com> (19 Jun 2015)
 # Requires a newer PadWalker than available
 # See bug #552530
 =dev-perl/Devel-StackTrace-WithLexicals-2.10.0
