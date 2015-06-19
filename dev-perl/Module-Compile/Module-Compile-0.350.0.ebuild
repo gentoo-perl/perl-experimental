@@ -1,10 +1,10 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=5
 MODULE_AUTHOR=INGY
-MODULE_VERSION=0.34
+MODULE_VERSION=0.35
 inherit perl-module
 
 DESCRIPTION="Perl Module Optimization"
@@ -22,4 +22,3 @@ DEPEND="
 PERL_RM_FILES=(
 	t/release-pod-syntax.t
 )
-SRC_TEST="do parallel"
