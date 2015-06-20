@@ -8,7 +8,7 @@ inherit perl-module
 
 DESCRIPTION="use KiokuDB in your Catalyst apps"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE=""
 
 # Catalyst -> Catalyst-Runtime
