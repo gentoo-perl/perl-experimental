@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> (20 Jun 2015)
+# Deprecated by upstream, built in support in Catalyst since 5.9000
+<=dev-perl/Catalyst-Engine-PSGI-0.130.0-r999
+
 # Kent Fredric <kentfredric@gmail.com> (19 Jun 2015)
 # Deprecated by upstream due to being superceded by Lucy
 # Will be broken under perl 5.22
