@@ -15,6 +15,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
+PERL_RM_FILES=(
+	t/02pod.t
+	t/03podcoverage.t
+	t/04critic.t
+)
+PERL_RESTRICT="parallel-test"
 RDEPEND=">=dev-perl/Catalyst-Runtime-5.490.0
 	>=dev-perl/Catalyst-Plugin-Session-0.270.0
 	dev-perl/DBI
@@ -22,4 +28,6 @@ RDEPEND=">=dev-perl/Catalyst-Runtime-5.490.0
 	virtual/perl-Storable
 	dev-perl/MRO-Compat"
 DEPEND="${RDEPEND}
-	test? ( virtual/perl-Test-Simple )"
+	>=virtual/perl-ExtUtils-MakeMaker-6.420.0
+	test? ( virtual/perl-Test-Simple )
+"
