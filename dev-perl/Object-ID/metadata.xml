@@ -6,9 +6,6 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
-    <use>
-        <flag name="object_uuid">Unique object identifier using UUIDs</flag>
-    </use>
     <upstream>
         <remote-id type="cpan">Object-ID</remote-id>
         <remote-id type="cpan-module">Object::ID</remote-id>
