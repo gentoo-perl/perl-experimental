@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=CHISEL
-MODULE_VERSION=0.0.8.15
+MODULE_VERSION=0.0.8.18
 inherit perl-module
 
 DESCRIPTION='Catch application errors and emit them somewhere'
@@ -29,7 +29,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300.0
+	virtual/perl-ExtUtils-MakeMaker
 	test? (
 		>=dev-perl/Catalyst-Plugin-Authentication-0.100.100
 		>=dev-perl/Catalyst-Plugin-ConfigLoader-0.220.0
