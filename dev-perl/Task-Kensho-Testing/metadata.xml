@@ -10,8 +10,6 @@
         <flag name="testsimple">Install Test::Simple/Test::More via
 			<pkg>virtual/perl-Test-Simple</pkg></flag>
         <flag name="testmost">Install <pkg>dev-perl/Test-Most</pkg></flag>
-        <flag name="testexception">Install
-			<pkg>dev-perl/Test-Exception</pkg></flag>
         <flag name="testpod">Install <pkg>dev-perl/Test-Pod</pkg></flag>
         <flag name="testpodcoverage">Install
 			<pkg>dev-perl/Test-Pod-Coverage</pkg></flag>
