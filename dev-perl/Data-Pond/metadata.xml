@@ -6,10 +6,7 @@
         <email>kentfredric@gmail.com</email>
         <name>Kent Fredric</name>
     </maintainer>
-    <use>
-        <flag name="xsmodule">Pull dependencies required for building XS Version of the Module.</flag>
-    </use>
-    <upstream>
+   <upstream>
         <remote-id type="cpan">Data-Pond</remote-id>
         <remote-id type="cpan-module">Data::Pond</remote-id>
     </upstream>
