@@ -10,5 +10,10 @@
         <remote-id type="cpan">Bundle-CPAN</remote-id>
         <remote-id type="cpan-module">Bundle::CPAN</remote-id>
         <remote-id type="cpan-module">Bundle::CPANxxl</remote-id>
-    </upstream>
+	</upstream>
+	<use>
+		<flag name="xxl">Install additional dependencies recommended by upstream that
+			that are more complicated, but useful for CPAN, as per
+			Bundle::CPANxxl</flag>
+	</use>
 </pkgmetadata>
