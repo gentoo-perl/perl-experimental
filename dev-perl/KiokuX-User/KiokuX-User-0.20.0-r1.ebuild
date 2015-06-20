@@ -9,7 +9,7 @@ inherit perl-module
 
 DESCRIPTION="A generic role for user objects stored in KiokuDB"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="test"
 
 RDEPEND="
