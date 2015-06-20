@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
@@ -33,9 +33,9 @@ perl_meta_runtime() {
 	# perl v5.8.1 ( 5.8.1 )
 	echo \>=dev-lang/perl-5.8.1
 }
-perl_meta_test(){
-        # Test::More 0.88 ( 0.880.0 )
-        echo \>=virtual/perl-Test-Simple-0.880.0
+perl_meta_test() {
+	# Test::More 0.88 ( 0.880.0 )
+	echo \>=virtual/perl-Test-Simple-0.880.0
 }
 DEPEND="
 	$(perl_meta_configure)
