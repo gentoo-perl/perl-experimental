@@ -18,12 +18,7 @@ inherit eutils multiprocessing unpacker perl-functions
 PERL_EXPF="src_unpack src_compile src_test src_install"
 
 case "${EAPI:-0}" in
-	0|1)
-		eqawarn "$P: EAPI 0 and 1 are deprecated both in ::gentoo and ::perl-experimental"
-		perl_qafatal "eapi" "EAPI 0 and 1 are deprecated";
-		PERL_EXPF+=" pkg_setup pkg_preinst pkg_postinst pkg_prerm pkg_postrm"
-		;;
-	2|3|4|5)
+	2|5)
 		PERL_EXPF+=" src_prepare src_configure"
 		[[ ${CATEGORY} == "perl-core" ]] && \
 			PERL_EXPF+=" pkg_postinst pkg_postrm"
