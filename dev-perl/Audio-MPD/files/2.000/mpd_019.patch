@@ -1,0 +1,32 @@
+Description: Adjust test to mpd >= 0.19
+ Test::Corpus::Audio::MPD contains 5 tracks just over 1.8 seconds each.
+ mpd < 0.19 rounded each track up to 2 seconds then added the lengths
+ in seconds to get 10s, but mpd >= 0.19 adds up the lengths in ms and then
+ rounds it down to 9s.
+Bug-Debian: https://bugs.debian.org/768692
+Origin: vendor
+Author: Simon McVittie <smcv@debian.org>
+Reviewed-by: gregor herrmann <gregoa@debian.org>
+Last-Update: 2014-11-12
+
+--- a/t/24-info.t
++++ b/t/24-info.t
+@@ -18,7 +18,7 @@
+ eval 'use Test::Corpus::Audio::MPD';
+ plan skip_all => $@ if $@ =~ s/\n+Compilation failed.*//s;
+ 
+-plan tests => 16;
++plan tests => 17;
+ my $mpd = Audio::MPD->new;
+ my $song;
+ 
+@@ -34,7 +34,8 @@
+ is( $stats->albums,       1, 'one album in the database' );
+ is( $stats->songs,        5, '5 songs in the database' );
+ is( $stats->playtime,     0, 'already played 0 seconds' );
+-is( $stats->db_playtime, 10, '10 seconds worth of music in the db' );
++cmp_ok( $stats->db_playtime, '>=', 9, '>= 9 seconds worth of music in the db' );
++cmp_ok( $stats->db_playtime, '<=', 10, '<= 10 seconds worth of music in the db' );
+ isnt( $stats->uptime, undef, 'uptime is defined' );
+ isnt( $stats->db_update,  0, 'database has been updated' );
+ 
