@@ -15,38 +15,27 @@
 inherit eutils multiprocessing unpacker perl-functions
 [[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
-PERL_EXPF="src_unpack src_compile src_test src_install"
+PERL_EXPF="src_unpack src_compile src_test src_install src_prepare src_configure"
+[[ ${CATEGORY} == "perl-core" ]] && PERL_EXPF+=" pkg_postinst pkg_postrm"
 
 case "${EAPI:-0}" in
-	2|5)
-		PERL_EXPF+=" src_prepare src_configure"
-		[[ ${CATEGORY} == "perl-core" ]] && \
-			PERL_EXPF+=" pkg_postinst pkg_postrm"
+	5)	;;
+	*)	die "EAPI=${EAPI} is not supported by perl-module.eclass"
+		;;
+esac
 
-		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
-		yes)
-			case "${EAPI:-0}" in
-			5)
-				case "${GENTOO_DEPEND_ON_PERL_SUBSLOT:-yes}" in
-				yes)
-					DEPEND="dev-lang/perl:=[-build(-)]"
-					;;
-				*)
-					DEPEND="dev-lang/perl[-build(-)]"
-					;;
-				esac
-				;;
-			*)
-				DEPEND="|| ( >=dev-lang/perl-5.16 <dev-lang/perl-5.16[-build] )"
-				;;
-			esac
-			RDEPEND="${DEPEND}"
-			;;
-		esac
+case "${GENTOO_DEPEND_ON_PERL:-yes}" in
+yes)
+	case "${GENTOO_DEPEND_ON_PERL_SUBSLOT:-yes}" in
+	yes)
+		DEPEND="dev-lang/perl:=[-build(-)]"
 		;;
 	*)
-		die "EAPI=${EAPI} is not supported by perl-module.eclass"
+		DEPEND="dev-lang/perl[-build(-)]"
 		;;
+	esac
+	RDEPEND="${DEPEND}"
+	;;
 esac
 
 case "${PERL_EXPORT_PHASE_FUNCTIONS:-yes}" in

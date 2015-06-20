@@ -11,6 +11,12 @@
 # The perl-functions eclass is a collection of perl-specific utilities
 # that may be useful in non-CPAN based ebuilds.
 
+case "${EAPI:-0}" in
+	5)	;;
+	*)	die "EAPI=${EAPI} is not supported by perl-functions.eclass"
+		;;
+esac
+
 perl_diagnostics() {
 	local d
 	d=${T}/perl-diagnostics.log
@@ -125,8 +131,6 @@ perl_fix_osx_extra() {
 perl_delete_module_manpages() {
 	debug-print-function $FUNCNAME "$@"
 
-	perl_set_eprefix
-
 	if [[ -d "${ED}"/usr/share/man ]] ; then
 #		einfo "Cleaning out stray man files"
 		find "${ED}"/usr/share/man -type f -name "*.3pm" -delete
@@ -213,8 +217,6 @@ perl_link_duallife_scripts() {
 		return 0
 	fi
 
-	perl_set_eprefix
-
 	local i ff execdir mandir
 
 	execdir="usr/share/perl-${P}/bin"
@@ -288,19 +290,6 @@ perl_qafatal() {
 		eerror "Bailing out due to PERLQAFATAL including $1";
 		die "$failtype: $failreason"
 	fi
-}
-
-perl_set_eprefix() {
-	debug-print-function $FUNCNAME "$@"
-	case ${EAPI:-0} in
-		0|1|2)
-			if ! use prefix; then
-				EPREFIX=
-				ED=${D}
-				EROOT=${ROOT}
-			fi
-			;;
-	esac
 }
 
 # @FUNCTION: perl_check_env
