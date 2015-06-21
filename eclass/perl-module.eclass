@@ -38,6 +38,11 @@ yes)
 	;;
 esac
 
+if [[ -z "${MODULE_VERSION}" && -n "${MODULE_VERSION_SCHEME}" ]]; then
+	inherit perl-version
+	MODULE_VERSION=$( perl-version-denormalize ${MY_PV:-${PV}} $MODULE_VERSION_SCHEME  )
+fi
+
 case "${PERL_EXPORT_PHASE_FUNCTIONS:-yes}" in
 	yes)
 		EXPORT_FUNCTIONS ${PERL_EXPF}
