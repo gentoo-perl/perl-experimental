@@ -123,7 +123,6 @@ perl-module_src_configure() {
 	perl_check_env
 
 	perl_set_version
-	perl_set_eprefix
 
 	[[ -z ${pm_echovar} ]] && export PERL_MM_USE_DEFAULT=1
 	# Disable ExtUtils::AutoInstall from prompting
@@ -298,7 +297,6 @@ perl-module_src_install() {
 	debug-print-function $FUNCNAME "$@"
 
 	perl_set_version
-	perl_set_eprefix
 
 	local f
 
