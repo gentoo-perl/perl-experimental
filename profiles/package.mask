@@ -73,6 +73,7 @@ dev-perl/Catalyst-Controller-BindLex
 =virtual/perl-Unicode-Normalize-1.180.0*
 =virtual/perl-List-Util-1.410.0*
 =virtual/perl-Scalar-Util-1.410.0*
+=virtual/perl-Sub-Util-1.410.0*
 
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
