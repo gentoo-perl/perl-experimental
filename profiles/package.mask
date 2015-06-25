@@ -71,6 +71,7 @@ dev-perl/Catalyst-Controller-BindLex
 =virtual/perl-SelfLoader-1.220.0*
 =virtual/perl-Unicode-Collate-1.120.0*
 =virtual/perl-Unicode-Normalize-1.180.0*
+=virtual/perl-List-Util-1.410.0*
 
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
