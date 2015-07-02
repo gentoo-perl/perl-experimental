@@ -1,22 +1,22 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=5
 
 MODULE_AUTHOR=ASCOPE
+MODULE_VERSION=0.3
 inherit perl-module
 
 DESCRIPTION="Log messages via Jabber"
 
 SLOT="0"
-LICENSE="|| ( Artistic GPL-2 )"
 KEYWORDS="~amd64 ~x86"
-RESTRICT="mirror"
-#SRC_TEST="do"
+PERL_RESTRICT="network-test"
 
 IUSE="test"
-RDEPEND=">=dev-perl/log-dispatch-2.01
-	>=dev-perl/Net-Jabber-1.26"
+RDEPEND=">=dev-perl/Log-Dispatch-2.10.0
+	>=dev-perl/Net-Jabber-1.260.0"
 DEPEND="${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 	test? ( virtual/perl-Test-Simple )"
