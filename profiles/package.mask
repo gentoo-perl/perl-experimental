@@ -14,11 +14,6 @@
 # See bug #552530
 =dev-perl/Devel-StackTrace-WithLexicals-2.10.0
 
-# Kent Fredric <kentfredric@gmail.com> (14 Jun 2015)
-# Superceded by dev-perl/BackPAN-Index since 2009
-# Tree clean on 14 Jul 2015
-<=dev-perl/Parse-BACKPAN-Packages-0.360.0-r999
-
 # Kent Fredric <kentfredric@gmail.com> (08 Jun 2015)
 # Catalyst::Controller::ActionRole deprecated by upstream.
 dev-perl/Catalyst-Controller-ActionRole
