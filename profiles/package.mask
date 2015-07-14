@@ -57,12 +57,6 @@ dev-perl/Test-TempDir
 # 2008. Will be killed on/after 04 Jul 2015.
 dev-perl/Catalyst-Controller-BindLex
 
-# Kent Fredric <kentfredric@gmail.com> (14 Jun 2015)
-# Dependent on Perl 5.22 unmasking.
-=dev-perl/Test-File-1.410.0
-=dev-perl/WWW-Search-2.509.0*
-=dev-perl/WWW-Search-PubMed-1.4.0*
-
 # Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
 # Depends on old version of Date-Manip which is no longer available in portage since
 # 11 Jun 2014, and upstream are unresponsive.
