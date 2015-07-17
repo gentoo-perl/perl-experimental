@@ -47,27 +47,28 @@ RDEPEND_selfupgrade="
 	>=virtual/perl-File-Spec-0.820.0
 	>=virtual/perl-IPC-Cmd-0.360.0
 	>=virtual/perl-Locale-Maketext-Simple-0.10.0
-	>=dev-perl/Log-Message-0.10.0
 	>=virtual/perl-Module-Load-0.100.0
 	>=virtual/perl-Module-Load-Conditional-0.500.0
 	>=virtual/perl-version-0.770.0
 	>=virtual/perl-Params-Check-0.360.0
-	>=virtual/perl-Package-Constants-0.10.0
-	>=dev-perl/Term-UI-0.180.0
 	>=virtual/perl-Test-Harness-2.620.0
 	>=virtual/perl-Test-Simple-0.470.0
-	>=dev-perl/Archive-Extract-0.160.0
 	>=virtual/perl-Archive-Tar-1.230.0
 	>=virtual/perl-IO-Zlib-1.40.0
-	>=dev-perl/Object-Accessor-0.440.0
 	>=virtual/perl-Module-CoreList-2.220.0
-	>=dev-perl/Module-Pluggable-2.400.0
 	>=virtual/perl-Module-Loaded-0.10.0
 	>=virtual/perl-Parse-CPAN-Meta-1.420.0
 	>=virtual/perl-ExtUtils-Install-1.420.0
 	!<dev-perl/CPANPLUS-Dist-Build-0.600.0
 "
-RDEPEND="selfupgrade? ( ${RDEPEND_selfupgrade} )"
-DEPEND="$RDEPEND
+RDEPEND="selfupgrade? ( ${RDEPEND_selfupgrade} )
+	>=dev-perl/Archive-Extract-0.160.0
+	>=dev-perl/Log-Message-0.10.0
+	>=dev-perl/Module-Pluggable-2.400.0
+	>=dev-perl/Object-Accessor-0.440.0
+	>=virtual/perl-Package-Constants-0.10.0
+	>=dev-perl/Term-UI-0.180.0
+"
+DEPEND="${RDEPEND}
 	virtual/perl-File-Spec
 "
