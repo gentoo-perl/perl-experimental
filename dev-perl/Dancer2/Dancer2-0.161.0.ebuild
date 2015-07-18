@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=XSAWYERX
-MODULE_VERSION=0.157001
+MODULE_VERSION=0.161000
 inherit perl-module
 
 DESCRIPTION='Lightweight yet powerful web application framework'
@@ -15,12 +15,6 @@ perl_meta_configure() {
 	echo virtual/perl-ExtUtils-MakeMaker
 	# File::ShareDir::Install 0.06 ( 0.60.0 )
 	echo \>=dev-perl/File-ShareDir-Install-0.60.0
-	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=dev-perl/Module-Build-0.36.01
-}
-perl_meta_build() {
-	# Module::Build 0.3601 ( 0.360.100 )
-	echo \>=dev-perl/Module-Build-0.36.01
 }
 perl_meta_runtime() {
 	# App::Cmd::Setup
@@ -51,22 +45,22 @@ perl_meta_runtime() {
 	echo dev-perl/HTTP-Body
 	# HTTP::Date
 	echo dev-perl/HTTP-Date
-	# HTTP::Headers
-	echo dev-perl/HTTP-Message
+	# HTTP::Headers::Fast
+	echo dev-perl/HTTP-Headers-Fast
 	# HTTP::Tiny
 	echo virtual/perl-HTTP-Tiny
 	# Hash::Merge::Simple
 	echo dev-perl/Hash-Merge-Simple
 	# IO::File
 	echo virtual/perl-IO
+	# Import::Into
+	echo dev-perl/Import-Into
 	# JSON
 	echo dev-perl/JSON
 	# List::Util
 	echo virtual/perl-Scalar-List-Utils
 	# MIME::Base64 3.13 ( 3.130.0 )
 	echo \>=virtual/perl-MIME-Base64-3.130.0
-	# MIME::Types
-	echo dev-perl/MIME-Types
 	# Module::Runtime
 	echo dev-perl/Module-Runtime
 	# Moo 1.003000 ( 1.3.0 )
@@ -85,6 +79,8 @@ perl_meta_runtime() {
 	echo dev-perl/Return-MultiLevel
 	# Role::Tiny 1.003000 ( 1.3.0 )
 	echo \>=dev-perl/Role-Tiny-1.3.0
+	# Safe
+	echo virtual/perl-Safe
 	# Safe::Isa
 	echo dev-perl/Safe-Isa
 	# Scalar::Util
@@ -99,8 +95,8 @@ perl_meta_runtime() {
 	echo dev-perl/Try-Tiny
 	# URI
 	echo dev-perl/URI
-	# YAML
-	echo dev-perl/yaml
+	# YAML 0.86 ( 0.860.0 )
+	echo \>=dev-perl/yaml-0.860.0
 	# parent
 	echo virtual/perl-parent
 	# perl 5.006 ( 5.6.0 )
@@ -127,14 +123,10 @@ perl_meta_test() {
 	echo dev-perl/Plack
 	# Test::Fatal
 	echo dev-perl/Test-Fatal
-	# Test::Memory::Cycle 1.04 ( 1.40.0 )
-	echo \>=dev-perl/Test-Memory-Cycle-1.40.0
-	# Test::MockTime
-	echo dev-perl/Test-MockTime
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.920.0
-	# YAML
-	echo dev-perl/yaml
+	# YAML 0.86 ( 0.860.0 )
+	echo \>=dev-perl/yaml-0.860.0
 	# lib
 	# echo virtual/perl-lib
 	# utf8
@@ -142,7 +134,6 @@ perl_meta_test() {
 }
 DEPEND="
 	$(perl_meta_configure)
-	$(perl_meta_build)
 	$(perl_meta_runtime)
 	test? ( $(perl_meta_test) )
 "
