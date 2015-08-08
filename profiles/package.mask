@@ -2,11 +2,6 @@
 # Deprecated by upstream, built in support in Catalyst since 5.9000
 <=dev-perl/Catalyst-Engine-PSGI-0.130.0-r999
 
-# Kent Fredric <kentfredric@gmail.com> (19 Jun 2015)
-# Requires a newer PadWalker than available
-# See bug #552530
-=dev-perl/Devel-StackTrace-WithLexicals-2.10.0
-
 # Kent Fredric <kentfredric@gmail.com> (08 Jun 2015)
 # Catalyst::Controller::ActionRole deprecated by upstream.
 dev-perl/Catalyst-Controller-ActionRole
