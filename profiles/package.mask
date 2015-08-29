@@ -1,4 +1,8 @@
 # Kent Fredric <kentfredric@gmail.com> (30 Aug 2015)
+# Subsumed by dev-perl/Log-Any, Removal on or after 30 Sept
+<=dev-perl/Log-Any-Adapter-0.110.0-r999
+
+# Kent Fredric <kentfredric@gmail.com> (30 Aug 2015)
 # Vanished on CPAN, assumed dead. Removal on or after 30 Sept
 <=dev-perl/WWW-CheckSite-0.20.0
 
