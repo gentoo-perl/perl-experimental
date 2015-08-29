@@ -8,9 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Test-Mock-LWP</remote-id>
-		<remote-id type="cpan-module">HTTP::Request</remote-id>
-		<remote-id type="cpan-module">HTTP::Response</remote-id>
-		<remote-id type="cpan-module">LWP::UserAgent</remote-id>
 		<remote-id type="cpan-module">Test::Mock::HTTP::Request</remote-id>
 		<remote-id type="cpan-module">Test::Mock::HTTP::Response</remote-id>
 		<remote-id type="cpan-module">Test::Mock::LWP</remote-id>

@@ -9,6 +9,8 @@
 	<upstream>
 		<remote-id type="cpan">Log-Contextual</remote-id>
 		<remote-id type="cpan-module">Log::Contextual</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::Easy::Default</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::Easy::Package</remote-id>
 		<remote-id type="cpan-module">Log::Contextual::Role::Router</remote-id>
 		<remote-id type="cpan-module">Log::Contextual::Role::Router::SetLogger</remote-id>
 		<remote-id type="cpan-module">Log::Contextual::Role::Router::WithLogger</remote-id>

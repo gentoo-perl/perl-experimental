@@ -9,5 +9,6 @@
 	<upstream>
 		<remote-id type="cpan">Dist-Zilla-Util-Test-KENTNL</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Util::Test::KENTNL</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Util::Test::KENTNL::dztest</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -156,9 +156,5 @@
 		<remote-id type="cpan-module">KiokuDB::Util</remote-id>
 		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::KiokuDB::DoNotSerialize</remote-id>
 		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::KiokuDB::Lazy</remote-id>
-		<remote-id type="cpan-module">Some::Class</remote-id>
-		<remote-id type="cpan-module">Some::Other::Role</remote-id>
-		<remote-id type="cpan-module">Some::Role</remote-id>
-		<remote-id type="cpan-module">Some::Third::Role</remote-id>
 	</upstream>
 </pkgmetadata>

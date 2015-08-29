@@ -9,6 +9,5 @@
 	<upstream>
 		<remote-id type="cpan">Module-Extract-Namespaces</remote-id>
 		<remote-id type="cpan-module">Module::Extract::Namespaces</remote-id>
-		<remote-id type="cpan-module">PPI::Lexer</remote-id>
 	</upstream>
 </pkgmetadata>

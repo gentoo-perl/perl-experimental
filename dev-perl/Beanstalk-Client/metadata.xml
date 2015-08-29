@@ -10,6 +10,7 @@
 		<remote-id type="cpan">Beanstalk-Client</remote-id>
 		<remote-id type="cpan-module">Beanstalk::Client</remote-id>
 		<remote-id type="cpan-module">Beanstalk::Job</remote-id>
+		<remote-id type="cpan-module">Beanstalk::Pool</remote-id>
 		<remote-id type="cpan-module">Beanstalk::Stats</remote-id>
 	</upstream>
 </pkgmetadata>

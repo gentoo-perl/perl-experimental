@@ -65,6 +65,8 @@
 		<remote-id type="cpan-module">Mojo::Upload</remote-id>
 		<remote-id type="cpan-module">Mojo::UserAgent</remote-id>
 		<remote-id type="cpan-module">Mojo::UserAgent::CookieJar</remote-id>
+		<remote-id type="cpan-module">Mojo::UserAgent::Proxy</remote-id>
+		<remote-id type="cpan-module">Mojo::UserAgent::Server</remote-id>
 		<remote-id type="cpan-module">Mojo::UserAgent::Transactor</remote-id>
 		<remote-id type="cpan-module">Mojo::Util</remote-id>
 		<remote-id type="cpan-module">Mojolicious</remote-id>
@@ -108,6 +110,8 @@
 		<remote-id type="cpan-module">Mojolicious::Sessions</remote-id>
 		<remote-id type="cpan-module">Mojolicious::Static</remote-id>
 		<remote-id type="cpan-module">Mojolicious::Types</remote-id>
+		<remote-id type="cpan-module">Mojolicious::Validator</remote-id>
+		<remote-id type="cpan-module">Mojolicious::Validator::Validation</remote-id>
 		<remote-id type="cpan-module">Test::Mojo</remote-id>
 		<remote-id type="cpan-module">ojo</remote-id>
 	</upstream>

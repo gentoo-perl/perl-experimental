@@ -127,6 +127,7 @@
 		<remote-id type="cpan-module">Dist::Zilla::Role::PluginBundle</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::PluginBundle::Easy</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::PrereqSource</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Role::ReleaseStatusProvider</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::Releaser</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::ShareDir</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::Stash</remote-id>
@@ -136,6 +137,7 @@
 		<remote-id type="cpan-module">Dist::Zilla::Role::TestRunner</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::TextTemplate</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::VersionProvider</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Stash::Mint</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Stash::PAUSE</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Stash::Rights</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Stash::User</remote-id>

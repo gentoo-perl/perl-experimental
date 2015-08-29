@@ -9,5 +9,6 @@
 	<upstream>
 		<remote-id type="cpan">XML-TokeParser</remote-id>
 		<remote-id type="cpan-module">XML::TokeParser</remote-id>
+		<remote-id type="cpan-module">XML::TokeParser::Token</remote-id>
 	</upstream>
 </pkgmetadata>

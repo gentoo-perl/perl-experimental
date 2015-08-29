@@ -4,8 +4,10 @@
 	<herd>perl</herd>
 	<upstream>
 		<remote-id type="cpan">Travel-Routing-DE-VRR</remote-id>
+		<remote-id type="cpan-module">Travel::Routing::DE::EFA</remote-id>
+		<remote-id type="cpan-module">Travel::Routing::DE::EFA::Route</remote-id>
+		<remote-id type="cpan-module">Travel::Routing::DE::EFA::Route::Message</remote-id>
+		<remote-id type="cpan-module">Travel::Routing::DE::EFA::Route::Part</remote-id>
 		<remote-id type="cpan-module">Travel::Routing::DE::VRR</remote-id>
-		<remote-id type="cpan-module">Travel::Routing::DE::VRR::Route</remote-id>
-		<remote-id type="cpan-module">Travel::Routing::DE::VRR::Route::Part</remote-id>
 	</upstream>
 </pkgmetadata>

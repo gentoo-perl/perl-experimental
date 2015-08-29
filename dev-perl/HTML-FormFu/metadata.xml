@@ -43,7 +43,6 @@
 		<remote-id type="cpan-module">HTML::FormFu::Constraint::Set</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Constraint::SingleValue</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Constraint::Word</remote-id>
-		<remote-id type="cpan-module">HTML::FormFu::Constraint::reCAPTCHA</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Deflator</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Deflator::Callback</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Deflator::CompoundDateTime</remote-id>
@@ -62,6 +61,7 @@
 		<remote-id type="cpan-module">HTML::FormFu::Element::ContentButton</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::Date</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::DateTime</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::Element::Email</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::Fieldset</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::File</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::Hidden</remote-id>
@@ -81,7 +81,7 @@
 		<remote-id type="cpan-module">HTML::FormFu::Element::Submit</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::Text</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Element::Textarea</remote-id>
-		<remote-id type="cpan-module">HTML::FormFu::Element::reCAPTCHA</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::Element::URL</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Exception</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Exception::Constraint</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Exception::Inflator</remote-id>
@@ -95,6 +95,7 @@
 		<remote-id type="cpan-module">HTML::FormFu::Filter::CompoundSprintf</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Filter::CopyValue</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Filter::Encode</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::Filter::ForceListValue</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Filter::FormatNumber</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Filter::HTMLEscape</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Filter::HTMLScrubber</remote-id>
@@ -107,6 +108,7 @@
 		<remote-id type="cpan-module">HTML::FormFu::Filter::Whitespace</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::I18N</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::I18N::bg</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::I18N::cs</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::I18N::da</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::I18N::de</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::I18N::en</remote-id>
@@ -130,7 +132,6 @@
 		<remote-id type="cpan-module">HTML::FormFu::Localize</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Model</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Model::HashRef</remote-id>
-		<remote-id type="cpan-module">HTML::FormFu::MultiForm</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::ObjectUtil</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::OutputProcessor</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::OutputProcessor::Indent</remote-id>
@@ -147,11 +148,13 @@
 		<remote-id type="cpan-module">HTML::FormFu::Role::ContainsElements</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::ContainsElementsSharedWithField</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::CreateChildren</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::Role::CustomRoles</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::Coercible</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::Field</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::FieldMethods</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::Group</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::Input</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::Role::Element::Layout</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::MultiElement</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::NonBlock</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::Element::ProcessOptionsFromModel</remote-id>
@@ -159,6 +162,7 @@
 		<remote-id type="cpan-module">HTML::FormFu::Role::Filter::Compound</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::FormAndBlockMethods</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::FormAndElementMethods</remote-id>
+		<remote-id type="cpan-module">HTML::FormFu::Role::FormBlockAndFieldMethods</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::GetProcessors</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::HasParent</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Role::NestedHashUtils</remote-id>
@@ -171,5 +175,9 @@
 		<remote-id type="cpan-module">HTML::FormFu::Util</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Validator</remote-id>
 		<remote-id type="cpan-module">HTML::FormFu::Validator::Callback</remote-id>
+		<remote-id type="cpan-module">MooseX::Attribute::FormFuChained</remote-id>
+		<remote-id type="cpan-module">MooseX::Attribute::FormFuChained::Method::Accessor</remote-id>
+		<remote-id type="cpan-module">MooseX::FormFuChainedAccessors</remote-id>
+		<remote-id type="cpan-module">MooseX::Traits::Attribute::FormFuChained</remote-id>
 	</upstream>
 </pkgmetadata>

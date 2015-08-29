@@ -9,6 +9,5 @@
 	<upstream>
 		<remote-id type="cpan">Carp-REPL</remote-id>
 		<remote-id type="cpan-module">Carp::REPL</remote-id>
-		<remote-id type="cpan-module">Devel::REPL::Plugin::Carp::REPL</remote-id>
 	</upstream>
 </pkgmetadata>

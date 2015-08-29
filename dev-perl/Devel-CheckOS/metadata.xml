@@ -11,9 +11,11 @@
 		<remote-id type="cpan-module">Devel::AssertOS</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::AIX</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Amiga</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::Android</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Apple</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::BSDOS</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::BeOS</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::Bitrig</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Cygwin</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::DEC</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::DGUX</remote-id>
@@ -24,20 +26,32 @@
 		<remote-id type="cpan-module">Devel::AssertOS::GNUkFreeBSD</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::HPUX</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Haiku</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::Hurd</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Interix</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Irix</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Linux</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::Linux::Debian</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::Linux::v2_6</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MPEiX</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MSDOS</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MSWin32</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MacOSX</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_0</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_1</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_10</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_2</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_3</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_4</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_5</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_6</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_7</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_8</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::MacOSX::v10_9</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MacOSclassic</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MachTen</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MicrosoftWindows</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MidnightBSD</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::Minix</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::MirOSBSD</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::NeXT</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::NetBSD</remote-id>
@@ -65,6 +79,7 @@
 		<remote-id type="cpan-module">Devel::AssertOS::VMESA</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::VMS</remote-id>
 		<remote-id type="cpan-module">Devel::AssertOS::VOS</remote-id>
+		<remote-id type="cpan-module">Devel::AssertOS::iOS</remote-id>
 		<remote-id type="cpan-module">Devel::CheckOS</remote-id>
 	</upstream>
 </pkgmetadata>

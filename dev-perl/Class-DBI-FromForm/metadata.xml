@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Class-DBI-FromForm</remote-id>
+		<remote-id type="cpan-module">Class::DBI::FromForm</remote-id>
 	</upstream>
 </pkgmetadata>

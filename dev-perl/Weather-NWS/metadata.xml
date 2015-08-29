@@ -8,5 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Weather-NWS</remote-id>
+		<remote-id type="cpan-module">Weather::NWS::NDFDgen</remote-id>
+		<remote-id type="cpan-module">Weather::NWS::NDFDgenByDay</remote-id>
 	</upstream>
 </pkgmetadata>

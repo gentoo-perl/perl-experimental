@@ -8,5 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Filter-Template</remote-id>
+		<remote-id type="cpan-module">Filter::Template</remote-id>
+		<remote-id type="cpan-module">Filter::Template::UseBytes</remote-id>
 	</upstream>
 </pkgmetadata>

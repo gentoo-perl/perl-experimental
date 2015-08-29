@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">String-BufferStack</remote-id>
+		<remote-id type="cpan-module">String::BufferStack</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -8,6 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">X11-XCB</remote-id>
+		<remote-id type="cpan-module">X11::XCB</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Atom</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Color</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Connection</remote-id>
@@ -18,9 +19,8 @@
 		<remote-id type="cpan-module">X11::XCB::Event::PropertyNotify</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Rect</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Screen</remote-id>
-		<remote-id type="cpan-module">X11::XCB::Sizehints::Aspect</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Sizehints</remote-id>
+		<remote-id type="cpan-module">X11::XCB::Sizehints::Aspect</remote-id>
 		<remote-id type="cpan-module">X11::XCB::Window</remote-id>
-		<remote-id type="cpan-module">X11::XCB</remote-id>
 	</upstream>
 </pkgmetadata>

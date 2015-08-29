@@ -10,8 +10,6 @@
 		<remote-id type="cpan">Module-Compile</remote-id>
 		<remote-id type="cpan-module">Module::Compile</remote-id>
 		<remote-id type="cpan-module">Module::Compile::Opt</remote-id>
-		<remote-id type="cpan-module">Module::Install::Admin::PMC</remote-id>
-		<remote-id type="cpan-module">Module::Install::PMC</remote-id>
 		<remote-id type="cpan-module">Module::Optimize</remote-id>
 	</upstream>
 </pkgmetadata>

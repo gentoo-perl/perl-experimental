@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">WWW-Robot</remote-id>
+		<remote-id type="cpan-module">WWW::Robot</remote-id>
 	</upstream>
 </pkgmetadata>

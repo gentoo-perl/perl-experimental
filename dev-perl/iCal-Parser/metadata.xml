@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">iCal-Parser</remote-id>
+		<remote-id type="cpan-module">iCal::Parser</remote-id>
 	</upstream>
 </pkgmetadata>

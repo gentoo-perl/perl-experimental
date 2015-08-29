@@ -21,6 +21,8 @@
 		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Ansys</remote-id>
 		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Apache_Configuration</remote-id>
 		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Asm6502</remote-id>
+		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::BaseTest</remote-id>
+		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::BaseTestchild</remote-id>
 		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::Bash</remote-id>
 		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::BibTeX</remote-id>
 		<remote-id type="cpan-module">Syntax::Highlight::Engine::Kate::C</remote-id>

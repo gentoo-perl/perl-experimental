@@ -8,5 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Pod-Xhtml</remote-id>
+		<remote-id type="cpan-module">Pod::Hyperlink::BounceURL</remote-id>
+		<remote-id type="cpan-module">Pod::Xhtml</remote-id>
 	</upstream>
 </pkgmetadata>

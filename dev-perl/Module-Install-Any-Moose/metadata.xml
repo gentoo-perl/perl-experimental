@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Module-Install-Any-Moose</remote-id>
+		<remote-id type="cpan-module">Module::Install::Any::Moose</remote-id>
 	</upstream>
 </pkgmetadata>

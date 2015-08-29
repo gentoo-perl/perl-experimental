@@ -63,6 +63,7 @@
 		<remote-id type="cpan-module">Dancer::Serializer::Abstract</remote-id>
 		<remote-id type="cpan-module">Dancer::Serializer::Dumper</remote-id>
 		<remote-id type="cpan-module">Dancer::Serializer::JSON</remote-id>
+		<remote-id type="cpan-module">Dancer::Serializer::JSONP</remote-id>
 		<remote-id type="cpan-module">Dancer::Serializer::Mutable</remote-id>
 		<remote-id type="cpan-module">Dancer::Serializer::XML</remote-id>
 		<remote-id type="cpan-module">Dancer::Serializer::YAML</remote-id>

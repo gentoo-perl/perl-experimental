@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Lingua-EN-Numbers</remote-id>
+		<remote-id type="cpan-module">Lingua::EN::Numbers</remote-id>
 	</upstream>
 </pkgmetadata>

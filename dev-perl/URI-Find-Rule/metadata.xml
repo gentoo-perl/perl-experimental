@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">URI-Find-Rule</remote-id>
+		<remote-id type="cpan-module">URI::Find::Rule</remote-id>
 	</upstream>
 </pkgmetadata>

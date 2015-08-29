@@ -10,6 +10,7 @@
 		<remote-id type="cpan">Git-Gitalist</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::HasUtils</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Head</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::Object</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::Object::Blob</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::Object::Commit</remote-id>
@@ -17,6 +18,9 @@
 		<remote-id type="cpan-module">Git::Gitalist::Object::Tag</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::Object::Tree</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::Repository</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Serializable</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Tag</remote-id>
+		<remote-id type="cpan-module">Git::Gitalist::Types</remote-id>
 		<remote-id type="cpan-module">Git::Gitalist::Util</remote-id>
 	</upstream>
 </pkgmetadata>

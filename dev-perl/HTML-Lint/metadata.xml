@@ -8,5 +8,10 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">HTML-Lint</remote-id>
+		<remote-id type="cpan-module">HTML::Lint</remote-id>
+		<remote-id type="cpan-module">HTML::Lint::Error</remote-id>
+		<remote-id type="cpan-module">HTML::Lint::HTML4</remote-id>
+		<remote-id type="cpan-module">HTML::Lint::Parser</remote-id>
+		<remote-id type="cpan-module">Test::HTML::Lint</remote-id>
 	</upstream>
 </pkgmetadata>

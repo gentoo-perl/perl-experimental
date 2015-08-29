@@ -8,5 +8,12 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">DBIx-Class-Loader</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader::DB2</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader::Generic</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader::Pg</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader::SQLite</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader::Writing</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::Loader::mysql</remote-id>
 	</upstream>
 </pkgmetadata>

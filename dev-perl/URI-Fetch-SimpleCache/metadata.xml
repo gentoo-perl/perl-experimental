@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">URI-Fetch-SimpleCache</remote-id>
+		<remote-id type="cpan-module">URI::Fetch::SimpleCache</remote-id>
 	</upstream>
 </pkgmetadata>

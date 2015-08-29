@@ -8,5 +8,12 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Net-Google-Spreadsheets</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets::Cell</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets::Record</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets::Row</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets::Spreadsheet</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets::Table</remote-id>
+		<remote-id type="cpan-module">Net::Google::Spreadsheets::Worksheet</remote-id>
 	</upstream>
 </pkgmetadata>

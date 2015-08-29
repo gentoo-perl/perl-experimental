@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Net-SSH</remote-id>
+		<remote-id type="cpan-module">Net::SSH</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -9,6 +9,5 @@
 	<upstream>
 		<remote-id type="cpan">Cpanel-JSON-XS</remote-id>
 		<remote-id type="cpan-module">Cpanel::JSON::XS</remote-id>
-		<remote-id type="cpan-module">Cpanel::JSON::XS::Boolean</remote-id>
 	</upstream>
 </pkgmetadata>

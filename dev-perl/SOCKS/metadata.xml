@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">SOCKS</remote-id>
+		<remote-id type="cpan-module">Net::SOCKS</remote-id>
 	</upstream>
 </pkgmetadata>

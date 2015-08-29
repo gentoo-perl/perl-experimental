@@ -8,5 +8,9 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">POE-Filter-XML</remote-id>
+		<remote-id type="cpan-module">POE::Filter::XML</remote-id>
+		<remote-id type="cpan-module">POE::Filter::XML::Handler</remote-id>
+		<remote-id type="cpan-module">POE::Filter::XML::NS</remote-id>
+		<remote-id type="cpan-module">POE::Filter::XML::Node</remote-id>
 	</upstream>
 </pkgmetadata>

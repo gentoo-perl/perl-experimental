@@ -4,7 +4,6 @@
 	<herd>perl</herd>
 	<upstream>
 		<remote-id type="cpan">HTML-TreeBuilder-XPath</remote-id>
-		<remote-id type="cpan-module">HTML::Element</remote-id>
 		<remote-id type="cpan-module">HTML::TreeBuilder::XPath</remote-id>
 		<remote-id type="cpan-module">HTML::TreeBuilder::XPath::Attribute</remote-id>
 		<remote-id type="cpan-module">HTML::TreeBuilder::XPath::Node</remote-id>

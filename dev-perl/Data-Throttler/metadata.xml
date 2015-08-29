@@ -8,5 +8,11 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Data-Throttler</remote-id>
+		<remote-id type="cpan-module">Data::Throttler</remote-id>
+		<remote-id type="cpan-module">Data::Throttler::Backend::Base</remote-id>
+		<remote-id type="cpan-module">Data::Throttler::Backend::Memory</remote-id>
+		<remote-id type="cpan-module">Data::Throttler::Backend::YAML</remote-id>
+		<remote-id type="cpan-module">Data::Throttler::BucketChain</remote-id>
+		<remote-id type="cpan-module">Data::Throttler::Range</remote-id>
 	</upstream>
 </pkgmetadata>

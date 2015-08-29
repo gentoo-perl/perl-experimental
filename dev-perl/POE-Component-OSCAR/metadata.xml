@@ -8,5 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">POE-Component-OSCAR</remote-id>
+		<remote-id type="cpan-module">OSCARSession</remote-id>
+		<remote-id type="cpan-module">POE::Component::OSCAR</remote-id>
 	</upstream>
 </pkgmetadata>

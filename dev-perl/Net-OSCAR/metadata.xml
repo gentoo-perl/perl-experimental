@@ -8,5 +8,23 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Net-OSCAR</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Buddylist</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Callbacks</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Common</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Connection</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Connection::Chat</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Connection::Direct</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Connection::Server</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Constants</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::MethodInfo</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Proxy</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Screenname</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::ServerCallbacks</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::TLV</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::Utility</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::XML</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::XML::Template</remote-id>
+		<remote-id type="cpan-module">Net::OSCAR::_BLInternal</remote-id>
 	</upstream>
 </pkgmetadata>

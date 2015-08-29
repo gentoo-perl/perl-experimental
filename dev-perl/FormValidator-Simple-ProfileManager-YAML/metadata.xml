@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">FormValidator-Simple-ProfileManager-YAML</remote-id>
+		<remote-id type="cpan-module">FormValidator::Simple::ProfileManager::YAML</remote-id>
 	</upstream>
 </pkgmetadata>

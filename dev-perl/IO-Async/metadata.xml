@@ -11,7 +11,7 @@
 		<remote-id type="cpan-module">IO::Async</remote-id>
 		<remote-id type="cpan-module">IO::Async::Channel</remote-id>
 		<remote-id type="cpan-module">IO::Async::ChildManager</remote-id>
-		<remote-id type="cpan-module">IO::Async::Connector</remote-id>
+		<remote-id type="cpan-module">IO::Async::Debug</remote-id>
 		<remote-id type="cpan-module">IO::Async::File</remote-id>
 		<remote-id type="cpan-module">IO::Async::FileStream</remote-id>
 		<remote-id type="cpan-module">IO::Async::Function</remote-id>
@@ -22,10 +22,11 @@
 		<remote-id type="cpan-module">IO::Async::Loop::Poll</remote-id>
 		<remote-id type="cpan-module">IO::Async::Loop::Select</remote-id>
 		<remote-id type="cpan-module">IO::Async::LoopTests</remote-id>
-		<remote-id type="cpan-module">IO::Async::MergePoint</remote-id>
 		<remote-id type="cpan-module">IO::Async::Notifier</remote-id>
 		<remote-id type="cpan-module">IO::Async::OS</remote-id>
 		<remote-id type="cpan-module">IO::Async::OS::MSWin32</remote-id>
+		<remote-id type="cpan-module">IO::Async::OS::cygwin</remote-id>
+		<remote-id type="cpan-module">IO::Async::OS::linux</remote-id>
 		<remote-id type="cpan-module">IO::Async::PID</remote-id>
 		<remote-id type="cpan-module">IO::Async::Process</remote-id>
 		<remote-id type="cpan-module">IO::Async::Protocol</remote-id>

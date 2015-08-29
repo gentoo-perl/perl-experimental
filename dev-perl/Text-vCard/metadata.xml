@@ -11,5 +11,8 @@
 		<remote-id type="cpan-module">Text::vCard</remote-id>
 		<remote-id type="cpan-module">Text::vCard::Addressbook</remote-id>
 		<remote-id type="cpan-module">Text::vCard::Node</remote-id>
+		<remote-id type="cpan-module">vCard</remote-id>
+		<remote-id type="cpan-module">vCard::AddressBook</remote-id>
+		<remote-id type="cpan-module">vCard::Role::FileIO</remote-id>
 	</upstream>
 </pkgmetadata>

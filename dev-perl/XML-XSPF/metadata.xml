@@ -8,5 +8,8 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">XML-XSPF</remote-id>
+		<remote-id type="cpan-module">XML::XSPF</remote-id>
+		<remote-id type="cpan-module">XML::XSPF::Base</remote-id>
+		<remote-id type="cpan-module">XML::XSPF::Track</remote-id>
 	</upstream>
 </pkgmetadata>

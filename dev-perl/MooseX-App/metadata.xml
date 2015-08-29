@@ -8,8 +8,10 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">MooseX-App</remote-id>
-		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppEnv</remote-id>
+		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppDepends</remote-id>
+		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppMutexGroup</remote-id>
 		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppOption</remote-id>
+		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::AppTerm</remote-id>
 		<remote-id type="cpan-module">MooseX::App</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Command</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Exporter</remote-id>
@@ -19,6 +21,7 @@
 		<remote-id type="cpan-module">MooseX::App::Meta::Role::Attribute::Option</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Base</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Command</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Documentation</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Meta::Role::Class::Simple</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Null</remote-id>
 		<remote-id type="cpan-module">MooseX::App::ParsedArgv</remote-id>
@@ -32,10 +35,20 @@
 		<remote-id type="cpan-module">MooseX::App::Plugin::Config::Meta::Class</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::ConfigHome</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::ConfigHome::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Depends</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Depends::Meta::Attribute</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Depends::Meta::Class</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::Env</remote-id>
-		<remote-id type="cpan-module">MooseX::App::Plugin::Env::Meta::Attribute</remote-id>
-		<remote-id type="cpan-module">MooseX::App::Plugin::Env::Meta::Class</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::Fuzzy</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Man</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Man::Command</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Man::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::MutexGroup</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::MutexGroup::Meta::Attribute</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::MutexGroup::Meta::Class</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Term</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Term::Meta::Attribute</remote-id>
+		<remote-id type="cpan-module">MooseX::App::Plugin::Term::Meta::Class</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::Typo</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::Typo::Meta::Class</remote-id>
 		<remote-id type="cpan-module">MooseX::App::Plugin::Version</remote-id>

@@ -8,8 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">MooseX-Storage</remote-id>
-		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::DoNotSerialize</remote-id>
-		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::DoNotSerialize</remote-id>
 		<remote-id type="cpan-module">MooseX::Storage</remote-id>
 		<remote-id type="cpan-module">MooseX::Storage::Base::WithChecksum</remote-id>
 		<remote-id type="cpan-module">MooseX::Storage::Basic</remote-id>

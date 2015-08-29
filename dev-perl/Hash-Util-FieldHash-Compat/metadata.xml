@@ -9,8 +9,6 @@
 	<upstream>
 		<remote-id type="cpan">Hash-Util-FieldHash-Compat</remote-id>
 		<remote-id type="cpan-module">Hash::Util::FieldHash::Compat</remote-id>
-		<remote-id type="cpan-module">Hash::Util::FieldHash::Compat::Destroyer</remote-id>
-		<remote-id type="cpan-module">Hash::Util::FieldHash::Compat::Tie::FieldHash</remote-id>
-		<remote-id type="cpan-module">Hash::Util::FieldHash::Compat::Tie::IdHash</remote-id>
+		<remote-id type="cpan-module">Hash::Util::FieldHash::Compat::Heavy</remote-id>
 	</upstream>
 </pkgmetadata>

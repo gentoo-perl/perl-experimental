@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Apache-LogRegex</remote-id>
+		<remote-id type="cpan-module">Apache::LogRegex</remote-id>
 	</upstream>
 </pkgmetadata>

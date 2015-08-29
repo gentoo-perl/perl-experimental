@@ -9,5 +9,9 @@
 	<upstream>
 		<remote-id type="cpan">Module-CPANfile</remote-id>
 		<remote-id type="cpan-module">Module::CPANfile</remote-id>
+		<remote-id type="cpan-module">Module::CPANfile::Environment</remote-id>
+		<remote-id type="cpan-module">Module::CPANfile::Prereq</remote-id>
+		<remote-id type="cpan-module">Module::CPANfile::Prereqs</remote-id>
+		<remote-id type="cpan-module">Module::CPANfile::Requirement</remote-id>
 	</upstream>
 </pkgmetadata>

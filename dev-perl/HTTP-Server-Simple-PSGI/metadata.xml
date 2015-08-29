@@ -10,5 +10,7 @@
 		<remote-id type="cpan">HTTP-Server-Simple-PSGI</remote-id>
 		<remote-id type="cpan-module">HTTP::Server::Simple::PSGI</remote-id>
 		<remote-id type="cpan-module">HTTP::Server::Simple::PSGI::Writer</remote-id>
+		<remote-id type="cpan-module">Plack::Handler::HTTP::Server::Simple</remote-id>
+		<remote-id type="cpan-module">Plack::Handler::HTTP::Server::Simple::PSGIServer</remote-id>
 	</upstream>
 </pkgmetadata>

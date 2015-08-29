@@ -8,5 +8,11 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Perl-Critic-Moose</remote-id>
+		<remote-id type="cpan-module">Perl::Critic::Moose</remote-id>
+		<remote-id type="cpan-module">Perl::Critic::Policy::Moose::ProhibitDESTROYMethod</remote-id>
+		<remote-id type="cpan-module">Perl::Critic::Policy::Moose::ProhibitMultipleWiths</remote-id>
+		<remote-id type="cpan-module">Perl::Critic::Policy::Moose::ProhibitNewMethod</remote-id>
+		<remote-id type="cpan-module">Perl::Critic::Policy::Moose::RequireCleanNamespace</remote-id>
+		<remote-id type="cpan-module">Perl::Critic::Policy::Moose::RequireMakeImmutable</remote-id>
 	</upstream>
 </pkgmetadata>

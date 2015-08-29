@@ -15,6 +15,7 @@
 		<remote-id type="cpan-module">DateTime::Format::Epoch::Lilian</remote-id>
 		<remote-id type="cpan-module">DateTime::Format::Epoch::MJD</remote-id>
 		<remote-id type="cpan-module">DateTime::Format::Epoch::MacOS</remote-id>
+		<remote-id type="cpan-module">DateTime::Format::Epoch::NTP</remote-id>
 		<remote-id type="cpan-module">DateTime::Format::Epoch::RJD</remote-id>
 		<remote-id type="cpan-module">DateTime::Format::Epoch::RataDie</remote-id>
 		<remote-id type="cpan-module">DateTime::Format::Epoch::TAI64</remote-id>

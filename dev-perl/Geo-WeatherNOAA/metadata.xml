@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Geo-WeatherNOAA</remote-id>
+		<remote-id type="cpan-module">Geo::WeatherNOAA</remote-id>
 	</upstream>
 </pkgmetadata>

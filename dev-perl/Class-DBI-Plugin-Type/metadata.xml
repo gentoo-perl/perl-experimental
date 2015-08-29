@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Class-DBI-Plugin-Type</remote-id>
+		<remote-id type="cpan-module">Class::DBI::Plugin::Type</remote-id>
 	</upstream>
 </pkgmetadata>

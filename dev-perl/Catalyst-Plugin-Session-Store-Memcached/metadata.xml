@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Catalyst-Plugin-Session-Store-Memcached</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::Session::Store::Memcached</remote-id>
 	</upstream>
 </pkgmetadata>

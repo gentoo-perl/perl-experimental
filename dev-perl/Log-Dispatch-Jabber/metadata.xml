@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Log-Dispatch-Jabber</remote-id>
+		<remote-id type="cpan-module">Log::Dispatch::Jabber</remote-id>
 	</upstream>
 </pkgmetadata>

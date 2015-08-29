@@ -11,6 +11,8 @@
 		<remote-id type="cpan-module">Method::Signatures</remote-id>
 		<remote-id type="cpan-module">Method::Signatures::Modifiers</remote-id>
 		<remote-id type="cpan-module">Method::Signatures::Parameter</remote-id>
-		<remote-id type="cpan-module">Method::Signatures::Parser</remote-id>
+		<remote-id type="cpan-module">Method::Signatures::Signature</remote-id>
+		<remote-id type="cpan-module">Method::Signatures::Types</remote-id>
+		<remote-id type="cpan-module">Method::Signatures::Utils</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -15,6 +15,7 @@
 		<remote-id type="cpan-module">Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint</remote-id>
 		<remote-id type="cpan-module">Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn</remote-id>
 		<remote-id type="cpan-module">Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation</remote-id>
 		<remote-id type="cpan-module">Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo</remote-id>
 	</upstream>
 </pkgmetadata>

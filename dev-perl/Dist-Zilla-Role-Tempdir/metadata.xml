@@ -9,6 +9,8 @@
 	<upstream>
 		<remote-id type="cpan">Dist-Zilla-Role-Tempdir</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::Tempdir</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Tempdir::Dir</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Tempdir::Item</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Tempdir::Item::State</remote-id>
 	</upstream>
 </pkgmetadata>

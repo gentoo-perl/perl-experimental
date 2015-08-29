@@ -8,5 +8,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">XS-Object-Magic</remote-id>
+		<remote-id type="cpan-module">XS::Object::Magic</remote-id>
+		<remote-id type="cpan-module">XS::Object::Magic::Install::Files</remote-id>
 	</upstream>
 </pkgmetadata>

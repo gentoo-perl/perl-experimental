@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">SOAP-DateTime</remote-id>
+		<remote-id type="cpan-module">SOAP::DateTime</remote-id>
 	</upstream>
 </pkgmetadata>

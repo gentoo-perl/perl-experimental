@@ -9,11 +9,16 @@
 	<upstream>
 		<remote-id type="cpan">BackPAN-Index</remote-id>
 		<remote-id type="cpan-module">BackPAN::Index</remote-id>
+		<remote-id type="cpan-module">BackPAN::Index::Database</remote-id>
 		<remote-id type="cpan-module">BackPAN::Index::Dist</remote-id>
 		<remote-id type="cpan-module">BackPAN::Index::File</remote-id>
+		<remote-id type="cpan-module">BackPAN::Index::IndexFile</remote-id>
 		<remote-id type="cpan-module">BackPAN::Index::Release</remote-id>
 		<remote-id type="cpan-module">BackPAN::Index::Role::AsHash</remote-id>
+		<remote-id type="cpan-module">BackPAN::Index::Role::HasCache</remote-id>
+		<remote-id type="cpan-module">BackPAN::Index::Role::Log</remote-id>
 		<remote-id type="cpan-module">BackPAN::Index::Schema</remote-id>
+		<remote-id type="cpan-module">BackPAN::Index::Types</remote-id>
 		<remote-id type="cpan-module">Parse::BACKPAN::Packages</remote-id>
 	</upstream>
 </pkgmetadata>

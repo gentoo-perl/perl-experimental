@@ -20,5 +20,6 @@
 		<remote-id type="cpan-module">Dist::Zilla::PluginBundle::Git</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::Git::DirtyFiles</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Role::Git::Repo</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Role::Git::StringFormatter</remote-id>
 	</upstream>
 </pkgmetadata>

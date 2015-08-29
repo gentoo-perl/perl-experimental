@@ -10,7 +10,9 @@
 		<remote-id type="cpan">File-Find-Object</remote-id>
 		<remote-id type="cpan-module">File::Find::Object</remote-id>
 		<remote-id type="cpan-module">File::Find::Object::Base</remote-id>
+		<remote-id type="cpan-module">File::Find::Object::DeepPath</remote-id>
 		<remote-id type="cpan-module">File::Find::Object::PathComp</remote-id>
 		<remote-id type="cpan-module">File::Find::Object::Result</remote-id>
+		<remote-id type="cpan-module">File::Find::Object::TopPath</remote-id>
 	</upstream>
 </pkgmetadata>

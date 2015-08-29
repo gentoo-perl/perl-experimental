@@ -8,5 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Regexp-Grammars-Common-String</remote-id>
+		<remote-id type="cpan-module">Regexp::Grammars::Common::String</remote-id>
 	</upstream>
 </pkgmetadata>

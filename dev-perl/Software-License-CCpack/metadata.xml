@@ -8,7 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">Software-License-CCpack</remote-id>
-		<remote-id type="cpan-module">Software::License::CCpack</remote-id>
 		<remote-id type="cpan-module">Software::License::CC_BY_1_0</remote-id>
 		<remote-id type="cpan-module">Software::License::CC_BY_2_0</remote-id>
 		<remote-id type="cpan-module">Software::License::CC_BY_3_0</remote-id>
@@ -34,5 +33,6 @@
 		<remote-id type="cpan-module">Software::License::CC_BY_SA_3_0</remote-id>
 		<remote-id type="cpan-module">Software::License::CC_BY_SA_4_0</remote-id>
 		<remote-id type="cpan-module">Software::License::CC_PDM_1_0</remote-id>
+		<remote-id type="cpan-module">Software::License::CCpack</remote-id>
 	</upstream>
 </pkgmetadata>

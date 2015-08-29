@@ -9,6 +9,5 @@
 	<upstream>
 		<remote-id type="cpan">Class-Throwable</remote-id>
 		<remote-id type="cpan-module">Class::Throwable</remote-id>
-		<remote-id type="cpan-module">DB</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -8,7 +8,6 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">constant-tiny</remote-id>
-		<remote-id type="cpan-module">constant</remote-id>
 		<remote-id type="cpan-module">constant::tiny</remote-id>
 	</upstream>
 </pkgmetadata>

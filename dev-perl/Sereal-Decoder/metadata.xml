@@ -5,7 +5,6 @@
 	<upstream>
 		<remote-id type="cpan">Sereal-Decoder</remote-id>
 		<remote-id type="cpan-module">Sereal::Decoder</remote-id>
-		<remote-id type="cpan-module">Sereal::Decoder::Constants</remote-id>
 		<remote-id type="cpan-module">Sereal::Performance</remote-id>
 	</upstream>
 </pkgmetadata>

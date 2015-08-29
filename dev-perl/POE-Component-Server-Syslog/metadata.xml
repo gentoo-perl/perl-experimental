@@ -8,5 +8,9 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="cpan">POE-Component-Server-Syslog</remote-id>
+		<remote-id type="cpan-module">POE::Component::Server::Syslog</remote-id>
+		<remote-id type="cpan-module">POE::Component::Server::Syslog::TCP</remote-id>
+		<remote-id type="cpan-module">POE::Component::Server::Syslog::UDP</remote-id>
+		<remote-id type="cpan-module">POE::Filter::Syslog</remote-id>
 	</upstream>
 </pkgmetadata>

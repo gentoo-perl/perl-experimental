@@ -63,10 +63,13 @@
 		<remote-id type="cpan-module">HTML::FormHandler::Fields</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Foo</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N</remote-id>
+		<remote-id type="cpan-module">HTML::FormHandler::I18N::ar_kw</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::bg_bg</remote-id>
+		<remote-id type="cpan-module">HTML::FormHandler::I18N::cs_cz</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::de_de</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::en_us</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::hu_hu</remote-id>
+		<remote-id type="cpan-module">HTML::FormHandler::I18N::it_it</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::ja_jp</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::pt_br</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::I18N::ru_ru</remote-id>
@@ -106,6 +109,7 @@
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::CheckboxGroup</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::Compound</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::Hidden</remote-id>
+		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::HorizCheckboxGroup</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::NoRender</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::Password</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Field::RadioGroup</remote-id>
@@ -123,9 +127,11 @@
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Form::Simple</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Form::Table</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Theme::Bootstrap</remote-id>
+		<remote-id type="cpan-module">HTML::FormHandler::Widget::Theme::Bootstrap3</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Theme::BootstrapFormMessages</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Base</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Bootstrap</remote-id>
+		<remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Bootstrap3</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Fieldset</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::None</remote-id>
 		<remote-id type="cpan-module">HTML::FormHandler::Widget::Wrapper::Simple</remote-id>

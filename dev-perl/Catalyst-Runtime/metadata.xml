@@ -12,7 +12,10 @@
 		<remote-id type="cpan-module">Catalyst::Action</remote-id>
 		<remote-id type="cpan-module">Catalyst::ActionChain</remote-id>
 		<remote-id type="cpan-module">Catalyst::ActionContainer</remote-id>
+		<remote-id type="cpan-module">Catalyst::ActionRole::ConsumesContent</remote-id>
 		<remote-id type="cpan-module">Catalyst::ActionRole::HTTPMethods</remote-id>
+		<remote-id type="cpan-module">Catalyst::ActionRole::QueryMatching</remote-id>
+		<remote-id type="cpan-module">Catalyst::ActionRole::Scheme</remote-id>
 		<remote-id type="cpan-module">Catalyst::Base</remote-id>
 		<remote-id type="cpan-module">Catalyst::ClassData</remote-id>
 		<remote-id type="cpan-module">Catalyst::Component</remote-id>
@@ -34,11 +37,14 @@
 		<remote-id type="cpan-module">Catalyst::Exception::Go</remote-id>
 		<remote-id type="cpan-module">Catalyst::Exception::Interface</remote-id>
 		<remote-id type="cpan-module">Catalyst::Log</remote-id>
+		<remote-id type="cpan-module">Catalyst::Middleware::Stash</remote-id>
 		<remote-id type="cpan-module">Catalyst::Model</remote-id>
 		<remote-id type="cpan-module">Catalyst::Plugin::Unicode::Encoding</remote-id>
 		<remote-id type="cpan-module">Catalyst::Request</remote-id>
+		<remote-id type="cpan-module">Catalyst::Request::PartData</remote-id>
 		<remote-id type="cpan-module">Catalyst::Request::Upload</remote-id>
 		<remote-id type="cpan-module">Catalyst::Response</remote-id>
+		<remote-id type="cpan-module">Catalyst::Response::Writer</remote-id>
 		<remote-id type="cpan-module">Catalyst::Runtime</remote-id>
 		<remote-id type="cpan-module">Catalyst::Script::CGI</remote-id>
 		<remote-id type="cpan-module">Catalyst::Script::Create</remote-id>

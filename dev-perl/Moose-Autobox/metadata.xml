@@ -9,19 +9,15 @@
 	<upstream>
 		<remote-id type="cpan">Moose-Autobox</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox</remote-id>
-		<remote-id type="cpan-module">Moose::Autobox::ARRAY</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Array</remote-id>
-		<remote-id type="cpan-module">Moose::Autobox::CODE</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Code</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Defined</remote-id>
-		<remote-id type="cpan-module">Moose::Autobox::HASH</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Hash</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Indexed</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Item</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::List</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Number</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Ref</remote-id>
-		<remote-id type="cpan-module">Moose::Autobox::SCALAR</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Scalar</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::String</remote-id>
 		<remote-id type="cpan-module">Moose::Autobox::Undef</remote-id>
