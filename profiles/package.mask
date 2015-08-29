@@ -1,3 +1,7 @@
+# Kent Fredric <kentfredric@gmail.com> (30 Aug 2015)
+# Vanished on CPAN, assumed dead. Removal on or after 30 Sept
+<=dev-perl/WWW-CheckSite-0.20.0
+
 # Kent Fredric <kentfredric@gmail.com> (20 Jun 2015)
 # Deprecated by upstream, built in support in Catalyst since 5.9000
 <=dev-perl/Catalyst-Engine-PSGI-0.130.0-r999
