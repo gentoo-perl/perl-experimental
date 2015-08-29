@@ -10,8 +10,9 @@ DESCRIPTION="Adapter to use Log::Dispatch with Log::Any"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+# Log::Any::Adapter -> Log-Any 0.900.0
 RDEPEND="
-	dev-perl/Log-Any-Adapter
+	>=dev-perl/Log-Any-0.900.0
 	>=dev-perl/Log-Dispatch-2.260.0
 "
 DEPEND="
