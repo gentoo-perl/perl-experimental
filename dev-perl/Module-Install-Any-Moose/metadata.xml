@@ -6,4 +6,7 @@
 		<email>dwc@pobox.com</email>
 		<name>Daniel Westermann-Clark</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Module-Install-Any-Moose</remote-id>
+	</upstream>
 </pkgmetadata>

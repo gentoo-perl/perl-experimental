@@ -6,4 +6,7 @@
 		<email>hasufell@gentoo.de</email>
 		<name>Julian Ospald</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="cpan">XS-Object-Magic</remote-id>
+	</upstream>
 </pkgmetadata>

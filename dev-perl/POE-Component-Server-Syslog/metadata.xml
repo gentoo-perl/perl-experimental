@@ -6,4 +6,7 @@
 		<email>dwc@pobox.com</email>
 		<name>Daniel Westermann-Clark</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="cpan">POE-Component-Server-Syslog</remote-id>
+	</upstream>
 </pkgmetadata>
