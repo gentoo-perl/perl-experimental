@@ -7,7 +7,7 @@
 		<name>Michele Beltrame</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">Plack::Middleware::MethodOverride</remote-id>
+		<remote-id type="cpan">Plack-Middleware-MethodOverride</remote-id>
 		<remote-id type="cpan-module">Plack::Middleware::MethodOverride</remote-id>
 	</upstream>
 </pkgmetadata>
