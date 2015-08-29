@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Log-Contextual</remote-id>
-        <remote-id type="cpan-module">Log::Contextual</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::Role::Router</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::Role::Router::SetLogger</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::Role::Router::WithLogger</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::Router</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::SimpleLogger</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::TeeLogger</remote-id>
-        <remote-id type="cpan-module">Log::Contextual::WarnLogger</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Log-Contextual</remote-id>
+		<remote-id type="cpan-module">Log::Contextual</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::Role::Router</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::Role::Router::SetLogger</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::Role::Router::WithLogger</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::Router</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::SimpleLogger</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::TeeLogger</remote-id>
+		<remote-id type="cpan-module">Log::Contextual::WarnLogger</remote-id>
+	</upstream>
 </pkgmetadata>

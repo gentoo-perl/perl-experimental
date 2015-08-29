@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Catalyst-Engine-Apache</remote-id>
-        <remote-id type="cpan-module">Catalyst::Engine::Apache</remote-id>
-        <remote-id type="cpan-module">Catalyst::Engine::Apache2</remote-id>
-        <remote-id type="cpan-module">Catalyst::Engine::Apache2::MP19</remote-id>
-        <remote-id type="cpan-module">Catalyst::Engine::Apache2::MP20</remote-id>
-        <remote-id type="cpan-module">Catalyst::Engine::Apache::MP13</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Catalyst-Engine-Apache</remote-id>
+		<remote-id type="cpan-module">Catalyst::Engine::Apache</remote-id>
+		<remote-id type="cpan-module">Catalyst::Engine::Apache2</remote-id>
+		<remote-id type="cpan-module">Catalyst::Engine::Apache2::MP19</remote-id>
+		<remote-id type="cpan-module">Catalyst::Engine::Apache2::MP20</remote-id>
+		<remote-id type="cpan-module">Catalyst::Engine::Apache::MP13</remote-id>
+	</upstream>
 </pkgmetadata>

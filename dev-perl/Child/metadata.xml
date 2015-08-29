@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Child</remote-id>
-        <remote-id type="cpan-module">Child</remote-id>
-        <remote-id type="cpan-module">Child::IPC::Pipe</remote-id>
-        <remote-id type="cpan-module">Child::Link</remote-id>
-        <remote-id type="cpan-module">Child::Link::IPC</remote-id>
-        <remote-id type="cpan-module">Child::Link::IPC::Pipe</remote-id>
-        <remote-id type="cpan-module">Child::Link::IPC::Pipe::Parent</remote-id>
-        <remote-id type="cpan-module">Child::Link::IPC::Pipe::Proc</remote-id>
-        <remote-id type="cpan-module">Child::Link::Parent</remote-id>
-        <remote-id type="cpan-module">Child::Link::Proc</remote-id>
-        <remote-id type="cpan-module">Child::Util</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Child</remote-id>
+		<remote-id type="cpan-module">Child</remote-id>
+		<remote-id type="cpan-module">Child::IPC::Pipe</remote-id>
+		<remote-id type="cpan-module">Child::Link</remote-id>
+		<remote-id type="cpan-module">Child::Link::IPC</remote-id>
+		<remote-id type="cpan-module">Child::Link::IPC::Pipe</remote-id>
+		<remote-id type="cpan-module">Child::Link::IPC::Pipe::Parent</remote-id>
+		<remote-id type="cpan-module">Child::Link::IPC::Pipe::Proc</remote-id>
+		<remote-id type="cpan-module">Child::Link::Parent</remote-id>
+		<remote-id type="cpan-module">Child::Link::Proc</remote-id>
+		<remote-id type="cpan-module">Child::Util</remote-id>
+	</upstream>
 </pkgmetadata>

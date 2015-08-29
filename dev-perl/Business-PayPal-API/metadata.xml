@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@cattlegrid.info</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Business-PayPal-API</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::AuthorizationRequest</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::CaptureRequest</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::DirectPayments</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::ExpressCheckout</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::GetTransactionDetails</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::MassPay</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::ReauthorizationRequest</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::RecurringPayments</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::RefundTransaction</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::TransactionSearch</remote-id>
-        <remote-id type="cpan-module">Business::PayPal::API::VoidRequest</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@cattlegrid.info</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Business-PayPal-API</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::AuthorizationRequest</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::CaptureRequest</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::DirectPayments</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::ExpressCheckout</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::GetTransactionDetails</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::MassPay</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::ReauthorizationRequest</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::RecurringPayments</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::RefundTransaction</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::TransactionSearch</remote-id>
+		<remote-id type="cpan-module">Business::PayPal::API::VoidRequest</remote-id>
+	</upstream>
 </pkgmetadata>

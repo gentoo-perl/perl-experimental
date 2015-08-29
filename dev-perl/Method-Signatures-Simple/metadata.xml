@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>dabbott@gentoo.org</email>
-        <name>David Abbott</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Method-Signatures-Simple</remote-id>
-        <remote-id type="cpan-module">Method::Signatures::Simple</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>dabbott@gentoo.org</email>
+		<name>David Abbott</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Method-Signatures-Simple</remote-id>
+		<remote-id type="cpan-module">Method::Signatures::Simple</remote-id>
+	</upstream>
 </pkgmetadata>

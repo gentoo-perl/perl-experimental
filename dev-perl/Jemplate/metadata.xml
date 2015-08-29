@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Jemplate</remote-id>
-        <remote-id type="cpan-module">Jemplate</remote-id>
-        <remote-id type="cpan-module">Jemplate::Directive</remote-id>
-        <remote-id type="cpan-module">Jemplate::Grammar</remote-id>
-        <remote-id type="cpan-module">Jemplate::Parser</remote-id>
-        <remote-id type="cpan-module">Jemplate::Runtime</remote-id>
-        <remote-id type="cpan-module">Jemplate::Runtime::Compact</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Jemplate</remote-id>
+		<remote-id type="cpan-module">Jemplate</remote-id>
+		<remote-id type="cpan-module">Jemplate::Directive</remote-id>
+		<remote-id type="cpan-module">Jemplate::Grammar</remote-id>
+		<remote-id type="cpan-module">Jemplate::Parser</remote-id>
+		<remote-id type="cpan-module">Jemplate::Runtime</remote-id>
+		<remote-id type="cpan-module">Jemplate::Runtime::Compact</remote-id>
+	</upstream>
 </pkgmetadata>

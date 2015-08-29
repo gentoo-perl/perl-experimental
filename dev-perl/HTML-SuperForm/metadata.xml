@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">HTML-SuperForm</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Checkbox</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::CheckboxGroup</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Hidden</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Password</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Radio</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::RadioGroup</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Select</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Submit</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Text</remote-id>
-        <remote-id type="cpan-module">HTML::SuperForm::Field::Textarea</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">HTML-SuperForm</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Checkbox</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::CheckboxGroup</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Hidden</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Password</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Radio</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::RadioGroup</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Select</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Submit</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Text</remote-id>
+		<remote-id type="cpan-module">HTML::SuperForm::Field::Textarea</remote-id>
+	</upstream>
 </pkgmetadata>

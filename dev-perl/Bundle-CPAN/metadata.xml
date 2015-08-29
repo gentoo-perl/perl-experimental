@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Bundle-CPAN</remote-id>
-        <remote-id type="cpan-module">Bundle::CPAN</remote-id>
-        <remote-id type="cpan-module">Bundle::CPANxxl</remote-id>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Bundle-CPAN</remote-id>
+		<remote-id type="cpan-module">Bundle::CPAN</remote-id>
+		<remote-id type="cpan-module">Bundle::CPANxxl</remote-id>
 	</upstream>
 	<use>
 		<flag name="xxl">Install additional dependencies recommended by upstream that

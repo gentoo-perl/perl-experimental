@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Catalyst-Plugin-Authentication</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Credential::NoPassword</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Credential::Password</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Credential::Remote</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Realm</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Realm::Compatibility</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Realm::Progressive</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Store::Minimal</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::Store::Null</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::User</remote-id>
-        <remote-id type="cpan-module">Catalyst::Authentication::User::Hash</remote-id>
-        <remote-id type="cpan-module">Catalyst::Plugin::Authentication</remote-id>
-        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::Credential::Password</remote-id>
-        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::Store::Minimal</remote-id>
-        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::User</remote-id>
-        <remote-id type="cpan-module">Catalyst::Plugin::Authentication::User::Hash</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Catalyst-Plugin-Authentication</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Credential::NoPassword</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Credential::Password</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Credential::Remote</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Realm</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Realm::Compatibility</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Realm::Progressive</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Store::Minimal</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::Store::Null</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::User</remote-id>
+		<remote-id type="cpan-module">Catalyst::Authentication::User::Hash</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::Authentication</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::Authentication::Credential::Password</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::Authentication::Store::Minimal</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::Authentication::User</remote-id>
+		<remote-id type="cpan-module">Catalyst::Plugin::Authentication::User::Hash</remote-id>
+	</upstream>
 </pkgmetadata>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@cattlegrid.info</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Parse-Method-Signatures</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Bindable</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Named</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Placeholder</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Positional</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Unpacked</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Unpacked::Array</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Param::Unpacked::Hash</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::ParamCollection</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Sig</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::TypeConstraint</remote-id>
-        <remote-id type="cpan-module">Parse::Method::Signatures::Types</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@cattlegrid.info</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Parse-Method-Signatures</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Bindable</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Named</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Placeholder</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Positional</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Unpacked</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Unpacked::Array</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Param::Unpacked::Hash</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::ParamCollection</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Sig</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::TypeConstraint</remote-id>
+		<remote-id type="cpan-module">Parse::Method::Signatures::Types</remote-id>
+	</upstream>
 </pkgmetadata>

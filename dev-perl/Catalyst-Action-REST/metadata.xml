@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Catalyst-Action-REST</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::Callback</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON::XS</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::View</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::XML::Simple</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Deserialize::YAML</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::DeserializeMultiPart</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::REST</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::REST::ForBrowsers</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::Callback</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::JSON</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::JSON::XS</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::JSONP</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::View</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::XML::Simple</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::YAML</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::Serialize::YAML::HTML</remote-id>
-        <remote-id type="cpan-module">Catalyst::Action::SerializeBase</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::REST</remote-id>
-        <remote-id type="cpan-module">Catalyst::Request::REST</remote-id>
-        <remote-id type="cpan-module">Catalyst::Request::REST::ForBrowsers</remote-id>
-        <remote-id type="cpan-module">Catalyst::TraitFor::Request::REST</remote-id>
-        <remote-id type="cpan-module">Catalyst::TraitFor::Request::REST::ForBrowsers</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Catalyst-Action-REST</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize::Callback</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize::JSON::XS</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize::View</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize::XML::Simple</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Deserialize::YAML</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::DeserializeMultiPart</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::REST</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::REST::ForBrowsers</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::Callback</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::JSON</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::JSON::XS</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::JSONP</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::View</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::XML::Simple</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::YAML</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::Serialize::YAML::HTML</remote-id>
+		<remote-id type="cpan-module">Catalyst::Action::SerializeBase</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::REST</remote-id>
+		<remote-id type="cpan-module">Catalyst::Request::REST</remote-id>
+		<remote-id type="cpan-module">Catalyst::Request::REST::ForBrowsers</remote-id>
+		<remote-id type="cpan-module">Catalyst::TraitFor::Request::REST</remote-id>
+		<remote-id type="cpan-module">Catalyst::TraitFor::Request::REST::ForBrowsers</remote-id>
+	</upstream>
 </pkgmetadata>

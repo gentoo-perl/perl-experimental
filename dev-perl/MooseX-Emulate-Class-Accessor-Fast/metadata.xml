@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">MooseX-Emulate-Class-Accessor-Fast</remote-id>
-        <remote-id type="cpan-module">MooseX::Adopt::Class::Accessor::Fast</remote-id>
-        <remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast</remote-id>
-        <remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast::Meta::Accessor</remote-id>
-        <remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast::Meta::Role::Attribute</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">MooseX-Emulate-Class-Accessor-Fast</remote-id>
+		<remote-id type="cpan-module">MooseX::Adopt::Class::Accessor::Fast</remote-id>
+		<remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast</remote-id>
+		<remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast::Meta::Accessor</remote-id>
+		<remote-id type="cpan-module">MooseX::Emulate::Class::Accessor::Fast::Meta::Role::Attribute</remote-id>
+	</upstream>
 </pkgmetadata>

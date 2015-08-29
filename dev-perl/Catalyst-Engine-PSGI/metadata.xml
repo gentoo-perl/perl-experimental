@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@cattlegrid.info</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Catalyst-Engine-PSGI</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::Metal</remote-id>
-        <remote-id type="cpan-module">Catalyst::Engine::PSGI</remote-id>
-        <remote-id type="cpan-module">Catalyst::Helper::PSGI</remote-id>
-        <remote-id type="cpan-module">Plack::Test::Adopt::Catalyst</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@cattlegrid.info</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Catalyst-Engine-PSGI</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::Metal</remote-id>
+		<remote-id type="cpan-module">Catalyst::Engine::PSGI</remote-id>
+		<remote-id type="cpan-module">Catalyst::Helper::PSGI</remote-id>
+		<remote-id type="cpan-module">Plack::Test::Adopt::Catalyst</remote-id>
+	</upstream>
 </pkgmetadata>

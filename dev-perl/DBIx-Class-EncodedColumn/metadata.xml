@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">DBIx-Class-EncodedColumn</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::EncodedColumn</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt::Eksblowfish::Bcrypt</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt::OpenPGP</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::EncodedColumn::Digest</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">DBIx-Class-EncodedColumn</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::EncodedColumn</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt::Eksblowfish::Bcrypt</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::EncodedColumn::Crypt::OpenPGP</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::EncodedColumn::Digest</remote-id>
+	</upstream>
 </pkgmetadata>

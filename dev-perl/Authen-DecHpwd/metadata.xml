@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <use>
-        <flag name="recommended">Pull in recommended dependencies to ensure XS
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="recommended">Pull in recommended dependencies to ensure XS
 			Modules are built</flag>
-    </use>
-    <upstream>
-        <remote-id type="cpan">Authen-DecHpwd</remote-id>
-        <remote-id type="cpan-module">Authen::DecHpwd</remote-id>
-    </upstream>
+	</use>
+	<upstream>
+		<remote-id type="cpan">Authen-DecHpwd</remote-id>
+		<remote-id type="cpan-module">Authen::DecHpwd</remote-id>
+	</upstream>
 </pkgmetadata>

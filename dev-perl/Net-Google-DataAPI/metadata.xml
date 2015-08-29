@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>dwc@pobox.com</email>
-        <name>Daniel Westermann-Clark</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Net-Google-DataAPI</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Auth::AuthSub</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Auth::ClientLogin::Multiple</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Auth::Null</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Auth::OAuth</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Auth::OAuth2</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Role::Auth</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Role::Entry</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Role::HasContent</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Role::Service</remote-id>
-        <remote-id type="cpan-module">Net::Google::DataAPI::Types</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>dwc@pobox.com</email>
+		<name>Daniel Westermann-Clark</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Net-Google-DataAPI</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Auth::AuthSub</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Auth::ClientLogin::Multiple</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Auth::Null</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Auth::OAuth</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Auth::OAuth2</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Role::Auth</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Role::Entry</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Role::HasContent</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Role::Service</remote-id>
+		<remote-id type="cpan-module">Net::Google::DataAPI::Types</remote-id>
+	</upstream>
 </pkgmetadata>

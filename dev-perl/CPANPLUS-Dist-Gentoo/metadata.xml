@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">CPANPLUS-Dist-Gentoo</remote-id>
-        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo</remote-id>
-        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Atom</remote-id>
-        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Guard</remote-id>
-        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Maps</remote-id>
-        <remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Version</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">CPANPLUS-Dist-Gentoo</remote-id>
+		<remote-id type="cpan-module">CPANPLUS::Dist::Gentoo</remote-id>
+		<remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Atom</remote-id>
+		<remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Guard</remote-id>
+		<remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Maps</remote-id>
+		<remote-id type="cpan-module">CPANPLUS::Dist::Gentoo::Version</remote-id>
+	</upstream>
 </pkgmetadata>

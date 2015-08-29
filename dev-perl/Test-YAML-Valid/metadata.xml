@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <use>
-        <flag name="yaml-syck">YAML::Syck support</flag>
-        <flag name="yaml-xs">YAML::XS support</flag>
-        <flag name="yaml-tiny">YAML::Tiny support</flag>
-    </use>
-    <upstream>
-        <remote-id type="cpan">Test-YAML-Valid</remote-id>
-        <remote-id type="cpan-module">Test::YAML::Valid</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="yaml-syck">YAML::Syck support</flag>
+		<flag name="yaml-xs">YAML::XS support</flag>
+		<flag name="yaml-tiny">YAML::Tiny support</flag>
+	</use>
+	<upstream>
+		<remote-id type="cpan">Test-YAML-Valid</remote-id>
+		<remote-id type="cpan-module">Test::YAML::Valid</remote-id>
+	</upstream>
 </pkgmetadata>

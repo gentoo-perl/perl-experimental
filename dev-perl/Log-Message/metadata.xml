@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>perl</herd>
-  <upstream>
-    <remote-id type="cpan">Log-Message</remote-id>
-    <remote-id type="cpan-module">Log::Message</remote-id>
-    <remote-id type="cpan-module">Log::Message::Config</remote-id>
-    <remote-id type="cpan-module">Log::Message::Handlers</remote-id>
-    <remote-id type="cpan-module">Log::Message::Item</remote-id>
-  </upstream>
+	<herd>perl</herd>
+	<upstream>
+		<remote-id type="cpan">Log-Message</remote-id>
+		<remote-id type="cpan-module">Log::Message</remote-id>
+		<remote-id type="cpan-module">Log::Message::Config</remote-id>
+		<remote-id type="cpan-module">Log::Message::Handlers</remote-id>
+		<remote-id type="cpan-module">Log::Message::Item</remote-id>
+	</upstream>
 </pkgmetadata>

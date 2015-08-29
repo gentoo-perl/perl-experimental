@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">MooseX-AuthorizedMethods</remote-id>
-        <remote-id type="cpan-module">MooseX::AuthorizedMethods</remote-id>
-        <remote-id type="cpan-module">MooseX::Meta::Method::Authorized</remote-id>
-        <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToClass</remote-id>
-        <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToComposite</remote-id>
-        <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToInstance</remote-id>
-        <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::CheckRoles</remote-id>
-        <remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Meta::Role</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">MooseX-AuthorizedMethods</remote-id>
+		<remote-id type="cpan-module">MooseX::AuthorizedMethods</remote-id>
+		<remote-id type="cpan-module">MooseX::Meta::Method::Authorized</remote-id>
+		<remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToClass</remote-id>
+		<remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToComposite</remote-id>
+		<remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Application::ToInstance</remote-id>
+		<remote-id type="cpan-module">MooseX::Meta::Method::Authorized::CheckRoles</remote-id>
+		<remote-id type="cpan-module">MooseX::Meta::Method::Authorized::Meta::Role</remote-id>
+	</upstream>
 </pkgmetadata>

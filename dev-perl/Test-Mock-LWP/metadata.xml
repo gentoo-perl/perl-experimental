@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Test-Mock-LWP</remote-id>
-        <remote-id type="cpan-module">HTTP::Request</remote-id>
-        <remote-id type="cpan-module">HTTP::Response</remote-id>
-        <remote-id type="cpan-module">LWP::UserAgent</remote-id>
-        <remote-id type="cpan-module">Test::Mock::HTTP::Request</remote-id>
-        <remote-id type="cpan-module">Test::Mock::HTTP::Response</remote-id>
-        <remote-id type="cpan-module">Test::Mock::LWP</remote-id>
-        <remote-id type="cpan-module">Test::Mock::LWP::UserAgent</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Test-Mock-LWP</remote-id>
+		<remote-id type="cpan-module">HTTP::Request</remote-id>
+		<remote-id type="cpan-module">HTTP::Response</remote-id>
+		<remote-id type="cpan-module">LWP::UserAgent</remote-id>
+		<remote-id type="cpan-module">Test::Mock::HTTP::Request</remote-id>
+		<remote-id type="cpan-module">Test::Mock::HTTP::Response</remote-id>
+		<remote-id type="cpan-module">Test::Mock::LWP</remote-id>
+		<remote-id type="cpan-module">Test::Mock::LWP::UserAgent</remote-id>
+	</upstream>
 </pkgmetadata>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-        <herd>perl</herd>
-        <upstream>
-                <remote-id type="cpan">Git-Repository</remote-id>
-                <remote-id type="cpan-module">Git::Repository</remote-id>
-                <remote-id type="cpan-module">Git::Repository::Command</remote-id>
-                <remote-id type="cpan-module">Git::Repository::Plugin</remote-id>
-                <remote-id type="cpan-module">Test::Git</remote-id>
-        </upstream>
+	<herd>perl</herd>
+	<upstream>
+		<remote-id type="cpan">Git-Repository</remote-id>
+		<remote-id type="cpan-module">Git::Repository</remote-id>
+		<remote-id type="cpan-module">Git::Repository::Command</remote-id>
+		<remote-id type="cpan-module">Git::Repository::Plugin</remote-id>
+		<remote-id type="cpan-module">Test::Git</remote-id>
+	</upstream>
 </pkgmetadata>

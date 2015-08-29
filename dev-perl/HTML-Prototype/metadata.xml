@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">HTML-Prototype</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype::Controls</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype::DragDrop</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype::Effects</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype::Helper</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype::Helper::Tag</remote-id>
-        <remote-id type="cpan-module">HTML::Prototype::Js</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">HTML-Prototype</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype::Controls</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype::DragDrop</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype::Effects</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype::Helper</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype::Helper::Tag</remote-id>
+		<remote-id type="cpan-module">HTML::Prototype::Js</remote-id>
+	</upstream>
 </pkgmetadata>

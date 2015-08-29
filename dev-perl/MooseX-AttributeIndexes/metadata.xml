@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">MooseX-AttributeIndexes</remote-id>
-        <remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::Indexed</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Attribute::Trait::Indexed</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::ApplicationToClass</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::ApplicationToRole</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::Composite</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Provider</remote-id>
-        <remote-id type="cpan-module">MooseX::AttributeIndexes::Provider::FromAttributes</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">MooseX-AttributeIndexes</remote-id>
+		<remote-id type="cpan-module">Moose::Meta::Attribute::Custom::Trait::Indexed</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Attribute::Trait::Indexed</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::ApplicationToClass</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::ApplicationToRole</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Meta::Role::Composite</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Provider</remote-id>
+		<remote-id type="cpan-module">MooseX::AttributeIndexes::Provider::FromAttributes</remote-id>
+	</upstream>
 </pkgmetadata>

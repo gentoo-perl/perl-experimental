@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Number-Tolerant</remote-id>
-        <remote-id type="cpan-module">Number::Tolerant</remote-id>
-        <remote-id type="cpan-module">Number::Tolerant::Constant</remote-id>
-        <remote-id type="cpan-module">Number::Tolerant::Type</remote-id>
-        <remote-id type="cpan-module">Number::Tolerant::Union</remote-id>
-        <remote-id type="cpan-module">Test::Tolerant</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Number-Tolerant</remote-id>
+		<remote-id type="cpan-module">Number::Tolerant</remote-id>
+		<remote-id type="cpan-module">Number::Tolerant::Constant</remote-id>
+		<remote-id type="cpan-module">Number::Tolerant::Type</remote-id>
+		<remote-id type="cpan-module">Number::Tolerant::Union</remote-id>
+		<remote-id type="cpan-module">Test::Tolerant</remote-id>
+	</upstream>
 </pkgmetadata>

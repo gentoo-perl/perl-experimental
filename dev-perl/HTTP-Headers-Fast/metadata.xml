@@ -3,11 +3,11 @@
 <pkgmetadata>
 	<herd>perl</herd>
 	<maintainer>
-        <email>pavel.a.denisov@gmail.com</email>
-        <name>Pavel Denisov</name>
+		<email>pavel.a.denisov@gmail.com</email>
+		<name>Pavel Denisov</name>
 	</maintainer>
 	<upstream>
-        <remote-id type="cpan">HTTP-Headers-Fast</remote-id>
-        <remote-id type="cpan-module">HTTP::Headers::Fast</remote-id>
+		<remote-id type="cpan">HTTP-Headers-Fast</remote-id>
+		<remote-id type="cpan-module">HTTP::Headers::Fast</remote-id>
 	</upstream>
 </pkgmetadata>

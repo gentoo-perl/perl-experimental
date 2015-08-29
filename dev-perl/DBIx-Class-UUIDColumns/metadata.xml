@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">DBIx-Class-UUIDColumns</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::APR::UUID</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Data::GUID</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Data::UUID</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Data::Uniqid</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::UUID</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::UUID::Random</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Win32::Guidgen</remote-id>
-        <remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Win32API::GUID</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">DBIx-Class-UUIDColumns</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::APR::UUID</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Data::GUID</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Data::UUID</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Data::Uniqid</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::UUID</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::UUID::Random</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Win32::Guidgen</remote-id>
+		<remote-id type="cpan-module">DBIx::Class::UUIDColumns::UUIDMaker::Win32API::GUID</remote-id>
+	</upstream>
 </pkgmetadata>

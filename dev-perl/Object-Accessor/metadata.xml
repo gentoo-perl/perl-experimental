@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <herd>perl</herd>
-  <upstream>
-    <remote-id type="cpan">Object-Accessor</remote-id>
-    <remote-id type="cpan-module">Object::Accessor</remote-id>
-    <remote-id type="cpan-module">Object::Accessor::Lvalue</remote-id>
-    <remote-id type="cpan-module">Object::Accessor::TIE</remote-id>
-  </upstream>
+	<herd>perl</herd>
+	<upstream>
+		<remote-id type="cpan">Object-Accessor</remote-id>
+		<remote-id type="cpan-module">Object::Accessor</remote-id>
+		<remote-id type="cpan-module">Object::Accessor::Lvalue</remote-id>
+		<remote-id type="cpan-module">Object::Accessor::TIE</remote-id>
+	</upstream>
 </pkgmetadata>

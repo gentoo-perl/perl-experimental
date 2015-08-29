@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <use>
-        <flag name="recommended">Install recommended extras</flag>
-    </use>
-    <upstream>
-        <remote-id type="cpan">CGI-Application-Plugin-Authentication</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display::Basic</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display::Classic</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Authen::Simple</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::DBI</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Dummy</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::crypt</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::lc</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::md5</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::sha1</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::strip</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::uc</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Generic</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::HTPasswd</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store::Cookie</remote-id>
-        <remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store::Session</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<use>
+		<flag name="recommended">Install recommended extras</flag>
+	</use>
+	<upstream>
+		<remote-id type="cpan">CGI-Application-Plugin-Authentication</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display::Basic</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Display::Classic</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Authen::Simple</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::DBI</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Dummy</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::crypt</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::lc</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::md5</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::sha1</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::strip</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Filter::uc</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::Generic</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Driver::HTPasswd</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store::Cookie</remote-id>
+		<remote-id type="cpan-module">CGI::Application::Plugin::Authentication::Store::Session</remote-id>
+	</upstream>
 </pkgmetadata>

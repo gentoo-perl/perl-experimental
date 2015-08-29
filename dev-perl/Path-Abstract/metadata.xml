@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>dwc@pobox.com</email>
-        <name>Daniel Westermann-Clark</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Path-Abstract</remote-id>
-        <remote-id type="cpan-module">Path::Abstract</remote-id>
-        <remote-id type="cpan-module">Path::Abstract::Fast</remote-id>
-        <remote-id type="cpan-module">Path::Abstract::Underload</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>dwc@pobox.com</email>
+		<name>Daniel Westermann-Clark</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Path-Abstract</remote-id>
+		<remote-id type="cpan-module">Path::Abstract</remote-id>
+		<remote-id type="cpan-module">Path::Abstract::Fast</remote-id>
+		<remote-id type="cpan-module">Path::Abstract::Underload</remote-id>
+	</upstream>
 </pkgmetadata>

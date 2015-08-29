@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>dwc@pobox.com</email>
-        <name>Daniel Westermann-Clark</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Text-Diff-Parser</remote-id>
-        <remote-id type="cpan-module">Text::Diff::Parser</remote-id>
-        <remote-id type="cpan-module">Text::Diff::Parser::Change</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>dwc@pobox.com</email>
+		<name>Daniel Westermann-Clark</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Text-Diff-Parser</remote-id>
+		<remote-id type="cpan-module">Text::Diff::Parser</remote-id>
+		<remote-id type="cpan-module">Text::Diff::Parser::Change</remote-id>
+	</upstream>
 </pkgmetadata>

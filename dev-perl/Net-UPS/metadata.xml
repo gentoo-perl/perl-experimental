@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@cattlegrid.info</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Net-UPS</remote-id>
-        <remote-id type="cpan-module">Net::UPS</remote-id>
-        <remote-id type="cpan-module">Net::UPS::Address</remote-id>
-        <remote-id type="cpan-module">Net::UPS::ErrorHandler</remote-id>
-        <remote-id type="cpan-module">Net::UPS::Package</remote-id>
-        <remote-id type="cpan-module">Net::UPS::Rate</remote-id>
-        <remote-id type="cpan-module">Net::UPS::Service</remote-id>
-        <remote-id type="cpan-module">Net::UPS::Tutorial</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@cattlegrid.info</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Net-UPS</remote-id>
+		<remote-id type="cpan-module">Net::UPS</remote-id>
+		<remote-id type="cpan-module">Net::UPS::Address</remote-id>
+		<remote-id type="cpan-module">Net::UPS::ErrorHandler</remote-id>
+		<remote-id type="cpan-module">Net::UPS::Package</remote-id>
+		<remote-id type="cpan-module">Net::UPS::Rate</remote-id>
+		<remote-id type="cpan-module">Net::UPS::Service</remote-id>
+		<remote-id type="cpan-module">Net::UPS::Tutorial</remote-id>
+	</upstream>
 </pkgmetadata>

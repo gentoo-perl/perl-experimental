@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">Class-Throwable</remote-id>
-        <remote-id type="cpan-module">Class::Throwable</remote-id>
-        <remote-id type="cpan-module">DB</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">Class-Throwable</remote-id>
+		<remote-id type="cpan-module">Class::Throwable</remote-id>
+		<remote-id type="cpan-module">DB</remote-id>
+	</upstream>
 </pkgmetadata>

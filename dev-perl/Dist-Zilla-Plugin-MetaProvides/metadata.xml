@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>kentfredric@gmail.com</email>
-        <name>Kent Fredric</name>
-    </maintainer>
-    <use>
-        <flag name="fromfile">Install recommended ::FromFile library for
+	<herd>perl</herd>
+	<maintainer>
+		<email>kentfredric@gmail.com</email>
+		<name>Kent Fredric</name>
+	</maintainer>
+	<use>
+		<flag name="fromfile">Install recommended ::FromFile library for
 			hand-crated metadata</flag>
-        <flag name="class">Install recommended ::Class to detect
+		<flag name="class">Install recommended ::Class to detect
 			MooseX::Declares 'class'</flag>
-        <flag name="package">Install recommended ::Package for detecting class
+		<flag name="package">Install recommended ::Package for detecting class
 			perl packages</flag>
-        <flag name="metanoindex">Install support libraries for meta_no_index
+		<flag name="metanoindex">Install support libraries for meta_no_index
 			feature</flag>
-    </use>
-    <upstream>
-        <remote-id type="cpan">Dist-Zilla-Plugin-MetaProvides</remote-id>
-        <remote-id type="cpan-module">Dist::Zilla::MetaProvides::ProvideRecord</remote-id>
-        <remote-id type="cpan-module">Dist::Zilla::MetaProvides::Types</remote-id>
-        <remote-id type="cpan-module">Dist::Zilla::Plugin::MetaProvides</remote-id>
-        <remote-id type="cpan-module">Dist::Zilla::Role::MetaProvider::Provider</remote-id>
-    </upstream>
+	</use>
+	<upstream>
+		<remote-id type="cpan">Dist-Zilla-Plugin-MetaProvides</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::MetaProvides::ProvideRecord</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::MetaProvides::Types</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Plugin::MetaProvides</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Role::MetaProvider::Provider</remote-id>
+	</upstream>
 </pkgmetadata>

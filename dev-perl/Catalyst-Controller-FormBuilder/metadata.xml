@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <use>
-        <flag name="template">Support for Templating forms with
-        <pkg>dev-perl/Catalyst-View-TT</pkg></flag>
-    </use>
-    <upstream>
-        <remote-id type="cpan">Catalyst-Controller-FormBuilder</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::FormBuilder</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::HTML::Template</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::Mason</remote-id>
-        <remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::TT</remote-id>
-    </upstream>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<use>
+		<flag name="template">Support for Templating forms with
+				<pkg>dev-perl/Catalyst-View-TT</pkg></flag>
+	</use>
+	<upstream>
+		<remote-id type="cpan">Catalyst-Controller-FormBuilder</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::FormBuilder</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::HTML::Template</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::Mason</remote-id>
+		<remote-id type="cpan-module">Catalyst::Controller::FormBuilder::Action::TT</remote-id>
+	</upstream>
 </pkgmetadata>

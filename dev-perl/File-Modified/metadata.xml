@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <herd>perl</herd>
-    <maintainer>
-        <email>mb@italpro.net</email>
-        <name>Michele Beltrame</name>
-    </maintainer>
-    <upstream>
-        <remote-id type="cpan">File-Modified</remote-id>
-        <remote-id type="cpan-module">File::Modified</remote-id>
-        <remote-id type="cpan-module">File::Modified::Signature</remote-id>
-        <remote-id type="cpan-module">File::Modified::Signature::Checksum</remote-id>
-        <remote-id type="cpan-module">File::Modified::Signature::Digest</remote-id>
-        <remote-id type="cpan-module">File::Modified::Signature::mtime</remote-id>
+	<herd>perl</herd>
+	<maintainer>
+		<email>mb@italpro.net</email>
+		<name>Michele Beltrame</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="cpan">File-Modified</remote-id>
+		<remote-id type="cpan-module">File::Modified</remote-id>
+		<remote-id type="cpan-module">File::Modified::Signature</remote-id>
+		<remote-id type="cpan-module">File::Modified::Signature::Checksum</remote-id>
+		<remote-id type="cpan-module">File::Modified::Signature::Digest</remote-id>
+		<remote-id type="cpan-module">File::Modified::Signature::mtime</remote-id>
 	</upstream>
 	<use>
 		<flag name="digest">Ensure Digest and Digest::MD5 are installed for Digest functions</flag>
