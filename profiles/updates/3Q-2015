@@ -1,2 +1,3 @@
 move dev-perl/App-cpanoutdated dev-perl/cpan-outdated
 move dev-perl/Dist-Zilla-Plugin-DistManifestTests dev-perl/Dist-Zilla-Plugin-Test-DistManifest
+move dev-perl/Dist-Zilla-Plugin-EOLTests dev-perl/Dist-Zilla-Plugin-Test-EOL

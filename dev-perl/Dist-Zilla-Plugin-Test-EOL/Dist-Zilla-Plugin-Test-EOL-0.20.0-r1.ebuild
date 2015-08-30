@@ -3,6 +3,7 @@
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=FLORA
+MY_PN=Dist-Zilla-Plugin-EOLTests
 MODULE_VERSION="0.02"
 inherit perl-module
 

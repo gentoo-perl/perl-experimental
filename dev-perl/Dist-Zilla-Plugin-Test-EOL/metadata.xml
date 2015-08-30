@@ -7,7 +7,8 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">Dist-Zilla-Plugin-EOLTests</remote-id>
+		<remote-id type="cpan">Dist-Zilla-Plugin-Test-EOL</remote-id>
 		<remote-id type="cpan-module">Dist::Zilla::Plugin::EOLTests</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Plugin::Test::EOL</remote-id>
 	</upstream>
 </pkgmetadata>

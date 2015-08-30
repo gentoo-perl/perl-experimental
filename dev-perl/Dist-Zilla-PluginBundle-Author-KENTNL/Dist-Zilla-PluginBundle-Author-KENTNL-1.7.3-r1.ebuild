@@ -40,8 +40,8 @@ perl_meta_runtime() {
 	echo \>=dev-perl/Dist-Zilla-Plugin-CheckExtraTests-0.7.0
 	# Dist::Zilla::Plugin::ConfirmRelease 4.300029 ( 4.300.29 )
 	echo \>=dev-perl/Dist-Zilla-4.300.29
-	# Dist::Zilla::Plugin::EOLTests 0.02 ( 0.20.0 )
-	echo \>=dev-perl/Dist-Zilla-Plugin-EOLTests-0.20.0
+	# Dist::Zilla::Plugin::Test::EOL 0.02 ( 0.20.0 )
+	echo \>=dev-perl/Dist-Zilla-Plugin-Test-EOL-0.20.0
 	# Dist::Zilla::Plugin::FakeRelease 4.300029 ( 4.300.29 )
 	echo \>=dev-perl/Dist-Zilla-4.300.29
 	# Dist::Zilla::Plugin::GatherDir 4.300029 ( 4.300.29 )
