@@ -6,6 +6,7 @@ EAPI=5
 
 MODULE_AUTHOR=MARCEL
 MODULE_VERSION=1.111840
+MY_PN=Dist-Zilla-Plugin-PortabilityTests
 inherit perl-module
 
 DESCRIPTION="Release tests for portability"

@@ -7,6 +7,8 @@
 		<name>Kent Fredric</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">Dist-Zilla-Plugin-PortabilityTests</remote-id>
+		<remote-id type="cpan">Dist-Zilla-Plugin-Test-Portability</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Plugin::PortabilityTests</remote-id>
+		<remote-id type="cpan-module">Dist::Zilla::Plugin::Test::Portability</remote-id>
 	</upstream>
 </pkgmetadata>
