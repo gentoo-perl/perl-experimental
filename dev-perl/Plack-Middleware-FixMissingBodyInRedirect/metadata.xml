@@ -7,7 +7,7 @@
 		<name>Michele Beltrame</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">Plack::Middleware::FixMissingBodyInRedirect</remote-id>
+		<remote-id type="cpan">Plack-Middleware-FixMissingBodyInRedirect</remote-id>
 		<remote-id type="cpan-module">Plack::Middleware::FixMissingBodyInRedirect</remote-id>
 	</upstream>
 </pkgmetadata>
