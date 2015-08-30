@@ -1,8 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 EAPI=5
 MODULE_AUTHOR=TOKUHIROM
+MY_PN=App-cpanoutdated
 MODULE_VERSION=0.24
 inherit perl-module
 
