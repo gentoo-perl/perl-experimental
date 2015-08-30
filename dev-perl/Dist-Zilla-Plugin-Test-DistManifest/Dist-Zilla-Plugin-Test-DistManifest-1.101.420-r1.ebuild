@@ -5,6 +5,7 @@
 EAPI=5
 
 MODULE_AUTHOR=MARCEL
+MY_PN=Dist-Zilla-Plugin-DistManifestTests
 MODULE_VERSION=1.101420
 inherit perl-module
 
