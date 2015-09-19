@@ -12,12 +12,24 @@ DESCRIPTION="reformat your text within Padre"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="test"
 
-DEPEND=">=dev-perl/Module-Build-0.36.01"
-RDEPEND="app-editors/padre
-	dev-perl/text-autoformat"
-
+# r: File::Basename -> perl
+# r: File::Spec::Functions -> File-Spec
+RDEPEND="
+	>=app-editors/padre-0.570.0
+	dev-perl/Text-Autoformat
+	virtual/perl-File-Spec
+"
+# t: Test::More -> Test-Simple
+DEPEND="
+	${RDEPEND}
+	>=dev-perl/Module-Build-0.360.100
+	test? (
+		>=dev-perl/Locale-Msgfmt-0.150.0
+		virtual/perl-Test-Simple
+	)
+"
 src_test() {
 	VIRTUALX_COMMAND="perl-module_src_test" virtualmake
 }
