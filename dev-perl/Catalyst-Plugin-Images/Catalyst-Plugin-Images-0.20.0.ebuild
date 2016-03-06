@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.0
-	dev-perl/ImageSize
+	dev-perl/Image-Size
 	dev-perl/Path-Class
 	dev-perl/HTML-Parser
 	dev-perl/MRO-Compat

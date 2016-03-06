@@ -22,6 +22,6 @@ RDEPEND="
 	virtual/perl-podlators
 	virtual/perl-Pod-Parser
 	dev-perl/File-Type
-	dev-perl/ImageSize
+	dev-perl/Image-Size
 "
 DEPEND="${RDEPEND}"
