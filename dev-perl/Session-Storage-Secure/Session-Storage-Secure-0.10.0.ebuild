@@ -19,7 +19,7 @@ perl_meta_runtime() {
 	# Carp
 	echo virtual/perl-Carp
 	# Crypt::CBC
-	echo dev-perl/crypt-cbc
+	echo dev-perl/Crypt-CBC
 	# Crypt::Rijndael
 	echo dev-perl/Crypt-Rijndael
 	# Crypt::URandom

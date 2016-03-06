@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-perl/namespace-clean-0.80.0
 	virtual/perl-MIME-Base64
 	dev-perl/URI
-	dev-perl/crypt-cbc
+	dev-perl/Crypt-CBC
 	dev-perl/Crypt-Rijndael
 	virtual/perl-Digest-SHA
 	!minimal? (

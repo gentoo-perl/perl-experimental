@@ -60,7 +60,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-View-Email-0.140.0
 	dev-perl/Config-General
 	dev-perl/Config-JFDI
-	>=dev-perl/crypt-cbc-2.120.0
+	>=dev-perl/Crypt-CBC-2.120.0
 	>=dev-perl/Data-Page-2.0.0
 	>=dev-perl/DateTime-0.280.0
 	dev-perl/DateTime-Format-Mail

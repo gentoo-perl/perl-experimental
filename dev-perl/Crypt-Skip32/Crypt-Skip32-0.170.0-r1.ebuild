@@ -20,7 +20,7 @@ RDEPEND="
 		$(comment Crypt::Skip32::XS)
 		dev-perl/Crypt-Skip32-XS
 		$(comment Crypt::CBC 2.22)
-		>=dev-perl/crypt-cbc-2.22
+		>=dev-perl/Crypt-CBC-2.22
 	)
 "
 DEPEND="
