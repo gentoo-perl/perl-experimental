@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd>perl</herd>
-	<maintainer>
+	<maintainer type="project">
+		<email>perl@gentoo.org</email>
+		<name>Gentoo Perl Project</name>
+	</maintainer>
+	<maintainer type="person">
 		<email>dwc@pobox.com</email>
 		<name>Daniel Westermann-Clark</name>
 	</maintainer>
-	<maintainer>
+	<maintainer type="person">
 		<email>kentfredric@gmail.com</email>
 		<name>Kent Fredric</name>
 	</maintainer>
