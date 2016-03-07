@@ -10,7 +10,7 @@
 		<name>Pavel Denisov</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="cpan">HTTP-Headers-Fast</remote-id>
-		<remote-id type="cpan-module">HTTP::Headers::Fast</remote-id>
+		<remote-id type="cpan">Data-Munge</remote-id>
+		<remote-id type="cpan-module">Data::Munge</remote-id>
 	</upstream>
 </pkgmetadata>
