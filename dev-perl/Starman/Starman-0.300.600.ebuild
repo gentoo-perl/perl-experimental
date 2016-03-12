@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -33,7 +33,7 @@ perl_meta_runtime() {
 	# HTTP::Status
 	echo dev-perl/HTTP-Message
 	# Net::Server 0.91 ( 0.910.0 )
-	echo \>=dev-perl/net-server-0.91
+	echo \>=dev-perl/Net-Server-0.91
 	# Plack 0.9971 ( 0.997.100 )
 	echo \>=dev-perl/Plack-0.997.100
 	# Test::TCP 1.11 ( 1.110.0 )
