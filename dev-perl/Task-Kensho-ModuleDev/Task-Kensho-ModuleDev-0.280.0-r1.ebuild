@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -16,7 +16,7 @@ COMMON_DEPEND="
 	dzil? ( dev-perl/Dist-Zilla )
 	moduleinstall? ( dev-perl/Module-Install )
 	nytprof? ( dev-perl/Devel-NYTProf )
-	perltidy? ( dev-perl/perltidy )
+	perltidy? ( dev-perl/Perl-Tidy )
 	perlcritic? ( dev-perl/Perl-Critic )
 	carpalways? ( dev-perl/Carp-Always )
 	modernperl? ( dev-perl/Modern-Perl )
