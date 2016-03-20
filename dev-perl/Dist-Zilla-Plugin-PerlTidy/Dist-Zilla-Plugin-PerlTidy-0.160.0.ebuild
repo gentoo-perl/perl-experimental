@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -23,7 +23,7 @@ perl_meta_runtime() {
 	# Path::Iterator::Rule
 	echo dev-perl/Path-Iterator-Rule
 	# Perl::Tidy
-	echo dev-perl/perltidy
+	echo dev-perl/Perl-Tidy
 }
 perl_meta_test() {
 	# File::Spec
