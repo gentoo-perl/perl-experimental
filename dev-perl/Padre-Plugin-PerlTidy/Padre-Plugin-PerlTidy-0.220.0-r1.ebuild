@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -15,7 +15,7 @@ IUSE="test"
 RDEPEND="
 	>=app-editors/padre-0.920.0
 	>=dev-perl/Params-Util-1.40.0
-	>=dev-perl/perltidy-20101217.0.0
+	>=dev-perl/Perl-Tidy-20101217.0.0
 	>=dev-lang/perl-5.8.2
 "
 DEPEND="
