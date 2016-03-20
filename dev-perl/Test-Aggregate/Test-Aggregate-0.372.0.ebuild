@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -23,7 +23,7 @@ DEPEND="${RDEPEND}
 	>=dev-perl/Module-Build-0.420.0
 	test? (
 		>=dev-perl/Data-Dump-Streamer-1.110.0
-		>=dev-perl/perltidy-20060614.0.0
+		>=dev-perl/Perl-Tidy-20060614.0.0
 		>=virtual/perl-Test-Simple-0.940.0
 	)
 "
