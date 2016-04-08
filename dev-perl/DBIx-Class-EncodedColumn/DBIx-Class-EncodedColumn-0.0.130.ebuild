@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -20,7 +20,7 @@ RDEPEND="
 		virtual/perl-Digest-SHA
 		virtual/perl-Digest-MD5
 		dev-perl/Crypt-OpenPGP
-		dev-perl/math-pari
+		dev-perl/Math-Pari
 		dev-perl/Crypt-Eksblowfish
 	)
 "
