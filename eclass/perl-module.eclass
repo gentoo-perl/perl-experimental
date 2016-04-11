@@ -284,8 +284,6 @@ perl-module_src_compile() {
 	debug-print-function $FUNCNAME "$@"
 	perl_set_version
 
-	has src_configure ${PERL_EXPF} || perl-module_src_configure
-
 	if [[ $(declare -p mymake 2>&-) != "declare -a mymake="* ]]; then
 		local mymake_local=(${mymake})
 	else
