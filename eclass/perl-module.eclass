@@ -17,15 +17,17 @@
 # ExtUtils::MakeMaker or Module::Build), we recommend to use perl-functions.eclass
 # instead.
 
-inherit eutils multiprocessing unpacker perl-functions
-[[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
-
-PERL_EXPF="src_unpack src_compile src_test src_install src_prepare src_configure"
-[[ ${CATEGORY} == "perl-core" ]] && PERL_EXPF+=" pkg_postinst pkg_postrm"
-
-case "${EAPI:-0}" in
-	5)	;;
-	*)	die "EAPI=${EAPI} is not supported by perl-module.eclass"
+case ${EAPI:-0} in
+	5)
+		inherit eutils multiprocessing unpacker perl-functions
+		PERL_EXPF="src_unpack src_prepare src_configure src_compile src_test src_install"
+		;;
+	6)
+		inherit multiprocessing perl-functions
+		PERL_EXPF="src_prepare src_configure src_compile src_test src_install"
+		;;
+	*)
+		die "EAPI=${EAPI} is not supported by perl-module.eclass"
 		;;
 esac
 
