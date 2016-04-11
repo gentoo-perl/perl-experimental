@@ -686,3 +686,57 @@ perl_domodule() {
 	insinto "/${target#/}"
 	doins "${doins_opts[@]}" "${files[@]}"
 }
+
+# @FUNCTION: perl_check_eapi
+# @DESCRIPTION:
+# Checks a blacklist of known-suspect eclass variables which can be accidentally set
+# by maintainers, or may be accidentally left residual after an EAPI change.
+#
+# Dies if any of the suspect fields are found, and tell the user that the ebuild in question
+# is broken and needs a fix.
+#
+# There's a workaround, but you'll have to read the code for it.
+perl_check_eapi() {
+	local errored value;
+	local suspect_vars=();
+
+	# Secret sauce to inhibit this check
+	[[ -n "${_EAPI_PERL_MODULE_PERMISSIVE}" ]] && return;
+
+	if [[ ${EAPI:-0} == 5 ]]; then
+		suspect_vars=( DIST_TEST DIST_VERSION DIST_NAME DIST_AUTHOR DIST_A_EXT DIST_A DIST_SECTION DIST_EXAMPLES );
+	else
+		suspect_vars=( MY_PN MY_PV MODULE_VERSION MY_P MODULE_A MODULE_A_EXT MODULE_AUTHOR MODULE_NAME SRC_TEST MODULE_SECTION );
+	fi
+	for i in "${suspect_vars[@]}"; do
+		[[ -v $i ]] || continue;
+
+		# Add heading once and only once
+		if [[ ${errored:-0} == 0 ]]; then
+			if [[ -n "${I_KNOW_WHAT_I_AM_DOING}" ]]; then
+				elog "perl-module.eclass: Suspicious EAPI${EAPI:-0} eclass variables found.";
+			else
+				eerror "perl-module.eclass: Suspicious EAPI${EAPI:-0} eclass variables found.";
+			fi
+		fi
+
+		errored=1
+		# Print ENV name/value pair
+		if [[ -n "${I_KNOW_WHAT_I_AM_DOING}" ]]; then
+			elog "    ${i}=\"${!i}\"";
+		else
+			eerror "    ${i}=\"${!i}\"";
+		fi
+	done
+	# Return if there were no failures
+	[[ ${errored:-0} == 0 ]] && return;
+
+	# Return if user knows what they're doing
+	if [[ -n "${I_KNOW_WHAT_I_AM_DOING}" ]]; then
+		elog "Continuing anyway, seems you know what you're doing."
+		return
+	fi
+
+	eerror "Your ebuild/env contains eclass variables that are known invalid/legacy and indicate author oversight."
+	die "Please file a bug for this ebuild as per above details."
+}
