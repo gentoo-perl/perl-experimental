@@ -158,9 +158,8 @@ perl_delete_packlist() {
 	debug-print-function $FUNCNAME "$@"
 	perl_set_version
 	if [[ -d ${D}/${VENDOR_ARCH} ]] ; then
-		find "${D}/${VENDOR_ARCH}" -type f -a \( -name .packlist \
-			-o \( -name '*.bs' -a -empty \) \) -delete
-		find "${D}" -depth -mindepth 1 -type d -empty -delete
+		find "${D}/${VENDOR_ARCH}" -type f -a -name .packlist -delete
+		perl_delete_emptybsdir
 	fi
 }
 
