@@ -15,6 +15,7 @@
 # It provides helper functions, no phases or variable manipulation in
 # global scope.
 
+[[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
 
 case "${EAPI:-0}" in
 	5)	;;
