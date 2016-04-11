@@ -181,7 +181,6 @@ perl-module_src_unpack() {
 	debug-print-function $FUNCNAME "$@"
 	[[ ${EAPI:-0} == 5 ]] || die "perl-module_src_unpack is banned in EAPI=6 or later"
 	unpacker_src_unpack
-	has src_prepare ${PERL_EXPF} || perl-module_src_prepare
 }
 
 # @FUNCTION: perl-module_src_prepare
