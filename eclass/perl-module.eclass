@@ -251,7 +251,7 @@ perl-module_src_configure() {
 			--installdirs=vendor \
 			--libdoc= \
 			--destdir="${D}" \
-			--create_packlist=0 \
+			--create_packlist=1 \
 			"${myconf_local[@]}"
 		einfo "perl Build.PL" "$@"
 		perl Build.PL "$@" <<< "${pm_echovar}" \
