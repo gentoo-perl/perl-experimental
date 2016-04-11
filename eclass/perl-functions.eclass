@@ -162,6 +162,20 @@ perl_delete_packlist() {
 	fi
 }
 
+# @FUNCTION: perl_delete_emptybsdir
+# @DESCRIPTION:
+# Look through ${D} for empty .bs files and empty directories,
+# and get rid of items found.
+perl_delete_emptybsdir() {
+	debug-print-function $FUNCNAME "$@"
+	perl_set_version
+	if [[ -d ${D}/${VENDOR_ARCH} ]] ; then
+		find "${D}/${VENDOR_ARCH}" -type f \
+			-a -name '*.bs' -a -empty -delete
+		find "${D}" -depth -mindepth 1 -type d -empty -delete
+	fi
+}
+
 # @FUNCTION: perl_fix_packlist
 # @DESCRIPTION:
 # Look through ${D} for .packlist text files containing the temporary installation
