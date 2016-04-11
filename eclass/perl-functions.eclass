@@ -4,11 +4,17 @@
 # @ECLASS: perl-functions.eclass
 # @MAINTAINER:
 # perl@gentoo.org
+# @AUTHOR:
 # Seemant Kulleen <seemant@gentoo.org>
-# @BLURB: perl utility functions
+# Andreas K. Huettel <dilfridge@gentoo.org>
+# Kent Fredric <kentnl@gentoo.org>
+# @BLURB: helper functions eclass for perl modules
 # @DESCRIPTION:
-# The perl-functions eclass is a collection of perl-specific utilities
-# that may be useful in non-CPAN based ebuilds.
+# The perl-functions eclass is designed to allow easier installation of perl
+# modules, and their incorporation into the Gentoo Linux system.
+# It provides helper functions, no phases or variable manipulation in
+# global scope.
+
 
 case "${EAPI:-0}" in
 	5)	;;
@@ -61,7 +67,6 @@ perl_check_module_version() {
 }
 
 # @FUNCTION: perl_set_version
-# @USAGE: perl_set_version
 # @DESCRIPTION:
 # Extract version information and installation paths from the current Perl
 # interpreter.
@@ -70,6 +75,12 @@ perl_check_module_version() {
 # ARCH_LIB, VENDOR_LIB, VENDOR_ARCH
 #
 # This function used to be called perlinfo as well.
+#
+# Example:
+# @CODE
+# perl_set_version
+# echo $PERL_VERSION
+# @CODE
 perl_set_version() {
 	debug-print-function $FUNCNAME "$@"
 	debug-print "$FUNCNAME: perlinfo_done=${perlinfo_done}"
@@ -89,7 +100,6 @@ perl_set_version() {
 }
 
 # @FUNCTION: perl_delete_localpod
-# @USAGE: perl_delete_localpod
 # @DESCRIPTION:
 # Remove stray perllocal.pod files in the temporary install directory D.
 #
@@ -102,7 +112,6 @@ perl_delete_localpod() {
 }
 
 # @FUNCTION: perl_fix_osx_extra
-# @USAGE: perl_fix_osx_extra
 # @DESCRIPTION:
 # Look through ${S} for AppleDouble encoded files and get rid of them.
 perl_fix_osx_extra() {
@@ -123,7 +132,6 @@ perl_fix_osx_extra() {
 }
 
 # @FUNCTION: perl_delete_module_manpages
-# @USAGE: perl_delete_module_manpages
 # @DESCRIPTION:
 # Bump off manpages installed by the current module such as *.3pm files as well
 # as empty directories.
@@ -138,7 +146,6 @@ perl_delete_module_manpages() {
 }
 
 # @FUNCTION: perl_delete_packlist
-# @USAGE: perl_delete_packlist
 # @DESCRIPTION:
 # Look through ${D} for .packlist files, empty .bs files and empty directories,
 # and get rid of items found.
@@ -153,10 +160,9 @@ perl_delete_packlist() {
 }
 
 # @FUNCTION: perl_remove_temppath
-# @USAGE: perl_remove_temppath
 # @DESCRIPTION:
 # Look through ${D} for text files containing the temporary installation
-# folder (i.e. ${D}). If the pattern is found (i.e. " text"), replace it with `/'.
+# folder (i.e. ${D}). If the pattern is found, replace it with `/' and warn.
 perl_remove_temppath() {
 	debug-print-function $FUNCNAME "$@"
 
@@ -169,7 +175,7 @@ perl_remove_temppath() {
 }
 
 # @FUNCTION: perl_rm_files
-# @USAGE: perl_rm_files "file_1" "file_2"
+# @USAGE: <list of files>
 # @DESCRIPTION:
 # Remove certain files from a Perl release and remove them from the MANIFEST
 # while we're there.
@@ -182,6 +188,14 @@ perl_remove_temppath() {
 #
 # Removing from MANIFEST also avoids needless log messages warning
 # users about files "missing from their kit".
+#
+# Example:
+# @CODE
+# src_test() {
+#   perl_rm_files t/pod{,-coverage}.t
+#   perl-module_src_test
+# }
+# @CODE
 perl_rm_files() {
 	debug-print-function $FUNCNAME "$@"
 	local skipfile="${T}/.gentoo_makefile_skip"
@@ -205,7 +219,6 @@ perl_rm_files() {
 }
 
 # @FUNCTION: perl_link_duallife_scripts
-# @USAGE: perl_link_duallife_scripts
 # @DESCRIPTION:
 # Moves files and generates symlinks so dual-life packages installing scripts do not
 # lead to file collisions. Mainly for use in pkg_postinst and pkg_postrm, and makes
@@ -292,7 +305,6 @@ perl_qafatal() {
 }
 
 # @FUNCTION: perl_check_env
-# @USAGE: perl_check_env
 # @DESCRIPTION:
 # Checks a blacklist of known-suspect ENV values that can be accidentally set by users
 # doing personal perl work, which may accidentally leak into portage and break the
