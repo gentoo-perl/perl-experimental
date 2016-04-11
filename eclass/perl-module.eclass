@@ -6,10 +6,16 @@
 # perl@gentoo.org
 # @AUTHOR:
 # Seemant Kulleen <seemant@gentoo.org>
-# @BLURB: eclass for perl modules
+# Andreas K. Hüttel <dilfridge@gentoo.org>
+# @BLURB: eclass for installing Perl module distributions
 # @DESCRIPTION:
-# The perl-module eclass is designed to allow easier installation of perl
-# modules, and their incorporation into the Gentoo Linux system.
+# The perl-module eclass is designed to allow easier installation of Perl
+# module distributions, and their incorporation into the Gentoo Linux system.
+# All exported functions from perl-functions.eclass (inherited here)
+# explicitly also belong to the interface of perl-module.eclass.
+# If your package does not use any Perl-specific build system (as, e.g.,
+# ExtUtils::MakeMaker or Module::Build), we recommend to use perl-functions.eclass
+# instead.
 
 inherit eutils multiprocessing unpacker perl-functions
 [[ ${CATEGORY} == "perl-core" ]] && inherit alternatives
@@ -22,6 +28,15 @@ case "${EAPI:-0}" in
 	*)	die "EAPI=${EAPI} is not supported by perl-module.eclass"
 		;;
 esac
+
+# @ECLASS-VARIABLE: GENTOO_DEPEND_ON_PERL
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# This variable controls whether a runtime and build time dependency on
+# dev-lang/perl is automatically added by the eclass. It defaults to yes.
+# Set to no to disable, set to noslotop to add a perl dependency without
+# slot operator (EAPI=6). All packages installing into the vendor_perl
+# path must use yes here.
 
 case "${GENTOO_DEPEND_ON_PERL:-yes}" in
 yes)
@@ -78,7 +93,6 @@ pm_echovar=""
 perlinfo_done=false
 
 # @FUNCTION: perl-module_src_unpack
-# @USAGE: perl-module_src_unpack
 # @DESCRIPTION:
 # Unpack the ebuild tarball(s).
 # This function is to be called during the ebuild src_unpack() phase.
@@ -90,7 +104,6 @@ perl-module_src_unpack() {
 }
 
 # @FUNCTION: perl-module_src_prepare
-# @USAGE: perl-module_src_prepare
 # @DESCRIPTION:
 # Get the ebuild sources ready.
 # This function is to be called during the ebuild src_prepare() phase.
@@ -109,7 +122,6 @@ perl-module_src_prepare() {
 }
 
 # @FUNCTION: perl-module_src_configure
-# @USAGE: perl-module_src_configure
 # @DESCRIPTION:
 # Configure the ebuild sources.
 # This function is to be called during the ebuild src_configure() phase.
@@ -181,7 +193,6 @@ perl-module_src_configure() {
 }
 
 # @FUNCTION: perl-module_src_compile
-# @USAGE: perl-module_src_compile
 # @DESCRIPTION:
 # Compile the ebuild sources.
 # This function is to be called during the ebuild src_compile() phase.
@@ -288,7 +299,6 @@ perl-module_src_test() {
 }
 
 # @FUNCTION: perl-module_src_install
-# @USAGE: perl-module_src_install
 # @DESCRIPTION:
 # Install a Perl ebuild.
 # This function is to be called during the ebuild src_install() phase.
@@ -332,7 +342,6 @@ perl-module_src_install() {
 }
 
 # @FUNCTION: perl-module_pkg_postinst
-# @USAGE: perl-module_pkg_postinst
 # @DESCRIPTION:
 # This function is to be called during the pkg_postinst() phase. It only does
 # useful things for the perl-core category, where it handles the file renaming and symbolic
@@ -350,7 +359,6 @@ perl-module_pkg_postinst() {
 }
 
 # @FUNCTION: perl-module_pkg_postrm
-# @USAGE: perl-module_pkg_postrm
 # @DESCRIPTION:
 # This function is to be called during the pkg_postrm() phase. It only does
 # useful things for the perl-core category, where it handles the file renaming and symbolic
