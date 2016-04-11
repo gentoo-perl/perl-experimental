@@ -40,52 +40,133 @@ esac
 # slot operator (EAPI=6). All packages installing into the vendor_perl
 # path must use yes here.
 
-case "${GENTOO_DEPEND_ON_PERL:-yes}" in
-yes)
-	case "${GENTOO_DEPEND_ON_PERL_SUBSLOT:-yes}" in
-	yes)
-		DEPEND="dev-lang/perl:=[-build(-)]"
-		;;
-	*)
-		DEPEND="dev-lang/perl[-build(-)]"
-		;;
-	esac
-	RDEPEND="${DEPEND}"
-	;;
-esac
+case ${EAPI:-0} in
+	5)
+		[[ ${CATEGORY} == perl-core ]] && \
+			PERL_EXPF+=" pkg_postinst pkg_postrm"
 
-if [[ -z "${MODULE_VERSION}" && -n "${MODULE_VERSION_SCHEME}" ]]; then
-	inherit perl-version
-	MODULE_VERSION=$( perl-version-denormalize ${MY_PV:-${PV}} $MODULE_VERSION_SCHEME  )
-fi
+		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
+		yes)
+			case "${GENTOO_DEPEND_ON_PERL_SUBSLOT:-yes}" in
+			yes)
+				DEPEND="dev-lang/perl:=[-build(-)]"
+				;;
+			*)
+				DEPEND="dev-lang/perl[-build(-)]"
+				;;
+			esac
+			RDEPEND="${DEPEND}"
+			;;
+		esac
 
-case "${PERL_EXPORT_PHASE_FUNCTIONS:-yes}" in
-	yes)
+		case "${PERL_EXPORT_PHASE_FUNCTIONS:-yes}" in
+			yes)
+				EXPORT_FUNCTIONS ${PERL_EXPF}
+				;;
+			no)
+				debug-print "PERL_EXPORT_PHASE_FUNCTIONS=no"
+				;;
+			*)
+				die "PERL_EXPORT_PHASE_FUNCTIONS=${PERL_EXPORT_PHASE_FUNCTIONS} is not supported by perl-module.eclass"
+				;;
+		esac
+		;;
+	6)
+		[[ ${CATEGORY} == perl-core ]] && \
+			PERL_EXPF+=" pkg_postinst pkg_postrm"
+
+		case "${GENTOO_DEPEND_ON_PERL:-yes}" in
+			yes)
+				DEPEND="dev-lang/perl:="
+				RDEPEND="dev-lang/perl:="
+				;;
+			noslotop)
+				DEPEND="dev-lang/perl"
+				RDEPEND="dev-lang/perl"
+				;;
+		esac
+
+		if [[ "${GENTOO_DEPEND_ON_PERL_SUBSLOT:-yes}" != "yes" ]]; then
+			eerror "GENTOO_DEPEND_ON_PERL_SUBSLOT=no is banned in EAPI=6. If you don't want a slot operator"
+			die    "set GENTOO_DEPEND_ON_PERL=noslotop instead."
+		fi
+
+		if [[ "${PERL_EXPORT_PHASE_FUNCTIONS}" ]]; then
+			eerror "PERL_EXPORT_PHASE_FUNCTIONS is banned in EAPI=6. Use perl-module.eclass if you need"
+			die    "phase functions, perl-functions.eclass if not."
+		fi
+
 		EXPORT_FUNCTIONS ${PERL_EXPF}
 		;;
-	no)
-		debug-print "PERL_EXPORT_PHASE_FUNCTIONS=no"
-		;;
 	*)
-		die "PERL_EXPORT_PHASE_FUNCTIONS=${PERL_EXPORT_PHASE_FUNCTIONS} is not supported by perl-module.eclass"
+		die "EAPI=${EAPI:-0} is not supported by perl-module.eclass"
 		;;
 esac
 
 LICENSE="${LICENSE:-|| ( Artistic GPL-1+ )}"
 
-if [[ -n ${MY_PN} || -n ${MY_PV} || -n ${MODULE_VERSION} ]] ; then
-	: ${MY_P:=${MY_PN:-${PN}}-${MY_PV:-${MODULE_VERSION:-${PV}}}}
-	S=${MY_S:-${WORKDIR}/${MY_P}}
+# @ECLASS-VARIABLE: DIST_NAME
+# @DESCRIPTION:
+# (EAPI=6) This variable provides a way to override PN for the calculation of S,
+# SRC_URI, and HOMEPAGE. Defaults to PN.
+
+# @ECLASS-VARIABLE: DIST_VERSION
+# @DESCRIPTION:
+# (EAPI=6) This variable provides a way to override PV for the calculation of S and SRC_URI.
+# Use it to provide the non-normalized, upstream version number. Defaults to PV.
+# Named MODULE_VERSION in EAPI=5.
+
+# @ECLASS-VARIABLE: DIST_A_EXT
+# @DESCRIPTION:
+# (EAPI=6) This variable provides a way to override the distfile extension for the calculation of
+# SRC_URI. Defaults to tar.gz. Named MODULE_A_EXT in EAPI=5.
+
+# @ECLASS-VARIABLE: DIST_A
+# @DESCRIPTION:
+# (EAPI=6) This variable provides a way to override the distfile name for the calculation of
+# SRC_URI. Defaults to ${DIST_NAME}-${DIST_VERSION}.${DIST_A_EXT} Named MODULE_A in EAPI=5.
+
+# @ECLASS-VARIABLE: DIST_AUTHOR
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# (EAPI=6) This variable sets the module author name for the calculation of
+# SRC_URI. Named MODULE_AUTHOR in EAPI=5.
+
+# @ECLASS-VARIABLE: DIST_SECTION
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# (EAPI=6) This variable sets the module section for the calculation of
+# SRC_URI. Only required in rare cases for very special snowflakes.
+# Named MODULE_SECTION in EAPI=5.
+
+if [[ ${EAPI:-0} == 5 ]]; then
+	if [[ -n ${MY_PN} || -n ${MY_PV} || -n ${MODULE_VERSION} ]] ; then
+		: ${MY_P:=${MY_PN:-${PN}}-${MY_PV:-${MODULE_VERSION:-${PV}}}}
+		S=${MY_S:-${WORKDIR}/${MY_P}}
+	fi
+	MODULE_NAME=${MY_PN:-${PN}}
+	MODULE_P=${MY_P:-${P}}
+
+	[[ -z "${SRC_URI}" && -z "${MODULE_A}" ]] && \
+		MODULE_A="${MODULE_P}.${MODULE_A_EXT:-tar.gz}"
+	[[ -z "${SRC_URI}" && -n "${MODULE_AUTHOR}" ]] && \
+		SRC_URI="mirror://cpan/authors/id/${MODULE_AUTHOR:0:1}/${MODULE_AUTHOR:0:2}/${MODULE_AUTHOR}/${MODULE_SECTION:+${MODULE_SECTION}/}${MODULE_A}"
+	[[ -z "${HOMEPAGE}" ]] && \
+		HOMEPAGE="http://search.cpan.org/dist/${MODULE_NAME}/"
+
+	SRC_TEST="skip"
+else
+	DIST_NAME=${DIST_NAME:-${PN}}
+	DIST_P=${DIST_NAME}-${DIST_VERSION:-${PV}}
+	S=${WORKDIR}/${DIST_P}
+
+	[[ -z "${SRC_URI}" && -z "${DIST_A}" ]] && \
+		DIST_A="${DIST_P}.${DIST_A_EXT:-tar.gz}"
+	[[ -z "${SRC_URI}" && -n "${DIST_AUTHOR}" ]] && \
+		SRC_URI="mirror://cpan/authors/id/${DIST_AUTHOR:0:1}/${DIST_AUTHOR:0:2}/${DIST_AUTHOR}/${DIST_SECTION:+${DIST_SECTION}/}${DIST_A}"
+	[[ -z "${HOMEPAGE}" ]] && \
+		HOMEPAGE="http://search.cpan.org/dist/${DIST_NAME}/"
 fi
-
-[[ -n ${MODULE_DZIL_TRIAL} ]] && S="${S%-TRIAL}"
-
-[[ -z "${SRC_URI}" && -z "${MODULE_A}" ]] && \
-	MODULE_A="${MY_P:-${P}}.${MODULE_A_EXT:-tar.gz}"
-[[ -z "${SRC_URI}" && -n "${MODULE_AUTHOR}" ]] && \
-	SRC_URI="mirror://cpan/authors/id/${MODULE_AUTHOR:0:1}/${MODULE_AUTHOR:0:2}/${MODULE_AUTHOR}/${MODULE_SECTION:+${MODULE_SECTION}/}${MODULE_A}"
-[[ -z "${HOMEPAGE}" ]] && \
-	HOMEPAGE="http://search.cpan.org/dist/${MY_PN:-${PN}}/"
 
 SRC_PREP="no"
 SRC_TEST="skip"
