@@ -413,7 +413,12 @@ perl-module_src_install() {
 
 	perl_delete_module_manpages
 	perl_delete_localpod
-	perl_delete_packlist
+	if [[ ${EAPI:-0} == 5 ]] ; then
+		perl_delete_packlist
+	else
+		perl_fix_packlist
+		perl_delete_emptybsdir
+	fi
 	perl_remove_temppath
 
 	for f in Change* CHANGES README* TODO FAQ ${mydoc}; do
