@@ -203,7 +203,6 @@ perl-module_src_prepare() {
 		perl_rm_files "${PERL_RM_FILES[@]}"
 	fi
 	perl_fix_osx_extra
-	esvn_clean
 }
 
 # @FUNCTION: perl-module_src_configure
