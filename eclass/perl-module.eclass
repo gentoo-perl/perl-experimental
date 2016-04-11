@@ -169,11 +169,9 @@ else
 fi
 
 SRC_PREP="no"
-SRC_TEST="skip"
 PREFER_BUILDPL="yes"
 
 pm_echovar=""
-perlinfo_done=false
 
 # @FUNCTION: perl-module_src_unpack
 # @DESCRIPTION:
