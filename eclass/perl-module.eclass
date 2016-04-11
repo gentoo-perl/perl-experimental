@@ -452,10 +452,8 @@ perl-module_pkg_postinst() {
 perl-module_pkg_postrm() {
 	debug-print-function $FUNCNAME "$@"
 	if [[ ${CATEGORY} != perl-core ]] ; then
-		eqawarn "perl-module.eclass: You are calling perl-module_pkg_postrm outside the perl-core category."
-		eqawarn "   This does not do anything; the call can be safely removed."
-		perl_qafatal "function" "$FUNCNAME is private to perl-core"
-		return 0
+		eerror "perl-module.eclass: You are calling perl-module_pkg_postrm outside the perl-core category."
+		die    "   This does not do anything; the call can be removed."
 	fi
 	perl_link_duallife_scripts
 }
