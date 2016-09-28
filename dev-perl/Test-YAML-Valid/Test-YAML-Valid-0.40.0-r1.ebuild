@@ -18,7 +18,7 @@ PERL_RM_FILES=(
 	t/pod.t
 )
 RDEPEND="
-	>=dev-perl/yaml-0.600.0
+	>=dev-perl/YAML-0.600.0
 	virtual/perl-Test-Simple
 	virtual/perl-Exporter
 	yaml-syck? ( >=dev-perl/YAML-Syck-0.600.0 )

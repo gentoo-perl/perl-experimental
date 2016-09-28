@@ -30,7 +30,7 @@ RDEPEND="
 	virtual/perl-libnet
 	dev-perl/TermReadKey
 	dev-perl/Term-ReadLine-Perl
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Parse-CPAN-Meta
 	dev-perl/Text-Glob
 	virtual/perl-CPAN

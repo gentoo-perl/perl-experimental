@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/DateTime-Event-Cron
 	dev-perl/set-scalar
 	virtual/perl-Storable
-	dev-perl/yaml
+	dev-perl/YAML
 	dev-perl/MRO-Compat
 "
 DEPEND="${DEPEND}"

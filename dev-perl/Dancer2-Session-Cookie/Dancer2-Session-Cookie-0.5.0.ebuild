@@ -51,7 +51,7 @@ perl_meta_test() {
 	# Test::TCP 1.30 ( 1.300.0 )
 	echo \>=dev-perl/Test-TCP-1.300.0
 	# YAML
-	echo dev-perl/yaml
+	echo dev-perl/YAML
 }
 DEPEND="
 	$(perl_meta_configure)

@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Blessed-Reconstruct-0.30.0
 	>=dev-perl/Sub-Exporter-0.982.0
 	dev-perl/namespace-clean
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 perl_mi_requires() {
 	# YAML
-	echo dev-perl/yaml
+	echo dev-perl/YAML
 }
 DEPEND="$(perl_mi_requires)"
 RDEPEND="$(perl_mi_requires)"

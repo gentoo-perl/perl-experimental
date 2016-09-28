@@ -35,7 +35,7 @@ perl_meta_runtime() {
 	# URI
 	echo dev-perl/URI
 	# YAML
-	echo dev-perl/yaml
+	echo dev-perl/YAML
 }
 DEPEND="
 	$(perl_meta_configure)

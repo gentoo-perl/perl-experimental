@@ -37,7 +37,7 @@ perl_meta_runtime() {
 	# Test::More 0.88 ( 0.880.0 )
 	echo \>=virtual/perl-Test-Simple-0.88
 	# YAML 0.6 ( 0.600.0 )
-	echo \>=dev-perl/yaml-0.600.0
+	echo \>=dev-perl/YAML-0.600.0
 }
 DEPEND="
 	$(perl_meta_configure)

@@ -22,7 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590.0
 	test? (
-		dev-perl/yaml
+		dev-perl/YAML
 		virtual/perl-Test-Simple
 	)
 "
