@@ -19,7 +19,7 @@ RDEPEND="
 	virtual/perl-IO
 	virtual/perl-Module-Load
 	dev-perl/Sub-Install
-	dev-perl/text-template
+	dev-perl/Text-Template
 	virtual/perl-parent
 "
 DEPEND="
