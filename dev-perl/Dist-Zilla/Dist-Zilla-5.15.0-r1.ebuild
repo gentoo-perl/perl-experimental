@@ -171,7 +171,7 @@ perl_meta_runtime() {
 	# Text::Glob 0.08 ( 0.80.0 )
 	echo \>=dev-perl/Text-Glob-0.80.0
 	# Text::Template
-	echo dev-perl/text-template
+	echo dev-perl/Text-Template
 	# Try::Tiny
 	echo dev-perl/Try-Tiny
 	# YAML::Tiny
