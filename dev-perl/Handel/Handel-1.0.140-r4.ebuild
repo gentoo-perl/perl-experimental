@@ -81,7 +81,7 @@ perl_meta_runtime() {
 	# Tie::Hash 1.03 ( 1.30.0 )
 	echo \>=dev-lang/perl-5.8.9
 	# YAML 0.71 ( 0.710.0 )
-	echo \>=dev-perl/yaml-0.710.0
+	echo \>=dev-perl/YAML-0.710.0
 	# perl v5.8.1 ( 5.8.1 )
 	echo \>=dev-lang/perl-5.8.1
 }

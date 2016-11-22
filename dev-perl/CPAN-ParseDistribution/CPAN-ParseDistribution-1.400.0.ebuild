@@ -31,7 +31,7 @@ perl_meta_runtime() {
 	# File::Temp
 	echo virtual/perl-File-Temp
 	# YAML 0.6 ( 0.600.0 )
-	echo \>=dev-perl/yaml-0.600.0
+	echo \>=dev-perl/YAML-0.600.0
 }
 DEPEND="
 	$(perl_meta_configure)

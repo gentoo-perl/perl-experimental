@@ -28,7 +28,7 @@ RDEPEND="
 		>=dev-perl/YAML-Syck-0.400.0
 	)
 	|| (
-		dev-perl/yaml
+		dev-perl/YAML
 		dev-perl/YAML-Syck
 	)"
 DEPEND="${RDEPEND}

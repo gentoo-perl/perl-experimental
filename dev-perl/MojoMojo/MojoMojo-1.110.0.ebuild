@@ -98,7 +98,7 @@ RDEPEND="
 	dev-perl/Text-Textile
 	>=dev-perl/URI-1.370.0
 	dev-perl/URI-Find
-	>=dev-perl/yaml-0.360.0
+	>=dev-perl/YAML-0.360.0
 	dev-perl/Term-Prompt
 	dev-perl/Text-Emoticon-MSN
 

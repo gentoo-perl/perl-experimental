@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/URI
 	>=dev-perl/XML-Simple-2.0.0
 	dev-perl/libwww-perl
-	>=dev-perl/yaml-0.350.0
+	>=dev-perl/YAML-0.350.0
 "
 DEPEND="
 	${RDEPEND}

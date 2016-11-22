@@ -32,6 +32,6 @@ DEPEND="
 		virtual/perl-File-Spec
 		>=virtual/perl-Test-Simple-0.880.0
 		dev-perl/Test-Output
-		dev-perl/yaml
+		dev-perl/YAML
 	)
 "

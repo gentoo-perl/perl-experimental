@@ -47,7 +47,7 @@ perl_meta_runtime() {
 	# UNIVERSAL::require 0.1 ( 0.100.0 )
 	echo \>=dev-perl/UNIVERSAL-require-0.100.0
 	# YAML 0.39 ( 0.390.0 )
-	echo \>=dev-perl/yaml-0.390.0
+	echo \>=dev-perl/YAML-0.390.0
 }
 DEPEND="
 	$(perl_meta_configure)
