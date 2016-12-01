@@ -404,3 +404,32 @@ perl_check_env() {
 	die "Please fix your environment ( ~/.bashrc, package.env, ... ), see above for details."
 }
 
+# @FUNCTION: perl_doexamples
+# @USAGE: <list of files or globs>
+# @DESCRIPTION:
+# Install example files ready-to-run.
+# Is called under certain circumstances in perl-module.eclass src_install
+# (see the documentation there).
+#
+# Example:
+# @CODE
+# src_install() {
+#   perl-module_src_install
+#   use examples && perl_doexamples "eg/*"
+# }
+# @CODE
+perl_doexamples() {
+	debug-print-function $FUNCNAME "$@"
+
+	einfo "Installing examples into /usr/share/doc/${PF}/examples"
+
+	# no compression since we want ready-to-run scripts
+	docompress -x /usr/share/doc/${PF}/examples
+
+	docinto examples/
+	# Lack of quoting here is important in order to support glob expansion
+	# in DIST_EXAMPLES=( ), which is defined before source extraction occurs
+	dodoc -r $@
+
+	# is there a way to undo "docinto" ?
+}
