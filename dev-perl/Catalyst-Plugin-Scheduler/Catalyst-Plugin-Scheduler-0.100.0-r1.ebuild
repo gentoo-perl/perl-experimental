@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -16,7 +16,7 @@ IUSE=""
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.610.0
 	dev-perl/DateTime-Event-Cron
-	dev-perl/set-scalar
+	dev-perl/Set-Scalar
 	virtual/perl-Storable
 	dev-perl/YAML
 	dev-perl/MRO-Compat
