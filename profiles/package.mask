@@ -1,7 +1,3 @@
-# Kent Fredric <kentfredric@gmail.com> (20 Jun 2015)
-# Deprecated by upstream, built in support in Catalyst since 5.9000
-<=dev-perl/Catalyst-Engine-PSGI-0.130.0-r999
-
 # Kent Fredric <kentfredric@gmail.com> (08 Jun 2015)
 # Catalyst::Controller::ActionRole deprecated by upstream.
 dev-perl/Catalyst-Controller-ActionRole
