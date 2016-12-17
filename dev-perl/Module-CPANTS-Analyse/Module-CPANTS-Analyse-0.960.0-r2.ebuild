@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/Module-ExtractUse-0.330.0
 	>=dev-perl/Module-Pluggable-2.960.0
-	dev-perl/set-scalar
+	dev-perl/Set-Scalar
 	>=dev-perl/Software-License-0.103.8
 	dev-perl/Software-License-CCpack
 	virtual/perl-Text-Balanced
