@@ -15,12 +15,3 @@ dev-perl/Test-TempDir
 <=dev-perl/BerkeleyDB-Manager-0.120.0-r1
 <=dev-perl/Catalyst-Plugin-Session-Store-BerkeleyDB-0.40.0-r2
 <=dev-perl/KiokuDB-Backend-DBI-1.230.0
-
-# Kent Fredric <kentfredric@gmail.com> (03 Jul 2014)
-# Depends on old version of Date-Manip which is no longer available in portage since
-# 11 Jun 2014, and upstream are unresponsive.
-# Presently unresolvable as lots of things need the newer version, which has a new ABI
-# Unmask if upstream fixes Time-Format.
-# Trim these modules from tree if this problem exists after Jul 2015
-<=dev-perl/Time-Format-0.80.0
-<=dev-perl/Weather-Com-2.0.0
