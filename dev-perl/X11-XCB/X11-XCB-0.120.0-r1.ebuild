@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -21,7 +21,6 @@ RDEPEND_XS="
 	>=x11-libs/libxcb-1.2
 	x11-libs/xcb-util
 "
-# ExtUtils::PkgConfig -> extutils-pkgconfig
 RDEPEND="
 	dev-perl/Mouse
 	dev-perl/MouseX-NativeTraits
@@ -38,7 +37,7 @@ DEPEND="
 	dev-perl/XML-Descent
 	dev-perl/XML-Simple
 	dev-perl/XS-Object-Magic
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 	test? (
 		dev-perl/Test-Deep
 		dev-perl/Test-Exception
