@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -18,13 +18,12 @@ SRC_TEST="do"
 IUSE="test"
 # IO::Socket, IO::Socket::iINET -> IO
 # POE::Driver::SysRW, POE::Wheel::ReadWrite, POE::Wheel::SocketFactory -> POE
-# Time::ParseDate -> Time-modules
 RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-IO
 	>=dev-perl/POE-0.240.0
 	dev-perl/Params-Validate
-	dev-perl/Time-modules
+	dev-perl/Time-ParseDate
 	>=dev-lang/perl-5.6.1
 "
 DEPEND="${RDEPEND}
