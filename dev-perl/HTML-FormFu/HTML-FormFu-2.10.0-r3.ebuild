@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -63,7 +63,7 @@ RDEPEND="
 	dev-perl/Task-Weaken
 	>=dev-perl/YAML-LibYAML-0.320.0
 	virtual/perl-autodie
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
