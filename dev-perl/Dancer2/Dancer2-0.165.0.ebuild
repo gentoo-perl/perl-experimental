@@ -54,6 +54,6 @@ DEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.920.0
-	>=dev-perl/yaml-0.860.0
+	>=dev-perl/YAML-0.860.0
 	>=dev-perl/File-ShareDir-Install-0.60.0
 "

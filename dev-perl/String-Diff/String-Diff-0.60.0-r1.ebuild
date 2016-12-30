@@ -19,6 +19,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.360.0
 	dev-perl/Test-Base
 	virtual/perl-Test-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 "
 SRC_TEST="do"

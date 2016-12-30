@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 EAPI=5
@@ -11,13 +11,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="test"
 
-# Time::ParseDate -> Time-modules
 RDEPEND="
 	dev-perl/Date-Tiny
 	dev-perl/DateTime
 	dev-perl/DateTime-Tiny
 	dev-perl/Time-Tiny
-	dev-perl/Time-modules
+	dev-perl/Time-ParseDate
 "
 DEPEND="
 	${RDEPEND}

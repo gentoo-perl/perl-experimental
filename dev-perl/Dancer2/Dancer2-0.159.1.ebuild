@@ -100,7 +100,7 @@ perl_meta_runtime() {
 	# URI
 	echo dev-perl/URI
 	# YAML
-	echo dev-perl/yaml
+	echo dev-perl/YAML
 	# parent
 	echo virtual/perl-parent
 	# perl 5.006 ( 5.6.0 )
@@ -134,7 +134,7 @@ perl_meta_test() {
 	# Test::More 0.92 ( 0.920.0 )
 	echo \>=virtual/perl-Test-Simple-0.920.0
 	# YAML
-	echo dev-perl/yaml
+	echo dev-perl/YAML
 	# lib
 	# echo virtual/perl-lib
 	# utf8

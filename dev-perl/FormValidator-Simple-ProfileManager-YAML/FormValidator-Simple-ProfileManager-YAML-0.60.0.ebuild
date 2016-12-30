@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-RDEPEND=">=dev-perl/yaml-0.580.0"
+RDEPEND=">=dev-perl/YAML-0.580.0"
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	test? ( >=virtual/perl-Test-Simple-0.320.0 )"

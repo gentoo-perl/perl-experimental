@@ -47,7 +47,7 @@ perl_meta_runtime() {
 	# XML::XPathEngine 0.08 ( 0.80.0 )
 	echo \>=dev-perl/XML-XPathEngine-0.80.0
 	# YAML
-	echo dev-perl/yaml
+	echo dev-perl/YAML
 	# perl v5.8.1 ( 5.8.1 )
 	echo \>=dev-lang/perl-5.8.1
 }

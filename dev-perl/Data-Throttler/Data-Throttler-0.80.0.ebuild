@@ -17,7 +17,7 @@ IUSE=""
 # YAML -> yaml
 RDEPEND="dev-perl/Set-IntSpan
 	>=dev-perl/Log-Log4perl-1.0.0
-	>=dev-perl/yaml-0.620.0
+	>=dev-perl/YAML-0.620.0
 "
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
