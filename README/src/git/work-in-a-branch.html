@@ -3,23 +3,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
-<meta name="generator" content="AsciiDoc 8.6.7"/>
+<meta name="generator" content="AsciiDoc 8.6.9"/>
 <title>Work In A Branch</title>
 <style type="text/css">
 /*<![CDATA[*/
-/*
-  pygmentize filter
-*/
 .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f4f4f4; }
-.highlight .c { color: #008800; font-style: italic } /* Comment */
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { color: #AA22FF; font-weight: bold } /* Keyword */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
 .highlight .o { color: #666666 } /* Operator */
-.highlight .cm { color: #008800; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #008800 } /* Comment.Preproc */
-.highlight .c1 { color: #008800; font-style: italic } /* Comment.Single */
-.highlight .cs { color: #008800; font-weight: bold } /* Comment.Special */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #A00000 } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gr { color: #FF0000 } /* Generic.Error */
@@ -30,49 +27,48 @@
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
 .highlight .gt { color: #0040D0 } /* Generic.Traceback */
-.highlight .kc { color: #AA22FF; font-weight: bold } /* Keyword.Constant */
-.highlight .kd { color: #AA22FF; font-weight: bold } /* Keyword.Declaration */
-.highlight .kn { color: #AA22FF; font-weight: bold } /* Keyword.Namespace */
-.highlight .kp { color: #AA22FF } /* Keyword.Pseudo */
-.highlight .kr { color: #AA22FF; font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #00BB00; font-weight: bold } /* Keyword.Type */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
 .highlight .m { color: #666666 } /* Literal.Number */
-.highlight .s { color: #BB4444 } /* Literal.String */
-.highlight .na { color: #BB4444 } /* Name.Attribute */
-.highlight .nb { color: #AA22FF } /* Name.Builtin */
-.highlight .nc { color: #0000FF } /* Name.Class */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
 .highlight .no { color: #880000 } /* Name.Constant */
 .highlight .nd { color: #AA22FF } /* Name.Decorator */
 .highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
 .highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #00A000 } /* Name.Function */
+.highlight .nf { color: #0000FF } /* Name.Function */
 .highlight .nl { color: #A0A000 } /* Name.Label */
 .highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
 .highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
-.highlight .nv { color: #B8860B } /* Name.Variable */
+.highlight .nv { color: #19177C } /* Name.Variable */
 .highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
 .highlight .mf { color: #666666 } /* Literal.Number.Float */
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
 .highlight .mo { color: #666666 } /* Literal.Number.Oct */
-.highlight .sb { color: #BB4444 } /* Literal.String.Backtick */
-.highlight .sc { color: #BB4444 } /* Literal.String.Char */
-.highlight .sd { color: #BB4444; font-style: italic } /* Literal.String.Doc */
-.highlight .s2 { color: #BB4444 } /* Literal.String.Double */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
 .highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-.highlight .sh { color: #BB4444 } /* Literal.String.Heredoc */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
 .highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
 .highlight .sx { color: #008000 } /* Literal.String.Other */
 .highlight .sr { color: #BB6688 } /* Literal.String.Regex */
-.highlight .s1 { color: #BB4444 } /* Literal.String.Single */
-.highlight .ss { color: #B8860B } /* Literal.String.Symbol */
-.highlight .bp { color: #AA22FF } /* Name.Builtin.Pseudo */
-.highlight .vc { color: #B8860B } /* Name.Variable.Class */
-.highlight .vg { color: #B8860B } /* Name.Variable.Global */
-.highlight .vi { color: #B8860B } /* Name.Variable.Instance */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-
 /*]]>*/
 </style>
 <script type="text/javascript">
@@ -99,48 +95,48 @@ master, and work on multiple subjects simultaneously without any conflicts,
 and without being forced to perform a merge/rebase as soon as changes occur
 upstream.</p></div>
 <div class="listingblock">
-<div class="content"><div class="highlight"><pre>  git checkout master
-  <span class="c"># create a new branch to work in.</span>
+<div class="content"><div class="highlight"><pre><span/>  git checkout master
+  <span class="c1"># create a new branch to work in.</span>
   git checkout -b updates
-  <span class="c"># hack on updates.</span>
-  <span class="c"># commit changes to update branch</span>
+  <span class="c1"># hack on updates.</span>
+  <span class="c1"># commit changes to update branch</span>
   git commit -m <span class="s2">"Some message"</span>
-  <span class="c"># return to master</span>
+  <span class="c1"># return to master</span>
   git checkout master
-  <span class="c"># update master from upstream</span>
+  <span class="c1"># update master from upstream</span>
   git pull -u -v
 
-  <span class="c"># create another branch from master for a quick-fix</span>
+  <span class="c1"># create another branch from master for a quick-fix</span>
   git checkout -b quickfix
-  <span class="c"># hack on quick fix</span>
-  <span class="c"># commit change to quick fix branch</span>
+  <span class="c1"># hack on quick fix</span>
+  <span class="c1"># commit change to quick fix branch</span>
   git commit -m <span class="s2">"Emergency Commit set"</span>
-  <span class="c"># return to master</span>
+  <span class="c1"># return to master</span>
   git checkout master
-  <span class="c"># check for changes from upstream.</span>
+  <span class="c1"># check for changes from upstream.</span>
   git pull -u -v
-  <span class="c"># Damn, updates happened.</span>
+  <span class="c1"># Damn, updates happened.</span>
   git checkout quickfix
-  <span class="c"># rebase quickfix on top of master</span>
+  <span class="c1"># rebase quickfix on top of master</span>
   git rebase -i master
   git checkout master
-  <span class="c"># check again for upstream changes</span>
+  <span class="c1"># check again for upstream changes</span>
   git pull -u -v
-  <span class="c"># Yay, no upstream changes, time to publish the changes in quickfix</span>
-  <span class="c"># --ff-only is good to prevent anarchy</span>
+  <span class="c1"># Yay, no upstream changes, time to publish the changes in quickfix</span>
+  <span class="c1"># --ff-only is good to prevent anarchy</span>
   git merge --ff-only quickfix
   git push upstream master
   git branch -d quickfix
 
-  <span class="c"># return to work on updates</span>
+  <span class="c1"># return to work on updates</span>
   git checkout updates
-  <span class="c"># move updates to be after master before continuing to hack</span>
+  <span class="c1"># move updates to be after master before continuing to hack</span>
   git rebase -i master
-  <span class="c"># more hacking on updates</span>
+  <span class="c1"># more hacking on updates</span>
   git checkout master
-  <span class="c"># check for upstream changes</span>
+  <span class="c1"># check for upstream changes</span>
   git pull -u -v
-  <span class="c"># Yay, no upstream changes!</span>
+  <span class="c1"># Yay, no upstream changes!</span>
   git merge --ff-only updates
   git push upstream master
 </pre></div></div></div>
@@ -150,7 +146,7 @@ upstream.</p></div>
 <div id="footnotes"><hr/></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2012-04-02 04:30:04 NZST
+Last updated 2014-10-05 08:30:59 NZDT
 </div>
 <div id="footer-badges">
 <a href="http://validator.w3.org/check?uri=referer">
