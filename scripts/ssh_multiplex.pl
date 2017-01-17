@@ -38,9 +38,9 @@ spawn_cmd(
   {
     pids    => \@pids,
     params  => [qw( background no_execute_command no_stdin control_master )],
-    connect => 'git@git.overlays.gentoo.org',
+    connect => 'git@git.gentoo.org',
     cleanup => sub {
-      say "\e[32mConnected to git\@git.overlays.gentoo.org\e[0m";
+      say "\e[32mConnected to git\@git.gentoo.org\e[0m";
     },
   }
 );
