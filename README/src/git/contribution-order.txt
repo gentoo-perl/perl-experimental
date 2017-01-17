@@ -6,7 +6,7 @@ Contributions are recommended to be performed in the following order:
   1. Progress your patch sequence locally.
   2. *(optional)* push your patch sequence to your personal public repository
   3. Push your patch sequence to xref:repositories-github[Github].
-  4. Push your patch sequence to xref:repositories-gogo[git.overlays.gentoo.org].
+  4. Push your patch sequence to xref:repositories-ggo[git.gentoo.org].
 
 This order will hopefully reduce the amount of push collisions encountered,
 which will make all our lives easier =).

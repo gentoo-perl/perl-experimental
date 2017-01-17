@@ -17,5 +17,5 @@ Source-Control
 --------------
 
 Overlays for Gentoo can be found on xref:repositories-github[Github] and
-xref:repositories-gogo[the Gentoo Overlays website]. 
+xref:repositories-ggo[the Gentoo Overlays website].
 

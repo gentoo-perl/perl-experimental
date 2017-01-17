@@ -4,7 +4,7 @@ Repositories
 
 At the time of this writing, there are several repositories. 
 
-[[repositories-gogo]]
+[[repositories-ggo]]
 Git.Overlays.Gentoo.org
 -----------------------
 
@@ -12,12 +12,12 @@ Few people with commit rights.
 Does not broadcast pushes to IRC.
 
 ReadOnly(git)::
-  `git://git.overlays.gentoo.org/proj/perl-overlay.git`
+  `git://anongit.gentoo.org/proj/perl-overlay.git`
 
 ReadOnly(http)::
-  `http://git.overlays.gentoo.org/gitroot/proj/perl-overlay.git`
+  `http://anongit.gentoo.org/git/proj/perl-overlay.git`
 ReadWrite::
-  `git+ssh://git@git.overlays.gentoo.org/proj/perl-overlay`
+  `git+ssh://git@git.gentoo.org/proj/perl-overlay`
 
 [[repositories-github]]
 Github

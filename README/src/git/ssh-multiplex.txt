@@ -84,7 +84,7 @@ With ControlMaster, you set up a long-lived SSH connection.
 [source,bash]
 ------
 > ssh -fNn git@github.com
-> ssh -fNn git@git.overlays.gentoo.org
+> ssh -fNn git@git.gentoo.org
 ------
 
 And we're truely really to start cooking with petrol.
