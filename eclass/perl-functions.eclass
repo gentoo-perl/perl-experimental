@@ -433,3 +433,36 @@ perl_doexamples() {
 
 	# is there a way to undo "docinto" ?
 }
+
+# @FUNCTION: perl_has_module
+# @USAGE: <module name>
+# @RETURN: 0 if available, non-zero otherwise
+# @DESCRIPTION:
+# Query the installed system Perl to see if a given module is installed.
+# This does **not** load the module in question, only anticipates if it *might* load.
+#
+# This is primarily for the purposes of dependency weakening so that conditional
+# behaviour can be triggered without adding dependencies to portage which would confuse
+# a dependency resolver.
+#
+# returns 'true' if the module is available, returns error if the module is not available
+#
+# Example:
+# @CODE
+# perl_has_module "Test::Tester" && echo "Test::Tester installed"
+# @CODE
+
+perl_has_module() {
+	debug-print-function $FUNCNAME "$@"
+
+	[[ $# -gt 0 ]] || die "${FUNCNAME}: No module name provided"
+	[[ $# -lt 2 ]] || die "${FUNCNAME}: Too many parameters ($#)"
+
+	perl -we 'my $mn = $ARGV[0];
+		$mn =~ s{(::|\x{27})}{/}g;
+		for(@INC){
+			next if ref $_;
+			exit 0 if -r $_ . q[/] . $mn . q[.pm]
+		}
+		exit 1' "$@";
+}
