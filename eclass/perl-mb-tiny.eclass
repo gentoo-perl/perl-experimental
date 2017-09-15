@@ -1,6 +1,5 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/eclass/perl-module.eclass,v 1.134 2012/09/15 16:16:53 zmedico Exp $
 
 # @ECLASS: perl-mb-tiny.eclass
 # @MAINTAINER:
