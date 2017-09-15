@@ -564,3 +564,26 @@ perl_get_module_version() {
 		print ${$stash->{VERSION}};
 		exit 0; ' "$@"
 }
+
+# @FUNCTION: perl_get_raw_vendorlib
+# @DESCRIPTION:
+# Convenience function to optimise for a common case without double-handling
+# variables everywhere.
+#
+# Note: Will include EPREFIX where relevant
+#
+# Example:
+# @CODE
+# my_raw_vendorlib="$(perl_get_raw_vendorlib)"
+# @CODE
+
+perl_get_raw_vendorlib() {
+	debug-print-function $FUNCNAME "$@"
+
+	[[ $# -lt 1 ]] || die "${FUNCNAME}: Too many parameters ($#)"
+
+	perl -MConfig \
+		-e'exists $Config{$ARGV[0]} || die qq{No such Config key "$ARGV[0]"};
+		   print $Config{$ARGV[0]};
+		   exit 0' -- "installvendorlib" || die "Can't extract installvendorlib from Perl Configuration"
+}
