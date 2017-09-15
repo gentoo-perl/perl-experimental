@@ -228,6 +228,7 @@ perl-module_src_configure() {
 	fi
 	SRC_PREP="yes"
 
+	perl_check_eapi
 	perl_check_env
 
 	perl_set_version
