@@ -466,3 +466,42 @@ perl_has_module() {
 		}
 		exit 1' "$@";
 }
+
+# @FUNCTION: perl_has_module_version
+# @USAGE: <module name> <minimum upstream version>
+# @RETURN: 0 if satisfied, non-zero otherwise
+# @DESCRIPTION:
+# Query the installed system Perl to see if a given module is installed
+# and is at least a given version.
+#
+# This requires more caution to use than perl_has_module as it requires
+# loading the module in question to determine version compatibility,
+# which can be SLOW, and can have side effects (ie: compilation fails in
+# require due to some dependency, resulting in a "Fail")
+#
+# Also take care to note the module version is a *minimum*, *must* be
+# written in upstream versions format and should be a a legal upstream version
+#
+# returns a true exit code if the module is both available and is at least
+# the specified version
+#
+# Example:
+# @CODE
+# perl_has_module_version "Test::Tester" "0.017" \
+#	&& echo "Test::Tester 0.017 or greater installed"
+# @CODE
+perl_has_module_version() {
+	debug-print-function $FUNCNAME "$@"
+
+	[[ $# -gt 0 ]] || die "${FUNCNAME}: No module name provided"
+	[[ $# -gt 1 ]] || die "${FUNCNAME}: No module version provided"
+	[[ $# -lt 3 ]] || die "${FUNCNAME}: Too many parameters ($#)"
+
+	perl -we 'my $mn = $ARGV[0];
+		$mn =~ s{(::|\x{27})}{/}g;
+		exit ( eval {
+			require qq[${mn}.pm];
+			$ARGV[0]->VERSION($ARGV[1]);
+			1
+		} ? 0 : 1 )' "$@"
+}
