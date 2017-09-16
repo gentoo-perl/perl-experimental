@@ -280,43 +280,27 @@ perl_link_duallife_scripts() {
 		return 0
 	fi
 
-	local i ff execdir mandir
-
-	execdir="usr/share/perl-${P}/bin"
-	mandir="usr/share/perl-${P}/man/man1"
-
+	local i ff
 	if has "${EBUILD_PHASE:-none}" "postinst" "postrm" ; then
 		for i in "${DUALLIFESCRIPTS[@]}" ; do
-			alternatives_auto_makesym "/${i}-${PV}"	"${EROOT}${execdir}/${i##*/}"
 			alternatives_auto_makesym "/${i}" "/${i}-[0-9]*"
 		done
 		for i in "${DUALLIFEMAN[@]}" ; do
-			# Expand $i to a full path as it was installed,
-			# which may add .gz or whatever to the end during compress.
-			# then boil it till you just get ".gz"
-			ff="${EROOT}${mandir}/${i##*/}";
-			ff=$( echo ${ff%.1}.1* );
+			ff=`echo "${EROOT}"/${i%.1}-${PV}-${P}.1*`
 			ff=${ff##*.1}
-			alternatives_auto_makesym "/${i%.1}-${PV}.1${ff}" "${EROOT}${mandir}/${i##*/}${ff}"
-			alternatives_auto_makesym "/${i}${ff}" "/${i%.1}-[0-9]*.1${ff}"
+			alternatives_auto_makesym "/${i}${ff}" "/${i%.1}-[0-9]*"
 		done
 	else
 		pushd "${ED}" > /dev/null
 		for i in $(find usr/bin -maxdepth 1 -type f 2>/dev/null) ; do
-			mkdir -p "${D}/${execdir}" || die
-			mv ${i} "${D}/${execdir}/${i##*/}" || die
+			mv ${i}{,-${PV}-${P}} || die
 			#DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i##*/}
 			DUALLIFESCRIPTS[${#DUALLIFESCRIPTS[*]}]=${i}
 		done
 		for i in $(find usr/share/man/man1 -maxdepth 1 -type f 2>/dev/null) ; do
-			mkdir -p "${D}/${mandir}" || die
-			mv ${i} "${D}/${mandir}/${i##*/}" || die
+			mv ${i} ${i%.1}-${PV}-${P}.1 || die
 			DUALLIFEMAN[${#DUALLIFEMAN[*]}]=${i}
 		done
-
-		einfo "Cleaning empty directories"
-		perl_trim_empty_dirs "${EROOT}/usr/bin"
-
 		popd > /dev/null
 	fi
 }
