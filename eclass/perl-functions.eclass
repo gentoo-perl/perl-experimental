@@ -827,3 +827,38 @@ _perl_get_test_opts_eapi6() {
 	printf "\n"
 	return
 }
+
+# @FUNCTION: perl_get_test_opts
+# @DESCRIPTION:
+# Decodes a dizzying collection of options and returns a list of flags
+# Returns a list of the following possible strings
+# 	skip  		: tests should be skipped
+# 	test		: tests should run
+#	parallel	: tests should run in parallel
+# 	verbose		: tests should be run verbosely
+#	network		: network tests should run
+#
+# On first invocation, any atypical configurations will be ewarn'd about
+# and then cached in perl_test_opts
+#
+# @CODE
+# local opts="$(perl_get_test_opts)"
+# if has verbose ${opts}; then
+#     ...
+# fi
+# if has network ${opts}; then
+#     ...
+# fi
+# @CODE
+perl_get_test_opts() {
+	debug-print-function $FUNCNAME "$@"
+
+	if [[ ! -v _perl_test_opts ]]; then
+		if [[ ${EAPI:-0} == 5 ]]; then
+			_perl_test_opts="$(_perl_get_test_opts_eapi5)"
+		else
+			_perl_test_opts="$(_perl_get_test_opts_eapi6)"
+		fi
+	fi
+	echo "${_perl_test_opts}"
+}
