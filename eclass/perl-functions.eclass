@@ -783,3 +783,47 @@ _perl_get_test_opts_eapi5() {
 	return
 }
 
+# Internal: EAPI6 Implementation of probe, mostly the same mechanics
+# as ::gentoo, with exception of explicit fail for network-required
+_perl_get_test_opts_eapi6() {
+	local can_test=1
+	local is_parallel=1
+	local is_verbose=0
+	local is_network=0
+	local my_test_control
+	debug-print-function $FUNCNAME "$@"
+
+	[[ -n "${DIST_TEST_OVERRIDE}" ]] && ewarn DIST_TEST_OVERRIDE is set to ${DIST_TEST_OVERRIDE}
+	my_test_control="${DIST_TEST_OVERRIDE:-${DIST_TEST:-do parallel}}"
+
+	if ! has 'do' ${my_test_control} && ! has 'parallel' ${my_test_control}; then
+		ewarn "Skipping tests due to DIST_TEST=${my_test_control}"
+		can_test=0
+	elif has 'network-required' ${my_test_control}; then
+		#  "do parallel network-required" -> Bail still , but please just write "network-required"
+		#  for compat with ::gentoo
+		ewarn "Skipping tests due to DIST_TEST=${my_test_control}"
+		can_test=0
+	else
+		if ! has 'parallel' ${my_test_control}; then
+			is_parallel=0
+		fi
+		if has 'verbose' ${my_test_control}; then
+			is_verbose=1
+		fi
+		if has 'network' ${my_test_control}; then
+			ewarn "Network tests enabled due to DIST_TEST=${my_test_control}"
+			is_network=1
+		fi
+	fi
+	if [[ ${can_test} == 0 ]]; then
+		printf "skip\n"
+		return
+	fi
+	printf "test "
+	[[ ${is_parallel} == 1 ]] && printf "parallel "
+	[[ ${is_verbose}  == 1 ]] && printf "verbose "
+	[[ ${is_network}  == 1 ]] && printf "network "
+	printf "\n"
+	return
+}
