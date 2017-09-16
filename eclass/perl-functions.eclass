@@ -740,3 +740,46 @@ perl_check_eapi() {
 	eerror "Your ebuild/env contains eclass variables that are known invalid/legacy and indicate author oversight."
 	die "Please file a bug for this ebuild as per above details."
 }
+
+# Internal: this is specific to EAPI5 on the overlay
+_perl_get_test_opts_eapi5() {
+	local can_test=1
+	local is_parallel=1
+	local is_verbose=0
+	local is_network=1
+	debug-print-function $FUNCNAME "$@"
+
+	if has 'parallel-test' ${USER_PERL_RESTRICT}; then
+		ewarn "Parallel tests disabled via USER_PERL_RESTRICT=parallel-test"
+		is_parallel=0
+	elif ! has "${TEST_VERBOSE:-0}" 0; then
+		ewarn "Parallel tests disabled via TEST_VERBOSE=1"
+		ewarn "Verbose tests enabled via TEST_VERBOSE=1"
+		is_verbose=1
+		is_parallel=0
+	elif has 'parallel-test' ${PERL_RESTRICT}; then
+		ewarn "Parallel tests disabled via PERL_RESTRICT=parallel-test"
+		is_parallel=0
+	fi
+
+	if has 'network-test' ${USER_PERL_RESTRICT} && has 'network-test' ${PERL_RESTRICT}; then
+		ewarn "Tests disabled via USER_PERL_RESTRICT & PERL_RESTRICT = network-test"
+		can_test=0
+	elif has 'network-test' ${USER_PERL_RESTRICT}; then
+		ewarn "Network tests disabled via USER_PERL_RESTRICT=network-test"
+		is_network=0
+	fi
+
+	if [[ ${can_test} == 0 ]]; then
+		printf "skip\n"
+		return;
+	fi
+
+	printf "test "
+	[[ ${is_parallel} == 1 ]] && printf "parallel "
+	[[ ${is_verbose}  == 1 ]] && printf "verbose "
+	[[ ${is_network}  == 1 ]] && printf "network "
+	printf "\n"
+	return
+}
+
