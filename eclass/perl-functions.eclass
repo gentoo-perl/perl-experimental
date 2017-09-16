@@ -57,7 +57,7 @@ perl_diagnostics() {
 	eerror
 }
 
-perl_check_module_version() {
+_perl_check_module_version_eapi5() {
 	local REAL_PV
 	local gpmv="$(type -p gentoo-perlmod-version.pl)"
 	[[ -n ${MODULE_VERSION} && -n ${gpmv} && -x ${gpmv} ]] || return
@@ -69,6 +69,26 @@ perl_check_module_version() {
 	fi
 }
 
+_perl_check_module_version_eapi6() {
+	local REAL_PV
+	local gpmv="$(type -p gentoo-perlmod-version.pl)"
+	[[ -n ${DIST_VERSION} && -n ${gpmv} && -x ${gpmv} ]] || return
+	REAL_PV=$( ${gpmv} --oneshot "${DIST_VERSION}" )
+	if [[ -n ${REAL_PV} && ${REAL_PV} != ${PV} ]] ; then
+		eqawarn "QA Notice: Based on DIST_VERSION=${DIST_VERSION} the ebuild version ${PV} is wrong!"
+		eqawarn "           The ebuild version should be ${REAL_PV}"
+		perl_qafatal "version" "${REAL_PV} != ${PV}"
+	fi
+}
+
+perl_check_module_version() {
+	debug-print-function $FUNCNAME "$@"
+	if [[ ${EAPI:-0} == 5 ]]; then
+		_perl_check_module_version_eapi5
+		return
+	fi
+	_perl_check_module_version_eapi6
+}
 perlinfo_done=false
 
 # @FUNCTION: perl_set_version
