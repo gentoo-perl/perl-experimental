@@ -862,3 +862,30 @@ perl_get_test_opts() {
 	fi
 	echo "${_perl_test_opts}"
 }
+
+# @FUNCTION: perl_has_test_opt
+# @USAGE: <option name>
+# @DESCRIPTION:
+# Compute if a given test flag is enabled by computing a bunch of environment values
+#
+# See perl_get_test_opts for the various values and meanings
+#
+# @CODE
+# src_test() {
+#  if ! perl_has_test_opt network; then
+#     ...
+#  fi
+#  perl-module_src_test
+# }
+# @CODE
+perl_has_test_opt() {
+	debug-print-function $FUNCNAME "$@"
+	if [[ ! -v _perl_test_opts ]]; then
+		if [[ ${EAPI:-0} == 5 ]]; then
+			_perl_test_opts="$(_perl_get_test_opts_eapi5)"
+		else
+			_perl_test_opts="$(_perl_get_test_opts_eapi6)"
+		fi
+	fi
+	has "$1" ${_perl_test_opts}
+}
