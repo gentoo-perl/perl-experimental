@@ -316,7 +316,8 @@ perl-module_src_compile() {
 	fi
 }
 
-# Starting 2014-10-12:
+# Historical notes for EAPI5 only on perl-experimental
+# Starting 2014-10-12
 #
 # AUTHORS:
 #
@@ -344,51 +345,59 @@ perl-module_src_compile() {
 # SRC_TEST:
 #        No longer used and completely ignored
 
+# @ECLASS-VARIABLE: DIST_TEST
+# @DESCRIPTION:
+# (EAPI=6) Variable that controls if tests are run in the test phase
+# at all, and if yes under which conditions. Defaults to "do parallel"
+# If neither "do" nor "parallel" is recognized, tests are skipped.
+# (In EAPI=5 the variable is called SRC_TEST, defaults to "skip", and
+# recognizes fewer options.)
+# The following space-separated keywords are recognized:
+#   do       : run tests
+#   parallel : run tests in parallel
+#   verbose  : increase test verbosity
+#   network  : do not try to disable network tests
+
+# @ECLASS-VARIABLE: DIST_TEST_OVERRIDE
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# (EAPI=6) Variable that controls if tests are run in the test phase
+# at all, and if yes under which conditions. It is intended for use in
+# make.conf or the environment by ebuild authors during testing, and
+# accepts the same values as DIST_TEST. If set, it overrides DIST_TEST
+# completely. DO NOT USE THIS IN EBUILDS!
+
+# @FUNCTION: perl-module_src-test
+# @DESCRIPTION:
+# This code attempts to work out your threadingness and runs tests
+# according to the settings of DIST_TEST using Test::Harness.
 perl-module_src_test() {
 	debug-print-function $FUNCNAME "$@"
+	local my_test_verbose=0
 
-	# Turn it off globally per user choice.
-	if has 'parallel-test' ${USER_PERL_RESTRICT}; then
-		einfo "Disabling Parallel Testing: USER_PERL_RESTRICT=parallel-test";
-		export HARNESS_OPTIONS="";
 
-	# If user has TEST_VERBOSE globally, disable parallelism because verboseness
-	# can break parallel testing.
-	elif ! has "${TEST_VERBOSE:-0}" 0; then
-		einfo "Disabling Parallel Testing: TEST_VERBOSE=${TEST_VERBOSE}";
-		export HARNESS_OPTIONS="";
-
-	# If ebuild says parallel tests dont work, turn them off.
-	elif has 'parallel-test' ${PERL_RESTRICT}; then
-		einfo "Disabling Parallel Testing: PERL_RESTRICT=parallel-test";
-		export HARNESS_OPTIONS="";
-	else
-		# Default is on.
-		einfo "Test::Harness Jobs=$(makeopts_jobs)"
-		export HARNESS_OPTIONS=j$(makeopts_jobs)
+	if perl_has_test_opt skip; then
+		return;
 	fi
 
-	# If a user says "USER_PERL_RESTRICT=network-test",
-	# then assume many CPAN dists will respect NO_NETWORK_TESTING and friends
-	# even if Gentoo haven't made the entire dist "no network testing"
-	if has 'network-test' ${USER_PERL_RESTRICT}; then
+	perl_has_test_opt verbose && my_test_verbose=1
+
+	if perl_has_test_opt parallel; then
+		einfo "Test::Harness Jobs=$(makeopts_jobs)"
+		export HARNESS_OPTIONS=j$(makeopts_jobs)
+	else
+		export HARNESS_OPTIONS=""
+	fi
+
+	if ! perl_has_test_opt network; then
 		export NO_NETWORK_TESTING=1
 	fi
 
-	# However, if CPAN don't auto trigger on the above, Gentoo
-	# Can still disable them package wide with PERL_RESTRICT=network-test
-	# But they'll run by default unless USER_PERL_RESTRICT=network-test
-	if has 'network-test' ${USER_PERL_RESTRICT} && has 'network-test' ${PERL_RESTRICT}; then
-		einfo "Skipping Tests: USER_PERL_RESTRICT=network-test && PERL_RESTRICT=network-test";
-		return true;
-	fi
-
-	${perlinfo_done} || perl_set_version
-
+	perl_set_version
 	if [[ -f Build ]] ; then
-		./Build test verbose=${TEST_VERBOSE:-0} || die "test failed"
+		./Build test verbose=${my_test_verbose} || die "test failed"
 	elif [[ -f Makefile ]] ; then
-		emake test TEST_VERBOSE=${TEST_VERBOSE:-0} || die "test failed"
+		emake test TEST_VERBOSE=${my_test_verbose} || die "test failed"
 	fi
 }
 
