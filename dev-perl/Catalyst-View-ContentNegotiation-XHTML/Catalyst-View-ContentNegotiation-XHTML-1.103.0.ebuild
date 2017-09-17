@@ -1,11 +1,12 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=BOBTFISH
 MODULE_VERSION=1.103
 inherit perl-module
 
-DESCRIPTION="Adjusts the response Content-Type header to application/xhtml+xml if the browser accepts it."
+DESCRIPTION="Support dispatching Content-Type: application/xhtml+xml when requested."
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
