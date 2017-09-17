@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -26,6 +26,6 @@ DEPEND="
 	test? (
 		virtual/perl-File-Spec
 		virtual/perl-File-Temp
-		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-Tester )
+		>=virtual/perl-Test-Simple-1.1.10
 	)
 "
