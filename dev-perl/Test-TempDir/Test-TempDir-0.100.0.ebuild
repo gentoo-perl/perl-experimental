@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -37,8 +37,7 @@ DEPEND="${DEPEND}
 		)
 		virtual/perl-ExtUtils-MakeMaker
 		>=virtual/perl-File-Path-2.40.0
-		>=virtual/perl-Test-Simple-0.880.0
 		dev-perl/Test-Requires
-		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+		>=virtual/perl-Test-Simple-1.1.10
 	)
 "
