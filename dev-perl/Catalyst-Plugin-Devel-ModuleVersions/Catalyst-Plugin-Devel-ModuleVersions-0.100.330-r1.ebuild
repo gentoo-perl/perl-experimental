@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -29,8 +29,7 @@ DEPEND="${RDEPEND}
 		virtual/perl-Getopt-Long
 		virtual/perl-Pod-Usage
 		dev-perl/Test-MockObject
-		virtual/perl-Test-Simple
-		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+		>=virtual/perl-Test-Simple-1.1.10
 		dev-perl/Test-WWW-Mechanize-Catalyst
 	)
 "
