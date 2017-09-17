@@ -1,12 +1,13 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=DROLSKY
 MODULE_VERSION=1.03
 
 inherit perl-module
 
-DESCRIPTION="Policies for Perl::Critic concerned with using Moose, the \"post-modern\" object system for Perl."
+DESCRIPTION="Policies for Perl::Critic concerned with using the Moose object system"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
