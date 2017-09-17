@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -36,7 +36,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310.0
 	test? (
-		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
-		virtual/perl-Test-Simple
+		>=virtual/perl-Test-Simple-1.1.10
 	)
 "
