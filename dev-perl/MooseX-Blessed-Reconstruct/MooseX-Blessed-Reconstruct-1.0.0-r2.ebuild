@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -25,13 +25,12 @@ RDEPEND="
 	>=dev-perl/Data-Visitor-0.210.0
 	virtual/perl-Scalar-List-Utils
 	dev-perl/namespace-clean
-	|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+	>=virtual/perl-Test-Simple-1.1.10
 "
 DEPEND="${RDEPEND}
 	>=dev-perl/Module-Build-0.280.0
 	test? (
 		virtual/perl-File-Spec
 		virtual/perl-IO
-		>=virtual/perl-Test-Simple-0.880.0
 	)
 "
