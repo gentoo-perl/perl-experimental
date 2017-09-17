@@ -1,13 +1,13 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_VERSION="1.002000"
 MODULE_AUTHOR=HKCLARK
 
 inherit perl-module
 
-DESCRIPTION="Handle passing of status (success and error) messages between screens of a web application."
-
+DESCRIPTION="Inter-page status-message passing for web apps"
 IUSE="test"
 
 SLOT="0"
