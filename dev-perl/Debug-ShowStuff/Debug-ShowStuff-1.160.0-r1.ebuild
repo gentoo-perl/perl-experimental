@@ -1,11 +1,12 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=MIKO
 MODULE_VERSION=1.16
 inherit perl-module
 
-DESCRIPTION='A  debugging routine collection for displaying the values of variables with a minimum of coding.'
+DESCRIPTION="A debugging routines for easy varible display"
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
