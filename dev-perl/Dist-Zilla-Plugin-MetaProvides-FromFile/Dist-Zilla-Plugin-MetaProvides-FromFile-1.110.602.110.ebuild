@@ -1,11 +1,12 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=KENTNL
 MODULE_VERSION=1.11060211
 inherit perl-module
 
-DESCRIPTION='In the event nothing else works, pull in hand-crafted metadata from a specified file.'
+DESCRIPTION="Pull in hand-crafted provides metadata from a specified file"
 LICENSE=" || ( Artistic GPL-2 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
