@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
 	>=dev-perl/Test-TempDir-0.40.0
-	|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+	>=virtual/perl-Test-Simple-1.1.10
 "
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
