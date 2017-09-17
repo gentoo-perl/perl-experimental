@@ -1,5 +1,6 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=BINGOS
 MODULE_VERSION=0.9152
@@ -65,7 +66,7 @@ RDEPEND="selfupgrade? ( ${RDEPEND_selfupgrade} )
 	>=dev-perl/Log-Message-0.10.0
 	>=dev-perl/Module-Pluggable-2.400.0
 	>=dev-perl/Object-Accessor-0.440.0
-	>=virtual/perl-Package-Constants-0.10.0
+	>=dev-perl/Package-Constants-0.10.0
 	>=dev-perl/Term-UI-0.180.0
 "
 DEPEND="${RDEPEND}
