@@ -1,11 +1,12 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=KENTNL
 MODULE_VERSION=2.001000
 inherit perl-module
 
-DESCRIPTION="Scans Dist::Zilla's .pm files and tries to identify classes using Class::Discover."
+DESCRIPTION="Identify classes in Dist::Zilla's .pm files with Class::Discover"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test minimal"
