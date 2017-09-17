@@ -1,5 +1,6 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=ETHER
 MODULE_VERSION=0.17
@@ -30,7 +31,7 @@ DEPEND="
 		virtual/perl-File-Spec
 		virtual/perl-Test-Simple
 		dev-perl/Test-Warn
-		|| ( >=virtual/perl-Test-Simple-1.1.10 dev-perl/Test-use-ok )
+		>=virtual/perl-Test-Simple-1.1.10
 		virtual/perl-if
 	)
 "
