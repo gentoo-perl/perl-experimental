@@ -1,5 +1,6 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 EAPI=5
 MODULE_AUTHOR=NKH
 MODULE_VERSION=0.02
@@ -12,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-perl/Cairo
-	dev-perl/gtk2-perl
+	dev-perl/Gtk2
 	dev-perl/glib-perl
 	>=dev-perl/Data-TreeDumper-0.330.0
 "
