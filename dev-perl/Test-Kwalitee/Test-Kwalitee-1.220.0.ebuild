@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -29,8 +29,7 @@ DEPEND="${RDEPEND}
 		>=dev-perl/CPAN-Meta-Check-0.7.0
 		virtual/perl-CPAN-Meta-Requirements
 		dev-perl/Test-Deep
-		>=virtual/perl-Test-Simple-0.880.0
-		|| ( >=virtual/perl-Test-Simple-1.1.10 >=dev-perl/Test-Tester-0.108.0 )
+		>=virtual/perl-Test-Simple-1.1.10
 		>=dev-perl/Test-Warnings-0.9.0
 		virtual/perl-if
 	)
